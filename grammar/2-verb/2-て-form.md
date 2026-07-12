@@ -42,6 +42,21 @@ This is the part that makes て-form the "hub" — a small set of endings turn i
 - 食べて + しまう → end up eating / eat completely (often regret/completion nuance)
 - 食べて、飲んで、寝た → sequencing actions ("ate, drank, [then] slept")
 
+## てくる / ていく — change over time
+Two more て-form attachments, specifically for describing something unfolding across time rather than a fixed state. Both come from くる (to come) and いく (to go), but used abstractly rather than about physical movement:
+
+**てくる — a change that's been happening up to now, moving toward the present**
+- 天気が良くなってきた。— The weather's been getting better [and continues to now].
+- 日本語が分かるようになってきた。— [I]'ve gradually come to understand Japanese.
+- 雨が降ってきた。— It's started raining. (a change beginning, arriving at the present moment)
+
+**ていく — a change that will continue on from now, moving toward the future**
+- これからも頑張っていきます。— [I]'ll keep doing my best going forward.
+- 少しずつ人口が減っていく。— The population will keep gradually decreasing [from here on].
+- 子供はどんどん大きくなっていく。— Kids just keep growing bigger and bigger [as time goes on].
+
+The core intuition: てくる pulls a trend up to *now* (often from the past), ていく pushes a trend forward from *now* (into the future). Both are common in daily narration about gradual change — weather, feelings, habits, life circumstances — not just literal coming/going.
+
 ## て-form for sequencing vs. simultaneous connecting
 When chaining clauses with て, the actions are read as sequential (and often causally/temporally linked), not just "and":
 
