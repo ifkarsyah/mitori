@@ -3,6 +3,7 @@ import type { FilterFieldConfig } from '@/components/FilterBar'
 import { FilterBar } from '@/components/FilterBar'
 import type { ColumnConfig } from '@/components/GroupedTable'
 import { GroupedTable } from '@/components/GroupedTable'
+import { ColumnVisibilityToggle } from '@/components/ColumnVisibilityToggle'
 import { Badge } from '@/components/ui/badge'
 import type { Kotoba } from './api'
 import {
@@ -36,11 +37,17 @@ const columns: ColumnConfig<Kotoba>[] = [
     sortValue: (row) => row.reading,
   },
   {
-    key: 'jlpt',
-    header: 'JLPT',
-    render: (row) =>
-      row.jlpt ? jlptLabel(row.jlpt) : <span className="text-muted-foreground">—</span>,
-    sortValue: (row) => row.jlpt,
+    key: 'meanings',
+    header: 'Meanings',
+    render: (row) => (
+      <div className="flex flex-wrap gap-1">
+        {(row.meanings ?? []).slice(0, 2).map((meaning) => (
+          <Badge key={meaning} variant="secondary">
+            {meaning}
+          </Badge>
+        ))}
+      </div>
+    ),
   },
   {
     key: 'part_of_speech',
@@ -60,23 +67,17 @@ const columns: ColumnConfig<Kotoba>[] = [
     sortValue: (row) => row.sub_part_of_speech,
   },
   {
+    key: 'jlpt',
+    header: 'JLPT',
+    render: (row) =>
+      row.jlpt ? jlptLabel(row.jlpt) : <span className="text-muted-foreground">—</span>,
+    sortValue: (row) => row.jlpt,
+  },
+  {
     key: 'has_kanji',
     header: 'Kanji?',
     render: (row) => (row.has_kanji ? 'Yes' : 'No'),
     sortValue: (row) => (row.has_kanji ? 1 : 0),
-  },
-  {
-    key: 'meanings',
-    header: 'Meanings',
-    render: (row) => (
-      <div className="flex flex-wrap gap-1">
-        {(row.meanings ?? []).slice(0, 2).map((meaning) => (
-          <Badge key={meaning} variant="secondary">
-            {meaning}
-          </Badge>
-        ))}
-      </div>
-    ),
   },
 ]
 
@@ -102,6 +103,19 @@ export function KotobaExplorer({
   includeContextFilter = true,
 }: KotobaExplorerProps) {
   const [filters, setFilters] = useState<KotobaFilterState>(defaultKotobaFilterState)
+  const [hiddenColumns, setHiddenColumns] = useState<Set<string>>(new Set())
+
+  function toggleColumn(key: string) {
+    setHiddenColumns((prev) => {
+      const next = new Set(prev)
+      if (next.has(key)) {
+        next.delete(key)
+      } else {
+        next.add(key)
+      }
+      return next
+    })
+  }
 
   const contextOptions = useMemo(() => {
     const values = distinctContextIds(words)
@@ -160,6 +174,11 @@ export function KotobaExplorer({
     return groupKotobaBy(filtered, filters.groupBy, contextNameById)
   }, [words, filters, contextNameById])
 
+  const visibleColumns = useMemo(
+    () => columns.filter((c) => !hiddenColumns.has(c.key)),
+    [hiddenColumns],
+  )
+
   return (
     <div className="flex flex-col gap-6">
       <FilterBar
@@ -181,9 +200,15 @@ export function KotobaExplorer({
         onClear={() => setFilters(defaultKotobaFilterState)}
       />
 
+      <ColumnVisibilityToggle
+        columns={columns.filter((c) => c.key !== 'word').map((c) => ({ key: c.key, label: c.header }))}
+        hiddenKeys={hiddenColumns}
+        onToggle={toggleColumn}
+      />
+
       <GroupedTable
         groups={groups}
-        columns={columns}
+        columns={visibleColumns}
         getRowKey={(row) => row.id}
         getRowHref={(row) => `/kotoba/${row.id}`}
         emptyMessage="No kotoba match these filters."

@@ -3,6 +3,7 @@ import type { FilterFieldConfig } from '@/components/FilterBar'
 import { FilterBar } from '@/components/FilterBar'
 import type { ColumnConfig } from '@/components/GroupedTable'
 import { GroupedTable } from '@/components/GroupedTable'
+import { ColumnVisibilityToggle } from '@/components/ColumnVisibilityToggle'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
 import { Badge } from '@/components/ui/badge'
@@ -30,6 +31,19 @@ export function KanjiDashboardPage() {
   const { data, isLoading, isError, error, refetch } = useKanjiList()
   const usageCounts = useKanjiUsageCounts()
   const [filters, setFilters] = useState<KanjiFilterState>(defaultKanjiFilterState)
+  const [hiddenColumns, setHiddenColumns] = useState<Set<string>>(new Set())
+
+  function toggleColumn(key: string) {
+    setHiddenColumns((prev) => {
+      const next = new Set(prev)
+      if (next.has(key)) {
+        next.delete(key)
+      } else {
+        next.add(key)
+      }
+      return next
+    })
+  }
 
   const columns = useMemo<ColumnConfig<Kanji>[]>(
     () => [
@@ -38,6 +52,25 @@ export function KanjiDashboardPage() {
         header: 'Kanji',
         render: (row) => <span className="text-lg">{row.character}</span>,
         sortValue: (row) => row.character,
+      },
+      {
+        key: 'meanings',
+        header: 'Meanings',
+        render: (row) => (
+          <div className="flex flex-wrap gap-1">
+            {(row.meanings ?? []).slice(0, 3).map((meaning) => (
+              <Badge key={meaning} variant="secondary">
+                {meaning}
+              </Badge>
+            ))}
+          </div>
+        ),
+      },
+      {
+        key: 'usage',
+        header: 'Used in',
+        render: (row) => `${usageCounts.get(row.id) ?? 0} words`,
+        sortValue: (row) => usageCounts.get(row.id) ?? 0,
       },
       {
         key: 'grade',
@@ -52,25 +85,6 @@ export function KanjiDashboardPage() {
         render: (row) =>
           row.jlpt ? jlptLabel(row.jlpt) : <span className="text-muted-foreground">—</span>,
         sortValue: (row) => row.jlpt,
-      },
-      {
-        key: 'usage',
-        header: 'Used in',
-        render: (row) => `${usageCounts.get(row.id) ?? 0} words`,
-        sortValue: (row) => usageCounts.get(row.id) ?? 0,
-      },
-      {
-        key: 'meanings',
-        header: 'Meanings',
-        render: (row) => (
-          <div className="flex flex-wrap gap-1">
-            {(row.meanings ?? []).slice(0, 3).map((meaning) => (
-              <Badge key={meaning} variant="secondary">
-                {meaning}
-              </Badge>
-            ))}
-          </div>
-        ),
       },
     ],
     [usageCounts],
@@ -102,6 +116,11 @@ export function KanjiDashboardPage() {
     return groupKanjiBy(filtered, filters.groupBy)
   }, [data, filters])
 
+  const visibleColumns = useMemo(
+    () => columns.filter((c) => !hiddenColumns.has(c.key)),
+    [columns, hiddenColumns],
+  )
+
   if (isLoading) return <LoadingState />
   if (isError) return <ErrorState error={error} onRetry={() => refetch()} />
 
@@ -125,9 +144,17 @@ export function KanjiDashboardPage() {
         onClear={() => setFilters(defaultKanjiFilterState)}
       />
 
+      <ColumnVisibilityToggle
+        columns={columns
+          .filter((c) => c.key !== 'character')
+          .map((c) => ({ key: c.key, label: c.header }))}
+        hiddenKeys={hiddenColumns}
+        onToggle={toggleColumn}
+      />
+
       <GroupedTable
         groups={groups}
-        columns={columns}
+        columns={visibleColumns}
         getRowKey={(row) => row.id}
         getRowHref={(row) => `/kanji/${row.id}`}
         emptyMessage="No kanji match these filters."

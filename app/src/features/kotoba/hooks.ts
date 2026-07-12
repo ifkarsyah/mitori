@@ -1,6 +1,12 @@
 import { useMemo } from 'react'
 import { useQuery } from '@tanstack/react-query'
-import { fetchContextList, fetchKotobaList, fetchSentencesList, fetchWordKanjiList } from './api'
+import {
+  fetchContextList,
+  fetchKotobaList,
+  fetchSentencesList,
+  fetchSourceList,
+  fetchWordKanjiList,
+} from './api'
 import { useKanjiList } from '@/features/kanji/hooks'
 
 export function useKotobaList() {
@@ -28,6 +34,13 @@ export function useContextList() {
   return useQuery({
     queryKey: ['context', 'list'],
     queryFn: fetchContextList,
+  })
+}
+
+export function useSourceList() {
+  return useQuery({
+    queryKey: ['source', 'list'],
+    queryFn: fetchSourceList,
   })
 }
 

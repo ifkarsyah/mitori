@@ -6,6 +6,7 @@ const links = [
   { to: '/kanji', label: 'Kanji' },
   { to: '/kotoba', label: 'Kotoba' },
   { to: '/context', label: 'Context' },
+  { to: '/source', label: 'Source' },
 ]
 
 export function NavBar() {

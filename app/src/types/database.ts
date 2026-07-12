@@ -119,6 +119,7 @@ export type Database = {
           meanings: string[]
           part_of_speech: string | null
           reading: string | null
+          source_id: number | null
           sub_part_of_speech: string | null
           updated_at: string | null
           word: string
@@ -132,6 +133,7 @@ export type Database = {
           meanings: string[]
           part_of_speech?: string | null
           reading?: string | null
+          source_id?: number | null
           sub_part_of_speech?: string | null
           updated_at?: string | null
           word: string
@@ -145,11 +147,19 @@ export type Database = {
           meanings?: string[]
           part_of_speech?: string | null
           reading?: string | null
+          source_id?: number | null
           sub_part_of_speech?: string | null
           updated_at?: string | null
           word?: string
         }
         Relationships: [
+          {
+            foreignKeyName: "kotoba_source_id_fkey"
+            columns: ["source_id"]
+            isOneToOne: false
+            referencedRelation: "source"
+            referencedColumns: ["id"]
+          },
           {
             foreignKeyName: "words_context_id_fkey"
             columns: ["context_id"]
@@ -193,6 +203,38 @@ export type Database = {
             columns: ["word_id"]
             isOneToOne: false
             referencedRelation: "kotoba"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      source: {
+        Row: {
+          context_id: number | null
+          created_at: string
+          id: number
+          name: string
+          url: string | null
+        }
+        Insert: {
+          context_id?: number | null
+          created_at?: string
+          id?: number
+          name: string
+          url?: string | null
+        }
+        Update: {
+          context_id?: number | null
+          created_at?: string
+          id?: number
+          name?: string
+          url?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "source_context_id_fkey"
+            columns: ["context_id"]
+            isOneToOne: false
+            referencedRelation: "context"
             referencedColumns: ["id"]
           },
         ]

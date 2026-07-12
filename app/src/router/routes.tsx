@@ -7,6 +7,8 @@ import { KotobaDashboardPage } from '@/features/kotoba/KotobaDashboardPage'
 import { KotobaDetailPage } from '@/features/kotoba/KotobaDetailPage'
 import { ContextDashboardPage } from '@/features/context/ContextDashboardPage'
 import { ContextDetailPage } from '@/features/context/ContextDetailPage'
+import { SourceDashboardPage } from '@/features/source/SourceDashboardPage'
+import { SourceDetailPage } from '@/features/source/SourceDetailPage'
 import { NotFoundPage } from '@/pages/NotFoundPage'
 
 export const router = createBrowserRouter([
@@ -21,6 +23,8 @@ export const router = createBrowserRouter([
       { path: 'kotoba/:id', element: <KotobaDetailPage /> },
       { path: 'context', element: <ContextDashboardPage /> },
       { path: 'context/:id', element: <ContextDetailPage /> },
+      { path: 'source', element: <SourceDashboardPage /> },
+      { path: 'source/:id', element: <SourceDetailPage /> },
       { path: '*', element: <NotFoundPage /> },
     ],
   },
