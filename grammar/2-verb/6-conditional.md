@@ -1,3 +1,11 @@
+---
+id: 2-verb/6-conditional
+title: Conditionals — たら / ば / と / なら
+category: verb
+folder_order: 2
+sort_order: 6
+---
+
 # Conditionals — たら / ば / と / なら
 
 Japanese has four conditional forms where English just has "if." They overlap heavily but aren't interchangeable. Per [[0-overview]], たら is the one to master first — it's the most flexible and covers casual daily "if/when" almost entirely; treat ば/と/なら as later refinements, not day-one material.

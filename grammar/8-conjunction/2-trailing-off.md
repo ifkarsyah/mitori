@@ -1,3 +1,11 @@
+---
+id: 8-conjunction/2-trailing-off
+title: Trailing off — ending a sentence to imply "...and more unsaid"
+category: conjunction
+folder_order: 8
+sort_order: 2
+---
+
 # Trailing off — ending a sentence to imply "...and more unsaid"
 
 A genuinely common Japanese conversational habit: ending a sentence right at a connector (けど, し, から, て-form) without ever finishing the thought. The connector itself signals "there's more to this, but I'll let you fill in the rest" — it's not a grammatical mistake or an interrupted sentence, it's a deliberate softening/politeness technique. Ties together threads already mentioned individually in [[../1-particle/12-けど]], [[../1-particle/15-し]], and [[../5-filler/5-ちょっと]].

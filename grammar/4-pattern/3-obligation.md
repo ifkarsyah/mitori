@@ -1,3 +1,11 @@
+---
+id: 4-pattern/3-obligation
+title: Obligation — 〜なければならない / 〜なくちゃ / 〜なきゃ
+category: pattern
+folder_order: 4
+sort_order: 3
+---
+
 # Obligation — 〜なければならない / 〜なくちゃ / 〜なきゃ
 
 "Have to / must [do X]" — built from the plain negative (see [[3-plain-vs-polite-form]] in 2-verb) plus a conditional-shaped ending. Several versions exist on a formality spectrum from stiff/written to very casual.

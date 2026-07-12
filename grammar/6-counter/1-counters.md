@@ -1,3 +1,11 @@
+---
+id: 6-counter/1-counters
+title: Counters (助数詞) — how to count things
+category: counter
+folder_order: 6
+sort_order: 1
+---
+
 # Counters (助数詞) — how to count things
 
 Japanese doesn't count "two books" the way English does — every noun category has its own counter suffix attached to a number, and the numbers themselves sometimes shift sound depending on which counter follows. Survival-critical: ordering food, buying things, giving your age, telling time, counting people, all route through this system.

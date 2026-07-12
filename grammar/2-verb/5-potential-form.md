@@ -1,3 +1,11 @@
+---
+id: 2-verb/5-potential-form
+title: Potential form (可能形) — ability
+category: verb
+folder_order: 2
+sort_order: 5
+---
+
 # Potential form (可能形) — ability
 
 Turns a verb into "can [verb]" — a single-word alternative to 〜ことができる (see [[0-overview]]'s workhorse list, which pairs the two). Group-dependent, built directly on [[1-conjugation-group]].

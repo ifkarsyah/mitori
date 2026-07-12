@@ -1,3 +1,11 @@
+---
+id: 2-verb/7-volitional-form
+title: Volitional form — let's / I intend to
+category: verb
+folder_order: 2
+sort_order: 7
+---
+
 # Volitional form — let's / I intend to
 
 Expresses "let's [do]" (inviting someone) or "I will/intend to [do]" (stating your own resolve). Has both polite and plain registers, mirroring [[3-plain-vs-polite-form]].

@@ -1,3 +1,11 @@
+---
+id: 2-verb/4-たい-form
+title: たい-form — want to
+category: verb
+folder_order: 2
+sort_order: 4
+---
+
 # たい-form — want to
 
 Turns a verb into "want to [verb]." Built directly from the ます-stem (see [[1-conjugation-group]]), and conjugates like an い-adjective once formed.

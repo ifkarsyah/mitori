@@ -1,3 +1,11 @@
+---
+id: 4-pattern/5-appearance-hearsay
+title: そう / みたい / らしい - appearance, seeming, hearsay
+category: pattern
+folder_order: 4
+sort_order: 5
+---
+
 # そう / みたい / らしい - appearance, seeming, hearsay
 
 Three ways to say "looks like / seems / apparently," each with a distinct source of information: そう is a visual/sensory impression, みたい is a casual, general "seems like," and らしい is hearsay/what you heard secondhand. Mixing these up is a common source of subtle unnaturalness even at intermediate level.

@@ -1,3 +1,11 @@
+---
+id: 3-adjective/3-comparison
+title: Comparison — もっと / より / 一番
+category: adjective
+folder_order: 3
+sort_order: 3
+---
+
 # Comparison — もっと / より / 一番
 
 Japanese doesn't conjugate adjectives for comparison (no "-er"/"-est" equivalent) — comparison is done with separate words layered on top of the plain adjective from [[1-i-vs-na-adjective]].

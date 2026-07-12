@@ -1,3 +1,11 @@
+---
+id: 4-pattern/13-verb-nai-invitation
+title: Verb-ない? - casual invitation
+category: pattern
+folder_order: 4
+sort_order: 13
+---
+
 # Verb-ない? - casual invitation
 
 A plain negative question used specifically to invite someone to do something together — "wanna...?", "won't you...?" One of the most natural, common ways to propose plans casually, distinct from んじゃない's rhetorical-opinion use (see [[11-んじゃない]]).

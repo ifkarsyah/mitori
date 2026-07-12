@@ -1,3 +1,11 @@
+---
+id: 7-question-word/2-question-words
+title: Question words — 何 / 誰 / いつ / いくら / なぜ・どうして
+category: question-word
+folder_order: 7
+sort_order: 2
+---
+
 # Question words — 何 / 誰 / いつ / いくら / なぜ・どうして
 
 The core interrogatives that live outside the こそあど grid (see [[1-こそあど]] for どこ/どれ/どう/どの/どんな, which are part of that system). These are basic, load-bearing daily vocabulary — asking what, who, when, how much, and why.

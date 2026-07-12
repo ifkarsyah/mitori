@@ -1,3 +1,11 @@
+---
+id: 2-verb/8-giving-receiving
+title: あげる / くれる / もらう — giving and receiving
+category: verb
+folder_order: 2
+sort_order: 8
+---
+
 # あげる / くれる / もらう — giving and receiving
 
 Three verbs for "give/receive," but the choice isn't about who physically hands what to whom — it's about **direction relative to the speaker's in-group**, and getting it backwards is a common, noticeable learner mistake. Core per [[0-overview]].

@@ -1,3 +1,11 @@
+---
+id: 2-verb/3-plain-vs-polite-form
+title: Plain vs. polite (です/ます) form
+category: verb
+folder_order: 2
+sort_order: 3
+---
+
 # Plain vs. polite (です/ます) form
 
 Japanese runs on two parallel registers for nearly every verb and adjective. This isn't optional politeness dressing — see [[0-overview]] point 3 — it's a structural axis: certain grammar patterns require plain form even inside an otherwise polite sentence.

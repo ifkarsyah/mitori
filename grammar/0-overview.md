@@ -1,3 +1,11 @@
+---
+id: 0-overview
+title: Overview
+category: overview
+folder_order: 0
+sort_order: 0
+---
+
 Here's the practical core — the stuff that shows up in nearly every conversation, versus the long tail of patterns that are mostly for reading/writing or exam nuance.
 
 ## 1. Particles are the skeleton

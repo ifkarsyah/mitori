@@ -1,3 +1,11 @@
+---
+id: 3-adjective/1-i-vs-na-adjective
+title: い-adjective vs な-adjective
+category: adjective
+folder_order: 3
+sort_order: 1
+---
+
 # い-adjective vs な-adjective
 
 Japanese adjectives split into two structurally different types. Telling them apart matters because they conjugate completely differently — い-adjectives conjugate on their own, な-adjectives lean on the copula だ/です just like nouns (see [[3-plain-vs-polite-form]] in 2-verb).

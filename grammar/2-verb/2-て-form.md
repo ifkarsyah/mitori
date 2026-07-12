@@ -1,3 +1,11 @@
+---
+id: 2-verb/2-て-form
+title: て-form
+category: verb
+folder_order: 2
+sort_order: 2
+---
+
 # て-form
 
 The single highest-leverage conjugation in Japanese — see [[0-overview]] point 2. Once you can produce it reliably, most of daily grammar is just attaching things to it. Built directly from the conjugation groups in [[1-conjugation-group]] — make sure that's solid first.

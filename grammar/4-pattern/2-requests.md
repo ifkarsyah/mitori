@@ -1,3 +1,11 @@
+---
+id: 4-pattern/2-requests
+title: Requests — て / てください / ないでください / お願いします
+category: pattern
+folder_order: 4
+sort_order: 2
+---
+
 # Requests — て / てください / ないでください / お願いします
 
 How to ask someone to do something, or ask them *not* to — a survival-essential set of patterns, all built on て-form (see [[2-て-form]] in 2-verb), plus お願いします for requesting things rather than actions.

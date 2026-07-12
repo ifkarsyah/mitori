@@ -1,3 +1,11 @@
+---
+id: 3-adjective/2-adverbial-form
+title: Adverbial form — turning adjectives into adverbs
+category: adjective
+folder_order: 3
+sort_order: 2
+---
+
 # Adverbial form — turning adjectives into adverbs
 
 Turns "expensive/quiet" into "expensively/quietly" — modifying a verb instead of a noun. Small, mechanical rule, but used constantly in daily speech (早く来て! — come quickly!). Builds on the い/な split in [[1-i-vs-na-adjective]].

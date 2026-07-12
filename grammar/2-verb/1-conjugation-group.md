@@ -1,3 +1,11 @@
+---
+id: 2-verb/1-conjugation-group
+title: Verb conjugation groups
+category: verb
+folder_order: 2
+sort_order: 1
+---
+
 # Verb conjugation groups
 
 Japanese verbs split into three groups by how they conjugate. Everything downstream — て-form, plain form, potential, negative, conditional — is a mechanical rule applied on top of this grouping. Learn to classify a verb correctly first; the rest is pattern application. See [[2-て-form]] and [[3-plain-vs-polite-form]], both built directly on this.
