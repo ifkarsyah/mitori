@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import { Link } from 'react-router'
 import type { FilterFieldConfig } from '@/components/FilterBar'
 import { FilterBar } from '@/components/FilterBar'
 import type { ColumnConfig } from '@/components/GroupedTable'
@@ -14,20 +15,33 @@ import {
   distinctContextIds,
   distinctFieldValues,
   distinctJlptValues,
+  distinctKanaTypeValues,
   groupKotobaBy,
-  hasKanjiLabel,
   jlptLabel,
   partOfSpeechLabel,
+  kanaTypeLabel,
   subPartOfSpeechLabel,
   type KotobaFilterState,
   type KotobaGroupBy,
 } from './filters'
 
-const columns: ColumnConfig<Kotoba>[] = [
+function buildColumns(
+  contextNameById: Map<number, string>,
+  includeContextColumn: boolean,
+): ColumnConfig<Kotoba>[] {
+  return [
   {
     key: 'word',
     header: 'Word',
-    render: (row) => <span className="text-lg">{row.word}</span>,
+    render: (row) => (
+      <Link
+        to={`/kotoba/${row.id}`}
+        className="text-lg hover:underline"
+        onClick={(e) => e.stopPropagation()}
+      >
+        {row.word}
+      </Link>
+    ),
     sortValue: (row) => row.word,
   },
   {
@@ -49,6 +63,28 @@ const columns: ColumnConfig<Kotoba>[] = [
       </div>
     ),
   },
+  ...(includeContextColumn
+    ? [
+        {
+          key: 'context',
+          header: 'Context',
+          render: (row: Kotoba) =>
+            row.context_id != null ? (
+              <Link
+                to={`/context/${row.context_id}`}
+                className="hover:underline"
+                onClick={(e) => e.stopPropagation()}
+              >
+                {contextLabel(String(row.context_id), contextNameById)}
+              </Link>
+            ) : (
+              <span className="text-muted-foreground">—</span>
+            ),
+          sortValue: (row: Kotoba) =>
+            row.context_id != null ? contextLabel(String(row.context_id), contextNameById) : null,
+        },
+      ]
+    : []),
   {
     key: 'part_of_speech',
     header: 'Part of speech',
@@ -74,19 +110,20 @@ const columns: ColumnConfig<Kotoba>[] = [
     sortValue: (row) => row.jlpt,
   },
   {
-    key: 'has_kanji',
-    header: 'Kanji?',
-    render: (row) => (row.has_kanji ? 'Yes' : 'No'),
-    sortValue: (row) => (row.has_kanji ? 1 : 0),
+    key: 'kana_type',
+    header: 'Kana type',
+    render: (row) => kanaTypeLabel(row.kana_type),
+    sortValue: (row) => row.kana_type,
   },
-]
+  ]
+}
 
 const BASE_GROUP_BY_OPTIONS = [
   { value: 'none', label: 'None' },
   { value: 'context', label: 'Context' },
   { value: 'part_of_speech', label: 'Part of speech' },
   { value: 'sub_part_of_speech', label: 'Sub part of speech' },
-  { value: 'has_kanji', label: 'Has kanji' },
+  { value: 'kana_type', label: 'Kana type' },
   { value: 'jlpt', label: 'JLPT' },
 ]
 
@@ -95,15 +132,23 @@ export type KotobaExplorerProps = {
   contextNameById: Map<number, string>
   /** Set to false when already scoped to a single context (e.g. the context detail page). */
   includeContextFilter?: boolean
+  /** Set to false when every row shares the same context, making the column redundant (e.g. the context detail page). */
+  includeContextColumn?: boolean
 }
 
 export function KotobaExplorer({
   words,
   contextNameById,
   includeContextFilter = true,
+  includeContextColumn = true,
 }: KotobaExplorerProps) {
   const [filters, setFilters] = useState<KotobaFilterState>(defaultKotobaFilterState)
   const [hiddenColumns, setHiddenColumns] = useState<Set<string>>(new Set())
+
+  const columns = useMemo(
+    () => buildColumns(contextNameById, includeContextColumn),
+    [contextNameById, includeContextColumn],
+  )
 
   function toggleColumn(key: string) {
     setHiddenColumns((prev) => {
@@ -149,11 +194,13 @@ export function KotobaExplorer({
     ]
   }, [words])
 
-  const hasKanjiOptions = [
-    { value: ALL, label: 'All' },
-    { value: 'true', label: hasKanjiLabel('true') },
-    { value: 'false', label: hasKanjiLabel('false') },
-  ]
+  const kanaTypeOptions = useMemo(() => {
+    const values = distinctKanaTypeValues(words)
+    return [
+      { value: ALL, label: 'All kana types' },
+      ...values.map((v) => ({ value: v, label: kanaTypeLabel(v) })),
+    ]
+  }, [words])
 
   const fields: FilterFieldConfig[] = [
     ...(includeContextFilter
@@ -161,7 +208,7 @@ export function KotobaExplorer({
       : []),
     { key: 'partOfSpeech', label: 'Part of speech', options: partOfSpeechOptions },
     { key: 'subPartOfSpeech', label: 'Sub-type', options: subPartOfSpeechOptions },
-    { key: 'hasKanji', label: 'Has kanji', options: hasKanjiOptions },
+    { key: 'kana_type', label: 'Kana type', options: kanaTypeOptions },
     { key: 'jlpt', label: 'JLPT', options: jlptOptions },
   ]
 
@@ -176,7 +223,7 @@ export function KotobaExplorer({
 
   const visibleColumns = useMemo(
     () => columns.filter((c) => !hiddenColumns.has(c.key)),
-    [hiddenColumns],
+    [columns, hiddenColumns],
   )
 
   return (
@@ -190,7 +237,7 @@ export function KotobaExplorer({
           contextId: filters.contextId,
           partOfSpeech: filters.partOfSpeech,
           subPartOfSpeech: filters.subPartOfSpeech,
-          hasKanji: filters.hasKanji,
+          kana_type: filters.kana_type,
           jlpt: filters.jlpt,
         }}
         onFieldChange={(key, value) => setFilters((f) => ({ ...f, [key]: value }))}

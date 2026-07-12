@@ -42,9 +42,9 @@ export function OverviewPage() {
       })),
     [kotobaQuery.data, contextNameById],
   )
-  const kotobaByHasKanji = useMemo(
+  const kotobaByKanaType = useMemo(
     () =>
-      groupKotobaBy(kotobaQuery.data ?? [], 'has_kanji', contextNameById).map((g) => ({
+      groupKotobaBy(kotobaQuery.data ?? [], 'kana_type', contextNameById).map((g) => ({
         ...g,
         count: g.rows.length,
       })),
@@ -72,7 +72,7 @@ export function OverviewPage() {
         <GroupCountList title="Kanji by JLPT" groups={kanjiByJlpt} />
         <GroupCountList title="Kanji by grade" groups={kanjiByGrade} />
         <GroupCountList title="Kotoba by part of speech" groups={kotobaByPartOfSpeech} />
-        <GroupCountList title="Kotoba by has kanji" groups={kotobaByHasKanji} />
+        <GroupCountList title="Kotoba by kana type" groups={kotobaByKanaType} />
       </div>
     </div>
   )

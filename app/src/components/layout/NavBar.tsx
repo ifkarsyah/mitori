@@ -7,6 +7,7 @@ const links = [
   { to: '/kotoba', label: 'Kotoba' },
   { to: '/context', label: 'Context' },
   { to: '/source', label: 'Source' },
+  { to: '/sentences', label: 'Sentences' },
 ]
 
 export function NavBar() {

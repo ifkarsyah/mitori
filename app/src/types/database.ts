@@ -113,12 +113,12 @@ export type Database = {
         Row: {
           context_id: number | null
           created_at: string
-          has_kanji: boolean | null
           id: number
           jlpt: string | null
           meanings: string[]
           part_of_speech: string | null
           reading: string | null
+          kana_type: string
           source_id: number | null
           sub_part_of_speech: string | null
           updated_at: string | null
@@ -127,12 +127,12 @@ export type Database = {
         Insert: {
           context_id?: number | null
           created_at?: string
-          has_kanji?: boolean | null
           id?: number
           jlpt?: string | null
           meanings: string[]
           part_of_speech?: string | null
           reading?: string | null
+          kana_type: string
           source_id?: number | null
           sub_part_of_speech?: string | null
           updated_at?: string | null
@@ -141,12 +141,12 @@ export type Database = {
         Update: {
           context_id?: number | null
           created_at?: string
-          has_kanji?: boolean | null
           id?: number
           jlpt?: string | null
           meanings?: string[]
           part_of_speech?: string | null
           reading?: string | null
+          kana_type?: string
           source_id?: number | null
           sub_part_of_speech?: string | null
           updated_at?: string | null
@@ -171,6 +171,7 @@ export type Database = {
       }
       sentences: {
         Row: {
+          context_id: number | null
           created_at: string
           id: number
           meaning: string | null
@@ -180,6 +181,7 @@ export type Database = {
           word_id: number | null
         }
         Insert: {
+          context_id?: number | null
           created_at?: string
           id?: number
           meaning?: string | null
@@ -189,6 +191,7 @@ export type Database = {
           word_id?: number | null
         }
         Update: {
+          context_id?: number | null
           created_at?: string
           id?: number
           meaning?: string | null
@@ -203,6 +206,13 @@ export type Database = {
             columns: ["word_id"]
             isOneToOne: false
             referencedRelation: "kotoba"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "sentences_context_id_fkey"
+            columns: ["context_id"]
+            isOneToOne: false
+            referencedRelation: "context"
             referencedColumns: ["id"]
           },
         ]

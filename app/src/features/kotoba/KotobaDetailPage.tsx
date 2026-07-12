@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
 import { useKanjiForWord, useKotobaById, useSentencesForWord } from './hooks'
-import { jlptLabel, partOfSpeechLabel } from './filters'
+import { jlptLabel, partOfSpeechLabel, kanaTypeLabel } from './filters'
 
 export function KotobaDetailPage() {
   const { id } = useParams<{ id: string }>()
@@ -35,7 +35,7 @@ export function KotobaDetailPage() {
             <Badge variant="outline">{partOfSpeechLabel(kotoba.part_of_speech)}</Badge>
           )}
           {kotoba.sub_part_of_speech && <Badge variant="outline">{kotoba.sub_part_of_speech}</Badge>}
-          <Badge variant="outline">{kotoba.has_kanji ? 'Has kanji' : 'Kana only'}</Badge>
+          <Badge variant="outline">{kanaTypeLabel(kotoba.kana_type)}</Badge>
         </div>
         <div className="flex flex-wrap gap-1">
           {(kotoba.meanings ?? []).map((meaning) => (
@@ -46,7 +46,7 @@ export function KotobaDetailPage() {
         </div>
       </div>
 
-      {kotoba.has_kanji && (
+      {kotoba.kana_type === 'kanji' && (
         <div>
           <h2 className="mb-2 text-sm font-medium text-muted-foreground">Composed of</h2>
           {kanjiLoading ? (

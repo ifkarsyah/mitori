@@ -46,6 +46,7 @@ export function ContextDetailPage() {
           words={words}
           contextNameById={EMPTY_CONTEXT_NAME_BY_ID}
           includeContextFilter={false}
+          includeContextColumn={false}
         />
       )}
     </div>

@@ -76,11 +76,11 @@ CREATE TABLE public.kotoba (
     reading text,
     part_of_speech text DEFAULT 'noun'::text,
     updated_at timestamp with time zone DEFAULT now(),
-    has_kanji boolean DEFAULT true,
     meanings text[] NOT NULL,
     sub_part_of_speech text,
     jlpt text,
-    source_id bigint REFERENCES public.source(id)
+    source_id bigint REFERENCES public.source(id),
+    kana_type text NOT NULL CHECK (kana_type IN ('kanji', 'hiragana', 'katakana'))
 );
 
 COMMENT ON TABLE public.kotoba IS 'Core vocabulary table.';
@@ -88,7 +88,7 @@ COMMENT ON TABLE public.kotoba IS 'Core vocabulary table.';
 CREATE INDEX idx_kotoba_context_id ON public.kotoba (context_id);
 CREATE INDEX idx_kotoba_part_of_speech ON public.kotoba (part_of_speech);
 CREATE INDEX idx_kotoba_sub_part_of_speech ON public.kotoba (sub_part_of_speech);
-CREATE INDEX idx_kotoba_has_kanji ON public.kotoba (has_kanji);
+CREATE INDEX idx_kotoba_kana_type ON public.kotoba (kana_type);
 CREATE INDEX idx_kotoba_jlpt ON public.kotoba (jlpt);
 CREATE INDEX idx_kotoba_source_id ON public.kotoba (source_id);
 
@@ -147,12 +147,14 @@ CREATE TABLE public.sentences (
     reading text,
     created_at timestamp with time zone NOT NULL DEFAULT now(),
     updated_at timestamp with time zone DEFAULT now(),
-    word_id bigint REFERENCES public.kotoba(id)
+    word_id bigint REFERENCES public.kotoba(id),
+    context_id bigint REFERENCES public.context(id)
 );
 
 COMMENT ON TABLE public.sentences IS 'Phrases and sentences captured from photos, like 熊に注意 or ここで喫煙しないでください.';
 
 CREATE INDEX idx_sentences_word_id ON public.sentences (word_id);
+CREATE INDEX idx_sentences_context_id ON public.sentences (context_id);
 
 ALTER TABLE public.sentences ENABLE ROW LEVEL SECURITY;
 
@@ -178,3 +180,15 @@ CREATE POLICY "allow all - anon" ON public.sentences FOR ALL TO anon, authentica
 -- ("Uniqlo", uniqlo.com). kotoba.source_id is one-to-one per word (a word
 -- has at most one recorded source), and source.context_id optionally rolls
 -- a specific source up into its general category.
+--
+-- kotoba.kana_type classifies the word's writing system: 'kanji' if it
+-- contains any kanji character (regardless of mixed-in okurigana), else
+-- 'katakana' or 'hiragana' for kana-only words. Replaces the old has_kanji
+-- boolean. kotoba.reading is NULL for non-kanji words (kana_type != 'kanji'),
+-- since the reading would just duplicate word there.
+--
+-- sentences.context_id is independent of kotoba.context_id: a single word
+-- can have multiple example sentences that each show it used in a different
+-- real-world situation (e.g. 予約 has one sentence set in a Restaurant and
+-- another set in Travel), so context is assigned per-sentence, not inherited
+-- from the word. Nullable, same as kotoba.context_id.

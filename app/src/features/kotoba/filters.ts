@@ -8,7 +8,7 @@ export type KotobaGroupBy =
   | 'context'
   | 'part_of_speech'
   | 'sub_part_of_speech'
-  | 'has_kanji'
+  | 'kana_type'
   | 'jlpt'
 
 export type KotobaFilterState = {
@@ -16,7 +16,7 @@ export type KotobaFilterState = {
   contextId: string
   partOfSpeech: string
   subPartOfSpeech: string
-  hasKanji: string
+  kana_type: string
   jlpt: string
   groupBy: KotobaGroupBy
 }
@@ -26,7 +26,7 @@ export const defaultKotobaFilterState: KotobaFilterState = {
   contextId: ALL,
   partOfSpeech: ALL,
   subPartOfSpeech: ALL,
-  hasKanji: ALL,
+  kana_type: ALL,
   jlpt: ALL,
   groupBy: 'none',
 }
@@ -37,11 +37,6 @@ function matchesSingleSelect(value: string | null, selected: string): boolean {
   return key === selected
 }
 
-function hasKanjiKey(value: boolean | null): string | null {
-  if (value === null) return null
-  return value ? 'true' : 'false'
-}
-
 export function applyKotobaFilters(rows: Kotoba[], filters: KotobaFilterState): Kotoba[] {
   const search = filters.search.trim().toLowerCase()
   return rows.filter((row) => {
@@ -49,7 +44,7 @@ export function applyKotobaFilters(rows: Kotoba[], filters: KotobaFilterState): 
     if (!matchesSingleSelect(contextKey, filters.contextId)) return false
     if (!matchesSingleSelect(row.part_of_speech, filters.partOfSpeech)) return false
     if (!matchesSingleSelect(row.sub_part_of_speech, filters.subPartOfSpeech)) return false
-    if (!matchesSingleSelect(hasKanjiKey(row.has_kanji), filters.hasKanji)) return false
+    if (!matchesSingleSelect(row.kana_type, filters.kana_type)) return false
     if (!matchesSingleSelect(row.jlpt, filters.jlpt)) return false
     if (search) {
       const haystack = [row.word, row.reading, ...(row.meanings ?? [])]
@@ -62,9 +57,11 @@ export function applyKotobaFilters(rows: Kotoba[], filters: KotobaFilterState): 
   })
 }
 
-export function hasKanjiLabel(value: string): string {
+const KANA_TYPE_ORDER = ['kanji', 'hiragana', 'katakana']
+
+export function kanaTypeLabel(value: string): string {
   if (value === UNCLASSIFIED) return 'Unclassified'
-  return value === 'true' ? 'Has kanji' : 'Kana only'
+  return value.charAt(0).toUpperCase() + value.slice(1)
 }
 
 export function partOfSpeechLabel(value: string): string {
@@ -152,9 +149,9 @@ export function groupKotobaBy(
     labelFor = jlptLabel
     sortedKeys = sortByDomainOrder([...buckets.keys()], JLPT_ORDER)
   } else {
-    buckets = groupByKey(rows, (row) => hasKanjiKey(row.has_kanji))
-    labelFor = hasKanjiLabel
-    sortedKeys = sortWithUnclassifiedLast([...buckets.keys()])
+    buckets = groupByKey(rows, (row) => row.kana_type)
+    labelFor = kanaTypeLabel
+    sortedKeys = sortByDomainOrder([...buckets.keys()], KANA_TYPE_ORDER)
   }
 
   return sortedKeys.map((key) => ({
@@ -175,6 +172,11 @@ export function distinctFieldValues(
 export function distinctJlptValues(rows: Kotoba[]): string[] {
   const present = new Set(rows.map((row) => row.jlpt ?? UNCLASSIFIED))
   return sortByDomainOrder([...present], JLPT_ORDER)
+}
+
+export function distinctKanaTypeValues(rows: Kotoba[]): string[] {
+  const present = new Set(rows.map((row) => row.kana_type))
+  return sortByDomainOrder([...present], KANA_TYPE_ORDER)
 }
 
 export function distinctContextIds(rows: Kotoba[]): string[] {
