@@ -3,7 +3,13 @@ import type { Kotoba } from './api'
 export const UNCLASSIFIED = '__unclassified__'
 export const ALL = '__all__'
 
-export type KotobaGroupBy = 'none' | 'context' | 'part_of_speech' | 'sub_part_of_speech' | 'has_kanji'
+export type KotobaGroupBy =
+  | 'none'
+  | 'context'
+  | 'part_of_speech'
+  | 'sub_part_of_speech'
+  | 'has_kanji'
+  | 'jlpt'
 
 export type KotobaFilterState = {
   search: string
@@ -11,6 +17,7 @@ export type KotobaFilterState = {
   partOfSpeech: string
   subPartOfSpeech: string
   hasKanji: string
+  jlpt: string
   groupBy: KotobaGroupBy
 }
 
@@ -20,6 +27,7 @@ export const defaultKotobaFilterState: KotobaFilterState = {
   partOfSpeech: ALL,
   subPartOfSpeech: ALL,
   hasKanji: ALL,
+  jlpt: ALL,
   groupBy: 'none',
 }
 
@@ -42,6 +50,7 @@ export function applyKotobaFilters(rows: Kotoba[], filters: KotobaFilterState): 
     if (!matchesSingleSelect(row.part_of_speech, filters.partOfSpeech)) return false
     if (!matchesSingleSelect(row.sub_part_of_speech, filters.subPartOfSpeech)) return false
     if (!matchesSingleSelect(hasKanjiKey(row.has_kanji), filters.hasKanji)) return false
+    if (!matchesSingleSelect(row.jlpt, filters.jlpt)) return false
     if (search) {
       const haystack = [row.word, row.reading, ...(row.meanings ?? [])]
         .filter(Boolean)
@@ -74,6 +83,13 @@ export function contextLabel(value: string, contextNameById: Map<number, string>
   return name ?? value
 }
 
+const JLPT_ORDER = ['n5', 'n4', 'n3', 'n2', 'n1']
+
+export function jlptLabel(value: string): string {
+  if (value === UNCLASSIFIED) return 'Unclassified (no JLPT level)'
+  return value.toUpperCase()
+}
+
 export type KotobaGroup = { key: string; label: string; rows: Kotoba[] }
 
 function groupByKey(
@@ -99,6 +115,13 @@ function sortWithUnclassifiedLast(keys: string[]): string[] {
   return [...known, ...(hasUnclassified ? [UNCLASSIFIED] : [])]
 }
 
+function sortByDomainOrder(keys: string[], order: string[]): string[] {
+  const known = order.filter((k) => keys.includes(k))
+  const unknown = keys.filter((k) => !order.includes(k) && k !== UNCLASSIFIED).sort()
+  const hasUnclassified = keys.includes(UNCLASSIFIED)
+  return [...known, ...unknown, ...(hasUnclassified ? [UNCLASSIFIED] : [])]
+}
+
 export function groupKotobaBy(
   rows: Kotoba[],
   groupBy: KotobaGroupBy,
@@ -110,22 +133,30 @@ export function groupKotobaBy(
 
   let buckets: Map<string, Kotoba[]>
   let labelFor: (key: string) => string
+  let sortedKeys: string[]
 
   if (groupBy === 'context') {
     buckets = groupByKey(rows, (row) => (row.context_id != null ? String(row.context_id) : null))
     labelFor = (key) => contextLabel(key, contextNameById)
+    sortedKeys = sortWithUnclassifiedLast([...buckets.keys()])
   } else if (groupBy === 'part_of_speech') {
     buckets = groupByKey(rows, (row) => row.part_of_speech)
     labelFor = partOfSpeechLabel
+    sortedKeys = sortWithUnclassifiedLast([...buckets.keys()])
   } else if (groupBy === 'sub_part_of_speech') {
     buckets = groupByKey(rows, (row) => row.sub_part_of_speech)
     labelFor = subPartOfSpeechLabel
+    sortedKeys = sortWithUnclassifiedLast([...buckets.keys()])
+  } else if (groupBy === 'jlpt') {
+    buckets = groupByKey(rows, (row) => row.jlpt)
+    labelFor = jlptLabel
+    sortedKeys = sortByDomainOrder([...buckets.keys()], JLPT_ORDER)
   } else {
     buckets = groupByKey(rows, (row) => hasKanjiKey(row.has_kanji))
     labelFor = hasKanjiLabel
+    sortedKeys = sortWithUnclassifiedLast([...buckets.keys()])
   }
 
-  const sortedKeys = sortWithUnclassifiedLast([...buckets.keys()])
   return sortedKeys.map((key) => ({
     key,
     label: labelFor(key),
@@ -133,12 +164,22 @@ export function groupKotobaBy(
   }))
 }
 
-export function distinctFieldValues(rows: Kotoba[], field: 'part_of_speech' | 'sub_part_of_speech'): string[] {
+export function distinctFieldValues(
+  rows: Kotoba[],
+  field: 'part_of_speech' | 'sub_part_of_speech',
+): string[] {
   const present = new Set(rows.map((row) => row[field] ?? UNCLASSIFIED))
   return sortWithUnclassifiedLast([...present])
 }
 
+export function distinctJlptValues(rows: Kotoba[]): string[] {
+  const present = new Set(rows.map((row) => row.jlpt ?? UNCLASSIFIED))
+  return sortByDomainOrder([...present], JLPT_ORDER)
+}
+
 export function distinctContextIds(rows: Kotoba[]): string[] {
-  const present = new Set(rows.map((row) => (row.context_id != null ? String(row.context_id) : UNCLASSIFIED)))
+  const present = new Set(
+    rows.map((row) => (row.context_id != null ? String(row.context_id) : UNCLASSIFIED)),
+  )
   return sortWithUnclassifiedLast([...present])
 }

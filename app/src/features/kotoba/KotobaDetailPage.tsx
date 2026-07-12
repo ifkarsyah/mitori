@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
 import { useKanjiForWord, useKotobaById, useSentencesForWord } from './hooks'
-import { partOfSpeechLabel } from './filters'
+import { jlptLabel, partOfSpeechLabel } from './filters'
 
 export function KotobaDetailPage() {
   const { id } = useParams<{ id: string }>()
@@ -30,6 +30,7 @@ export function KotobaDetailPage() {
           {kotoba.reading && <span className="text-lg text-muted-foreground">【{kotoba.reading}】</span>}
         </div>
         <div className="flex gap-2">
+          {kotoba.jlpt && <Badge variant="outline">{jlptLabel(kotoba.jlpt)}</Badge>}
           {kotoba.part_of_speech && (
             <Badge variant="outline">{partOfSpeechLabel(kotoba.part_of_speech)}</Badge>
           )}

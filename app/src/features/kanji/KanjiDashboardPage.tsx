@@ -37,23 +37,27 @@ export function KanjiDashboardPage() {
         key: 'character',
         header: 'Kanji',
         render: (row) => <span className="text-lg">{row.character}</span>,
+        sortValue: (row) => row.character,
       },
       {
         key: 'grade',
         header: 'Grade',
         render: (row) =>
           row.grade ? gradeLabel(row.grade) : <span className="text-muted-foreground">—</span>,
+        sortValue: (row) => row.grade,
       },
       {
         key: 'jlpt',
         header: 'JLPT',
         render: (row) =>
           row.jlpt ? jlptLabel(row.jlpt) : <span className="text-muted-foreground">—</span>,
+        sortValue: (row) => row.jlpt,
       },
       {
         key: 'usage',
         header: 'Used in',
         render: (row) => `${usageCounts.get(row.id) ?? 0} words`,
+        sortValue: (row) => usageCounts.get(row.id) ?? 0,
       },
       {
         key: 'meanings',

@@ -54,18 +54,21 @@ export type Database = {
           created_at: string
           Description: string | null
           id: number
+          kind: string
           name: string | null
         }
         Insert: {
           created_at?: string
           Description?: string | null
           id?: number
+          kind: string
           name?: string | null
         }
         Update: {
           created_at?: string
           Description?: string | null
           id?: number
+          kind?: string
           name?: string | null
         }
         Relationships: []
@@ -112,6 +115,7 @@ export type Database = {
           created_at: string
           has_kanji: boolean | null
           id: number
+          jlpt: string | null
           meanings: string[]
           part_of_speech: string | null
           reading: string | null
@@ -124,6 +128,7 @@ export type Database = {
           created_at?: string
           has_kanji?: boolean | null
           id?: number
+          jlpt?: string | null
           meanings: string[]
           part_of_speech?: string | null
           reading?: string | null
@@ -136,6 +141,7 @@ export type Database = {
           created_at?: string
           has_kanji?: boolean | null
           id?: number
+          jlpt?: string | null
           meanings?: string[]
           part_of_speech?: string | null
           reading?: string | null

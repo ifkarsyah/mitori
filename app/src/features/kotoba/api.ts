@@ -12,7 +12,7 @@ export async function fetchKotobaList(): Promise<Kotoba[]> {
     supabase
       .from('kotoba')
       .select(
-        'id, word, reading, part_of_speech, sub_part_of_speech, meanings, has_kanji, context_id, created_at, updated_at',
+        'id, word, reading, part_of_speech, sub_part_of_speech, meanings, has_kanji, context_id, jlpt, created_at, updated_at',
       )
       .order('id')
       .range(from, to),
@@ -44,7 +44,7 @@ export async function fetchContextList(): Promise<Context[]> {
   return fetchAllRows<Context>(async (from, to) =>
     supabase
       .from('context')
-      .select('id, name, Description, created_at')
+      .select('id, name, kind, Description, created_at')
       .order('id')
       .range(from, to),
   )
