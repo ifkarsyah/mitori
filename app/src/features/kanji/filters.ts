@@ -3,12 +3,13 @@ import type { Kanji } from './api'
 export const UNCLASSIFIED = '__unclassified__'
 export const ALL = '__all__'
 
-export type KanjiGroupBy = 'none' | 'grade' | 'jlpt'
+export type KanjiGroupBy = 'none' | 'grade' | 'jlpt' | 'cluster'
 
 export type KanjiFilterState = {
   search: string
   jlpt: string
   grade: string
+  cluster: string
   groupBy: KanjiGroupBy
 }
 
@@ -16,6 +17,7 @@ export const defaultKanjiFilterState: KanjiFilterState = {
   search: '',
   jlpt: ALL,
   grade: ALL,
+  cluster: ALL,
   groupBy: 'none',
 }
 
@@ -30,6 +32,7 @@ export function applyKanjiFilters(rows: Kanji[], filters: KanjiFilterState): Kan
   return rows.filter((row) => {
     if (!matchesSingleSelect(row.jlpt, filters.jlpt)) return false
     if (!matchesSingleSelect(row.grade, filters.grade)) return false
+    if (!matchesSingleSelect(row.cluster, filters.cluster)) return false
     if (search) {
       const haystack = [row.character, ...(row.meanings ?? [])]
         .filter(Boolean)
@@ -75,6 +78,14 @@ export function jlptLabel(value: string): string {
   return JLPT_LABELS[value] ?? value.toUpperCase()
 }
 
+export function clusterLabel(value: string): string {
+  if (value === UNCLASSIFIED) return 'Unclassified'
+  return value
+    .split('_')
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(' ')
+}
+
 function sortKeysByDomainOrder(keys: string[], order: string[]): string[] {
   const known = order.filter((k) => keys.includes(k))
   const unknown = keys.filter((k) => !order.includes(k) && k !== UNCLASSIFIED).sort()
@@ -91,7 +102,7 @@ export function groupKanjiBy(rows: Kanji[], groupBy: KanjiGroupBy): KanjiGroup[]
 
   const buckets = new Map<string, Kanji[]>()
   for (const row of rows) {
-    const value = groupBy === 'grade' ? row.grade : row.jlpt
+    const value = groupBy === 'grade' ? row.grade : groupBy === 'jlpt' ? row.jlpt : row.cluster
     const key = value ?? UNCLASSIFIED
     const bucket = buckets.get(key)
     if (bucket) {
@@ -101,8 +112,8 @@ export function groupKanjiBy(rows: Kanji[], groupBy: KanjiGroupBy): KanjiGroup[]
     }
   }
 
-  const order = groupBy === 'grade' ? GRADE_ORDER : JLPT_ORDER
-  const labelFor = groupBy === 'grade' ? gradeLabel : jlptLabel
+  const order = groupBy === 'grade' ? GRADE_ORDER : groupBy === 'jlpt' ? JLPT_ORDER : []
+  const labelFor = groupBy === 'grade' ? gradeLabel : groupBy === 'jlpt' ? jlptLabel : clusterLabel
   const sortedKeys = sortKeysByDomainOrder([...buckets.keys()], order)
 
   return sortedKeys.map((key) => ({
@@ -112,9 +123,9 @@ export function groupKanjiBy(rows: Kanji[], groupBy: KanjiGroupBy): KanjiGroup[]
   }))
 }
 
-/** Distinct grade/jlpt values present in the data, for building filter dropdown options. */
-export function distinctFieldValues(rows: Kanji[], field: 'grade' | 'jlpt'): string[] {
-  const order = field === 'grade' ? GRADE_ORDER : JLPT_ORDER
+/** Distinct grade/jlpt/cluster values present in the data, for building filter dropdown options. */
+export function distinctFieldValues(rows: Kanji[], field: 'grade' | 'jlpt' | 'cluster'): string[] {
+  const order = field === 'grade' ? GRADE_ORDER : field === 'jlpt' ? JLPT_ORDER : []
   const present = new Set(rows.map((row) => row[field] ?? UNCLASSIFIED))
   return sortKeysByDomainOrder([...present], order)
 }

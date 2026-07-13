@@ -76,6 +76,7 @@ export type Database = {
       kanji: {
         Row: {
           character: string | null
+          cluster: string | null
           created_at: string
           grade: string | null
           id: number
@@ -87,6 +88,7 @@ export type Database = {
         }
         Insert: {
           character?: string | null
+          cluster?: string | null
           created_at?: string
           grade?: string | null
           id?: number
@@ -98,6 +100,7 @@ export type Database = {
         }
         Update: {
           character?: string | null
+          cluster?: string | null
           created_at?: string
           grade?: string | null
           id?: number

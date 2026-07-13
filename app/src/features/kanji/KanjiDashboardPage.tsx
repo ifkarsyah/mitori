@@ -12,6 +12,7 @@ import type { Kanji } from './api'
 import {
   ALL,
   applyKanjiFilters,
+  clusterLabel,
   defaultKanjiFilterState,
   distinctFieldValues,
   gradeLabel,
@@ -25,6 +26,7 @@ const GROUP_BY_OPTIONS = [
   { value: 'none', label: 'None' },
   { value: 'grade', label: 'Grade' },
   { value: 'jlpt', label: 'JLPT' },
+  { value: 'cluster', label: 'Cluster' },
 ]
 
 export function KanjiDashboardPage() {
@@ -86,6 +88,13 @@ export function KanjiDashboardPage() {
           row.jlpt ? jlptLabel(row.jlpt) : <span className="text-muted-foreground">—</span>,
         sortValue: (row) => row.jlpt,
       },
+      {
+        key: 'cluster',
+        header: 'Cluster',
+        render: (row) =>
+          row.cluster ? clusterLabel(row.cluster) : <span className="text-muted-foreground">—</span>,
+        sortValue: (row) => row.cluster,
+      },
     ],
     [usageCounts],
   )
@@ -106,9 +115,18 @@ export function KanjiDashboardPage() {
     ]
   }, [data])
 
+  const clusterOptions = useMemo(() => {
+    const values = distinctFieldValues(data ?? [], 'cluster')
+    return [
+      { value: ALL, label: 'All clusters' },
+      ...values.map((v) => ({ value: v, label: clusterLabel(v) })),
+    ]
+  }, [data])
+
   const fields: FilterFieldConfig[] = [
     { key: 'grade', label: 'Grade', options: gradeOptions },
     { key: 'jlpt', label: 'JLPT', options: jlptOptions },
+    { key: 'cluster', label: 'Cluster', options: clusterOptions },
   ]
 
   const groups = useMemo(() => {
@@ -136,7 +154,7 @@ export function KanjiDashboardPage() {
         onSearchChange={(search) => setFilters((f) => ({ ...f, search }))}
         searchPlaceholder="Search character or meaning…"
         fields={fields}
-        fieldValues={{ grade: filters.grade, jlpt: filters.jlpt }}
+        fieldValues={{ grade: filters.grade, jlpt: filters.jlpt, cluster: filters.cluster }}
         onFieldChange={(key, value) => setFilters((f) => ({ ...f, [key]: value }))}
         groupByOptions={GROUP_BY_OPTIONS}
         groupBy={filters.groupBy}

@@ -9,7 +9,7 @@ export async function fetchKanjiList(): Promise<Kanji[]> {
     supabase
       .from('kanji')
       .select(
-        'id, character, jlpt, grade, kanjimap_url, kanjigraph_url, meanings, created_at, updated_at',
+        'id, character, jlpt, grade, kanjimap_url, kanjigraph_url, meanings, cluster, created_at, updated_at',
       )
       .order('id')
       .range(from, to),

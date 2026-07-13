@@ -31,13 +31,15 @@ CREATE TABLE public.kanji (
     grade text,
     kanjimap_url text,
     kanjigraph_url text,
-    meanings text[]
+    meanings text[],
+    cluster text
 );
 
 COMMENT ON TABLE public.kanji IS 'Individual kanji extracted from words.';
 
 CREATE INDEX idx_kanji_grade ON public.kanji (grade);
 CREATE INDEX idx_kanji_jlpt ON public.kanji (jlpt);
+CREATE INDEX idx_kanji_cluster ON public.kanji (cluster);
 
 ALTER TABLE public.kanji ENABLE ROW LEVEL SECURITY;
 
@@ -220,3 +222,7 @@ CREATE POLICY "allow all - anon" ON public.sentence_kotoba FOR ALL TO anon, auth
 -- every kotoba word genuinely present in a sentence (including its own
 -- word_id), letting the UI show a sentence's full vocabulary breakdown by
 -- part of speech instead of just its one primary word.
+--
+-- kanji.cluster is a free-text thematic grouping independent of grade/JLPT,
+-- e.g. 一/二/三 belong to cluster 'number'. Nullable, plain text (no fixed
+-- enum), same convention as kotoba.jlpt/grade.

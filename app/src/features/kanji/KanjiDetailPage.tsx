@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
 import { useKanjiByCharacter, useWordsForKanji } from './hooks'
-import { gradeLabel, jlptLabel } from './filters'
+import { clusterLabel, gradeLabel, jlptLabel } from './filters'
 
 export function KanjiDetailPage() {
   const { character } = useParams<{ character: string }>()
@@ -28,6 +28,7 @@ export function KanjiDetailPage() {
           <div className="flex gap-2">
             {kanji.grade && <Badge variant="outline">{gradeLabel(kanji.grade)}</Badge>}
             {kanji.jlpt && <Badge variant="outline">{jlptLabel(kanji.jlpt)}</Badge>}
+            {kanji.cluster && <Badge variant="outline">{clusterLabel(kanji.cluster)}</Badge>}
           </div>
           <div className="flex flex-wrap gap-1">
             {(kanji.meanings ?? []).map((meaning) => (
