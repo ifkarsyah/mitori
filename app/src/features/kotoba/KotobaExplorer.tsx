@@ -7,6 +7,7 @@ import { GroupedTable } from '@/components/GroupedTable'
 import { ColumnVisibilityToggle } from '@/components/ColumnVisibilityToggle'
 import { Badge } from '@/components/ui/badge'
 import type { Kotoba } from './api'
+import { useSourceList } from './hooks'
 import {
   ALL,
   applyKotobaFilters,
@@ -27,7 +28,9 @@ import {
 
 function buildColumns(
   contextNameById: Map<number, string>,
+  sourceNameById: Map<number, string>,
   includeContextColumn: boolean,
+  includeSourceColumn: boolean,
 ): ColumnConfig<Kotoba>[] {
   return [
   {
@@ -35,7 +38,7 @@ function buildColumns(
     header: 'Word',
     render: (row) => (
       <Link
-        to={`/kotoba/${row.id}`}
+        to={`/kotoba/${row.word}`}
         className="text-lg hover:underline"
         onClick={(e) => e.stopPropagation()}
       >
@@ -82,6 +85,27 @@ function buildColumns(
             ),
           sortValue: (row: Kotoba) =>
             row.context_id != null ? contextLabel(String(row.context_id), contextNameById) : null,
+        },
+      ]
+    : []),
+  ...(includeSourceColumn
+    ? [
+        {
+          key: 'source',
+          header: 'Source',
+          render: (row: Kotoba) =>
+            row.source_id != null && sourceNameById.has(row.source_id) ? (
+              <Link
+                to={`/source/${row.source_id}`}
+                className="hover:underline"
+                onClick={(e) => e.stopPropagation()}
+              >
+                {sourceNameById.get(row.source_id)}
+              </Link>
+            ) : (
+              <span className="text-muted-foreground">—</span>
+            ),
+          sortValue: (row: Kotoba) => (row.source_id != null ? sourceNameById.get(row.source_id) ?? null : null),
         },
       ]
     : []),
@@ -134,6 +158,8 @@ export type KotobaExplorerProps = {
   includeContextFilter?: boolean
   /** Set to false when every row shares the same context, making the column redundant (e.g. the context detail page). */
   includeContextColumn?: boolean
+  /** Set to false when every row shares the same source, making the column redundant (e.g. the source detail page). */
+  includeSourceColumn?: boolean
 }
 
 export function KotobaExplorer({
@@ -141,13 +167,20 @@ export function KotobaExplorer({
   contextNameById,
   includeContextFilter = true,
   includeContextColumn = true,
+  includeSourceColumn = true,
 }: KotobaExplorerProps) {
   const [filters, setFilters] = useState<KotobaFilterState>(defaultKotobaFilterState)
+  const { data: sources } = useSourceList()
+  const sourceNameById = useMemo(() => {
+    const map = new Map<number, string>()
+    for (const s of sources ?? []) map.set(s.id, s.name)
+    return map
+  }, [sources])
   const [hiddenColumns, setHiddenColumns] = useState<Set<string>>(new Set())
 
   const columns = useMemo(
-    () => buildColumns(contextNameById, includeContextColumn),
-    [contextNameById, includeContextColumn],
+    () => buildColumns(contextNameById, sourceNameById, includeContextColumn, includeSourceColumn),
+    [contextNameById, sourceNameById, includeContextColumn, includeSourceColumn],
   )
 
   function toggleColumn(key: string) {
@@ -257,7 +290,7 @@ export function KotobaExplorer({
         groups={groups}
         columns={visibleColumns}
         getRowKey={(row) => row.id}
-        getRowHref={(row) => `/kotoba/${row.id}`}
+        getRowHref={(row) => `/kotoba/${row.word}`}
         emptyMessage="No kotoba match these filters."
       />
     </div>

@@ -59,7 +59,12 @@ export function SourceDetailPage() {
       {wordsLoading ? (
         <LoadingState />
       ) : (
-        <KotobaExplorer words={words} contextNameById={contextNameById} includeContextFilter={false} />
+        <KotobaExplorer
+          words={words}
+          contextNameById={contextNameById}
+          includeContextFilter={false}
+          includeSourceColumn={false}
+        />
       )}
     </div>
   )

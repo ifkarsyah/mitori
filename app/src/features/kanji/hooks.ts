@@ -16,6 +16,12 @@ export function useKanjiById(id: number | undefined) {
   return { ...query, data: kanji }
 }
 
+export function useKanjiByCharacter(character: string | undefined) {
+  const query = useKanjiList()
+  const kanji = query.data?.find((row) => row.character === character)
+  return { ...query, data: kanji }
+}
+
 export function useKanjiUsageCounts() {
   const { data: wordKanji } = useWordKanjiList()
   return useMemo(() => {

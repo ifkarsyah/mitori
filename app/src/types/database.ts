@@ -291,6 +291,42 @@ export type Database = {
           },
         ]
       }
+      sentence_kotoba: {
+        Row: {
+          created_at: string
+          id: number
+          kotoba_id: number
+          sentence_id: number
+        }
+        Insert: {
+          created_at?: string
+          id?: number
+          kotoba_id: number
+          sentence_id: number
+        }
+        Update: {
+          created_at?: string
+          id?: number
+          kotoba_id?: number
+          sentence_id?: number
+        }
+        Relationships: [
+          {
+            foreignKeyName: "sentence_kotoba_kotoba_id_fkey"
+            columns: ["kotoba_id"]
+            isOneToOne: false
+            referencedRelation: "kotoba"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "sentence_kotoba_sentence_id_fkey"
+            columns: ["sentence_id"]
+            isOneToOne: false
+            referencedRelation: "sentences"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
     }
     Views: {
       [_ in never]: never

@@ -6,7 +6,8 @@ import type { ColumnConfig } from '@/components/GroupedTable'
 import { GroupedTable } from '@/components/GroupedTable'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
-import type { EnrichedSentence } from './hooks'
+import { Badge } from '@/components/ui/badge'
+import type { EnrichedSentence, LinkedWord } from './hooks'
 import { useSentencesWithWords } from './hooks'
 import {
   ALL,
@@ -30,14 +31,32 @@ const GROUP_BY_OPTIONS = [
   { value: 'kana_type', label: 'Kana type' },
 ]
 
+const POS_ORDER = ['noun', 'verb', 'adjective', 'other']
+const POS_LABEL: Record<string, string> = { noun: 'N', verb: 'V', adjective: 'Adj', other: 'Other' }
+
+function groupWordsByPartOfSpeech(words: LinkedWord[]) {
+  const buckets = new Map<string, LinkedWord[]>()
+  for (const w of words) {
+    const key = w.partOfSpeech ?? 'other'
+    const bucket = buckets.get(key)
+    if (bucket) {
+      bucket.push(w)
+    } else {
+      buckets.set(key, [w])
+    }
+  }
+  const orderedKeys = [...POS_ORDER.filter((k) => buckets.has(k)), ...[...buckets.keys()].filter((k) => !POS_ORDER.includes(k))]
+  return orderedKeys.map((key) => ({ key, label: POS_LABEL[key] ?? key, words: buckets.get(key)! }))
+}
+
 const columns: ColumnConfig<EnrichedSentence>[] = [
   {
     key: 'sentence',
     header: 'Sentence',
     render: (row) =>
-      row.wordId != null ? (
+      row.word != null ? (
         <Link
-          to={`/kotoba/${row.wordId}`}
+          to={`/kotoba/${row.word}`}
           className="text-lg hover:underline"
           onClick={(e) => e.stopPropagation()}
         >
@@ -55,15 +74,24 @@ const columns: ColumnConfig<EnrichedSentence>[] = [
     sortValue: (row) => row.meaning,
   },
   {
-    key: 'word',
-    header: 'Word',
+    key: 'words',
+    header: 'Words',
     render: (row) =>
-      row.wordId != null && row.word ? (
-        <Link to={`/kotoba/${row.wordId}`} className="hover:underline" onClick={(e) => e.stopPropagation()}>
-          {row.word}
-        </Link>
+      row.linkedWords.length === 0 ? (
+        <span className="text-muted-foreground">—</span>
       ) : (
-        (row.word ?? <span className="text-muted-foreground">—</span>)
+        <div className="flex flex-col gap-1">
+          {groupWordsByPartOfSpeech(row.linkedWords).map((group) => (
+            <div key={group.key} className="flex flex-wrap items-center gap-1">
+              <span className="text-xs text-muted-foreground">{group.label}:</span>
+              {group.words.map((w) => (
+                <Link key={w.id} to={`/kotoba/${w.word}`} onClick={(e) => e.stopPropagation()}>
+                  <Badge variant="secondary">{w.word}</Badge>
+                </Link>
+              ))}
+            </div>
+          ))}
+        </div>
       ),
     sortValue: (row) => row.word,
   },
@@ -170,7 +198,7 @@ export function SentenceDashboardPage() {
         groups={groups}
         columns={columns}
         getRowKey={(row) => row.id}
-        getRowHref={(row) => (row.wordId != null ? `/kotoba/${row.wordId}` : '#')}
+        getRowHref={(row) => (row.word != null ? `/kotoba/${row.word}` : '#')}
         emptyMessage="No sentences match these filters."
       />
     </div>

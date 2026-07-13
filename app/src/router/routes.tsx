@@ -19,9 +19,9 @@ export const router = createBrowserRouter([
     children: [
       { index: true, element: <OverviewPage /> },
       { path: 'kanji', element: <KanjiDashboardPage /> },
-      { path: 'kanji/:id', element: <KanjiDetailPage /> },
+      { path: 'kanji/:character', element: <KanjiDetailPage /> },
       { path: 'kotoba', element: <KotobaDashboardPage /> },
-      { path: 'kotoba/:id', element: <KotobaDetailPage /> },
+      { path: 'kotoba/:word', element: <KotobaDetailPage /> },
       { path: 'context', element: <ContextDashboardPage /> },
       { path: 'context/:id', element: <ContextDetailPage /> },
       { path: 'source', element: <SourceDashboardPage /> },

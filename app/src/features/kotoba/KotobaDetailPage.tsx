@@ -3,16 +3,15 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
-import { useKanjiForWord, useKotobaById, useSentencesForWord } from './hooks'
+import { useKanjiForWord, useKotobaByWord, useSentencesForWord } from './hooks'
 import { jlptLabel, partOfSpeechLabel, kanaTypeLabel } from './filters'
 
 export function KotobaDetailPage() {
-  const { id } = useParams<{ id: string }>()
-  const wordId = id ? Number(id) : undefined
+  const { word } = useParams<{ word: string }>()
 
-  const { data: kotoba, isLoading, isError, error, refetch } = useKotobaById(wordId)
-  const { data: sentences, isLoading: sentencesLoading } = useSentencesForWord(wordId)
-  const { data: composingKanji, isLoading: kanjiLoading } = useKanjiForWord(wordId)
+  const { data: kotoba, isLoading, isError, error, refetch } = useKotobaByWord(word)
+  const { data: sentences, isLoading: sentencesLoading } = useSentencesForWord(kotoba?.id)
+  const { data: composingKanji, isLoading: kanjiLoading } = useKanjiForWord(kotoba?.id)
 
   if (isLoading) return <LoadingState />
   if (isError) return <ErrorState error={error} onRetry={() => refetch()} />
@@ -57,7 +56,7 @@ export function KotobaDetailPage() {
             <ul className="flex flex-col divide-y">
               {composingKanji.map((k) => (
                 <li key={k.kanjiId} className="py-2">
-                  <Link to={`/kanji/${k.kanjiId}`} className="text-lg hover:underline">
+                  <Link to={`/kanji/${k.character}`} className="text-lg hover:underline">
                     {k.character}
                   </Link>
                   {k.kanjiMeaningInWord && (

@@ -3,6 +3,7 @@ import { useQuery } from '@tanstack/react-query'
 import {
   fetchContextList,
   fetchKotobaList,
+  fetchSentenceKotobaList,
   fetchSentencesList,
   fetchSourceList,
   fetchWordKanjiList,
@@ -30,6 +31,13 @@ export function useSentencesList() {
   })
 }
 
+export function useSentenceKotobaList() {
+  return useQuery({
+    queryKey: ['sentenceKotoba', 'list'],
+    queryFn: fetchSentenceKotobaList,
+  })
+}
+
 export function useContextList() {
   return useQuery({
     queryKey: ['context', 'list'],
@@ -47,6 +55,12 @@ export function useSourceList() {
 export function useKotobaById(id: number | undefined) {
   const query = useKotobaList()
   const kotoba = query.data?.find((row) => row.id === id)
+  return { ...query, data: kotoba }
+}
+
+export function useKotobaByWord(word: string | undefined) {
+  const query = useKotobaList()
+  const kotoba = query.data?.find((row) => row.word === word)
   return { ...query, data: kotoba }
 }
 

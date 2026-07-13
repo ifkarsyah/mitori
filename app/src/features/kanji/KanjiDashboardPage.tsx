@@ -156,7 +156,7 @@ export function KanjiDashboardPage() {
         groups={groups}
         columns={visibleColumns}
         getRowKey={(row) => row.id}
-        getRowHref={(row) => `/kanji/${row.id}`}
+        getRowHref={(row) => `/kanji/${row.character}`}
         emptyMessage="No kanji match these filters."
       />
     </div>

@@ -3,15 +3,14 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
-import { useKanjiById, useWordsForKanji } from './hooks'
+import { useKanjiByCharacter, useWordsForKanji } from './hooks'
 import { gradeLabel, jlptLabel } from './filters'
 
 export function KanjiDetailPage() {
-  const { id } = useParams<{ id: string }>()
-  const kanjiId = id ? Number(id) : undefined
+  const { character } = useParams<{ character: string }>()
 
-  const { data: kanji, isLoading, isError, error, refetch } = useKanjiById(kanjiId)
-  const { data: words, isLoading: wordsLoading } = useWordsForKanji(kanjiId)
+  const { data: kanji, isLoading, isError, error, refetch } = useKanjiByCharacter(character)
+  const { data: words, isLoading: wordsLoading } = useWordsForKanji(kanji?.id)
 
   if (isLoading) return <LoadingState />
   if (isError) return <ErrorState error={error} onRetry={() => refetch()} />
@@ -76,7 +75,7 @@ export function KanjiDetailPage() {
           <ul className="flex flex-col divide-y">
             {words.map((w) => (
               <li key={w.wordId} className="py-2">
-                <Link to={`/kotoba/${w.wordId}`} className="hover:underline">
+                <Link to={`/kotoba/${w.word}`} className="hover:underline">
                   <span className="font-medium">{w.word}</span>
                   {w.reading && (
                     <span className="ml-2 text-sm text-muted-foreground">【{w.reading}】</span>

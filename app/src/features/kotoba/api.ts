@@ -7,6 +7,7 @@ export type WordKanji = Tables<'word_kanji'>
 export type Sentence = Tables<'sentences'>
 export type Context = Tables<'context'>
 export type Source = Tables<'source'>
+export type SentenceKotoba = Tables<'sentence_kotoba'>
 
 export async function fetchKotobaList(): Promise<Kotoba[]> {
   return fetchAllRows<Kotoba>(async (from, to) =>
@@ -36,6 +37,16 @@ export async function fetchSentencesList(): Promise<Sentence[]> {
       .from('sentences')
       .select('id, sentence, meaning, reading, word_id, context_id, created_at, updated_at')
       .not('word_id', 'is', null)
+      .order('id')
+      .range(from, to),
+  )
+}
+
+export async function fetchSentenceKotobaList(): Promise<SentenceKotoba[]> {
+  return fetchAllRows<SentenceKotoba>(async (from, to) =>
+    supabase
+      .from('sentence_kotoba')
+      .select('id, sentence_id, kotoba_id, created_at')
       .order('id')
       .range(from, to),
   )
