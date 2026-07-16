@@ -10,6 +10,9 @@ import { ContextDetailPage } from '@/features/context/ContextDetailPage'
 import { SourceDashboardPage } from '@/features/source/SourceDashboardPage'
 import { SourceDetailPage } from '@/features/source/SourceDetailPage'
 import { SentenceDashboardPage } from '@/features/sentences/SentenceDashboardPage'
+import { GrammarDashboardPage } from '@/features/grammar/GrammarDashboardPage'
+import { GrammarDetailPage } from '@/features/grammar/GrammarDetailPage'
+import { QualityDashboardPage } from '@/features/quality/QualityDashboardPage'
 import { NotFoundPage } from '@/pages/NotFoundPage'
 
 export const router = createBrowserRouter([
@@ -27,6 +30,9 @@ export const router = createBrowserRouter([
       { path: 'source', element: <SourceDashboardPage /> },
       { path: 'source/:id', element: <SourceDetailPage /> },
       { path: 'sentences', element: <SentenceDashboardPage /> },
+      { path: 'grammar', element: <GrammarDashboardPage /> },
+      { path: 'grammar/*', element: <GrammarDetailPage /> },
+      { path: 'quality', element: <QualityDashboardPage /> },
       { path: '*', element: <NotFoundPage /> },
     ],
   },

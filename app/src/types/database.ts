@@ -73,6 +73,42 @@ export type Database = {
         }
         Relationships: []
       }
+      grammar_point: {
+        Row: {
+          category: string
+          content: string
+          created_at: string
+          folder_order: number
+          id: number
+          slug: string
+          sort_order: number
+          title: string
+          updated_at: string | null
+        }
+        Insert: {
+          category: string
+          content: string
+          created_at?: string
+          folder_order: number
+          id?: number
+          slug: string
+          sort_order: number
+          title: string
+          updated_at?: string | null
+        }
+        Update: {
+          category?: string
+          content?: string
+          created_at?: string
+          folder_order?: number
+          id?: number
+          slug?: string
+          sort_order?: number
+          title?: string
+          updated_at?: string | null
+        }
+        Relationships: []
+      }
       kanji: {
         Row: {
           character: string | null

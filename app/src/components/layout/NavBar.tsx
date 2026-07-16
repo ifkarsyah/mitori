@@ -8,6 +8,8 @@ const links = [
   { to: '/context', label: 'Context' },
   { to: '/source', label: 'Source' },
   { to: '/sentences', label: 'Sentences' },
+  { to: '/grammar', label: 'Grammar' },
+  { to: '/quality', label: 'Quality' },
 ]
 
 export function NavBar() {

@@ -1,0 +1,85 @@
+import { CheckCircle2, AlertTriangle } from 'lucide-react'
+import { StatCard } from '@/components/StatCard'
+import { LoadingState } from '@/components/LoadingState'
+import { ErrorState } from '@/components/ErrorState'
+import { useQualityStats } from './hooks'
+import type { CompletenessStat, StructuralCheck } from './stats'
+
+function CompletenessSection({ title, stats }: { title: string; stats: CompletenessStat[] }) {
+  return (
+    <div>
+      <h3 className="mb-2 text-sm font-medium text-muted-foreground">{title}</h3>
+      <ul className="flex flex-col gap-3">
+        {stats.map((stat) => (
+          <li key={stat.key} className="text-sm">
+            <div className="mb-1 flex items-baseline justify-between">
+              <span>{stat.label}</span>
+              <span className={stat.percent < 50 ? 'text-destructive' : 'text-muted-foreground'}>
+                {stat.percent.toFixed(1)}%
+              </span>
+            </div>
+            <span className="block h-1.5 overflow-hidden rounded-full bg-muted">
+              <span className="block h-full rounded-full bg-primary" style={{ width: `${stat.percent}%` }} />
+            </span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
+}
+
+function StructuralCheckRow({ check }: { check: StructuralCheck }) {
+  return (
+    <li className="flex items-center gap-3 border-t py-2.5 text-sm last:border-b">
+      {check.passed ? (
+        <CheckCircle2 className="size-4 shrink-0 text-muted-foreground" />
+      ) : (
+        <AlertTriangle className="size-4 shrink-0 text-destructive" />
+      )}
+      <span className="flex-1">{check.label}</span>
+      <span className={check.passed ? 'text-muted-foreground' : 'font-medium text-destructive'}>
+        {check.detail}
+      </span>
+    </li>
+  )
+}
+
+export function QualityDashboardPage() {
+  const { data, isLoading, isError, error, refetch } = useQualityStats()
+
+  if (isLoading) return <LoadingState />
+  if (isError) return <ErrorState error={error} onRetry={refetch} />
+
+  const flaggedCount = data.checks.filter((c) => !c.passed).length
+
+  return (
+    <div className="flex flex-col gap-8">
+      <div>
+        <h1 className="text-xl font-semibold">Data quality</h1>
+        <p className="text-sm text-muted-foreground">Completeness and consistency checks across the dataset</p>
+      </div>
+
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
+        <StatCard label="Kotoba" value={data.kotobaTotal} />
+        <StatCard label="Kanji" value={data.kanjiTotal} />
+        <StatCard label="Sentences" value={data.sentencesTotal} />
+        <StatCard label="Checks flagged" value={`${flaggedCount} of ${data.checks.length}`} />
+      </div>
+
+      <div className="grid grid-cols-1 gap-8 sm:grid-cols-3">
+        <CompletenessSection title="Kotoba columns" stats={data.kotobaStats} />
+        <CompletenessSection title="Kanji columns" stats={data.kanjiStats} />
+        <CompletenessSection title="Sentence columns" stats={data.sentenceStats} />
+      </div>
+
+      <div>
+        <h3 className="mb-2 text-sm font-medium text-muted-foreground">Structural checks</h3>
+        <ul className="flex flex-col">
+          {data.checks.map((check) => (
+            <StructuralCheckRow key={check.key} check={check} />
+          ))}
+        </ul>
+      </div>
+    </div>
+  )
+}
