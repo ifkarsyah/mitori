@@ -6,9 +6,12 @@ import type { ColumnConfig } from '@/components/GroupedTable'
 import { GroupedTable } from '@/components/GroupedTable'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
+import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
+import { downloadCsv } from '@/lib/exportCsv'
 import type { EnrichedSentence, LinkedWord } from './hooks'
 import { useSentencesWithWords } from './hooks'
+import { ANKI_HEADERS, buildSentenceAnkiRows } from './exportAnki'
 import {
   ALL,
   applySentenceFilters,
@@ -166,6 +169,11 @@ export function SentenceDashboardPage() {
     return groupSentencesBy(filtered, filters.groupBy)
   }, [data, filters])
 
+  function exportToAnki() {
+    const filteredRows = groups.flatMap((g) => g.rows)
+    downloadCsv('mitori-sentences-anki.csv', ANKI_HEADERS, buildSentenceAnkiRows(filteredRows))
+  }
+
   if (isLoading) return <LoadingState />
   if (isError) return <ErrorState error={error} onRetry={() => refetch()} />
 
@@ -193,6 +201,12 @@ export function SentenceDashboardPage() {
         onGroupByChange={(value) => setFilters((f) => ({ ...f, groupBy: value as SentenceGroupBy }))}
         onClear={() => setFilters(defaultSentenceFilterState)}
       />
+
+      <div className="flex justify-end">
+        <Button type="button" variant="outline" size="sm" onClick={exportToAnki}>
+          Export to Anki (CSV)
+        </Button>
+      </div>
 
       <GroupedTable
         groups={groups}

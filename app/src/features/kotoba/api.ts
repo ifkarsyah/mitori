@@ -35,7 +35,7 @@ export async function fetchSentencesList(): Promise<Sentence[]> {
   return fetchAllRows<Sentence>(async (from, to) =>
     supabase
       .from('sentences')
-      .select('id, sentence, meaning, reading, word_id, context_id, created_at, updated_at')
+      .select('id, sentence, meaning, word_id, context_id, created_at, updated_at')
       .not('word_id', 'is', null)
       .order('id')
       .range(from, to),

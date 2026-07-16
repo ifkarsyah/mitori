@@ -6,9 +6,12 @@ import { GroupedTable } from '@/components/GroupedTable'
 import { ColumnVisibilityToggle } from '@/components/ColumnVisibilityToggle'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
+import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
+import { downloadCsv } from '@/lib/exportCsv'
 import { useKanjiList, useKanjiUsageCounts } from './hooks'
 import type { Kanji } from './api'
+import { ANKI_HEADERS, buildKanjiAnkiRows } from './exportAnki'
 import {
   ALL,
   applyKanjiFilters,
@@ -139,6 +142,11 @@ export function KanjiDashboardPage() {
     [columns, hiddenColumns],
   )
 
+  function exportToAnki() {
+    const filteredRows = groups.flatMap((g) => g.rows)
+    downloadCsv('mitori-kanji-anki.csv', ANKI_HEADERS, buildKanjiAnkiRows(filteredRows))
+  }
+
   if (isLoading) return <LoadingState />
   if (isError) return <ErrorState error={error} onRetry={() => refetch()} />
 
@@ -162,13 +170,18 @@ export function KanjiDashboardPage() {
         onClear={() => setFilters(defaultKanjiFilterState)}
       />
 
-      <ColumnVisibilityToggle
-        columns={columns
-          .filter((c) => c.key !== 'character')
-          .map((c) => ({ key: c.key, label: c.header }))}
-        hiddenKeys={hiddenColumns}
-        onToggle={toggleColumn}
-      />
+      <div className="flex items-center justify-between gap-2">
+        <ColumnVisibilityToggle
+          columns={columns
+            .filter((c) => c.key !== 'character')
+            .map((c) => ({ key: c.key, label: c.header }))}
+          hiddenKeys={hiddenColumns}
+          onToggle={toggleColumn}
+        />
+        <Button type="button" variant="outline" size="sm" onClick={exportToAnki}>
+          Export to Anki (CSV)
+        </Button>
+      </div>
 
       <GroupedTable
         groups={groups}

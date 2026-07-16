@@ -25,6 +25,7 @@ export function useQualityStats() {
     const sentences = sentencesQuery.data ?? []
     const wordKanji = wordKanjiQuery.data ?? []
     const sentenceKotoba = sentenceKotobaQuery.data ?? []
+    const kotobaById = new Map(kotoba.map((k) => [k.id, k]))
 
     return {
       kotobaTotal: kotoba.length,
@@ -32,8 +33,8 @@ export function useQualityStats() {
       sentencesTotal: sentences.length,
       kotobaStats: kotobaCompleteness(kotoba),
       kanjiStats: kanjiCompleteness(kanji),
-      sentenceStats: sentenceCompleteness(sentences),
-      checks: structuralChecks({ kotoba, sentences, wordKanji, sentenceKotoba }),
+      sentenceStats: sentenceCompleteness(sentences, kotobaById),
+      checks: structuralChecks({ kotoba, sentences, wordKanji, sentenceKotoba, kotobaById }),
     }
   }, [kotobaQuery.data, kanjiQuery.data, sentencesQuery.data, wordKanjiQuery.data, sentenceKotobaQuery.data])
 

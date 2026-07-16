@@ -214,7 +214,6 @@ export type Database = {
           created_at: string
           id: number
           meaning: string | null
-          reading: string | null
           sentence: string | null
           updated_at: string | null
           word_id: number | null
@@ -224,7 +223,6 @@ export type Database = {
           created_at?: string
           id?: number
           meaning?: string | null
-          reading?: string | null
           sentence?: string | null
           updated_at?: string | null
           word_id?: number | null
@@ -234,7 +232,6 @@ export type Database = {
           created_at?: string
           id?: number
           meaning?: string | null
-          reading?: string | null
           sentence?: string | null
           updated_at?: string | null
           word_id?: number | null

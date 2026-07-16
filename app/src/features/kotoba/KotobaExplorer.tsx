@@ -5,9 +5,12 @@ import { FilterBar } from '@/components/FilterBar'
 import type { ColumnConfig } from '@/components/GroupedTable'
 import { GroupedTable } from '@/components/GroupedTable'
 import { ColumnVisibilityToggle } from '@/components/ColumnVisibilityToggle'
+import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
+import { downloadCsv } from '@/lib/exportCsv'
 import type { Kotoba } from './api'
-import { useSourceList } from './hooks'
+import { useSentencesList, useSourceList } from './hooks'
+import { ANKI_HEADERS, buildKotobaAnkiRows, buildSentencesByWordId } from './exportAnki'
 import {
   ALL,
   applyKotobaFilters,
@@ -171,11 +174,13 @@ export function KotobaExplorer({
 }: KotobaExplorerProps) {
   const [filters, setFilters] = useState<KotobaFilterState>(defaultKotobaFilterState)
   const { data: sources } = useSourceList()
+  const { data: sentences } = useSentencesList()
   const sourceNameById = useMemo(() => {
     const map = new Map<number, string>()
     for (const s of sources ?? []) map.set(s.id, s.name)
     return map
   }, [sources])
+  const sentencesByWordId = useMemo(() => buildSentencesByWordId(sentences ?? []), [sentences])
   const [hiddenColumns, setHiddenColumns] = useState<Set<string>>(new Set())
 
   const columns = useMemo(
@@ -259,6 +264,12 @@ export function KotobaExplorer({
     [columns, hiddenColumns],
   )
 
+  function exportToAnki() {
+    const filteredRows = groups.flatMap((g) => g.rows)
+    const ankiRows = buildKotobaAnkiRows(filteredRows, sentencesByWordId)
+    downloadCsv('mitori-kotoba-anki.csv', ANKI_HEADERS, ankiRows)
+  }
+
   return (
     <div className="flex flex-col gap-6">
       <FilterBar
@@ -280,11 +291,16 @@ export function KotobaExplorer({
         onClear={() => setFilters(defaultKotobaFilterState)}
       />
 
-      <ColumnVisibilityToggle
-        columns={columns.filter((c) => c.key !== 'word').map((c) => ({ key: c.key, label: c.header }))}
-        hiddenKeys={hiddenColumns}
-        onToggle={toggleColumn}
-      />
+      <div className="flex items-center justify-between gap-2">
+        <ColumnVisibilityToggle
+          columns={columns.filter((c) => c.key !== 'word').map((c) => ({ key: c.key, label: c.header }))}
+          hiddenKeys={hiddenColumns}
+          onToggle={toggleColumn}
+        />
+        <Button type="button" variant="outline" size="sm" onClick={exportToAnki}>
+          Export to Anki (CSV)
+        </Button>
+      </div>
 
       <GroupedTable
         groups={groups}

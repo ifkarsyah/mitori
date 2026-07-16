@@ -1,3 +1,4 @@
+import { useMemo } from 'react'
 import { Link, useParams } from 'react-router'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
@@ -5,8 +6,9 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
-import { useGrammarPointBySlug } from './hooks'
+import { useGrammarPointBySlug, useGrammarPointList } from './hooks'
 import { categoryLabel } from './filters'
+import { resolveWikiLinks } from './wikiLinks'
 
 const markdownComponents = {
   h1: () => null, // title is already shown above; avoid a duplicate heading
@@ -38,9 +40,16 @@ const markdownComponents = {
   td: (props: React.ComponentPropsWithoutRef<'td'>) => (
     <td className="border-b px-3 py-2 align-top" {...props} />
   ),
-  a: (props: React.ComponentPropsWithoutRef<'a'>) => (
-    <a className="text-primary underline underline-offset-4" {...props} />
-  ),
+  a: ({ href, children }: React.ComponentPropsWithoutRef<'a'>) =>
+    href?.startsWith('/') ? (
+      <Link to={href} className="text-primary underline underline-offset-4">
+        {children}
+      </Link>
+    ) : (
+      <a href={href} className="text-primary underline underline-offset-4" target="_blank" rel="noreferrer">
+        {children}
+      </a>
+    ),
   code: (props: React.ComponentPropsWithoutRef<'code'>) => (
     <code className="rounded bg-muted px-1 py-0.5 text-sm" {...props} />
   ),
@@ -51,6 +60,14 @@ export function GrammarDetailPage() {
   const slug = params['*']
 
   const { data: point, isLoading, isError, error, refetch } = useGrammarPointBySlug(slug)
+  const { data: allPoints } = useGrammarPointList()
+
+  const pointsBySlug = useMemo(() => new Map((allPoints ?? []).map((p) => [p.slug, p])), [allPoints])
+
+  const content = useMemo(
+    () => (point ? resolveWikiLinks(point.content, point.slug, pointsBySlug) : ''),
+    [point, pointsBySlug],
+  )
 
   if (isLoading) return <LoadingState />
   if (isError) return <ErrorState error={error} onRetry={() => refetch()} />
@@ -71,7 +88,7 @@ export function GrammarDetailPage() {
 
       <div className="max-w-3xl text-sm">
         <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
-          {point.content}
+          {content}
         </ReactMarkdown>
       </div>
     </div>

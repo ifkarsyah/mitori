@@ -1,9 +1,36 @@
+import { Link } from 'react-router'
 import { CheckCircle2, AlertTriangle } from 'lucide-react'
 import { StatCard } from '@/components/StatCard'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
 import { useQualityStats } from './hooks'
-import type { CompletenessStat, StructuralCheck } from './stats'
+import type { AffectedRow, CompletenessStat, StructuralCheck } from './stats'
+
+const AFFECTED_ROWS_PREVIEW_LIMIT = 20
+
+function AffectedRowsDisclosure({ rows }: { rows: AffectedRow[] }) {
+  if (rows.length === 0) return null
+  const preview = rows.slice(0, AFFECTED_ROWS_PREVIEW_LIMIT)
+  const remaining = rows.length - preview.length
+
+  return (
+    <details className="mt-1">
+      <summary className="cursor-pointer text-xs text-muted-foreground hover:text-foreground">
+        View {rows.length} affected row{rows.length === 1 ? '' : 's'}
+      </summary>
+      <ul className="mt-1 ml-3 flex flex-col gap-0.5">
+        {preview.map((row) => (
+          <li key={row.key}>
+            <Link to={row.href} className="text-xs hover:underline">
+              {row.label}
+            </Link>
+          </li>
+        ))}
+        {remaining > 0 && <li className="text-xs text-muted-foreground">and {remaining} more</li>}
+      </ul>
+    </details>
+  )
+}
 
 function CompletenessSection({ title, stats }: { title: string; stats: CompletenessStat[] }) {
   return (
@@ -21,6 +48,7 @@ function CompletenessSection({ title, stats }: { title: string; stats: Completen
             <span className="block h-1.5 overflow-hidden rounded-full bg-muted">
               <span className="block h-full rounded-full bg-primary" style={{ width: `${stat.percent}%` }} />
             </span>
+            <AffectedRowsDisclosure rows={stat.missingRows} />
           </li>
         ))}
       </ul>
@@ -30,16 +58,23 @@ function CompletenessSection({ title, stats }: { title: string; stats: Completen
 
 function StructuralCheckRow({ check }: { check: StructuralCheck }) {
   return (
-    <li className="flex items-center gap-3 border-t py-2.5 text-sm last:border-b">
-      {check.passed ? (
-        <CheckCircle2 className="size-4 shrink-0 text-muted-foreground" />
-      ) : (
-        <AlertTriangle className="size-4 shrink-0 text-destructive" />
+    <li className="border-t py-2.5 text-sm last:border-b">
+      <div className="flex items-center gap-3">
+        {check.passed ? (
+          <CheckCircle2 className="size-4 shrink-0 text-muted-foreground" />
+        ) : (
+          <AlertTriangle className="size-4 shrink-0 text-destructive" />
+        )}
+        <span className="flex-1">{check.label}</span>
+        <span className={check.passed ? 'text-muted-foreground' : 'font-medium text-destructive'}>
+          {check.detail}
+        </span>
+      </div>
+      {!check.passed && (
+        <div className="pl-7">
+          <AffectedRowsDisclosure rows={check.affectedRows} />
+        </div>
       )}
-      <span className="flex-1">{check.label}</span>
-      <span className={check.passed ? 'text-muted-foreground' : 'font-medium text-destructive'}>
-        {check.detail}
-      </span>
     </li>
   )
 }
