@@ -215,7 +215,9 @@ export type Database = {
           context_id: number | null
           created_at: string
           id: number
+          is_transcript_complete: boolean
           title: string
+          transcript: string | null
           updated_at: string | null
           url: string
         }
@@ -225,7 +227,9 @@ export type Database = {
           context_id?: number | null
           created_at?: string
           id?: number
+          is_transcript_complete?: boolean
           title: string
+          transcript?: string | null
           updated_at?: string | null
           url: string
         }
@@ -235,7 +239,9 @@ export type Database = {
           context_id?: number | null
           created_at?: string
           id?: number
+          is_transcript_complete?: boolean
           title?: string
+          transcript?: string | null
           updated_at?: string | null
           url?: string
         }

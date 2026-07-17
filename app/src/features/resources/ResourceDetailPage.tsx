@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { Link, useParams } from 'react-router'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
@@ -15,6 +16,7 @@ export function ResourceDetailPage() {
   const { data: resource, isLoading, isError, error, refetch } = useResourceById(resourceId)
   const { data: channel } = useResourceChannelById(resource?.channel_id ?? undefined)
   const { data: context } = useContextById(resource?.context_id ?? undefined)
+  const [showTranscript, setShowTranscript] = useState(false)
 
   if (isLoading) return <LoadingState />
   if (isError) return <ErrorState error={error} onRetry={() => refetch()} />
@@ -66,6 +68,32 @@ export function ResourceDetailPage() {
       >
         Watch on {channel?.platform === 'tiktok' ? 'TikTok' : 'YouTube'} →
       </a>
+
+      {resource.transcript && (
+        <div className="flex max-w-3xl flex-col gap-2">
+          <div className="flex items-center gap-2">
+            <Button
+              type="button"
+              variant="outline"
+              size="sm"
+              className="w-fit"
+              onClick={() => setShowTranscript((v) => !v)}
+            >
+              {showTranscript ? 'Hide transcript' : 'Show transcript'}
+            </Button>
+            {!resource.is_transcript_complete && (
+              <span className="text-xs text-muted-foreground">
+                Incomplete — only sparse captions are available for this video.
+              </span>
+            )}
+          </div>
+          {showTranscript && (
+            <div className="max-h-96 overflow-y-auto whitespace-pre-line rounded-md border p-4 text-sm leading-relaxed">
+              {resource.transcript}
+            </div>
+          )}
+        </div>
+      )}
     </div>
   )
 }

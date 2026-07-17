@@ -9,7 +9,9 @@ export async function fetchResourceList(): Promise<Resource[]> {
   return fetchAllRows<Resource>(async (from, to) =>
     supabase
       .from('resource')
-      .select('id, channel_id, title, url, category, context_id, created_at, updated_at')
+      .select(
+        'id, channel_id, title, url, category, context_id, created_at, updated_at, transcript, is_transcript_complete',
+      )
       .order('id')
       .range(from, to),
   )

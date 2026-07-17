@@ -234,10 +234,12 @@ CREATE TABLE public.resource (
     category text,
     context_id bigint REFERENCES public.context(id),
     created_at timestamp with time zone NOT NULL DEFAULT now(),
-    updated_at timestamp with time zone DEFAULT now()
+    updated_at timestamp with time zone DEFAULT now(),
+    transcript text,
+    is_transcript_complete boolean NOT NULL DEFAULT true
 );
 
-COMMENT ON TABLE public.resource IS 'A single piece of external learning content (a video) from a resource_channel. category is a free-text content-type label (e.g. listening-practice, shadowing, vocabulary, conversation, tips), no fixed enum, same convention as kotoba.jlpt/kanji.cluster. context_id optionally reuses the existing context table for situational tagging (e.g. a video about ordering at a restaurant -> Restaurant).';
+COMMENT ON TABLE public.resource IS 'A single piece of external learning content (a video) from a resource_channel. category is a free-text content-type label (e.g. listening-practice, shadowing, vocabulary, conversation, tips), no fixed enum, same convention as kotoba.jlpt/kanji.cluster. context_id optionally reuses the existing context table for situational tagging (e.g. a video about ordering at a restaurant -> Restaurant). transcript is the video''s captions (manual, falling back to auto-generated), cleaned of VTT timing/markup - populated by resources/scripts/fetch_transcripts.py + generate_transcript_sql.py, nullable since not every video has captions available. is_transcript_complete is false when the video''s only available caption track is known to be sparse (e.g. scene-label captions rather than full dialogue, with no denser auto-generated fallback) - a manually-verified flag, not derived from a general heuristic.';
 
 CREATE INDEX idx_resource_channel_id ON public.resource (channel_id);
 CREATE INDEX idx_resource_category ON public.resource (category);
