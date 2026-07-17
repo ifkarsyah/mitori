@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
 import { useContextById } from '@/features/context/hooks'
+import { getYoutubeEmbedUrl } from './embed'
 import { categoryLabel } from './filters'
 import { useResourceById, useResourceChannelById } from './hooks'
 
@@ -18,6 +19,8 @@ export function ResourceDetailPage() {
   if (isLoading) return <LoadingState />
   if (isError) return <ErrorState error={error} onRetry={() => refetch()} />
   if (!resource) return <p className="py-12 text-center text-muted-foreground">Resource not found.</p>
+
+  const embedUrl = channel?.platform !== 'tiktok' ? getYoutubeEmbedUrl(resource.url) : null
 
   return (
     <div className="flex flex-col gap-6">
@@ -42,6 +45,18 @@ export function ResourceDetailPage() {
           </Link>
         )}
       </div>
+
+      {embedUrl && (
+        <div className="aspect-video w-full max-w-3xl overflow-hidden rounded-md border">
+          <iframe
+            className="h-full w-full"
+            src={embedUrl}
+            title={resource.title}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
+      )}
 
       <a
         className="w-fit text-sm text-primary underline underline-offset-4"
