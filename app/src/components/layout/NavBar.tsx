@@ -9,6 +9,7 @@ const links = [
   { to: '/source', label: 'Source' },
   { to: '/sentences', label: 'Sentences' },
   { to: '/grammar', label: 'Grammar' },
+  { to: '/resources', label: 'Resources' },
   { to: '/quality', label: 'Quality' },
 ]
 

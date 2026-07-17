@@ -1,6 +1,6 @@
 ---
 id: akane-japanese-class
-title: Speak Japanese Naturally
+title: あかね的日本語教室
 url: https://www.youtube.com/@Akane-JapaneseClass
 ---
 

@@ -12,6 +12,9 @@ import { SourceDetailPage } from '@/features/source/SourceDetailPage'
 import { SentenceDashboardPage } from '@/features/sentences/SentenceDashboardPage'
 import { GrammarDashboardPage } from '@/features/grammar/GrammarDashboardPage'
 import { GrammarDetailPage } from '@/features/grammar/GrammarDetailPage'
+import { ResourcesDashboardPage } from '@/features/resources/ResourcesDashboardPage'
+import { ResourceDetailPage } from '@/features/resources/ResourceDetailPage'
+import { ChannelDetailPage } from '@/features/resources/ChannelDetailPage'
 import { QualityDashboardPage } from '@/features/quality/QualityDashboardPage'
 import { NotFoundPage } from '@/pages/NotFoundPage'
 
@@ -32,6 +35,9 @@ export const router = createBrowserRouter([
       { path: 'sentences', element: <SentenceDashboardPage /> },
       { path: 'grammar', element: <GrammarDashboardPage /> },
       { path: 'grammar/*', element: <GrammarDetailPage /> },
+      { path: 'resources', element: <ResourcesDashboardPage /> },
+      { path: 'resources/channel/:slug', element: <ChannelDetailPage /> },
+      { path: 'resources/:id', element: <ResourceDetailPage /> },
       { path: 'quality', element: <QualityDashboardPage /> },
       { path: '*', element: <NotFoundPage /> },
     ],

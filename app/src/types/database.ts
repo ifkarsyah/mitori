@@ -154,10 +154,10 @@ export type Database = {
           created_at: string
           id: number
           jlpt: string | null
+          kana_type: string
           meanings: string[]
           part_of_speech: string | null
           reading: string | null
-          kana_type: string
           source_id: number | null
           sub_part_of_speech: string | null
           updated_at: string | null
@@ -168,10 +168,10 @@ export type Database = {
           created_at?: string
           id?: number
           jlpt?: string | null
+          kana_type: string
           meanings: string[]
           part_of_speech?: string | null
           reading?: string | null
-          kana_type: string
           source_id?: number | null
           sub_part_of_speech?: string | null
           updated_at?: string | null
@@ -182,10 +182,10 @@ export type Database = {
           created_at?: string
           id?: number
           jlpt?: string | null
+          kana_type?: string
           meanings?: string[]
           part_of_speech?: string | null
           reading?: string | null
-          kana_type?: string
           source_id?: number | null
           sub_part_of_speech?: string | null
           updated_at?: string | null
@@ -204,6 +204,120 @@ export type Database = {
             columns: ["context_id"]
             isOneToOne: false
             referencedRelation: "context"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      resource: {
+        Row: {
+          category: string | null
+          channel_id: number | null
+          context_id: number | null
+          created_at: string
+          id: number
+          title: string
+          updated_at: string | null
+          url: string
+        }
+        Insert: {
+          category?: string | null
+          channel_id?: number | null
+          context_id?: number | null
+          created_at?: string
+          id?: number
+          title: string
+          updated_at?: string | null
+          url: string
+        }
+        Update: {
+          category?: string | null
+          channel_id?: number | null
+          context_id?: number | null
+          created_at?: string
+          id?: number
+          title?: string
+          updated_at?: string | null
+          url?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "resource_channel_id_fkey"
+            columns: ["channel_id"]
+            isOneToOne: false
+            referencedRelation: "resource_channel"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "resource_context_id_fkey"
+            columns: ["context_id"]
+            isOneToOne: false
+            referencedRelation: "context"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      resource_channel: {
+        Row: {
+          created_at: string
+          description: string | null
+          id: number
+          name: string
+          platform: string
+          slug: string
+          url: string | null
+        }
+        Insert: {
+          created_at?: string
+          description?: string | null
+          id?: number
+          name: string
+          platform: string
+          slug: string
+          url?: string | null
+        }
+        Update: {
+          created_at?: string
+          description?: string | null
+          id?: number
+          name?: string
+          platform?: string
+          slug?: string
+          url?: string | null
+        }
+        Relationships: []
+      }
+      sentence_kotoba: {
+        Row: {
+          created_at: string
+          id: number
+          kotoba_id: number
+          sentence_id: number
+        }
+        Insert: {
+          created_at?: string
+          id?: number
+          kotoba_id: number
+          sentence_id: number
+        }
+        Update: {
+          created_at?: string
+          id?: number
+          kotoba_id?: number
+          sentence_id?: number
+        }
+        Relationships: [
+          {
+            foreignKeyName: "sentence_kotoba_kotoba_id_fkey"
+            columns: ["kotoba_id"]
+            isOneToOne: false
+            referencedRelation: "kotoba"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "sentence_kotoba_sentence_id_fkey"
+            columns: ["sentence_id"]
+            isOneToOne: false
+            referencedRelation: "sentences"
             referencedColumns: ["id"]
           },
         ]
@@ -238,17 +352,17 @@ export type Database = {
         }
         Relationships: [
           {
-            foreignKeyName: "sentences_word_id_fkey"
-            columns: ["word_id"]
-            isOneToOne: false
-            referencedRelation: "kotoba"
-            referencedColumns: ["id"]
-          },
-          {
             foreignKeyName: "sentences_context_id_fkey"
             columns: ["context_id"]
             isOneToOne: false
             referencedRelation: "context"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "sentences_word_id_fkey"
+            columns: ["word_id"]
+            isOneToOne: false
+            referencedRelation: "kotoba"
             referencedColumns: ["id"]
           },
         ]
@@ -323,42 +437,6 @@ export type Database = {
             columns: ["word_id"]
             isOneToOne: false
             referencedRelation: "kotoba"
-            referencedColumns: ["id"]
-          },
-        ]
-      }
-      sentence_kotoba: {
-        Row: {
-          created_at: string
-          id: number
-          kotoba_id: number
-          sentence_id: number
-        }
-        Insert: {
-          created_at?: string
-          id?: number
-          kotoba_id: number
-          sentence_id: number
-        }
-        Update: {
-          created_at?: string
-          id?: number
-          kotoba_id?: number
-          sentence_id?: number
-        }
-        Relationships: [
-          {
-            foreignKeyName: "sentence_kotoba_kotoba_id_fkey"
-            columns: ["kotoba_id"]
-            isOneToOne: false
-            referencedRelation: "kotoba"
-            referencedColumns: ["id"]
-          },
-          {
-            foreignKeyName: "sentence_kotoba_sentence_id_fkey"
-            columns: ["sentence_id"]
-            isOneToOne: false
-            referencedRelation: "sentences"
             referencedColumns: ["id"]
           },
         ]
