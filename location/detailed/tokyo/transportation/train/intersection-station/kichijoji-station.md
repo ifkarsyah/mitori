@@ -2,7 +2,8 @@
 title_en: Kichijoji
 title_jp: 吉祥寺
 station_type: intersection
-line: JR Chuo Line
+station_number: JC-14, IN-17
+line: JR Chuo Line, Keio Inokashira Line
 ---
 
 # Kichijoji

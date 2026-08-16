@@ -2,6 +2,7 @@
 title_en: Mizonokuchi
 title_jp: 溝の口
 station_type: intersection
+station_number: DT-10, OM-16
 line: Tokyu Den-en-toshi Line, Tokyu Oimachi Line
 ---
 

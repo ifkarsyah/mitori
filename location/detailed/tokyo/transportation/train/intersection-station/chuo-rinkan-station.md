@@ -2,7 +2,8 @@
 title_en: Chuo-Rinkan
 title_jp: 中央林間
 station_type: intersection
-line: Tokyu Den-en-toshi Line
+station_number: DT-27, OE-02
+line: Tokyu Den-en-toshi Line, Odakyu Enoshima Line
 ---
 
 # Chuo-Rinkan

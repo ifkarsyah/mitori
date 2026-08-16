@@ -2,7 +2,8 @@
 title_en: Azamino
 title_jp: あざみ野
 station_type: intersection
-line: Tokyu Den-en-toshi Line
+station_number: DT-16, B-32
+line: Tokyu Den-en-toshi Line, Yokohama Municipal Subway Blue Line
 ---
 
 # Azamino

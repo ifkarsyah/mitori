@@ -2,7 +2,8 @@
 title_en: Shimbashi
 title_jp: 新橋
 station_type: intersection
-line: JR Yamanote Line, JR Keihin-Tohoku Line
+station_number: JY-29, JK-24, G-08, A-10, U-01
+line: JR Yamanote Line, JR Keihin-Tohoku Line, Ginza Line, Toei Asakusa Line, Yurikamome
 ---
 
 # Shimbashi

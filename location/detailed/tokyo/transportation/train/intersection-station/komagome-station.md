@@ -2,7 +2,8 @@
 title_en: Komagome
 title_jp: 駒込
 station_type: intersection
-line: JR Yamanote Line
+station_number: JY-10, N-14
+line: JR Yamanote Line, Namboku Line
 ---
 
 # Komagome

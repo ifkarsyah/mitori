@@ -2,7 +2,8 @@
 title_en: Tsurumi
 title_jp: 鶴見
 station_type: intersection
-line: JR Keihin-Tohoku Line
+station_number: JK-15, JI-01
+line: JR Keihin-Tohoku Line, JR Tsurumi Line
 ---
 
 # Tsurumi

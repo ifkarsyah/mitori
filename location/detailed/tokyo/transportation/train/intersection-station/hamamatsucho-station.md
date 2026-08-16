@@ -2,7 +2,8 @@
 title_en: Hamamatsucho
 title_jp: 浜松町
 station_type: intersection
-line: JR Yamanote Line, JR Keihin-Tohoku Line
+station_number: JY-28, JK-23, MO-01
+line: JR Yamanote Line, JR Keihin-Tohoku Line, Tokyo Monorail
 ---
 
 # Hamamatsucho

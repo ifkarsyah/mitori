@@ -2,7 +2,8 @@
 title_en: Ogikubo
 title_jp: 荻窪
 station_type: intersection
-line: JR Chuo Line
+station_number: JC-12, M-01
+line: JR Chuo Line, Marunouchi Line
 ---
 
 # Ogikubo

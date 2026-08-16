@@ -2,7 +2,8 @@
 title_en: Shimokitazawa
 title_jp: 下北沢
 station_type: intersection
-line: Odakyu Odawara Line
+station_number: OH-07, IN-05
+line: Odakyu Odawara Line, Keio Inokashira Line
 ---
 
 # Shimokitazawa

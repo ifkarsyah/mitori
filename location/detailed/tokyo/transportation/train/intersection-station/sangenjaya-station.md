@@ -2,7 +2,8 @@
 title_en: Sangenjaya
 title_jp: 三軒茶屋
 station_type: intersection
-line: Tokyu Den-en-toshi Line
+station_number: DT-03, SG-01
+line: Tokyu Den-en-toshi Line, Tokyu Setagaya Line
 ---
 
 # Sangenjaya

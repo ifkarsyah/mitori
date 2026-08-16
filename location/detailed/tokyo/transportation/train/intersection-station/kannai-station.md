@@ -2,7 +2,8 @@
 title_en: Kannai
 title_jp: 関内
 station_type: intersection
-line: JR Keihin-Tohoku Line
+station_number: JK-10, B-17
+line: JR Keihin-Tohoku Line, Yokohama Municipal Subway Blue Line
 ---
 
 # Kannai

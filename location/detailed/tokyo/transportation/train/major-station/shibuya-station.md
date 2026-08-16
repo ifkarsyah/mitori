@@ -2,7 +2,8 @@
 title_en: Shibuya
 title_jp: 渋谷
 station_type: major
-line: Tokyu Den-en-toshi Line, JR Yamanote Line, JR Saikyo Line
+station_number: DT-01, JY-20, JA-10, G-01, F-16, Z-01, IN-01
+line: Tokyu Den-en-toshi Line, JR Yamanote Line, JR Saikyo Line, Ginza Line, Fukutoshin Line, Hanzomon Line, Keio Inokashira Line
 ---
 
 # Shibuya

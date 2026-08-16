@@ -2,7 +2,8 @@
 title_en: Jiyugaoka
 title_jp: 自由が丘
 station_type: intersection
-line: Tokyu Oimachi Line
+station_number: OM-10, TY-07
+line: Tokyu Oimachi Line, Tokyu Toyoko Line
 ---
 
 # Jiyugaoka

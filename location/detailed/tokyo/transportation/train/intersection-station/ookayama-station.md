@@ -2,7 +2,8 @@
 title_en: Ookayama
 title_jp: 大岡山
 station_type: intersection
-line: Tokyu Oimachi Line
+station_number: OM-08, MG-06
+line: Tokyu Oimachi Line, Tokyu Meguro Line
 ---
 
 # Ookayama

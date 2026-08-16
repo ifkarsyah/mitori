@@ -2,7 +2,8 @@
 title_en: Akihabara
 title_jp: 秋葉原
 station_type: intersection
-line: JR Yamanote Line, JR Keihin-Tohoku Line
+station_number: JY-03, JK-28, H-16
+line: JR Yamanote Line, JR Keihin-Tohoku Line, Hibiya Line
 ---
 
 # Akihabara

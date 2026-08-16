@@ -2,7 +2,8 @@
 title_en: Higashi-Kanagawa
 title_jp: 東神奈川
 station_type: intersection
-line: JR Keihin-Tohoku Line
+station_number: JK-13, JH-13
+line: JR Keihin-Tohoku Line, JR Yokohama Line
 ---
 
 # Higashi-Kanagawa

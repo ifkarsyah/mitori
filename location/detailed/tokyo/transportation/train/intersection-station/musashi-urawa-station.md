@@ -2,7 +2,8 @@
 title_en: Musashi-Urawa
 title_jp: 武蔵浦和
 station_type: intersection
-line: JR Saikyo Line
+station_number: JA-21, JM-26
+line: JR Saikyo Line, JR Musashino Line
 ---
 
 # Musashi-Urawa

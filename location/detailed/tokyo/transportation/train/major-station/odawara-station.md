@@ -2,7 +2,8 @@
 title_en: Odawara
 title_jp: 小田原
 station_type: major
-line: Odakyu Odawara Line
+station_number: OH-47, JT-16
+line: Odakyu Odawara Line, JR Tokaido Line
 ---
 
 # Odawara

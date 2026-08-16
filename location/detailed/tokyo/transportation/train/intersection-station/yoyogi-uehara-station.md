@@ -2,7 +2,8 @@
 title_en: Yoyogi-Uehara
 title_jp: 代々木上原
 station_type: intersection
-line: Odakyu Odawara Line
+station_number: C-01
+line: Odakyu Odawara Line, Chiyoda Line
 ---
 
 # Yoyogi-Uehara

@@ -2,7 +2,8 @@
 title_en: Takadanobaba
 title_jp: 高田馬場
 station_type: intersection
-line: JR Yamanote Line
+station_number: JY-15, T-03, SS-02
+line: JR Yamanote Line, Tozai Line, Seibu Shinjuku Line
 ---
 
 # Takadanobaba

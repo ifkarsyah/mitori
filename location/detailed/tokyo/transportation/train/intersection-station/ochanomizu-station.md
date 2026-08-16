@@ -2,7 +2,8 @@
 title_en: Ochanomizu
 title_jp: 御茶ノ水
 station_type: intersection
-line: JR Chuo Line
+station_number: JC-03, M-20
+line: JR Chuo Line, Marunouchi Line
 ---
 
 # Ochanomizu

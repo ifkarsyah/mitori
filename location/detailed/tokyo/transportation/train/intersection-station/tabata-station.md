@@ -2,6 +2,7 @@
 title_en: Tabata
 title_jp: 田端
 station_type: intersection
+station_number: JY-09, JK-34
 line: JR Yamanote Line, JR Keihin-Tohoku Line
 ---
 

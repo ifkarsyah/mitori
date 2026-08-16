@@ -2,7 +2,8 @@
 title_en: Ofuna
 title_jp: 大船
 station_type: major
-line: JR Keihin-Tohoku Line
+station_number: JK-01, JO-09, JT-07
+line: JR Keihin-Tohoku Line, JR Yokosuka Line, JR Tokaido Line
 ---
 
 # Ofuna

@@ -2,6 +2,7 @@
 title_en: Uguisudani
 title_jp: 鶯谷
 station_type: intersection
+station_number: JY-06, JK-31
 line: JR Yamanote Line, JR Keihin-Tohoku Line
 ---
 

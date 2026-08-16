@@ -2,7 +2,8 @@
 title_en: Sugamo
 title_jp: 巣鴨
 station_type: intersection
-line: JR Yamanote Line
+station_number: JY-11, I-15
+line: JR Yamanote Line, Toei Mita Line
 ---
 
 # Sugamo

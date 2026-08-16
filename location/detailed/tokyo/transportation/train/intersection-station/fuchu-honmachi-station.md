@@ -2,7 +2,8 @@
 title_en: Fuchu-Honmachi
 title_jp: 府中本町
 station_type: intersection
-line: JR Nambu Line
+station_number: JN-20, JM-35
+line: JR Nambu Line, JR Musashino Line
 ---
 
 # Fuchu-Honmachi

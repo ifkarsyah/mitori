@@ -2,7 +2,8 @@
 title_en: Yokohama
 title_jp: 横浜
 station_type: major
-line: JR Keihin-Tohoku Line
+station_number: JK-12, TY-21, SO-01, MM-01, KK-37
+line: JR Keihin-Tohoku Line, Tokyu Toyoko Line, Sotetsu Main Line, Minatomirai Line, Keikyu Main Line
 ---
 
 # Yokohama

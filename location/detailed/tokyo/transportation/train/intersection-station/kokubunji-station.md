@@ -2,7 +2,8 @@
 title_en: Kokubunji
 title_jp: 国分寺
 station_type: intersection
-line: JR Chuo Line
+station_number: JC-19, SK-01
+line: JR Chuo Line, Seibu Kokubunji Line
 ---
 
 # Kokubunji

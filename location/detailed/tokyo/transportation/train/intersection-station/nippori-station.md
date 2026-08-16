@@ -2,7 +2,8 @@
 title_en: Nippori
 title_jp: 日暮里
 station_type: intersection
-line: JR Yamanote Line, JR Keihin-Tohoku Line
+station_number: JY-07, JK-32, NT-01, KS-02
+line: JR Yamanote Line, JR Keihin-Tohoku Line, Toei Nippori-Toneri Liner, Keisei Main Line
 ---
 
 # Nippori

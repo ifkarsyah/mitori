@@ -2,7 +2,8 @@
 title_en: Nakano
 title_jp: 中野
 station_type: intersection
-line: JR Chuo Line
+station_number: JC-09, T-01
+line: JR Chuo Line, Tozai Line
 ---
 
 # Nakano

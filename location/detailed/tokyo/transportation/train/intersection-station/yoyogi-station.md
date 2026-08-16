@@ -2,7 +2,8 @@
 title_en: Yoyogi
 title_jp: 代々木
 station_type: intersection
-line: JR Yamanote Line
+station_number: JY-18, JB-11, E-26
+line: JR Yamanote Line, JR Chuo Line, Toei Oedo Line
 ---
 
 # Yoyogi

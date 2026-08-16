@@ -2,7 +2,8 @@
 title_en: Musashi-Kosugi
 title_jp: 武蔵小杉
 station_type: major
-line: JR Nambu Line
+station_number: JN-07, TY-11, MG-11, JO-15
+line: JR Nambu Line, Tokyu Toyoko Line, Tokyu Meguro Line, JR Yokosuka Line
 ---
 
 # Musashi-Kosugi

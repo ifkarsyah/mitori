@@ -2,7 +2,8 @@
 title_en: Urawa
 title_jp: 浦和
 station_type: intersection
-line: JR Keihin-Tohoku Line
+station_number: JK-43, JU-05
+line: JR Keihin-Tohoku Line, JR Utsunomiya Line
 ---
 
 # Urawa

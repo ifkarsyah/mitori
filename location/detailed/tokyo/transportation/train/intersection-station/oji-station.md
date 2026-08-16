@@ -2,7 +2,8 @@
 title_en: Oji
 title_jp: 王子
 station_type: intersection
-line: JR Keihin-Tohoku Line
+station_number: JK-36, N-16
+line: JR Keihin-Tohoku Line, Namboku Line
 ---
 
 # Oji

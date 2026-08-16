@@ -2,7 +2,8 @@
 title_en: Yotsuya
 title_jp: 四ツ谷
 station_type: intersection
-line: JR Chuo Line
+station_number: JB-14, M-12, N-08
+line: JR Chuo Line, Marunouchi Line, Namboku Line
 ---
 
 # Yotsuya
