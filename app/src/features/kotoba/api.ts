@@ -14,7 +14,7 @@ export async function fetchKotobaList(): Promise<Kotoba[]> {
     supabase
       .from('kotoba')
       .select(
-        'id, word, reading, part_of_speech, sub_part_of_speech, meanings, kana_type, context_id, source_id, jlpt, created_at, updated_at',
+        'id, word, reading, part_of_speech, sub_part_of_speech, meanings, kana_type, context_id, source_id, jlpt, created_at, updated_at, learned',
       )
       .order('id')
       .range(from, to),

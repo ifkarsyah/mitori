@@ -119,6 +119,7 @@ export type Database = {
           jlpt: string | null
           kanjigraph_url: string | null
           kanjimap_url: string | null
+          learned: boolean
           meanings: string[] | null
           updated_at: string | null
         }
@@ -131,6 +132,7 @@ export type Database = {
           jlpt?: string | null
           kanjigraph_url?: string | null
           kanjimap_url?: string | null
+          learned?: boolean
           meanings?: string[] | null
           updated_at?: string | null
         }
@@ -143,6 +145,7 @@ export type Database = {
           jlpt?: string | null
           kanjigraph_url?: string | null
           kanjimap_url?: string | null
+          learned?: boolean
           meanings?: string[] | null
           updated_at?: string | null
         }
@@ -155,6 +158,7 @@ export type Database = {
           id: number
           jlpt: string | null
           kana_type: string
+          learned: boolean
           meanings: string[]
           part_of_speech: string | null
           reading: string | null
@@ -169,6 +173,7 @@ export type Database = {
           id?: number
           jlpt?: string | null
           kana_type: string
+          learned?: boolean
           meanings: string[]
           part_of_speech?: string | null
           reading?: string | null
@@ -183,6 +188,7 @@ export type Database = {
           id?: number
           jlpt?: string | null
           kana_type?: string
+          learned?: boolean
           meanings?: string[]
           part_of_speech?: string | null
           reading?: string | null

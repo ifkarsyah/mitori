@@ -32,7 +32,8 @@ CREATE TABLE public.kanji (
     kanjimap_url text,
     kanjigraph_url text,
     meanings text[],
-    cluster text
+    cluster text,
+    learned boolean NOT NULL DEFAULT false
 );
 
 COMMENT ON TABLE public.kanji IS 'Individual kanji extracted from words.';
@@ -82,7 +83,8 @@ CREATE TABLE public.kotoba (
     sub_part_of_speech text,
     jlpt text,
     source_id bigint REFERENCES public.source(id),
-    kana_type text NOT NULL CHECK (kana_type IN ('kanji', 'hiragana', 'katakana'))
+    kana_type text NOT NULL CHECK (kana_type IN ('kanji', 'hiragana', 'katakana')),
+    learned boolean NOT NULL DEFAULT false
 );
 
 COMMENT ON TABLE public.kotoba IS 'Core vocabulary table.';
