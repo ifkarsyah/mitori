@@ -1,1 +1,9 @@
 data/
+
+*.pyc
+__pycache__/
+.env
+.env.*
+!.env.example
+.venv/
+.DS_Store
