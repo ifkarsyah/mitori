@@ -7,3 +7,9 @@ line: Tokyu Oimachi Line
 ---
 
 # Shimo-Shinmei
+
+## Literal Meaning
+
+下神明: "lower Shinmei (shrine)"
+- 下 (しも): lower
+- 神明 (しんめい): divine light (a shrine name)

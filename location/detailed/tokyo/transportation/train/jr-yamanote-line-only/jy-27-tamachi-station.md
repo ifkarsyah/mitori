@@ -9,3 +9,9 @@ line: JR Yamanote Line
 # Tamachi
 
 You can also connect here to: JR Keihin-Tohoku Line (JK-22).
+
+## Literal Meaning
+
+田町: "field town"
+- 田 (た): field
+- 町 (まち): town

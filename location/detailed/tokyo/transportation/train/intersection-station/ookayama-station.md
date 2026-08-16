@@ -9,3 +9,9 @@ line: Tokyu Oimachi Line, Tokyu Meguro Line
 # Ookayama
 
 Connects to the Tokyu Meguro Line.
+
+## Literal Meaning
+
+大岡山: "big hill mountain"
+- 大岡 (おおおか): big hill/ridge
+- 山 (やま): mountain

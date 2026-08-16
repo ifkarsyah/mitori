@@ -7,3 +7,9 @@ line: Odakyu Odawara Line
 ---
 
 # Tomizu
+
+## Literal Meaning
+
+富水: "abundant water"
+- 富 (とみ): wealth/abundance
+- 水 (すい): water

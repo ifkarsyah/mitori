@@ -9,3 +9,9 @@ line: JR Yamanote Line, JR Keihin-Tohoku Line, Keikyu Main Line
 # Shinagawa
 
 A major hub with Tokaido/Sanyo Shinkansen service and the Keikyu Main Line toward Haneda Airport.
+
+## Literal Meaning
+
+品川: "goods river"
+- 品 (しな): goods, or possibly an old river name
+- 川 (がわ): river

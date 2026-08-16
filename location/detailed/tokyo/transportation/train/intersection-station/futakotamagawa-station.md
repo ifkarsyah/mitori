@@ -9,3 +9,9 @@ line: Tokyu Den-en-toshi Line, Tokyu Oimachi Line
 # Futako-Tamagawa
 
 Northern terminus of the Oimachi Line and a stop on the Den-en-toshi Line.
+
+## Literal Meaning
+
+二子玉川: "twins' Tama River"
+- 二子 (ふたこ): twins, from twin burial mounds nearby
+- 玉川 (たまがわ): Tama River

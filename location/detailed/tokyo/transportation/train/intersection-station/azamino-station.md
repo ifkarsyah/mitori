@@ -9,3 +9,9 @@ line: Tokyu Den-en-toshi Line, Yokohama Municipal Subway Blue Line
 # Azamino
 
 Connects to the Yokohama Municipal Subway Blue Line.
+
+## Literal Meaning
+
+あざみ野: "thistle field"
+- あざみ (azami): thistle flower
+- 野 (の): field

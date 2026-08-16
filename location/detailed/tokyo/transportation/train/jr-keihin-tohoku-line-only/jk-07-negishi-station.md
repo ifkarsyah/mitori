@@ -7,3 +7,9 @@ line: JR Keihin-Tohoku Line
 ---
 
 # Negishi
+
+## Literal Meaning
+
+根岸: "root shore"
+- 根 (ね): root/base
+- 岸 (ぎし): shore/bank

@@ -9,3 +9,9 @@ line: Odakyu Odawara Line
 # Hon-Atsugi
 
 The main station serving central Atsugi City.
+
+## Literal Meaning
+
+本厚木: "main Atsugi"
+- 本 (ほん): main
+- 厚木 (あつぎ): thick wood

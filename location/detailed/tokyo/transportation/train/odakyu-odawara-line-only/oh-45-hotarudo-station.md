@@ -7,3 +7,9 @@ line: Odakyu Odawara Line
 ---
 
 # Hotaruda
+
+## Literal Meaning
+
+螢田: "firefly field"
+- 螢 (ほたる): firefly
+- 田 (だ): field

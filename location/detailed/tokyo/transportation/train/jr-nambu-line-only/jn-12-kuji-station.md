@@ -7,3 +7,9 @@ line: JR Nambu Line
 ---
 
 # Kuji
+
+## Literal Meaning
+
+久地: "everlasting land"
+- 久 (ひさ): long-lasting
+- 地 (ち): land

@@ -7,3 +7,9 @@ line: Odakyu Odawara Line
 ---
 
 # Umegaoka
+
+## Literal Meaning
+
+梅ヶ丘: "plum hill"
+- 梅 (うめ): plum
+- ヶ丘 (がおか): hill

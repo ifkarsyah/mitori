@@ -9,3 +9,9 @@ line: JR Keihin-Tohoku Line, JR Tsurumi Line
 # Tsurumi
 
 Connects to the JR Tsurumi Line.
+
+## Literal Meaning
+
+鶴見: "crane view"
+- 鶴 (つる): crane
+- 見 (み): view

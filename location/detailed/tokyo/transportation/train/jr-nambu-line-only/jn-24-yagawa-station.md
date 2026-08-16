@@ -7,3 +7,9 @@ line: JR Nambu Line
 ---
 
 # Yagawa
+
+## Literal Meaning
+
+矢川: "arrow river"
+- 矢 (や): arrow
+- 川 (がわ): river

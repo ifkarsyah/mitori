@@ -7,3 +7,9 @@ line: Tokyu Den-en-toshi Line
 ---
 
 # Miyamaedaira
+
+## Literal Meaning
+
+宮前平: "flat land in front of the shrine"
+- 宮前 (みやまえ): in front of the shrine
+- 平 (だいら): flat land

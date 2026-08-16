@@ -7,3 +7,9 @@ line: JR Nambu Line
 ---
 
 # Kashimada
+
+## Literal Meaning
+
+鹿島田: "Kashima's field"
+- 鹿島 (かしま): referencing Kashima Shrine
+- 田 (だ): field

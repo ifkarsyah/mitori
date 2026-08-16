@@ -7,3 +7,9 @@ line: JR Keihin-Tohoku Line
 ---
 
 # Hongodai
+
+## Literal Meaning
+
+本郷台: "original-village plateau"
+- 本郷 (ほんごう): original village/hometown
+- 台 (だい): plateau

@@ -9,3 +9,9 @@ line: JR Chuo Line, Toei Mita Line
 # Suidobashi
 
 Connects to the Toei Mita subway line.
+
+## Literal Meaning
+
+水道橋: "waterworks bridge"
+- 水道 (すいどう): waterworks, from the historic Kanda Josui aqueduct
+- 橋 (ばし): bridge

@@ -7,3 +7,9 @@ line: JR Saikyo Line
 ---
 
 # Kita-Akabane
+
+## Literal Meaning
+
+北赤羽: "north Akabane"
+- 北 (きた): north
+- 赤羽 (あかばね): red feather

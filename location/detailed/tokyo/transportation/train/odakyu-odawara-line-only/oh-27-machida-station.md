@@ -9,3 +9,9 @@ line: Odakyu Odawara Line
 # Machida
 
 You can also connect here to: JR Yokohama Line (JH-23).
+
+## Literal Meaning
+
+町田: "town field"
+- 町 (まち): town
+- 田 (だ): field

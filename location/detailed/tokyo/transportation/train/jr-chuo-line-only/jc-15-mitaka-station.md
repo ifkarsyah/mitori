@@ -7,3 +7,9 @@ line: JR Chuo Line
 ---
 
 # Mitaka
+
+## Literal Meaning
+
+三鷹: "three hawks"
+- 三 (み): three
+- 鷹 (たか): hawk

@@ -7,3 +7,9 @@ line: JR Saikyo Line
 ---
 
 # Ukima-Funado
+
+## Literal Meaning
+
+浮間舟渡: "floating-space boat-crossing"
+- 浮間 (うきま): floating space
+- 舟渡 (ふなど): boat crossing/ford — two merged former villages

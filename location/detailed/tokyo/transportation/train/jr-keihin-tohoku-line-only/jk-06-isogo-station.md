@@ -7,3 +7,9 @@ line: JR Keihin-Tohoku Line
 ---
 
 # Isogo
+
+## Literal Meaning
+
+磯子: "rocky shore"
+- 磯 (いそ): rocky shore
+- 子 (ご): diminutive suffix

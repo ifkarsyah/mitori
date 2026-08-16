@@ -9,3 +9,8 @@ line: JR Yamanote Line, JR Saikyo Line, Hibiya Line
 # Ebisu
 
 Connects to the Hibiya subway line.
+
+## Literal Meaning
+
+恵比寿: "Ebisu (lucky god of fishermen)"
+- 恵比寿 (えびす): one of the Seven Lucky Gods — the station is actually named after Ebisu Beer, whose brewery once stood here

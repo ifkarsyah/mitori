@@ -9,3 +9,9 @@ line: JR Chuo Line
 # Shinjuku
 
 You can also connect here to: JR Yamanote Line (JY-17); JR Saikyo Line (JA-11); Odakyu Odawara Line (OH-01); Marunouchi Line (M-08); Toei Shinjuku Line (S-01); Toei Oedo Line (E-27); Keio Line (KO-01).
+
+## Literal Meaning
+
+新宿: "new post-station"
+- 新 (しん): new
+- 宿 (じゅく): post-station/lodging

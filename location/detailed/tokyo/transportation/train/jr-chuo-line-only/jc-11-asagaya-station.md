@@ -7,3 +7,9 @@ line: JR Chuo Line
 ---
 
 # Asagaya
+
+## Literal Meaning
+
+阿佐ケ谷: "Asa's valley"
+- 阿佐 (あさ): likely an old personal/clan name
+- ケ谷 (がや): valley

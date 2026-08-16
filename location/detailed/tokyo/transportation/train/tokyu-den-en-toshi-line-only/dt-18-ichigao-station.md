@@ -7,3 +7,9 @@ line: Tokyu Den-en-toshi Line
 ---
 
 # Ichigao
+
+## Literal Meaning
+
+市が尾: "market ridge"
+- 市 (いち): market
+- が尾 (がお): ridge/tail

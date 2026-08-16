@@ -9,3 +9,9 @@ line: JR Yamanote Line
 # Otsuka
 
 Connects to the Toden Arakawa streetcar line.
+
+## Literal Meaning
+
+大塚: "big mound"
+- 大 (おお): big
+- 塚 (つか): mound, often an ancient burial mound

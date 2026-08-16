@@ -8,3 +8,8 @@ line: JR Keihin-Tohoku Line
 
 # Shin-Sugita
 
+## Literal Meaning
+
+新杉田: "new Sugita"
+- 新 (しん): new
+- 杉田 (すぎた): cedar field

@@ -7,3 +7,9 @@ line: JR Nambu Line
 ---
 
 # Yaho
+
+## Literal Meaning
+
+谷保: "protected valley"
+- 谷 (や): valley
+- 保 (ほ): protect — an old administrative-unit name

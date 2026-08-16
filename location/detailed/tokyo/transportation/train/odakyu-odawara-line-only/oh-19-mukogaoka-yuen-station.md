@@ -7,3 +7,9 @@ line: Odakyu Odawara Line
 ---
 
 # Mukogaoka-Yuen
+
+## Literal Meaning
+
+向ヶ丘遊園: "amusement park on the facing hill"
+- 向ヶ丘 (むこうがおか): facing hill
+- 遊園 (ゆうえん): amusement park

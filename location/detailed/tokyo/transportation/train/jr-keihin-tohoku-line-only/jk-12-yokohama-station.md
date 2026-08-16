@@ -9,3 +9,9 @@ line: JR Keihin-Tohoku Line
 # Yokohama
 
 You can also connect here to: Tokyu Toyoko Line (TY-21); Sotetsu Main Line (SO-01); Minatomirai Line (MM-01); Keikyu Main Line (KK-37).
+
+## Literal Meaning
+
+横浜: "side beach"
+- 横 (よこ): side/horizontal
+- 浜 (はま): beach

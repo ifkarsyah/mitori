@@ -8,3 +8,8 @@ line: JR Yamanote Line
 
 # Otsuka
 
+## Literal Meaning
+
+大塚: "big mound"
+- 大 (おお): big
+- 塚 (つか): mound, often an ancient burial mound

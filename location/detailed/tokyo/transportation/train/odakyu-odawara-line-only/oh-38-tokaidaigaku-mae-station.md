@@ -7,3 +7,9 @@ line: Odakyu Odawara Line
 ---
 
 # Tokaidaigaku-mae
+
+## Literal Meaning
+
+東海大学前: "in front of Tokai University"
+- 東海大学 (とうかいだいがく): Tokai University, 'eastern sea' region + university
+- 前 (まえ): in front of

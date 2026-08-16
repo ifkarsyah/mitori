@@ -7,3 +7,8 @@ line: JR Chuo Line
 ---
 
 # Koenji
+
+## Literal Meaning
+
+高円寺: "Koenji (temple name)"
+- 高円寺 (こうえんじ): 'high circle temple' — the proper name of a nearby temple

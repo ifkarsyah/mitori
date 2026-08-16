@@ -9,3 +9,9 @@ line: JR Chuo Line
 # Yotsuya
 
 You can also connect here to: Marunouchi Line (M-12); Namboku Line (N-08).
+
+## Literal Meaning
+
+四ツ谷: "four valleys"
+- 四つ (よつ): four
+- 谷 (や): valley

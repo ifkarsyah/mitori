@@ -9,3 +9,9 @@ line: JR Chuo Line, Tozai Line
 # Nakano
 
 Connects to the Tozai subway line via through-service.
+
+## Literal Meaning
+
+中野: "middle field"
+- 中 (なか): middle
+- 野 (の): field

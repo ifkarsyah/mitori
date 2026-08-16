@@ -8,3 +8,8 @@ line: Odakyu Odawara Line
 
 # Shin-Matsuda
 
+## Literal Meaning
+
+新松田: "new Matsuda"
+- 新 (しん): new
+- 松田 (まつだ): pine field

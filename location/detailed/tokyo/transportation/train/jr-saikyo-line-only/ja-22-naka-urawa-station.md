@@ -7,3 +7,9 @@ line: JR Saikyo Line
 ---
 
 # Naka-Urawa
+
+## Literal Meaning
+
+中浦和: "middle Urawa"
+- 中 (なか): middle
+- 浦和 (うらわ): Urawa (city name)

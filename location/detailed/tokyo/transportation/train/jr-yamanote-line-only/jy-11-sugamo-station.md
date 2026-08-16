@@ -9,3 +9,9 @@ line: JR Yamanote Line
 # Sugamo
 
 You can also connect here to: Toei Mita Line (I-15).
+
+## Literal Meaning
+
+巣鴨: "duck's nest"
+- 巣 (す): nest
+- 鴨 (かも): wild duck

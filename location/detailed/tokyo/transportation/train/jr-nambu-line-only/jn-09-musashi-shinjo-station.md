@@ -7,3 +7,9 @@ line: JR Nambu Line
 ---
 
 # Musashi-Shinjo
+
+## Literal Meaning
+
+武蔵新城: "Musashi's new castle"
+- 武蔵 (むさし): Musashi
+- 新城 (しんじょう): new castle

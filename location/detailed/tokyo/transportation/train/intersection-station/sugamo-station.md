@@ -9,3 +9,9 @@ line: JR Yamanote Line, Toei Mita Line
 # Sugamo
 
 Connects to the Toei Mita subway line.
+
+## Literal Meaning
+
+巣鴨: "duck's nest"
+- 巣 (す): nest
+- 鴨 (かも): wild duck

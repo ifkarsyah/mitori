@@ -7,3 +7,9 @@ line: JR Keihin-Tohoku Line
 ---
 
 # Sakuragicho
+
+## Literal Meaning
+
+桜木町: "cherry tree town"
+- 桜木 (さくらぎ): cherry tree
+- 町 (ちょう): town

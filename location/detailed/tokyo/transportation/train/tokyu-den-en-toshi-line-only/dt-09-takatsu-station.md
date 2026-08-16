@@ -8,4 +8,8 @@ line: Tokyu Den-en-toshi Line
 
 # Takatsu
 
-You can also connect here to: Tokyu Oimachi Line (?).
+## Literal Meaning
+
+高津: "high harbor"
+- 高 (たか): high
+- 津 (つ): harbor/port

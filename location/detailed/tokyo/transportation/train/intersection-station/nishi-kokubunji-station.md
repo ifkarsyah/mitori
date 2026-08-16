@@ -9,3 +9,9 @@ line: JR Chuo Line, JR Musashino Line
 # Nishi-Kokubunji
 
 Connects to the JR Musashino Line.
+
+## Literal Meaning
+
+西国分寺: "west Kokubunji"
+- 西 (にし): west
+- 国分寺 (こくぶんじ): provincial temple

@@ -9,3 +9,9 @@ line: JR Keihin-Tohoku Line
 # Ishikawacho
 
 Near Yokohama Chinatown and the Motomachi shopping street.
+
+## Literal Meaning
+
+石川町: "stone-river town"
+- 石川 (いしかわ): stone river
+- 町 (ちょう): town

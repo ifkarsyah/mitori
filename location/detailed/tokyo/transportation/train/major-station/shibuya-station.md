@@ -9,3 +9,9 @@ line: Tokyu Den-en-toshi Line, JR Yamanote Line, JR Saikyo Line, Ginza Line, Fuk
 # Shibuya
 
 Southern terminus of the Den-en-toshi Line and a stop on the JR Yamanote loop; also connects to the Saikyo and Shonan-Shinjuku lines, the Ginza and Fukutoshin subway lines, the Keio Inokashira Line, and through-service onto the Tokyo Metro Hanzomon Line.
+
+## Literal Meaning
+
+渋谷: "astringent valley"
+- 渋 (しぶ): astringent, possibly describing rust-colored water
+- 谷 (や): valley

@@ -7,3 +7,9 @@ line: JR Nambu Line
 ---
 
 # Mukaigawara
+
+## Literal Meaning
+
+向河原: "opposite riverbed"
+- 向 (むかい): facing/opposite
+- 河原 (がわら): riverbed

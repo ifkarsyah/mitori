@@ -7,3 +7,9 @@ line: JR Keihin-Tohoku Line
 ---
 
 # Kita-Urawa
+
+## Literal Meaning
+
+北浦和: "north Urawa"
+- 北 (きた): north
+- 浦和 (うらわ): Urawa

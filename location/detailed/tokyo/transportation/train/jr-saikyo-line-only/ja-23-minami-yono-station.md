@@ -7,3 +7,9 @@ line: JR Saikyo Line
 ---
 
 # Minami-Yono
+
+## Literal Meaning
+
+南与野: "south Yono"
+- 南 (みなみ): south
+- 与野 (よの): Yono

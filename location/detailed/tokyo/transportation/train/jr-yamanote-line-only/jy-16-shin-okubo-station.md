@@ -7,3 +7,9 @@ line: JR Yamanote Line
 ---
 
 # Shin-Okubo
+
+## Literal Meaning
+
+新大久保: "new Okubo"
+- 新 (しん): new
+- 大久保 (おおくぼ): big hollow

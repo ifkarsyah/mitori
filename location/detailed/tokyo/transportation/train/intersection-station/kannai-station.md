@@ -9,3 +9,9 @@ line: JR Keihin-Tohoku Line, Yokohama Municipal Subway Blue Line
 # Kannai
 
 Connects to the Yokohama Municipal Subway Blue Line.
+
+## Literal Meaning
+
+関内: "inside the checkpoint"
+- 関 (かん): barrier/checkpoint
+- 内 (ない): inside — from a former gate guarding the Yokohama foreign settlement

@@ -9,3 +9,9 @@ line: JR Yamanote Line, JR Keihin-Tohoku Line, Ginza Line, Toei Asakusa Line, Yu
 # Shimbashi
 
 Connects to the Ginza and Toei Asakusa subway lines and the Yurikamome toward Odaiba.
+
+## Literal Meaning
+
+新橋: "new bridge"
+- 新 (しん): new
+- 橋 (ばし): bridge

@@ -9,3 +9,9 @@ line: JR Yamanote Line, JR Keihin-Tohoku Line, Chiyoda Line, Toei Nippori-Toneri
 # Nishi-Nippori
 
 Connects to the Chiyoda subway line and the Toei Nippori-Toneri Liner.
+
+## Literal Meaning
+
+西日暮里: "west Nippori"
+- 西 (にし): west
+- 日暮里 (にっぽり): sunset village

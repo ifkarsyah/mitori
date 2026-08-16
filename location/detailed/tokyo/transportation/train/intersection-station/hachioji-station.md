@@ -9,3 +9,9 @@ line: JR Chuo Line, JR Yokohama Line
 # Hachioji
 
 Connects to the JR Yokohama Line and JR Hachiko Line.
+
+## Literal Meaning
+
+八王子: "eight princes"
+- 八 (はち): eight
+- 王子 (おうじ): princes, from a local guardian deity

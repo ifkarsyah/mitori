@@ -7,3 +7,9 @@ line: JR Saikyo Line
 ---
 
 # Toda
+
+## Literal Meaning
+
+戸田: "household field"
+- 戸 (と): door/household
+- 田 (だ): field

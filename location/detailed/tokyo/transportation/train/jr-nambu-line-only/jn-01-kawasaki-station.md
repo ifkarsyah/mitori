@@ -9,3 +9,9 @@ line: JR Nambu Line
 # Kawasaki
 
 You can also connect here to: JR Keihin-Tohoku Line (JK-16); JR Tokaido Line (JT-04).
+
+## Literal Meaning
+
+川崎: "river cape"
+- 川 (かわ): river
+- 崎 (さき): cape

@@ -9,3 +9,9 @@ line: JR Nambu Line, JR Musashino Line
 # Fuchu-Honmachi
 
 Terminus of the JR Musashino Line.
+
+## Literal Meaning
+
+府中本町: "Fuchu's main town"
+- 府中 (ふちゅう): provincial capital/government seat
+- 本町 (ほんまち): main town

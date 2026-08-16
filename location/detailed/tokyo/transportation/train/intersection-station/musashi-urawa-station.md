@@ -9,3 +9,9 @@ line: JR Saikyo Line, JR Musashino Line
 # Musashi-Urawa
 
 Connects to the JR Musashino Line.
+
+## Literal Meaning
+
+武蔵浦和: "Musashi's Urawa"
+- 武蔵 (むさし): Musashi
+- 浦和 (うらわ): Urawa

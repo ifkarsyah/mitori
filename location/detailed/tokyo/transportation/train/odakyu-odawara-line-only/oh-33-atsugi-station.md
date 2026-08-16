@@ -9,3 +9,9 @@ line: Odakyu Odawara Line
 # Atsugi
 
 Despite the name, this station is actually located in Ebina, not Atsugi City.
+
+## Literal Meaning
+
+厚木: "thick wood"
+- 厚 (あつ): thick
+- 木 (ぎ): tree/wood

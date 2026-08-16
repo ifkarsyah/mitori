@@ -9,3 +9,9 @@ line: Odakyu Odawara Line
 # Shin-Matsuda
 
 Adjacent to JR's Matsuda Station on the Gotemba Line.
+
+## Literal Meaning
+
+新松田: "new Matsuda"
+- 新 (しん): new
+- 松田 (まつだ): pine field

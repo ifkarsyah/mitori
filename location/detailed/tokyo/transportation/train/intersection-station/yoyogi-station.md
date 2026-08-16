@@ -9,3 +9,9 @@ line: JR Yamanote Line, JR Chuo Line, Toei Oedo Line
 # Yoyogi
 
 Connects to the Toei Oedo subway line.
+
+## Literal Meaning
+
+代々木: "generations-old tree"
+- 代々 (よよ): generation after generation
+- 木 (ぎ): tree

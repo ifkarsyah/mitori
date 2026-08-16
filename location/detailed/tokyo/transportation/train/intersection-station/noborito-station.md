@@ -9,3 +9,9 @@ line: JR Nambu Line, Odakyu Odawara Line
 # Noborito
 
 Connects to the Odakyu Odawara Line.
+
+## Literal Meaning
+
+登戸: "climbing crossing"
+- 登 (のぼり): ascend/climb
+- 戸 (と): door — here meaning a river crossing point

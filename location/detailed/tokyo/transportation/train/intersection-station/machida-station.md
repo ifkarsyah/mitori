@@ -9,3 +9,9 @@ line: Odakyu Odawara Line, JR Yokohama Line
 # Machida
 
 Connects to the JR Yokohama Line; a major shopping hub for southwestern Tokyo.
+
+## Literal Meaning
+
+町田: "town field"
+- 町 (まち): town
+- 田 (だ): field

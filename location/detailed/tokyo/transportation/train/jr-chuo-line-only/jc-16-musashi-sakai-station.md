@@ -7,3 +7,9 @@ line: JR Chuo Line
 ---
 
 # Musashi-Sakai
+
+## Literal Meaning
+
+武蔵境: "Musashi's border"
+- 武蔵 (むさし): Musashi
+- 境 (さかい): border/boundary

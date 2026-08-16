@@ -9,3 +9,9 @@ line: JR Saikyo Line, JR Keihin-Tohoku Line
 # Akabane
 
 Also a stop on the Keihin-Tohoku Line.
+
+## Literal Meaning
+
+赤羽: "red feather"
+- 赤 (あか): red
+- 羽 (ばね): feather

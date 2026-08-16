@@ -7,3 +7,9 @@ line: JR Keihin-Tohoku Line
 ---
 
 # Yokodai
+
+## Literal Meaning
+
+洋光台: "ocean-light plateau"
+- 洋光 (ようこう): ocean/western light
+- 台 (だい): plateau

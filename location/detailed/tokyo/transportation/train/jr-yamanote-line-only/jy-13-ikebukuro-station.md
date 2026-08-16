@@ -9,3 +9,9 @@ line: JR Yamanote Line
 # Ikebukuro
 
 You can also connect here to: JR Saikyo Line (JA-12); Marunouchi Line (M-25); Yurakucho Line (Y-09); Fukutoshin Line (F-09); Seibu Ikebukuro Line (SI-01); Tobu Tojo Line (TJ-01).
+
+## Literal Meaning
+
+池袋: "bag-shaped pond"
+- 池 (いけ): pond
+- 袋 (ぶくろ): bag/sack, describing the pond's shape

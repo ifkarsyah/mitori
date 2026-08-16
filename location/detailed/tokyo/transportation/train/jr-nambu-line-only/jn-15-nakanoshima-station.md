@@ -7,3 +7,9 @@ line: JR Nambu Line
 ---
 
 # Nakanoshima
+
+## Literal Meaning
+
+中野島: "middle field island"
+- 中 (なか): middle
+- 野島 (のじま): field-island/sandbar

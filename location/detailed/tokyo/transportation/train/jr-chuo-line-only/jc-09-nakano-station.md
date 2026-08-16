@@ -9,3 +9,9 @@ line: JR Chuo Line
 # Nakano
 
 You can also connect here to: Tozai Line (T-01).
+
+## Literal Meaning
+
+中野: "middle field"
+- 中 (なか): middle
+- 野 (の): field

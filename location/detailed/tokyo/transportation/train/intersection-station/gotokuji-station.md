@@ -11,3 +11,9 @@ line: Odakyu Odawara Line
 Connects to the Tokyu Setagaya Line.
 
 A short walk from Yamashita (SG-08) on the Tokyu Setagaya Line — a differently-named adjacent station, same transfer point (Setagaya Line has no station literally named Gotokuji).
+
+## Literal Meaning
+
+豪徳寺: "great-virtue temple"
+- 豪徳 (ごうとく): great virtue
+- 寺 (じ): temple — associated with the beckoning-cat maneki-neko legend

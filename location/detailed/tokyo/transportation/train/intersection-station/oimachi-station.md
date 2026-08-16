@@ -9,3 +9,9 @@ line: Tokyu Oimachi Line, JR Keihin-Tohoku Line, Rinkai Line
 # Oimachi
 
 Southern/eastern terminus; connects to the JR Keihin-Tohoku Line and the Rinkai Line.
+
+## Literal Meaning
+
+大井町: "big-well town"
+- 大井 (おおい): big well
+- 町 (まち): town

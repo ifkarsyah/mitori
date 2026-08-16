@@ -7,3 +7,9 @@ line: JR Chuo Line
 ---
 
 # Musashi-Koganei
+
+## Literal Meaning
+
+武蔵小金井: "Musashi's Koganei"
+- 武蔵 (むさし): Musashi
+- 小金井 (こがねい): small golden well

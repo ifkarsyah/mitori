@@ -7,3 +7,9 @@ line: Odakyu Odawara Line
 ---
 
 # Higashi-Kitazawa
+
+## Literal Meaning
+
+東北沢: "east Kitazawa"
+- 東 (ひがし): east
+- 北沢 (きたざわ): north marsh

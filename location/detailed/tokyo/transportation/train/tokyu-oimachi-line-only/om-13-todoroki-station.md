@@ -9,3 +9,8 @@ line: Tokyu Oimachi Line
 # Todoroki
 
 Near Todoroki Valley, a small ravine walking path.
+
+## Literal Meaning
+
+等々力: "roaring"
+- 等々力 (とどろき): onomatopoeic for a rumbling/roaring sound — named for the nearby Todoroki Falls

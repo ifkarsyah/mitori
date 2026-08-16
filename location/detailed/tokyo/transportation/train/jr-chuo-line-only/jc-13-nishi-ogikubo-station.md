@@ -7,3 +7,9 @@ line: JR Chuo Line
 ---
 
 # Nishi-Ogikubo
+
+## Literal Meaning
+
+西荻窪: "west Ogikubo"
+- 西 (にし): west
+- 荻窪 (おぎくぼ): reed hollow

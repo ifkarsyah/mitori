@@ -9,3 +9,9 @@ line: JR Yamanote Line, Toei Asakusa Line, Tokyu Ikegami Line
 # Gotanda
 
 Connects to the Tokyu Ikegami Line and the Toei Asakusa subway line.
+
+## Literal Meaning
+
+五反田: "five-tan rice field"
+- 五反 (ごたん): five tan, an old land-area unit
+- 田 (た): rice field

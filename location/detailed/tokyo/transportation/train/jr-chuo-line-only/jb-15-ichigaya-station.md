@@ -9,3 +9,9 @@ line: JR Chuo Line
 # Ichigaya
 
 You can also connect here to: Namboku Line (N-09); Yurakucho Line (Y-14); Toei Shinjuku Line (S-04).
+
+## Literal Meaning
+
+市ケ谷: "market valley"
+- 市 (いち): market
+- ケ谷 (がや): valley

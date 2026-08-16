@@ -11,3 +11,9 @@ line: JR Nambu Line, JR Keihin-Tohoku Line, JR Tokaido Line
 Southern terminus; connects to the JR Tokaido, Keihin-Tohoku, and Yokosuka lines, and the Keikyu Main Line.
 
 Also a short walk from Keikyu Kawasaki (KK-20) on the Keikyu Main Line — a differently-named adjacent station, same transfer point.
+
+## Literal Meaning
+
+川崎: "river cape"
+- 川 (かわ): river
+- 崎 (さき): cape

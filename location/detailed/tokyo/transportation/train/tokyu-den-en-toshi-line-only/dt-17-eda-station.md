@@ -7,3 +7,9 @@ line: Tokyu Den-en-toshi Line
 ---
 
 # Eda
+
+## Literal Meaning
+
+江田: "inlet field"
+- 江 (え): inlet/bay
+- 田 (だ): field

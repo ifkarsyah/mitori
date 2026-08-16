@@ -7,3 +7,9 @@ line: Odakyu Odawara Line
 ---
 
 # Zama
+
+## Literal Meaning
+
+座間: "seating space"
+- 座 (ざ): seat
+- 間 (ま): space, likely ateji

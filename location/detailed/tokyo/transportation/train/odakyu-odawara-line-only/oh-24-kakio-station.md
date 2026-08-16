@@ -7,3 +7,9 @@ line: Odakyu Odawara Line
 ---
 
 # Kakio
+
+## Literal Meaning
+
+柿生: "persimmon grove"
+- 柿 (かき): persimmon
+- 生 (お/おい): growing, i.e. grove

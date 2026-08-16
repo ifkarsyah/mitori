@@ -7,3 +7,9 @@ line: Tokyu Den-en-toshi Line
 ---
 
 # Tsukimino
+
+## Literal Meaning
+
+つきみ野: "moon-viewing field"
+- つきみ (tsukimi): moon-viewing
+- 野 (の): field

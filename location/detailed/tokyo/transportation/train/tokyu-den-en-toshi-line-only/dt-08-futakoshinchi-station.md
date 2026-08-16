@@ -8,4 +8,8 @@ line: Tokyu Den-en-toshi Line
 
 # Futakoshinchi
 
-You can also connect here to: Tokyu Oimachi Line (?).
+## Literal Meaning
+
+二子新地: "twins' new land"
+- 二子 (ふたこ): twins
+- 新地 (しんち): newly reclaimed land

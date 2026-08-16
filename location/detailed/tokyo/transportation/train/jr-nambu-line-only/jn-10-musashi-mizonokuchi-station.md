@@ -8,3 +8,8 @@ line: JR Nambu Line
 
 # Musashi-Mizonokuchi
 
+## Literal Meaning
+
+武蔵溝ノ口: "Musashi's ditch-mouth"
+- 武蔵 (むさし): Musashi
+- 溝ノ口 (みぞのくち): ditch's mouth/opening

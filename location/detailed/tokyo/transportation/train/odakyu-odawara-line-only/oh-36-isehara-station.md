@@ -7,3 +7,9 @@ line: Odakyu Odawara Line
 ---
 
 # Isehara
+
+## Literal Meaning
+
+伊勢原: "Ise's plain"
+- 伊勢 (いせ): Ise (province, home of Ise Grand Shrine)
+- 原 (はら): plain

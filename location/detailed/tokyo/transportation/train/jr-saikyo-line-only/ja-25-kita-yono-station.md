@@ -7,3 +7,9 @@ line: JR Saikyo Line
 ---
 
 # Kita-Yono
+
+## Literal Meaning
+
+北与野: "north Yono"
+- 北 (きた): north
+- 与野 (よの): Yono

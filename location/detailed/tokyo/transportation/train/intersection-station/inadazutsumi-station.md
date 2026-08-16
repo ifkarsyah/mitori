@@ -11,3 +11,9 @@ line: JR Nambu Line
 A short walk from Keio Inadazutsumi Station on the Keio Sagamihara Line.
 
 Also a short walk from Keio-Inadazutsumi (KO-36) on the Keio Sagamihara Line — a differently-named adjacent station.
+
+## Literal Meaning
+
+稲田堤: "rice-field embankment"
+- 稲田 (いなだ): rice field
+- 堤 (づつみ): embankment/levee

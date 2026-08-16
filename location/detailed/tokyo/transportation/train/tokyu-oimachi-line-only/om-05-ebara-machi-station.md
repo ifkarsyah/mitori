@@ -7,3 +7,9 @@ line: Tokyu Oimachi Line
 ---
 
 # Ebara-machi
+
+## Literal Meaning
+
+荏原町: "Ebara town"
+- 荏原 (えばら): old district name, from a type of perilla plant + plain
+- 町 (まち): town

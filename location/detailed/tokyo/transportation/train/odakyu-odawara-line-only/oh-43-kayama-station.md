@@ -7,3 +7,9 @@ line: Odakyu Odawara Line
 ---
 
 # Kayama
+
+## Literal Meaning
+
+栢山: "oak mountain"
+- 栢 (かや): a type of oak/nutmeg tree
+- 山 (やま): mountain

@@ -9,3 +9,9 @@ line: JR Yamanote Line
 # Komagome
 
 You can also connect here to: Namboku Line (N-14).
+
+## Literal Meaning
+
+駒込: "horse enclosure"
+- 駒 (こま): colt/young horse
+- 込 (ごめ): enclosed area

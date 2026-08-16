@@ -7,3 +7,9 @@ line: Odakyu Odawara Line
 ---
 
 # Setagaya-Daita
+
+## Literal Meaning
+
+世田谷代田: "Setagaya's Daita"
+- 世田谷 (せたがや): Setagaya district name
+- 代田 (だいた): substitute rice paddy

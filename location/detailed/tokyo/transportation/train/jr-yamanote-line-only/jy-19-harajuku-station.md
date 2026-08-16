@@ -7,3 +7,9 @@ line: JR Yamanote Line
 ---
 
 # Harajuku
+
+## Literal Meaning
+
+原宿: "plain lodging"
+- 原 (はら): plain/field
+- 宿 (じゅく): lodging, post-station

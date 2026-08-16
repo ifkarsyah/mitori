@@ -7,3 +7,9 @@ line: JR Nambu Line
 ---
 
 # Shukugawara
+
+## Literal Meaning
+
+宿河原: "post-town riverbed"
+- 宿 (しゅく): lodging/post-town
+- 河原 (がわら): riverbed

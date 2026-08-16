@@ -7,3 +7,9 @@ line: Odakyu Odawara Line
 ---
 
 # Ikuta
+
+## Literal Meaning
+
+生田: "living field"
+- 生 (いく): living/fertile
+- 田 (た): field

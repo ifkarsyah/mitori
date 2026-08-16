@@ -7,3 +7,9 @@ line: Odakyu Odawara Line
 ---
 
 # Yoyogi-Hachiman
+
+## Literal Meaning
+
+代々木八幡: "Yoyogi's Hachiman shrine"
+- 代々木 (よよぎ): Yoyogi
+- 八幡 (はちまん): Hachiman, god of war/archery

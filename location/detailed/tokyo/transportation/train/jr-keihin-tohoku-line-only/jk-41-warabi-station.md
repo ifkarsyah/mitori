@@ -7,3 +7,8 @@ line: JR Keihin-Tohoku Line
 ---
 
 # Warabi
+
+## Literal Meaning
+
+蕨: "bracken fern"
+- 蕨 (わらび): bracken fern

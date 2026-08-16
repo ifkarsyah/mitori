@@ -7,3 +7,10 @@ line: Tokyu Den-en-toshi Line
 ---
 
 # Minami-machida Grandberry Park
+
+## Literal Meaning
+
+南町田グランベリーパーク: "south Machida, Grandberry Park"
+- 南 (みなみ): south
+- 町田 (まちだ): town field
+- グランベリーパーク (guranberi paku): Grandberry Park (English loanword, shopping mall)

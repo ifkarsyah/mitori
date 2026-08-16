@@ -9,3 +9,9 @@ line: JR Nambu Line
 # Tachikawa
 
 You can also connect here to: JR Chuo Line (JC-22).
+
+## Literal Meaning
+
+立川: "standing river"
+- 立 (たち): standing, likely from a steep riverbank
+- 川 (かわ): river

@@ -7,3 +7,9 @@ line: JR Nambu Line
 ---
 
 # Yanokuchi
+
+## Literal Meaning
+
+矢野口: "entrance to arrow field"
+- 矢野 (やの): arrow field
+- 口 (くち): mouth/entrance

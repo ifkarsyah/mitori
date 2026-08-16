@@ -9,3 +9,9 @@ line: Tokyu Den-en-toshi Line, Tokyu Setagaya Line
 # Sangenjaya
 
 Connects to the Tokyu Setagaya Line, a small local tram-style line.
+
+## Literal Meaning
+
+三軒茶屋: "three teahouses"
+- 三軒 (さんげん): three houses/buildings
+- 茶屋 (ちゃや): teahouse

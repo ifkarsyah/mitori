@@ -8,3 +8,8 @@ line: JR Nambu Line
 
 # Inadazutsumi
 
+## Literal Meaning
+
+稲田堤: "rice-field embankment"
+- 稲田 (いなだ): rice field
+- 堤 (づつみ): embankment/levee

@@ -7,3 +7,9 @@ line: JR Chuo Line
 ---
 
 # Kunitachi
+
+## Literal Meaning
+
+国立: "coined from Kokubunji + Tachikawa"
+- 国 (くに/こく): from Kokubunji
+- 立 (たち/りつ): from Tachikawa — town founders combined the two neighboring station names

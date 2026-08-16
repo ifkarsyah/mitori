@@ -7,3 +7,9 @@ line: JR Nambu Line
 ---
 
 # Nishifu
+
+## Literal Meaning
+
+西府: "west of the office"
+- 西 (にし): west
+- 府 (ふ): government office, referencing nearby Fuchu

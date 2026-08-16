@@ -7,3 +7,9 @@ line: Odakyu Odawara Line
 ---
 
 # Komae
+
+## Literal Meaning
+
+狛江: "Korean inlet"
+- 狛 (こま): Goguryeo/Korean, from early Korean settlers
+- 江 (え): inlet

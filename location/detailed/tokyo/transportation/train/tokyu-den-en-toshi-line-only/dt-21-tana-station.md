@@ -7,3 +7,9 @@ line: Tokyu Den-en-toshi Line
 ---
 
 # Tana
+
+## Literal Meaning
+
+田奈: "field na"
+- 田 (た): field
+- 奈 (な): phonetic character, largely ateji

@@ -7,3 +7,9 @@ line: JR Keihin-Tohoku Line
 ---
 
 # Shin-Koyasu
+
+## Literal Meaning
+
+新子安: "new Koyasu"
+- 新 (しん): new
+- 子安 (こやす): safe childbirth, a shrine dedication

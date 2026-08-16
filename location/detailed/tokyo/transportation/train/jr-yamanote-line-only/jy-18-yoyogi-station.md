@@ -9,3 +9,9 @@ line: JR Yamanote Line
 # Yoyogi
 
 You can also connect here to: JR Chuo Line (JB-11); Toei Oedo Line (E-26).
+
+## Literal Meaning
+
+代々木: "generations-old tree"
+- 代々 (よよ): generation after generation
+- 木 (ぎ): tree

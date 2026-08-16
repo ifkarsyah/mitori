@@ -7,3 +7,9 @@ line: JR Nambu Line
 ---
 
 # Tsudayama
+
+## Literal Meaning
+
+津田山: "Tsuda mountain"
+- 津田 (つだ): harbor field
+- 山 (やま): mountain

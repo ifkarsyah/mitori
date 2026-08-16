@@ -9,3 +9,9 @@ line: JR Yamanote Line
 # Uguisudani
 
 You can also connect here to: JR Keihin-Tohoku Line (JK-31).
+
+## Literal Meaning
+
+鶯谷: "bush-warbler valley"
+- 鶯 (うぐいす): Japanese bush warbler
+- 谷 (だに): valley

@@ -7,3 +7,9 @@ line: JR Chuo Line
 ---
 
 # Yoyogi
+
+## Literal Meaning
+
+代々木: "generations-old tree"
+- 代々 (よよ): generation after generation
+- 木 (ぎ): tree

@@ -7,3 +7,9 @@ line: JR Saikyo Line
 ---
 
 # Jujo
+
+## Literal Meaning
+
+十条: "tenth strip"
+- 十 (じゅう): ten
+- 条 (じょう): strip/district, from an old grid-plan numbering

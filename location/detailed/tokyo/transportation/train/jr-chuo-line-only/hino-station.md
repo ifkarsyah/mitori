@@ -6,3 +6,9 @@ line: JR Chuo Line
 ---
 
 # Hino
+
+## Literal Meaning
+
+日野: "sun field"
+- 日 (ひ): sun
+- 野 (の): field

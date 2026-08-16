@@ -7,3 +7,9 @@ line: Tokyu Den-en-toshi Line
 ---
 
 # Fujigaoka
+
+## Literal Meaning
+
+藤が丘: "wisteria hill"
+- 藤 (ふじ): wisteria
+- が丘 (がおか): hill

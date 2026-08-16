@@ -9,3 +9,9 @@ line: JR Yamanote Line, JR Saikyo Line, Marunouchi Line, Yurakucho Line, Fukutos
 # Ikebukuro
 
 A major western Tokyo hub: the Seibu Ikebukuro Line, Tobu Tojo Line, and the Marunouchi, Yurakucho, and Fukutoshin subway lines.
+
+## Literal Meaning
+
+池袋: "bag-shaped pond"
+- 池 (いけ): pond
+- 袋 (ぶくろ): bag/sack, describing the pond's shape

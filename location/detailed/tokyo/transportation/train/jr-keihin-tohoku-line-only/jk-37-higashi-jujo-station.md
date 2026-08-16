@@ -7,3 +7,9 @@ line: JR Keihin-Tohoku Line
 ---
 
 # Higashi-Jujo
+
+## Literal Meaning
+
+東十条: "east Jujo"
+- 東 (ひがし): east
+- 十条 (じゅうじょう): tenth strip

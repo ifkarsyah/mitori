@@ -9,3 +9,9 @@ line: Odakyu Odawara Line, JR Tokaido Line
 # Odawara
 
 Terminus; connects to the Tokaido Shinkansen, JR Tokaido Line, and the Izuhakone Railway Daiyuzan Line.
+
+## Literal Meaning
+
+小田原: "small-field plain"
+- 小田 (おだ): small rice field
+- 原 (わら): plain

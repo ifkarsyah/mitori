@@ -9,3 +9,9 @@ line: JR Keihin-Tohoku Line, Tokyu Toyoko Line, Sotetsu Main Line, Minatomirai L
 # Yokohama
 
 A major hub: the Tokyu Toyoko Line, Sotetsu Main Line, Keikyu Main Line, Minatomirai Line, and the Yokohama Municipal Subway Blue Line.
+
+## Literal Meaning
+
+横浜: "side beach"
+- 横 (よこ): side/horizontal
+- 浜 (はま): beach

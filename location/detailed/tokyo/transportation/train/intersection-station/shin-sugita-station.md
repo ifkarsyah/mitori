@@ -11,3 +11,9 @@ line: JR Keihin-Tohoku Line
 Connects to the Kanazawa Seaside Line (Seaside Line monorail).
 
 The Kanazawa Seaside Line uses simple numeric station numbers (not a letter-prefixed scheme); Shin-Sugita is its stop 1.
+
+## Literal Meaning
+
+新杉田: "new Sugita"
+- 新 (しん): new
+- 杉田 (すぎた): cedar field

@@ -7,3 +7,8 @@ line: Odakyu Odawara Line
 ---
 
 # Kaisei
+
+## Literal Meaning
+
+開成: "opening to achievement"
+- 開成 (かいせい): 'to open and achieve', from a phrase in the I Ching

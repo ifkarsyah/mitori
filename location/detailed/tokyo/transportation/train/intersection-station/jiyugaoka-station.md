@@ -9,3 +9,9 @@ line: Tokyu Oimachi Line, Tokyu Toyoko Line
 # Jiyugaoka
 
 Connects to the Tokyu Toyoko Line; a popular shopping and cafe district.
+
+## Literal Meaning
+
+自由が丘: "freedom hill"
+- 自由 (じゆう): freedom/liberty
+- が丘 (がおか): hill — renamed in 1932 after the nearby Jiyu Gakuen 'Freedom School'

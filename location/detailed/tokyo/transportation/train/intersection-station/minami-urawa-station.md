@@ -9,3 +9,9 @@ line: JR Keihin-Tohoku Line, JR Musashino Line
 # Minami-Urawa
 
 Connects to the JR Musashino Line.
+
+## Literal Meaning
+
+南浦和: "south Urawa"
+- 南 (みなみ): south
+- 浦和 (うらわ): Urawa

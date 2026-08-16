@@ -7,3 +7,9 @@ line: JR Nambu Line
 ---
 
 # Minami-Tama
+
+## Literal Meaning
+
+南多摩: "south Tama"
+- 南 (みなみ): south
+- 多摩 (たま): Tama (region name)

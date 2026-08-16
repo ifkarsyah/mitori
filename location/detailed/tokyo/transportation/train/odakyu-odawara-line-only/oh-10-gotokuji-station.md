@@ -8,3 +8,8 @@ line: Odakyu Odawara Line
 
 # Gotokuji
 
+## Literal Meaning
+
+豪徳寺: "great-virtue temple"
+- 豪徳 (ごうとく): great virtue
+- 寺 (じ): temple — associated with the beckoning-cat maneki-neko legend

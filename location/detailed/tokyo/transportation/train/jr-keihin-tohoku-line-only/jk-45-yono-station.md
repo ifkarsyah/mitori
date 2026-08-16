@@ -7,3 +7,8 @@ line: JR Keihin-Tohoku Line
 ---
 
 # Yono
+
+## Literal Meaning
+
+与野: "Yono"
+- 与野 (よの): place name, likely older ateji

@@ -8,3 +8,8 @@ line: JR Chuo Line
 
 # Higashi-Nakano
 
+## Literal Meaning
+
+東中野: "east Nakano"
+- 東 (ひがし): east
+- 中野 (なかの): middle field

@@ -7,3 +7,9 @@ line: JR Nambu Line
 ---
 
 # Yako
+
+## Literal Meaning
+
+矢向: "arrow direction"
+- 矢 (や): arrow
+- 向 (こう): facing/direction

@@ -7,3 +7,9 @@ line: Tokyu Oimachi Line
 ---
 
 # Oyamadai
+
+## Literal Meaning
+
+尾山台: "tail-mountain plateau"
+- 尾山 (おやま): tail mountain
+- 台 (だい): plateau

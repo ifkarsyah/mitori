@@ -9,3 +9,9 @@ line: JR Yamanote Line, JR Keihin-Tohoku Line, Toei Nippori-Toneri Liner, Keisei
 # Nippori
 
 Connects to the Keisei Main Line (Skyliner) and the Toei Nippori-Toneri Liner.
+
+## Literal Meaning
+
+日暮里: "sunset village"
+- 日暮 (ひぐれ): sunset/day's end, a poetic old name
+- 里 (り): village

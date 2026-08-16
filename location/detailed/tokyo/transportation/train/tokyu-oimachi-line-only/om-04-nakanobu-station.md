@@ -9,3 +9,9 @@ line: Tokyu Oimachi Line
 # Nakanobu
 
 You can also connect here to: Toei Asakusa Line (A-03).
+
+## Literal Meaning
+
+中延: "middle stretch"
+- 中 (なか): middle
+- 延 (のぶ): extend/stretch

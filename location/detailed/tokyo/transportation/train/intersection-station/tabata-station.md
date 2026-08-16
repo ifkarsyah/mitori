@@ -9,3 +9,9 @@ line: JR Yamanote Line, JR Keihin-Tohoku Line
 # Tabata
 
 Branch point where the JR Keihin-Tohoku Line splits toward the Utsunomiya/Takasaki lines.
+
+## Literal Meaning
+
+田端: "field's edge"
+- 田 (た): field
+- 端 (ばた): edge

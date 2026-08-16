@@ -9,3 +9,9 @@ line: JR Yamanote Line
 # Takanawa Gateway
 
 You can also connect here to: JR Keihin-Tohoku Line (JK-21).
+
+## Literal Meaning
+
+高輪ゲートウェイ: "Takanawa gateway"
+- 高輪 (たかなわ): 'high ring', an old district name
+- ゲートウェイ (getowei): gateway (English loanword)

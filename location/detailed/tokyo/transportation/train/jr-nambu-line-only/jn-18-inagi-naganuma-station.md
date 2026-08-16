@@ -7,3 +7,9 @@ line: JR Nambu Line
 ---
 
 # Inagi-Naganuma
+
+## Literal Meaning
+
+稲城長沼: "Inagi's long marsh"
+- 稲城 (いなぎ): rice-castle
+- 長沼 (ながぬま): long marsh

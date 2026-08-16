@@ -7,3 +7,9 @@ line: JR Nambu Line
 ---
 
 # Musashi-Nakahara
+
+## Literal Meaning
+
+武蔵中原: "Musashi's middle plain"
+- 武蔵 (むさし): Musashi, the old province covering Tokyo/Saitama/part of Kanagawa
+- 中原 (なかはら): middle plain

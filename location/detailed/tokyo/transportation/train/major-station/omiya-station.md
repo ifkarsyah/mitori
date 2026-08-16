@@ -9,3 +9,9 @@ line: JR Saikyo Line, JR Keihin-Tohoku Line, JR Utsunomiya Line
 # Omiya
 
 Also a stop on the Keihin-Tohoku Line, plus a major Shinkansen hub (Tohoku, Joetsu, Hokuriku) and the JR Utsunomiya, Takasaki, and Kawagoe lines.
+
+## Literal Meaning
+
+大宮: "big shrine"
+- 大 (おお): big
+- 宮 (みや): shrine, from the large Hikawa Shrine here

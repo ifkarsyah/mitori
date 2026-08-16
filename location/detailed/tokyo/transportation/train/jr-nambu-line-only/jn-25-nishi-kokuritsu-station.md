@@ -7,3 +7,9 @@ line: JR Nambu Line
 ---
 
 # Nishi-Kokuritsu
+
+## Literal Meaning
+
+西国立: "west Kokuritsu"
+- 西 (にし): west
+- 国立 (こくりつ): here read 'Kokuritsu' (national), a different reading of the same kanji used for Kunitachi station

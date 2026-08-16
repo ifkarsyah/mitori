@@ -7,3 +7,9 @@ line: Tokyu Den-en-toshi Line
 ---
 
 # Aobadai
+
+## Literal Meaning
+
+青葉台: "green-leaf plateau"
+- 青葉 (あおば): fresh green leaves
+- 台 (だい): plateau

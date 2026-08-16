@@ -7,3 +7,9 @@ line: Odakyu Odawara Line
 ---
 
 # Tsurukawa
+
+## Literal Meaning
+
+鶴川: "crane river"
+- 鶴 (つる): crane
+- 川 (かわ): river

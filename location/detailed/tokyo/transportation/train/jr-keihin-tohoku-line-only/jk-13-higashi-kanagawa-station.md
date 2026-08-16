@@ -9,3 +9,9 @@ line: JR Keihin-Tohoku Line
 # Higashi-Kanagawa
 
 You can also connect here to: JR Yokohama Line (JH-13).
+
+## Literal Meaning
+
+東神奈川: "east Kanagawa"
+- 東 (ひがし): east
+- 神奈川 (かながわ): Kanagawa, 'divine river'

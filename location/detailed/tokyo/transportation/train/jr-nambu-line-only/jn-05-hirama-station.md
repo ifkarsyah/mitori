@@ -7,3 +7,9 @@ line: JR Nambu Line
 ---
 
 # Hirama
+
+## Literal Meaning
+
+平間: "flat space"
+- 平 (ひら): flat
+- 間 (ま): space/interval

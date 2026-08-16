@@ -7,3 +7,9 @@ line: Tokyu Den-en-toshi Line
 ---
 
 # Suzukakedai
+
+## Literal Meaning
+
+すずかけ台: "plane-tree plateau"
+- すずかけ (suzukake): plane tree / sycamore
+- 台 (だい): plateau

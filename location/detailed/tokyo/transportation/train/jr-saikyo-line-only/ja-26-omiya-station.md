@@ -9,3 +9,9 @@ line: JR Saikyo Line
 # Omiya
 
 You can also connect here to: JR Keihin-Tohoku Line (JK-47); JR Utsunomiya Line (JU-07).
+
+## Literal Meaning
+
+大宮: "big shrine"
+- 大 (おお): big
+- 宮 (みや): shrine, from the large Hikawa Shrine here

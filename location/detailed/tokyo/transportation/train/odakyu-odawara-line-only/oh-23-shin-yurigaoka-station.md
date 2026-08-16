@@ -8,3 +8,8 @@ line: Odakyu Odawara Line
 
 # Shin-Yurigaoka
 
+## Literal Meaning
+
+新百合ヶ丘: "new lily hill"
+- 新 (しん): new
+- 百合ヶ丘 (ゆりがおか): lily hill

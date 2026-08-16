@@ -9,3 +9,9 @@ line: JR Keihin-Tohoku Line
 # Tabata
 
 You can also connect here to: JR Yamanote Line (JY-09).
+
+## Literal Meaning
+
+田端: "field's edge"
+- 田 (た): field
+- 端 (ばた): edge

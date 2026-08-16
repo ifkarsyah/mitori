@@ -7,3 +7,9 @@ line: Odakyu Odawara Line
 ---
 
 # Shibusawa
+
+## Literal Meaning
+
+渋沢: "astringent marsh"
+- 渋 (しぶ): astringent/rough
+- 沢 (さわ): marsh

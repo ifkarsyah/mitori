@@ -7,3 +7,9 @@ line: JR Saikyo Line
 ---
 
 # Itabashi
+
+## Literal Meaning
+
+板橋: "plank bridge"
+- 板 (いた): plank/board
+- 橋 (ばし): bridge

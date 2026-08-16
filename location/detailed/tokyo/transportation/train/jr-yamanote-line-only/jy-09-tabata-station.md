@@ -9,3 +9,9 @@ line: JR Yamanote Line
 # Tabata
 
 You can also connect here to: JR Keihin-Tohoku Line (JK-34).
+
+## Literal Meaning
+
+田端: "field's edge"
+- 田 (た): field
+- 端 (ばた): edge

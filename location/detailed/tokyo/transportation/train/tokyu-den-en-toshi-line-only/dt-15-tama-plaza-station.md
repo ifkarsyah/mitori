@@ -7,3 +7,9 @@ line: Tokyu Den-en-toshi Line
 ---
 
 # Tama-Plaza
+
+## Literal Meaning
+
+たまプラーザ: "Tama plaza"
+- たま (Tama): the Tama area
+- プラーザ (puraza): plaza (English loanword)
