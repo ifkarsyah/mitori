@@ -1,5 +1,6 @@
 ---
-title: Iwata
+title_en: Iwata
+title_jp: 磐田市
 level: city
 ---
 

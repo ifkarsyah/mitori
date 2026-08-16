@@ -1,5 +1,6 @@
 ---
-title: Kanonji
+title_en: Kanonji
+title_jp: 観音寺市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Kawachinagano
+title_en: Kawachinagano
+title_jp: 河内長野市
 level: city
 ---
 

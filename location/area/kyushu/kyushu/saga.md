@@ -1,5 +1,6 @@
 ---
-title: Saga
+title_en: Saga
+title_jp: 佐賀県
 level: prefecture
 ---
 

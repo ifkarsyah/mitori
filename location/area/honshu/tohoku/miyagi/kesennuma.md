@@ -1,5 +1,6 @@
 ---
-title: Kesennuma
+title_en: Kesennuma
+title_jp: 気仙沼市
 level: city
 ---
 

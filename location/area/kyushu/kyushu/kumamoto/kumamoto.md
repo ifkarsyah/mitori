@@ -1,5 +1,6 @@
 ---
-title: Kumamoto
+title_en: Kumamoto
+title_jp: 熊本市
 level: city
 ---
 

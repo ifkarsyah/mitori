@@ -1,5 +1,6 @@
 ---
-title: Hannan
+title_en: Hannan
+title_jp: 阪南市
 level: city
 ---
 

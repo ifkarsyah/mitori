@@ -1,5 +1,6 @@
 ---
-title: Tokyo
+title_en: Tokyo
+title_jp: 東京都
 level: prefecture
 ---
 

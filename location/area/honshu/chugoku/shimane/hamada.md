@@ -1,5 +1,6 @@
 ---
-title: Hamada
+title_en: Hamada
+title_jp: 浜田市
 level: city
 ---
 

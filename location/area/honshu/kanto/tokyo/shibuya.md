@@ -1,5 +1,6 @@
 ---
-title: Shibuya
+title_en: Shibuya
+title_jp: 渋谷区
 level: city
 ---
 

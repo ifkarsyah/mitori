@@ -1,5 +1,6 @@
 ---
-title: Uwajima
+title_en: Uwajima
+title_jp: 宇和島市
 level: city
 ---
 

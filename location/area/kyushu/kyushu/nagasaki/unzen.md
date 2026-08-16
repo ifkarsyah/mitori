@@ -1,5 +1,6 @@
 ---
-title: Unzen
+title_en: Unzen
+title_jp: 雲仙市
 level: city
 ---
 

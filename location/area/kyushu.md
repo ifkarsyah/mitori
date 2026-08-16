@@ -1,5 +1,6 @@
 ---
-title: Kyushu
+title_en: Kyushu
+title_jp: 九州
 level: island
 ---
 

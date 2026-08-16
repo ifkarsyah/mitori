@@ -1,5 +1,6 @@
 ---
-title: Kawaguchi
+title_en: Kawaguchi
+title_jp: 川口市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Tsuruga
+title_en: Tsuruga
+title_jp: 敦賀市
 level: city
 ---
 

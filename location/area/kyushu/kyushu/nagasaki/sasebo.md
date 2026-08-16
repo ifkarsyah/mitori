@@ -1,5 +1,6 @@
 ---
-title: Sasebo
+title_en: Sasebo
+title_jp: 佐世保市
 level: city
 ---
 

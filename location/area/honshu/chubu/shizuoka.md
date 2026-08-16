@@ -1,5 +1,6 @@
 ---
-title: Shizuoka
+title_en: Shizuoka
+title_jp: 静岡県
 level: prefecture
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Osakasayama
+title_en: Osakasayama
+title_jp: 大阪狭山市
 level: city
 ---
 

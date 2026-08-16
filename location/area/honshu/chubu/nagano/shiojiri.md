@@ -1,5 +1,6 @@
 ---
-title: Shiojiri
+title_en: Shiojiri
+title_jp: 塩尻市
 level: city
 ---
 

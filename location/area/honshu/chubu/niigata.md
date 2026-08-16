@@ -1,5 +1,6 @@
 ---
-title: Niigata
+title_en: Niigata
+title_jp: 新潟県
 level: prefecture
 ---
 

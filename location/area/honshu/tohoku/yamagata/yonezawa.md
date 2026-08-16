@@ -1,5 +1,6 @@
 ---
-title: Yonezawa
+title_en: Yonezawa
+title_jp: 米沢市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Mito
+title_en: Mito
+title_jp: 水戸市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Tokorozawa
+title_en: Tokorozawa
+title_jp: 所沢市
 level: city
 ---
 

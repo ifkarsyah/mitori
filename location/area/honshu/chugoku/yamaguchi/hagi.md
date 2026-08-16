@@ -1,5 +1,6 @@
 ---
-title: Hagi
+title_en: Hagi
+title_jp: 萩市
 level: city
 ---
 

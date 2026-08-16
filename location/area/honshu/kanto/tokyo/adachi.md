@@ -1,5 +1,6 @@
 ---
-title: Adachi
+title_en: Adachi
+title_jp: 足立区
 level: city
 ---
 

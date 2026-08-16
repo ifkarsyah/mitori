@@ -1,5 +1,6 @@
 ---
-title: Nishitokyo
+title_en: Nishitokyo
+title_jp: 西東京市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Otsuki
+title_en: Otsuki
+title_jp: 大月市
 level: city
 ---
 

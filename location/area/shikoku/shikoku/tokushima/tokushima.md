@@ -1,5 +1,6 @@
 ---
-title: Tokushima
+title_en: Tokushima
+title_jp: 徳島市
 level: city
 ---
 

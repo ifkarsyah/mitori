@@ -1,5 +1,6 @@
 ---
-title: Iwakuni
+title_en: Iwakuni
+title_jp: 岩国市
 level: city
 ---
 

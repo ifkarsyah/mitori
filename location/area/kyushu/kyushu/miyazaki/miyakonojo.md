@@ -1,5 +1,6 @@
 ---
-title: Miyakonojo
+title_en: Miyakonojo
+title_jp: 都城市
 level: city
 ---
 

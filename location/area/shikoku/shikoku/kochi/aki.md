@@ -1,5 +1,6 @@
 ---
-title: Aki
+title_en: Aki
+title_jp: 安芸市
 level: city
 ---
 

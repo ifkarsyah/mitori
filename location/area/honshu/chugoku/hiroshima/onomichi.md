@@ -1,5 +1,6 @@
 ---
-title: Onomichi
+title_en: Onomichi
+title_jp: 尾道市
 level: city
 ---
 

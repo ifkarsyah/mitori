@@ -1,5 +1,6 @@
 ---
-title: Omachi
+title_en: Omachi
+title_jp: 大町市
 level: city
 ---
 

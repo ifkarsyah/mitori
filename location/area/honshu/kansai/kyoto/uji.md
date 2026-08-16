@@ -1,5 +1,6 @@
 ---
-title: Uji
+title_en: Uji
+title_jp: 宇治市
 level: city
 ---
 

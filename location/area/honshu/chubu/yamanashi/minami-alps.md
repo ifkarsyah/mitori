@@ -1,5 +1,6 @@
 ---
-title: Minami-Alps
+title_en: Minami-Alps
+title_jp: 南アルプス市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Takeo
+title_en: Takeo
+title_jp: 武雄市
 level: city
 ---
 

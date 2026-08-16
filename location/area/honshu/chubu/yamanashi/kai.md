@@ -1,5 +1,6 @@
 ---
-title: Kai
+title_en: Kai
+title_jp: 甲斐市
 level: city
 ---
 

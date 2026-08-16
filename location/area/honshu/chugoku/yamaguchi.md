@@ -1,5 +1,6 @@
 ---
-title: Yamaguchi
+title_en: Yamaguchi
+title_jp: 山口県
 level: prefecture
 ---
 

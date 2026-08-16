@@ -1,5 +1,6 @@
 ---
-title: Sado
+title_en: Sado
+title_jp: 佐渡市
 level: city
 ---
 

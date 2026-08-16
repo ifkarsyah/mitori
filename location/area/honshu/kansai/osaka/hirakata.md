@@ -1,5 +1,6 @@
 ---
-title: Hirakata
+title_en: Hirakata
+title_jp: 枚方市
 level: city
 ---
 

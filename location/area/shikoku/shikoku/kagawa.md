@@ -1,5 +1,6 @@
 ---
-title: Kagawa
+title_en: Kagawa
+title_jp: 香川県
 level: prefecture
 ---
 

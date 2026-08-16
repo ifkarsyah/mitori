@@ -1,5 +1,6 @@
 ---
-title: Fukuoka
+title_en: Fukuoka
+title_jp: 福岡県
 level: prefecture
 ---
 

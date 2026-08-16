@@ -1,5 +1,6 @@
 ---
-title: Saku
+title_en: Saku
+title_jp: 佐久市
 level: city
 ---
 

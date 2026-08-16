@@ -1,5 +1,6 @@
 ---
-title: Nagaoka
+title_en: Nagaoka
+title_jp: 長岡市
 level: city
 ---
 

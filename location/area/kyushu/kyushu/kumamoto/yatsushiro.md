@@ -1,5 +1,6 @@
 ---
-title: Yatsushiro
+title_en: Yatsushiro
+title_jp: 八代市
 level: city
 ---
 

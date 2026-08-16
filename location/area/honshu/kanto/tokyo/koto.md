@@ -1,5 +1,6 @@
 ---
-title: Koto
+title_en: Koto
+title_jp: 江東区
 level: city
 ---
 

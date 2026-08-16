@@ -1,5 +1,6 @@
 ---
-title: Kumamoto
+title_en: Kumamoto
+title_jp: 熊本県
 level: prefecture
 ---
 

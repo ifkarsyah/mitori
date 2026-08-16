@@ -1,5 +1,6 @@
 ---
-title: Iwate
+title_en: Iwate
+title_jp: 岩手県
 level: prefecture
 ---
 

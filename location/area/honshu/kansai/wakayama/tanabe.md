@@ -1,5 +1,6 @@
 ---
-title: Tanabe
+title_en: Tanabe
+title_jp: 田辺市
 level: city
 ---
 

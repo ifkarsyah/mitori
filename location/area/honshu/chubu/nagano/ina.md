@@ -1,5 +1,6 @@
 ---
-title: Ina
+title_en: Ina
+title_jp: 伊那市
 level: city
 ---
 

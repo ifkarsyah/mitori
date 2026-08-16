@@ -1,5 +1,6 @@
 ---
-title: Moriguchi
+title_en: Moriguchi
+title_jp: 守口市
 level: city
 ---
 

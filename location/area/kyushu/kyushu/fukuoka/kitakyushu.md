@@ -1,5 +1,6 @@
 ---
-title: Kitakyushu
+title_en: Kitakyushu
+title_jp: 北九州市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Wajima
+title_en: Wajima
+title_jp: 輪島市
 level: city
 ---
 

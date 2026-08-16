@@ -1,5 +1,6 @@
 ---
-title: Mie
+title_en: Mie
+title_jp: 三重県
 level: prefecture
 ---
 

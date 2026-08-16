@@ -1,5 +1,6 @@
 ---
-title: Narita
+title_en: Narita
+title_jp: 成田市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Fujiyoshida
+title_en: Fujiyoshida
+title_jp: 富士吉田市
 level: city
 ---
 

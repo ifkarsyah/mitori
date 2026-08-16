@@ -1,5 +1,6 @@
 ---
-title: Ikeda
+title_en: Ikeda
+title_jp: 池田市
 level: city
 ---
 

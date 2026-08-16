@@ -1,5 +1,6 @@
 ---
-title: Nagasaki
+title_en: Nagasaki
+title_jp: 長崎県
 level: prefecture
 ---
 

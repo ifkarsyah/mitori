@@ -1,5 +1,6 @@
 ---
-title: Higashimurayama
+title_en: Higashimurayama
+title_jp: 東村山市
 level: city
 ---
 

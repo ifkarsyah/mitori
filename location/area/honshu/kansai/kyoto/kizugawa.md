@@ -1,5 +1,6 @@
 ---
-title: Kizugawa
+title_en: Kizugawa
+title_jp: 木津川市
 level: city
 ---
 

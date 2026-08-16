@@ -1,5 +1,6 @@
 ---
-title: Seki
+title_en: Seki
+title_jp: 関市
 level: city
 ---
 

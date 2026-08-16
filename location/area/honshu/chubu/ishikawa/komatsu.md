@@ -1,5 +1,6 @@
 ---
-title: Komatsu
+title_en: Komatsu
+title_jp: 小松市
 level: city
 ---
 

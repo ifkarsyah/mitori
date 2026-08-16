@@ -1,5 +1,6 @@
 ---
-title: Kameoka
+title_en: Kameoka
+title_jp: 亀岡市
 level: city
 ---
 

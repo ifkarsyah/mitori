@@ -1,5 +1,6 @@
 ---
-title: Sendai
+title_en: Sendai
+title_jp: 仙台市
 level: city
 ---
 

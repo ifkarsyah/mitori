@@ -1,5 +1,6 @@
 ---
-title: Koganei
+title_en: Koganei
+title_jp: 小金井市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Fukui
+title_en: Fukui
+title_jp: 福井県
 level: prefecture
 ---
 

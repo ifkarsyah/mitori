@@ -1,5 +1,6 @@
 ---
-title: Nakatsu
+title_en: Nakatsu
+title_jp: 中津市
 level: city
 ---
 

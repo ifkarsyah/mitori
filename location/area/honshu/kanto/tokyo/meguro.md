@@ -1,5 +1,6 @@
 ---
-title: Meguro
+title_en: Meguro
+title_jp: 目黒区
 level: city
 ---
 

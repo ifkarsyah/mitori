@@ -1,5 +1,6 @@
 ---
-title: Kurume
+title_en: Kurume
+title_jp: 久留米市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Toyota
+title_en: Toyota
+title_jp: 豊田市
 level: city
 ---
 

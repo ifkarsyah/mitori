@@ -1,5 +1,6 @@
 ---
-title: Kakegawa
+title_en: Kakegawa
+title_jp: 掛川市
 level: city
 ---
 

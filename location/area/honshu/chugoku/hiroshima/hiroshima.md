@@ -1,5 +1,6 @@
 ---
-title: Hiroshima
+title_en: Hiroshima
+title_jp: 広島市
 level: city
 ---
 

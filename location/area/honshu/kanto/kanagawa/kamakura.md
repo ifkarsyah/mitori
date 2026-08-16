@@ -1,5 +1,6 @@
 ---
-title: Kamakura
+title_en: Kamakura
+title_jp: 鎌倉市
 level: city
 ---
 

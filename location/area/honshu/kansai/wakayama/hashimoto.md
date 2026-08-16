@@ -1,5 +1,6 @@
 ---
-title: Hashimoto
+title_en: Hashimoto
+title_jp: 橋本市
 level: city
 ---
 

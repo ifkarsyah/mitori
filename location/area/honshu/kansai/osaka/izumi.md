@@ -1,5 +1,6 @@
 ---
-title: Izumi
+title_en: Izumi
+title_jp: 和泉市
 level: city
 ---
 

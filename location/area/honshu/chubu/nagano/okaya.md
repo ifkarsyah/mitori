@@ -1,5 +1,6 @@
 ---
-title: Okaya
+title_en: Okaya
+title_jp: 岡谷市
 level: city
 ---
 

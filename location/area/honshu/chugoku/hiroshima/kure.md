@@ -1,5 +1,6 @@
 ---
-title: Kure
+title_en: Kure
+title_jp: 呉市
 level: city
 ---
 

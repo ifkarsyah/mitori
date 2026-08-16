@@ -1,5 +1,6 @@
 ---
-title: Katano
+title_en: Katano
+title_jp: 交野市
 level: city
 ---
 

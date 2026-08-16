@@ -1,5 +1,6 @@
 ---
-title: Nagano
+title_en: Nagano
+title_jp: 長野市
 level: city
 ---
 

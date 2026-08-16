@@ -1,5 +1,6 @@
 ---
-title: Izu
+title_en: Izu
+title_jp: 伊豆市
 level: city
 ---
 

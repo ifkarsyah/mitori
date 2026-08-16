@@ -1,5 +1,6 @@
 ---
-title: Fujieda
+title_en: Fujieda
+title_jp: 藤枝市
 level: city
 ---
 

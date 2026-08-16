@@ -1,5 +1,6 @@
 ---
-title: Sapporo
+title_en: Sapporo
+title_jp: 札幌市
 level: city
 ---
 

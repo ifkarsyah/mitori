@@ -1,5 +1,6 @@
 ---
-title: Ibara
+title_en: Ibara
+title_jp: 井原市
 level: city
 ---
 

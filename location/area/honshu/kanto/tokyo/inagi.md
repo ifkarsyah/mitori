@@ -1,5 +1,6 @@
 ---
-title: Inagi
+title_en: Inagi
+title_jp: 稲城市
 level: city
 ---
 

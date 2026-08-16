@@ -1,5 +1,6 @@
 ---
-title: Azumino
+title_en: Azumino
+title_jp: 安曇野市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Chikuma
+title_en: Chikuma
+title_jp: 千曲市
 level: city
 ---
 

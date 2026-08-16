@@ -1,5 +1,6 @@
 ---
-title: Kyoto
+title_en: Kyoto
+title_jp: 京都市
 level: city
 ---
 

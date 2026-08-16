@@ -1,5 +1,6 @@
 ---
-title: Ishinomaki
+title_en: Ishinomaki
+title_jp: 石巻市
 level: city
 ---
 

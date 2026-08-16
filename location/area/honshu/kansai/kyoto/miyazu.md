@@ -1,5 +1,6 @@
 ---
-title: Miyazu
+title_en: Miyazu
+title_jp: 宮津市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Susono
+title_en: Susono
+title_jp: 裾野市
 level: city
 ---
 

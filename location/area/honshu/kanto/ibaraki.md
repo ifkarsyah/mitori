@@ -1,5 +1,6 @@
 ---
-title: Ibaraki
+title_en: Ibaraki
+title_jp: 茨城県
 level: prefecture
 ---
 

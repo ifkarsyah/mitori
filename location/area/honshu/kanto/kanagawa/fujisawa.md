@@ -1,5 +1,6 @@
 ---
-title: Fujisawa
+title_en: Fujisawa
+title_jp: 藤沢市
 level: city
 ---
 

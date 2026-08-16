@@ -1,5 +1,6 @@
 ---
-title: Marugame
+title_en: Marugame
+title_jp: 丸亀市
 level: city
 ---
 

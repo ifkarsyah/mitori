@@ -1,5 +1,6 @@
 ---
-title: Akishima
+title_en: Akishima
+title_jp: 昭島市
 level: city
 ---
 

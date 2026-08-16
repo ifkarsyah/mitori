@@ -1,5 +1,6 @@
 ---
-title: Ito
+title_en: Ito
+title_jp: 伊東市
 level: city
 ---
 

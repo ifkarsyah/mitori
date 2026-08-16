@@ -1,5 +1,6 @@
 ---
-title: Kurashiki
+title_en: Kurashiki
+title_jp: 倉敷市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Yawata
+title_en: Yawata
+title_jp: 八幡市
 level: city
 ---
 

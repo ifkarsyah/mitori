@@ -1,5 +1,6 @@
 ---
-title: Fujiidera
+title_en: Fujiidera
+title_jp: 藤井寺市
 level: city
 ---
 

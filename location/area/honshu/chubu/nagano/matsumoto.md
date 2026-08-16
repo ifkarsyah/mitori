@@ -1,5 +1,6 @@
 ---
-title: Matsumoto
+title_en: Matsumoto
+title_jp: 松本市
 level: city
 ---
 

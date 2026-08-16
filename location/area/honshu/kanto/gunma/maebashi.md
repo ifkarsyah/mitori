@@ -1,5 +1,6 @@
 ---
-title: Maebashi
+title_en: Maebashi
+title_jp: 前橋市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Kunitachi
+title_en: Kunitachi
+title_jp: 国立市
 level: city
 ---
 

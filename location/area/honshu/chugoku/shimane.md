@@ -1,5 +1,6 @@
 ---
-title: Shimane
+title_en: Shimane
+title_jp: 島根県
 level: prefecture
 ---
 

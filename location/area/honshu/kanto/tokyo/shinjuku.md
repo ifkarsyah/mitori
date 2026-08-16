@@ -1,5 +1,6 @@
 ---
-title: Shinjuku
+title_en: Shinjuku
+title_jp: 新宿区
 level: city
 ---
 

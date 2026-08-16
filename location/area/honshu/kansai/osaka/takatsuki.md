@@ -1,5 +1,6 @@
 ---
-title: Takatsuki
+title_en: Takatsuki
+title_jp: 高槻市
 level: city
 ---
 

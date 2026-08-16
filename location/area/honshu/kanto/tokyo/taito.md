@@ -1,5 +1,6 @@
 ---
-title: Taito
+title_en: Taito
+title_jp: 台東区
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Komae
+title_en: Komae
+title_jp: 狛江市
 level: city
 ---
 

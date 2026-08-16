@@ -1,5 +1,6 @@
 ---
-title: Arakawa
+title_en: Arakawa
+title_jp: 荒川区
 level: city
 ---
 

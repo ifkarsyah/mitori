@@ -1,5 +1,6 @@
 ---
-title: Kishiwada
+title_en: Kishiwada
+title_jp: 岸和田市
 level: city
 ---
 

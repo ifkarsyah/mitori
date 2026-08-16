@@ -1,5 +1,6 @@
 ---
-title: Nagoya
+title_en: Nagoya
+title_jp: 名古屋市
 level: city
 ---
 

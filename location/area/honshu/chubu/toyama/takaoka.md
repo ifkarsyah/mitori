@@ -1,5 +1,6 @@
 ---
-title: Takaoka
+title_en: Takaoka
+title_jp: 高岡市
 level: city
 ---
 

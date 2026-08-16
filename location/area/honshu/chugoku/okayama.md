@@ -1,5 +1,6 @@
 ---
-title: Okayama
+title_en: Okayama
+title_jp: 岡山県
 level: prefecture
 ---
 

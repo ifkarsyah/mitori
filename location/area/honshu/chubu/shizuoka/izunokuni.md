@@ -1,5 +1,6 @@
 ---
-title: Izunokuni
+title_en: Izunokuni
+title_jp: 伊豆の国市
 level: city
 ---
 

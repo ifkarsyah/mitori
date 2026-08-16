@@ -1,5 +1,6 @@
 ---
-title: Tottori
+title_en: Tottori
+title_jp: 鳥取県
 level: prefecture
 ---
 

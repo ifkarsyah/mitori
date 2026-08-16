@@ -1,5 +1,6 @@
 ---
-title: Osaka
+title_en: Osaka
+title_jp: 大阪市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Kaizuka
+title_en: Kaizuka
+title_jp: 貝塚市
 level: city
 ---
 

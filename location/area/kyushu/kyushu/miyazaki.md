@@ -1,5 +1,6 @@
 ---
-title: Miyazaki
+title_en: Miyazaki
+title_jp: 宮崎県
 level: prefecture
 ---
 

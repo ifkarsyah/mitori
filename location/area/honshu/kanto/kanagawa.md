@@ -1,5 +1,6 @@
 ---
-title: Kanagawa
+title_en: Kanagawa
+title_jp: 神奈川県
 level: prefecture
 ---
 

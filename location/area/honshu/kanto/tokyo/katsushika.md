@@ -1,5 +1,6 @@
 ---
-title: Katsushika
+title_en: Katsushika
+title_jp: 葛飾区
 level: city
 ---
 

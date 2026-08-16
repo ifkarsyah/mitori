@@ -1,5 +1,6 @@
 ---
-title: Shimabara
+title_en: Shimabara
+title_jp: 島原市
 level: city
 ---
 

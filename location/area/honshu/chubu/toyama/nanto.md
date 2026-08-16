@@ -1,5 +1,6 @@
 ---
-title: Nanto
+title_en: Nanto
+title_jp: 南砺市
 level: city
 ---
 

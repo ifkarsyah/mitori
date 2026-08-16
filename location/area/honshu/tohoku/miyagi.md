@@ -1,5 +1,6 @@
 ---
-title: Miyagi
+title_en: Miyagi
+title_jp: 宮城県
 level: prefecture
 ---
 

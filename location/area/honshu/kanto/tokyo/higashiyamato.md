@@ -1,5 +1,6 @@
 ---
-title: Higashiyamato
+title_en: Higashiyamato
+title_jp: 東大和市
 level: city
 ---
 

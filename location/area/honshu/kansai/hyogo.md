@@ -1,5 +1,6 @@
 ---
-title: Hyogo
+title_en: Hyogo
+title_jp: 兵庫県
 level: prefecture
 ---
 

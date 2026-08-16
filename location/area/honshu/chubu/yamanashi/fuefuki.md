@@ -1,5 +1,6 @@
 ---
-title: Fuefuki
+title_en: Fuefuki
+title_jp: 笛吹市
 level: city
 ---
 

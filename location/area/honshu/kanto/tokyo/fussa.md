@@ -1,5 +1,6 @@
 ---
-title: Fussa
+title_en: Fussa
+title_jp: 福生市
 level: city
 ---
 

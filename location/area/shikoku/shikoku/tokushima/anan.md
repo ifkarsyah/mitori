@@ -1,5 +1,6 @@
 ---
-title: Anan
+title_en: Anan
+title_jp: 阿南市
 level: city
 ---
 

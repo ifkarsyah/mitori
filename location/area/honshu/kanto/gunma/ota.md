@@ -1,5 +1,6 @@
 ---
-title: Ota
+title_en: Ota
+title_jp: 太田市
 level: city
 ---
 

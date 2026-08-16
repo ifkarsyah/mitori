@@ -1,5 +1,6 @@
 ---
-title: Tondabayashi
+title_en: Tondabayashi
+title_jp: 富田林市
 level: city
 ---
 

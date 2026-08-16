@@ -1,5 +1,6 @@
 ---
-title: Amami
+title_en: Amami
+title_jp: 奄美市
 level: city
 ---
 

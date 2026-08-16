@@ -1,5 +1,6 @@
 ---
-title: Joetsu
+title_en: Joetsu
+title_jp: 上越市
 level: city
 ---
 

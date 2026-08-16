@@ -1,5 +1,6 @@
 ---
-title: Hino
+title_en: Hino
+title_jp: 日野市
 level: city
 ---
 

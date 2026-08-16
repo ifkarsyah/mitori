@@ -1,5 +1,6 @@
 ---
-title: Inuyama
+title_en: Inuyama
+title_jp: 犬山市
 level: city
 ---
 

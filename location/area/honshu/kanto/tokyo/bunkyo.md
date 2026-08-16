@@ -1,5 +1,6 @@
 ---
-title: Bunkyo
+title_en: Bunkyo
+title_jp: 文京区
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Honshu
+title_en: Honshu
+title_jp: 本州
 level: island
 ---
 

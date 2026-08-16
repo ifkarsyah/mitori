@@ -1,5 +1,6 @@
 ---
-title: Kofu
+title_en: Kofu
+title_jp: 甲府市
 level: city
 ---
 

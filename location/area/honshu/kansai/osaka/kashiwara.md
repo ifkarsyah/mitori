@@ -1,5 +1,6 @@
 ---
-title: Kashiwara
+title_en: Kashiwara
+title_jp: 柏原市
 level: city
 ---
 

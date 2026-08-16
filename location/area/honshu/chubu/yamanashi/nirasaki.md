@@ -1,5 +1,6 @@
 ---
-title: Nirasaki
+title_en: Nirasaki
+title_jp: 韮崎市
 level: city
 ---
 

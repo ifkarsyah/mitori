@@ -1,5 +1,6 @@
 ---
-title: Tsuruoka
+title_en: Tsuruoka
+title_jp: 鶴岡市
 level: city
 ---
 

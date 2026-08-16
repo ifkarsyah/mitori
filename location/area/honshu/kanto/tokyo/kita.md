@@ -1,5 +1,6 @@
 ---
-title: Kita
+title_en: Kita
+title_jp: 北区
 level: city
 ---
 

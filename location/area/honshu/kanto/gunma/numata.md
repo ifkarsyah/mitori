@@ -1,5 +1,6 @@
 ---
-title: Numata
+title_en: Numata
+title_jp: 沼田市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Musashimurayama
+title_en: Musashimurayama
+title_jp: 武蔵村山市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Shiogama
+title_en: Shiogama
+title_jp: 塩竈市
 level: city
 ---
 

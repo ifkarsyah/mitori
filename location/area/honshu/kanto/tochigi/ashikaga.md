@@ -1,5 +1,6 @@
 ---
-title: Ashikaga
+title_en: Ashikaga
+title_jp: 足利市
 level: city
 ---
 

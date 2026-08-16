@@ -1,5 +1,6 @@
 ---
-title: Toyonaka
+title_en: Toyonaka
+title_jp: 豊中市
 level: city
 ---
 

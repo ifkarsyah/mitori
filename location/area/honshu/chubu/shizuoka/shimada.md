@@ -1,5 +1,6 @@
 ---
-title: Shimada
+title_en: Shimada
+title_jp: 島田市
 level: city
 ---
 

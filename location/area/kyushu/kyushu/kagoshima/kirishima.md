@@ -1,5 +1,6 @@
 ---
-title: Kirishima
+title_en: Kirishima
+title_jp: 霧島市
 level: city
 ---
 

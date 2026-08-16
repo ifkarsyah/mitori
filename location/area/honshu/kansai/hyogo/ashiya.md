@@ -1,5 +1,6 @@
 ---
-title: Ashiya
+title_en: Ashiya
+title_jp: 芦屋市
 level: city
 ---
 

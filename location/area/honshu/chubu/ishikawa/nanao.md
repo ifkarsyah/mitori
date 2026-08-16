@@ -1,5 +1,6 @@
 ---
-title: Nanao
+title_en: Nanao
+title_jp: 七尾市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Niihama
+title_en: Niihama
+title_jp: 新居浜市
 level: city
 ---
 

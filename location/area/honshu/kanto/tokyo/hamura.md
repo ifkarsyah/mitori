@@ -1,5 +1,6 @@
 ---
-title: Hamura
+title_en: Hamura
+title_jp: 羽村市
 level: city
 ---
 

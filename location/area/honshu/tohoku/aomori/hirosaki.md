@@ -1,5 +1,6 @@
 ---
-title: Hirosaki
+title_en: Hirosaki
+title_jp: 弘前市
 level: city
 ---
 

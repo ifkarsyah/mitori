@@ -1,5 +1,6 @@
 ---
-title: Hatsukaichi
+title_en: Hatsukaichi
+title_jp: 廿日市市
 level: city
 ---
 

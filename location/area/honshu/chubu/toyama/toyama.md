@@ -1,5 +1,6 @@
 ---
-title: Toyama
+title_en: Toyama
+title_jp: 富山市
 level: city
 ---
 

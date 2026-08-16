@@ -1,5 +1,6 @@
 ---
-title: Fuchu
+title_en: Fuchu
+title_jp: 府中市
 level: city
 ---
 

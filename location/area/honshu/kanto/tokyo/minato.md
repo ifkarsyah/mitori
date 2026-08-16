@@ -1,5 +1,6 @@
 ---
-title: Minato
+title_en: Minato
+title_jp: 港区
 level: city
 ---
 

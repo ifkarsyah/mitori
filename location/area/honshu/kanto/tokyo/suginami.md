@@ -1,5 +1,6 @@
 ---
-title: Suginami
+title_en: Suginami
+title_jp: 杉並区
 level: city
 ---
 

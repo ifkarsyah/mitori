@@ -1,5 +1,6 @@
 ---
-title: Kuwana
+title_en: Kuwana
+title_jp: 桑名市
 level: city
 ---
 

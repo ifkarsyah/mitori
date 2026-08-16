@@ -1,5 +1,6 @@
 ---
-title: Chiyoda
+title_en: Chiyoda
+title_jp: 千代田区
 level: city
 ---
 

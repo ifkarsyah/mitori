@@ -1,5 +1,6 @@
 ---
-title: Himeji
+title_en: Himeji
+title_jp: 姫路市
 level: city
 ---
 

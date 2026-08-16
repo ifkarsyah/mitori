@@ -1,5 +1,6 @@
 ---
-title: Shijonawate
+title_en: Shijonawate
+title_jp: 四條畷市
 level: city
 ---
 

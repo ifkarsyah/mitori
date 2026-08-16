@@ -1,5 +1,6 @@
 ---
-title: Amakusa
+title_en: Amakusa
+title_jp: 天草市
 level: city
 ---
 

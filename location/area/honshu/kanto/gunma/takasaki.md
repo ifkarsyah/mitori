@@ -1,5 +1,6 @@
 ---
-title: Takasaki
+title_en: Takasaki
+title_jp: 高崎市
 level: city
 ---
 

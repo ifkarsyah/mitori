@@ -1,5 +1,6 @@
 ---
-title: Saitama
+title_en: Saitama
+title_jp: 埼玉県
 level: prefecture
 ---
 

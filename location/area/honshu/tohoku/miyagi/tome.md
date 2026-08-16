@@ -1,5 +1,6 @@
 ---
-title: Tome
+title_en: Tome
+title_jp: 登米市
 level: city
 ---
 

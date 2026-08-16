@@ -1,5 +1,6 @@
 ---
-title: Kodaira
+title_en: Kodaira
+title_jp: 小平市
 level: city
 ---
 

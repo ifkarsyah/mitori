@@ -1,5 +1,6 @@
 ---
-title: Omaezaki
+title_en: Omaezaki
+title_jp: 御前崎市
 level: city
 ---
 

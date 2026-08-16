@@ -1,5 +1,6 @@
 ---
-title: Hirado
+title_en: Hirado
+title_jp: 平戸市
 level: city
 ---
 

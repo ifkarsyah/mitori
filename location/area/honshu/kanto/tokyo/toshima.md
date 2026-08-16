@@ -1,5 +1,6 @@
 ---
-title: Toshima
+title_en: Toshima
+title_jp: 豊島区
 level: city
 ---
 

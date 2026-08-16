@@ -1,5 +1,6 @@
 ---
-title: Sakai
+title_en: Sakai
+title_jp: 堺市
 level: city
 ---
 

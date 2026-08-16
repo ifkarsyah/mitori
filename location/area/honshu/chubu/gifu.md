@@ -1,5 +1,6 @@
 ---
-title: Gifu
+title_en: Gifu
+title_jp: 岐阜県
 level: prefecture
 ---
 

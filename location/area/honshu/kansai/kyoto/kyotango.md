@@ -1,5 +1,6 @@
 ---
-title: Kyotango
+title_en: Kyotango
+title_jp: 京丹後市
 level: city
 ---
 

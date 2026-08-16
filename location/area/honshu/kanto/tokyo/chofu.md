@@ -1,5 +1,6 @@
 ---
-title: Chofu
+title_en: Chofu
+title_jp: 調布市
 level: city
 ---
 

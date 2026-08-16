@@ -1,5 +1,6 @@
 ---
-title: Komagane
+title_en: Komagane
+title_jp: 駒ヶ根市
 level: city
 ---
 

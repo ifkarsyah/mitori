@@ -1,5 +1,6 @@
 ---
-title: Yufu
+title_en: Yufu
+title_jp: 由布市
 level: city
 ---
 

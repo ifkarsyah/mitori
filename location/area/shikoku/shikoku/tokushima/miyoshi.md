@@ -1,5 +1,6 @@
 ---
-title: Miyoshi
+title_en: Miyoshi
+title_jp: 三好市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Nagano
+title_en: Nagano
+title_jp: 長野県
 level: prefecture
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Nikko
+title_en: Nikko
+title_jp: 日光市
 level: city
 ---
 

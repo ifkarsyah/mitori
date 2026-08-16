@@ -1,5 +1,6 @@
 ---
-title: Katsuyama
+title_en: Katsuyama
+title_jp: 勝山市
 level: city
 ---
 

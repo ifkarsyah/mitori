@@ -1,5 +1,6 @@
 ---
-title: Fujinomiya
+title_en: Fujinomiya
+title_jp: 富士宮市
 level: city
 ---
 

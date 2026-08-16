@@ -1,5 +1,6 @@
 ---
-title: Aso
+title_en: Aso
+title_jp: 阿蘇市
 level: city
 ---
 

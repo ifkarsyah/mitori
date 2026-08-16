@@ -1,5 +1,6 @@
 ---
-title: Izumo
+title_en: Izumo
+title_jp: 出雲市
 level: city
 ---
 

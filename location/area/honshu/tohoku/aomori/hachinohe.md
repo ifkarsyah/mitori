@@ -1,5 +1,6 @@
 ---
-title: Hachinohe
+title_en: Hachinohe
+title_jp: 八戸市
 level: city
 ---
 

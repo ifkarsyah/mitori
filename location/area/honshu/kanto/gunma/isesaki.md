@@ -1,5 +1,6 @@
 ---
-title: Isesaki
+title_en: Isesaki
+title_jp: 伊勢崎市
 level: city
 ---
 

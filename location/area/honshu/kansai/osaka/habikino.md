@@ -1,5 +1,6 @@
 ---
-title: Habikino
+title_en: Habikino
+title_jp: 羽曳野市
 level: city
 ---
 

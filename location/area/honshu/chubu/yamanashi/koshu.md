@@ -1,5 +1,6 @@
 ---
-title: Koshu
+title_en: Koshu
+title_jp: 甲州市
 level: city
 ---
 

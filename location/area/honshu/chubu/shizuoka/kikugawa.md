@@ -1,5 +1,6 @@
 ---
-title: Kikugawa
+title_en: Kikugawa
+title_jp: 菊川市
 level: city
 ---
 

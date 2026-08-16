@@ -1,5 +1,6 @@
 ---
-title: Akita
+title_en: Akita
+title_jp: 秋田市
 level: city
 ---
 

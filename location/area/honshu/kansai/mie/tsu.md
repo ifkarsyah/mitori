@@ -1,5 +1,6 @@
 ---
-title: Tsu
+title_en: Tsu
+title_jp: 津市
 level: city
 ---
 

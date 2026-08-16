@@ -1,5 +1,6 @@
 ---
-title: Shiga
+title_en: Shiga
+title_jp: 滋賀県
 level: prefecture
 ---
 

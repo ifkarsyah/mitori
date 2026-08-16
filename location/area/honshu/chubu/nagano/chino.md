@@ -1,5 +1,6 @@
 ---
-title: Chino
+title_en: Chino
+title_jp: 茅野市
 level: city
 ---
 

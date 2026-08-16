@@ -1,5 +1,6 @@
 ---
-title: Itoman
+title_en: Itoman
+title_jp: 糸満市
 level: city
 ---
 

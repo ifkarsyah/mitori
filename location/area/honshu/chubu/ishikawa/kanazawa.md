@@ -1,5 +1,6 @@
 ---
-title: Kanazawa
+title_en: Kanazawa
+title_jp: 金沢市
 level: city
 ---
 

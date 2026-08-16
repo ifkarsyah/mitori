@@ -1,5 +1,6 @@
 ---
-title: Maizuru
+title_en: Maizuru
+title_jp: 舞鶴市
 level: city
 ---
 

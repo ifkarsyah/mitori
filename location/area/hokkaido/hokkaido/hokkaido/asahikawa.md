@@ -1,5 +1,6 @@
 ---
-title: Asahikawa
+title_en: Asahikawa
+title_jp: 旭川市
 level: city
 ---
 

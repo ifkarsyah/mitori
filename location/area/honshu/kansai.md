@@ -1,5 +1,6 @@
 ---
-title: Kansai
+title_en: Kansai
+title_jp: 関西
 level: region
 ---
 

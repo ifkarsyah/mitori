@@ -1,5 +1,6 @@
 ---
-title: Nasushiobara
+title_en: Nasushiobara
+title_jp: 那須塩原市
 level: city
 ---
 

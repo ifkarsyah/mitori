@@ -1,5 +1,6 @@
 ---
-title: Beppu
+title_en: Beppu
+title_jp: 別府市
 level: city
 ---
 

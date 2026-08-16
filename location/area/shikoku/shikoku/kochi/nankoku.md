@@ -1,5 +1,6 @@
 ---
-title: Nankoku
+title_en: Nankoku
+title_jp: 南国市
 level: city
 ---
 

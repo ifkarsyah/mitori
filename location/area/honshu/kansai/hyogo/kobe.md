@@ -1,5 +1,6 @@
 ---
-title: Kobe
+title_en: Kobe
+title_jp: 神戸市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Hachioji
+title_en: Hachioji
+title_jp: 八王子市
 level: city
 ---
 

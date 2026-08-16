@@ -1,5 +1,6 @@
 ---
-title: Fukuroi
+title_en: Fukuroi
+title_jp: 袋井市
 level: city
 ---
 

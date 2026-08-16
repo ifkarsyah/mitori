@@ -1,5 +1,6 @@
 ---
-title: Naruto
+title_en: Naruto
+title_jp: 鳴門市
 level: city
 ---
 

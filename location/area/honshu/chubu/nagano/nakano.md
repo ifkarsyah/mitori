@@ -1,5 +1,6 @@
 ---
-title: Nakano
+title_en: Nakano
+title_jp: 中野市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Dazaifu
+title_en: Dazaifu
+title_jp: 太宰府市
 level: city
 ---
 

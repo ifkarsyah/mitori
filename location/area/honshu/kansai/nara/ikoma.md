@@ -1,5 +1,6 @@
 ---
-title: Ikoma
+title_en: Ikoma
+title_jp: 生駒市
 level: city
 ---
 

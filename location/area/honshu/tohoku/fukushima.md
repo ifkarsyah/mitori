@@ -1,5 +1,6 @@
 ---
-title: Fukushima
+title_en: Fukushima
+title_jp: 福島県
 level: prefecture
 ---
 

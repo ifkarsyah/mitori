@@ -1,5 +1,6 @@
 ---
-title: Oita
+title_en: Oita
+title_jp: 大分市
 level: city
 ---
 

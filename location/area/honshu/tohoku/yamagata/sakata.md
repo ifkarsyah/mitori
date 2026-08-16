@@ -1,5 +1,6 @@
 ---
-title: Sakata
+title_en: Sakata
+title_jp: 酒田市
 level: city
 ---
 

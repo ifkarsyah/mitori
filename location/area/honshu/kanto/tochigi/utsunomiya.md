@@ -1,5 +1,6 @@
 ---
-title: Utsunomiya
+title_en: Utsunomiya
+title_jp: 宇都宮市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Hakodate
+title_en: Hakodate
+title_jp: 函館市
 level: city
 ---
 

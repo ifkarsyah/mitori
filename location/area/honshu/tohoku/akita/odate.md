@@ -1,5 +1,6 @@
 ---
-title: Odate
+title_en: Odate
+title_jp: 大館市
 level: city
 ---
 

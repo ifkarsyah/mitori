@@ -1,5 +1,6 @@
 ---
-title: Funabashi
+title_en: Funabashi
+title_jp: 船橋市
 level: city
 ---
 

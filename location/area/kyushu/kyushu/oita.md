@@ -1,5 +1,6 @@
 ---
-title: Oita
+title_en: Oita
+title_jp: 大分県
 level: prefecture
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Odawara
+title_en: Odawara
+title_jp: 小田原市
 level: city
 ---
 

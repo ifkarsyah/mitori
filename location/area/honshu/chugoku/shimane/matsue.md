@@ -1,5 +1,6 @@
 ---
-title: Matsue
+title_en: Matsue
+title_jp: 松江市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Akiruno
+title_en: Akiruno
+title_jp: あきる野市
 level: city
 ---
 

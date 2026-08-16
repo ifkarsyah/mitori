@@ -1,5 +1,6 @@
 ---
-title: Yamatokoriyama
+title_en: Yamatokoriyama
+title_jp: 大和郡山市
 level: city
 ---
 

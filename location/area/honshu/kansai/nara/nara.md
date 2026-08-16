@@ -1,5 +1,6 @@
 ---
-title: Nara
+title_en: Nara
+title_jp: 奈良市
 level: city
 ---
 

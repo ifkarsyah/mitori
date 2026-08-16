@@ -1,5 +1,6 @@
 ---
-title: Gunma
+title_en: Gunma
+title_jp: 群馬県
 level: prefecture
 ---
 

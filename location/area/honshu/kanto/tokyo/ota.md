@@ -1,5 +1,6 @@
 ---
-title: Ota
+title_en: Ota
+title_jp: 大田区
 level: city
 ---
 

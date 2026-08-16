@@ -1,5 +1,6 @@
 ---
-title: Ome
+title_en: Ome
+title_jp: 青梅市
 level: city
 ---
 

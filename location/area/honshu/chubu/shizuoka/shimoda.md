@@ -1,5 +1,6 @@
 ---
-title: Shimoda
+title_en: Shimoda
+title_jp: 下田市
 level: city
 ---
 

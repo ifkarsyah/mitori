@@ -1,5 +1,6 @@
 ---
-title: Kawasaki
+title_en: Kawasaki
+title_jp: 川崎市
 level: city
 ---
 

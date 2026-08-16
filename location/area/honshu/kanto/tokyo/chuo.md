@@ -1,5 +1,6 @@
 ---
-title: Chuo
+title_en: Chuo
+title_jp: 中央区
 level: city
 ---
 

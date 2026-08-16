@@ -1,5 +1,6 @@
 ---
-title: Hikone
+title_en: Hikone
+title_jp: 彦根市
 level: city
 ---
 

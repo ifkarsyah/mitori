@@ -1,5 +1,6 @@
 ---
-title: Kanto
+title_en: Kanto
+title_jp: 関東
 level: region
 ---
 

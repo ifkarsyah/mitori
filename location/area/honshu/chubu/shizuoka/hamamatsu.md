@@ -1,5 +1,6 @@
 ---
-title: Hamamatsu
+title_en: Hamamatsu
+title_jp: 浜松市
 level: city
 ---
 

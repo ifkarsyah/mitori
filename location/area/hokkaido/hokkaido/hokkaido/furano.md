@@ -1,5 +1,6 @@
 ---
-title: Furano
+title_en: Furano
+title_jp: 富良野市
 level: city
 ---
 

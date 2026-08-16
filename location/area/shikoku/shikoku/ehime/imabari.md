@@ -1,5 +1,6 @@
 ---
-title: Imabari
+title_en: Imabari
+title_jp: 今治市
 level: city
 ---
 

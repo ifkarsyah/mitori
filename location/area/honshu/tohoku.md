@@ -1,5 +1,6 @@
 ---
-title: Tohoku
+title_en: Tohoku
+title_jp: 東北
 level: region
 ---
 

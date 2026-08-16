@@ -1,5 +1,6 @@
 ---
-title: Towada
+title_en: Towada
+title_jp: 十和田市
 level: city
 ---
 

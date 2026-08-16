@@ -1,5 +1,6 @@
 ---
-title: Shingu
+title_en: Shingu
+title_jp: 新宮市
 level: city
 ---
 

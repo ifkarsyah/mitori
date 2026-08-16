@@ -1,5 +1,6 @@
 ---
-title: Yao
+title_en: Yao
+title_jp: 八尾市
 level: city
 ---
 

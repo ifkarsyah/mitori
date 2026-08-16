@@ -1,5 +1,6 @@
 ---
-title: Ogaki
+title_en: Ogaki
+title_jp: 大垣市
 level: city
 ---
 

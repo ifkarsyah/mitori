@@ -1,5 +1,6 @@
 ---
-title: Hokuto
+title_en: Hokuto
+title_jp: 北杜市
 level: city
 ---
 

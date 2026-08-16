@@ -1,5 +1,6 @@
 ---
-title: Kushiro
+title_en: Kushiro
+title_jp: 釧路市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Settsu
+title_en: Settsu
+title_jp: 摂津市
 level: city
 ---
 

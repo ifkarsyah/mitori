@@ -1,5 +1,6 @@
 ---
-title: Musashino
+title_en: Musashino
+title_jp: 武蔵野市
 level: city
 ---
 

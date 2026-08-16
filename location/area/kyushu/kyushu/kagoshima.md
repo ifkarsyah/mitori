@@ -1,5 +1,6 @@
 ---
-title: Kagoshima
+title_en: Kagoshima
+title_jp: 鹿児島県
 level: prefecture
 ---
 

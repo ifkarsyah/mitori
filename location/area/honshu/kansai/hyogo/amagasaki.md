@@ -1,5 +1,6 @@
 ---
-title: Amagasaki
+title_en: Amagasaki
+title_jp: 尼崎市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Kitakami
+title_en: Kitakami
+title_jp: 北上市
 level: city
 ---
 

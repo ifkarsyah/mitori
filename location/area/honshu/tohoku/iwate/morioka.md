@@ -1,5 +1,6 @@
 ---
-title: Morioka
+title_en: Morioka
+title_jp: 盛岡市
 level: city
 ---
 

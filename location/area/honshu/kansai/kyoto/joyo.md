@@ -1,5 +1,6 @@
 ---
-title: Joyo
+title_en: Joyo
+title_jp: 城陽市
 level: city
 ---
 

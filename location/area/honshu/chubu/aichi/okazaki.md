@@ -1,5 +1,6 @@
 ---
-title: Okazaki
+title_en: Okazaki
+title_jp: 岡崎市
 level: city
 ---
 

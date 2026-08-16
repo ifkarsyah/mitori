@@ -1,5 +1,6 @@
 ---
-title: Ishikawa
+title_en: Ishikawa
+title_jp: 石川県
 level: prefecture
 ---
 

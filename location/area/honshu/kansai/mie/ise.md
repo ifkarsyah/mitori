@@ -1,5 +1,6 @@
 ---
-title: Ise
+title_en: Ise
+title_jp: 伊勢市
 level: city
 ---
 

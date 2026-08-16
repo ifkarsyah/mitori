@@ -1,5 +1,6 @@
 ---
-title: Shinagawa
+title_en: Shinagawa
+title_jp: 品川区
 level: city
 ---
 

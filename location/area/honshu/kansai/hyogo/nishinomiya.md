@@ -1,5 +1,6 @@
 ---
-title: Nishinomiya
+title_en: Nishinomiya
+title_jp: 西宮市
 level: city
 ---
 

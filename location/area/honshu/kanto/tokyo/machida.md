@@ -1,5 +1,6 @@
 ---
-title: Machida
+title_en: Machida
+title_jp: 町田市
 level: city
 ---
 

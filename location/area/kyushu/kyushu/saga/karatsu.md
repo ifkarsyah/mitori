@@ -1,5 +1,6 @@
 ---
-title: Karatsu
+title_en: Karatsu
+title_jp: 唐津市
 level: city
 ---
 

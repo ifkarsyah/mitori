@@ -1,5 +1,6 @@
 ---
-title: Gifu
+title_en: Gifu
+title_jp: 岐阜市
 level: city
 ---
 

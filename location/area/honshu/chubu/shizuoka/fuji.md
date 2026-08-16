@@ -1,5 +1,6 @@
 ---
-title: Fuji
+title_en: Fuji
+title_jp: 富士市
 level: city
 ---
 

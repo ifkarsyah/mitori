@@ -1,5 +1,6 @@
 ---
-title: Mishima
+title_en: Mishima
+title_jp: 三島市
 level: city
 ---
 

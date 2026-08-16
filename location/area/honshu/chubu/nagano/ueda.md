@@ -1,5 +1,6 @@
 ---
-title: Ueda
+title_en: Ueda
+title_jp: 上田市
 level: city
 ---
 

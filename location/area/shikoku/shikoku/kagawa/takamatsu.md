@@ -1,5 +1,6 @@
 ---
-title: Takamatsu
+title_en: Takamatsu
+title_jp: 高松市
 level: city
 ---
 

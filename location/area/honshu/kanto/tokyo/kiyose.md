@@ -1,5 +1,6 @@
 ---
-title: Kiyose
+title_en: Kiyose
+title_jp: 清瀬市
 level: city
 ---
 

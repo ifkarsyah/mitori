@@ -1,5 +1,6 @@
 ---
-title: Nago
+title_en: Nago
+title_jp: 名護市
 level: city
 ---
 

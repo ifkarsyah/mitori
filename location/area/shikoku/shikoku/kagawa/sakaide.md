@@ -1,5 +1,6 @@
 ---
-title: Sakaide
+title_en: Sakaide
+title_jp: 坂出市
 level: city
 ---
 

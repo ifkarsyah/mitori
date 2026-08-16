@@ -1,5 +1,6 @@
 ---
-title: Tachikawa
+title_en: Tachikawa
+title_jp: 立川市
 level: city
 ---
 

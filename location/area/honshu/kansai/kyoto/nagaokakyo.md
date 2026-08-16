@@ -1,5 +1,6 @@
 ---
-title: Nagaokakyo
+title_en: Nagaokakyo
+title_jp: 長岡京市
 level: city
 ---
 

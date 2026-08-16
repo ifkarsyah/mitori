@@ -1,5 +1,6 @@
 ---
-title: Iwaki
+title_en: Iwaki
+title_jp: いわき市
 level: city
 ---
 

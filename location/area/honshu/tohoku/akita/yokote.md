@@ -1,5 +1,6 @@
 ---
-title: Yokote
+title_en: Yokote
+title_jp: 横手市
 level: city
 ---
 

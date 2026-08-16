@@ -1,5 +1,6 @@
 ---
-title: Miyako
+title_en: Miyako
+title_jp: 宮古市
 level: city
 ---
 

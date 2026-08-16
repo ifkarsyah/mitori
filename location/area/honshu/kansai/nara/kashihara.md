@@ -1,5 +1,6 @@
 ---
-title: Kashihara
+title_en: Kashihara
+title_jp: 橿原市
 level: city
 ---
 

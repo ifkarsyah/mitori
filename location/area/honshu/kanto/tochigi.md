@@ -1,5 +1,6 @@
 ---
-title: Tochigi
+title_en: Tochigi
+title_jp: 栃木県
 level: prefecture
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Wakayama
+title_en: Wakayama
+title_jp: 和歌山市
 level: city
 ---
 

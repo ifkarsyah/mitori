@@ -1,5 +1,6 @@
 ---
-title: Chugoku
+title_en: Chugoku
+title_jp: 中国
 level: region
 ---
 

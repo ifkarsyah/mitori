@@ -1,5 +1,6 @@
 ---
-title: Uenohara
+title_en: Uenohara
+title_jp: 上野原市
 level: city
 ---
 

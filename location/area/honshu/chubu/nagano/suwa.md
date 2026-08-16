@@ -1,5 +1,6 @@
 ---
-title: Suwa
+title_en: Suwa
+title_jp: 諏訪市
 level: city
 ---
 

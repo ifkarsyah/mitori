@@ -1,5 +1,6 @@
 ---
-title: Iida
+title_en: Iida
+title_jp: 飯田市
 level: city
 ---
 

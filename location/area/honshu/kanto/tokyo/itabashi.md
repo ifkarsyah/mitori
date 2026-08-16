@@ -1,5 +1,6 @@
 ---
-title: Itabashi
+title_en: Itabashi
+title_jp: 板橋区
 level: city
 ---
 

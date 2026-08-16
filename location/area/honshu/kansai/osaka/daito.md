@@ -1,5 +1,6 @@
 ---
-title: Daito
+title_en: Daito
+title_jp: 大東市
 level: city
 ---
 

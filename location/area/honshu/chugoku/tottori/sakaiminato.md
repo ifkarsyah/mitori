@@ -1,5 +1,6 @@
 ---
-title: Sakaiminato
+title_en: Sakaiminato
+title_jp: 境港市
 level: city
 ---
 

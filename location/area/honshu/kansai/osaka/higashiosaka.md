@@ -1,5 +1,6 @@
 ---
-title: Higashiosaka
+title_en: Higashiosaka
+title_jp: 東大阪市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Kochi
+title_en: Kochi
+title_jp: 高知市
 level: city
 ---
 

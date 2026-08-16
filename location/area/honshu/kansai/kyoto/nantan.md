@@ -1,5 +1,6 @@
 ---
-title: Nantan
+title_en: Nantan
+title_jp: 南丹市
 level: city
 ---
 

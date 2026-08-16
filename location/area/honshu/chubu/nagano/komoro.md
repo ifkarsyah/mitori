@@ -1,5 +1,6 @@
 ---
-title: Komoro
+title_en: Komoro
+title_jp: 小諸市
 level: city
 ---
 

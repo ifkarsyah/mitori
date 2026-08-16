@@ -1,5 +1,6 @@
 ---
-title: Oga
+title_en: Oga
+title_jp: 男鹿市
 level: city
 ---
 

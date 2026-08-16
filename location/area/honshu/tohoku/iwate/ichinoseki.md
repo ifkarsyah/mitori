@@ -1,5 +1,6 @@
 ---
-title: Ichinoseki
+title_en: Ichinoseki
+title_jp: 一関市
 level: city
 ---
 

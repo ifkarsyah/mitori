@@ -1,5 +1,6 @@
 ---
-title: Ayabe
+title_en: Ayabe
+title_jp: 綾部市
 level: city
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Chubu
+title_en: Chubu
+title_jp: 中部
 level: region
 ---
 

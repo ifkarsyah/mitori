@@ -1,5 +1,6 @@
 ---
-title: Chiba
+title_en: Chiba
+title_jp: 千葉市
 level: city
 ---
 

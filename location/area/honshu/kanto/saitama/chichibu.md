@@ -1,5 +1,6 @@
 ---
-title: Chichibu
+title_en: Chichibu
+title_jp: 秩父市
 level: city
 ---
 

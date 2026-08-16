@@ -1,5 +1,6 @@
 ---
-title: Omihachiman
+title_en: Omihachiman
+title_jp: 近江八幡市
 level: city
 ---
 

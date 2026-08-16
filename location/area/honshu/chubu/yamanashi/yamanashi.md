@@ -1,5 +1,6 @@
 ---
-title: Yamanashi
+title_en: Yamanashi
+title_jp: 山梨市
 level: city
 ---
 

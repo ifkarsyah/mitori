@@ -1,5 +1,6 @@
 ---
-title: Numazu
+title_en: Numazu
+title_jp: 沼津市
 level: city
 ---
 

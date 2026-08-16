@@ -1,5 +1,6 @@
 ---
-title: Naha
+title_en: Naha
+title_jp: 那覇市
 level: city
 ---
 

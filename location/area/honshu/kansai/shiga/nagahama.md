@@ -1,5 +1,6 @@
 ---
-title: Nagahama
+title_en: Nagahama
+title_jp: 長浜市
 level: city
 ---
 

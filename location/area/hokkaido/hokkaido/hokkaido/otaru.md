@@ -1,5 +1,6 @@
 ---
-title: Otaru
+title_en: Otaru
+title_jp: 小樽市
 level: city
 ---
 

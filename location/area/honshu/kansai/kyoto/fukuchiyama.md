@@ -1,5 +1,6 @@
 ---
-title: Fukuchiyama
+title_en: Fukuchiyama
+title_jp: 福知山市
 level: city
 ---
 

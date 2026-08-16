@@ -1,5 +1,6 @@
 ---
-title: Shikoku
+title_en: Shikoku
+title_jp: 四国
 level: island
 ---
 

@@ -1,5 +1,6 @@
 ---
-title: Yonago
+title_en: Yonago
+title_jp: 米子市
 level: city
 ---
 

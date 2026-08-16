@@ -1,5 +1,6 @@
 ---
-title: Aichi
+title_en: Aichi
+title_jp: 愛知県
 level: prefecture
 ---
 

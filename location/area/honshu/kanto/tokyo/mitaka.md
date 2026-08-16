@@ -1,5 +1,6 @@
 ---
-title: Mitaka
+title_en: Mitaka
+title_jp: 三鷹市
 level: city
 ---
 

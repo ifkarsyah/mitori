@@ -1,5 +1,6 @@
 ---
-title: Tsuchiura
+title_en: Tsuchiura
+title_jp: 土浦市
 level: city
 ---
 

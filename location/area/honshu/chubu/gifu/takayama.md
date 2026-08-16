@@ -1,5 +1,6 @@
 ---
-title: Takayama
+title_en: Takayama
+title_jp: 高山市
 level: city
 ---
 

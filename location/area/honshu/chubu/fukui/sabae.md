@@ -1,5 +1,6 @@
 ---
-title: Sabae
+title_en: Sabae
+title_jp: 鯖江市
 level: city
 ---
 

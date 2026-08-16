@@ -1,5 +1,6 @@
 ---
-title: Yamagata
+title_en: Yamagata
+title_jp: 山形県
 level: prefecture
 ---
 

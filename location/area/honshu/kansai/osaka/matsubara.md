@@ -1,5 +1,6 @@
 ---
-title: Matsubara
+title_en: Matsubara
+title_jp: 松原市
 level: city
 ---
 

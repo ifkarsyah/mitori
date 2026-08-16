@@ -1,5 +1,6 @@
 ---
-title: Toba
+title_en: Toba
+title_jp: 鳥羽市
 level: city
 ---
 

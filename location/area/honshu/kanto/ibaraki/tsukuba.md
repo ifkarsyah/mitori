@@ -1,5 +1,6 @@
 ---
-title: Tsukuba
+title_en: Tsukuba
+title_jp: つくば市
 level: city
 ---
 

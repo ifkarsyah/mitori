@@ -1,5 +1,6 @@
 ---
-title: Sumida
+title_en: Sumida
+title_jp: 墨田区
 level: city
 ---
 

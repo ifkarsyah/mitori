@@ -1,5 +1,6 @@
 ---
-title: Kamogawa
+title_en: Kamogawa
+title_jp: 鴨川市
 level: city
 ---
 

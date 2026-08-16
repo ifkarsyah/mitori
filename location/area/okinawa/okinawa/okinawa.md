@@ -1,5 +1,6 @@
 ---
-title: Okinawa
+title_en: Okinawa
+title_jp: 沖縄県
 level: prefecture
 ---
 

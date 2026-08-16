@@ -1,5 +1,6 @@
 ---
-title: Hokkaido
+title_en: Hokkaido
+title_jp: 北海道
 level: prefecture
 ---
 

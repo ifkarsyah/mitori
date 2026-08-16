@@ -1,5 +1,6 @@
 ---
-title: Kurobe
+title_en: Kurobe
+title_jp: 黒部市
 level: city
 ---
 

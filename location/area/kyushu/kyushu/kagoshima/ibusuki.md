@@ -1,5 +1,6 @@
 ---
-title: Ibusuki
+title_en: Ibusuki
+title_jp: 指宿市
 level: city
 ---
 

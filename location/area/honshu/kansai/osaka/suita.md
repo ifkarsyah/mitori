@@ -1,5 +1,6 @@
 ---
-title: Suita
+title_en: Suita
+title_jp: 吹田市
 level: city
 ---
 

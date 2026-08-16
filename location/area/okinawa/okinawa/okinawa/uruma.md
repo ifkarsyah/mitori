@@ -1,5 +1,6 @@
 ---
-title: Uruma
+title_en: Uruma
+title_jp: うるま市
 level: city
 ---
 

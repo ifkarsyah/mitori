@@ -1,5 +1,6 @@
 ---
-title: Otsu
+title_en: Otsu
+title_jp: 大津市
 level: city
 ---
 

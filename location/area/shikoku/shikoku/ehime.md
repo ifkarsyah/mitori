@@ -1,5 +1,6 @@
 ---
-title: Ehime
+title_en: Ehime
+title_jp: 愛媛県
 level: prefecture
 ---
 
