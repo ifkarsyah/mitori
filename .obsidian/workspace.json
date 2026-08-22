@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "2aac3c3beae31623",
+    "type": "split",
+    "children": [
+      {
+        "id": "d3bfb01be5a7ca82",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cbedc2c825111b29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "resources/book/genki-1/3-making-a-date/grammar/verb-conjugation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "verb-conjugation"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dfdbc89741c81f99",
+    "type": "split",
+    "children": [
+      {
+        "id": "a0fcc82f31527528",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7c667986ac45a334",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "d7b9383241ce8cf2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "9dd5a3285fe7e647",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cee140c66ee77354",
+    "type": "split",
+    "children": [
+      {
+        "id": "0687f87f1d4d6bfb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "92e9f61e6879f648",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "resources/book/genki-1/3-making-a-date/grammar/verb-conjugation.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "433c9a4279dfe0f8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "resources/book/genki-1/3-making-a-date/grammar/verb-conjugation.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "a76a08a73ce84f52",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8737080570a335a4",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6402e7f3abc08bb0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "resources/book/genki-1/3-making-a-date/grammar/verb-conjugation.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "cbedc2c825111b29",
+  "lastOpenFiles": [
+    "resources/book/genki-2/23-good-bye/vocabulary/adverbs-and-expressions.md",
+    "resources/book/genki-2/23-good-bye/vocabulary/irregular-verbs.md",
+    "resources/book/genki-2/23-good-bye/vocabulary/ru-verbs.md",
+    "resources/book/genki-2/23-good-bye/vocabulary/u-verbs.md",
+    "resources/book/genki-2/23-good-bye/vocabulary/い-adjective.md",
+    "resources/book/genki-2/23-good-bye/vocabulary/nouns.md",
+    "resources/book/genki-2/23-good-bye/vocabulary",
+    "resources/book/genki-2/23-good-bye/phrases/じゃんけん.md",
+    "resources/book/genki-2/23-good-bye/phrases",
+    "resources/book/genki-2/23-good-bye/grammar/方.md",
+    "resources/book/genki-2/23-good-bye/grammar/まで.md",
+    "resources/book/genki-2/23-good-bye/grammar/ことにする.md",
+    "resources/book/genki-2/23-good-bye/grammar/ても.md",
+    "resources/book/genki-2/23-good-bye/grammar/causative-passive-sentences.md",
+    "resources/book/genki-2/23-good-bye/grammar",
+    "resources/book/genki-2/23-good-bye",
+    "resources/book/genki-2/23-good-bye.md",
+    "resources/book/genki-2/22-education-in-japan/vocabulary/adverbs-and-expressions.md",
+    "resources/book/genki-2/22-education-in-japan/vocabulary/irregular-verbs.md",
+    "resources/book/genki-2/22-education-in-japan/vocabulary/ru-verbs.md",
+    "resources/book/genki-2/22-education-in-japan/vocabulary/u-verbs.md",
+    "resources/book/genki-2/22-education-in-japan/vocabulary/な-adjectives.md",
+    "resources/book/genki-2/22-education-in-japan/vocabulary/い-adjective.md",
+    "resources/book/genki-2/22-education-in-japan/vocabulary/nouns.md",
+    "resources/book/genki-2/22-education-in-japan/vocabulary",
+    "resources/book/genki-2/22-education-in-japan/grammar/のような-のように.md",
+    "resources/book/genki-2/22-education-in-japan/grammar/のに.md",
+    "resources/book/genki-2/22-education-in-japan/grammar/ば.md",
+    "resources/book/genki-2/22-education-in-japan/grammar/verb-stem-なさい.md",
+    "resources/book/genki-2/22-education-in-japan/grammar/causative-sentences.md",
+    "resources/book/genki-2/22-education-in-japan/grammar",
+    "resources/book/genki-2/22-education-in-japan",
+    "resources/book/genki-2/22-education-in-japan.md",
+    "resources/book/genki-2/21-burglar/vocabulary/crimes-and-accidents.md.tmp.52600.eabf59a18e3a",
+    "resources/book/genki-2/21-burglar/vocabulary/ru-verbs.md.tmp.52600.226886a09073",
+    "resources/book/genki-2/21-burglar/vocabulary"
+  ]
+}
