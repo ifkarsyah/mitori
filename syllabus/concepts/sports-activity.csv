@@ -1,0 +1,37 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+spo-sport,sport,noun,1,,
+spo-exercise,exercise,noun,1,1062,運動.
+spo-hobby,hobby,noun,1,316,趣味.
+spo-game,game,noun,1,309,遊び.
+spo-match,match,noun,1,617,勝負.
+spo-team,team,noun,1,,
+spo-race,race,noun,2,392,競走.
+spo-to-win,to win,verb,1,838,勝つ.
+spo-to-lose,to lose (a game),verb,1,651;756,"Merges 負ける (651) and 敗れる (756)."
+spo-victory,victory,noun,1,512,勝利.
+spo-defeat,defeat,noun,2,,
+spo-to-compete,to compete,verb,2,1387;929,"Merges 競う (1387) and 争う (929)."
+spo-comeback,comeback,noun,3,538,逆転.
+spo-practice,practice,noun,1,775,練習.
+spo-training,training,noun,1,1016,訓練.
+spo-football,football,noun,1,,
+spo-baseball,baseball,noun,1,189,野球.
+spo-tennis,tennis,noun,2,,
+spo-basketball,basketball,noun,2,,
+spo-swimming,swimming,noun,1,482,水泳.
+spo-running,running,noun,1,,
+spo-cycling,cycling,noun,2,,
+spo-skiing,skiing,noun,3,,
+spo-gym,gym,noun,2,,
+spo-horse-racing,horse racing,noun,3,1174,競馬.
+spo-archery-japanese,Japanese archery,noun,3,31,弓道 — culturally specific.
+spo-bow-and-arrow,bow and arrow,noun,3,301,弓矢.
+spo-arrow,arrow,noun,3,1039,矢.
+spo-to-sing,to sing,verb,1,,
+spo-to-dance,to dance,verb,2,,
+spo-to-draw,to draw,verb,1,,
+spo-photography,photography,noun,2,,
+spo-musical-performance,musical performance,noun,2,1019,演奏.
+spo-composition,composing music,noun,3,1245,作曲.
+spo-calligraphy,calligraphy,noun,3,1338,書道.
+spo-record-achievement,record,noun,2,499,記録.

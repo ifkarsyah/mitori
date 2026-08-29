@@ -1,0 +1,41 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+soc-society,society,noun,1,222,社会.
+soc-politics,politics,noun,1,150,政治.
+soc-government,government,noun,1,1101,内閣.
+soc-political-party,political party,noun,2,212,政党.
+soc-ruling-party,governing party,noun,3,884,与党.
+soc-opposition-party,opposition party,noun,3,649,野党.
+soc-election,election,noun,1,463,選挙.
+soc-vote,vote,noun,1,702,投票.
+soc-political-view,political view,noun,3,704,政見.
+soc-law,law,noun,1,,Absent today.
+soc-rule,rule,noun,1,1445,規則.
+soc-guideline,guideline,noun,2,1222,指針.
+soc-duty,duty,noun,1,1337,義務.
+soc-right-entitlement,right (entitlement),noun,1,,Absent today.
+soc-freedom,freedom,noun,1,1457,自由.
+soc-permission,permission,noun,1,1474,許可.
+soc-permit,permit,noun,2,1045,許可証.
+soc-prohibition,ban,noun,1,411,禁止.
+soc-restriction,restriction,noun,2,1159;1018,"Merges 制限 (1159) and 限度 (1018)."
+soc-violation,violation,noun,2,1327,違反.
+soc-tax,tax,noun,1,,Absent today.
+soc-committee,committee,noun,2,201,委員会.
+soc-committee-member,committee member,noun,3,570,委員.
+soc-citizen,citizen,noun,1,,
+soc-resident,resident,noun,2,390,住民.
+soc-people-ethnic,people (ethnic group),noun,2,1077,民族.
+soc-refugee,refugee,noun,2,772,難民.
+soc-exile,exile,noun,3,1002,亡命.
+soc-military,armed forces,noun,2,1264,軍隊.
+soc-defence,defence,noun,2,433;175,"Merges 防衛 (433) and 自衛 (175)."
+soc-peace,peace,noun,1,210,平和.
+soc-war,war,noun,1,,Absent today.
+soc-revolution,revolution,noun,3,318,革命.
+soc-reform,reform,noun,2,429;1150,"Merges 改革 (429) and 革新 (1150)."
+soc-international,international,adjective,1,1131,国際.
+soc-religion,religion,noun,2,,
+soc-god,god,noun,2,176,神様.
+soc-nobility,nobility,noun,3,477,貴族.
+soc-majesty,majesty,noun,3,300,陛下.
+soc-nations,nations,noun,3,1487,諸国.

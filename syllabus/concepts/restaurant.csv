@@ -1,0 +1,49 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+res-menu,menu,noun,1,516,メニュー.
+res-to-order,to order,verb,1,,
+res-order,order,noun,1,1441,注文.
+res-reservation,reservation,noun,1,415,予約.
+res-to-book,to book,verb,1,,
+res-table-booking,table (for a booking),noun,2,,
+res-waiter-service,service,noun,2,,
+res-starter,starter,noun,2,317,軽食 — existing concept is a light meal.
+res-main-course,main course,noun,2,549,定食 — existing concept is a set meal.
+res-side-order,single item,noun,3,954,単品.
+res-portion,portion size,noun,2,736,トリプル.
+res-topping,topping,noun,2,356,トッピング.
+res-takeaway,takeaway,noun,1,1459,持ち帰り.
+res-eat-in,to eat in,verb,2,,
+res-all-you-can-eat,all you can eat,noun,2,452,食べ放題.
+res-all-you-can-drink,all you can drink,noun,3,732,飲み放題.
+res-private-room,private room,noun,2,416,個室.
+res-fully-booked,fully booked,adjective,2,1163,満席.
+res-no-smoking,no smoking,noun,2,851,禁煙.
+res-recommendation,recommendation,noun,1,146,おすすめ.
+res-eating-drinking,eating and drinking,noun,3,1047,飲食.
+res-to-pay-bill,to pay the bill,verb,1,,
+res-tip,tip,noun,2,,Culturally absent in Japan; relevant for German.
+res-steak,steak,noun,2,550,ステーキ.
+res-burger-patty,burger patty,noun,3,42,ハンバーグ.
+res-salad,salad,noun,1,299,サラダ.
+res-sandwich,sandwich,noun,1,,
+res-carbonara,carbonara,noun,3,826,カルボナーラ.
+res-japanese-cuisine,Japanese cuisine,noun,2,162,和食.
+res-western-cuisine,Western cuisine,noun,3,1200,洋食.
+res-ramen,ramen,noun,2,622,Japanese-specific.
+res-udon,udon,noun,3,596,Japanese-specific.
+res-soba,soba,noun,3,840,Japanese-specific.
+res-sushi,sushi,noun,2,1031,Japanese-specific.
+res-tempura,tempura,noun,3,829,Japanese-specific.
+res-natto,natto,noun,3,260,Japanese-specific.
+res-rice-bowl,rice bowl dish,noun,3,481;1295;878,"Merges 丼 (481), 牛めし (1295) and 牛丼 (878)."
+res-grilled-meat,grilled meat,noun,3,564,焼肉.
+res-fried-egg,fried egg,noun,2,1196,目玉焼き.
+res-wasabi,wasabi,noun,3,464,Japanese-specific.
+res-ponzu,ponzu,noun,3,779,Japanese-specific.
+res-shochu,shochu,noun,3,784,Japanese-specific.
+res-sake,sake,noun,2,383,日本酒.
+res-izakaya,izakaya,noun,3,754,Japanese-specific.
+res-thick-cut,thick-cut,adjective,3,507,厚切り.
+res-flame-grilled,flame-grilled,adjective,3,455,直火焼き.
+res-small-bowl,small side bowl,noun,3,741,小鉢.
+res-breakfast-set,breakfast set,noun,3,1471,モーニング — a Japanese café convention.

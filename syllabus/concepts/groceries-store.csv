@@ -1,0 +1,15 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+gro-trolley,trolley,noun,1,,
+gro-basket,basket,noun,1,,
+gro-aisle,aisle,noun,2,,
+gro-self-checkout,self-checkout,noun,2,,
+gro-plastic-bag,carrier bag,noun,1,,
+gro-scales,scales,noun,3,,
+gro-produce,fresh produce,noun,2,305,青果.
+gro-best-before,best before date,noun,1,141,賞味期限.
+gro-organic,organic,adjective,2,448,有機.
+gro-frozen-food,frozen food,noun,1,681,冷凍食品.
+gro-dried-goods,dried goods,noun,3,1183,乾物.
+gro-domestic-produce,domestically produced,adjective,2,1452,国産.
+gro-matcha,matcha,noun,3,209,Japanese-specific.
+gro-barley-tea,barley tea,noun,3,1124,Japanese-specific.

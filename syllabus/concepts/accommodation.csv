@@ -1,0 +1,17 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+acc-check-in,check-in,noun,1,672,チェックイン.
+acc-check-out,check-out,noun,1,60,チェックアウト.
+acc-lodging,accommodation,noun,1,1151,宿泊.
+acc-room-type,room type,noun,1,,
+acc-single-room,single room,noun,1,,
+acc-double-room,double room,noun,1,,
+acc-key-card,key card,noun,2,,
+acc-breakfast-included,breakfast included,adjective,2,,
+acc-late-checkout,late check-out,noun,3,,
+acc-front-desk,front desk,noun,1,,See hos-reception-desk for the shared 受付.
+acc-luggage,luggage,noun,1,1333,荷物.
+acc-vacancy,vacancy,noun,2,712,空室.
+acc-ryokan,ryokan,noun,3,253,Japanese-specific inn.
+acc-private-lodging,private lodging,noun,3,1235,民泊.
+acc-pickup-service,pick-up service,noun,3,808,送迎.
+acc-hot-spring,hot spring,noun,2,124,温泉.

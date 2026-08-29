@@ -1,0 +1,9 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+kon-convenience-store,convenience store,noun,1,,
+kon-onigiri,rice ball,noun,2,32,おにぎり — Japanese-specific.
+kon-bento,bento box,noun,2,788,弁当 — Japanese-specific.
+kon-hot-counter,hot food counter,noun,3,,
+kon-photocopier,photocopy,noun,2,886,コピー.
+kon-parcel-pickup,parcel collection,noun,2,,
+kon-atm,cash machine,noun,1,,
+kon-open-24h,open 24 hours,adjective,2,,

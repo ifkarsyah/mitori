@@ -1,0 +1,16 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+eco-online-shop,online shop,noun,1,,
+eco-cart,basket (online),noun,1,,
+eco-to-add-to-cart,to add to basket,verb,1,,
+eco-checkout-online,checkout,noun,1,,
+eco-delivery-address,delivery address,noun,1,,
+eco-tracking,tracking,noun,1,,
+eco-courier,courier,noun,1,,
+eco-return-online,returns,noun,1,,
+eco-review,review,noun,1,776,評価.
+eco-rating,rating,noun,2,,
+eco-barcode,barcode,noun,2,384,バーコード.
+eco-new-arrival,new arrival,noun,2,673,新着.
+eco-limited-time,limited-time,adjective,2,1434,期間限定.
+eco-campaign,promotion,noun,2,1037,キャンペーン.
+eco-out-for-delivery,dispatched,adjective,2,,"Distinct from 送信 (1179), which is sending a message."

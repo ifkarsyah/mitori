@@ -1,0 +1,14 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+hos-appointment-med,medical appointment,noun,1,,
+hos-symptom,symptom,noun,1,,
+hos-waiting-room,waiting room,noun,1,,
+hos-reception-desk,reception,noun,1,587,受付.
+hos-insurance-card,insurance card,noun,1,,
+hos-consultation-room,consulting room,noun,2,,
+hos-ward,ward,noun,3,,
+hos-surgery-operation,operation,noun,2,,
+hos-injection,injection,noun,2,,
+hos-x-ray,x-ray,noun,3,,
+hos-ambulance,ambulance,noun,1,,
+hos-emergency,emergency,noun,1,1263,危機.
+hos-patient,patient,noun,1,,
