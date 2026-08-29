@@ -1,5 +1,5 @@
 import type { EnrichedSentence } from './hooks'
-import { jlptLabel, partOfSpeechLabel } from './filters'
+import { levelLabel, partOfSpeechLabel } from './filters'
 
 export const ANKI_HEADERS = ['Front', 'Back']
 
@@ -24,7 +24,7 @@ export function buildSentenceAnkiRows(rows: EnrichedSentence[]): string[][] {
       if (row.wordReading) backLines.push(row.wordReading)
       if (row.meaning) backLines.push(row.meaning)
       if (row.partOfSpeech) backLines.push(partOfSpeechLabel(row.partOfSpeech))
-      if (row.jlpt) backLines.push(jlptLabel(row.jlpt))
+      if (row.level) backLines.push(levelLabel(row.level))
 
       return [front, backLines.join('<br>')]
     })

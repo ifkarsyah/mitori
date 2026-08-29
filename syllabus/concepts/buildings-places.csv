@@ -1,0 +1,42 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+bld-school,school,noun,1,34,学校.
+bld-kindergarten,kindergarten,noun,2,65,幼稚園.
+bld-primary-school,primary school,noun,2,1025,小学校.
+bld-middle-school,secondary school,noun,2,569,中学校.
+bld-high-school,upper secondary school,noun,2,304,高校.
+bld-university,university,noun,1,1335,大学.
+bld-graduate-school,graduate school,noun,3,1197,大学院.
+bld-library,library,noun,1,1356,図書館.
+bld-hospital,hospital,noun,1,845,病院.
+bld-clinic,clinic,noun,2,817,医院.
+bld-pharmacy,pharmacy,noun,1,1401,薬局.
+bld-bank-building,bank,noun,1,1221,銀行.
+bld-post-office,post office,noun,1,1156,郵便局.
+bld-government-office,town hall,noun,2,205,役所.
+bld-police-station,police station,noun,2,,See 283 (警察) for the force itself.
+bld-shop,shop,noun,1,523;720,"Merges 商店 (523) and 店舗 (720)."
+bld-restaurant,restaurant,noun,1,,"Absent as a concept; 食堂 (327) is a canteen and 店 (725) is any premises."
+bld-canteen,canteen,noun,2,327,食堂.
+bld-premises,premises,noun,3,725,店.
+bld-cafe,café,noun,1,462,喫茶店.
+bld-bookshop,bookshop,noun,2,1439,本屋.
+bld-butcher,butcher's,noun,3,63,肉屋.
+bld-market,market,noun,1,1397,市場.
+bld-hotel,hotel,noun,1,,
+bld-inn,inn,noun,2,868;1268,"Merges 宿 (868) and 民宿 (1268)."
+bld-museum,museum,noun,1,1155,博物館.
+bld-art-gallery,art gallery,noun,2,860,美術館.
+bld-cinema,cinema,noun,1,174,映画館.
+bld-theatre,theatre,noun,2,,
+bld-stadium,stadium,noun,3,,
+bld-park,park,noun,1,935,公園.
+bld-garden-formal,formal garden,noun,3,348,庭園.
+bld-square,square (plaza),noun,2,369,広場.
+bld-zoo,zoo,noun,2,879,動物園.
+bld-temple,temple,noun,2,355,寺.
+bld-church,church,noun,2,,
+bld-factory,factory,noun,2,927,工場.
+bld-office-building,office,noun,1,928,事務所.
+bld-salon,hair salon,noun,2,1239,美容院.
+bld-palace,palace,noun,3,287,宮殿.
+bld-ruins,ruins,noun,3,1049,遺跡.

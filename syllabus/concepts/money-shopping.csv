@@ -1,0 +1,42 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+mon-money,money,noun,1,1208,お金.
+mon-cash,cash,noun,1,366,現金.
+mon-coin,coin,noun,1,,
+mon-note-money,banknote,noun,2,,
+mon-wallet,wallet,noun,1,329,財布.
+mon-price,price,noun,1,967,価格 — already merges 価格 and 値段.
+mon-cost,cost,noun,1,922,費用.
+mon-fee,fee,noun,1,1407,料金.
+mon-charge,top-up,noun,3,1098,チャージ.
+mon-amount,amount of money,noun,2,576,金額.
+mon-value,value,noun,2,1422,価値.
+mon-cheap,cheap,adjective,1,394,安い.
+mon-expensive,expensive,adjective,1,,See 655 (高い) which also means tall and loud.
+mon-free-of-charge,free of charge,adjective,1,624,無料.
+mon-to-buy,to buy,verb,1,17,買う.
+mon-to-sell,to sell,verb,1,152,売る.
+mon-to-pay,to pay,verb,1,,
+mon-payment,payment,noun,1,1463,決済.
+mon-to-cost,to cost,verb,2,,
+mon-shopping,shopping,noun,1,1227,買い物.
+mon-purchase,purchase,noun,2,251,購入.
+mon-trade,buying and selling,noun,3,944,売買.
+mon-product,product,noun,1,978,商品.
+mon-receipt,receipt,noun,1,594,レシート.
+mon-bill,bill,noun,1,934;665,"Merges お会計 (934) and 会計 (665)."
+mon-change-money,change (money),noun,1,,
+mon-discount,discount,noun,1,310,割引.
+mon-sale,sale,noun,1,708,セール.
+mon-special-offer,special offer,noun,2,1274,特売.
+mon-bargain,bargain price,noun,2,295,格安.
+mon-coupon,voucher,noun,2,898,クーポン.
+mon-loyalty-points,loyalty points,noun,2,990,ポイント.
+mon-cashback,cashback,noun,3,1085,還元.
+mon-checkout,till,noun,1,807,レジ.
+mon-in-stock,stock,noun,2,589,在庫.
+mon-out-of-stock,out of stock,adjective,2,275,在庫切れ.
+mon-to-save,to save money,verb,1,664,貯める.
+mon-savings,savings,noun,2,1042,貯金.
+mon-consumption,consumption,noun,3,278,消費.
+mon-shipping-fee,delivery charge,noun,2,1467,送料.
+mon-utility-bills,utility bills,noun,2,485,公共料金.

@@ -52,15 +52,9 @@ export function kotobaCompleteness(rows: Kotoba[]): CompletenessStat[] {
   const missingSubtype = subtypeApplicable.filter((r) => r.sub_part_of_speech == null).map(kotobaAffectedRow)
   return [
     toStat('concept_id', 'Concept', rows.length, missing((r) => r.concept_id == null)),
-    toStat('context_id', 'Context', rows.length, missing((r) => r.context_id == null)),
     toStat('source_id', 'Source', rows.length, missing((r) => r.source_id == null)),
-    // JLPT applies to Japanese only; German words are levelled by CEFR instead.
-    toStat(
-      'jlpt',
-      'JLPT level (Japanese)',
-      rows.filter((r) => r.language === 'ja').length,
-      rows.filter((r) => r.language === 'ja' && r.jlpt == null).map(kotobaAffectedRow),
-    ),
+    // One stat across scales: JLPT, CEFR and HSK all live in kotoba.level.
+    toStat('level', 'Level', rows.length, missing((r) => r.level == null)),
     toStat('sub_part_of_speech', 'Sub part of speech (verbs/adjectives)', subtypeApplicable.length, missingSubtype),
   ]
 }
@@ -82,7 +76,7 @@ export function sentenceCompleteness(rows: Sentence[], kotobaById: Map<number, K
       .map((r) => sentenceAffectedRow(r, kotobaById))
       .filter((r): r is AffectedRow => r !== null)
   return [
-    toStat('context_id', 'Context', rows.length, missing((r) => r.context_id == null)),
+    toStat('category_id', 'Category', rows.length, missing((r) => r.category_id == null)),
     toStat('meaning', 'Meaning', rows.length, missing((r) => r.meaning == null)),
   ]
 }

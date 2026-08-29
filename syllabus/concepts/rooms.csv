@@ -1,0 +1,23 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+rom-house,house,noun,1,803,家.
+rom-flat,flat,noun,1,,See 1368 (アパート) and 1456 (マンション) under housing-realestate.
+rom-building,building,noun,1,1302,建物.
+rom-room,room,noun,1,1318,部屋.
+rom-living-room,living room,noun,1,1300,"居間 — the existing concept already merges 居間 and リビング."
+rom-bedroom,bedroom,noun,1,22,寝室.
+rom-kitchen,kitchen,noun,1,1393,"台所 — already merges 台所 and キッチン."
+rom-bathroom,bathroom,noun,1,16,浴室.
+rom-toilet,toilet,noun,1,,
+rom-entryway,entrance hall,noun,2,597,玄関.
+rom-hallway,hallway,noun,2,,
+rom-stairs,stairs,noun,1,1319,階段.
+rom-floor-storey,floor (storey),noun,1,,
+rom-balcony,balcony,noun,2,,
+rom-garden,garden,noun,1,,See 348 (庭園) for the formal-garden sense.
+rom-garage,garage,noun,3,,
+rom-door,door,noun,1,185,戸.
+rom-window,window,noun,1,,
+rom-wall,wall,noun,2,,
+rom-ceiling,ceiling,noun,3,,
+rom-floor-surface,floor (surface),noun,2,,
+rom-roof,roof,noun,2,1228,屋根.

@@ -1,0 +1,1994 @@
+id,gloss,part_of_speech,created_at,slug,category_id,tier
+1,moving in,noun,2026-08-28T15:27:38.173273+00:00,hre-moving-in,84,1
+2,"change, variation, transformation",noun,2026-08-28T15:27:38.173273+00:00,,,
+3,business,noun,2026-08-28T15:27:38.173273+00:00,off-business,51,1
+4,hot (weather),adjective,2026-08-28T15:27:38.173273+00:00,wea-hot-weather,35,1
+5,kind,adjective,2026-08-28T15:27:38.173273+00:00,emo-kind,56,1
+6,grey,adjective,2026-08-28T15:27:38.173273+00:00,color-gray,12,2
+7,return of goods,noun,2026-08-28T15:27:38.173273+00:00,cst-return-goods,74,1
+8,body,noun,2026-08-28T15:27:38.173273+00:00,bod-body,18,1
+9,"topic, subject of talk, hot topic",noun,2026-08-28T15:27:38.173273+00:00,,54,
+10,"to exclude, to remove",verb,2026-08-28T15:27:38.173273+00:00,,,
+11,weekly publication,noun,2026-08-28T15:27:38.173273+00:00,,6,
+13,dad,noun,2026-08-28T15:27:38.173273+00:00,fam-dad,14,1
+14,entrance ceremony,noun,2026-08-28T15:27:38.173273+00:00,sub-entrance-ceremony,46,3
+15,1000 yen,noun,2026-08-28T15:27:38.173273+00:00,,50,
+16,bathroom,noun,2026-08-28T15:27:38.173273+00:00,rom-bathroom,29,1
+17,to buy,verb,2026-08-28T15:27:38.173273+00:00,mon-to-buy,50,1
+18,side dish,noun,2026-08-28T15:27:38.173273+00:00,coo-side-dish,27,2
+19,meeting,noun,2026-08-28T15:27:38.173273+00:00,off-meeting,51,1
+20,channel,noun,2026-08-28T15:27:38.173273+00:00,net-channel,54,2
+21,"to hit, to strike, to beat",verb,2026-08-28T15:27:38.173273+00:00,,59,
+22,bedroom,noun,2026-08-28T15:27:38.173273+00:00,rom-bedroom,29,1
+23,"notebook, planner, pocket diary",noun,2026-08-28T15:27:38.173273+00:00,,,
+24,traffic jam,noun,2026-08-28T15:27:38.173273+00:00,tra-traffic-jam,40,2
+25,mathematics,noun,2026-08-28T15:27:38.173273+00:00,sub-maths,46,1
+26,all,determiner,2026-08-28T15:27:38.173273+00:00,qty-all,4,1
+27,second (unit of time),noun,2026-08-28T15:27:38.173273+00:00,tod-second,9,1
+28,old (of things),adjective,2026-08-28T15:27:38.173273+00:00,aqu-old-thing,64,1
+29,customer,noun,2026-08-28T15:27:38.173273+00:00,rol-customer,16,1
+30,commuting to school,noun,2026-08-28T15:27:38.173273+00:00,sub-commute-school,46,3
+31,Japanese archery,noun,2026-08-28T15:27:38.173273+00:00,spo-archery-japanese,69,3
+32,rice ball,noun,2026-08-28T15:27:38.173273+00:00,kon-onigiri,73,2
+33,new year's greetings,noun,2026-08-28T15:27:38.173273+00:00,,6,
+34,school,noun,2026-08-28T15:27:38.173273+00:00,bld-school,42,1
+35,situation,noun,2026-08-28T15:27:38.173273+00:00,con-situation,68,1
+36,decrease,noun,2026-08-28T15:27:38.173273+00:00,qty-decrease,4,2
+37,last (final),adjective,2026-08-28T15:27:38.173273+00:00,ord-last,3,1
+38,express train,noun,2026-08-28T15:27:38.173273+00:00,sta-express,82,2
+39,mute,noun,2026-08-28T15:27:38.173273+00:00,net-mute,54,3
+40,"surface, exterior, outside",noun,2026-08-28T15:27:38.173273+00:00,,,
+41,eyebrow,noun,2026-08-28T15:27:38.173273+00:00,bod-eyebrow,18,3
+42,burger patty,noun,2026-08-28T15:27:38.173273+00:00,res-burger-patty,71,3
+43,difference,noun,2026-08-28T15:27:38.173273+00:00,acm-difference,65,1
+44,cloud,noun,2026-08-28T15:27:38.173273+00:00,wea-cloud,35,1
+45,edit,noun,2026-08-28T15:27:38.173273+00:00,net-to-edit,54,1
+46,beer,noun,2026-08-28T15:27:38.173273+00:00,dri-beer,26,1
+47,stationery,noun,2026-08-28T15:27:38.173273+00:00,sch-stationery,45,2
+48,"last, final, ultimate",noun,2026-08-28T15:27:38.173273+00:00,,,
+49,birth,noun,2026-08-28T15:27:38.173273+00:00,,84,
+50,"to ring, to sound, to resound",verb,2026-08-28T15:27:38.173273+00:00,,,
+51,exit,noun,2026-08-28T15:27:38.173273+00:00,sta-exit,82,1
+52,same,adjective,2026-08-28T15:27:38.173273+00:00,acm-same,65,1
+53,foundation,noun,2026-08-28T15:27:38.173273+00:00,men-foundation,57,2
+54,worry,noun,2026-08-28T15:27:38.173273+00:00,emo-worry,56,1
+55,"exclusion, elimination",noun,2026-08-28T15:27:38.173273+00:00,,,
+56,hair care,noun,2026-08-28T15:27:38.173273+00:00,var-hair-care,76,2
+57,"technology, technique",noun,2026-08-28T15:27:38.173273+00:00,,,
+58,"spring equinox, vernal equinox",noun,2026-08-28T15:27:38.173273+00:00,,6,
+59,"executive, management",noun,2026-08-28T15:27:38.173273+00:00,,48,
+60,check-out,noun,2026-08-28T15:27:38.173273+00:00,acc-check-out,83,1
+61,guarantor,noun,2026-08-28T15:27:38.173273+00:00,hre-guarantor,84,2
+62,july,noun,2026-08-28T15:27:38.173273+00:00,mon-july,8,1
+63,butcher's,noun,2026-08-28T15:27:38.173273+00:00,bld-butcher,42,3
+64,to study,verb,2026-08-28T15:27:38.173273+00:00,sub-to-study,46,1
+65,kindergarten,noun,2026-08-28T15:27:38.173273+00:00,bld-kindergarten,42,2
+66,language,noun,2026-08-28T15:27:38.173273+00:00,ll-language,47,1
+67,bookmark,noun,2026-08-28T15:27:38.173273+00:00,net-bookmark,54,2
+68,newspaper,noun,2026-08-28T15:27:38.173273+00:00,spk-newspaper,53,1
+69,"picture, painting, drawing, illustration",noun,2026-08-28T15:27:38.173273+00:00,,,
+70,"weak point, shortcoming, disadvantage",noun,2026-08-28T15:27:38.173273+00:00,,,
+71,desk,noun,2026-08-28T15:27:38.173273+00:00,fur-desk,30,1
+72,yellow,adjective,2026-08-28T15:27:38.173273+00:00,color-yellow,12,1
+73,to go home,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-return,59,1
+74,letter,noun,2026-08-28T15:27:38.173273+00:00,spk-letter-post,53,1
+75,school trip,noun,2026-08-28T15:27:38.173273+00:00,sub-school-trip,46,3
+76,to go up,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-go-up,59,1
+77,traffic,noun,2026-08-28T15:27:38.173273+00:00,tra-traffic,40,1
+78,"manners, courtesy, etiquette, decorum",noun,2026-08-28T15:27:38.173273+00:00,,,
+79,mask,noun,2026-08-28T15:27:38.173273+00:00,,,
+80,to be born,verb,2026-08-28T15:27:38.173273+00:00,vda-to-be-born,61,1
+81,ambassador,noun,2026-08-28T15:27:38.173273+00:00,job-ambassador,49,3
+82,profit,noun,2026-08-28T15:27:38.173273+00:00,off-profit,51,2
+83,transcript,noun,2026-08-28T15:27:38.173273+00:00,,54,
+84,"territory, domain",noun,2026-08-28T15:27:38.173273+00:00,,,
+85,real,adjective,2026-08-28T15:27:38.173273+00:00,aqu-real,64,2
+86,outside,adverb,2026-08-28T15:27:38.173273+00:00,dir-outside,41,1
+87,postage stamp,noun,2026-08-28T15:27:38.173273+00:00,gov-postage-stamp,81,2
+88,miso soup,noun,2026-08-28T15:27:38.173273+00:00,,28,
+89,to tell,verb,2026-08-28T15:27:38.173273+00:00,spk-to-tell,53,1
+90,brand new,adjective,2026-08-28T15:27:38.173273+00:00,aqu-brand-new,64,3
+91,important,adjective,2026-08-28T15:27:38.173273+00:00,aqu-important,64,1
+92,staff,noun,2026-08-28T15:27:38.173273+00:00,job-staff,49,1
+93,girl,noun,2026-08-28T15:27:38.173273+00:00,rol-girl,16,1
+94,anxious,adjective,2026-08-28T15:27:38.173273+00:00,emo-anxious,56,1
+95,nosebleed,noun,2026-08-28T15:27:38.173273+00:00,hea-nosebleed,19,3
+96,"realization, actualization",noun,2026-08-28T15:27:38.173273+00:00,,84,
+97,"hero, champion",noun,2026-08-28T15:27:38.173273+00:00,,,
+98,floor cushion,noun,2026-08-28T15:27:38.173273+00:00,fur-floor-cushion,30,3
+99,to roll,verb,2026-08-28T15:27:38.173273+00:00,vda-to-roll,61,3
+100,"standard, criterion",noun,2026-08-28T15:27:38.173273+00:00,,,
+101,attention,noun,2026-08-28T15:27:38.173273+00:00,men-attention,57,1
+102,valley,noun,2026-08-28T15:27:38.173273+00:00,geo-valley,38,2
+103,polite,adjective,2026-08-28T15:27:38.173273+00:00,aqu-polite,64,2
+104,evening,noun,2026-08-28T15:27:38.173273+00:00,tod-evening,9,1
+105,death,noun,2026-08-28T15:27:38.173273+00:00,hea-death,19,1
+106,district,noun,2026-08-28T15:27:38.173273+00:00,adr-district,43,2
+107,class,noun,2026-08-28T15:27:38.173273+00:00,sub-class,46,1
+108,to follow,noun,2026-08-28T15:27:38.173273+00:00,net-to-follow,54,2
+109,"line, wire, route",noun,2026-08-28T15:27:38.173273+00:00,,,
+110,to resign,verb,2026-08-28T15:27:38.173273+00:00,off-to-quit,51,1
+111,to cut,verb,2026-08-28T15:27:38.173273+00:00,vda-to-cut,61,1
+112,black,adjective,2026-08-28T15:27:38.173273+00:00,color-black,12,1
+113,"to calm down, quiet down, subside",verb,2026-08-28T15:27:38.173273+00:00,,55,
+114,unusual,adjective,2026-08-28T15:27:38.173273+00:00,aqu-unusual,64,2
+115,a.m.,noun,2026-08-28T15:27:38.173273+00:00,tod-am,9,2
+116,married couple,noun,2026-08-28T15:27:38.173273+00:00,fam-married-couple,14,2
+117,case,noun,2026-08-28T15:27:38.173273+00:00,con-case-situation,68,2
+118,june,noun,2026-08-28T15:27:38.173273+00:00,mon-june,8,1
+119,to carry,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-carry,59,1
+120,long,adjective,2026-08-28T15:27:38.173273+00:00,asi-long,63,1
+121,mother,noun,2026-08-28T15:27:38.173273+00:00,fam-mother,14,1
+122,to remember,verb,2026-08-28T15:27:38.173273+00:00,men-to-remember,57,1
+123,wheat,noun,2026-08-28T15:27:38.173273+00:00,gra-wheat,23,2
+124,hot spring,noun,2026-08-28T15:27:38.173273+00:00,acc-hot-spring,83,2
+125,education,noun,2026-08-28T15:27:38.173273+00:00,sub-education,46,1
+126,ratio,noun,2026-08-28T15:27:38.173273+00:00,qty-ratio,4,3
+127,written character,noun,2026-08-28T15:27:38.173273+00:00,ll-written-character,47,2
+128,day of the week,noun,2026-08-28T15:27:38.173273+00:00,dow-day-of-week,7,1
+129,"errand, business to attend to, things to do",noun,2026-08-28T15:27:38.173273+00:00,,,
+130,insurance,noun,2026-08-28T15:27:38.173273+00:00,off-insurance,51,2
+131,two people,noun,2026-08-28T15:27:38.173273+00:00,ctr-two-people,5,1
+132,supply,noun,2026-08-28T15:27:38.173273+00:00,off-supply,51,3
+133,demand,noun,2026-08-28T15:27:38.173273+00:00,off-demand,51,2
+134,real estate,noun,2026-08-28T15:27:38.173273+00:00,hre-real-estate,84,1
+135,lighting,noun,2026-08-28T15:27:38.173273+00:00,app-lighting,31,2
+136,to answer,verb,2026-08-28T15:27:38.173273+00:00,spk-to-answer,53,1
+137,"fate, destiny",noun,2026-08-28T15:27:38.173273+00:00,,,
+138,viewing (media),noun,2026-08-28T15:27:38.173273+00:00,net-viewing,54,3
+139,driving,noun,2026-08-28T15:27:38.173273+00:00,tra-driving,40,2
+140,to tidy up,verb,2026-08-28T15:27:38.173273+00:00,vda-to-tidy,61,1
+141,best before date,noun,2026-08-28T15:27:38.173273+00:00,gro-best-before,72,1
+142,"lesson, moral, teaching",noun,2026-08-28T15:27:38.173273+00:00,,,
+143,to notice,verb,2026-08-28T15:27:38.173273+00:00,men-to-notice,57,1
+144,yesterday,adverb,2026-08-28T15:27:38.173273+00:00,cal-yesterday,10,1
+145,to face,verb,2026-08-28T15:27:38.173273+00:00,dir-to-face,41,2
+146,recommendation,noun,2026-08-28T15:27:38.173273+00:00,res-recommendation,71,1
+147,everyone,pronoun,2026-08-28T15:27:38.173273+00:00,qty-everyone,4,1
+148,last year,adverb,2026-08-28T15:27:38.173273+00:00,cal-last-year,10,1
+149,to compare,verb,2026-08-28T15:27:38.173273+00:00,acm-to-compare,65,1
+150,politics,noun,2026-08-28T15:27:38.173273+00:00,soc-politics,70,1
+151,to know,verb,2026-08-28T15:27:38.173273+00:00,men-to-know,57,1
+152,to sell,verb,2026-08-28T15:27:38.173273+00:00,mon-to-sell,50,1
+153,area along the line,noun,2026-08-28T15:27:38.173273+00:00,sta-line-side,82,3
+154,map,noun,2026-08-28T15:27:38.173273+00:00,adr-map,43,1
+155,ticket,noun,2026-08-28T15:27:38.173273+00:00,sta-ticket,82,1
+156,to surpass,verb,2026-08-28T15:27:38.173273+00:00,acm-to-surpass,65,2
+157,"machine, machinery, mechanism",noun,2026-08-28T15:27:38.173273+00:00,,,
+158,nursing care,noun,2026-08-28T15:27:38.173273+00:00,hea-nursing,19,2
+159,eel,noun,2026-08-28T15:27:38.173273+00:00,mea-eel,24,3
+160,"to disappear, to vanish, to go out (fire/light)",verb,2026-08-28T15:27:38.173273+00:00,,,
+161,"time, season, period, occasion",noun,2026-08-28T15:27:38.173273+00:00,,6,
+162,Japanese cuisine,noun,2026-08-28T15:27:38.173273+00:00,res-japanese-cuisine,71,2
+163,shave,noun,2026-08-28T15:27:38.173273+00:00,bar-shave,87,2
+164,"luck, fortune",noun,2026-08-28T15:27:38.173273+00:00,,,
+165,animal,noun,2026-08-28T15:27:38.173273+00:00,ani-animal,36,1
+166,newsprint,noun,2026-08-28T15:27:38.173273+00:00,spk-newsprint,53,3
+167,father,noun,2026-08-28T15:27:38.173273+00:00,fam-father,14,1
+168,ophthalmologist,noun,2026-08-28T15:27:38.173273+00:00,job-eye-doctor,49,3
+169,soap,noun,2026-08-28T15:27:38.173273+00:00,hou-soap,32,1
+170,signal,noun,2026-08-28T15:27:38.173273+00:00,net-signal,54,2
+171,going to work,noun,2026-08-28T15:27:38.173273+00:00,off-going-to-work,51,2
+172,fare,noun,2026-08-28T15:27:38.173273+00:00,sta-fare,82,1
+173,bridge,noun,2026-08-28T15:27:38.173273+00:00,adr-bridge,43,1
+174,cinema,noun,2026-08-28T15:27:38.173273+00:00,bld-cinema,42,1
+175,defence,noun,2026-08-28T15:27:38.173273+00:00,soc-defence,70,2
+176,god,noun,2026-08-28T15:27:38.173273+00:00,soc-god,70,2
+177,injury,noun,2026-08-28T15:27:38.173273+00:00,hea-injury,19,1
+178,older brother,noun,2026-08-28T15:27:38.173273+00:00,fam-older-brother,14,1
+179,life (of a living thing),noun,2026-08-28T15:27:38.173273+00:00,,,
+180,fine (detailed),adjective,2026-08-28T15:27:38.173273+00:00,asi-fine-detailed,63,2
+181,nuisance,adjective,2026-08-28T15:27:38.173273+00:00,,54,
+182,investment,noun,2026-08-28T15:27:38.173273+00:00,off-investment,51,3
+183,to laugh,verb,2026-08-28T15:27:38.173273+00:00,emo-to-laugh,56,1
+184,outerwear,noun,2026-08-28T15:27:38.173273+00:00,clo-outerwear,33,2
+185,door,noun,2026-08-28T15:27:38.173273+00:00,rom-door,29,1
+186,"tool, instrument",noun,2026-08-28T15:27:38.173273+00:00,,,
+187,"signboard, billboard",noun,2026-08-28T15:27:38.173273+00:00,,,
+188,ticket barrier,noun,2026-08-28T15:27:38.173273+00:00,sta-ticket-barrier,82,1
+189,baseball,noun,2026-08-28T15:27:38.173273+00:00,spo-baseball,69,1
+190,public holiday,noun,2026-08-28T15:27:38.173273+00:00,cal-holiday,10,1
+191,total,noun,2026-08-28T15:27:38.173273+00:00,qty-total,4,2
+192,headache,noun,2026-08-28T15:27:38.173273+00:00,hea-headache,19,1
+193,both,determiner,2026-08-28T15:27:38.173273+00:00,qty-both,4,1
+194,food,noun,2026-08-28T15:27:38.173273+00:00,coo-food,27,1
+195,harbour,noun,2026-08-28T15:27:38.173273+00:00,tra-harbour,40,2
+196,child,noun,2026-08-28T15:27:38.173273+00:00,fam-child,14,1
+197,"other party, partner, opponent",noun,2026-08-28T15:27:38.173273+00:00,,80,
+198,"reference, consultation, example to follow",noun,2026-08-28T15:27:38.173273+00:00,,,
+199,equality,noun,2026-08-28T15:27:38.173273+00:00,acm-equality,65,2
+200,steel,noun,2026-08-28T15:27:38.173273+00:00,,,
+201,committee,noun,2026-08-28T15:27:38.173273+00:00,soc-committee,70,2
+202,"celebration, congratulation",noun,2026-08-28T15:27:38.173273+00:00,,,
+203,good at,adjective,2026-08-28T15:27:38.173273+00:00,aqu-skilled,64,2
+204,silver (colour),adjective,2026-08-28T15:27:38.173273+00:00,color-silver,12,3
+205,town hall,noun,2026-08-28T15:27:38.173273+00:00,bld-government-office,42,2
+206,"reduction, cutback",noun,2026-08-28T15:27:38.173273+00:00,,,
+207,to receive,verb,2026-08-28T15:27:38.173273+00:00,vda-to-receive,61,1
+208,"condition, state, tone, rhythm",noun,2026-08-28T15:27:38.173273+00:00,,,
+209,matcha,noun,2026-08-28T15:27:38.173273+00:00,gro-matcha,72,3
+210,peace,noun,2026-08-28T15:27:38.173273+00:00,soc-peace,70,1
+211,heavy snowfall,noun,2026-08-28T15:27:38.173273+00:00,wea-heavy-snow,35,3
+212,political party,noun,2026-08-28T15:27:38.173273+00:00,soc-political-party,70,2
+213,to be conveyed,verb,2026-08-28T15:27:38.173273+00:00,spk-to-be-conveyed,53,3
+214,bedding,noun,2026-08-28T15:27:38.173273+00:00,fur-bedding,30,3
+215,clean,adjective,2026-08-28T15:27:38.173273+00:00,aqu-clean,64,1
+216,to fit,verb,2026-08-28T15:27:38.173273+00:00,cst-to-fit,74,1
+217,between,preposition,2026-08-28T15:27:38.173273+00:00,dir-between,41,1
+218,expectation,noun,2026-08-28T15:27:38.173273+00:00,emo-expectation,56,2
+219,create,noun,2026-08-28T15:27:38.173273+00:00,,54,
+220,typhoon,noun,2026-08-28T15:27:38.173273+00:00,wea-typhoon,35,2
+221,first aid,noun,2026-08-28T15:27:38.173273+00:00,hea-first-aid,19,2
+222,society,noun,2026-08-28T15:27:38.173273+00:00,soc-society,70,1
+223,transit operation,noun,2026-08-28T15:27:38.173273+00:00,,39,
+224,"number, phone number, id number",noun,2026-08-28T15:27:38.173273+00:00,,1,
+225,complexion,noun,2026-08-28T15:27:38.173273+00:00,bod-complexion,18,3
+226,application,noun,2026-08-28T15:27:38.173273+00:00,net-application-form,54,1
+227,top,noun,2026-08-28T15:27:38.173273+00:00,dir-top,41,2
+228,awareness,noun,2026-08-28T15:27:38.173273+00:00,men-consciousness,57,2
+229,jumper,noun,2026-08-28T15:27:38.173273+00:00,clo-sweater,33,1
+231,"experience, first-hand experience",noun,2026-08-28T15:27:38.173273+00:00,,,
+232,"hometown, native place",noun,2026-08-28T15:27:38.173273+00:00,,28,
+233,mind,noun,2026-08-28T15:27:38.173273+00:00,men-mind,57,1
+234,ocean,noun,2026-08-28T15:27:38.173273+00:00,geo-ocean,38,2
+235,sofa,noun,2026-08-28T15:27:38.173273+00:00,fur-sofa,30,1
+236,"improvement, betterment",noun,2026-08-28T15:27:38.173273+00:00,,,
+237,timber construction,noun,2026-08-28T15:27:38.173273+00:00,hre-wooden-construction,84,3
+238,dentist,noun,2026-08-28T15:27:38.173273+00:00,job-dentist,49,2
+239,to work,verb,2026-08-28T15:27:38.173273+00:00,off-to-work,51,1
+240,"processing, manufacturing, fabrication",noun,2026-08-28T15:27:38.173273+00:00,,48,
+241,document,noun,2026-08-28T15:27:38.173273+00:00,off-document,51,1
+242,wing,noun,2026-08-28T15:27:38.173273+00:00,ani-wing,36,2
+243,tea,noun,2026-08-28T15:27:38.173273+00:00,dri-tea,26,1
+244,nose,noun,2026-08-28T15:27:38.173273+00:00,bod-nose,18,1
+245,"to celebrate, congratulate",verb,2026-08-28T15:27:38.173273+00:00,,,
+246,morning,noun,2026-08-28T15:27:38.173273+00:00,tod-morning,9,1
+247,green,adjective,2026-08-28T15:27:38.173273+00:00,color-green,12,1
+248,excellent,adjective,2026-08-28T15:27:38.173273+00:00,aqu-excellent,64,2
+249,question,noun,2026-08-28T15:27:38.173273+00:00,spk-question,53,1
+250,to fall,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-fall,59,1
+251,purchase,noun,2026-08-28T15:27:38.173273+00:00,mon-purchase,50,2
+252,"utility pole, electric pole, telephone pole",noun,2026-08-28T15:27:38.173273+00:00,,,
+253,ryokan,noun,2026-08-28T15:27:38.173273+00:00,acc-ryokan,83,3
+254,"to relate to, concern, be about",verb,2026-08-28T15:27:38.173273+00:00,,,
+255,hair wash,noun,2026-08-28T15:27:38.173273+00:00,bar-hair-wash,87,2
+256,"budget, estimated expenditure",noun,2026-08-28T15:27:38.173273+00:00,,39,
+257,"how to use, way of using, usage",noun,2026-08-28T15:27:38.173273+00:00,,,
+258,seat,noun,2026-08-28T15:27:38.173273+00:00,sta-seat,82,1
+259,half,noun,2026-08-28T15:27:38.173273+00:00,qty-half,4,1
+260,natto,noun,2026-08-28T15:27:38.173273+00:00,res-natto,71,3
+261,plate,noun,2026-08-28T15:27:38.173273+00:00,hou-plate,32,1
+262,to cut (hair),noun,2026-08-28T15:27:38.173273+00:00,bar-to-cut-hair,87,1
+263,property viewing,noun,2026-08-28T15:27:38.173273+00:00,hre-viewing,84,1
+264,finishing touches,noun,2026-08-28T15:27:38.173273+00:00,bar-finishing,87,3
+265,club activity,noun,2026-08-28T15:27:38.173273+00:00,sub-club-activity,46,2
+266,wave,noun,2026-08-28T15:27:38.173273+00:00,geo-wave,38,2
+267,to need,verb,2026-08-28T15:27:38.173273+00:00,vda-to-need,61,1
+268,right hand,noun,2026-08-28T15:27:38.173273+00:00,bod-right-hand,18,2
+269,"difficulty, hardship",noun,2026-08-28T15:27:38.173273+00:00,,,
+270,"poem, poetry",noun,2026-08-28T15:27:38.173273+00:00,,,
+271,"depending on, as soon as, circumstances",noun,2026-08-28T15:27:38.173273+00:00,,,
+272,to say,verb,2026-08-28T15:27:38.173273+00:00,spk-to-say,53,1
+273,"relationship, connection",noun,2026-08-28T15:27:38.173273+00:00,,,
+274,"past, bygone days",noun,2026-08-28T15:27:38.173273+00:00,,6,
+275,out of stock,adjective,2026-08-28T15:27:38.173273+00:00,mon-out-of-stock,50,2
+276,"to endeavor, make effort, strive",verb,2026-08-28T15:27:38.173273+00:00,,,
+277,bicycle,noun,2026-08-28T15:27:38.173273+00:00,tra-bicycle,40,1
+278,consumption,noun,2026-08-28T15:27:38.173273+00:00,mon-consumption,50,3
+279,"hometown, birthplace",noun,2026-08-28T15:27:38.173273+00:00,,28,
+280,"effort, endeavor, hard work",noun,2026-08-28T15:27:38.173273+00:00,,,
+281,interesting,adjective,2026-08-28T15:27:38.173273+00:00,emo-interesting,56,1
+282,departure,noun,2026-08-28T15:27:38.173273+00:00,sta-departure,82,1
+283,police officer,noun,2026-08-28T15:27:38.173273+00:00,job-police-officer,49,1
+284,humanity and justice,noun,2026-08-28T15:27:38.173273+00:00,,,
+285,part,noun,2026-08-28T15:27:38.173273+00:00,qty-part,4,1
+286,wind,noun,2026-08-28T15:27:38.173273+00:00,wea-wind,35,1
+287,palace,noun,2026-08-28T15:27:38.173273+00:00,bld-palace,42,3
+288,to enter,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-enter,59,1
+289,understanding,noun,2026-08-28T15:27:38.173273+00:00,men-understanding,57,2
+290,to be visible,verb,2026-08-28T15:27:38.173273+00:00,vpe-to-be-visible,60,2
+291,ship,noun,2026-08-28T15:27:38.173273+00:00,tra-ship,40,1
+292,tomorrow,adverb,2026-08-28T15:27:38.173273+00:00,cal-tomorrow,10,1
+293,"method, way, means, approach",noun,2026-08-28T15:27:38.173273+00:00,,80,
+294,"to raise, support, nourish, cultivate",verb,2026-08-28T15:27:38.173273+00:00,,28,
+295,bargain price,noun,2026-08-28T15:27:38.173273+00:00,mon-bargain,50,2
+296,fringe,noun,2026-08-28T15:27:38.173273+00:00,bar-fringe,87,2
+297,husband,noun,2026-08-28T15:27:38.173273+00:00,fam-husband,14,1
+298,to exchange,verb,2026-08-28T15:27:38.173273+00:00,cst-to-exchange,74,1
+299,salad,noun,2026-08-28T15:27:38.173273+00:00,res-salad,71,1
+300,majesty,noun,2026-08-28T15:27:38.173273+00:00,soc-majesty,70,3
+301,bow and arrow,noun,2026-08-28T15:27:38.173273+00:00,spo-bow-and-arrow,69,3
+302,middle,noun,2026-08-28T15:27:38.173273+00:00,dir-middle,41,1
+303,"diary, journal",noun,2026-08-28T15:27:38.173273+00:00,,,
+304,upper secondary school,noun,2026-08-28T15:27:38.173273+00:00,bld-high-school,42,2
+305,fresh produce,noun,2026-08-28T15:27:38.173273+00:00,gro-produce,72,2
+306,rent,noun,2026-08-28T15:27:38.173273+00:00,hre-rent,84,1
+307,printing,noun,2026-08-28T15:27:38.173273+00:00,,,
+308,"to try, attempt, make an effort",verb,2026-08-28T15:27:38.173273+00:00,,,
+309,game,noun,2026-08-28T15:27:38.173273+00:00,spo-game,69,1
+310,discount,noun,2026-08-28T15:27:38.173273+00:00,mon-discount,50,1
+311,"restoration, recovery",noun,2026-08-28T15:27:38.173273+00:00,,,
+312,small,adjective,2026-08-28T15:27:38.173273+00:00,asi-small,63,1
+313,to plant,verb,2026-08-28T15:27:38.173273+00:00,pla-to-plant,37,2
+314,steam train,noun,2026-08-28T15:27:38.173273+00:00,sta-steam-train,82,3
+315,make-up,noun,2026-08-28T15:27:38.173273+00:00,var-makeup,76,1
+316,hobby,noun,2026-08-28T15:27:38.173273+00:00,spo-hobby,69,1
+317,starter,noun,2026-08-28T15:27:38.173273+00:00,res-starter,71,2
+318,revolution,noun,2026-08-28T15:27:38.173273+00:00,soc-revolution,70,3
+319,station,noun,2026-08-28T15:27:38.173273+00:00,sta-station,82,1
+320,to close,verb,2026-08-28T15:27:38.173273+00:00,vda-to-close,61,1
+321,not applicable,noun,2026-08-28T15:27:38.173273+00:00,,80,
+322,monday,noun,2026-08-28T15:27:38.173273+00:00,dow-monday,7,1
+323,flower,noun,2026-08-28T15:27:38.173273+00:00,pla-flower,37,1
+324,conversation,noun,2026-08-28T15:27:38.173273+00:00,spk-conversation,53,1
+325,"agriculture, farming",noun,2026-08-28T15:27:38.173273+00:00,,48,
+326,to differ,verb,2026-08-28T15:27:38.173273+00:00,acm-to-differ,65,2
+327,canteen,noun,2026-08-28T15:27:38.173273+00:00,bld-canteen,42,2
+328,curtain,noun,2026-08-28T15:27:38.173273+00:00,fur-curtain,30,2
+329,wallet,noun,2026-08-28T15:27:38.173273+00:00,mon-wallet,50,1
+330,to speak,verb,2026-08-28T15:27:38.173273+00:00,spk-to-speak,53,1
+331,bed,noun,2026-08-28T15:27:38.173273+00:00,fur-bed,30,1
+332,"to lose, forfeit",verb,2026-08-28T15:27:38.173273+00:00,,,
+335,"application, practical use",noun,2026-08-28T15:27:38.173273+00:00,,,
+336,"natural, obvious, of course",noun,2026-08-28T15:27:38.173273+00:00,,,
+337,"future, one's future prospects",noun,2026-08-28T15:27:38.173273+00:00,,6,
+338,to read,verb,2026-08-28T15:27:38.173273+00:00,spk-to-read,53,1
+339,to attach,verb,2026-08-28T15:27:38.173273+00:00,vda-to-attach,61,2
+340,century,noun,2026-08-28T15:27:38.173273+00:00,cal-century,10,3
+341,information,noun,2026-08-28T15:27:38.173273+00:00,,39,
+342,a walk,noun,2026-08-28T15:27:38.173273+00:00,vmo-walk-noun,59,1
+343,to approach,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-approach,59,2
+344,culture,noun,2026-08-28T15:27:38.173273+00:00,,,
+345,station attendant,noun,2026-08-28T15:27:38.173273+00:00,job-station-staff,49,3
+346,bad at,adjective,2026-08-28T15:27:38.173273+00:00,aqu-unskilled,64,2
+347,to move house,verb,2026-08-28T15:27:38.173273+00:00,vda-to-move-house,61,2
+348,formal garden,noun,2026-08-28T15:27:38.173273+00:00,bld-garden-formal,42,3
+349,spicy,adjective,2026-08-28T15:27:38.173273+00:00,coo-spicy,27,1
+350,chest,noun,2026-08-28T15:27:38.173273+00:00,bod-chest,18,2
+351,textbook,noun,2026-08-28T15:27:38.173273+00:00,ll-textbook,47,2
+352,light,noun,2026-08-28T15:27:38.173273+00:00,geo-light,38,1
+353,"life, living, daily life",noun,2026-08-28T15:27:38.173273+00:00,,80,
+354,to wrap,verb,2026-08-28T15:27:38.173273+00:00,vda-to-wrap,61,2
+355,temple,noun,2026-08-28T15:27:38.173273+00:00,bld-temple,42,2
+356,topping,noun,2026-08-28T15:27:38.173273+00:00,res-topping,71,2
+357,skirt,noun,2026-08-28T15:27:38.173273+00:00,clo-skirt,33,1
+358,cooking oil,noun,2026-08-28T15:27:38.173273+00:00,dai-oil,25,1
+359,sheep,noun,2026-08-28T15:27:38.173273+00:00,ani-sheep,36,2
+360,"field, area, domain, sector",noun,2026-08-28T15:27:38.173273+00:00,,,
+361,journalist,noun,2026-08-28T15:27:38.173273+00:00,job-journalist,49,2
+362,to bring along,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-bring,59,1
+363,on foot,adverb,2026-08-28T15:27:38.173273+00:00,tra-on-foot,40,2
+364,"probably, maybe, perhaps",noun,2026-08-28T15:27:38.173273+00:00,,,
+365,skill,noun,2026-08-28T15:27:38.173273+00:00,men-skill,57,1
+366,cash,noun,2026-08-28T15:27:38.173273+00:00,mon-cash,50,1
+367,friend,noun,2026-08-28T15:27:38.173273+00:00,rol-friend,16,1
+368,beef,noun,2026-08-28T15:27:38.173273+00:00,mea-beef,24,1
+369,square (plaza),noun,2026-08-28T15:27:38.173273+00:00,bld-square,42,2
+370,"habit, custom",noun,2026-08-28T15:27:38.173273+00:00,,,
+371,solution,noun,2026-08-28T15:27:38.173273+00:00,men-solution,57,1
+372,pedestrian crossing,noun,2026-08-28T15:27:38.173273+00:00,adr-crossing,43,2
+373,unreserved seat,noun,2026-08-28T15:27:38.173273+00:00,sta-unreserved-seat,82,3
+374,"modern times, contemporary age",noun,2026-08-28T15:27:38.173273+00:00,,6,
+375,to try on,verb,2026-08-28T15:27:38.173273+00:00,cst-to-try-on,74,1
+376,exam,noun,2026-08-28T15:27:38.173273+00:00,sch-exam,45,1
+377,"introduction, primer, beginning level",noun,2026-08-28T15:27:38.173273+00:00,,44,
+378,browsing history,noun,2026-08-28T15:27:38.173273+00:00,net-history-record,54,2
+379,"substitute, replacement",noun,2026-08-28T15:27:38.173273+00:00,,,
+380,"eternal, everlasting",adjective,2026-08-28T15:27:38.173273+00:00,,6,
+381,may,noun,2026-08-28T15:27:38.173273+00:00,mon-may,8,1
+382,baby,noun,2026-08-28T15:27:38.173273+00:00,fam-baby,14,1
+383,sake,noun,2026-08-28T15:27:38.173273+00:00,res-sake,71,2
+384,barcode,noun,2026-08-28T15:27:38.173273+00:00,eco-barcode,85,2
+385,place,noun,2026-08-28T15:27:38.173273+00:00,dir-place,41,1
+386,salary,noun,2026-08-28T15:27:38.173273+00:00,off-salary,51,1
+387,medical examination,noun,2026-08-28T15:27:38.173273+00:00,hea-examination,19,2
+388,share price,noun,2026-08-28T15:27:38.173273+00:00,off-share-price,51,3
+389,"acting, performance",noun,2026-08-28T15:27:38.173273+00:00,,,
+390,resident,noun,2026-08-28T15:27:38.173273+00:00,soc-resident,70,2
+391,humidifier,noun,2026-08-28T15:27:38.173273+00:00,app-humidifier,31,3
+392,race,noun,2026-08-28T15:27:38.173273+00:00,spo-race,69,2
+393,medicine,noun,2026-08-28T15:27:38.173273+00:00,hea-medicine,19,1
+394,cheap,adjective,2026-08-28T15:27:38.173273+00:00,mon-cheap,50,1
+395,to pass through,verb,2026-08-28T15:27:38.173273+00:00,sta-to-pass-through,82,2
+396,"development, growth, expansion",noun,2026-08-28T15:27:38.173273+00:00,,,
+397,border,noun,2026-08-28T15:27:38.173273+00:00,adr-border,43,2
+398,report,noun,2026-08-28T15:27:38.173273+00:00,off-report,51,1
+399,to die,verb,2026-08-28T15:27:38.173273+00:00,vda-to-die,61,1
+400,seasoning,noun,2026-08-28T15:27:38.173273+00:00,dai-seasoning,25,2
+402,broadcaster,noun,2026-08-28T15:27:38.173273+00:00,spk-broadcaster,53,3
+403,glasses,noun,2026-08-28T15:27:38.173273+00:00,clo-glasses,33,1
+404,qualification,noun,2026-08-28T15:27:38.173273+00:00,off-qualification,51,2
+405,charger,noun,2026-08-28T15:27:38.173273+00:00,ele-charger,75,1
+406,dog,noun,2026-08-28T15:27:38.173273+00:00,ani-dog,36,1
+407,answer,noun,2026-08-28T15:27:38.173273+00:00,spk-answer,53,1
+408,schedule,noun,2026-08-28T15:27:38.173273+00:00,off-schedule-work,51,1
+409,autumn leaves,noun,2026-08-28T15:27:38.173273+00:00,pla-autumn-leaves,37,3
+410,iron and steel,noun,2026-08-28T15:27:38.173273+00:00,,,
+411,ban,noun,2026-08-28T15:27:38.173273+00:00,soc-prohibition,70,1
+412,bus stop,noun,2026-08-28T15:27:38.173273+00:00,tra-bus-stop,40,1
+413,to cure,verb,2026-08-28T15:27:38.173273+00:00,hea-to-cure,19,2
+414,platform,noun,2026-08-28T15:27:38.173273+00:00,sta-platform,82,1
+415,reservation,noun,2026-08-28T15:27:38.173273+00:00,res-reservation,71,1
+416,private room,noun,2026-08-28T15:27:38.173273+00:00,res-private-room,71,2
+417,shoes,noun,2026-08-28T15:27:38.173273+00:00,clo-shoes,33,1
+418,actor,noun,2026-08-28T15:27:38.173273+00:00,job-actor,49,2
+419,"to copy, to transcribe",verb,2026-08-28T15:27:38.173273+00:00,,,
+420,ice,noun,2026-08-28T15:27:38.173273+00:00,wea-ice,35,1
+421,parent,noun,2026-08-28T15:27:38.173273+00:00,fam-parent,14,1
+422,"movie, film",noun,2026-08-28T15:27:38.173273+00:00,,54,
+423,bird,noun,2026-08-28T15:27:38.173273+00:00,ani-bird,36,1
+424,"meaning, significance",noun,2026-08-28T15:27:38.173273+00:00,,57,
+425,tv stand,noun,2026-08-28T15:27:38.173273+00:00,fur-tv-stand,30,3
+426,to eat,verb,2026-08-28T15:27:38.173273+00:00,coo-to-eat,27,1
+427,main line,noun,2026-08-28T15:27:38.173273+00:00,sta-main-line,82,3
+428,punctuation,noun,2026-08-28T15:27:38.173273+00:00,spk-punctuation,53,3
+429,reform,noun,2026-08-28T15:27:38.173273+00:00,soc-reform,70,2
+430,"sightseeing, tourism",noun,2026-08-28T15:27:38.173273+00:00,,39,
+431,reason,noun,2026-08-28T15:27:38.173273+00:00,con-reason,68,1
+432,"crowd, multitude",noun,2026-08-28T15:27:38.173273+00:00,,,
+434,to collect,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-collect,59,2
+435,"returning home, going home",noun,2026-08-28T15:27:38.173273+00:00,,28,
+436,this time,adverb,2026-08-28T15:27:38.173273+00:00,dur-this-time,11,2
+437,communication,noun,2026-08-28T15:27:38.173273+00:00,spk-communication,53,1
+438,bean,noun,2026-08-28T15:27:38.173273+00:00,veg-bean,22,2
+439,increase,noun,2026-08-28T15:27:38.173273+00:00,qty-increase,4,2
+440,bone fracture,noun,2026-08-28T15:27:38.173273+00:00,hea-fracture,19,3
+441,last week,adverb,2026-08-28T15:27:38.173273+00:00,cal-last-week,10,1
+442,asset value,noun,2026-08-28T15:27:38.173273+00:00,hre-asset-value,84,3
+443,"to accomplish, fulfill, achieve",verb,2026-08-28T15:27:38.173273+00:00,,,
+444,hill,noun,2026-08-28T15:27:38.173273+00:00,geo-hill,38,2
+445,famous,adjective,2026-08-28T15:27:38.173273+00:00,aqu-famous,64,2
+446,one's own home,noun,2026-08-28T15:27:38.173273+00:00,,39,
+447,bone,noun,2026-08-28T15:27:38.173273+00:00,bod-bone,18,2
+448,organic,adjective,2026-08-28T15:27:38.173273+00:00,gro-organic,72,2
+449,boarding a ship,noun,2026-08-28T15:27:38.173273+00:00,sta-boarding-ship,82,3
+450,season ticket,noun,2026-08-28T15:27:38.173273+00:00,sta-commuter-pass,82,1
+451,face,noun,2026-08-28T15:27:38.173273+00:00,bod-face,18,1
+452,all you can eat,noun,2026-08-28T15:27:38.173273+00:00,res-all-you-can-eat,71,2
+453,management,noun,2026-08-28T15:27:38.173273+00:00,off-management,51,2
+454,impression,noun,2026-08-28T15:27:38.173273+00:00,men-impression,57,2
+455,flame-grilled,adjective,2026-08-28T15:27:38.173273+00:00,res-flame-grilled,71,3
+456,dress,noun,2026-08-28T15:27:38.173273+00:00,clo-dress,33,1
+457,street,noun,2026-08-28T15:27:38.173273+00:00,adr-street,43,1
+458,dictionary,noun,2026-08-28T15:27:38.173273+00:00,ll-dictionary,47,1
+459,immigration,noun,2026-08-28T15:27:38.173273+00:00,gov-immigration,81,2
+460,pyjamas,noun,2026-08-28T15:27:38.173273+00:00,clo-pyjamas,33,2
+461,cooked rice,noun,2026-08-28T15:27:38.173273+00:00,gra-rice-cooked,23,1
+462,café,noun,2026-08-28T15:27:38.173273+00:00,bld-cafe,42,1
+463,election,noun,2026-08-28T15:27:38.173273+00:00,soc-election,70,1
+464,wasabi,noun,2026-08-28T15:27:38.173273+00:00,res-wasabi,71,3
+465,video,noun,2026-08-28T15:27:38.173273+00:00,net-video,54,1
+466,meat,noun,2026-08-28T15:27:38.173273+00:00,mea-meat,24,1
+467,to take,verb,2026-08-28T15:27:38.173273+00:00,vda-to-take,61,1
+468,"first, beginning, start",noun,2026-08-28T15:27:38.173273+00:00,,6,
+469,music,noun,2026-08-28T15:27:38.173273+00:00,sub-music,46,1
+470,patience,noun,2026-08-28T15:27:38.173273+00:00,emo-patience,56,2
+471,condition,noun,2026-08-28T15:27:38.173273+00:00,con-condition,68,2
+472,full marks,noun,2026-08-28T15:27:38.173273+00:00,sch-full-marks,45,3
+473,fish (as food),noun,2026-08-28T15:27:38.173273+00:00,mea-fish-food,24,1
+474,facilities,noun,2026-08-28T15:27:38.173273+00:00,hre-facilities,84,2
+475,height (of a person),noun,2026-08-28T15:27:38.173273+00:00,bod-height,18,2
+476,night,noun,2026-08-28T15:27:38.173273+00:00,tod-night,9,1
+477,nobility,noun,2026-08-28T15:27:38.173273+00:00,soc-nobility,70,3
+478,opposite,noun,2026-08-28T15:27:38.173273+00:00,acm-opposite,65,1
+479,underwear,noun,2026-08-28T15:27:38.173273+00:00,clo-underwear,33,1
+480,business trip,noun,2026-08-28T15:27:38.173273+00:00,off-business-trip,51,2
+481,rice bowl dish,noun,2026-08-28T15:27:38.173273+00:00,res-rice-bowl,71,3
+482,swimming,noun,2026-08-28T15:27:38.173273+00:00,spo-swimming,69,1
+483,work,noun,2026-08-28T15:27:38.173273+00:00,off-work,51,1
+484,delivery (of goods),noun,2026-08-28T15:27:38.173273+00:00,fst-delivery-furniture,77,1
+485,utility bills,noun,2026-08-28T15:27:38.173273+00:00,mon-utility-bills,50,2
+486,teacher,noun,2026-08-28T15:27:38.173273+00:00,job-teacher,49,1
+487,to clear up,verb,2026-08-28T15:27:38.173273+00:00,wea-to-clear-up,35,2
+488,lake,noun,2026-08-28T15:27:38.173273+00:00,geo-lake,38,1
+489,to finish,verb,2026-08-28T15:27:38.173273+00:00,vda-to-end,61,1
+490,"combination, pairing, arrangement",noun,2026-08-28T15:27:38.173273+00:00,,,
+491,weekend,noun,2026-08-28T15:27:38.173273+00:00,dow-weekend,7,1
+492,"kyoto (city in japan, former capital)",noun,2026-08-28T15:27:38.173273+00:00,,39,
+493,bright,adjective,2026-08-28T15:27:38.173273+00:00,aqu-bright,64,1
+494,to receive (a signal),noun,2026-08-28T15:27:38.173273+00:00,net-to-receive,54,2
+495,november,noun,2026-08-28T15:27:38.173273+00:00,mon-november,8,1
+496,hygiene,noun,2026-08-28T15:27:38.173273+00:00,hea-hygiene,19,2
+497,nationwide,adjective,2026-08-28T15:27:38.173273+00:00,adr-nationwide,43,3
+498,abroad,noun,2026-08-28T15:27:38.173273+00:00,adr-abroad,43,1
+499,record,noun,2026-08-28T15:27:38.173273+00:00,spo-record-achievement,69,2
+500,general counter,noun,2026-08-28T15:27:38.173273+00:00,ctr-general,5,1
+501,to add,verb,2026-08-28T15:27:38.173273+00:00,vda-to-add,61,1
+502,"picture book, illustrated book",noun,2026-08-28T15:27:38.173273+00:00,,,
+503,"in practice, actually",noun,2026-08-28T15:27:38.173273+00:00,,,
+504,discussion,noun,2026-08-28T15:27:38.173273+00:00,spk-discussion,53,2
+505,"to print, run off",verb,2026-08-28T15:27:38.173273+00:00,,,
+506,electricity,noun,2026-08-28T15:27:38.173273+00:00,ele-electricity,75,1
+507,thick-cut,adjective,2026-08-28T15:27:38.173273+00:00,res-thick-cut,71,3
+508,industry,noun,2026-08-28T15:27:38.173273+00:00,off-industry,51,2
+509,salt,noun,2026-08-28T15:27:38.173273+00:00,dai-salt,25,1
+510,"to inhale, to breathe in",verb,2026-08-28T15:27:38.173273+00:00,,,
+511,quotation,noun,2026-08-28T15:27:38.173273+00:00,spk-quotation,53,3
+512,victory,noun,2026-08-28T15:27:38.173273+00:00,spo-victory,69,1
+513,charm,noun,2026-08-28T15:27:38.173273+00:00,,84,
+514,to run,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-run,59,1
+515,sentence,noun,2026-08-28T15:27:38.173273+00:00,ll-sentence,47,1
+516,menu,noun,2026-08-28T15:27:38.173273+00:00,res-menu,71,1
+517,"title (of a work), name of a piece",noun,2026-08-28T15:27:38.173273+00:00,,,
+518,"good luck, good fortune",noun,2026-08-28T15:27:38.173273+00:00,,,
+519,head,noun,2026-08-28T15:27:38.173273+00:00,bod-head,18,1
+520,serious,adjective,2026-08-28T15:27:38.173273+00:00,aqu-serious,64,2
+521,sad,adjective,2026-08-28T15:27:38.173273+00:00,emo-sad,56,1
+522,to walk,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-walk,59,1
+523,shop,noun,2026-08-28T15:27:38.173273+00:00,bld-shop,42,1
+524,wedding ceremony,noun,2026-08-28T15:27:38.173273+00:00,,,
+525,black tea,noun,2026-08-28T15:27:38.173273+00:00,dri-black-tea,26,2
+527,means of transport,noun,2026-08-28T15:27:38.173273+00:00,tra-transport-means,40,2
+528,haiku (17-syllable japanese poem),noun,2026-08-28T15:27:38.173273+00:00,,,
+529,"postponement, delay",noun,2026-08-28T15:27:38.173273+00:00,,6,
+530,dryer,noun,2026-08-28T15:27:38.173273+00:00,app-dryer,31,2
+531,"folktale, old story, fairy tale",noun,2026-08-28T15:27:38.173273+00:00,,,
+532,destination,noun,2026-08-28T15:27:38.173273+00:00,sta-destination,82,1
+533,rice (uncooked),noun,2026-08-28T15:27:38.173273+00:00,gra-rice-grain,23,1
+534,furniture,noun,2026-08-28T15:27:38.173273+00:00,fur-furniture,30,1
+536,bus,noun,2026-08-28T15:27:38.173273+00:00,tra-bus,40,1
+537,coat hanger,noun,2026-08-28T15:27:38.173273+00:00,hou-hanger,32,3
+538,comeback,noun,2026-08-28T15:27:38.173273+00:00,spo-comeback,69,3
+539,strong,adjective,2026-08-28T15:27:38.173273+00:00,aqu-strong,64,1
+540,vehicle,noun,2026-08-28T15:27:38.173273+00:00,tra-vehicle,40,1
+541,domestic,adjective,2026-08-28T15:27:38.173273+00:00,adr-domestic,43,2
+542,since,conjunction,2026-08-28T15:27:38.173273+00:00,con-since-time,68,2
+543,score,noun,2026-08-28T15:27:38.173273+00:00,sch-score,45,1
+544,"birthplace, hometown, origin, background (education/organization)",noun,2026-08-28T15:27:38.173273+00:00,,,
+545,doctor,noun,2026-08-28T15:27:38.173273+00:00,job-doctor,49,1
+546,sun,noun,2026-08-28T15:27:38.173273+00:00,wea-sun,35,1
+547,Japanese (language),noun,2026-08-28T15:27:38.173273+00:00,ll-japanese,47,2
+548,sparkling water,noun,2026-08-28T15:27:38.173273+00:00,dri-sparkling-water,26,2
+549,main course,noun,2026-08-28T15:27:38.173273+00:00,res-main-course,71,2
+550,steak,noun,2026-08-28T15:27:38.173273+00:00,res-steak,71,2
+551,fashion,noun,2026-08-28T15:27:38.173273+00:00,cst-in-fashion,74,2
+552,front,noun,2026-08-28T15:27:38.173273+00:00,dir-front,41,1
+553,saturday,noun,2026-08-28T15:27:38.173273+00:00,dow-saturday,7,1
+554,feeling,noun,2026-08-28T15:27:38.173273+00:00,emo-feeling,56,1
+555,"to prosper, flourish, thrive",verb,2026-08-28T15:27:38.173273+00:00,,,
+556,south,noun,2026-08-28T15:27:38.173273+00:00,dir-south,41,1
+558,midnight,noun,2026-08-28T15:27:38.173273+00:00,tod-midnight,9,2
+559,to line up (something),verb,2026-08-28T15:27:38.173273+00:00,dir-to-arrange,41,2
+560,period,noun,2026-08-28T15:27:38.173273+00:00,dur-period,11,2
+561,job interview,noun,2026-08-28T15:27:38.173273+00:00,off-interview,51,1
+562,"to pull, to draw",verb,2026-08-28T15:27:38.173273+00:00,,,
+563,to enjoy,verb,2026-08-28T15:27:38.173273+00:00,emo-to-enjoy,56,1
+564,grilled meat,noun,2026-08-28T15:27:38.173273+00:00,res-grilled-meat,71,3
+565,research institute,noun,2026-08-28T15:27:38.173273+00:00,off-research-institute,51,3
+566,"donation, contribution",noun,2026-08-28T15:27:38.173273+00:00,,,
+567,lecture,noun,2026-08-28T15:27:38.173273+00:00,off-lecture,51,2
+568,to part,verb,2026-08-28T15:27:38.173273+00:00,vda-to-part,61,2
+569,secondary school,noun,2026-08-28T15:27:38.173273+00:00,bld-middle-school,42,2
+570,committee member,noun,2026-08-28T15:27:38.173273+00:00,soc-committee-member,70,3
+571,valley floor,noun,2026-08-28T15:27:38.173273+00:00,geo-valley-floor,38,3
+572,towel,noun,2026-08-28T15:27:38.173273+00:00,hou-towel,32,1
+573,"to be full, fill up, be brimming",verb,2026-08-28T15:27:38.173273+00:00,,,
+574,to become,verb,2026-08-28T15:27:38.173273+00:00,vda-to-become,61,1
+575,to recover,verb,2026-08-28T15:27:38.173273+00:00,hea-to-recover,19,2
+576,amount of money,noun,2026-08-28T15:27:38.173273+00:00,mon-amount,50,2
+577,delete,noun,2026-08-28T15:27:38.173273+00:00,net-to-delete,54,1
+578,degree,noun,2026-08-28T15:27:38.173273+00:00,acm-degree,65,2
+579,satellite,noun,2026-08-28T15:27:38.173273+00:00,,,
+580,horse,noun,2026-08-28T15:27:38.173273+00:00,ani-horse,36,1
+582,easy,adjective,2026-08-28T15:27:38.173273+00:00,aqu-easy,64,1
+583,scenery,noun,2026-08-28T15:27:38.173273+00:00,geo-scenery,38,2
+584,to sit an exam,verb,2026-08-28T15:27:38.173273+00:00,sch-to-sit-exam,45,2
+585,"rescue, relief, saving",noun,2026-08-28T15:27:38.173273+00:00,,,
+586,"process, course",noun,2026-08-28T15:27:38.173273+00:00,,,
+587,reception,noun,2026-08-28T15:27:38.173273+00:00,hos-reception-desk,79,1
+588,manager,noun,2026-08-28T15:27:38.173273+00:00,job-manager,49,2
+589,stock,noun,2026-08-28T15:27:38.173273+00:00,mon-in-stock,50,2
+590,milk,noun,2026-08-28T15:27:38.173273+00:00,dai-milk,25,1
+591,hot water,noun,2026-08-28T15:27:38.173273+00:00,dri-hot-water,26,2
+592,to forgive,verb,2026-08-28T15:27:38.173273+00:00,vda-to-forgive,61,2
+593,triangle,noun,2026-08-28T15:27:38.173273+00:00,,,
+594,receipt,noun,2026-08-28T15:27:38.173273+00:00,mon-receipt,50,1
+595,queue,noun,2026-08-28T15:27:38.173273+00:00,cst-changing-room-queue,74,2
+596,udon,noun,2026-08-28T15:27:38.173273+00:00,res-udon,71,3
+597,entrance hall,noun,2026-08-28T15:27:38.173273+00:00,rom-entryway,29,2
+598,rubbish bin,noun,2026-08-28T15:27:38.173273+00:00,hou-bin,32,1
+599,weak,adjective,2026-08-28T15:27:38.173273+00:00,aqu-weak,64,1
+600,mountaineering,noun,2026-08-28T15:27:38.173273+00:00,vmo-mountaineering,59,3
+601,futon,noun,2026-08-28T15:27:38.173273+00:00,fur-futon,30,3
+602,pavement,noun,2026-08-28T15:27:38.173273+00:00,adr-pavement,43,2
+603,"kansai region (western japan including osaka, kyoto, kobe)",noun,2026-08-28T15:27:38.173273+00:00,,39,
+604,to go out,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-exit,59,1
+606,to borrow,verb,2026-08-28T15:27:38.173273+00:00,vda-to-borrow,61,1
+607,"living together, cohabitation",noun,2026-08-28T15:27:38.173273+00:00,,28,
+608,leaf,noun,2026-08-28T15:27:38.173273+00:00,pla-leaf,37,1
+609,artist,noun,2026-08-28T15:27:38.173273+00:00,job-artist,49,2
+610,reading (pastime),noun,2026-08-28T15:27:38.173273+00:00,spk-reading-pastime,53,2
+611,rank,noun,2026-08-28T15:27:38.173273+00:00,off-rank,51,2
+612,wednesday,noun,2026-08-28T15:27:38.173273+00:00,dow-wednesday,7,1
+613,local area,noun,2026-08-28T15:27:38.173273+00:00,adr-local-area,43,2
+614,japanese-style room,noun,2026-08-28T15:27:38.173273+00:00,,28,
+615,to hurry,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-hurry,59,1
+616,acquaintance,noun,2026-08-28T15:27:38.173273+00:00,rol-acquaintance,16,2
+617,match,noun,2026-08-28T15:27:38.173273+00:00,spo-match,69,1
+618,toy,noun,2026-08-28T15:27:38.173273+00:00,hou-toy,32,2
+619,to graduate,verb,2026-08-28T15:27:38.173273+00:00,sub-to-graduate,46,1
+620,thursday,noun,2026-08-28T15:27:38.173273+00:00,dow-thursday,7,1
+621,to stand,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-stand,59,1
+622,ramen,noun,2026-08-28T15:27:38.173273+00:00,res-ramen,71,2
+624,free of charge,adjective,2026-08-28T15:27:38.173273+00:00,mon-free-of-charge,50,1
+625,right,noun,2026-08-28T15:27:38.173273+00:00,dir-right,41,1
+627,precious,adjective,2026-08-28T15:27:38.173273+00:00,aqu-precious,64,2
+628,hope,noun,2026-08-28T15:27:38.173273+00:00,emo-hope,56,1
+630,noodles,noun,2026-08-28T15:27:38.173273+00:00,gra-noodles,23,1
+631,stranger,noun,2026-08-28T15:27:38.173273+00:00,rol-stranger,16,2
+632,to grill,verb,2026-08-28T15:27:38.173273+00:00,coo-to-grill,27,2
+633,day,noun,2026-08-28T15:27:38.173273+00:00,cal-day,10,1
+634,"care, looking after",noun,2026-08-28T15:27:38.173273+00:00,,28,
+635,hat,noun,2026-08-28T15:27:38.173273+00:00,clo-hat,33,1
+636,to understand,verb,2026-08-28T15:27:38.173273+00:00,men-to-understand,57,1
+637,adult,noun,2026-08-28T15:27:38.173273+00:00,rol-adult,16,1
+638,river,noun,2026-08-28T15:27:38.173273+00:00,geo-river,38,1
+639,"constellation, star sign",noun,2026-08-28T15:27:38.173273+00:00,,,
+640,"festival, celebration, matsuri",noun,2026-08-28T15:27:38.173273+00:00,,,
+641,breathing,noun,2026-08-28T15:27:38.173273+00:00,hea-breathing,19,2
+642,celebrity,noun,2026-08-28T15:27:38.173273+00:00,rol-celebrity,16,3
+643,"to change (transitive), alter",verb,2026-08-28T15:27:38.173273+00:00,,,
+644,plain,adjective,2026-08-28T15:27:38.173273+00:00,aqu-simple-plain,64,3
+645,day trip,noun,2026-08-28T15:27:38.173273+00:00,,39,
+646,fun,adjective,2026-08-28T15:27:38.173273+00:00,emo-fun,56,1
+647,to take lessons in,verb,2026-08-28T15:27:38.173273+00:00,sub-to-learn-from,46,2
+648,confusion,noun,2026-08-28T15:27:38.173273+00:00,emo-confusion,56,2
+649,opposition party,noun,2026-08-28T15:27:38.173273+00:00,soc-opposition-party,70,3
+650,below,adverb,2026-08-28T15:27:38.173273+00:00,dir-below,41,1
+651,to lose (a game),verb,2026-08-28T15:27:38.173273+00:00,spo-to-lose,69,1
+652,programme,noun,2026-08-28T15:27:38.173273+00:00,spk-tv-programme,53,1
+653,to chase,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-chase,59,2
+654,coffee,noun,2026-08-28T15:27:38.173273+00:00,dri-coffee,26,1
+655,tall,adjective,2026-08-28T15:27:38.173273+00:00,asi-tall,63,1
+656,to climb,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-climb,59,1
+657,words,noun,2026-08-28T15:27:38.173273+00:00,spk-word-speech,53,1
+658,benefactor,noun,2026-08-28T15:27:38.173273+00:00,rol-benefactor,16,3
+659,light (not heavy),adjective,2026-08-28T15:27:38.173273+00:00,asi-light-weight,63,1
+660,train,noun,2026-08-28T15:27:38.173273+00:00,tra-train,40,1
+661,goldfish,noun,2026-08-28T15:27:38.173273+00:00,ani-goldfish,36,3
+662,"table, chart, list",noun,2026-08-28T15:27:38.173273+00:00,,,
+663,coal,noun,2026-08-28T15:27:38.173273+00:00,,,
+664,to save money,verb,2026-08-28T15:27:38.173273+00:00,mon-to-save,50,1
+665,bill,noun,2026-08-28T15:27:38.173273+00:00,mon-bill,50,1
+666,"range, scope, extent",noun,2026-08-28T15:27:38.173273+00:00,,,
+667,brown,adjective,2026-08-28T15:27:38.173273+00:00,color-brown,12,2
+668,common,adjective,2026-08-28T15:27:38.173273+00:00,acm-common,65,2
+669,index,noun,2026-08-28T15:27:38.173273+00:00,,80,
+670,to grant,noun,2026-08-28T15:27:38.173273+00:00,,80,
+671,chicken (meat),noun,2026-08-28T15:27:38.173273+00:00,mea-chicken-meat,24,1
+672,check-in,noun,2026-08-28T15:27:38.173273+00:00,acc-check-in,83,1
+673,new arrival,noun,2026-08-28T15:27:38.173273+00:00,eco-new-arrival,85,2
+674,today,adverb,2026-08-28T15:27:38.173273+00:00,cal-today,10,1
+675,direction,noun,2026-08-28T15:27:38.173273+00:00,dir-direction,41,1
+676,company,noun,2026-08-28T15:27:38.173273+00:00,off-company,51,1
+677,"to get used to, to become accustomed to",verb,2026-08-28T15:27:38.173273+00:00,,,
+678,"weak point, weakness, vulnerability",noun,2026-08-28T15:27:38.173273+00:00,,,
+679,younger sister,noun,2026-08-28T15:27:38.173273+00:00,fam-younger-sister,14,1
+680,skin,noun,2026-08-28T15:27:38.173273+00:00,bod-skin,18,2
+681,frozen food,noun,2026-08-28T15:27:38.173273+00:00,gro-frozen-food,72,1
+682,accurate,adjective,2026-08-28T15:27:38.173273+00:00,aqu-accurate,64,2
+683,to have,verb,2026-08-28T15:27:38.173273+00:00,vda-to-have,61,1
+684,overview,noun,2026-08-28T15:27:38.173273+00:00,,54,
+685,to throw,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-throw,59,2
+686,many,adjective,2026-08-28T15:27:38.173273+00:00,qty-many,4,1
+687,"kyushu, the southernmost of japan's four main islands",noun,2026-08-28T15:27:38.173273+00:00,,39,
+688,breast milk,noun,2026-08-28T15:27:38.173273+00:00,,,
+689,city block,noun,2026-08-28T15:27:38.173273+00:00,adr-block-japan,43,3
+690,voice,noun,2026-08-28T15:27:38.173273+00:00,spk-voice,53,1
+691,"name (of a person, thing, place)",noun,2026-08-28T15:27:38.173273+00:00,,,
+692,big,adjective,2026-08-28T15:27:38.173273+00:00,asi-big,63,1
+694,address,noun,2026-08-28T15:27:38.173273+00:00,adr-address,43,1
+695,to make,verb,2026-08-28T15:27:38.173273+00:00,vda-to-make,61,1
+697,to head for,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-head-for,59,2
+698,to point at,verb,2026-08-28T15:27:38.173273+00:00,dir-to-point,41,2
+699,"to be in disorder, to be disturbed",verb,2026-08-28T15:27:38.173273+00:00,,,
+700,to look up,verb,2026-08-28T15:27:38.173273+00:00,men-to-investigate,57,1
+701,to shut,verb,2026-08-28T15:27:38.173273+00:00,vda-to-shut,61,2
+702,vote,noun,2026-08-28T15:27:38.173273+00:00,soc-vote,70,1
+703,journey,noun,2026-08-28T15:27:38.173273+00:00,tra-journey,40,1
+704,political view,noun,2026-08-28T15:27:38.173273+00:00,soc-political-view,70,3
+705,"number one, first",noun,2026-08-28T15:27:38.173273+00:00,,65,
+706,wide,adjective,2026-08-28T15:27:38.173273+00:00,asi-wide,63,1
+707,public release,noun,2026-08-28T15:27:38.173273+00:00,spk-publication,53,3
+708,sale,noun,2026-08-28T15:27:38.173273+00:00,mon-sale,50,1
+709,to be,verb,2026-08-28T15:27:38.173273+00:00,vda-to-be,61,1
+710,archipelago,noun,2026-08-28T15:27:38.173273+00:00,geo-archipelago,38,3
+711,knowledge,noun,2026-08-28T15:27:38.173273+00:00,men-knowledge,57,1
+712,vacancy,noun,2026-08-28T15:27:38.173273+00:00,acc-vacancy,83,2
+713,"use, application",noun,2026-08-28T15:27:38.173273+00:00,,,
+714,after school,adverb,2026-08-28T15:27:38.173273+00:00,sub-after-school,46,2
+715,result,noun,2026-08-28T15:27:38.173273+00:00,con-result,68,1
+716,point,noun,2026-08-28T15:27:38.173273+00:00,,39,
+717,experience,noun,2026-08-28T15:27:38.173273+00:00,,,
+718,season,noun,2026-08-28T15:27:38.173273+00:00,cal-season,10,1
+719,weather,noun,2026-08-28T15:27:38.173273+00:00,wea-weather,35,1
+722,to extend,verb,2026-08-28T15:27:38.173273+00:00,asi-to-extend,63,3
+723,to queue up,verb,2026-08-28T15:27:38.173273+00:00,dir-to-line-up,41,2
+724,to have a shower,verb,2026-08-28T15:27:38.173273+00:00,vda-to-bathe,61,1
+725,premises,noun,2026-08-28T15:27:38.173273+00:00,bld-premises,42,3
+726,daytime,noun,2026-08-28T15:27:38.173273+00:00,tod-daytime,9,2
+728,parents,noun,2026-08-28T15:27:38.173273+00:00,fam-parents,14,1
+729,"work of art, creation, piece",noun,2026-08-28T15:27:38.173273+00:00,,,
+730,underground railway,noun,2026-08-28T15:27:38.173273+00:00,tra-subway,40,1
+731,misfortune,noun,2026-08-28T15:27:38.173273+00:00,emo-unhappiness,56,2
+732,all you can drink,noun,2026-08-28T15:27:38.173273+00:00,res-all-you-can-drink,71,3
+733,speciality,noun,2026-08-28T15:27:38.173273+00:00,off-speciality,51,2
+734,city,noun,2026-08-28T15:27:38.173273+00:00,adr-city,43,1
+735,small bird,noun,2026-08-28T15:27:38.173273+00:00,ani-small-bird,36,3
+736,portion size,noun,2026-08-28T15:27:38.173273+00:00,res-portion,71,2
+737,corporation,noun,2026-08-28T15:27:38.173273+00:00,off-corporation,51,3
+738,pet,noun,2026-08-28T15:27:38.173273+00:00,ani-pet,36,1
+739,"use, utilization, making use of",noun,2026-08-28T15:27:38.173273+00:00,,80,
+740,head teacher,noun,2026-08-28T15:27:38.173273+00:00,job-head-teacher,49,3
+741,small side bowl,noun,2026-08-28T15:27:38.173273+00:00,res-small-bowl,71,3
+742,"opportunity, chance, occasion",noun,2026-08-28T15:27:38.173273+00:00,,,
+743,expansion,noun,2026-08-28T15:27:38.173273+00:00,asi-expansion,63,2
+744,"genius, prodigy, extraordinary talent",noun,2026-08-28T15:27:38.173273+00:00,,,
+745,tofu,noun,2026-08-28T15:27:38.173273+00:00,gra-tofu,23,2
+746,frozen,adjective,2026-08-28T15:27:38.173273+00:00,coo-frozen,27,2
+747,history,noun,2026-08-28T15:27:38.173273+00:00,sub-history,46,1
+748,employee,noun,2026-08-28T15:27:38.173273+00:00,job-employee,49,1
+749,valid,adjective,2026-08-28T15:27:38.173273+00:00,aqu-valid,64,2
+750,imagination,noun,2026-08-28T15:27:38.173273+00:00,men-imagination,57,2
+751,mum,noun,2026-08-28T15:27:38.173273+00:00,fam-mum,14,1
+752,"progress, advance, development, improvement",noun,2026-08-28T15:27:38.173273+00:00,,,
+753,wild bird,noun,2026-08-28T15:27:38.173273+00:00,ani-wild-bird,36,3
+754,izakaya,noun,2026-08-28T15:27:38.173273+00:00,res-izakaya,71,3
+755,opinion,noun,2026-08-28T15:27:38.173273+00:00,spk-opinion,53,1
+757,"universe, outer space",noun,2026-08-28T15:27:38.173273+00:00,,,
+758,"official, formal",noun,2026-08-28T15:27:38.173273+00:00,,,
+759,calculation,noun,2026-08-28T15:27:38.173273+00:00,men-calculation,57,2
+760,alcohol,noun,2026-08-28T15:27:38.173273+00:00,dri-alcohol,26,1
+761,floor area (exclusive),noun,2026-08-28T15:27:38.173273+00:00,hre-exclusive-area,84,3
+762,to be alive,verb,2026-08-28T15:27:38.173273+00:00,vda-to-live,61,1
+763,gathering,noun,2026-08-28T15:27:38.173273+00:00,vmo-gathering,59,3
+764,clock,noun,2026-08-28T15:27:38.173273+00:00,hou-clock,32,1
+765,shop assistant,noun,2026-08-28T15:27:38.173273+00:00,job-shop-assistant,49,1
+766,"steep, precipitous",adjective,2026-08-28T15:27:38.173273+00:00,,,
+768,joy,noun,2026-08-28T15:27:38.173273+00:00,emo-joy,56,1
+769,uniform,noun,2026-08-28T15:27:38.173273+00:00,clo-uniform,33,2
+770,railway,noun,2026-08-28T15:27:38.173273+00:00,tra-railway,40,2
+771,tokyo (capital of japan),noun,2026-08-28T15:27:38.173273+00:00,,,
+772,refugee,noun,2026-08-28T15:27:38.173273+00:00,soc-refugee,70,2
+773,prime minister,noun,2026-08-28T15:27:38.173273+00:00,job-prime-minister,49,3
+774,"story, tale, narrative",noun,2026-08-28T15:27:38.173273+00:00,,,
+775,practice,noun,2026-08-28T15:27:38.173273+00:00,spo-practice,69,1
+776,review,noun,2026-08-28T15:27:38.173273+00:00,eco-review,85,1
+777,workplace,noun,2026-08-28T15:27:38.173273+00:00,off-workplace,51,1
+778,to listen,verb,2026-08-28T15:27:38.173273+00:00,spk-to-listen,53,1
+779,ponzu,noun,2026-08-28T15:27:38.173273+00:00,res-ponzu,71,3
+780,spring (season),noun,2026-08-28T15:27:38.173273+00:00,cal-spring,10,1
+781,observation,noun,2026-08-28T15:27:38.173273+00:00,men-observation,57,2
+782,"factor, main cause",noun,2026-08-28T15:27:38.173273+00:00,,,
+783,security,noun,2026-08-28T15:27:38.173273+00:00,net-security,54,1
+784,shochu,noun,2026-08-28T15:27:38.173273+00:00,res-shochu,71,3
+786,summer,noun,2026-08-28T15:27:38.173273+00:00,cal-summer,10,1
+787,friday,noun,2026-08-28T15:27:38.173273+00:00,dow-friday,7,1
+788,bento box,noun,2026-08-28T15:27:38.173273+00:00,kon-bento,73,2
+789,to drop,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-drop,59,1
+790,renewal fee,noun,2026-08-28T15:27:38.173273+00:00,hre-renewal-fee,84,3
+791,next week,adverb,2026-08-28T15:27:38.173273+00:00,cal-next-week,10,1
+792,fraudulent use,noun,2026-08-28T15:27:38.173273+00:00,ban-fraud,80,2
+794,average,noun,2026-08-28T15:27:38.173273+00:00,qty-average,4,2
+795,"way, method, manner",noun,2026-08-28T15:27:38.173273+00:00,,,
+798,writer,noun,2026-08-28T15:27:38.173273+00:00,job-writer,49,2
+799,to flow,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-flow,59,2
+801,time,noun,2026-08-28T15:27:38.173273+00:00,tod-time,9,1
+802,surprised,adjective,2026-08-28T15:27:38.173273+00:00,emo-surprised,56,1
+803,house,noun,2026-08-28T15:27:38.173273+00:00,rom-house,29,1
+805,half a year,noun,2026-08-28T15:27:38.173273+00:00,cal-half-year,10,3
+806,boundary,noun,2026-08-28T15:27:38.173273+00:00,dir-boundary,41,2
+807,till,noun,2026-08-28T15:27:38.173273+00:00,mon-checkout,50,1
+808,pick-up service,noun,2026-08-28T15:27:38.173273+00:00,acc-pickup-service,83,3
+809,to award,noun,2026-08-28T15:27:38.173273+00:00,,80,
+810,contract,noun,2026-08-28T15:27:38.173273+00:00,off-contract,51,1
+811,to turn,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-turn,59,2
+812,to begin,verb,2026-08-28T15:27:38.173273+00:00,vda-to-begin,61,1
+813,decision,noun,2026-08-28T15:27:38.173273+00:00,men-decision,57,1
+814,"to occur, to happen, to arise",verb,2026-08-28T15:27:38.173273+00:00,,,
+815,dark,adjective,2026-08-28T15:27:38.173273+00:00,aqu-dark,64,1
+816,breakdown,noun,2026-08-28T15:27:38.173273+00:00,ele-breakdown,75,1
+817,clinic,noun,2026-08-28T15:27:38.173273+00:00,bld-clinic,42,2
+818,to cry,verb,2026-08-28T15:27:38.173273+00:00,emo-to-cry,56,1
+819,activity,noun,2026-08-28T15:27:38.173273+00:00,vmo-activity,59,2
+820,before (previously),adverb,2026-08-28T15:27:38.173273+00:00,dur-before,11,1
+821,aeroplane,noun,2026-08-28T15:27:38.173273+00:00,tra-plane,40,1
+822,mushroom,noun,2026-08-28T15:27:38.173273+00:00,veg-mushroom,22,2
+823,remainder,noun,2026-08-28T15:27:38.173273+00:00,qty-remainder,4,2
+824,snow,noun,2026-08-28T15:27:38.173273+00:00,wea-snow,35,1
+825,heavy,adjective,2026-08-28T15:27:38.173273+00:00,asi-heavy,63,1
+826,carbonara,noun,2026-08-28T15:27:38.173273+00:00,res-carbonara,71,3
+827,december,noun,2026-08-28T15:27:38.173273+00:00,mon-december,8,1
+828,hokkaido (northernmost main island of japan),noun,2026-08-28T15:27:38.173273+00:00,,,
+829,tempura,noun,2026-08-28T15:27:38.173273+00:00,res-tempura,71,3
+830,presentation,noun,2026-08-28T15:27:38.173273+00:00,off-presentation,51,2
+831,minutes from the station,noun,2026-08-28T15:27:38.173273+00:00,hre-minutes-from-station,84,3
+832,suspicion,noun,2026-08-28T15:27:38.173273+00:00,men-suspicion,57,3
+833,poet,noun,2026-08-28T15:27:38.173273+00:00,job-poet,49,3
+835,comment,noun,2026-08-28T15:27:38.173273+00:00,net-comment,54,1
+836,to bring up,verb,2026-08-28T15:27:38.173273+00:00,vda-to-raise,61,2
+837,childbirth,noun,2026-08-28T15:27:38.173273+00:00,,74,
+838,to win,verb,2026-08-28T15:27:38.173273+00:00,spo-to-win,69,1
+839,to leave out,verb,2026-08-28T15:27:38.173273+00:00,vda-to-omit,61,3
+840,soba,noun,2026-08-28T15:27:38.173273+00:00,res-soba,71,3
+841,responsibility,noun,2026-08-28T15:27:38.173273+00:00,off-responsibility,51,1
+842,tableware,noun,2026-08-28T15:27:38.173273+00:00,hou-tableware,32,2
+843,cupboard,noun,2026-08-28T15:27:38.173273+00:00,fur-cupboard,30,2
+844,"era, period, age, epoch",noun,2026-08-28T15:27:38.173273+00:00,,6,
+845,hospital,noun,2026-08-28T15:27:38.173273+00:00,bld-hospital,42,1
+846,rudeness,noun,2026-08-28T15:27:38.173273+00:00,spk-rudeness,53,2
+847,"to raise, lift up, cite, give as an example",verb,2026-08-28T15:27:38.173273+00:00,,,
+848,physical education,noun,2026-08-28T15:27:38.173273+00:00,sub-pe,46,2
+849,role,noun,2026-08-28T15:27:38.173273+00:00,off-role,51,1
+850,sunny,adjective,2026-08-28T15:27:38.173273+00:00,wea-sunny,35,1
+851,no smoking,noun,2026-08-28T15:27:38.173273+00:00,res-no-smoking,71,2
+852,weather forecast,noun,2026-08-28T15:27:38.173273+00:00,wea-forecast,35,2
+853,project,noun,2026-08-28T15:27:38.173273+00:00,off-project,51,2
+854,fast,adjective,2026-08-28T15:27:38.173273+00:00,aqu-fast,64,1
+856,early,adjective,2026-08-28T15:27:38.173273+00:00,aqu-early,64,1
+857,blood pressure,noun,2026-08-28T15:27:38.173273+00:00,hea-blood-pressure,19,3
+858,tonight,adverb,2026-08-28T15:27:38.173273+00:00,cal-tonight,10,2
+859,delivery,noun,2026-08-28T15:27:38.173273+00:00,,54,
+860,art gallery,noun,2026-08-28T15:27:38.173273+00:00,bld-art-gallery,42,2
+862,blue,adjective,2026-08-28T15:27:38.173273+00:00,color-blue,12,1
+863,detergent,noun,2026-08-28T15:27:38.173273+00:00,hou-detergent,32,2
+864,tide,noun,2026-08-28T15:27:38.173273+00:00,geo-tide,38,3
+866,styling product,noun,2026-08-28T15:27:38.173273+00:00,bar-styling-product,87,3
+867,thick,adjective,2026-08-28T15:27:38.173273+00:00,asi-thick,63,2
+868,inn,noun,2026-08-28T15:27:38.173273+00:00,bld-inn,42,2
+869,"business, sales, operation",noun,2026-08-28T15:27:38.173273+00:00,,39,
+870,oneself,pronoun,2026-08-28T15:27:38.173273+00:00,pro-oneself,15,1
+871,housing,noun,2026-08-28T15:27:38.173273+00:00,hre-housing,84,1
+872,happiness,noun,2026-08-28T15:27:38.173273+00:00,emo-happiness,56,1
+873,"to perform, to act",verb,2026-08-28T15:27:38.173273+00:00,,,
+874,"sightseeing, watching, spectacle",noun,2026-08-28T15:27:38.173273+00:00,,39,
+875,pot,noun,2026-08-28T15:27:38.173273+00:00,hou-pot,32,2
+876,credit (academic),noun,2026-08-28T15:27:38.173273+00:00,sch-credit,45,3
+877,"needle, pin",noun,2026-08-28T15:27:38.173273+00:00,,,
+879,zoo,noun,2026-08-28T15:27:38.173273+00:00,bld-zoo,42,2
+880,letting,noun,2026-08-28T15:27:38.173273+00:00,hre-rental,84,2
+881,september,noun,2026-08-28T15:27:38.173273+00:00,mon-september,8,1
+882,taste,noun,2026-08-28T15:27:38.173273+00:00,coo-taste,27,1
+883,chemistry,noun,2026-08-28T15:27:38.173273+00:00,sub-chemistry,46,2
+884,governing party,noun,2026-08-28T15:27:38.173273+00:00,soc-ruling-party,70,3
+885,instruction,noun,2026-08-28T15:27:38.173273+00:00,spk-instruction,53,1
+886,photocopy,noun,2026-08-28T15:27:38.173273+00:00,kon-photocopier,73,2
+887,bag,noun,2026-08-28T15:27:38.173273+00:00,hou-bag,32,1
+888,to show,verb,2026-08-28T15:27:38.173273+00:00,vpe-to-show,60,1
+889,"extension, prolongation",noun,2026-08-28T15:27:38.173273+00:00,,6,
+890,homework,noun,2026-08-28T15:27:38.173273+00:00,sch-homework,45,1
+891,science (school subject),noun,2026-08-28T15:27:38.173273+00:00,sub-science-subject,46,1
+892,to wish,verb,2026-08-28T15:27:38.173273+00:00,emo-to-wish,56,1
+894,position,noun,2026-08-28T15:27:38.173273+00:00,dir-position,41,1
+895,current location,noun,2026-08-28T15:27:38.173273+00:00,adr-current-location,43,2
+896,older sister,noun,2026-08-28T15:27:38.173273+00:00,fam-older-sister,14,1
+897,nature,noun,2026-08-28T15:27:38.173273+00:00,geo-nature,38,1
+898,voucher,noun,2026-08-28T15:27:38.173273+00:00,mon-coupon,50,2
+899,warranty,noun,2026-08-28T15:27:38.173273+00:00,ele-warranty,75,1
+900,march,noun,2026-08-28T15:27:38.173273+00:00,mon-march,8,1
+901,to leave behind,verb,2026-08-28T15:27:38.173273+00:00,vda-to-leave-behind,61,2
+902,"construction work, engineering work",noun,2026-08-28T15:27:38.173273+00:00,,48,
+903,individual,noun,2026-08-28T15:27:38.173273+00:00,rol-individual,16,3
+904,battery,noun,2026-08-28T15:27:38.173273+00:00,hou-battery,32,2
+905,to shine,verb,2026-08-28T15:27:38.173273+00:00,geo-to-shine,38,2
+906,draft,noun,2026-08-28T15:27:38.173273+00:00,net-draft,54,2
+907,ashtray,noun,2026-08-28T15:27:38.173273+00:00,hou-ashtray,32,3
+908,to fold,verb,2026-08-28T15:27:38.173273+00:00,vda-to-fold,61,2
+909,action,noun,2026-08-28T15:27:38.173273+00:00,vmo-action,59,2
+910,cherry blossom,noun,2026-08-28T15:27:38.173273+00:00,pla-cherry-blossom,37,2
+911,contact,noun,2026-08-28T15:27:38.173273+00:00,spk-contact,53,1
+912,high-speed train,noun,2026-08-28T15:27:38.173273+00:00,tra-bullet-train,40,2
+913,to move,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-move,59,1
+914,boy,noun,2026-08-28T15:27:38.173273+00:00,rol-boy,16,1
+915,clothes,noun,2026-08-28T15:27:38.173273+00:00,clo-clothes,33,1
+916,newly built,adjective,2026-08-28T15:27:38.173273+00:00,hre-newly-built,84,2
+917,via,noun,2026-08-28T15:27:38.173273+00:00,,39,
+918,haircut,noun,2026-08-28T15:27:38.173273+00:00,bar-haircut,87,1
+919,"autumn equinox, autumnal equinox",noun,2026-08-28T15:27:38.173273+00:00,,6,
+920,definition,noun,2026-08-28T15:27:38.173273+00:00,,,
+921,shirt,noun,2026-08-28T15:27:38.173273+00:00,clo-shirt,33,1
+922,cost,noun,2026-08-28T15:27:38.173273+00:00,mon-cost,50,1
+923,noon,noun,2026-08-28T15:27:38.173273+00:00,tod-noon,9,1
+924,to continue,verb,2026-08-28T15:27:38.173273+00:00,vda-to-continue,61,1
+925,recruitment,noun,2026-08-28T15:27:38.173273+00:00,off-hiring,51,2
+926,delay,noun,2026-08-28T15:27:38.173273+00:00,sta-delay,82,1
+927,factory,noun,2026-08-28T15:27:38.173273+00:00,bld-factory,42,2
+928,office,noun,2026-08-28T15:27:38.173273+00:00,bld-office-building,42,1
+929,to compete,verb,2026-08-28T15:27:38.173273+00:00,spo-to-compete,69,2
+931,mattress,noun,2026-08-28T15:27:38.173273+00:00,fur-mattress,30,2
+932,"removal, elimination",noun,2026-08-28T15:27:38.173273+00:00,,,
+933,cotton,noun,2026-08-28T15:27:38.173273+00:00,clo-cotton,33,2
+935,park,noun,2026-08-28T15:27:38.173273+00:00,bld-park,42,1
+936,property,noun,2026-08-28T15:27:38.173273+00:00,hre-property,84,1
+937,"class, group, team, set",noun,2026-08-28T15:27:38.173273+00:00,,,
+938,self-reflection,noun,2026-08-28T15:27:38.173273+00:00,men-reflection,57,3
+939,country,noun,2026-08-28T15:27:38.173273+00:00,adr-country,43,1
+940,all rooms,noun,2026-08-28T15:27:38.173273+00:00,hre-all-rooms,84,3
+941,transit,noun,2026-08-28T15:27:38.173273+00:00,sta-transit,82,3
+942,various,adjective,2026-08-28T15:27:38.173273+00:00,acm-various,65,2
+943,"within, not exceeding, no more than",noun,2026-08-28T15:27:38.173273+00:00,,,
+944,buying and selling,noun,2026-08-28T15:27:38.173273+00:00,mon-trade,50,3
+945,recently,adverb,2026-08-28T15:27:38.173273+00:00,dur-recently,11,2
+946,to reflect,verb,2026-08-28T15:27:38.173273+00:00,vpe-to-reflect,60,3
+947,newborn,noun,2026-08-28T15:27:38.173273+00:00,fam-newborn,14,3
+948,account balance,noun,2026-08-28T15:27:38.173273+00:00,off-balance,51,2
+949,to be rescued,verb,2026-08-28T15:27:38.173273+00:00,vda-to-be-saved,61,3
+950,to stick,verb,2026-08-28T15:27:38.173273+00:00,vda-to-stick,61,3
+951,white,adjective,2026-08-28T15:27:38.173273+00:00,color-white,12,1
+952,"to reach, achieve, attain, amount to",verb,2026-08-28T15:27:38.173273+00:00,,,
+953,"rest, break, repose",noun,2026-08-28T15:27:38.173273+00:00,,,
+954,single item,noun,2026-08-28T15:27:38.173273+00:00,res-side-order,71,3
+955,save,noun,2026-08-28T15:27:38.173273+00:00,net-to-save-file,54,1
+956,difficult,adjective,2026-08-28T15:27:38.173273+00:00,aqu-difficult,64,1
+957,short,adjective,2026-08-28T15:27:38.173273+00:00,asi-short-length,63,1
+958,three people,noun,2026-08-28T15:27:38.173273+00:00,ctr-three-people,5,2
+959,to take out,verb,2026-08-28T15:27:38.173273+00:00,vda-to-take-out,61,1
+960,far,adjective,2026-08-28T15:27:38.173273+00:00,dir-far,41,1
+961,tariff,noun,2026-08-28T15:27:38.173273+00:00,pho-tariff,86,1
+962,january,noun,2026-08-28T15:27:38.173273+00:00,mon-january,8,1
+963,"burden, load, responsibility, share of cost",noun,2026-08-28T15:27:38.173273+00:00,,,
+964,research,noun,2026-08-28T15:27:38.173273+00:00,off-research,51,2
+965,beautiful,adjective,2026-08-28T15:27:38.173273+00:00,aqu-beautiful,64,1
+966,agency fee,noun,2026-08-28T15:27:38.173273+00:00,hre-agent-fee,84,2
+967,price,noun,2026-08-28T15:27:38.173273+00:00,mon-price,50,1
+968,we,pronoun,2026-08-28T15:27:38.173273+00:00,pro-we,15,1
+969,soup,noun,2026-08-28T15:27:38.173273+00:00,dri-soup,26,1
+970,garlic,noun,2026-08-28T15:27:38.173273+00:00,veg-garlic,22,2
+971,what,pronoun,2026-08-28T15:27:38.173273+00:00,que-what,67,1
+972,north,noun,2026-08-28T15:27:38.173273+00:00,dir-north,41,1
+973,repair,noun,2026-08-28T15:27:38.173273+00:00,ele-repair,75,1
+974,corner,noun,2026-08-28T15:27:38.173273+00:00,dir-corner,41,2
+975,discovery,noun,2026-08-28T15:27:38.173273+00:00,men-discovery,57,2
+976,profile,noun,2026-08-28T15:27:38.173273+00:00,net-profile,54,2
+977,to chirp,verb,2026-08-28T15:27:38.173273+00:00,ani-to-chirp,36,3
+978,product,noun,2026-08-28T15:27:38.173273+00:00,mon-product,50,1
+979,university student,noun,2026-08-28T15:27:38.173273+00:00,sub-university-student,46,1
+980,"to run along, to follow (a road or river)",verb,2026-08-28T15:27:38.173273+00:00,,,
+981,arrival,noun,2026-08-28T15:27:38.173273+00:00,sta-arrival,82,1
+982,notification,noun,2026-08-28T15:27:38.173273+00:00,net-notification,54,1
+983,to divide,verb,2026-08-28T15:27:38.173273+00:00,vda-to-divide,61,2
+984,farmer,noun,2026-08-28T15:27:38.173273+00:00,job-farmer,49,2
+985,warm,adjective,2026-08-28T15:27:38.173273+00:00,wea-warm,35,1
+986,the other side,noun,2026-08-28T15:27:38.173273+00:00,dir-opposite-side,41,2
+987,secondhand,adjective,2026-08-28T15:27:38.173273+00:00,aqu-secondhand,64,2
+988,"to play, to have fun, to enjoy oneself",verb,2026-08-28T15:27:38.173273+00:00,,,
+989,economy,noun,2026-08-28T15:27:38.173273+00:00,off-economy,51,2
+990,loyalty points,noun,2026-08-28T15:27:38.173273+00:00,mon-loyalty-points,50,2
+991,to see,verb,2026-08-28T15:27:38.173273+00:00,vpe-to-see,60,1
+992,purpose,noun,2026-08-28T15:27:38.173273+00:00,,39,
+993,to come,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-come,59,1
+994,to be enough,verb,2026-08-28T15:27:38.173273+00:00,vda-to-be-enough,61,2
+995,floor plan,noun,2026-08-28T15:27:38.173273+00:00,hre-floor-plan,84,1
+996,gratitude,noun,2026-08-28T15:27:38.173273+00:00,emo-thanks,56,1
+997,paper,noun,2026-08-28T15:27:38.173273+00:00,sch-paper,45,1
+998,"grand shrine, imperial shrine",noun,2026-08-28T15:27:38.173273+00:00,,39,
+1000,assumption,noun,2026-08-28T15:27:38.173273+00:00,men-assumption,57,2
+1001,trade,noun,2026-08-28T15:27:38.173273+00:00,off-trade,51,2
+1002,exile,noun,2026-08-28T15:27:38.173273+00:00,soc-exile,70,3
+1003,to drink,verb,2026-08-28T15:27:38.173273+00:00,coo-to-drink,27,1
+1004,representative,noun,2026-08-28T15:27:38.173273+00:00,job-representative,49,2
+1005,to confirm,verb,2026-08-28T15:27:38.173273+00:00,men-to-confirm,57,1
+1006,flat-pack,adjective,2026-08-28T15:27:38.173273+00:00,fst-flat-pack,77,3
+1007,colour variant,noun,2026-08-28T15:27:38.173273+00:00,cst-colour-variant,74,2
+1008,left,noun,2026-08-28T15:27:38.173273+00:00,dir-left,41,1
+1009,last train,noun,2026-08-28T15:27:38.173273+00:00,sta-last-train,82,1
+1010,august,noun,2026-08-28T15:27:38.173273+00:00,mon-august,8,1
+1011,kotatsu,noun,2026-08-28T15:27:38.173273+00:00,fur-kotatsu,30,3
+1012,formal wear,noun,2026-08-28T15:27:38.173273+00:00,clo-formal-wear,33,3
+1013,next year,adverb,2026-08-28T15:27:38.173273+00:00,cal-next-year,10,1
+1015,broadcast,noun,2026-08-28T15:27:38.173273+00:00,spk-broadcast,53,2
+1016,training,noun,2026-08-28T15:27:38.173273+00:00,spo-training,69,1
+1017,neck,noun,2026-08-28T15:27:38.173273+00:00,bod-neck,18,1
+1018,restriction,noun,2026-08-28T15:27:38.173273+00:00,soc-restriction,70,2
+1019,musical performance,noun,2026-08-28T15:27:38.173273+00:00,spo-musical-performance,69,2
+1020,honest,adjective,2026-08-28T15:27:38.173273+00:00,aqu-honest,64,2
+1021,to teach,verb,2026-08-28T15:27:38.173273+00:00,spk-to-teach,53,1
+1023,yearly,adverb,2026-08-28T15:27:38.173273+00:00,dur-yearly,11,2
+1025,primary school,noun,2026-08-28T15:27:38.173273+00:00,bld-primary-school,42,2
+1026,ring,noun,2026-08-28T15:27:38.173273+00:00,clo-ring,33,2
+1027,memory,noun,2026-08-28T15:27:38.173273+00:00,men-memory,57,1
+1028,"parallel, concurrent",noun,2026-08-28T15:27:38.173273+00:00,,,
+1029,to think,verb,2026-08-28T15:27:38.173273+00:00,men-to-think,57,1
+1030,guest,noun,2026-08-28T15:27:38.173273+00:00,rol-guest,16,1
+1031,sushi,noun,2026-08-28T15:27:38.173273+00:00,res-sushi,71,2
+1032,monthly,adverb,2026-08-28T15:27:38.173273+00:00,dur-monthly,11,2
+1033,to fix,verb,2026-08-28T15:27:38.173273+00:00,vda-to-fix,61,1
+1034,preparation,noun,2026-08-28T15:27:38.173273+00:00,,80,
+1035,autumn,noun,2026-08-28T15:27:38.173273+00:00,cal-autumn,10,1
+1036,regret,noun,2026-08-28T15:27:38.173273+00:00,emo-regret,56,2
+1037,promotion,noun,2026-08-28T15:27:38.173273+00:00,eco-campaign,85,2
+1038,airport,noun,2026-08-28T15:27:38.173273+00:00,tra-airport,40,1
+1039,arrow,noun,2026-08-28T15:27:38.173273+00:00,spo-arrow,69,3
+1040,chair,noun,2026-08-28T15:27:38.173273+00:00,fur-chair,30,1
+1042,savings,noun,2026-08-28T15:27:38.173273+00:00,mon-savings,50,2
+1043,interaction,noun,2026-08-28T15:27:38.173273+00:00,spk-interaction,53,2
+1044,display model,noun,2026-08-28T15:27:38.173273+00:00,ele-display-model,75,2
+1045,permit,noun,2026-08-28T15:27:38.173273+00:00,soc-permit,70,2
+1046,return trip,noun,2026-08-28T15:27:38.173273+00:00,tra-round-trip,40,2
+1047,eating and drinking,noun,2026-08-28T15:27:38.173273+00:00,res-eating-drinking,71,3
+1049,ruins,noun,2026-08-28T15:27:38.173273+00:00,bld-ruins,42,3
+1050,west,noun,2026-08-28T15:27:38.173273+00:00,dir-west,41,1
+1051,"oil, petroleum, kerosene",noun,2026-08-28T15:27:38.173273+00:00,,,
+1052,storage container,noun,2026-08-28T15:27:38.173273+00:00,hou-container,32,3
+1053,this morning,adverb,2026-08-28T15:27:38.173273+00:00,cal-this-morning,10,2
+1054,settings,noun,2026-08-28T15:27:38.173273+00:00,net-settings,54,1
+1055,lunch,noun,2026-08-28T15:27:38.173273+00:00,,28,
+1056,to doubt,verb,2026-08-28T15:27:38.173273+00:00,men-to-doubt,57,2
+1057,"commemoration, memory",noun,2026-08-28T15:27:38.173273+00:00,,,
+1058,"to limit, to restrict",verb,2026-08-28T15:27:38.173273+00:00,,,
+1059,distressing,adjective,2026-08-28T15:27:38.173273+00:00,emo-painful,56,2
+1060,region,noun,2026-08-28T15:27:38.173273+00:00,adr-region,43,2
+1061,to measure,verb,2026-08-28T15:27:38.173273+00:00,asi-to-measure,63,2
+1062,exercise,noun,2026-08-28T15:27:38.173273+00:00,spo-exercise,69,1
+1063,this month,adverb,2026-08-28T15:27:38.173273+00:00,cal-this-month,10,1
+1064,literature,noun,2026-08-28T15:27:38.173273+00:00,sub-literature,46,2
+1065,dessert,noun,2026-08-28T15:27:38.173273+00:00,coo-dessert,27,1
+1066,"incident, case",noun,2026-08-28T15:27:38.173273+00:00,,,
+1067,dangerous,adjective,2026-08-28T15:27:38.173273+00:00,aqu-dangerous,64,1
+1068,"upright, manly, gallant",adjective,2026-08-28T15:27:38.173273+00:00,,,
+1069,guarantor company,noun,2026-08-28T15:27:38.173273+00:00,hre-guarantor-company,84,3
+1070,this year,adverb,2026-08-28T15:27:38.173273+00:00,cal-this-year,10,1
+1071,sisters,noun,2026-08-28T15:27:38.173273+00:00,fam-sisters,14,3
+1072,"absorption, assimilation",noun,2026-08-28T15:27:38.173273+00:00,,,
+1073,cardigan,noun,2026-08-28T15:27:38.173273+00:00,clo-cardigan,33,2
+1074,to give back,verb,2026-08-28T15:27:38.173273+00:00,vda-to-return-something,61,1
+1075,to wait,verb,2026-08-28T15:27:38.173273+00:00,vda-to-wait,61,1
+1076,to build,verb,2026-08-28T15:27:38.173273+00:00,vda-to-build,61,2
+1077,people (ethnic group),noun,2026-08-28T15:27:38.173273+00:00,soc-people-ethnic,70,2
+1078,bookshelf,noun,2026-08-28T15:27:38.173273+00:00,fur-bookshelf,30,2
+1079,"aid, assistance",noun,2026-08-28T15:27:38.173273+00:00,,,
+1080,"photograph, photo",noun,2026-08-28T15:27:38.173273+00:00,,,
+1081,wages,noun,2026-08-28T15:27:38.173273+00:00,off-wages,51,2
+1082,prefecture,noun,2026-08-28T15:27:38.173273+00:00,adr-prefecture,43,3
+1083,laundry,noun,2026-08-28T15:27:38.173273+00:00,hou-laundry,32,2
+1085,cashback,noun,2026-08-28T15:27:38.173273+00:00,mon-cashback,50,3
+1086,to post,verb,2026-08-28T15:27:38.173273+00:00,gov-to-post,81,1
+1087,farmland,noun,2026-08-28T15:27:38.173273+00:00,geo-farmland,38,2
+1088,"flute, whistle, pipe (wind instrument)",noun,2026-08-28T15:27:38.173273+00:00,,,
+1089,wide-ranging,adjective,2026-08-28T15:27:38.173273+00:00,asi-wide-ranging,63,3
+1090,to open,verb,2026-08-28T15:27:38.173273+00:00,vda-to-open,61,1
+1091,source,noun,2026-08-28T15:27:38.173273+00:00,,80,
+1093,government minister,noun,2026-08-28T15:27:38.173273+00:00,job-minister,49,3
+1094,coast,noun,2026-08-28T15:27:38.173273+00:00,geo-coast,38,2
+1095,daily,adverb,2026-08-28T15:27:38.173273+00:00,dur-daily,11,1
+1096,you (singular),pronoun,2026-08-28T15:27:38.173273+00:00,pro-you-sg,15,1
+1097,service counter,noun,2026-08-28T15:27:38.173273+00:00,gov-counter-window,81,2
+1098,top-up,noun,2026-08-28T15:27:38.173273+00:00,mon-charge,50,3
+1099,change,noun,2026-08-28T15:27:38.173273+00:00,,39,
+1100,vocabulary word,noun,2026-08-28T15:27:38.173273+00:00,ll-word,47,1
+1101,government,noun,2026-08-28T15:27:38.173273+00:00,soc-government,70,1
+1102,innerwear,noun,2026-08-28T15:27:38.173273+00:00,clo-innerwear,33,3
+1104,red,adjective,2026-08-28T15:27:38.173273+00:00,color-red,12,1
+1105,inside,adverb,2026-08-28T15:27:38.173273+00:00,dir-inside,41,1
+1106,old-fashioned,adjective,2026-08-28T15:27:38.173273+00:00,aqu-old-fashioned,64,3
+1107,steamship,noun,2026-08-28T15:27:38.173273+00:00,sta-steamship,82,3
+1108,illness,noun,2026-08-28T15:27:38.173273+00:00,hea-illness,19,1
+1109,cleaning,noun,2026-08-28T15:27:38.173273+00:00,hou-cleaning,32,2
+1110,car park,noun,2026-08-28T15:27:38.173273+00:00,tra-parking,40,2
+1111,"to spend, use up, expend, consume",verb,2026-08-28T15:27:38.173273+00:00,,,
+1112,"to hit, to strike (something)",verb,2026-08-28T15:27:38.173273+00:00,,,
+1113,vigilance,noun,2026-08-28T15:27:38.173273+00:00,men-caution,57,3
+1114,to leave,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-leave,59,1
+1115,"inheritance, legacy",noun,2026-08-28T15:27:38.173273+00:00,,,
+1116,"to fight, battle, compete",verb,2026-08-28T15:27:38.173273+00:00,,,
+1118,exclusive use,noun,2026-08-28T15:27:38.173273+00:00,,84,
+1119,"to reform, correct, renew, reconsider",verb,2026-08-28T15:27:38.173273+00:00,,,
+1120,talent,noun,2026-08-28T15:27:38.173273+00:00,men-talent,57,2
+1121,april,noun,2026-08-28T15:27:38.173273+00:00,mon-april,8,1
+1123,drink,noun,2026-08-28T15:27:38.173273+00:00,dri-drink,26,1
+1124,barley tea,noun,2026-08-28T15:27:38.173273+00:00,gro-barley-tea,72,3
+1125,fountain pen,noun,2026-08-28T15:27:38.173273+00:00,sch-fountain-pen,45,3
+1126,to arrive,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-arrive,59,1
+1127,point of departure,noun,2026-08-28T15:27:38.173273+00:00,sta-departure-point,82,2
+1128,search,noun,2026-08-28T15:27:38.173273+00:00,net-search,54,1
+1129,last month,adverb,2026-08-28T15:27:38.173273+00:00,cal-last-month,10,1
+1130,to help,verb,2026-08-28T15:27:38.173273+00:00,vda-to-help,61,1
+1131,international,adjective,2026-08-28T15:27:38.173273+00:00,soc-international,70,1
+1133,possible,adjective,2026-08-28T15:27:38.173273+00:00,aqu-possible,64,1
+1134,"cooperation, joint, collaboration",noun,2026-08-28T15:27:38.173273+00:00,,,
+1135,scholar,noun,2026-08-28T15:27:38.173273+00:00,job-scholar,49,3
+1136,to decide,verb,2026-08-28T15:27:38.173273+00:00,men-to-decide,57,1
+1137,member,noun,2026-08-28T15:27:38.173273+00:00,rol-member,16,2
+1138,to expand,verb,2026-08-28T15:27:38.173273+00:00,asi-to-expand,63,2
+1139,thought,noun,2026-08-28T15:27:38.173273+00:00,men-thought,57,1
+1140,to accumulate,verb,2026-08-28T15:27:38.173273+00:00,,80,
+1141,"problem, question, issue",noun,2026-08-28T15:27:38.173273+00:00,,,
+1142,warning,noun,2026-08-28T15:27:38.173273+00:00,spk-warning,53,2
+1143,deep,adjective,2026-08-28T15:27:38.173273+00:00,asi-deep,63,2
+1144,bank account,noun,2026-08-28T15:27:38.173273+00:00,off-bank-account,51,1
+1145,shares,noun,2026-08-28T15:27:38.173273+00:00,off-shares,51,3
+1146,enough,adjective,2026-08-28T15:27:38.173273+00:00,qty-enough,4,1
+1148,to stop,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-stop,59,1
+1149,breakfast,noun,2026-08-28T15:27:38.173273+00:00,,28,
+1151,accommodation,noun,2026-08-28T15:27:38.173273+00:00,acc-lodging,83,1
+1152,blanket,noun,2026-08-28T15:27:38.173273+00:00,fur-blanket,30,2
+1153,winter,noun,2026-08-28T15:27:38.173273+00:00,cal-winter,10,1
+1154,to fly,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-fly,59,1
+1155,museum,noun,2026-08-28T15:27:38.173273+00:00,bld-museum,42,1
+1156,post office,noun,2026-08-28T15:27:38.173273+00:00,bld-post-office,42,1
+1157,winter holidays,noun,2026-08-28T15:27:38.173273+00:00,sub-winter-holidays,46,2
+1158,vegetables,noun,2026-08-28T15:27:38.173273+00:00,veg-vegetables,22,1
+1160,to recite,verb,2026-08-28T15:27:38.173273+00:00,spk-to-recite,53,3
+1161,to cancel,verb,2026-08-28T15:27:38.173273+00:00,pho-to-cancel,86,1
+1162,complaint,noun,2026-08-28T15:27:38.173273+00:00,spk-complaint,53,2
+1163,fully booked,adjective,2026-08-28T15:27:38.173273+00:00,res-fully-booked,71,2
+1164,athlete,noun,2026-08-28T15:27:38.173273+00:00,job-athlete,49,2
+1165,doubt,noun,2026-08-28T15:27:38.173273+00:00,men-doubt,57,2
+1166,near,adjective,2026-08-28T15:27:38.173273+00:00,dir-near,41,1
+1167,neighbourhood,noun,2026-08-28T15:27:38.173273+00:00,adr-neighbourhood,43,2
+1168,upstairs,noun,2026-08-28T15:27:38.173273+00:00,dir-upstairs,41,2
+1169,wine,noun,2026-08-28T15:27:38.173273+00:00,dri-wine,26,1
+1170,"japanese sword, katana",noun,2026-08-28T15:27:38.173273+00:00,,,
+1171,subject (in grammar),noun,2026-08-28T15:27:38.173273+00:00,,52,
+1172,bread,noun,2026-08-28T15:27:38.173273+00:00,gra-bread,23,1
+1173,spring holidays,noun,2026-08-28T15:27:38.173273+00:00,sub-spring-holidays,46,2
+1174,horse racing,noun,2026-08-28T15:27:38.173273+00:00,spo-horse-racing,69,3
+1175,detached house,noun,2026-08-28T15:27:38.173273+00:00,hre-detached-house,84,2
+1176,municipality,noun,2026-08-28T15:27:38.173273+00:00,adr-municipality,43,2
+1178,support,noun,2026-08-28T15:27:38.173273+00:00,net-support,54,1
+1179,to send,noun,2026-08-28T15:27:38.173273+00:00,net-to-send,54,1
+1180,east exit,noun,2026-08-28T15:27:38.173273+00:00,sta-east-exit,82,3
+1181,consecutive holidays,noun,2026-08-28T15:27:38.173273+00:00,cal-long-weekend,10,3
+1182,interior decor,noun,2026-08-28T15:27:38.173273+00:00,var-interior-decor,76,2
+1183,dried goods,noun,2026-08-28T15:27:38.173273+00:00,gro-dried-goods,72,3
+1184,"permanence, eternity",noun,2026-08-28T15:27:38.173273+00:00,,6,
+1186,art,noun,2026-08-28T15:27:38.173273+00:00,sub-art-subject,46,1
+1187,certain,adjective,2026-08-28T15:27:38.173273+00:00,men-certain,57,1
+1188,cat,noun,2026-08-28T15:27:38.173273+00:00,ani-cat,36,1
+1189,"to protect, to defend",verb,2026-08-28T15:27:38.173273+00:00,,,
+1190,storage,noun,2026-08-28T15:27:38.173273+00:00,hou-storage,32,2
+1191,"addition, supplement, appendix",noun,2026-08-28T15:27:38.173273+00:00,,54,
+1192,"hometown, native place, birthplace",noun,2026-08-28T15:27:38.173273+00:00,,28,
+1193,comfortable,adjective,2026-08-28T15:27:38.173273+00:00,emo-comfortable,56,2
+1194,"failure, mistake, blunder",noun,2026-08-28T15:27:38.173273+00:00,,,
+1195,nutrition,noun,2026-08-28T15:27:38.173273+00:00,hea-nutrition,19,2
+1196,fried egg,noun,2026-08-28T15:27:38.173273+00:00,res-fried-egg,71,2
+1197,graduate school,noun,2026-08-28T15:27:38.173273+00:00,bld-graduate-school,42,3
+1198,earth,noun,2026-08-28T15:27:38.173273+00:00,geo-earth,38,1
+1199,nurse,noun,2026-08-28T15:27:38.173273+00:00,job-nurse,49,1
+1200,Western cuisine,noun,2026-08-28T15:27:38.173273+00:00,res-western-cuisine,71,3
+1201,house share,noun,2026-08-28T15:27:38.173273+00:00,hre-share-house,84,2
+1202,to heat up,verb,2026-08-28T15:27:38.173273+00:00,coo-to-heat,27,2
+1203,rock,noun,2026-08-28T15:27:38.173273+00:00,geo-rock,38,2
+1205,telephone,noun,2026-08-28T15:27:38.173273+00:00,net-telephone,54,1
+1207,to be reflected,verb,2026-08-28T15:27:38.173273+00:00,vpe-to-be-reflected,60,3
+1208,money,noun,2026-08-28T15:27:38.173273+00:00,mon-money,50,1
+1209,to get off,verb,2026-08-28T15:27:38.173273+00:00,tra-to-get-off,40,1
+1210,to hand out,verb,2026-08-28T15:27:38.173273+00:00,vda-to-distribute,61,2
+1211,to stop (something),verb,2026-08-28T15:27:38.173273+00:00,vmo-to-halt,59,1
+1212,"guardianship, guardian, backing, support",noun,2026-08-28T15:27:38.173273+00:00,,,
+1213,refreshing,adjective,2026-08-28T15:27:38.173273+00:00,emo-refreshing,56,3
+1214,to use,verb,2026-08-28T15:27:38.173273+00:00,vda-to-use,61,1
+1215,weekly,adverb,2026-08-28T15:27:38.173273+00:00,dur-weekly,11,2
+1216,relief,noun,2026-08-28T15:27:38.173273+00:00,emo-relief,56,1
+1217,to wake up,verb,2026-08-28T15:27:38.173273+00:00,vda-to-wake-up,61,1
+1218,box,noun,2026-08-28T15:27:38.173273+00:00,hou-box,32,1
+1219,diagnosis,noun,2026-08-28T15:27:38.173273+00:00,hea-diagnosis,19,2
+1220,to share,noun,2026-08-28T15:27:38.173273+00:00,net-to-share,54,2
+1221,bank,noun,2026-08-28T15:27:38.173273+00:00,bld-bank-building,42,1
+1222,guideline,noun,2026-08-28T15:27:38.173273+00:00,soc-guideline,70,2
+1223,above,adverb,2026-08-28T15:27:38.173273+00:00,dir-above,41,1
+1224,refrigerator,noun,2026-08-28T15:27:38.173273+00:00,app-refrigerator,31,1
+1225,gap,noun,2026-08-28T15:27:38.173273+00:00,acm-gap,65,3
+1227,shopping,noun,2026-08-28T15:27:38.173273+00:00,mon-shopping,50,1
+1228,roof,noun,2026-08-28T15:27:38.173273+00:00,rom-roof,29,2
+1231,curry,noun,2026-08-28T15:27:38.173273+00:00,,71,
+1232,provider,noun,2026-08-28T15:27:38.173273+00:00,pho-provider,86,1
+1233,town,noun,2026-08-28T15:27:38.173273+00:00,adr-town,43,1
+1234,pizza,noun,2026-08-28T15:27:38.173273+00:00,,71,
+1235,private lodging,noun,2026-08-28T15:27:38.173273+00:00,acc-private-lodging,83,3
+1236,meadow,noun,2026-08-28T15:27:38.173273+00:00,geo-field-meadow,38,2
+1237,to surround,verb,2026-08-28T15:27:38.173273+00:00,vda-to-surround,61,3
+1238,to meet,verb,2026-08-28T15:27:38.173273+00:00,vda-to-meet,61,1
+1239,hair salon,noun,2026-08-28T15:27:38.173273+00:00,bld-salon,42,2
+1240,"arranging, tidying up, organizing",noun,2026-08-28T15:27:38.173273+00:00,,,
+1241,new,adjective,2026-08-28T15:27:38.173273+00:00,aqu-new,64,1
+1242,t-shirt,noun,2026-08-28T15:27:38.173273+00:00,clo-tshirt,33,1
+1243,"circumstances, convenience",noun,2026-08-28T15:27:38.173273+00:00,,,
+1244,"easy-going, careless",adjective,2026-08-28T15:27:38.173273+00:00,,,
+1245,composing music,noun,2026-08-28T15:27:38.173273+00:00,spo-composition,69,3
+1246,"command, direction",noun,2026-08-28T15:27:38.173273+00:00,,,
+1247,bereaved family,noun,2026-08-28T15:27:38.173273+00:00,fam-bereaved,14,3
+1248,to study a language,verb,2026-08-28T15:27:38.173273+00:00,ll-to-study,47,1
+1249,kindness,noun,2026-08-28T15:27:38.173273+00:00,emo-kindness,56,2
+1250,size,noun,2026-08-28T15:27:38.173273+00:00,clo-size,33,1
+1251,to feel,verb,2026-08-28T15:27:38.173273+00:00,emo-to-feel,56,1
+1252,thin,adjective,2026-08-28T15:27:38.173273+00:00,asi-thin,63,2
+1253,healthy,adjective,2026-08-28T15:27:38.173273+00:00,hea-healthy,19,1
+1254,disability,noun,2026-08-28T15:27:38.173273+00:00,hea-disability,19,2
+1255,to hurt (someone),verb,2026-08-28T15:27:38.173273+00:00,emo-to-hurt-someone,56,2
+1256,family,noun,2026-08-28T15:27:38.173273+00:00,fam-family,14,1
+1257,younger brother,noun,2026-08-28T15:27:38.173273+00:00,fam-younger-brother,14,1
+1258,outdoors,noun,2026-08-28T15:27:38.173273+00:00,dir-outdoors,41,2
+1259,to change trains,noun,2026-08-28T15:27:38.173273+00:00,sta-to-transfer,82,1
+1260,instruction manual,noun,2026-08-28T15:27:38.173273+00:00,ele-manual,75,1
+1262,space,noun,2026-08-28T15:27:38.173273+00:00,,84,
+1263,emergency,noun,2026-08-28T15:27:38.173273+00:00,hos-emergency,79,1
+1264,armed forces,noun,2026-08-28T15:27:38.173273+00:00,soc-military,70,2
+1265,medical science,noun,2026-08-28T15:27:38.173273+00:00,hea-medical-science,19,3
+1267,"the west, western world, occident",noun,2026-08-28T15:27:38.173273+00:00,,,
+1269,dish (prepared food),noun,2026-08-28T15:27:38.173273+00:00,coo-dish,27,1
+1270,"simultaneous, at the same time, concurrent",noun,2026-08-28T15:27:38.173273+00:00,,6,
+1271,to go,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-go,59,1
+1272,car,noun,2026-08-28T15:27:38.173273+00:00,tra-car,40,1
+1273,to advance,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-advance,59,2
+1274,special offer,noun,2026-08-28T15:27:38.173273+00:00,mon-special-offer,50,2
+1275,floor area,noun,2026-08-28T15:27:38.173273+00:00,adr-floor-area,43,3
+1276,october,noun,2026-08-28T15:27:38.173273+00:00,mon-october,8,1
+1277,pupil,noun,2026-08-28T15:27:38.173273+00:00,sub-pupil,46,1
+1278,wool,noun,2026-08-28T15:27:38.173273+00:00,clo-wool,33,2
+1279,new year,noun,2026-08-28T15:27:38.173273+00:00,cal-new-year,10,2
+1280,body weight,noun,2026-08-28T15:27:38.173273+00:00,bod-weight,18,2
+1281,"development (of land, software, products)",noun,2026-08-28T15:27:38.173273+00:00,,48,
+1282,"screening, showing (of a film)",noun,2026-08-28T15:27:38.173273+00:00,,,
+1283,person in charge,noun,2026-08-28T15:27:38.173273+00:00,job-person-in-charge,49,2
+1284,shinto shrine,noun,2026-08-28T15:27:38.173273+00:00,,,
+1285,sea,noun,2026-08-28T15:27:38.173273+00:00,geo-sea,38,1
+1286,"to change, alter, transform",verb,2026-08-28T15:27:38.173273+00:00,,,
+1287,"pressure, force",noun,2026-08-28T15:27:38.173273+00:00,,,
+1288,temperature,noun,2026-08-28T15:27:38.173273+00:00,wea-temperature,35,1
+1289,popularity,noun,2026-08-28T15:27:38.173273+00:00,,84,
+1290,side,noun,2026-08-28T15:27:38.173273+00:00,dir-side,41,1
+1291,to go down,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-go-down,59,1
+1292,cheese,noun,2026-08-28T15:27:38.173273+00:00,dai-cheese,25,1
+1293,son,noun,2026-08-28T15:27:38.173273+00:00,fam-son,14,1
+1294,"release, liberation",noun,2026-08-28T15:27:38.173273+00:00,,,
+1296,ticket machine,noun,2026-08-28T15:27:38.173273+00:00,sta-ticket-machine,82,1
+1297,route,noun,2026-08-28T15:27:38.173273+00:00,sta-route,82,2
+1298,to start,verb,2026-08-28T15:27:38.173273+00:00,vda-to-start,61,1
+1299,to believe,verb,2026-08-28T15:27:38.173273+00:00,men-to-believe,57,1
+1300,living room,noun,2026-08-28T15:27:38.173273+00:00,rom-living-room,29,1
+1301,assignment,noun,2026-08-28T15:27:38.173273+00:00,sch-assignment,45,2
+1302,building,noun,2026-08-28T15:27:38.173273+00:00,rom-building,29,1
+1304,to rest,verb,2026-08-28T15:27:38.173273+00:00,hea-to-rest,19,1
+1305,gift,noun,2026-08-28T15:27:38.173273+00:00,var-gift,76,1
+1306,to gather,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-gather,59,2
+1307,blackboard,noun,2026-08-28T15:27:38.173273+00:00,sch-blackboard,45,2
+1309,to be audible,verb,2026-08-28T15:27:38.173273+00:00,vpe-to-be-audible,60,2
+1310,useful,adjective,2026-08-28T15:27:38.173273+00:00,aqu-useful,64,1
+1311,scale,noun,2026-08-28T15:27:38.173273+00:00,asi-size-scale,63,2
+1313,shout,noun,2026-08-28T15:27:38.173273+00:00,spk-loud-voice,53,2
+1314,to be moved,noun,2026-08-28T15:27:38.173273+00:00,emo-moved,56,3
+1315,initial costs,noun,2026-08-28T15:27:38.173273+00:00,hre-initial-costs,84,2
+1317,to be grilled,verb,2026-08-28T15:27:38.173273+00:00,coo-to-be-grilled,27,3
+1318,room,noun,2026-08-28T15:27:38.173273+00:00,rom-room,29,1
+1319,stairs,noun,2026-08-28T15:27:38.173273+00:00,rom-stairs,29,1
+1320,meal,noun,2026-08-28T15:27:38.173273+00:00,coo-meal,27,1
+1321,happy,adjective,2026-08-28T15:27:38.173273+00:00,emo-happy,56,1
+1322,reply,noun,2026-08-28T15:27:38.173273+00:00,spk-reply,53,2
+1323,one person,noun,2026-08-28T15:27:38.173273+00:00,ctr-one-person,5,1
+1325,to turn off,verb,2026-08-28T15:27:38.173273+00:00,vda-to-turn-off,61,1
+1326,onion,noun,2026-08-28T15:27:38.173273+00:00,veg-onion,22,1
+1327,violation,noun,2026-08-28T15:27:38.173273+00:00,soc-violation,70,2
+1328,"accident, incident",noun,2026-08-28T15:27:38.173273+00:00,,,
+1329,atmospheric pressure,noun,2026-08-28T15:27:38.173273+00:00,wea-air-pressure,35,3
+1330,to wear,verb,2026-08-28T15:27:38.173273+00:00,clo-to-wear,33,1
+1331,trim,noun,2026-08-28T15:27:38.173273+00:00,bar-trim,87,2
+1332,cushion,noun,2026-08-28T15:27:38.173273+00:00,fur-cushion,30,2
+1333,luggage,noun,2026-08-28T15:27:38.173273+00:00,acc-luggage,83,1
+1334,person,noun,2026-08-28T15:27:38.173273+00:00,rol-person,16,1
+1335,university,noun,2026-08-28T15:27:38.173273+00:00,bld-university,42,1
+1336,to fall (rain or snow),verb,2026-08-28T15:27:38.173273+00:00,wea-to-rain,35,1
+1337,duty,noun,2026-08-28T15:27:38.173273+00:00,soc-duty,70,1
+1338,calligraphy,noun,2026-08-28T15:27:38.173273+00:00,spo-calligraphy,69,3
+1339,star,noun,2026-08-28T15:27:38.173273+00:00,geo-star,38,1
+1340,"round, circular, spherical",adjective,2026-08-28T15:27:38.173273+00:00,,,
+1341,to wake someone,verb,2026-08-28T15:27:38.173273+00:00,vda-to-wake-someone,61,2
+1342,japan,noun,2026-08-28T15:27:38.173273+00:00,,,
+1343,to board,verb,2026-08-28T15:27:38.173273+00:00,tra-to-ride,40,1
+1344,behind,adverb,2026-08-28T15:27:38.173273+00:00,dir-behind,41,1
+1345,writing brush,noun,2026-08-28T15:27:38.173273+00:00,sch-brush,45,3
+1346,afternoon,noun,2026-08-28T15:27:38.173273+00:00,tod-afternoon,9,1
+1347,just before,adverb,2026-08-28T15:27:38.173273+00:00,dur-just-before,11,3
+1348,peninsula,noun,2026-08-28T15:27:38.173273+00:00,geo-peninsula,38,3
+1350,this week,adverb,2026-08-28T15:27:38.173273+00:00,cal-this-week,10,1
+1351,to choose,verb,2026-08-28T15:27:38.173273+00:00,vda-to-choose,61,1
+1352,"gate, entrance, school gate",noun,2026-08-28T15:27:38.173273+00:00,,,
+1353,to pick up,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-pick-up,59,2
+1354,science,noun,2026-08-28T15:27:38.173273+00:00,sub-science,46,1
+1355,to fall over,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-fall-over,59,2
+1356,library,noun,2026-08-28T15:27:38.173273+00:00,bld-library,42,1
+1357,to write,verb,2026-08-28T15:27:38.173273+00:00,spk-to-write,53,1
+1358,"reaction, response",noun,2026-08-28T15:27:38.173273+00:00,,,
+1359,pond,noun,2026-08-28T15:27:38.173273+00:00,geo-pond,38,2
+1360,pasta,noun,2026-08-28T15:27:38.173273+00:00,gra-pasta,23,2
+1362,for example,adverb,2026-08-28T15:27:38.173273+00:00,con-for-example,68,2
+1363,"getting up, rising (from bed)",noun,2026-08-28T15:27:38.173273+00:00,,28,
+1364,plateau,noun,2026-08-28T15:27:38.173273+00:00,geo-plateau,38,3
+1365,carpet,noun,2026-08-28T15:27:38.173273+00:00,fur-carpet,30,2
+1366,"united states of america, the us",noun,2026-08-28T15:27:38.173273+00:00,,,
+1367,arithmetic,noun,2026-08-28T15:27:38.173273+00:00,sub-arithmetic,46,2
+1368,flat (rented),noun,2026-08-28T15:27:38.173273+00:00,hre-apartment,84,1
+1369,best,adjective,2026-08-28T15:27:38.173273+00:00,acm-best,65,1
+1370,security deposit,noun,2026-08-28T15:27:38.173273+00:00,hre-deposit,84,1
+1371,summer holidays,noun,2026-08-28T15:27:38.173273+00:00,sub-summer-holidays,46,1
+1372,lesson preparation,noun,2026-08-28T15:27:38.173273+00:00,sub-preparation-class,46,3
+1373,building age,noun,2026-08-28T15:27:38.173273+00:00,hre-building-age,84,2
+1374,to swim,verb,2026-08-28T15:27:38.173273+00:00,vmo-to-swim,59,1
+1375,timetable,noun,2026-08-28T15:27:38.173273+00:00,sta-timetable,82,1
+1376,to scan,verb,2026-08-28T15:27:38.173273+00:00,,80,
+1377,air temperature,noun,2026-08-28T15:27:38.173273+00:00,wea-air-temperature,35,2
+1378,now,adverb,2026-08-28T15:27:38.173273+00:00,dur-now,11,1
+1379,village,noun,2026-08-28T15:27:38.173273+00:00,adr-village,43,1
+1380,identity verification,noun,2026-08-28T15:27:38.173273+00:00,net-identity-check,54,3
+1381,explanation,noun,2026-08-28T15:27:38.173273+00:00,spk-explanation,53,1
+1382,"showa era (1926-1989), the reign of emperor hirohito",noun,2026-08-28T15:27:38.173273+00:00,,6,
+1383,viewpoint,noun,2026-08-28T15:27:38.173273+00:00,,84,
+1384,registration,noun,2026-08-28T15:27:38.173273+00:00,net-registration,54,1
+1388,"different culture, foreign culture",noun,2026-08-28T15:27:38.173273+00:00,,39,
+1389,monthly publication,noun,2026-08-28T15:27:38.173273+00:00,,6,
+1392,"reality, actuality",noun,2026-08-28T15:27:38.173273+00:00,,,
+1393,kitchen,noun,2026-08-28T15:27:38.173273+00:00,rom-kitchen,29,1
+1394,"direct, directly, in person",noun,2026-08-28T15:27:38.173273+00:00,,,
+1395,galaxy,noun,2026-08-28T15:27:38.173273+00:00,,,
+1396,ingenuity,noun,2026-08-28T15:27:38.173273+00:00,men-ingenuity,57,3
+1397,market,noun,2026-08-28T15:27:38.173273+00:00,bld-market,42,1
+1398,blood,noun,2026-08-28T15:27:38.173273+00:00,bod-blood,18,2
+1399,egg,noun,2026-08-28T15:27:38.173273+00:00,mea-egg,24,1
+1401,pharmacy,noun,2026-08-28T15:27:38.173273+00:00,bld-pharmacy,42,1
+1402,job,noun,2026-08-28T15:27:38.173273+00:00,job-job,49,1
+1403,"fairy tale, children's story",noun,2026-08-28T15:27:38.173273+00:00,,,
+1404,to hope,verb,2026-08-28T15:27:38.173273+00:00,emo-to-hope,56,1
+1405,manga,noun,2026-08-28T15:27:38.173273+00:00,,54,
+1406,"dinner, evening meal, supper",noun,2026-08-28T15:27:38.173273+00:00,,71,
+1407,fee,noun,2026-08-28T15:27:38.173273+00:00,mon-fee,50,1
+1408,left hand,noun,2026-08-28T15:27:38.173273+00:00,bod-left-hand,18,2
+1409,to open (a book),verb,2026-08-28T15:27:38.173273+00:00,vda-to-open-book,61,2
+1410,to ask for,verb,2026-08-28T15:27:38.173273+00:00,vda-to-seek,61,2
+1412,to apply for,verb,2026-08-28T15:27:38.173273+00:00,vda-to-apply,61,1
+1413,animal cry,noun,2026-08-28T15:27:38.173273+00:00,ani-animal-cry,36,3
+1414,beach,noun,2026-08-28T15:27:38.173273+00:00,geo-beach,38,1
+1415,to put,verb,2026-08-28T15:27:38.173273+00:00,vda-to-put,61,1
+1416,correct,adjective,2026-08-28T15:27:38.173273+00:00,aqu-correct,64,1
+1417,to scatter (petals),verb,2026-08-28T15:27:38.173273+00:00,pla-to-scatter,37,3
+1418,colour,noun,2026-08-28T15:27:38.173273+00:00,color-itself,12,1
+1419,playback,noun,2026-08-28T15:27:38.173273+00:00,net-playback,54,2
+1420,fruit,noun,2026-08-28T15:27:38.173273+00:00,fruit-itself,21,1
+1421,to remain,verb,2026-08-28T15:27:38.173273+00:00,vda-to-remain,61,2
+1422,value,noun,2026-08-28T15:27:38.173273+00:00,mon-value,50,2
+1423,to dry,verb,2026-08-28T15:27:38.173273+00:00,vda-to-dry,61,2
+1424,siblings,noun,2026-08-28T15:27:38.173273+00:00,fam-siblings,14,2
+1425,basics,noun,2026-08-28T15:27:38.173273+00:00,men-basics,57,1
+1426,memorisation,noun,2026-08-28T15:27:38.173273+00:00,sub-memorisation,46,2
+1427,key money,noun,2026-08-28T15:27:38.173273+00:00,hre-key-money,84,3
+1428,to count,verb,2026-08-28T15:27:38.173273+00:00,men-to-count,57,1
+1429,"to illuminate, light up, shine on",verb,2026-08-28T15:27:38.173273+00:00,,,
+1430,affiliated store,noun,2026-08-28T15:27:38.173273+00:00,ban-affiliated-store,80,3
+1431,household,noun,2026-08-28T15:27:38.173273+00:00,fam-household,14,2
+1432,passbook,noun,2026-08-28T15:27:38.173273+00:00,ban-passbook,80,3
+1433,cold (weather),adjective,2026-08-28T15:27:38.173273+00:00,wea-cold-weather,35,1
+1434,limited-time,adjective,2026-08-28T15:27:38.173273+00:00,eco-limited-time,85,2
+1436,travel (getting about),noun,2026-08-28T15:27:38.173273+00:00,tra-travel-movement,40,2
+1437,"guidance, information, guide, tour",noun,2026-08-28T15:27:38.173273+00:00,,39,
+1438,to be glad,verb,2026-08-28T15:27:38.173273+00:00,emo-to-be-glad,56,1
+1439,bookshop,noun,2026-08-28T15:27:38.173273+00:00,bld-bookshop,42,2
+1440,to live (reside),verb,2026-08-28T15:27:38.173273+00:00,vda-to-reside,61,1
+1441,order,noun,2026-08-28T15:27:38.173273+00:00,res-order,71,1
+1442,shampoo,noun,2026-08-28T15:27:38.173273+00:00,hou-shampoo,32,2
+1443,block,noun,2026-08-28T15:27:38.173273+00:00,net-block,54,2
+1444,plant,noun,2026-08-28T15:27:38.173273+00:00,pla-plant,37,1
+1445,rule,noun,2026-08-28T15:27:38.173273+00:00,soc-rule,70,1
+1446,marriage,noun,2026-08-28T15:27:38.173273+00:00,fam-marriage,14,1
+1447,"object, target, subject (of something)",noun,2026-08-28T15:27:38.173273+00:00,,80,
+1448,"display, demonstration",noun,2026-08-28T15:27:38.173273+00:00,,,
+1449,"liquid, fluid",noun,2026-08-28T15:27:38.173273+00:00,,,
+1450,world,noun,2026-08-28T15:27:38.173273+00:00,geo-world,38,1
+1451,"defect, flaw, shortcoming, weakness",noun,2026-08-28T15:27:38.173273+00:00,,,
+1452,domestically produced,adjective,2026-08-28T15:27:38.173273+00:00,gro-domestic-produce,72,2
+1453,post,noun,2026-08-28T15:27:38.173273+00:00,gov-post,81,1
+1454,tuesday,noun,2026-08-28T15:27:38.173273+00:00,dow-tuesday,7,1
+1455,double,adjective,2026-08-28T15:27:38.173273+00:00,qty-double,4,2
+1456,owned flat,noun,2026-08-28T15:27:38.173273+00:00,hre-condominium,84,2
+1457,freedom,noun,2026-08-28T15:27:38.173273+00:00,soc-freedom,70,1
+1458,"traffic signal, signal, sign",noun,2026-08-28T15:27:38.173273+00:00,,,
+1459,takeaway,noun,2026-08-28T15:27:38.173273+00:00,res-takeaway,71,1
+1460,to spend (time),verb,2026-08-28T15:27:38.173273+00:00,vda-to-spend-time,61,2
+1462,february,noun,2026-08-28T15:27:38.173273+00:00,mon-february,8,1
+1463,payment,noun,2026-08-28T15:27:38.173273+00:00,mon-payment,50,1
+1464,underground (below ground),noun,2026-08-28T15:27:38.173273+00:00,dir-underground,41,2
+1465,repaying a favor,noun,2026-08-28T15:27:38.173273+00:00,,,
+1466,English (language),noun,2026-08-28T15:27:38.173273+00:00,ll-english,47,2
+1467,delivery charge,noun,2026-08-28T15:27:38.173273+00:00,mon-shipping-fee,50,2
+1468,path,noun,2026-08-28T15:27:38.173273+00:00,adr-road-path,43,1
+1469,entrance,noun,2026-08-28T15:27:38.173273+00:00,sta-entrance,82,1
+1470,"hardship, toil, trouble, suffering",noun,2026-08-28T15:27:38.173273+00:00,,,
+1471,breakfast set,noun,2026-08-28T15:27:38.173273+00:00,res-breakfast-set,71,3
+1472,speed,noun,2026-08-28T15:27:38.173273+00:00,tra-speed,40,2
+1473,usually,adverb,2026-08-28T15:27:38.173273+00:00,dur-usually,11,1
+1474,permission,noun,2026-08-28T15:27:38.173273+00:00,soc-permission,70,1
+1475,sunday,noun,2026-08-28T15:27:38.173273+00:00,dow-sunday,7,1
+1476,east,noun,2026-08-28T15:27:38.173273+00:00,dir-east,41,1
+1477,few,adjective,2026-08-28T15:27:38.173273+00:00,qty-few,4,1
+1478,number of items,noun,2026-08-28T15:27:38.173273+00:00,qty-count,4,3
+1480,"personality, character",noun,2026-08-28T15:27:38.173273+00:00,,,
+1482,to rescue,verb,2026-08-28T15:27:38.173273+00:00,vda-to-save,61,2
+1483,consideration,noun,2026-08-28T15:27:38.173273+00:00,men-consideration,57,2
+1484,news,noun,2026-08-28T15:27:38.173273+00:00,spk-news,53,1
+1485,together,adverb,2026-08-28T15:27:38.173273+00:00,acm-together,65,1
+1486,trousers,noun,2026-08-28T15:27:38.173273+00:00,clo-trousers,33,1
+1487,nations,noun,2026-08-28T15:27:38.173273+00:00,soc-nations,70,3
+1488,room type,noun,2026-08-29T04:50:14.866282+00:00,acc-room-type,83,1
+1489,single room,noun,2026-08-29T04:50:14.866282+00:00,acc-single-room,83,1
+1490,double room,noun,2026-08-29T04:50:14.866282+00:00,acc-double-room,83,1
+1491,key card,noun,2026-08-29T04:50:14.866282+00:00,acc-key-card,83,2
+1492,breakfast included,adjective,2026-08-29T04:50:14.866282+00:00,acc-breakfast-included,83,2
+1493,late check-out,noun,2026-08-29T04:50:14.866282+00:00,acc-late-checkout,83,3
+1494,front desk,noun,2026-08-29T04:50:14.866282+00:00,acc-front-desk,83,1
+1495,house number,noun,2026-08-29T04:50:14.866282+00:00,adr-house-number,43,2
+1496,postcode,noun,2026-08-29T04:50:14.866282+00:00,adr-postcode,43,2
+1497,different,adjective,2026-08-29T04:50:14.866282+00:00,acm-different,65,1
+1498,better,adjective,2026-08-29T04:50:14.866282+00:00,acm-better,65,1
+1499,worse,adjective,2026-08-29T04:50:14.866282+00:00,acm-worse,65,2
+1500,very,adverb,2026-08-29T04:50:14.866282+00:00,acm-very,65,1
+1501,too much,adverb,2026-08-29T04:50:14.866282+00:00,acm-too-much,65,1
+1502,quite,adverb,2026-08-29T04:50:14.866282+00:00,acm-quite,65,2
+1503,a little,adverb,2026-08-29T04:50:14.866282+00:00,acm-a-little,65,1
+1504,good,adjective,2026-08-29T04:50:14.866282+00:00,aqu-good,64,1
+1505,bad,adjective,2026-08-29T04:50:14.866282+00:00,aqu-bad,64,1
+1506,dirty,adjective,2026-08-29T04:50:14.866282+00:00,aqu-dirty,64,1
+1507,ugly,adjective,2026-08-29T04:50:14.866282+00:00,aqu-ugly,64,2
+1508,slow,adjective,2026-08-29T04:50:14.866282+00:00,aqu-slow,64,1
+1509,late,adjective,2026-08-29T04:50:14.866282+00:00,aqu-late,64,1
+1510,quiet,adjective,2026-08-29T04:50:14.866282+00:00,aqu-quiet,64,1
+1511,noisy,adjective,2026-08-29T04:50:14.866282+00:00,aqu-noisy,64,1
+1512,wrong,adjective,2026-08-29T04:50:14.866282+00:00,aqu-wrong,64,1
+1513,safe,adjective,2026-08-29T04:50:14.866282+00:00,aqu-safe,64,1
+1514,impossible,adjective,2026-08-29T04:50:14.866282+00:00,aqu-impossible,64,1
+1515,necessary,adjective,2026-08-29T04:50:14.866282+00:00,aqu-necessary,64,1
+1516,free (available),adjective,2026-08-29T04:50:14.866282+00:00,aqu-free-time,64,2
+1517,busy,adjective,2026-08-29T04:50:14.866282+00:00,aqu-busy,64,1
+1518,low,adjective,2026-08-29T04:50:14.866282+00:00,asi-low,63,1
+1519,narrow,adjective,2026-08-29T04:50:14.866282+00:00,asi-narrow,63,1
+1520,shallow,adjective,2026-08-29T04:50:14.866282+00:00,asi-shallow,63,3
+1521,height,noun,2026-08-29T04:50:14.866282+00:00,asi-height-thing,63,2
+1522,length,noun,2026-08-29T04:50:14.866282+00:00,asi-length,63,2
+1523,width,noun,2026-08-29T04:50:14.866282+00:00,asi-width,63,3
+1524,cow,noun,2026-08-29T04:50:14.866282+00:00,ani-cow,36,1
+1525,pig,noun,2026-08-29T04:50:14.866282+00:00,ani-pig,36,1
+1526,chicken (bird),noun,2026-08-29T04:50:14.866282+00:00,ani-chicken-animal,36,2
+1527,mouse,noun,2026-08-29T04:50:14.866282+00:00,ani-mouse,36,2
+1528,rabbit,noun,2026-08-29T04:50:14.866282+00:00,ani-rabbit,36,2
+1529,monkey,noun,2026-08-29T04:50:14.866282+00:00,ani-monkey,36,2
+1530,bear,noun,2026-08-29T04:50:14.866282+00:00,ani-bear,36,2
+1531,tiger,noun,2026-08-29T04:50:14.866282+00:00,ani-tiger,36,3
+1532,lion,noun,2026-08-29T04:50:14.866282+00:00,ani-lion,36,3
+1533,elephant,noun,2026-08-29T04:50:14.866282+00:00,ani-elephant,36,3
+1534,snake,noun,2026-08-29T04:50:14.866282+00:00,ani-snake,36,3
+1535,insect,noun,2026-08-29T04:50:14.866282+00:00,ani-insect,36,2
+1536,butterfly,noun,2026-08-29T04:50:14.866282+00:00,ani-butterfly,36,3
+1537,tail,noun,2026-08-29T04:50:14.866282+00:00,ani-tail,36,3
+1538,washing machine,noun,2026-08-29T04:50:14.866282+00:00,app-washing-machine,31,1
+1539,air conditioner,noun,2026-08-29T04:50:14.866282+00:00,app-air-conditioner,31,1
+1540,heater,noun,2026-08-29T04:50:14.866282+00:00,app-heater,31,2
+1541,microwave,noun,2026-08-29T04:50:14.866282+00:00,app-microwave,31,1
+1542,oven,noun,2026-08-29T04:50:14.866282+00:00,app-oven,31,2
+1543,cooker,noun,2026-08-29T04:50:14.866282+00:00,app-stove,31,2
+1544,television,noun,2026-08-29T04:50:14.866282+00:00,app-television,31,1
+1545,computer,noun,2026-08-29T04:50:14.866282+00:00,app-computer,31,1
+1546,lamp,noun,2026-08-29T04:50:14.866282+00:00,app-lamp,31,2
+1547,vacuum cleaner,noun,2026-08-29T04:50:14.866282+00:00,app-vacuum,31,2
+1548,fan (electric),noun,2026-08-29T04:50:14.866282+00:00,app-fan,31,3
+1549,kettle,noun,2026-08-29T04:50:14.866282+00:00,app-kettle,31,3
+1550,to open an account,verb,2026-08-29T04:50:14.866282+00:00,ban-to-open-account,80,1
+1551,bank transfer,noun,2026-08-29T04:50:14.866282+00:00,ban-transfer,80,1
+1552,to pay in,verb,2026-08-29T04:50:14.866282+00:00,ban-to-deposit,80,1
+1553,to withdraw,verb,2026-08-29T04:50:14.866282+00:00,ban-to-withdraw,80,1
+1554,bank card,noun,2026-08-29T04:50:14.866282+00:00,ban-bank-card,80,1
+1555,PIN,noun,2026-08-29T04:50:14.866282+00:00,ban-pin,80,1
+1556,branch (of a bank),noun,2026-08-29T04:50:14.866282+00:00,ban-branch,80,2
+1557,interest,noun,2026-08-29T04:50:14.866282+00:00,ban-interest,80,2
+1558,loan,noun,2026-08-29T04:50:14.866282+00:00,ban-loan,80,2
+1559,mortgage,noun,2026-08-29T04:50:14.866282+00:00,ban-mortgage,80,3
+1560,statement,noun,2026-08-29T04:50:14.866282+00:00,ban-statement,80,2
+1561,currency,noun,2026-08-29T04:50:14.866282+00:00,ban-currency,80,2
+1562,exchange rate,noun,2026-08-29T04:50:14.866282+00:00,ban-exchange-rate,80,2
+1563,beard,noun,2026-08-29T04:50:14.866282+00:00,bar-beard,87,2
+1564,hair length,noun,2026-08-29T04:50:14.866282+00:00,bar-hair-length,87,2
+1565,salon appointment,noun,2026-08-29T04:50:14.866282+00:00,bar-appointment-salon,87,2
+1566,hair,noun,2026-08-29T04:50:14.866282+00:00,bod-hair,18,1
+1567,eye,noun,2026-08-29T04:50:14.866282+00:00,bod-eye,18,1
+1568,ear,noun,2026-08-29T04:50:14.866282+00:00,bod-ear,18,1
+1569,mouth,noun,2026-08-29T04:50:14.866282+00:00,bod-mouth,18,1
+1570,tooth,noun,2026-08-29T04:50:14.866282+00:00,bod-tooth,18,1
+1571,tongue,noun,2026-08-29T04:50:14.866282+00:00,bod-tongue,18,2
+1572,shoulder,noun,2026-08-29T04:50:14.866282+00:00,bod-shoulder,18,2
+1573,arm,noun,2026-08-29T04:50:14.866282+00:00,bod-arm,18,1
+1574,hand,noun,2026-08-29T04:50:14.866282+00:00,bod-hand,18,1
+1575,finger,noun,2026-08-29T04:50:14.866282+00:00,bod-finger,18,1
+1576,back (body),noun,2026-08-29T04:50:14.866282+00:00,bod-back,18,2
+1577,stomach,noun,2026-08-29T04:50:14.866282+00:00,bod-stomach,18,1
+1578,leg,noun,2026-08-29T04:50:14.866282+00:00,bod-leg,18,1
+1579,foot,noun,2026-08-29T04:50:14.866282+00:00,bod-foot,18,1
+1580,knee,noun,2026-08-29T04:50:14.866282+00:00,bod-knee,18,2
+1581,heart (organ),noun,2026-08-29T04:50:14.866282+00:00,bod-heart-organ,18,2
+1582,police station,noun,2026-08-29T04:50:14.866282+00:00,bld-police-station,42,2
+1583,restaurant,noun,2026-08-29T04:50:14.866282+00:00,bld-restaurant,42,1
+1584,hotel,noun,2026-08-29T04:50:14.866282+00:00,bld-hotel,42,1
+1585,theatre,noun,2026-08-29T04:50:14.866282+00:00,bld-theatre,42,2
+1586,stadium,noun,2026-08-29T04:50:14.866282+00:00,bld-stadium,42,3
+1587,church,noun,2026-08-29T04:50:14.866282+00:00,bld-church,42,2
+1588,day after tomorrow,adverb,2026-08-29T04:50:14.866282+00:00,cal-day-after-tomorrow,10,2
+1589,day before yesterday,adverb,2026-08-29T04:50:14.866282+00:00,cal-day-before-yesterday,10,2
+1590,week,noun,2026-08-29T04:50:14.866282+00:00,cal-week,10,1
+1591,year,noun,2026-08-29T04:50:14.866282+00:00,cal-year,10,1
+1592,next month,adverb,2026-08-29T04:50:14.866282+00:00,cal-next-month,10,1
+1593,date (calendar),noun,2026-08-29T04:50:14.866282+00:00,cal-date,10,1
+1594,calendar,noun,2026-08-29T04:50:14.866282+00:00,cal-calendar,10,2
+1595,birthday,noun,2026-08-29T04:50:14.866282+00:00,cal-birthday,10,1
+1596,zero,numeral,2026-08-29T04:50:14.866282+00:00,number-zero,2,1
+1597,one,numeral,2026-08-29T04:50:14.866282+00:00,number-one,2,1
+1598,two,numeral,2026-08-29T04:50:14.866282+00:00,number-two,2,1
+1599,three,numeral,2026-08-29T04:50:14.866282+00:00,number-three,2,1
+1600,four,numeral,2026-08-29T04:50:14.866282+00:00,number-four,2,1
+1601,five,numeral,2026-08-29T04:50:14.866282+00:00,number-five,2,1
+1602,six,numeral,2026-08-29T04:50:14.866282+00:00,number-six,2,1
+1603,seven,numeral,2026-08-29T04:50:14.866282+00:00,number-seven,2,1
+1604,eight,numeral,2026-08-29T04:50:14.866282+00:00,number-eight,2,1
+1605,nine,numeral,2026-08-29T04:50:14.866282+00:00,number-nine,2,1
+1606,ten,numeral,2026-08-29T04:50:14.866282+00:00,number-ten,2,1
+1607,eleven,numeral,2026-08-29T04:50:14.866282+00:00,number-eleven,2,2
+1608,twelve,numeral,2026-08-29T04:50:14.866282+00:00,number-twelve,2,2
+1609,twenty,numeral,2026-08-29T04:50:14.866282+00:00,number-twenty,2,2
+1610,thirty,numeral,2026-08-29T04:50:14.866282+00:00,number-thirty,2,2
+1611,forty,numeral,2026-08-29T04:50:14.866282+00:00,number-forty,2,3
+1612,fifty,numeral,2026-08-29T04:50:14.866282+00:00,number-fifty,2,2
+1613,hundred,numeral,2026-08-29T04:50:14.866282+00:00,number-hundred,2,1
+1614,thousand,numeral,2026-08-29T04:50:14.866282+00:00,number-thousand,2,1
+1615,ten thousand,numeral,2026-08-29T04:50:14.866282+00:00,number-ten-thousand,2,2
+1616,million,numeral,2026-08-29T04:50:14.866282+00:00,number-million,2,3
+1617,fitting room,noun,2026-08-29T04:50:14.866282+00:00,cst-fitting-room,74,1
+1618,refund,noun,2026-08-29T04:50:14.866282+00:00,cst-refund,74,1
+1619,jeans,noun,2026-08-29T04:50:14.866282+00:00,clo-jeans,33,2
+1620,jacket,noun,2026-08-29T04:50:14.866282+00:00,clo-jacket,33,1
+1621,coat,noun,2026-08-29T04:50:14.866282+00:00,clo-coat,33,1
+1622,socks,noun,2026-08-29T04:50:14.866282+00:00,clo-socks,33,1
+1623,boots,noun,2026-08-29T04:50:14.866282+00:00,clo-boots,33,2
+1624,scarf,noun,2026-08-29T04:50:14.866282+00:00,clo-scarf,33,2
+1625,gloves,noun,2026-08-29T04:50:14.866282+00:00,clo-gloves,33,2
+1626,belt,noun,2026-08-29T04:50:14.866282+00:00,clo-belt,33,2
+1627,tie,noun,2026-08-29T04:50:14.866282+00:00,clo-tie,33,2
+1628,wristwatch,noun,2026-08-29T04:50:14.866282+00:00,clo-watch,33,1
+1629,jewellery,noun,2026-08-29T04:50:14.866282+00:00,clo-jewellery,33,3
+1630,to take off (clothes),verb,2026-08-29T04:50:14.866282+00:00,clo-to-take-off,33,1
+1631,leather,noun,2026-08-29T04:50:14.866282+00:00,clo-leather,33,3
+1632,orange (colour),adjective,2026-08-29T04:50:14.866282+00:00,color-orange,12,2
+1633,pink,adjective,2026-08-29T04:50:14.866282+00:00,color-pink,12,2
+1634,purple,adjective,2026-08-29T04:50:14.866282+00:00,color-purple,12,2
+1635,gold (colour),adjective,2026-08-29T04:50:14.866282+00:00,color-gold,12,3
+1636,light (shade),adjective,2026-08-29T04:50:14.866282+00:00,color-light,12,3
+1637,dark (shade),adjective,2026-08-29T04:50:14.866282+00:00,color-dark,12,3
+1638,and,conjunction,2026-08-29T04:50:14.866282+00:00,con-and,68,1
+1639,or,conjunction,2026-08-29T04:50:14.866282+00:00,con-or,68,1
+1640,but,conjunction,2026-08-29T04:50:14.866282+00:00,con-but,68,1
+1641,because,conjunction,2026-08-29T04:50:14.866282+00:00,con-because,68,1
+1642,so,conjunction,2026-08-29T04:50:14.866282+00:00,con-so,68,1
+1643,if,conjunction,2026-08-29T04:50:14.866282+00:00,con-if,68,1
+1644,then,adverb,2026-08-29T04:50:14.866282+00:00,con-then,68,1
+1645,also,adverb,2026-08-29T04:50:14.866282+00:00,con-also,68,1
+1646,however,conjunction,2026-08-29T04:50:14.866282+00:00,con-however,68,2
+1647,therefore,conjunction,2026-08-29T04:50:14.866282+00:00,con-therefore,68,2
+1648,although,conjunction,2026-08-29T04:50:14.866282+00:00,con-although,68,2
+1649,while,conjunction,2026-08-29T04:50:14.866282+00:00,con-while,68,2
+1650,until,conjunction,2026-08-29T04:50:14.866282+00:00,con-until,68,2
+1651,to cook,verb,2026-08-29T04:50:14.866282+00:00,coo-to-cook,27,1
+1652,to boil,verb,2026-08-29T04:50:14.866282+00:00,coo-to-boil,27,2
+1653,to fry,verb,2026-08-29T04:50:14.866282+00:00,coo-to-fry,27,2
+1654,to chop,verb,2026-08-29T04:50:14.866282+00:00,coo-to-cut-food,27,2
+1655,delicious,adjective,2026-08-29T04:50:14.866282+00:00,coo-delicious,27,1
+1656,sweet,adjective,2026-08-29T04:50:14.866282+00:00,coo-sweet,27,1
+1657,salty,adjective,2026-08-29T04:50:14.866282+00:00,coo-salty,27,1
+1658,sour,adjective,2026-08-29T04:50:14.866282+00:00,coo-sour,27,2
+1659,bitter,adjective,2026-08-29T04:50:14.866282+00:00,coo-bitter,27,2
+1660,hungry,adjective,2026-08-29T04:50:14.866282+00:00,coo-hungry,27,1
+1661,thirsty,adjective,2026-08-29T04:50:14.866282+00:00,coo-thirsty,27,1
+1662,full (sated),adjective,2026-08-29T04:50:14.866282+00:00,coo-full-stomach,27,2
+1663,fresh,adjective,2026-08-29T04:50:14.866282+00:00,coo-fresh,27,1
+1664,counter for people,noun,2026-08-29T04:50:14.866282+00:00,ctr-counter-people,5,2
+1665,counter for flat things,noun,2026-08-29T04:50:14.866282+00:00,ctr-counter-flat,5,2
+1666,counter for long things,noun,2026-08-29T04:50:14.866282+00:00,ctr-counter-long,5,3
+1667,counter for animals,noun,2026-08-29T04:50:14.866282+00:00,ctr-counter-animals,5,3
+1668,counter for books,noun,2026-08-29T04:50:14.866282+00:00,ctr-counter-books,5,3
+1669,counter for machines,noun,2026-08-29T04:50:14.866282+00:00,ctr-counter-machines,5,3
+1670,butter,noun,2026-08-29T04:50:14.866282+00:00,dai-butter,25,1
+1671,yoghurt,noun,2026-08-29T04:50:14.866282+00:00,dai-yoghurt,25,2
+1672,cream,noun,2026-08-29T04:50:14.866282+00:00,dai-cream,25,3
+1673,sugar,noun,2026-08-29T04:50:14.866282+00:00,dai-sugar,25,1
+1674,pepper (spice),noun,2026-08-29T04:50:14.866282+00:00,dai-pepper-spice,25,2
+1675,vinegar,noun,2026-08-29T04:50:14.866282+00:00,dai-vinegar,25,3
+1676,sauce,noun,2026-08-29T04:50:14.866282+00:00,dai-sauce,25,2
+1677,honey,noun,2026-08-29T04:50:14.866282+00:00,dai-honey,25,3
+1678,jam,noun,2026-08-29T04:50:14.866282+00:00,dai-jam,25,3
+1679,weekday,noun,2026-08-29T04:50:14.866282+00:00,dow-weekday,7,2
+1680,up,adverb,2026-08-29T04:50:14.866282+00:00,dir-up,41,1
+1681,down,adverb,2026-08-29T04:50:14.866282+00:00,dir-down,41,1
+1682,bottom,noun,2026-08-29T04:50:14.866282+00:00,dir-bottom,41,2
+1683,here,adverb,2026-08-29T04:50:14.866282+00:00,dir-here,41,1
+1684,there,adverb,2026-08-29T04:50:14.866282+00:00,dir-there,41,1
+1685,water,noun,2026-08-29T04:50:14.866282+00:00,dri-water,26,1
+1686,juice,noun,2026-08-29T04:50:14.866282+00:00,dri-juice,26,1
+1687,milk (as a drink),noun,2026-08-29T04:50:14.866282+00:00,dri-milk-drink,26,2
+1688,soft drink,noun,2026-08-29T04:50:14.866282+00:00,dri-soft-drink,26,2
+1689,prescription,noun,2026-08-29T04:50:14.866282+00:00,dru-prescription,78,1
+1690,dosage,noun,2026-08-29T04:50:14.866282+00:00,dru-dosage,78,2
+1691,painkiller,noun,2026-08-29T04:50:14.866282+00:00,dru-painkiller,78,1
+1692,plaster,noun,2026-08-29T04:50:14.866282+00:00,dru-plaster,78,2
+1693,bandage,noun,2026-08-29T04:50:14.866282+00:00,dru-bandage,78,2
+1694,vitamin,noun,2026-08-29T04:50:14.866282+00:00,dru-vitamin,78,2
+1695,face mask,noun,2026-08-29T04:50:14.866282+00:00,dru-face-mask,78,1
+1696,tissues,noun,2026-08-29T04:50:14.866282+00:00,dru-tissue,78,2
+1697,toothpaste,noun,2026-08-29T04:50:14.866282+00:00,dru-toothpaste,78,2
+1698,sun cream,noun,2026-08-29T04:50:14.866282+00:00,dru-sunscreen,78,3
+1699,pharmacist,noun,2026-08-29T04:50:14.866282+00:00,dru-pharmacist,78,2
+1700,always,adverb,2026-08-29T04:50:14.866282+00:00,dur-always,11,1
+1701,often,adverb,2026-08-29T04:50:14.866282+00:00,dur-often,11,1
+1702,sometimes,adverb,2026-08-29T04:50:14.866282+00:00,dur-sometimes,11,1
+1703,rarely,adverb,2026-08-29T04:50:14.866282+00:00,dur-rarely,11,2
+1704,never,adverb,2026-08-29T04:50:14.866282+00:00,dur-never,11,1
+1705,soon,adverb,2026-08-29T04:50:14.866282+00:00,dur-soon,11,1
+1706,later,adverb,2026-08-29T04:50:14.866282+00:00,dur-later,11,1
+1707,already,adverb,2026-08-29T04:50:14.866282+00:00,dur-already,11,1
+1708,still (continuing),adverb,2026-08-29T04:50:14.866282+00:00,dur-still,11,1
+1709,again,adverb,2026-08-29T04:50:14.866282+00:00,dur-again,11,1
+1710,once,adverb,2026-08-29T04:50:14.866282+00:00,dur-once,11,2
+1711,twice,adverb,2026-08-29T04:50:14.866282+00:00,dur-twice,11,2
+1712,forever,adverb,2026-08-29T04:50:14.866282+00:00,dur-forever,11,3
+1713,online shop,noun,2026-08-29T04:50:14.866282+00:00,eco-online-shop,85,1
+1714,basket (online),noun,2026-08-29T04:50:14.866282+00:00,eco-cart,85,1
+1715,to add to basket,verb,2026-08-29T04:50:14.866282+00:00,eco-to-add-to-cart,85,1
+1716,checkout,noun,2026-08-29T04:50:14.866282+00:00,eco-checkout-online,85,1
+1717,delivery address,noun,2026-08-29T04:50:14.866282+00:00,eco-delivery-address,85,1
+1718,tracking,noun,2026-08-29T04:50:14.866282+00:00,eco-tracking,85,1
+1719,courier,noun,2026-08-29T04:50:14.866282+00:00,eco-courier,85,1
+1720,returns,noun,2026-08-29T04:50:14.866282+00:00,eco-return-online,85,1
+1721,rating,noun,2026-08-29T04:50:14.866282+00:00,eco-rating,85,2
+1722,dispatched,adjective,2026-08-29T04:50:14.866282+00:00,eco-out-for-delivery,85,2
+1723,cable,noun,2026-08-29T04:50:14.866282+00:00,ele-cable,75,1
+1724,plug,noun,2026-08-29T04:50:14.866282+00:00,ele-plug,75,2
+1725,socket,noun,2026-08-29T04:50:14.866282+00:00,ele-socket,75,2
+1726,model,noun,2026-08-29T04:50:14.866282+00:00,ele-model,75,2
+1727,angry,adjective,2026-08-29T04:50:14.866282+00:00,emo-angry,56,1
+1728,afraid,adjective,2026-08-29T04:50:14.866282+00:00,emo-afraid,56,1
+1729,calm,adjective,2026-08-29T04:50:14.866282+00:00,emo-calm,56,2
+1730,nervous,adjective,2026-08-29T04:50:14.866282+00:00,emo-nervous,56,2
+1731,lonely,adjective,2026-08-29T04:50:14.866282+00:00,emo-lonely,56,1
+1732,bored,adjective,2026-08-29T04:50:14.866282+00:00,emo-bored,56,2
+1733,excited,adjective,2026-08-29T04:50:14.866282+00:00,emo-excited,56,2
+1734,fed up,adjective,2026-08-29T04:50:14.866282+00:00,emo-tired-emotion,56,3
+1735,love,noun,2026-08-29T04:50:14.866282+00:00,emo-love,56,1
+1736,to like,verb,2026-08-29T04:50:14.866282+00:00,emo-to-like,56,1
+1737,to hate,verb,2026-08-29T04:50:14.866282+00:00,emo-to-hate,56,1
+1738,daughter,noun,2026-08-29T04:50:14.866282+00:00,fam-daughter,14,1
+1739,brother,noun,2026-08-29T04:50:14.866282+00:00,fam-brother,14,1
+1740,sister,noun,2026-08-29T04:50:14.866282+00:00,fam-sister,14,1
+1741,grandfather,noun,2026-08-29T04:50:14.866282+00:00,fam-grandfather,14,1
+1742,grandmother,noun,2026-08-29T04:50:14.866282+00:00,fam-grandmother,14,1
+1743,grandchild,noun,2026-08-29T04:50:14.866282+00:00,fam-grandchild,14,3
+1744,uncle,noun,2026-08-29T04:50:14.866282+00:00,fam-uncle,14,2
+1745,aunt,noun,2026-08-29T04:50:14.866282+00:00,fam-aunt,14,2
+1746,cousin,noun,2026-08-29T04:50:14.866282+00:00,fam-cousin,14,2
+1747,wife,noun,2026-08-29T04:50:14.866282+00:00,fam-wife,14,1
+1748,relative,noun,2026-08-29T04:50:14.866282+00:00,fam-relative,14,2
+1749,apple,noun,2026-08-29T04:50:14.866282+00:00,fruit-apple,21,1
+1750,banana,noun,2026-08-29T04:50:14.866282+00:00,fruit-banana,21,1
+1751,orange (fruit),noun,2026-08-29T04:50:14.866282+00:00,fruit-orange,21,1
+1752,grape,noun,2026-08-29T04:50:14.866282+00:00,fruit-grape,21,1
+1753,strawberry,noun,2026-08-29T04:50:14.866282+00:00,fruit-strawberry,21,1
+1754,peach,noun,2026-08-29T04:50:14.866282+00:00,fruit-peach,21,2
+1755,melon,noun,2026-08-29T04:50:14.866282+00:00,fruit-melon,21,2
+1756,watermelon,noun,2026-08-29T04:50:14.866282+00:00,fruit-watermelon,21,2
+1757,pear,noun,2026-08-29T04:50:14.866282+00:00,fruit-pear,21,2
+1758,lemon,noun,2026-08-29T04:50:14.866282+00:00,fruit-lemon,21,2
+1759,pineapple,noun,2026-08-29T04:50:14.866282+00:00,fruit-pineapple,21,3
+1760,mango,noun,2026-08-29T04:50:14.866282+00:00,fruit-mango,21,3
+1761,cherry,noun,2026-08-29T04:50:14.866282+00:00,fruit-cherry,21,3
+1762,kiwi,noun,2026-08-29T04:50:14.866282+00:00,fruit-kiwi,21,3
+1763,showroom,noun,2026-08-29T04:50:14.866282+00:00,fst-showroom,77,2
+1764,assembly,noun,2026-08-29T04:50:14.866282+00:00,fst-assembly,77,2
+1765,measurement,noun,2026-08-29T04:50:14.866282+00:00,fst-measurement,77,2
+1766,light fitting,noun,2026-08-29T04:50:14.866282+00:00,fst-lighting-shop,77,3
+1767,table,noun,2026-08-29T04:50:14.866282+00:00,fur-table,30,1
+1768,shelf,noun,2026-08-29T04:50:14.866282+00:00,fur-shelf,30,2
+1769,wardrobe,noun,2026-08-29T04:50:14.866282+00:00,fur-wardrobe,30,2
+1770,drawer,noun,2026-08-29T04:50:14.866282+00:00,fur-drawer,30,3
+1771,mirror,noun,2026-08-29T04:50:14.866282+00:00,fur-mirror,30,2
+1772,pillow,noun,2026-08-29T04:50:14.866282+00:00,fur-pillow,30,1
+1773,mountain,noun,2026-08-29T04:50:14.866282+00:00,geo-mountain,38,1
+1774,island,noun,2026-08-29T04:50:14.866282+00:00,geo-island,38,1
+1775,desert,noun,2026-08-29T04:50:14.866282+00:00,geo-desert,38,2
+1776,stone,noun,2026-08-29T04:50:14.866282+00:00,geo-stone,38,2
+1777,sand,noun,2026-08-29T04:50:14.866282+00:00,geo-sand,38,2
+1778,soil,noun,2026-08-29T04:50:14.866282+00:00,geo-soil,38,3
+1779,sky,noun,2026-08-29T04:50:14.866282+00:00,geo-sky,38,1
+1780,moon,noun,2026-08-29T04:50:14.866282+00:00,geo-moon,38,1
+1781,form,noun,2026-08-29T04:50:14.866282+00:00,gov-form,81,1
+1782,to fill in,verb,2026-08-29T04:50:14.866282+00:00,gov-to-fill-in,81,1
+1783,certificate,noun,2026-08-29T04:50:14.866282+00:00,gov-certificate,81,1
+1784,residence permit,noun,2026-08-29T04:50:14.866282+00:00,gov-residence-card,81,1
+1785,passport,noun,2026-08-29T04:50:14.866282+00:00,gov-passport,81,1
+1786,visa,noun,2026-08-29T04:50:14.866282+00:00,gov-visa,81,1
+1787,personal seal,noun,2026-08-29T04:50:14.866282+00:00,gov-seal-stamp,81,2
+1788,signature,noun,2026-08-29T04:50:14.866282+00:00,gov-signature,81,1
+1789,queue number,noun,2026-08-29T04:50:14.866282+00:00,gov-queue-number,81,2
+1790,parcel,noun,2026-08-29T04:50:14.866282+00:00,gov-parcel,81,1
+1791,official registration,noun,2026-08-29T04:50:14.866282+00:00,gov-registration-official,81,2
+1792,nationality,noun,2026-08-29T04:50:14.866282+00:00,gov-nationality,81,2
+1793,flour,noun,2026-08-29T04:50:14.866282+00:00,gra-flour,23,2
+1794,potato (as a staple),noun,2026-08-29T04:50:14.866282+00:00,gra-potato-carb,23,3
+1795,cereal,noun,2026-08-29T04:50:14.866282+00:00,gra-cereal,23,3
+1796,trolley,noun,2026-08-29T04:50:14.866282+00:00,gro-trolley,72,1
+1797,basket,noun,2026-08-29T04:50:14.866282+00:00,gro-basket,72,1
+1798,aisle,noun,2026-08-29T04:50:14.866282+00:00,gro-aisle,72,2
+1799,self-checkout,noun,2026-08-29T04:50:14.866282+00:00,gro-self-checkout,72,2
+1800,carrier bag,noun,2026-08-29T04:50:14.866282+00:00,gro-plastic-bag,72,1
+1801,scales,noun,2026-08-29T04:50:14.866282+00:00,gro-scales,72,3
+1802,health,noun,2026-08-29T04:50:14.866282+00:00,hea-health,19,1
+1803,pain,noun,2026-08-29T04:50:14.866282+00:00,hea-pain,19,1
+1804,to hurt,verb,2026-08-29T04:50:14.866282+00:00,hea-to-hurt,19,1
+1805,fever,noun,2026-08-29T04:50:14.866282+00:00,hea-fever,19,1
+1806,cough,noun,2026-08-29T04:50:14.866282+00:00,hea-cough,19,2
+1807,a cold (illness),noun,2026-08-29T04:50:14.866282+00:00,hea-cold-illness,19,1
+1808,stomachache,noun,2026-08-29T04:50:14.866282+00:00,hea-stomachache,19,2
+1809,allergy,noun,2026-08-29T04:50:14.866282+00:00,hea-allergy,19,2
+1810,tired,adjective,2026-08-29T04:50:14.866282+00:00,hea-tired,19,1
+1811,medical appointment,noun,2026-08-29T04:50:14.866282+00:00,hos-appointment-med,79,1
+1812,symptom,noun,2026-08-29T04:50:14.866282+00:00,hos-symptom,79,1
+1813,waiting room,noun,2026-08-29T04:50:14.866282+00:00,hos-waiting-room,79,1
+1814,insurance card,noun,2026-08-29T04:50:14.866282+00:00,hos-insurance-card,79,1
+1815,consulting room,noun,2026-08-29T04:50:14.866282+00:00,hos-consultation-room,79,2
+1816,ward,noun,2026-08-29T04:50:14.866282+00:00,hos-ward,79,3
+1817,operation,noun,2026-08-29T04:50:14.866282+00:00,hos-surgery-operation,79,2
+1818,injection,noun,2026-08-29T04:50:14.866282+00:00,hos-injection,79,2
+1819,x-ray,noun,2026-08-29T04:50:14.866282+00:00,hos-x-ray,79,3
+1820,ambulance,noun,2026-08-29T04:50:14.866282+00:00,hos-ambulance,79,1
+1821,patient,noun,2026-08-29T04:50:14.866282+00:00,hos-patient,79,1
+1822,key,noun,2026-08-29T04:50:14.866282+00:00,hou-key,32,1
+1823,toothbrush,noun,2026-08-29T04:50:14.866282+00:00,hou-toothbrush,32,2
+1824,toilet paper,noun,2026-08-29T04:50:14.866282+00:00,hou-toilet-paper,32,2
+1825,rubbish,noun,2026-08-29T04:50:14.866282+00:00,hou-rubbish,32,1
+1826,umbrella,noun,2026-08-29T04:50:14.866282+00:00,hou-umbrella,32,1
+1827,scissors,noun,2026-08-29T04:50:14.866282+00:00,hou-scissors,32,2
+1828,candle,noun,2026-08-29T04:50:14.866282+00:00,hou-candle,32,3
+1829,cup,noun,2026-08-29T04:50:14.866282+00:00,hou-cup,32,1
+1830,glass (vessel),noun,2026-08-29T04:50:14.866282+00:00,hou-glass-vessel,32,2
+1831,bowl,noun,2026-08-29T04:50:14.866282+00:00,hou-bowl,32,2
+1832,chopsticks,noun,2026-08-29T04:50:14.866282+00:00,hou-chopsticks,32,1
+1833,fork,noun,2026-08-29T04:50:14.866282+00:00,hou-fork,32,1
+1834,knife (cutlery),noun,2026-08-29T04:50:14.866282+00:00,hou-knife-cutlery,32,1
+1835,spoon,noun,2026-08-29T04:50:14.866282+00:00,hou-spoon,32,1
+1836,frying pan,noun,2026-08-29T04:50:14.866282+00:00,hou-pan,32,2
+1837,tenancy agreement,noun,2026-08-29T04:50:14.866282+00:00,hre-tenancy-contract,84,1
+1838,landlord,noun,2026-08-29T04:50:14.866282+00:00,hre-landlord,84,1
+1839,tenant,noun,2026-08-29T04:50:14.866282+00:00,hre-tenant,84,1
+1840,estate agent,noun,2026-08-29T04:50:14.866282+00:00,hre-estate-agent,84,1
+1841,utilities,noun,2026-08-29T04:50:14.866282+00:00,hre-utilities,84,1
+1842,occupation,noun,2026-08-29T04:50:14.866282+00:00,job-occupation,49,2
+1843,engineer,noun,2026-08-29T04:50:14.866282+00:00,job-engineer,49,1
+1844,programmer,noun,2026-08-29T04:50:14.866282+00:00,job-programmer,49,2
+1845,chef,noun,2026-08-29T04:50:14.866282+00:00,job-cook,49,1
+1846,waiter,noun,2026-08-29T04:50:14.866282+00:00,job-waiter,49,1
+1847,driver,noun,2026-08-29T04:50:14.866282+00:00,job-driver,49,1
+1848,firefighter,noun,2026-08-29T04:50:14.866282+00:00,job-firefighter,49,2
+1849,lawyer,noun,2026-08-29T04:50:14.866282+00:00,job-lawyer,49,2
+1850,musician,noun,2026-08-29T04:50:14.866282+00:00,job-musician,49,2
+1851,singer,noun,2026-08-29T04:50:14.866282+00:00,job-singer,49,2
+1852,hairdresser,noun,2026-08-29T04:50:14.866282+00:00,job-hairdresser,49,2
+1853,cleaner,noun,2026-08-29T04:50:14.866282+00:00,job-cleaner,49,3
+1854,convenience store,noun,2026-08-29T04:50:14.866282+00:00,kon-convenience-store,73,1
+1855,hot food counter,noun,2026-08-29T04:50:14.866282+00:00,kon-hot-counter,73,3
+1856,parcel collection,noun,2026-08-29T04:50:14.866282+00:00,kon-parcel-pickup,73,2
+1857,cash machine,noun,2026-08-29T04:50:14.866282+00:00,kon-atm,73,1
+1858,open 24 hours,adjective,2026-08-29T04:50:14.866282+00:00,kon-open-24h,73,2
+1859,grammar,noun,2026-08-29T04:50:14.866282+00:00,ll-grammar,47,1
+1860,pronunciation,noun,2026-08-29T04:50:14.866282+00:00,ll-pronunciation,47,1
+1861,meaning,noun,2026-08-29T04:50:14.866282+00:00,ll-meaning,47,1
+1862,to translate,verb,2026-08-29T04:50:14.866282+00:00,ll-to-translate,47,1
+1863,translation,noun,2026-08-29T04:50:14.866282+00:00,ll-translation,47,2
+1864,to practise,verb,2026-08-29T04:50:14.866282+00:00,ll-to-practise,47,1
+1865,to memorise,verb,2026-08-29T04:50:14.866282+00:00,ll-to-memorise,47,1
+1866,to pronounce,verb,2026-08-29T04:50:14.866282+00:00,ll-to-pronounce,47,2
+1867,alphabet,noun,2026-08-29T04:50:14.866282+00:00,ll-alphabet,47,2
+1868,native speaker,noun,2026-08-29T04:50:14.866282+00:00,ll-native-speaker,47,2
+1869,mother tongue,noun,2026-08-29T04:50:14.866282+00:00,ll-mother-tongue,47,2
+1870,foreign language,noun,2026-08-29T04:50:14.866282+00:00,ll-foreign-language,47,2
+1871,fluent,adjective,2026-08-29T04:50:14.866282+00:00,ll-fluent,47,2
+1872,accent,noun,2026-08-29T04:50:14.866282+00:00,ll-accent,47,3
+1873,listening,noun,2026-08-29T04:50:14.866282+00:00,ll-listening,47,2
+1874,speaking,noun,2026-08-29T04:50:14.866282+00:00,ll-speaking,47,2
+1875,reading (skill),noun,2026-08-29T04:50:14.866282+00:00,ll-reading-skill,47,2
+1876,writing (skill),noun,2026-08-29T04:50:14.866282+00:00,ll-writing-skill,47,2
+1877,level,noun,2026-08-29T04:50:14.866282+00:00,ll-level,47,2
+1878,beginner,noun,2026-08-29T04:50:14.866282+00:00,ll-beginner,47,2
+1879,intermediate,noun,2026-08-29T04:50:14.866282+00:00,ll-intermediate,47,3
+1880,advanced,adjective,2026-08-29T04:50:14.866282+00:00,ll-advanced,47,3
+1881,mistake,noun,2026-08-29T04:50:14.866282+00:00,ll-mistake,47,1
+1882,to correct,verb,2026-08-29T04:50:14.866282+00:00,ll-to-correct,47,2
+1883,German (language),noun,2026-08-29T04:50:14.866282+00:00,ll-german,47,2
+1884,Chinese (language),noun,2026-08-29T04:50:14.866282+00:00,ll-chinese,47,2
+1885,pork,noun,2026-08-29T04:50:14.866282+00:00,mea-pork,24,1
+1886,lamb,noun,2026-08-29T04:50:14.866282+00:00,mea-lamb,24,3
+1887,prawn,noun,2026-08-29T04:50:14.866282+00:00,mea-shrimp,24,2
+1888,sausage,noun,2026-08-29T04:50:14.866282+00:00,mea-sausage,24,2
+1889,ham,noun,2026-08-29T04:50:14.866282+00:00,mea-ham,24,2
+1890,to forget,verb,2026-08-29T04:50:14.866282+00:00,men-to-forget,57,1
+1891,idea,noun,2026-08-29T04:50:14.866282+00:00,men-idea,57,1
+1892,coin,noun,2026-08-29T04:50:14.866282+00:00,mon-coin,50,1
+1893,banknote,noun,2026-08-29T04:50:14.866282+00:00,mon-note-money,50,2
+1894,expensive,adjective,2026-08-29T04:50:14.866282+00:00,mon-expensive,50,1
+1895,to pay,verb,2026-08-29T04:50:14.866282+00:00,mon-to-pay,50,1
+1896,to cost,verb,2026-08-29T04:50:14.866282+00:00,mon-to-cost,50,2
+1897,change (money),noun,2026-08-29T04:50:14.866282+00:00,mon-change-money,50,1
+1898,month (unit of time),noun,2026-08-29T04:50:14.866282+00:00,mon-month-unit,8,1
+1899,appointment,noun,2026-08-29T04:50:14.866282+00:00,off-appointment,51,1
+1900,deadline,noun,2026-08-29T04:50:14.866282+00:00,off-deadline,51,1
+1901,task,noun,2026-08-29T04:50:14.866282+00:00,off-task,51,1
+1902,annual leave,noun,2026-08-29T04:50:14.866282+00:00,off-holiday-leave,51,1
+1903,work experience,noun,2026-08-29T04:50:14.866282+00:00,off-experience-work,51,2
+1904,first (1st),adjective,2026-08-29T04:50:14.866282+00:00,ord-first,3,1
+1905,second (2nd),adjective,2026-08-29T04:50:14.866282+00:00,ord-second,3,1
+1906,third (3rd),adjective,2026-08-29T04:50:14.866282+00:00,ord-third,3,1
+1907,fourth (4th),adjective,2026-08-29T04:50:14.866282+00:00,ord-fourth,3,2
+1908,fifth (5th),adjective,2026-08-29T04:50:14.866282+00:00,ord-fifth,3,2
+1909,next (in order),adjective,2026-08-29T04:50:14.866282+00:00,ord-next,3,1
+1910,previous (in order),adjective,2026-08-29T04:50:14.866282+00:00,ord-previous,3,2
+1911,man,noun,2026-08-29T04:50:14.866282+00:00,rol-man,16,1
+1912,woman,noun,2026-08-29T04:50:14.866282+00:00,rol-woman,16,1
+1913,neighbour,noun,2026-08-29T04:50:14.866282+00:00,rol-neighbour,16,2
+1914,colleague,noun,2026-08-29T04:50:14.866282+00:00,rol-colleague,16,2
+1915,boss,noun,2026-08-29T04:50:14.866282+00:00,rol-boss,16,2
+1916,data allowance,noun,2026-08-29T04:50:14.866282+00:00,pho-data-allowance,86,1
+1917,SIM card,noun,2026-08-29T04:50:14.866282+00:00,pho-sim-card,86,1
+1918,roaming,noun,2026-08-29T04:50:14.866282+00:00,pho-roaming,86,2
+1919,coverage,noun,2026-08-29T04:50:14.866282+00:00,pho-coverage,86,2
+1920,monthly charge,noun,2026-08-29T04:50:14.866282+00:00,pho-monthly-fee,86,1
+1921,top-up credit,noun,2026-08-29T04:50:14.866282+00:00,pho-top-up,86,2
+1922,minimum term,noun,2026-08-29T04:50:14.866282+00:00,pho-contract-length,86,2
+1923,to phone,verb,2026-08-29T04:50:14.866282+00:00,net-to-call,54,1
+1924,mobile phone,noun,2026-08-29T04:50:14.866282+00:00,net-mobile-phone,54,1
+1925,message,noun,2026-08-29T04:50:14.866282+00:00,net-message,54,1
+1926,email,noun,2026-08-29T04:50:14.866282+00:00,net-email,54,1
+1927,internet,noun,2026-08-29T04:50:14.866282+00:00,net-internet,54,1
+1928,website,noun,2026-08-29T04:50:14.866282+00:00,net-website,54,1
+1929,app,noun,2026-08-29T04:50:14.866282+00:00,net-app,54,1
+1930,account,noun,2026-08-29T04:50:14.866282+00:00,net-account,54,1
+1931,password,noun,2026-08-29T04:50:14.866282+00:00,net-password,54,1
+1932,to log in,verb,2026-08-29T04:50:14.866282+00:00,net-to-log-in,54,1
+1933,to search,verb,2026-08-29T04:50:14.866282+00:00,net-to-search,54,1
+1934,download,noun,2026-08-29T04:50:14.866282+00:00,net-download,54,1
+1935,upload,noun,2026-08-29T04:50:14.866282+00:00,net-upload,54,1
+1936,file,noun,2026-08-29T04:50:14.866282+00:00,net-file,54,1
+1937,screen,noun,2026-08-29T04:50:14.866282+00:00,net-screen,54,1
+1938,tree,noun,2026-08-29T04:50:14.866282+00:00,pla-tree,37,1
+1939,grass,noun,2026-08-29T04:50:14.866282+00:00,pla-grass,37,2
+1940,branch (of a tree),noun,2026-08-29T04:50:14.866282+00:00,pla-branch,37,3
+1941,root,noun,2026-08-29T04:50:14.866282+00:00,pla-root,37,3
+1942,seed,noun,2026-08-29T04:50:14.866282+00:00,pla-seed,37,2
+1943,forest,noun,2026-08-29T04:50:14.866282+00:00,pla-forest,37,1
+1944,to grow (of a plant),verb,2026-08-29T04:50:14.866282+00:00,pla-to-grow,37,2
+1945,I,pronoun,2026-08-29T04:50:14.866282+00:00,pro-i,15,1
+1946,you (plural),pronoun,2026-08-29T04:50:14.866282+00:00,pro-you-pl,15,2
+1947,he,pronoun,2026-08-29T04:50:14.866282+00:00,pro-he,15,1
+1948,she,pronoun,2026-08-29T04:50:14.866282+00:00,pro-she,15,1
+1949,it,pronoun,2026-08-29T04:50:14.866282+00:00,pro-it,15,2
+1950,they,pronoun,2026-08-29T04:50:14.866282+00:00,pro-they,15,1
+1951,someone,pronoun,2026-08-29T04:50:14.866282+00:00,pro-someone,15,2
+1952,no one,pronoun,2026-08-29T04:50:14.866282+00:00,pro-noone,15,2
+1953,everybody,pronoun,2026-08-29T04:50:14.866282+00:00,pro-everyone-pro,15,2
+1954,something,pronoun,2026-08-29T04:50:14.866282+00:00,pro-something,15,2
+1955,nothing,pronoun,2026-08-29T04:50:14.866282+00:00,pro-nothing,15,2
+1956,none,determiner,2026-08-29T04:50:14.866282+00:00,qty-none,4,1
+1957,some,determiner,2026-08-29T04:50:14.866282+00:00,qty-some,4,1
+1958,more,adjective,2026-08-29T04:50:14.866282+00:00,qty-more,4,1
+1959,less,adjective,2026-08-29T04:50:14.866282+00:00,qty-less,4,2
+1960,most,adjective,2026-08-29T04:50:14.866282+00:00,qty-most,4,2
+1961,each,determiner,2026-08-29T04:50:14.866282+00:00,qty-each,4,2
+1962,several,determiner,2026-08-29T04:50:14.866282+00:00,qty-several,4,2
+1963,whole,adjective,2026-08-29T04:50:14.866282+00:00,qty-whole,4,2
+1964,who,pronoun,2026-08-29T04:50:14.866282+00:00,que-who,67,1
+1965,where,pronoun,2026-08-29T04:50:14.866282+00:00,que-where,67,1
+1966,when,adverb,2026-08-29T04:50:14.866282+00:00,que-when,67,1
+1967,why,adverb,2026-08-29T04:50:14.866282+00:00,que-why,67,1
+1968,how,adverb,2026-08-29T04:50:14.866282+00:00,que-how,67,1
+1969,which,determiner,2026-08-29T04:50:14.866282+00:00,que-which,67,1
+1970,how many,determiner,2026-08-29T04:50:14.866282+00:00,que-how-many,67,1
+1971,how much,determiner,2026-08-29T04:50:14.866282+00:00,que-how-much,67,1
+1972,how long,adverb,2026-08-29T04:50:14.866282+00:00,que-how-long,67,2
+1973,whose,determiner,2026-08-29T04:50:14.866282+00:00,que-whose,67,2
+1974,to order,verb,2026-08-29T04:50:14.866282+00:00,res-to-order,71,1
+1975,to book,verb,2026-08-29T04:50:14.866282+00:00,res-to-book,71,1
+1976,table (for a booking),noun,2026-08-29T04:50:14.866282+00:00,res-table-booking,71,2
+1977,service,noun,2026-08-29T04:50:14.866282+00:00,res-waiter-service,71,2
+1978,to eat in,verb,2026-08-29T04:50:14.866282+00:00,res-eat-in,71,2
+1979,to pay the bill,verb,2026-08-29T04:50:14.866282+00:00,res-to-pay-bill,71,1
+1980,tip,noun,2026-08-29T04:50:14.866282+00:00,res-tip,71,2
+1981,sandwich,noun,2026-08-29T04:50:14.866282+00:00,res-sandwich,71,1
+1982,flat,noun,2026-08-29T04:50:14.866282+00:00,rom-flat,29,1
+1983,toilet,noun,2026-08-29T04:50:14.866282+00:00,rom-toilet,29,1
+1984,hallway,noun,2026-08-29T04:50:14.866282+00:00,rom-hallway,29,2
+1985,floor (storey),noun,2026-08-29T04:50:14.866282+00:00,rom-floor-storey,29,1
+1986,balcony,noun,2026-08-29T04:50:14.866282+00:00,rom-balcony,29,2
+1987,garden,noun,2026-08-29T04:50:14.866282+00:00,rom-garden,29,1
+1988,garage,noun,2026-08-29T04:50:14.866282+00:00,rom-garage,29,3
+1989,window,noun,2026-08-29T04:50:14.866282+00:00,rom-window,29,1
+1990,wall,noun,2026-08-29T04:50:14.866282+00:00,rom-wall,29,2
+1991,ceiling,noun,2026-08-29T04:50:14.866282+00:00,rom-ceiling,29,3
+1992,floor (surface),noun,2026-08-29T04:50:14.866282+00:00,rom-floor-surface,29,2
+1993,pencil,noun,2026-08-29T04:50:14.866282+00:00,sch-pencil,45,1
+1994,pen,noun,2026-08-29T04:50:14.866282+00:00,sch-pen,45,1
+1995,eraser,noun,2026-08-29T04:50:14.866282+00:00,sch-eraser,45,1
+1996,notebook,noun,2026-08-29T04:50:14.866282+00:00,sch-notebook,45,1
+1997,ruler,noun,2026-08-29T04:50:14.866282+00:00,sch-ruler,45,2
+1998,school bag,noun,2026-08-29T04:50:14.866282+00:00,sch-schoolbag,45,2
+1999,chalk,noun,2026-08-29T04:50:14.866282+00:00,sch-chalk,45,3
+2000,school subject,noun,2026-08-29T04:50:14.866282+00:00,sub-subject,46,1
+2001,physics,noun,2026-08-29T04:50:14.866282+00:00,sub-physics,46,2
+2002,biology,noun,2026-08-29T04:50:14.866282+00:00,sub-biology,46,2
+2003,geography,noun,2026-08-29T04:50:14.866282+00:00,sub-geography-subject,46,2
+2004,lesson,noun,2026-08-29T04:50:14.866282+00:00,sub-lesson,46,1
+2005,term,noun,2026-08-29T04:50:14.866282+00:00,sub-term,46,2
+2006,law,noun,2026-08-29T04:50:14.866282+00:00,soc-law,70,1
+2007,right (entitlement),noun,2026-08-29T04:50:14.866282+00:00,soc-right-entitlement,70,1
+2008,tax,noun,2026-08-29T04:50:14.866282+00:00,soc-tax,70,1
+2009,citizen,noun,2026-08-29T04:50:14.866282+00:00,soc-citizen,70,1
+2010,war,noun,2026-08-29T04:50:14.866282+00:00,soc-war,70,1
+2011,religion,noun,2026-08-29T04:50:14.866282+00:00,soc-religion,70,2
+2012,to ask,verb,2026-08-29T04:50:14.866282+00:00,spk-to-ask,53,1
+2013,sport,noun,2026-08-29T04:50:14.866282+00:00,spo-sport,69,1
+2014,team,noun,2026-08-29T04:50:14.866282+00:00,spo-team,69,1
+2015,defeat,noun,2026-08-29T04:50:14.866282+00:00,spo-defeat,69,2
+2016,football,noun,2026-08-29T04:50:14.866282+00:00,spo-football,69,1
+2017,tennis,noun,2026-08-29T04:50:14.866282+00:00,spo-tennis,69,2
+2018,basketball,noun,2026-08-29T04:50:14.866282+00:00,spo-basketball,69,2
+2019,running,noun,2026-08-29T04:50:14.866282+00:00,spo-running,69,1
+2020,cycling,noun,2026-08-29T04:50:14.866282+00:00,spo-cycling,69,2
+2021,skiing,noun,2026-08-29T04:50:14.866282+00:00,spo-skiing,69,3
+2022,gym,noun,2026-08-29T04:50:14.866282+00:00,spo-gym,69,2
+2023,to sing,verb,2026-08-29T04:50:14.866282+00:00,spo-to-sing,69,1
+2024,to dance,verb,2026-08-29T04:50:14.866282+00:00,spo-to-dance,69,2
+2025,to draw,verb,2026-08-29T04:50:14.866282+00:00,spo-to-draw,69,1
+2026,photography,noun,2026-08-29T04:50:14.866282+00:00,spo-photography,69,2
+2027,hour,noun,2026-08-29T04:50:14.866282+00:00,tod-hour,9,1
+2028,minute,noun,2026-08-29T04:50:14.866282+00:00,tod-minute,9,1
+2029,o'clock,noun,2026-08-29T04:50:14.866282+00:00,tod-oclock,9,2
+2030,dawn,noun,2026-08-29T04:50:14.866282+00:00,tod-dawn,9,3
+2031,dusk,noun,2026-08-29T04:50:14.866282+00:00,tod-dusk,9,3
+2032,tram,noun,2026-08-29T04:50:14.866282+00:00,tra-tram,40,3
+2033,motorbike,noun,2026-08-29T04:50:14.866282+00:00,tra-motorbike,40,2
+2034,taxi,noun,2026-08-29T04:50:14.866282+00:00,tra-taxi,40,1
+2035,to drive,verb,2026-08-29T04:50:14.866282+00:00,tra-to-drive,40,1
+2036,pound shop,noun,2026-08-29T04:50:14.866282+00:00,var-hundred-yen-shop,76,2
+2037,gift wrapping,noun,2026-08-29T04:50:14.866282+00:00,var-wrapping,76,2
+2038,potato,noun,2026-08-29T04:50:14.866282+00:00,veg-potato,22,1
+2039,carrot,noun,2026-08-29T04:50:14.866282+00:00,veg-carrot,22,1
+2040,tomato,noun,2026-08-29T04:50:14.866282+00:00,veg-tomato,22,1
+2041,cabbage,noun,2026-08-29T04:50:14.866282+00:00,veg-cabbage,22,2
+2042,cucumber,noun,2026-08-29T04:50:14.866282+00:00,veg-cucumber,22,2
+2043,lettuce,noun,2026-08-29T04:50:14.866282+00:00,veg-lettuce,22,2
+2044,spinach,noun,2026-08-29T04:50:14.866282+00:00,veg-spinach,22,3
+2045,sweetcorn,noun,2026-08-29T04:50:14.866282+00:00,veg-corn,22,2
+2046,pepper (vegetable),noun,2026-08-29T04:50:14.866282+00:00,veg-pepper-veg,22,3
+2047,ginger,noun,2026-08-29T04:50:14.866282+00:00,veg-ginger,22,3
+2048,to do,verb,2026-08-29T04:50:14.866282+00:00,vda-to-do,61,1
+2049,to give,verb,2026-08-29T04:50:14.866282+00:00,vda-to-give,61,1
+2050,to sleep,verb,2026-08-29T04:50:14.866282+00:00,vda-to-sleep,61,1
+2051,to wash,verb,2026-08-29T04:50:14.866282+00:00,vda-to-wash,61,1
+2052,to clean,verb,2026-08-29T04:50:14.866282+00:00,vda-to-clean,61,1
+2053,to want,verb,2026-08-29T04:50:14.866282+00:00,vda-to-want,61,1
+2054,to lend,verb,2026-08-29T04:50:14.866282+00:00,vda-to-lend,61,1
+2055,to sit,verb,2026-08-29T04:50:14.866282+00:00,vmo-to-sit,59,1
+2056,to look at,verb,2026-08-29T04:50:14.866282+00:00,vpe-to-look-at,60,1
+2057,to watch,verb,2026-08-29T04:50:14.866282+00:00,vpe-to-watch,60,1
+2058,to hear,verb,2026-08-29T04:50:14.866282+00:00,vpe-to-hear,60,1
+2059,to smell,verb,2026-08-29T04:50:14.866282+00:00,vpe-to-smell,60,2
+2060,smell,noun,2026-08-29T04:50:14.866282+00:00,vpe-smell-noun,60,2
+2061,to taste,verb,2026-08-29T04:50:14.866282+00:00,vpe-to-taste,60,2
+2062,to touch,verb,2026-08-29T04:50:14.866282+00:00,vpe-to-touch,60,1
+2063,rain,noun,2026-08-29T04:50:14.866282+00:00,wea-rain,35,1
+2064,cloudy,adjective,2026-08-29T04:50:14.866282+00:00,wea-cloudy,35,1
+2065,rainy,adjective,2026-08-29T04:50:14.866282+00:00,wea-rainy,35,1
+2066,storm,noun,2026-08-29T04:50:14.866282+00:00,wea-storm,35,2
+2067,thunder,noun,2026-08-29T04:50:14.866282+00:00,wea-thunder,35,2
+2068,lightning,noun,2026-08-29T04:50:14.866282+00:00,wea-lightning,35,3
+2069,fog,noun,2026-08-29T04:50:14.866282+00:00,wea-fog,35,3
+2070,cool,adjective,2026-08-29T04:50:14.866282+00:00,wea-cool,35,2
+2071,humid,adjective,2026-08-29T04:50:14.866282+00:00,wea-humid,35,2
+2072,dry,adjective,2026-08-29T04:50:14.866282+00:00,wea-dry-weather,35,2

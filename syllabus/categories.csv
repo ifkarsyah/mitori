@@ -1,0 +1,88 @@
+slug,name,parent_slug,kind,existing_context,note
+numbers,Numbers & Quantity,,core,Number / Quantity,
+cardinal-numbers,Cardinal numbers,numbers,core,,"1-10, teens, tens, 100, 1000, 10000. Entirely absent today."
+ordinal-numbers,Ordinal numbers,numbers,core,,"first, second, third…"
+quantity-amount,Quantity & amount,numbers,core,,"some, many, few, all, none, half, both"
+counters,Counters & measure words,numbers,core,,"Japanese counters and Chinese measure words are the same idea; German has none."
+time-date,Time & Date,,core,Time / Date,
+days-of-week,Days of the week,time-date,core,,Already complete in Japanese.
+months,Months,time-date,core,,Already complete in Japanese.
+time-of-day,Time of day,time-date,core,,"morning, noon, evening, night, hour, minute"
+calendar-words,Calendar & relative time,time-date,core,,"today, tomorrow, yesterday, week, month, year, last/next"
+duration-frequency,Duration & frequency,time-date,core,,"always, often, sometimes, never, since, until"
+color,Colors,,core,Color,Partly present; missing several basics as standalone concepts.
+people,People & Family,,core,,
+family-members,Family members,people,core,,"mother, father, sibling, child, grandparent"
+pronouns,Pronouns,people,core,,"I, you, he, she, we, they"
+people-roles,People & roles,people,core,,"teacher, student, doctor, friend, neighbour, stranger"
+body-health,Body & Health,,core,Body,
+body-parts,Body parts,body-health,core,,"head, hand, eye, leg, back"
+health-illness,Health & illness,body-health,core,,"pain, fever, cold, injury, medicine"
+food-drink,Food & Drink,,core,,Objects only; the buying and ordering vocabulary lives in the situational categories.
+fruit,Fruit,food-drink,core,,"apple, banana, orange, grape — entirely absent today."
+vegetables,Vegetables,food-drink,core,,"carrot, potato, tomato, onion"
+grains-carbs,Grains & carbs,food-drink,core,,"rice, bread, noodles, flour"
+meat-fish,Meat & fish,food-drink,core,,
+dairy-condiments,Dairy & condiments,food-drink,core,,"milk, cheese, butter, salt, sugar, oil"
+drinks,Drinks,food-drink,core,,"water, tea, coffee, juice, beer"
+cooking-taste,Cooking & taste,food-drink,core,,"boil, fry, sweet, salty, spicy, fresh"
+home,Home,,core,Family / Home,
+rooms,Rooms,home,core,,"kitchen, bedroom, bathroom, living room"
+furniture,Furniture,home,core,,"chair, table, bed, shelf. The shop-visit vocabulary is under Furniture store."
+appliances,Appliances,home,core,,"fridge, washing machine, air conditioner, lamp"
+household-items,Household items,home,core,,"key, towel, soap, rubbish bin, cup"
+clothing,Clothing,,core,,"Garments themselves; shopping for them is under Clothing store."
+nature-weather,Nature & Weather,,core,Weather / Nature,
+weather,Weather,nature-weather,core,,"rain, snow, wind, cloud, hot, cold"
+animals,Animals,nature-weather,core,Animal,
+plants,Plants,nature-weather,core,,"tree, flower, grass, leaf"
+geography,Geography & landscape,nature-weather,core,,"mountain, river, sea, island, forest"
+places-travel,Places & Travel,,core,Travel,
+transport,Transport,places-travel,core,,"car, train, bus, bicycle, plane"
+directions-position,Directions & position,places-travel,core,Direction / Position,"left, right, above, under, near, between, north, south"
+buildings-places,Buildings & places,places-travel,core,,"school, hospital, park, shop, station as objects"
+address-location,Addresses & location,places-travel,core,,"address, street, floor, postcode. Japan-specific forms (丁目) land here."
+school-learning,School & Learning,,core,School,
+school-items,School items,school-learning,core,,"pencil, eraser, notebook, ruler, bag — entirely absent today."
+school-subjects,School subjects,school-learning,core,,"maths, science, history, music"
+language-learning,Language learning,school-learning,core,,"word, grammar, pronunciation, sentence, translate, accent, fluent. Your requested category; nothing exists for it today."
+work-money,Work & Money,,core,Business / Work,
+jobs-occupations,Jobs & occupations,work-money,core,,
+money-shopping,Money & shopping,work-money,core,Money / Shopping,"price, cheap, expensive, pay, change, discount"
+office-work,Office & work life,work-money,core,,"meeting, deadline, colleague, salary, holiday"
+communication,Communication,,core,Communication,
+speaking-writing,Speaking & writing,communication,core,,"say, ask, answer, read, write, letter"
+phone-internet,Phone & internet,communication,core,Social Media & Apps,"call, message, app, account, password, upload"
+emotions-states,Emotions & States,,core,Emotion / Feeling,
+emotions,Emotions,emotions-states,core,,"happy, sad, angry, afraid, surprised, tired"
+mental-states,Thinking & mental states,emotions-states,core,Cognitive,"know, think, remember, forget, understand, believe"
+verbs-common,Common verbs,,core,,"High-frequency verbs that do not belong to one topic."
+verbs-motion,Motion verbs,verbs-common,core,Movement,"go, come, walk, run, enter, leave, return"
+verbs-perception,Perception verbs,verbs-common,core,,"see, hear, look, listen, feel, smell, taste"
+verbs-daily,Daily action verbs,verbs-common,core,,"eat, drink, sleep, wake, wash, open, close, buy, give, take"
+adjectives-common,Common adjectives,,core,,
+adj-size,Size & measurement,adjectives-common,core,Size / Measurement,"big, small, long, short, heavy, light, wide"
+adj-quality,Quality & condition,adjectives-common,core,,"good, bad, new, old, clean, dirty, easy, difficult"
+adj-comparison,Comparison & degree,adjectives-common,core,Comparison / Degree,"more, less, very, too, enough, same, different, best"
+function-words,Question & function words,,core,,
+question-words,Question words,function-words,core,,"what, who, where, when, why, how, which, how many"
+connectors,Connectors,function-words,core,,"and, but, or, because, so, if, then"
+sports-activity,Sports & Activity,,core,Sports / Activity,
+society-government,Society & Government,,core,,"country, law, election, tax, citizen — the concepts, not the office visit."
+restaurant,Restaurant,,situational,Restaurant,"Ordering and paying: menu, bill, reservation, order, takeaway, tip."
+groceries-store,Groceries store,,situational,Groceries Store,"Trolley, checkout, aisle, fresh, expiry date, plastic bag."
+konbini,Convenience store,,situational,Konbini,"Japan-flavoured but the shape transfers: hot food counter, copier, parcel pickup."
+clothing-store,Clothing store,,situational,Clothing Store,"Fitting room, size, try on, exchange, refund."
+electronics-store,Electronics store,,situational,Electronic Store,"Warranty, charger, model, stock, display unit."
+variety-store,Variety store,,situational,Variety Store (100-yen Shop),
+furniture-store,Furniture store,,situational,Furniture Store,
+drugstore,Drugstore & pharmacy,,situational,Drugstore,"Prescription, dosage, painkiller, plaster."
+hospital-clinic,Hospital & clinic,,situational,Hospital / Clinic,"Appointment, symptom, insurance card, waiting room."
+bank-finance,Bank & finance,,situational,Finance & Banking,"Account, transfer, ATM, balance, interest."
+government-office,Government office,,situational,Government & Administration,"Form, application, certificate, residence card, stamp, queue number."
+station-transport,Station & transport,,situational,Station,"Ticket, platform, transfer, delay, commuter pass, exit."
+accommodation,Accommodation,,situational,,"Check-in, room type, key card, breakfast included, late checkout."
+housing-realestate,Housing & real estate,,situational,Housing & Real Estate,"Rent, deposit, contract, floor plan, agent fee. Japan-specific terms (敷金, 礼金) live here."
+ecommerce,Online shopping,,situational,E-commerce,"Cart, delivery, tracking, return, review."
+phone-carrier,Phone & mobile carrier,,situational,Phone & Mobile Carrier,"Plan, data, contract, SIM, roaming."
+barber-salon,Barber & salon,,situational,Barber Shop,"Trim, fringe, shampoo, appointment."

@@ -1,0 +1,18 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+gov-form,form,noun,1,,
+gov-to-fill-in,to fill in,verb,1,,
+gov-certificate,certificate,noun,1,,
+gov-residence-card,residence permit,noun,1,,
+gov-passport,passport,noun,1,,
+gov-visa,visa,noun,1,,
+gov-seal-stamp,personal seal,noun,2,,"Japanese 印鑑; German uses a signature instead."
+gov-signature,signature,noun,1,,
+gov-queue-number,queue number,noun,2,,
+gov-counter-window,service counter,noun,2,1097,売り場 — existing concept is a sales counter.
+gov-postage-stamp,postage stamp,noun,2,87,切手.
+gov-post,post,noun,1,1453,郵便.
+gov-parcel,parcel,noun,1,,
+gov-to-post,to post,verb,1,1086,送る.
+gov-registration-official,official registration,noun,2,,
+gov-immigration,immigration,noun,2,459,移住.
+gov-nationality,nationality,noun,2,,

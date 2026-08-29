@@ -6,40 +6,39 @@ import { GroupedTable } from '@/components/GroupedTable'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
 import type { Source } from '@/features/kotoba/api'
-import { useContextList } from '@/features/kotoba/hooks'
+import { useCategoryList } from '@/features/category/hooks'
 import { useLanguage } from '@/features/language/useLanguage'
-import { languageLabel } from '@/features/language/languages'
 import { useSourceList, useSourceWordCounts } from './hooks'
 import {
   ALL,
   applySourceFilters,
   defaultSourceFilterState,
-  distinctSourceContextIds,
+  distinctSourceCategoryIds,
   groupSourcesBy,
-  sourceContextLabel,
+  sourceCategoryLabel,
   type SourceFilterState,
   type SourceGroupBy,
 } from './filters'
 
 const GROUP_BY_OPTIONS = [
   { value: 'none', label: 'None' },
-  { value: 'context', label: 'Context' },
+  { value: 'category', label: 'Category' },
 ]
 
 export function SourceDashboardPage() {
-  const { language } = useLanguage()
+  const { language, labelFor } = useLanguage()
   const { data, isLoading, isError, error, refetch } = useSourceList()
-  const { data: contexts } = useContextList()
+  const { data: categories } = useCategoryList()
   const wordCounts = useSourceWordCounts()
   const [filters, setFilters] = useState<SourceFilterState>(defaultSourceFilterState)
 
-  const contextNameById = useMemo(() => {
+  const categoryNameById = useMemo(() => {
     const map = new Map<number, string>()
-    for (const c of contexts ?? []) {
+    for (const c of categories ?? []) {
       if (c.name) map.set(c.id, c.name)
     }
     return map
-  }, [contexts])
+  }, [categories])
 
   const columns = useMemo<ColumnConfig<Source>[]>(
     () => [
@@ -56,16 +55,16 @@ export function SourceDashboardPage() {
         sortValue: (row) => row.url,
       },
       {
-        key: 'context',
-        header: 'Context',
+        key: 'category',
+        header: 'Category',
         render: (row) =>
-          row.context_id != null ? (
-            sourceContextLabel(String(row.context_id), contextNameById)
+          row.category_id != null ? (
+            sourceCategoryLabel(String(row.category_id), categoryNameById)
           ) : (
             <span className="text-muted-foreground">—</span>
           ),
         sortValue: (row) =>
-          row.context_id != null ? sourceContextLabel(String(row.context_id), contextNameById) : null,
+          row.category_id != null ? sourceCategoryLabel(String(row.category_id), categoryNameById) : null,
       },
       {
         key: 'words',
@@ -74,23 +73,23 @@ export function SourceDashboardPage() {
         sortValue: (row) => wordCounts.get(row.id) ?? 0,
       },
     ],
-    [wordCounts, contextNameById],
+    [wordCounts, categoryNameById],
   )
 
   const contextOptions = useMemo(() => {
-    const values = distinctSourceContextIds(data ?? [])
+    const values = distinctSourceCategoryIds(data ?? [])
     return [
-      { value: ALL, label: 'All contexts' },
-      ...values.map((v) => ({ value: v, label: sourceContextLabel(v, contextNameById) })),
+      { value: ALL, label: 'All categories' },
+      ...values.map((v) => ({ value: v, label: sourceCategoryLabel(v, categoryNameById) })),
     ]
-  }, [data, contextNameById])
+  }, [data, categoryNameById])
 
-  const fields: FilterFieldConfig[] = [{ key: 'contextId', label: 'Context', options: contextOptions }]
+  const fields: FilterFieldConfig[] = [{ key: 'categoryId', label: 'Category', options: contextOptions }]
 
   const groups = useMemo(() => {
     const filtered = applySourceFilters(data ?? [], filters)
-    return groupSourcesBy(filtered, filters.groupBy, contextNameById)
-  }, [data, filters, contextNameById])
+    return groupSourcesBy(filtered, filters.groupBy, categoryNameById)
+  }, [data, filters, categoryNameById])
 
   if (isLoading) return <LoadingState />
   if (isError) return <ErrorState error={error} onRetry={() => refetch()} />
@@ -109,7 +108,7 @@ export function SourceDashboardPage() {
         onSearchChange={(search) => setFilters((f) => ({ ...f, search }))}
         searchPlaceholder="Search source name or URL…"
         fields={fields}
-        fieldValues={{ contextId: filters.contextId }}
+        fieldValues={{ categoryId: filters.categoryId }}
         onFieldChange={(key, value) => setFilters((f) => ({ ...f, [key]: value }))}
         groupByOptions={GROUP_BY_OPTIONS}
         groupBy={filters.groupBy}
@@ -124,7 +123,7 @@ export function SourceDashboardPage() {
         getRowHref={(row) => `/source/${row.id}`}
         emptyMessage={
           (data?.length ?? 0) === 0
-            ? `No sources recorded for ${languageLabel(language)} words yet.`
+            ? `No sources recorded for ${labelFor(language)} words yet.`
             : 'No sources match these filters.'
         }
       />

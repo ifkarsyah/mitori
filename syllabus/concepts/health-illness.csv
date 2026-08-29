@@ -1,0 +1,31 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+hea-health,health,noun,1,,
+hea-healthy,healthy,adjective,1,1253,元気.
+hea-illness,illness,noun,1,1108,病気.
+hea-pain,pain,noun,1,,
+hea-to-hurt,to hurt,verb,1,,
+hea-fever,fever,noun,1,,
+hea-cough,cough,noun,2,,
+hea-cold-illness,a cold (illness),noun,1,,"Japanese 風邪 shares a reading with 風 (wind, concept 286)."
+hea-headache,headache,noun,1,192,頭痛.
+hea-stomachache,stomachache,noun,2,,
+hea-injury,injury,noun,1,1411;177,Merges 傷 (1411) and 傷口 (177).
+hea-fracture,bone fracture,noun,3,440,骨折.
+hea-nosebleed,nosebleed,noun,3,95,鼻血.
+hea-allergy,allergy,noun,2,,
+hea-medicine,medicine,noun,1,393,薬.
+hea-to-cure,to cure,verb,2,413,治す (transitive).
+hea-to-recover,to recover,verb,2,575,治る (intransitive).
+hea-nursing,nursing care,noun,2,158,看護.
+hea-examination,medical examination,noun,2,387,検査.
+hea-diagnosis,diagnosis,noun,2,1219,診断.
+hea-first-aid,first aid,noun,2,221,救急.
+hea-hygiene,hygiene,noun,2,496,衛生.
+hea-nutrition,nutrition,noun,2,1195,栄養.
+hea-breathing,breathing,noun,2,641,呼吸.
+hea-blood-pressure,blood pressure,noun,3,857,血圧.
+hea-disability,disability,noun,2,1254,障害.
+hea-death,death,noun,1,105,死亡.
+hea-medical-science,medical science,noun,3,1265,医学.
+hea-tired,tired,adjective,1,,
+hea-to-rest,to rest,verb,1,1304,休む.

@@ -1,0 +1,30 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+tra-vehicle,vehicle,noun,1,540,乗り物.
+tra-transport-means,means of transport,noun,2,527,交通機関.
+tra-car,car,noun,1,1272,自動車.
+tra-bus,bus,noun,1,536,バス.
+tra-train,train,noun,1,660;1316,"Merges 電車 (660) and 列車 (1316)."
+tra-bullet-train,high-speed train,noun,2,912,新幹線.
+tra-subway,underground railway,noun,1,730,地下鉄. Qualified to avoid colliding with dir-underground.
+tra-tram,tram,noun,3,,
+tra-railway,railway,noun,2,770,鉄道.
+tra-bicycle,bicycle,noun,1,277,自転車.
+tra-motorbike,motorbike,noun,2,,
+tra-plane,aeroplane,noun,1,821,飛行機.
+tra-ship,ship,noun,1,291,船.
+tra-taxi,taxi,noun,1,,
+tra-to-ride,to board,verb,1,1343,乗る.
+tra-to-get-off,to get off,verb,1,1209,降りる.
+tra-to-drive,to drive,verb,1,,See 139 (運転) for the noun.
+tra-driving,driving,noun,2,139,運転.
+tra-traffic,traffic,noun,1,930;77,"Merges 交通 (930) and 往来 (77)."
+tra-traffic-jam,traffic jam,noun,2,1303;24,"Merges 渋滞 (1303) and 混雑 (24)."
+tra-journey,journey,noun,1,703,旅行.
+tra-travel-movement,travel (getting about),noun,2,1436,移動.
+tra-on-foot,on foot,adverb,2,363,徒歩.
+tra-round-trip,return trip,noun,2,1046,往復.
+tra-speed,speed,noun,2,1472,速度.
+tra-airport,airport,noun,1,1038,空港.
+tra-harbour,harbour,noun,2,195,港.
+tra-parking,car park,noun,2,1110,駐車場.
+tra-bus-stop,bus stop,noun,1,412,バス停.

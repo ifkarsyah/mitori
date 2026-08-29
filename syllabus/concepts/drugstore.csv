@@ -1,0 +1,12 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+dru-prescription,prescription,noun,1,,
+dru-dosage,dosage,noun,2,,
+dru-painkiller,painkiller,noun,1,,
+dru-plaster,plaster,noun,2,,
+dru-bandage,bandage,noun,2,,
+dru-vitamin,vitamin,noun,2,,
+dru-face-mask,face mask,noun,1,,Everyday in Japan; less so in Germany.
+dru-tissue,tissues,noun,2,,
+dru-toothpaste,toothpaste,noun,2,,
+dru-sunscreen,sun cream,noun,3,,
+dru-pharmacist,pharmacist,noun,2,,

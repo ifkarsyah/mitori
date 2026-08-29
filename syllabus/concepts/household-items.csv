@@ -1,0 +1,35 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+hou-key,key,noun,1,,
+hou-towel,towel,noun,1,572,タオル.
+hou-soap,soap,noun,1,169,石鹸.
+hou-shampoo,shampoo,noun,2,1442,シャンプー.
+hou-detergent,detergent,noun,2,863,洗剤.
+hou-toothbrush,toothbrush,noun,2,,
+hou-toilet-paper,toilet paper,noun,2,,
+hou-bin,rubbish bin,noun,1,598,ゴミ箱.
+hou-rubbish,rubbish,noun,1,,
+hou-bag,bag,noun,1,887,袋.
+hou-box,box,noun,1,1218,箱.
+hou-umbrella,umbrella,noun,1,,
+hou-scissors,scissors,noun,2,,
+hou-clock,clock,noun,1,764,時計 — also covers a wristwatch in Japanese.
+hou-battery,battery,noun,2,904,電池.
+hou-candle,candle,noun,3,,
+hou-cup,cup,noun,1,,
+hou-glass-vessel,glass (vessel),noun,2,,
+hou-plate,plate,noun,1,261,皿.
+hou-bowl,bowl,noun,2,,
+hou-chopsticks,chopsticks,noun,1,,Essential in ja/zh; German has no native word.
+hou-fork,fork,noun,1,,
+hou-knife-cutlery,knife (cutlery),noun,1,,
+hou-spoon,spoon,noun,1,,
+hou-pot,pot,noun,2,875,鍋.
+hou-pan,frying pan,noun,2,,
+hou-tableware,tableware,noun,2,842,食器.
+hou-laundry,laundry,noun,2,1083,洗濯.
+hou-cleaning,cleaning,noun,2,1109,清掃 — already merges 清掃 and 掃除.
+hou-storage,storage,noun,2,1190,収納.
+hou-container,storage container,noun,3,1052,保存容器.
+hou-hanger,coat hanger,noun,3,537,ハンガー.
+hou-ashtray,ashtray,noun,3,907,灰皿.
+hou-toy,toy,noun,2,618,玩具.

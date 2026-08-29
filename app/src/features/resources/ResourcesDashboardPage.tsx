@@ -6,9 +6,8 @@ import type { ColumnConfig } from '@/components/GroupedTable'
 import { GroupedTable } from '@/components/GroupedTable'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
-import { useContextList } from '@/features/kotoba/hooks'
+import { useCategoryList } from '@/features/category/hooks'
 import { useLanguage } from '@/features/language/useLanguage'
-import { languageLabel } from '@/features/language/languages'
 import type { Resource } from './api'
 import { useResourceChannelList, useResourceList } from './hooks'
 import {
@@ -16,11 +15,11 @@ import {
   applyResourceFilters,
   categoryLabel,
   channelLabel,
-  contextLabel,
+  topicLabel,
   defaultResourceFilterState,
   distinctCategories,
   distinctChannelIds,
-  distinctContextIds,
+  distinctTopicIds,
   groupResourcesBy,
   type ResourceFilterState,
   type ResourceGroupBy,
@@ -30,14 +29,14 @@ const GROUP_BY_OPTIONS = [
   { value: 'none', label: 'None' },
   { value: 'channel', label: 'Channel' },
   { value: 'category', label: 'Category' },
-  { value: 'context', label: 'Context' },
+  { value: 'topic', label: 'Topic' },
 ]
 
 export function ResourcesDashboardPage() {
-  const { language } = useLanguage()
+  const { language, labelFor } = useLanguage()
   const { data, isLoading, isError, error, refetch } = useResourceList()
   const { data: channels } = useResourceChannelList()
-  const { data: contexts } = useContextList()
+  const { data: categories } = useCategoryList()
   const [filters, setFilters] = useState<ResourceFilterState>(defaultResourceFilterState)
 
   const channelNameById = useMemo(() => {
@@ -52,13 +51,13 @@ export function ResourcesDashboardPage() {
     return map
   }, [channels])
 
-  const contextNameById = useMemo(() => {
+  const categoryNameById = useMemo(() => {
     const map = new Map<number, string>()
-    for (const c of contexts ?? []) {
+    for (const c of categories ?? []) {
       if (c.name) map.set(c.id, c.name)
     }
     return map
-  }, [contexts])
+  }, [categories])
 
   const columns = useMemo<ColumnConfig<Resource>[]>(
     () => [
@@ -97,19 +96,19 @@ export function ResourcesDashboardPage() {
         sortValue: (row) => row.category,
       },
       {
-        key: 'context',
-        header: 'Context',
+        key: 'topic',
+        header: 'Topic',
         render: (row) =>
-          row.context_id != null ? (
-            contextLabel(String(row.context_id), contextNameById)
+          row.category_id != null ? (
+            topicLabel(String(row.category_id), categoryNameById)
           ) : (
             <span className="text-muted-foreground">—</span>
           ),
         sortValue: (row) =>
-          row.context_id != null ? contextLabel(String(row.context_id), contextNameById) : null,
+          row.category_id != null ? topicLabel(String(row.category_id), categoryNameById) : null,
       },
     ],
-    [channelNameById, channelSlugById, contextNameById],
+    [channelNameById, channelSlugById, categoryNameById],
   )
 
   const channelOptions = useMemo(() => {
@@ -129,23 +128,23 @@ export function ResourcesDashboardPage() {
   }, [data])
 
   const contextOptions = useMemo(() => {
-    const values = distinctContextIds(data ?? [])
+    const values = distinctTopicIds(data ?? [])
     return [
-      { value: ALL, label: 'All contexts' },
-      ...values.map((v) => ({ value: v, label: contextLabel(v, contextNameById) })),
+      { value: ALL, label: 'All topics' },
+      ...values.map((v) => ({ value: v, label: topicLabel(v, categoryNameById) })),
     ]
-  }, [data, contextNameById])
+  }, [data, categoryNameById])
 
   const fields: FilterFieldConfig[] = [
     { key: 'channelId', label: 'Channel', options: channelOptions },
     { key: 'category', label: 'Category', options: categoryOptions },
-    { key: 'contextId', label: 'Context', options: contextOptions },
+    { key: 'topicId', label: 'Topic', options: contextOptions },
   ]
 
   const groups = useMemo(() => {
     const filtered = applyResourceFilters(data ?? [], filters)
-    return groupResourcesBy(filtered, filters.groupBy, channelNameById, contextNameById)
-  }, [data, filters, channelNameById, contextNameById])
+    return groupResourcesBy(filtered, filters.groupBy, channelNameById, categoryNameById)
+  }, [data, filters, channelNameById, categoryNameById])
 
   if (isLoading) return <LoadingState />
   if (isError) return <ErrorState error={error} onRetry={() => refetch()} />
@@ -167,7 +166,7 @@ export function ResourcesDashboardPage() {
         fieldValues={{
           channelId: filters.channelId,
           category: filters.category,
-          contextId: filters.contextId,
+          topicId: filters.topicId,
         }}
         onFieldChange={(key, value) => setFilters((f) => ({ ...f, [key]: value }))}
         groupByOptions={GROUP_BY_OPTIONS}
@@ -183,7 +182,7 @@ export function ResourcesDashboardPage() {
         getRowHref={(row) => `/resources/${row.id}`}
         emptyMessage={
           (data?.length ?? 0) === 0
-            ? `No ${languageLabel(language)} resources yet.`
+            ? `No ${labelFor(language)} resources yet.`
             : 'No resources match these filters.'
         }
       />

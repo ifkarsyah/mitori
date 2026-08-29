@@ -1,0 +1,27 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+adr-address,address,noun,1,694,住所.
+adr-street,street,noun,1,457,道路.
+adr-road-path,path,noun,1,1468,道.
+adr-pavement,pavement,noun,2,602,歩道.
+adr-crossing,pedestrian crossing,noun,2,372,横断歩道.
+adr-bridge,bridge,noun,1,173,橋.
+adr-house-number,house number,noun,2,,
+adr-postcode,postcode,noun,2,,
+adr-city,city,noun,1,734,都市.
+adr-town,town,noun,1,1233,街.
+adr-municipality,municipality,noun,2,1176,市.
+adr-village,village,noun,1,1379,里.
+adr-district,district,noun,2,800;106,"Merges 地区 (800) and 区域 (106)."
+adr-region,region,noun,2,1060,地域.
+adr-local-area,local area,noun,2,613,地元.
+adr-neighbourhood,neighbourhood,noun,2,1167,近所.
+adr-block-japan,city block,noun,3,689,丁目 — Japanese address unit with no German equivalent.
+adr-prefecture,prefecture,noun,3,1082,県 — Japanese administrative division.
+adr-country,country,noun,1,939,国.
+adr-abroad,abroad,noun,1,498;1226;1041,"Merges 外国 (498), 異国 (1226) and 海外 (1041)."
+adr-border,border,noun,2,397,国境.
+adr-domestic,domestic,adjective,2,541,国内.
+adr-nationwide,nationwide,adjective,3,497,全国.
+adr-map,map,noun,1,154,地図.
+adr-current-location,current location,noun,2,895,現在地.
+adr-floor-area,floor area,noun,3,1275,平米.

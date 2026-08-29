@@ -1,0 +1,19 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+rol-person,person,noun,1,1334,人間.
+rol-man,man,noun,1,,
+rol-woman,woman,noun,1,,
+rol-boy,boy,noun,1,914,男の子.
+rol-girl,girl,noun,1,93,女の子.
+rol-adult,adult,noun,1,637,大人.
+rol-friend,friend,noun,1,367;1185,Merges 友達 (367) and 友人 (1185).
+rol-acquaintance,acquaintance,noun,2,616,知人.
+rol-stranger,stranger,noun,2,631,他人.
+rol-neighbour,neighbour,noun,2,,See 1167 (近所) for the area sense.
+rol-colleague,colleague,noun,2,,
+rol-boss,boss,noun,2,,
+rol-guest,guest,noun,1,1030;1084,Merges 客 (1030) and the loanword ゲスト (1084).
+rol-customer,customer,noun,1,29,顧客.
+rol-member,member,noun,2,1137,会員.
+rol-individual,individual,noun,3,903,個人.
+rol-celebrity,celebrity,noun,3,642,有名人.
+rol-benefactor,benefactor,noun,3,658,恩人.

@@ -10,11 +10,12 @@ import {
   useKotobaForConcept,
   useSentencesForWord,
 } from './hooks'
-import { jlptLabel, partOfSpeechLabel, kanaTypeLabel } from './filters'
-import { languageLabel } from '@/features/language/languages'
+import { levelLabel, partOfSpeechLabel, kanaTypeLabel } from './filters'
+import { useLanguage } from '@/features/language/useLanguage'
 
 export function KotobaDetailPage() {
   const { word } = useParams<{ word: string }>()
+  const { labelFor } = useLanguage()
 
   const { data: kotoba, isLoading, isError, error, refetch } = useKotobaByWord(word)
   const { data: sentences, isLoading: sentencesLoading } = useSentencesForWord(kotoba?.id)
@@ -44,9 +45,8 @@ export function KotobaDetailPage() {
           )}
         </div>
         <div className="flex flex-wrap gap-2">
-          <Badge variant="outline">{languageLabel(kotoba.language)}</Badge>
-          {kotoba.jlpt && <Badge variant="outline">{jlptLabel(kotoba.jlpt)}</Badge>}
-          {kotoba.cefr && <Badge variant="outline">{kotoba.cefr.toUpperCase()}</Badge>}
+          <Badge variant="outline">{labelFor(kotoba.language)}</Badge>
+          {kotoba.level && <Badge variant="outline">{levelLabel(kotoba.level)}</Badge>}
           {kotoba.part_of_speech && (
             <Badge variant="outline">{partOfSpeechLabel(kotoba.part_of_speech)}</Badge>
           )}
@@ -76,7 +76,7 @@ export function KotobaDetailPage() {
             <ul className="mt-2 flex flex-col divide-y">
               {translations.map((t) => (
                 <li key={t.id} className="flex items-baseline gap-2 py-2">
-                  <Badge variant="outline">{languageLabel(t.language)}</Badge>
+                  <Badge variant="outline">{labelFor(t.language)}</Badge>
                   <Link to={`/kotoba/${t.word}`} className="text-lg hover:underline">
                     {t.gender ? `${t.gender} ${t.word}` : t.word}
                   </Link>

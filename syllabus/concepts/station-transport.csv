@@ -1,0 +1,30 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+sta-station,station,noun,1,319,駅.
+sta-ticket,ticket,noun,1,334;155,"Merges 切符 (334) and 乗車券 (155)."
+sta-ticket-machine,ticket machine,noun,1,1296,券売機.
+sta-ticket-barrier,ticket barrier,noun,1,188,改札.
+sta-platform,platform,noun,1,414,ホーム.
+sta-fare,fare,noun,1,172,運賃.
+sta-commuter-pass,season ticket,noun,1,450,定期券 — already merges 定期券 and 定期.
+sta-to-transfer,to change trains,noun,1,1259,乗り換え.
+sta-timetable,timetable,noun,1,1375,時刻表.
+sta-departure,departure,noun,1,282,出発.
+sta-arrival,arrival,noun,1,981,到着.
+sta-destination,destination,noun,1,532,目的地.
+sta-departure-point,point of departure,noun,2,1127,出発地.
+sta-delay,delay,noun,1,926,遅延.
+sta-last-train,last train,noun,1,1009,終電.
+sta-express,express train,noun,2,38,特急.
+sta-main-line,main line,noun,3,427,幹線.
+sta-route,route,noun,2,1297,路線.
+sta-line-side,area along the line,noun,3,153,沿線.
+sta-exit,exit,noun,1,51,出口.
+sta-entrance,entrance,noun,1,1469,入口.
+sta-east-exit,east exit,noun,3,1180,東口.
+sta-seat,seat,noun,1,258,席.
+sta-unreserved-seat,unreserved seat,noun,3,373,自由席.
+sta-to-pass-through,to pass through,verb,2,395,通る.
+sta-transit,transit,noun,3,941,通過.
+sta-steam-train,steam train,noun,3,314,汽車.
+sta-steamship,steamship,noun,3,1107,汽船.
+sta-boarding-ship,boarding a ship,noun,3,449,乗船.

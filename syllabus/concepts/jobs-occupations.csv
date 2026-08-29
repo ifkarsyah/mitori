@@ -1,0 +1,39 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+job-job,job,noun,1,1402,仕事.
+job-occupation,occupation,noun,2,,
+job-teacher,teacher,noun,1,486,先生.
+job-doctor,doctor,noun,1,545,医者.
+job-nurse,nurse,noun,1,1199,看護師.
+job-dentist,dentist,noun,2,238,歯医者.
+job-eye-doctor,ophthalmologist,noun,3,168,眼科.
+job-engineer,engineer,noun,1,,
+job-programmer,programmer,noun,2,,
+job-cook,chef,noun,1,,
+job-waiter,waiter,noun,1,,
+job-shop-assistant,shop assistant,noun,1,765,店員.
+job-driver,driver,noun,1,,
+job-police-officer,police officer,noun,1,283,警察 — existing concept is the force.
+job-firefighter,firefighter,noun,2,,
+job-lawyer,lawyer,noun,2,,
+job-farmer,farmer,noun,2,984,農家.
+job-artist,artist,noun,2,609,画家.
+job-writer,writer,noun,2,798,作家.
+job-poet,poet,noun,3,833,詩人.
+job-journalist,journalist,noun,2,361,記者.
+job-actor,actor,noun,2,418,俳優.
+job-musician,musician,noun,2,,
+job-singer,singer,noun,2,,
+job-athlete,athlete,noun,2,1164,選手.
+job-scholar,scholar,noun,3,1135,学者.
+job-hairdresser,hairdresser,noun,2,,
+job-cleaner,cleaner,noun,3,,
+job-station-staff,station attendant,noun,3,345,駅員.
+job-employee,employee,noun,1,748,社員.
+job-staff,staff,noun,1,92,スタッフ.
+job-manager,manager,noun,2,588,社長 — existing concept is company president.
+job-head-teacher,head teacher,noun,3,740,校長.
+job-person-in-charge,person in charge,noun,2,1283,係.
+job-representative,representative,noun,2,1004,代表.
+job-minister,government minister,noun,3,1093,閣僚.
+job-prime-minister,prime minister,noun,3,773,首相.
+job-ambassador,ambassador,noun,3,81,大使.

@@ -1,0 +1,10 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+cst-fitting-room,fitting room,noun,1,,
+cst-to-try-on,to try on,verb,1,375,試着.
+cst-to-fit,to fit,verb,1,216,合う.
+cst-return-goods,return of goods,noun,1,7,返品.
+cst-to-exchange,to exchange,verb,1,298,交換.
+cst-refund,refund,noun,1,,
+cst-colour-variant,colour variant,noun,2,1007,色違い.
+cst-in-fashion,fashion,noun,2,551,流行.
+cst-changing-room-queue,queue,noun,2,595;834,"Merges 行列 (595) and 列 (834)."

@@ -1,0 +1,9 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+ord-first,first (1st),adjective,1,,"Distinct from 最初 (concept 468, ""the beginning"") and 一番 (705, ""number one/most"")."
+ord-second,second (2nd),adjective,1,,
+ord-third,third (3rd),adjective,1,,
+ord-fourth,fourth (4th),adjective,2,,
+ord-fifth,fifth (5th),adjective,2,,
+ord-last,last (final),adjective,1,37,最後.
+ord-next,next (in order),adjective,1,,
+ord-previous,previous (in order),adjective,2,,

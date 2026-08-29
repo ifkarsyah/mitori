@@ -1,0 +1,1021 @@
+id,character,created_at,updated_at,jlpt,grade,kanjimap_url,kanjigraph_url,meanings,cluster,learned
+1,割,2026-06-28T05:52:44.16983+00:00,2026-07-16T14:49:15.924881+00:00,n2,e6,thekanjimap.com/割,japanesegraph.com/割,"[""divide/ratio""]",quantity_degree,false
+2,引,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n4,e2,thekanjimap.com/引,japanesegraph.com/引,"[""pull/discount""]",,false
+3,弁,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n2,e5,thekanjimap.com/弁,japanesegraph.com/弁,"[""bento/speech""]",,false
+4,当,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n3,e2,thekanjimap.com/当,japanesegraph.com/当,"[""hit/current""]",,false
+5,温,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/温,japanesegraph.com/温,"[""warm""]",weather,false
+6,袋,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n2,j2,thekanjimap.com/袋,japanesegraph.com/袋,"[""bag/sack""]",tool_object,false
+7,領,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n2,e5,thekanjimap.com/領,japanesegraph.com/領,"[""territory/receipt""]",,false
+8,収,2026-06-28T05:52:44.16983+00:00,2026-07-16T14:49:15.924881+00:00,n2,e6,thekanjimap.com/収,japanesegraph.com/収,"[""income/collect""]",money_business,false
+9,書,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/書,japanesegraph.com/書,"[""write""]",communication,false
+10,店,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/店,japanesegraph.com/店,"[""store/shop""]",building_place,false
+11,員,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/員,japanesegraph.com/員,"[""member/staff""]",work_occupation,false
+12,飲,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n5,e3,thekanjimap.com/飲,japanesegraph.com/飲,"[""drink""]",food,false
+13,物,2026-06-28T05:52:44.16983+00:00,2026-07-16T14:49:15.924881+00:00,n5,e3,thekanjimap.com/物,japanesegraph.com/物,"[""thing/object""]",tool_object,false
+14,出,2026-06-28T05:52:44.16983+00:00,2026-07-16T14:49:15.924881+00:00,n5,e1,thekanjimap.com/出,japanesegraph.com/出,"[""exit/out""]",direction_position,false
+15,口,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/口,japanesegraph.com/口,"[""mouth/entrance""]",body_part,false
+16,入,2026-06-28T05:52:44.16983+00:00,2026-07-16T14:49:15.924881+00:00,n5,e1,thekanjimap.com/入,japanesegraph.com/入,"[""enter""]",direction_position,false
+17,乗,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/乗,japanesegraph.com/乗,"[""ride/board""]",transportation,false
+18,換,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:54:15.664488+00:00,n2,j2,thekanjimap.com/換,japanesegraph.com/換,"[""exchange/change""]",,false
+19,改,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n2,e4,thekanjimap.com/改,japanesegraph.com/改,"[""reform/ticket gate""]",,false
+20,札,2026-06-28T05:52:44.16983+00:00,2026-07-16T14:49:15.924881+00:00,n3,e4,thekanjimap.com/札,japanesegraph.com/札,"[""tag/card""]",tool_object,false
+21,定,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n3,e3,thekanjimap.com/定,japanesegraph.com/定,"[""fixed/set""]",,false
+22,期,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/期,japanesegraph.com/期,"[""period/term""]",time_date,false
+23,券,2026-06-28T05:52:44.16983+00:00,2026-07-16T14:49:15.924881+00:00,n3,e5,thekanjimap.com/券,japanesegraph.com/券,"[""ticket/voucher""]",tool_object,false
+24,遅,2026-06-28T05:52:44.16983+00:00,2026-07-16T14:49:15.924881+00:00,n3,j1,thekanjimap.com/遅,japanesegraph.com/遅,"[""late/slow""]",time_date,false
+25,延,2026-06-28T05:52:44.16983+00:00,2026-07-16T14:49:15.924881+00:00,n2,e6,thekanjimap.com/延,japanesegraph.com/延,"[""extend/delay""]",time_date,false
+26,終,2026-06-28T05:52:44.16983+00:00,2026-07-16T14:49:15.924881+00:00,n4,e3,thekanjimap.com/終,japanesegraph.com/終,"[""end/final""]",time_date,false
+27,電,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/電,japanesegraph.com/電,"[""electricity""]",technology,false
+28,運,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n4,e3,thekanjimap.com/運,japanesegraph.com/運,"[""carry/luck""]",,false
+29,賃,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n3,e6,thekanjimap.com/賃,japanesegraph.com/賃,"[""wage/fare""]",money_business,false
+30,自,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n4,e2,thekanjimap.com/自,japanesegraph.com/自,"[""self/oneself""]",,false
+31,由,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n3,e3,thekanjimap.com/由,japanesegraph.com/由,"[""reason/freedom""]",,false
+32,席,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n3,e4,thekanjimap.com/席,japanesegraph.com/席,"[""seat""]",,false
+33,試,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/試,japanesegraph.com/試,"[""try/test""]",education,false
+34,着,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/着,japanesegraph.com/着,"[""arrive/wear""]",clothing,false
+35,在,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n3,e5,thekanjimap.com/在,japanesegraph.com/在,"[""exist/stock""]",,false
+36,庫,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/庫,japanesegraph.com/庫,"[""storehouse""]",building_place,false
+37,返,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n4,e3,thekanjimap.com/返,japanesegraph.com/返,"[""return""]",,false
+38,品,2026-06-28T05:52:44.16983+00:00,2026-07-16T14:49:15.924881+00:00,n3,e3,thekanjimap.com/品,japanesegraph.com/品,"[""goods/item""]",tool_object,false
+39,送,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n4,e3,thekanjimap.com/送,japanesegraph.com/送,"[""send""]",,false
+40,料,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/料,japanesegraph.com/料,"[""fee/material""]",money_business,false
+41,綿,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/綿,japanesegraph.com/綿,"[""cotton""]",clothing,false
+42,色,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/色,japanesegraph.com/色,"[""color""]",color,false
+43,違,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:54:15.664488+00:00,n3,j1,thekanjimap.com/違,japanesegraph.com/違,"[""differ""]",,false
+44,会,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n5,e2,thekanjimap.com/会,japanesegraph.com/会,"[""meet/association""]",,false
+45,計,2026-06-28T05:52:44.16983+00:00,2026-07-16T14:49:15.924881+00:00,n4,e2,thekanjimap.com/計,japanesegraph.com/計,"[""plan/count""]",quantity_degree,false
+46,充,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:54:15.664488+00:00,n1,s1,thekanjimap.com/充,japanesegraph.com/充,"[""fill/charge""]",,false
+47,器,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/器,japanesegraph.com/器,"[""container/device""]",tool_object,false
+48,保,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n3,e5,thekanjimap.com/保,japanesegraph.com/保,"[""protect/guarantee""]",,false
+49,証,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n3,e5,thekanjimap.com/証,japanesegraph.com/証,"[""proof""]",,false
+50,展,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n2,e6,thekanjimap.com/展,japanesegraph.com/展,"[""display/expand""]",,false
+51,示,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n3,e5,thekanjimap.com/示,japanesegraph.com/示,"[""show""]",,false
+52,切,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n5,e2,thekanjimap.com/切,japanesegraph.com/切,"[""cut/sever""]",,false
+53,修,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n3,e5,thekanjimap.com/修,japanesegraph.com/修,"[""repair/study""]",,false
+54,理,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n4,e2,thekanjimap.com/理,japanesegraph.com/理,"[""reason/logic""]",,false
+55,新,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n5,e2,thekanjimap.com/新,japanesegraph.com/新,"[""new""]",,false
+56,中,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/中,japanesegraph.com/中,"[""middle/inside""]",direction_position,false
+57,古,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n5,e2,thekanjimap.com/古,japanesegraph.com/古,"[""old""]",,false
+58,取,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n4,e3,thekanjimap.com/取,japanesegraph.com/取,"[""take""]",,false
+59,扱,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:54:15.664488+00:00,n1,j1,thekanjimap.com/扱,japanesegraph.com/扱,"[""handle""]",,false
+60,説,2026-06-28T05:52:44.16983+00:00,2026-07-16T14:49:15.924881+00:00,n3,e4,thekanjimap.com/説,japanesegraph.com/説,"[""explain""]",communication,false
+61,明,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n5,e2,thekanjimap.com/明,japanesegraph.com/明,"[""bright/clear""]",,false
+62,池,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/池,japanesegraph.com/池,"[""pond/battery""]",nature,false
+63,対,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n3,e3,thekanjimap.com/対,japanesegraph.com/対,"[""opposite/versus""]",,false
+64,応,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n3,e5,thekanjimap.com/応,japanesegraph.com/応,"[""respond""]",,false
+65,野,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/野,japanesegraph.com/野,"[""field/wild""]",nature,false
+66,菜,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/菜,japanesegraph.com/菜,"[""vegetable""]",food,false
+67,果,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/果,japanesegraph.com/果,"[""fruit/result""]",food,false
+68,肉,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/肉,japanesegraph.com/肉,"[""meat/flesh""]",food,false
+69,魚,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/魚,japanesegraph.com/魚,"[""fish""]",animal,false
+70,冷,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/冷,japanesegraph.com/冷,"[""cold/freeze""]",weather,false
+71,凍,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n2,j2,thekanjimap.com/凍,japanesegraph.com/凍,"[""freeze""]",weather,false
+72,賞,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n3,e4,thekanjimap.com/賞,japanesegraph.com/賞,"[""prize/taste""]",,false
+73,味,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/味,japanesegraph.com/味,"[""taste/flavor""]",food,false
+74,限,2026-06-28T05:52:44.16983+00:00,2026-07-16T14:49:15.924881+00:00,n3,e5,thekanjimap.com/限,japanesegraph.com/限,"[""limit""]",quantity_degree,false
+75,特,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n3,e4,thekanjimap.com/特,japanesegraph.com/特,"[""special""]",,false
+76,売,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/売,japanesegraph.com/売,"[""sell""]",money_business,false
+77,国,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/国,japanesegraph.com/国,"[""country""]",geography_place,false
+78,産,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n3,e4,thekanjimap.com/産,japanesegraph.com/産,"[""produce/birth""]",,false
+79,有,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n4,e3,thekanjimap.com/有,japanesegraph.com/有,"[""have/exist""]",,false
+80,機,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/機,japanesegraph.com/機,"[""machine/opportunity""]",technology,false
+81,豆,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/豆,japanesegraph.com/豆,"[""bean""]",food,false
+82,腐,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n1,j1,thekanjimap.com/腐,japanesegraph.com/腐,"[""decay/tofu""]",food,false
+83,散,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n3,e4,thekanjimap.com/散,japanesegraph.com/散,"[""scatter/haircut""]",,false
+84,髪,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n3,j1,thekanjimap.com/髪,japanesegraph.com/髪,"[""hair""]",body_part,false
+85,予,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n3,e3,thekanjimap.com/予,japanesegraph.com/予,"[""beforehand""]",,false
+86,約,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n3,e4,thekanjimap.com/約,japanesegraph.com/約,"[""promise/appointment""]",,false
+87,整,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n3,e3,thekanjimap.com/整,japanesegraph.com/整,"[""arrange""]",,false
+88,髭,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,,,thekanjimap.com/髭,japanesegraph.com/髭,"[""beard/mustache""]",body_part,false
+89,剃,2026-06-28T05:52:44.16983+00:00,2026-07-16T14:49:15.924881+00:00,,,thekanjimap.com/剃,japanesegraph.com/剃,"[""shave""]",body_health,false
+90,前,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/前,japanesegraph.com/前,"[""front/before""]",direction_position,false
+91,短,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/短,japanesegraph.com/短,"[""short""]",size_measure,false
+92,仕,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/仕,japanesegraph.com/仕,"[""serve/work""]",work_occupation,false
+93,上,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/上,japanesegraph.com/上,"[""above/up""]",direction_position,false
+94,洗,2026-06-28T05:52:44.16983+00:00,2026-07-16T14:49:15.924881+00:00,n4,e6,thekanjimap.com/洗,japanesegraph.com/洗,"[""wash""]",body_health,false
+95,眉,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n1,s2,thekanjimap.com/眉,japanesegraph.com/眉,"[""eyebrow""]",body_part,false
+96,毛,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/毛,japanesegraph.com/毛,"[""hair/fur""]",body_part,false
+97,注,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n4,e3,thekanjimap.com/注,japanesegraph.com/注,"[""pour/order""]",,false
+98,文,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n4,e1,thekanjimap.com/文,japanesegraph.com/文,"[""sentence/writing""]",education,false
+99,食,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/食,japanesegraph.com/食,"[""eat/food""]",food,false
+100,満,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n3,e4,thekanjimap.com/満,japanesegraph.com/満,"[""full/satisfied""]",,false
+101,持,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n5,e3,thekanjimap.com/持,japanesegraph.com/持,"[""hold/carry""]",,false
+102,帰,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n5,e2,thekanjimap.com/帰,japanesegraph.com/帰,"[""return home""]",,false
+103,辛,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n2,j2,thekanjimap.com/辛,japanesegraph.com/辛,"[""spicy/hard""]",food,false
+104,禁,2026-06-28T05:52:44.16983+00:00,2026-07-16T14:49:15.924881+00:00,n3,e5,thekanjimap.com/禁,japanesegraph.com/禁,"[""forbid""]",government_law,false
+105,煙,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:54:15.664488+00:00,n3,j1,thekanjimap.com/煙,japanesegraph.com/煙,"[""smoke""]",,false
+106,放,2026-06-28T05:52:44.16983+00:00,2026-07-11T14:37:15.540058+00:00,n3,e3,thekanjimap.com/放,japanesegraph.com/放,"[""release""]",,false
+107,題,2026-06-28T05:52:44.16983+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/題,japanesegraph.com/題,"[""topic""]",education,false
+108,名,2026-07-11T13:06:03.678205+00:00,2026-07-11T13:06:03.678205+00:00,n4,e1,thekanjimap.com/名,japanesegraph.com/名,"[""name"", ""reputation"", ""fame"", ""notable person""]",,false
+109,大,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/大,japanesegraph.com/大,"[""big, large, great"", ""important"", ""major"", ""heavy""]",size_measure,false
+110,小,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/小,japanesegraph.com/小,"[""small, little, minor"", ""few"", ""low (voice)"", ""young""]",size_measure,false
+111,手,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/手,japanesegraph.com/手,"[""hand, arm"", ""handle"", ""means"", ""way""]",body_part,false
+112,早,2026-07-11T13:06:03.678205+00:00,2026-07-16T14:49:15.924881+00:00,n5,e1,thekanjimap.com/早,japanesegraph.com/早,"[""early, fast, quick"", ""soon"", ""premature""]",time_date,false
+113,本,2026-07-11T13:06:03.678205+00:00,2026-07-16T14:49:15.924881+00:00,n5,e1,thekanjimap.com/本,japanesegraph.com/本,"[""book"", ""root"", ""origin"", ""true"", ""main""]",education,false
+114,正,2026-07-11T13:06:03.678205+00:00,2026-07-11T13:06:03.678205+00:00,n4,e1,thekanjimap.com/正,japanesegraph.com/正,"[""correct, right, proper"", ""just"", ""honest"", ""formal""]",,false
+115,白,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/白,japanesegraph.com/白,"[""white"", ""blank"", ""pure"", ""innocent""]",color,false
+116,赤,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/赤,japanesegraph.com/赤,"[""red"", ""crimson"", ""communist (slang)"", ""bare"", ""empty""]",color,false
+117,青,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/青,japanesegraph.com/青,"[""blue, green (for traffic lights, plants)"", ""pale"", ""unripe"", ""inexperienced""]",color,false
+118,人,2026-07-11T13:06:03.678205+00:00,2026-07-11T13:06:03.678205+00:00,n5,e1,thekanjimap.com/人,japanesegraph.com/人,"[""person, people, human"", ""others"", ""somebody""]",,false
+119,先,2026-07-11T13:06:03.678205+00:00,2026-07-16T14:49:15.924881+00:00,n5,e1,thekanjimap.com/先,japanesegraph.com/先,"[""previous, former, ahead"", ""tip"", ""destination"", ""future""]",direction_position,false
+120,円,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/円,japanesegraph.com/円,"[""yen (currency), circle"", ""round"", ""circular""]",money_business,false
+121,力,2026-07-11T13:06:03.678205+00:00,2026-07-11T13:06:03.678205+00:00,n4,e1,thekanjimap.com/力,japanesegraph.com/力,"[""power, strength, force"", ""ability"", ""effort"", ""capability""]",,false
+122,右,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/右,japanesegraph.com/右,"[""right (direction)"", ""right-hand side""]",direction_position,false
+123,土,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/土,japanesegraph.com/土,"[""earth, soil, ground"", ""Saturday (土曜日)"", ""land""]",nature,false
+124,夕,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e1,thekanjimap.com/夕,japanesegraph.com/夕,"[""evening, dusk, twilight"", ""night""]",time_date,false
+125,天,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e1,thekanjimap.com/天,japanesegraph.com/天,"[""sky, heaven"", ""god"", ""celestial"", ""natural""]",nature,false
+126,女,2026-07-11T13:06:03.678205+00:00,2026-07-11T13:06:03.678205+00:00,n5,e1,thekanjimap.com/女,japanesegraph.com/女,"[""woman, female"", ""feminine"", ""womanly""]",,false
+127,子,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/子,japanesegraph.com/子,"[""child"", ""offspring"", ""young (of an animal)"", ""small""]",family,false
+128,字,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/字,japanesegraph.com/字,"[""character, letter, writing"", ""handwriting""]",education,false
+129,川,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/川,japanesegraph.com/川,"[""river, stream"", ""brook""]",nature,false
+130,左,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/左,japanesegraph.com/左,"[""left (direction)"", ""left-hand side""]",direction_position,false
+131,年,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/年,japanesegraph.com/年,"[""year"", ""age"", ""years (of age)""]",time_date,false
+132,日,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/日,japanesegraph.com/日,"[""sun, day"", ""Japan"", ""Sunday""]",time_date,false
+133,月,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/月,japanesegraph.com/月,"[""moon, month"", ""Monday (月曜日)""]",time_date,false
+134,木,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/木,japanesegraph.com/木,"[""tree, wood"", ""Thursday (木曜日)"", ""timber""]",plant,false
+135,村,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e1,thekanjimap.com/村,japanesegraph.com/村,"[""village, rural community"", ""hamlet""]",geography_place,false
+136,林,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n3,e1,thekanjimap.com/林,japanesegraph.com/林,"[""grove, forest, woods"", ""thicket"", ""copse""]",plant,false
+137,校,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/校,japanesegraph.com/校,"[""school"", ""campus"", ""educational institution""]",building_place,false
+138,森,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n3,e1,thekanjimap.com/森,japanesegraph.com/森,"[""forest, woods"", ""dense grove of trees""]",plant,false
+139,気,2026-07-11T13:06:03.678205+00:00,2026-07-16T14:49:15.924881+00:00,n5,e1,thekanjimap.com/気,japanesegraph.com/気,"[""spirit, mind, energy"", ""feeling"", ""air"", ""atmosphere""]",emotion,false
+140,水,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/水,japanesegraph.com/水,"[""water"", ""Wednesday (水曜日)"", ""liquid""]",nature,false
+141,火,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/火,japanesegraph.com/火,"[""fire, flame"", ""Tuesday (火曜日)""]",nature,false
+142,犬,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/犬,japanesegraph.com/犬,"[""dog"", ""spy (archaic)""]",animal,false
+143,玉,2026-07-11T13:06:03.678205+00:00,2026-07-16T14:49:15.924881+00:00,n2,e1,thekanjimap.com/玉,japanesegraph.com/玉,"[""ball, sphere, jewel"", ""precious thing"", ""coin""]",tool_object,false
+144,王,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n3,e1,thekanjimap.com/王,japanesegraph.com/王,"[""king"", ""ruler"", ""monarch""]",government_law,false
+145,田,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e1,thekanjimap.com/田,japanesegraph.com/田,"[""rice field, paddy"", ""rice paddy"", ""rice-growing area""]",nature,false
+146,男,2026-07-11T13:06:03.678205+00:00,2026-07-11T13:06:03.678205+00:00,n5,e1,thekanjimap.com/男,japanesegraph.com/男,"[""man, male"", ""masculine"", ""manly""]",,false
+147,町,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e1,thekanjimap.com/町,japanesegraph.com/町,"[""town, neighborhood, block"", ""city district"", ""downtown""]",geography_place,false
+148,百,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/百,japanesegraph.com/百,"[""hundred"", ""many"", ""numerous""]",number,false
+149,目,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/目,japanesegraph.com/目,"[""eye"", ""-th (ordinal suffix)"", ""sight"", ""attention""]",body_part,false
+150,石,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n3,e1,thekanjimap.com/石,japanesegraph.com/石,"[""stone, rock"", ""gem""]",nature,false
+151,空,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/空,japanesegraph.com/空,"[""sky, air"", ""empty"", ""vacant"", ""blank""]",nature,false
+152,竹,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n2,e1,thekanjimap.com/竹,japanesegraph.com/竹,"[""bamboo"", ""bamboo tree""]",plant,false
+153,糸,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n2,e1,thekanjimap.com/糸,japanesegraph.com/糸,"[""thread, string, yarn"", ""fiber""]",clothing,false
+154,耳,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/耳,japanesegraph.com/耳,"[""ear"", ""hearing""]",body_part,false
+155,花,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/花,japanesegraph.com/花,"[""flower, blossom"", ""best"", ""cream (the best of something)""]",plant,false
+156,草,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n3,e1,thekanjimap.com/草,japanesegraph.com/草,"[""grass, weed, herb"", ""plant"", ""vegetation""]",plant,false
+157,虫,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e1,thekanjimap.com/虫,japanesegraph.com/虫,"[""insect, bug, worm"", ""cricket (for chirping)"", ""creature""]",animal,false
+158,貝,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n2,e1,thekanjimap.com/貝,japanesegraph.com/貝,"[""shellfish, shell"", ""clam"", ""seashell""]",animal,false
+159,足,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/足,japanesegraph.com/足,"[""foot, leg"", ""to be sufficient"", ""enough""]",body_part,false
+160,車,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/車,japanesegraph.com/車,"[""car, vehicle, wheel"", ""cart"", ""wagon""]",transportation,false
+161,金,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/金,japanesegraph.com/金,"[""gold, money"", ""Friday (金曜日)"", ""metal"", ""valuable""]",money_business,false
+162,雨,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/雨,japanesegraph.com/雨,"[""rain"", ""rainy""]",weather,false
+163,音,2026-07-11T13:06:03.678205+00:00,2026-07-16T14:49:15.924881+00:00,n4,e1,thekanjimap.com/音,japanesegraph.com/音,"[""sound, noise"", ""pronunciation"", ""reading (of a kanji)""]",art_music,false
+164,一,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/一,japanesegraph.com/一,"[""one"", ""first"", ""single"", ""same""]",number,false
+165,七,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/七,japanesegraph.com/七,"[""seven""]",number,false
+166,三,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/三,japanesegraph.com/三,"[""three""]",number,false
+167,九,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/九,japanesegraph.com/九,"[""nine""]",number,false
+168,二,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/二,japanesegraph.com/二,"[""two""]",number,false
+169,五,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/五,japanesegraph.com/五,"[""five""]",number,false
+170,八,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/八,japanesegraph.com/八,"[""eight""]",number,false
+171,六,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/六,japanesegraph.com/六,"[""six""]",number,false
+172,十,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/十,japanesegraph.com/十,"[""ten""]",number,false
+173,千,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/千,japanesegraph.com/千,"[""thousand"", ""many"", ""numerous""]",number,false
+174,四,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/四,japanesegraph.com/四,"[""four""]",number,false
+175,休,2026-07-11T13:06:03.678205+00:00,2026-07-16T14:49:15.924881+00:00,n5,e1,thekanjimap.com/休,japanesegraph.com/休,"[""rest, break"", ""vacation"", ""holiday"", ""to be absent""]",time_date,false
+176,学,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/学,japanesegraph.com/学,"[""study, learning"", ""science"", ""knowledge""]",education,false
+177,山,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/山,japanesegraph.com/山,"[""mountain, hill"", ""heap"", ""pile""]",nature,false
+178,生,2026-07-11T13:06:03.678205+00:00,2026-07-16T14:49:15.924881+00:00,n5,e1,thekanjimap.com/生,japanesegraph.com/生,"[""life, birth, living"", ""raw"", ""fresh"", ""natural"", ""student""]",education,false
+179,立,2026-07-11T13:06:03.678205+00:00,2026-07-11T13:06:03.678205+00:00,n4,e1,thekanjimap.com/立,japanesegraph.com/立,"[""to stand, to rise"", ""to establish"", ""to leave""]",,false
+180,下,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e1,thekanjimap.com/下,japanesegraph.com/下,"[""below, under, down"", ""lower"", ""inferior"", ""to go down""]",direction_position,false
+181,見,2026-07-11T13:06:03.678205+00:00,2026-07-11T13:06:03.678205+00:00,n5,e1,thekanjimap.com/見,japanesegraph.com/見,"[""see"", ""idea"", ""opinion"", ""visible""]",,false
+182,黄,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/黄,japanesegraph.com/黄,"[""yellow"", ""gold color""]",color,false
+183,黒,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/黒,japanesegraph.com/黒,"[""black"", ""dark"", ""evil""]",color,false
+184,丸,2026-07-11T13:06:03.678205+00:00,2026-07-11T13:06:03.678205+00:00,n4,e2,thekanjimap.com/丸,japanesegraph.com/丸,"[""circle, round"", ""whole"", ""complete"", ""pill""]",,false
+185,元,2026-07-11T13:06:03.678205+00:00,2026-07-11T13:06:03.678205+00:00,n4,e2,thekanjimap.com/元,japanesegraph.com/元,"[""origin, source, basis"", ""former"", ""original"", ""healthy""]",,false
+186,同,2026-07-11T13:06:03.678205+00:00,2026-07-11T13:06:03.678205+00:00,n5,e2,thekanjimap.com/同,japanesegraph.com/同,"[""same, identical"", ""agree"", ""together""]",,false
+187,多,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/多,japanesegraph.com/多,"[""many, much, a lot"", ""numerous"", ""frequent""]",quantity_degree,false
+188,太,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/太,japanesegraph.com/太,"[""fat, thick, bold"", ""grand"", ""great""]",size_measure,false
+189,少,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/少,japanesegraph.com/少,"[""few, little, small amount"", ""young"", ""brief""]",quantity_degree,false
+190,広,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/広,japanesegraph.com/広,"[""wide, broad, spacious"", ""extensive"", ""vast""]",size_measure,false
+191,弱,2026-07-11T13:06:03.678205+00:00,2026-07-16T14:49:15.924881+00:00,n4,e2,thekanjimap.com/弱,japanesegraph.com/弱,"[""weak, feeble"", ""frail"", ""mild"", ""less""]",body_health,false
+192,強,2026-07-11T13:06:03.678205+00:00,2026-07-16T14:49:15.924881+00:00,n4,e2,thekanjimap.com/強,japanesegraph.com/強,"[""strong, powerful"", ""tough"", ""intense"", ""good at""]",body_health,false
+193,細,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/細,japanesegraph.com/細,"[""thin, fine, narrow"", ""detailed"", ""small""]",size_measure,false
+194,近,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/近,japanesegraph.com/近,"[""near, close"", ""recent""]",direction_position,false
+195,遠,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/遠,japanesegraph.com/遠,"[""far, distant"", ""remote"", ""long (time)""]",direction_position,false
+196,長,2026-07-11T13:06:03.678205+00:00,2026-07-16T14:49:15.924881+00:00,n5,e2,thekanjimap.com/長,japanesegraph.com/長,"[""long, chief, head"", ""leader"", ""oldest""]",work_occupation,false
+197,高,2026-07-11T13:06:03.678205+00:00,2026-07-16T14:49:15.924881+00:00,n5,e2,thekanjimap.com/高,japanesegraph.com/高,"[""tall, high, expensive"", ""elevated"", ""loud (volume)""]",size_measure,false
+198,交,2026-07-11T13:06:03.678205+00:00,2026-07-16T14:49:15.924881+00:00,n3,e2,thekanjimap.com/交,japanesegraph.com/交,"[""mix, mingle, exchange"", ""traffic"", ""association""]",transportation,false
+199,京,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/京,japanesegraph.com/京,"[""capital city"", ""Tokyo or Kyoto""]",geography_place,false
+200,今,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/今,japanesegraph.com/今,"[""now, present"", ""current"", ""this""]",time_date,false
+201,体,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/体,japanesegraph.com/体,"[""body, physique"", ""health"", ""form""]",body_health,false
+202,何,2026-07-11T13:06:03.678205+00:00,2026-07-11T13:06:03.678205+00:00,n5,e2,thekanjimap.com/何,japanesegraph.com/何,"[""what"", ""how many"", ""how much""]",,false
+203,兄,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/兄,japanesegraph.com/兄,"[""older brother""]",family,false
+204,公,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/公,japanesegraph.com/公,"[""public, official"", ""open"", ""governmental""]",government_law,false
+205,内,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n3,e2,thekanjimap.com/内,japanesegraph.com/内,"[""inside, within"", ""domestic"", ""internal"", ""home""]",direction_position,false
+206,冬,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/冬,japanesegraph.com/冬,"[""winter""]",time_date,false
+207,刀,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n3,e2,thekanjimap.com/刀,japanesegraph.com/刀,"[""sword, katana"", ""blade"", ""knife""]",military,false
+208,北,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/北,japanesegraph.com/北,"[""north""]",direction_position,false
+209,午,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/午,japanesegraph.com/午,"[""noon, midday""]",time_date,false
+210,半,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/半,japanesegraph.com/半,"[""half, semi"", ""middle"", ""incomplete""]",quantity_degree,false
+211,南,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/南,japanesegraph.com/南,"[""south""]",direction_position,false
+212,原,2026-07-11T13:06:03.678205+00:00,2026-07-16T14:49:15.924881+00:00,n3,e2,thekanjimap.com/原,japanesegraph.com/原,"[""original, field, plain"", ""cause"", ""source"", ""foundation""]",nature,false
+213,友,2026-07-11T13:06:03.678205+00:00,2026-07-11T13:06:03.678205+00:00,n5,e2,thekanjimap.com/友,japanesegraph.com/友,"[""friend, companion""]",,false
+214,台,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/台,japanesegraph.com/台,"[""stand, platform, counter for machines/vehicles"", ""stage"", ""base""]",tool_object,false
+215,図,2026-07-11T13:06:03.678205+00:00,2026-07-11T13:06:03.678205+00:00,n4,e2,thekanjimap.com/図,japanesegraph.com/図,"[""diagram, chart, drawing"", ""map"", ""figure"", ""design""]",,false
+216,園,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/園,japanesegraph.com/園,"[""garden, park, orchard"", ""nursery"", ""institution""]",building_place,false
+217,地,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/地,japanesegraph.com/地,"[""earth, ground, land"", ""region"", ""area"", ""position""]",geography_place,false
+218,場,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/場,japanesegraph.com/場,"[""place, location, scene"", ""occasion"", ""opportunity"", ""field""]",building_place,false
+219,声,2026-07-11T13:06:03.678205+00:00,2026-07-16T14:49:15.924881+00:00,n4,e2,thekanjimap.com/声,japanesegraph.com/声,"[""voice, sound"", ""cry"", ""tone""]",communication,false
+220,夏,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/夏,japanesegraph.com/夏,"[""summer""]",time_date,false
+221,外,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/外,japanesegraph.com/外,"[""outside, exterior"", ""foreign"", ""other"", ""except""]",direction_position,false
+222,夜,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/夜,japanesegraph.com/夜,"[""night, evening""]",time_date,false
+223,妹,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/妹,japanesegraph.com/妹,"[""younger sister""]",family,false
+224,姉,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/姉,japanesegraph.com/姉,"[""older sister""]",family,false
+225,室,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/室,japanesegraph.com/室,"[""room, chamber"", ""office"", ""department""]",building_place,false
+226,家,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/家,japanesegraph.com/家,"[""house, home"", ""family"", ""household""]",building_place,false
+227,寺,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/寺,japanesegraph.com/寺,"[""Buddhist temple""]",religion_spirit,false
+228,岩,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n3,e2,thekanjimap.com/岩,japanesegraph.com/岩,"[""rock, crag, boulder""]",nature,false
+229,工,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/工,japanesegraph.com/工,"[""construction, craft, work"", ""engineer"", ""labor""]",work_occupation,false
+230,市,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/市,japanesegraph.com/市,"[""city, municipality"", ""market"", ""fair""]",geography_place,false
+231,弓,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n2,e2,thekanjimap.com/弓,japanesegraph.com/弓,"[""bow (archery)"", ""bowstring""]",military,false
+232,弟,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/弟,japanesegraph.com/弟,"[""younger brother""]",family,false
+233,形,2026-07-11T13:06:03.678205+00:00,2026-07-11T13:06:03.678205+00:00,n3,e2,thekanjimap.com/形,japanesegraph.com/形,"[""shape, form"", ""figure"", ""type""]",,false
+234,後,2026-07-11T13:06:03.678205+00:00,2026-07-16T14:49:15.924881+00:00,n5,e2,thekanjimap.com/後,japanesegraph.com/後,"[""after, later, behind"", ""subsequent"", ""future""]",time_date,false
+235,心,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/心,japanesegraph.com/心,"[""heart, mind, spirit"", ""soul"", ""feeling"", ""core""]",emotion,false
+236,戸,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n3,e2,thekanjimap.com/戸,japanesegraph.com/戸,"[""door, gate"", ""household"", ""house""]",building_place,false
+237,才,2026-07-11T13:06:03.678205+00:00,2026-07-11T13:06:03.678205+00:00,n4,e2,thekanjimap.com/才,japanesegraph.com/才,"[""talent, ability"", ""years old (counter for age)""]",,false
+238,方,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/方,japanesegraph.com/方,"[""direction, way, side"", ""person (polite)"", ""method"", ""manner""]",direction_position,false
+239,星,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/星,japanesegraph.com/星,"[""star"", ""celestial body"", ""dot""]",nature,false
+240,春,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/春,japanesegraph.com/春,"[""spring"", ""springtime"", ""youth""]",time_date,false
+241,昼,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/昼,japanesegraph.com/昼,"[""noon, daytime"", ""midday"", ""lunch""]",time_date,false
+242,時,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/時,japanesegraph.com/時,"[""time, hour"", ""moment"", ""occasion"", ""when""]",time_date,false
+243,曜,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/曜,japanesegraph.com/曜,"[""day of the week"", ""weekday indicator""]",time_date,false
+244,朝,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/朝,japanesegraph.com/朝,"[""morning"", ""dawn"", ""early""]",time_date,false
+245,東,2026-07-11T13:06:03.678205+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/東,japanesegraph.com/東,"[""east"", ""eastern direction""]",direction_position,false
+246,母,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/母,japanesegraph.com/母,"[""mother"", ""mom"", ""maternal""]",family,false
+247,毎,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/毎,japanesegraph.com/毎,"[""every, each"", ""all"", ""routine""]",quantity_degree,false
+248,汽,2026-07-11T13:07:25.437973+00:00,2026-07-16T14:49:15.924881+00:00,n3,e2,thekanjimap.com/汽,japanesegraph.com/汽,"[""steam, vapor""]",transportation,false
+249,活,2026-07-11T13:07:25.437973+00:00,2026-07-11T13:07:25.437973+00:00,n3,e2,thekanjimap.com/活,japanesegraph.com/活,"[""lively, active"", ""activity"", ""life""]",,false
+250,海,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/海,japanesegraph.com/海,"[""sea, ocean""]",nature,false
+251,点,2026-07-11T13:07:25.437973+00:00,2026-07-16T14:49:15.924881+00:00,n4,e2,thekanjimap.com/点,japanesegraph.com/点,"[""point, dot, score"", ""mark"", ""aspect""]",education,false
+252,父,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/父,japanesegraph.com/父,"[""father"", ""dad"", ""paternal""]",family,false
+253,牛,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/牛,japanesegraph.com/牛,"[""cow, bull, cattle"", ""ox""]",animal,false
+254,用,2026-07-11T13:07:25.437973+00:00,2026-07-11T13:07:25.437973+00:00,n4,e2,thekanjimap.com/用,japanesegraph.com/用,"[""use, purpose"", ""business"", ""errand""]",,false
+255,画,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/画,japanesegraph.com/画,"[""picture, drawing"", ""stroke (of a character)"", ""plan"", ""movie""]",art_music,false
+256,番,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/番,japanesegraph.com/番,"[""turn, order, number"", ""guard"", ""watch""]",number,false
+257,矢,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n3,e2,thekanjimap.com/矢,japanesegraph.com/矢,"[""arrow"", ""dart"", ""missile""]",military,false
+258,社,2026-07-11T13:07:25.437973+00:00,2026-07-11T13:07:25.437973+00:00,n4,e2,thekanjimap.com/社,japanesegraph.com/社,"[""company, shrine"", ""society"", ""organization""]",,false
+259,秋,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/秋,japanesegraph.com/秋,"[""autumn, fall"", ""harvest season""]",time_date,false
+260,科,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n3,e2,thekanjimap.com/科,japanesegraph.com/科,"[""department, subject"", ""course"", ""section"", ""science""]",education,false
+261,算,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n3,e2,thekanjimap.com/算,japanesegraph.com/算,"[""calculate, count"", ""arithmetic"", ""abacus""]",education,false
+262,米,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/米,japanesegraph.com/米,"[""rice, America (abbreviation)"", ""grain""]",food,false
+263,紙,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/紙,japanesegraph.com/紙,"[""paper"", ""sheet"", ""document""]",tool_object,false
+264,組,2026-07-11T13:07:25.437973+00:00,2026-07-16T14:49:15.924881+00:00,n4,e2,thekanjimap.com/組,japanesegraph.com/組,"[""group, class, set"", ""to put together"", ""assemble""]",education,false
+265,絵,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/絵,japanesegraph.com/絵,"[""picture, painting, drawing""]",art_music,false
+266,線,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n3,e2,thekanjimap.com/線,japanesegraph.com/線,"[""line, wire"", ""route"", ""track""]",transportation,false
+267,羽,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n2,e2,thekanjimap.com/羽,japanesegraph.com/羽,"[""feather, wing"", ""counter for birds""]",animal,false
+268,船,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/船,japanesegraph.com/船,"[""ship, boat, vessel"", ""watercraft""]",transportation,false
+269,茶,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/茶,japanesegraph.com/茶,"[""tea, brown color"", ""tea plant"", ""teacup""]",food,false
+270,西,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/西,japanesegraph.com/西,"[""west"", ""western direction""]",direction_position,false
+271,親,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/親,japanesegraph.com/親,"[""parent, close, intimate"", ""familiar"", ""friendly""]",family,false
+272,角,2026-07-11T13:07:25.437973+00:00,2026-07-11T13:07:25.437973+00:00,n3,e2,thekanjimap.com/角,japanesegraph.com/角,"[""corner, angle"", ""horn"", ""square""]",,false
+273,記,2026-07-11T13:07:25.437973+00:00,2026-07-16T14:49:15.924881+00:00,n3,e2,thekanjimap.com/記,japanesegraph.com/記,"[""record, note"", ""write down"", ""mark""]",communication,false
+274,語,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/語,japanesegraph.com/語,"[""language, word"", ""story"", ""tell""]",communication,false
+275,谷,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n3,e2,thekanjimap.com/谷,japanesegraph.com/谷,"[""valley, gorge"", ""ravine"", ""hollow""]",nature,false
+276,週,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/週,japanesegraph.com/週,"[""week"", ""weekly""]",time_date,false
+277,道,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/道,japanesegraph.com/道,"[""road, way, path"", ""way of life"", ""method""]",transportation,false
+278,里,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n3,e2,thekanjimap.com/里,japanesegraph.com/里,"[""village, hometown"", ""ri (unit of distance"", ""~4km)""]",geography_place,false
+279,門,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n3,e2,thekanjimap.com/門,japanesegraph.com/門,"[""gate, entrance"", ""school"", ""family line""]",building_place,false
+280,間,2026-07-11T13:07:25.437973+00:00,2026-07-11T13:07:25.437973+00:00,n5,e2,thekanjimap.com/間,japanesegraph.com/間,"[""interval, space"", ""between"", ""among"", ""room""]",,false
+281,雪,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/雪,japanesegraph.com/雪,"[""snow"", ""snowfall""]",weather,false
+282,雲,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/雲,japanesegraph.com/雲,"[""cloud""]",weather,false
+283,頭,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/頭,japanesegraph.com/頭,"[""head, mind"", ""top"", ""leader"", ""beginning""]",body_part,false
+284,顔,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/顔,japanesegraph.com/顔,"[""face"", ""expression"", ""look"", ""honor""]",body_part,false
+285,風,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/風,japanesegraph.com/風,"[""wind, style"", ""manner"", ""cold (illness)"", ""custom""]",weather,false
+286,首,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/首,japanesegraph.com/首,"[""neck, head"", ""chief"", ""top""]",body_part,false
+287,馬,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/馬,japanesegraph.com/馬,"[""horse"", ""horse racing""]",animal,false
+288,鳥,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/鳥,japanesegraph.com/鳥,"[""bird"", ""poultry"", ""fowl""]",animal,false
+289,麦,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n3,e2,thekanjimap.com/麦,japanesegraph.com/麦,"[""wheat, barley"", ""grain""]",plant,false
+290,万,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/万,japanesegraph.com/万,"[""ten thousand"", ""all"", ""many"", ""myriad""]",number,false
+291,作,2026-07-11T13:07:25.437973+00:00,2026-07-16T14:49:15.924881+00:00,n5,e2,thekanjimap.com/作,japanesegraph.com/作,"[""make, create, produce"", ""work"", ""harvest"", ""write""]",work_occupation,false
+292,光,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n3,e2,thekanjimap.com/光,japanesegraph.com/光,"[""light, ray"", ""shine"", ""glory"", ""honor""]",nature,false
+293,分,2026-07-11T13:07:25.437973+00:00,2026-07-16T14:49:15.924881+00:00,n5,e2,thekanjimap.com/分,japanesegraph.com/分,"[""part, portion, minute"", ""understand"", ""divide"", ""share""]",time_date,false
+294,合,2026-07-11T13:07:25.437973+00:00,2026-07-11T13:07:25.437973+00:00,n4,e2,thekanjimap.com/合,japanesegraph.com/合,"[""fit, match, suit"", ""combine"", ""meet"", ""total""]",,false
+295,回,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/回,japanesegraph.com/回,"[""turn, revolve"", ""times (counter)"", ""round""]",quantity_degree,false
+296,思,2026-07-11T13:07:25.437973+00:00,2026-07-16T14:49:15.924881+00:00,n4,e2,thekanjimap.com/思,japanesegraph.com/思,"[""think, feel"", ""consider"", ""imagine"", ""believe""]",emotion,false
+297,教,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/教,japanesegraph.com/教,"[""teach, instruct"", ""religion"", ""doctrine""]",education,false
+298,数,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/数,japanesegraph.com/数,"[""number, count, quantity"", ""several"", ""few""]",number,false
+299,晴,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/晴,japanesegraph.com/晴,"[""clear weather, sunny"", ""to clear up""]",weather,false
+300,来,2026-07-11T13:07:25.437973+00:00,2026-07-16T14:49:15.924881+00:00,n5,e2,thekanjimap.com/来,japanesegraph.com/来,"[""come, arrive"", ""future"", ""next""]",time_date,false
+301,歌,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/歌,japanesegraph.com/歌,"[""song, poem"", ""sing""]",art_music,false
+302,止,2026-07-11T13:07:25.437973+00:00,2026-07-11T13:07:25.437973+00:00,n4,e2,thekanjimap.com/止,japanesegraph.com/止,"[""stop, halt"", ""to cease"", ""to prevent""]",,false
+303,歩,2026-07-11T13:07:25.437973+00:00,2026-07-11T13:07:25.437973+00:00,n5,e2,thekanjimap.com/歩,japanesegraph.com/歩,"[""walk, step"", ""pace"", ""footstep""]",,false
+304,直,2026-07-11T13:07:25.437973+00:00,2026-07-11T13:07:25.437973+00:00,n4,e2,thekanjimap.com/直,japanesegraph.com/直,"[""straight, direct"", ""honest"", ""to fix"", ""immediately""]",,false
+305,知,2026-07-11T13:07:25.437973+00:00,2026-07-16T14:49:15.924881+00:00,n5,e2,thekanjimap.com/知,japanesegraph.com/知,"[""know, knowledge"", ""wisdom"", ""awareness""]",education,false
+306,答,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/答,japanesegraph.com/答,"[""answer, reply"", ""response"", ""solution""]",education,false
+307,考,2026-07-11T13:07:25.437973+00:00,2026-07-11T13:07:25.437973+00:00,n4,e2,thekanjimap.com/考,japanesegraph.com/考,"[""think, consider"", ""thought"", ""idea""]",,false
+308,聞,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/聞,japanesegraph.com/聞,"[""hear, listen, ask"", ""to inquire"", ""to smell""]",communication,false
+309,行,2026-07-11T13:07:25.437973+00:00,2026-07-16T14:49:15.924881+00:00,n5,e2,thekanjimap.com/行,japanesegraph.com/行,"[""go, travel, conduct"", ""line (of text)"", ""bank (as in 銀行)""]",transportation,false
+310,言,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/言,japanesegraph.com/言,"[""say, speak, word"", ""language"", ""expression""]",communication,false
+311,話,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/話,japanesegraph.com/話,"[""talk, story, conversation"", ""subject"", ""matter""]",communication,false
+312,読,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/読,japanesegraph.com/読,"[""read"", ""reading"", ""recitation""]",communication,false
+313,買,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/買,japanesegraph.com/買,"[""buy, purchase"", ""to acquire""]",money_business,false
+314,走,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n5,e2,thekanjimap.com/走,japanesegraph.com/走,"[""run"", ""speed"", ""sprint""]",sports_recreation,false
+315,通,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/通,japanesegraph.com/通,"[""pass through, commute"", ""communicate"", ""throughout""]",communication,false
+316,鳴,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n3,e2,thekanjimap.com/鳴,japanesegraph.com/鳴,"[""cry, chirp, ring, sound"", ""sing (birds)"", ""bark"", ""roar""]",animal,false
+317,楽,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e2,thekanjimap.com/楽,japanesegraph.com/楽,"[""enjoyment, fun"", ""music"", ""comfort"", ""ease""]",art_music,false
+318,丁,2026-07-11T13:07:25.437973+00:00,2026-07-16T14:49:15.924881+00:00,n4,e3,thekanjimap.com/丁,japanesegraph.com/丁,"[""town block, even number"", ""counter for long thin things""]",number,false
+319,事,2026-07-11T13:07:25.437973+00:00,2026-07-11T13:07:25.437973+00:00,n4,e3,thekanjimap.com/事,japanesegraph.com/事,"[""thing, matter, fact"", ""work"", ""incident"", ""circumstance""]",,false
+320,安,2026-07-11T13:07:25.437973+00:00,2026-07-16T14:49:15.924881+00:00,n5,e3,thekanjimap.com/安,japanesegraph.com/安,"[""cheap, inexpensive"", ""peaceful"", ""ease"", ""relief""]",money_business,false
+321,寒,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n5,e3,thekanjimap.com/寒,japanesegraph.com/寒,"[""cold (weather)"", ""chilly"", ""bleak""]",weather,false
+322,幸,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/幸,japanesegraph.com/幸,"[""happiness, good fortune"", ""luck"", ""blessing""]",emotion,false
+323,悪,2026-07-11T13:07:25.437973+00:00,2026-07-11T13:07:25.437973+00:00,n4,e3,thekanjimap.com/悪,japanesegraph.com/悪,"[""bad, evil"", ""wrong"", ""wicked"", ""poor (quality)""]",,false
+324,悲,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/悲,japanesegraph.com/悲,"[""sad, sorrow, grief"", ""tragic""]",emotion,false
+325,暑,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n5,e3,thekanjimap.com/暑,japanesegraph.com/暑,"[""hot (weather)"", ""sweltering"", ""sultry""]",weather,false
+326,暗,2026-07-11T13:07:25.437973+00:00,2026-07-11T13:07:25.437973+00:00,n4,e3,thekanjimap.com/暗,japanesegraph.com/暗,"[""dark, dim"", ""gloomy"", ""depressing""]",,false
+327,深,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/深,japanesegraph.com/深,"[""deep, profound"", ""intense"", ""strong""]",size_measure,false
+328,真,2026-07-11T13:07:25.437973+00:00,2026-07-11T13:07:25.437973+00:00,n3,e3,thekanjimap.com/真,japanesegraph.com/真,"[""true, genuine, real"", ""exact"", ""pure""]",,false
+329,美,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/美,japanesegraph.com/美,"[""beautiful, beauty"", ""pretty"", ""lovely""]",art_music,false
+330,苦,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/苦,japanesegraph.com/苦,"[""painful, bitter, suffering"", ""hard"", ""difficult""]",emotion,false
+331,軽,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/軽,japanesegraph.com/軽,"[""light (weight), easy"", ""slight"", ""casual""]",size_measure,false
+332,速,2026-07-11T13:07:25.437973+00:00,2026-07-16T14:49:15.924881+00:00,n4,e3,thekanjimap.com/速,japanesegraph.com/速,"[""fast, quick, speed"", ""rapid"", ""swift""]",quantity_degree,false
+333,重,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/重,japanesegraph.com/重,"[""heavy, important"", ""multiple layers"", ""overlap""]",size_measure,false
+334,面,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/面,japanesegraph.com/面,"[""face, surface"", ""aspect"", ""mask"", ""side""]",body_part,false
+335,世,2026-07-11T13:07:25.437973+00:00,2026-07-16T14:49:15.924881+00:00,n4,e3,thekanjimap.com/世,japanesegraph.com/世,"[""world, society"", ""generation"", ""era"", ""age""]",time_date,false
+336,両,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/両,japanesegraph.com/両,"[""both, pair"", ""two"", ""both sides""]",number,false
+337,主,2026-07-11T13:07:25.437973+00:00,2026-07-11T13:07:25.437973+00:00,n3,e3,thekanjimap.com/主,japanesegraph.com/主,"[""main, primary, master"", ""owner"", ""lord"", ""host""]",,false
+338,他,2026-07-11T13:07:25.437973+00:00,2026-07-11T13:07:25.437973+00:00,n3,e3,thekanjimap.com/他,japanesegraph.com/他,"[""other, another"", ""else"", ""besides""]",,false
+339,代,2026-07-11T13:07:25.437973+00:00,2026-07-11T13:07:25.437973+00:00,n4,e3,thekanjimap.com/代,japanesegraph.com/代,"[""generation, era, age"", ""price"", ""substitute"", ""in place of""]",,false
+340,係,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/係,japanesegraph.com/係,"[""person in charge, connection"", ""relation"", ""involvement""]",work_occupation,false
+341,倍,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/倍,japanesegraph.com/倍,"[""double, twice, times"", ""multiple""]",quantity_degree,false
+342,全,2026-07-11T13:07:25.437973+00:00,2026-07-11T13:07:25.437973+00:00,n4,e3,thekanjimap.com/全,japanesegraph.com/全,"[""all, entire, complete"", ""whole"", ""total""]",,false
+343,具,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/具,japanesegraph.com/具,"[""tool, equipment, implement"", ""ingredient"", ""component""]",tool_object,false
+344,列,2026-07-11T13:07:25.437973+00:00,2026-07-11T13:07:25.437973+00:00,n3,e3,thekanjimap.com/列,japanesegraph.com/列,"[""row, line, column"", ""rank"", ""queue""]",,false
+345,勉,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n5,e3,thekanjimap.com/勉,japanesegraph.com/勉,"[""diligence, study hard""]",education,false
+346,化,2026-07-11T13:07:25.437973+00:00,2026-07-11T13:07:25.437973+00:00,n3,e3,thekanjimap.com/化,japanesegraph.com/化,"[""change, transform"", ""influence"", ""convert""]",,false
+347,区,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/区,japanesegraph.com/区,"[""ward, district, section"", ""divide"", ""partition""]",geography_place,false
+348,医,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/医,japanesegraph.com/医,"[""medicine, doctor"", ""heal"", ""cure""]",body_health,false
+349,反,2026-07-11T13:07:25.437973+00:00,2026-07-11T13:07:25.437973+00:00,n3,e3,thekanjimap.com/反,japanesegraph.com/反,"[""anti, reverse, oppose"", ""go against"", ""disobey""]",,false
+350,号,2026-07-11T13:07:25.437973+00:00,2026-07-16T14:49:15.924881+00:00,n4,e3,thekanjimap.com/号,japanesegraph.com/号,"[""number, issue, signal"", ""pseudonym"", ""name""]",number,false
+351,君,2026-07-11T13:07:25.437973+00:00,2026-07-11T13:07:25.437973+00:00,n4,e3,thekanjimap.com/君,japanesegraph.com/君,"[""you (familiar, mainly male)"", ""lord"", ""master""]",,false
+352,命,2026-07-11T13:07:25.437973+00:00,2026-07-11T13:07:25.437973+00:00,n3,e3,thekanjimap.com/命,japanesegraph.com/命,"[""life, fate"", ""command"", ""order""]",,false
+353,和,2026-07-11T13:07:25.437973+00:00,2026-07-11T13:07:25.437973+00:00,n3,e3,thekanjimap.com/和,japanesegraph.com/和,"[""harmony, peace, Japan"", ""calm"", ""sum""]",,false
+354,商,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/商,japanesegraph.com/商,"[""commerce, trade, business"", ""negotiate"", ""merchant""]",money_business,false
+355,問,2026-07-11T13:07:25.437973+00:00,2026-07-16T14:49:15.924881+00:00,n4,e3,thekanjimap.com/問,japanesegraph.com/問,"[""question, problem, ask"", ""inquire"", ""visit""]",communication,false
+356,坂,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/坂,japanesegraph.com/坂,"[""slope, hill"", ""incline""]",nature,false
+357,央,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n2,e3,thekanjimap.com/央,japanesegraph.com/央,"[""center, middle""]",direction_position,false
+358,委,2026-07-11T13:07:25.437973+00:00,2026-07-16T14:49:15.924881+00:00,n3,e3,thekanjimap.com/委,japanesegraph.com/委,"[""entrust, committee"", ""delegate""]",government_law,false
+359,実,2026-07-11T13:07:25.437973+00:00,2026-07-11T13:07:25.437973+00:00,n3,e3,thekanjimap.com/実,japanesegraph.com/実,"[""reality, truth, actual"", ""fruit"", ""seed"", ""sincerity""]",,false
+360,客,2026-07-11T13:07:25.437973+00:00,2026-07-16T14:49:15.924881+00:00,n4,e3,thekanjimap.com/客,japanesegraph.com/客,"[""guest, customer, visitor"", ""passenger"", ""client""]",money_business,false
+361,宮,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n2,e3,thekanjimap.com/宮,japanesegraph.com/宮,"[""palace, shrine"", ""royalty"", ""prince""]",building_place,false
+362,宿,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/宿,japanesegraph.com/宿,"[""lodging, inn"", ""overnight stay"", ""home""]",building_place,false
+363,局,2026-07-11T13:07:25.437973+00:00,2026-07-16T14:49:15.924881+00:00,n3,e3,thekanjimap.com/局,japanesegraph.com/局,"[""bureau, office, broadcasting station"", ""situation"", ""phase""]",building_place,false
+364,屋,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/屋,japanesegraph.com/屋,"[""house, room, store"", ""shop"", ""roof""]",building_place,false
+365,岸,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/岸,japanesegraph.com/岸,"[""bank, shore, coast"", ""waterside""]",geography_place,false
+366,島,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/島,japanesegraph.com/島,"[""island"", ""isle""]",geography_place,false
+367,州,2026-07-11T13:07:25.437973+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/州,japanesegraph.com/州,"[""state, province, continent"", ""sandbar""]",geography_place,false
+368,転,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n4,e3,thekanjimap.com/転,japanesegraph.com/転,"[""roll, turn, change"", ""move"", ""shift"", ""tumble""]",,false
+369,炭,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/炭,japanesegraph.com/炭,"[""charcoal, coal, carbon"", ""soot""]",nature,false
+370,研,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/研,japanesegraph.com/研,"[""polish, study, research"", ""grind"", ""sharpen""]",education,false
+371,投,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n3,e3,thekanjimap.com/投,japanesegraph.com/投,"[""throw, toss, invest"", ""pitch"", ""cast""]",,false
+372,低,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e4,thekanjimap.com/低,japanesegraph.com/低,"[""low"", ""short"", ""inferior""]",size_measure,false
+373,部,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n4,e3,thekanjimap.com/部,japanesegraph.com/部,"[""section, part, club"", ""department"", ""portion""]",,false
+374,病,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n5,e3,thekanjimap.com/病,japanesegraph.com/病,"[""sick, ill, disease"", ""ailment"", ""weakness""]",body_health,false
+375,柱,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n3,e3,thekanjimap.com/柱,japanesegraph.com/柱,"[""pillar, column, post"", ""support"", ""mainstay""]",,false
+376,勝,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/勝,japanesegraph.com/勝,"[""win, victory"", ""excel"", ""surpass""]",sports_recreation,false
+377,動,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n4,e3,thekanjimap.com/動,japanesegraph.com/動,"[""move, motion"", ""operate"", ""stir""]",,false
+378,健,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/健,japanesegraph.com/健,"[""healthy, vigorous"", ""strong""]",body_health,false
+379,住,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n4,e3,thekanjimap.com/住,japanesegraph.com/住,"[""live, reside, dwell""]",,false
+380,不,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n3,e4,thekanjimap.com/不,japanesegraph.com/不,"[""not, un- (negative prefix)"", ""bad"", ""improper""]",,false
+381,緑,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n5,e3,thekanjimap.com/緑,japanesegraph.com/緑,"[""green, verdure"", ""greenery"", ""foliage""]",color,false
+382,根,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/根,japanesegraph.com/根,"[""root, base"", ""origin"", ""foundation""]",plant,false
+383,薬,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n5,e3,thekanjimap.com/薬,japanesegraph.com/薬,"[""medicine, drug, remedy"", ""chemical"", ""cure""]",body_health,false
+384,登,2026-07-11T13:08:47.198052+00:00,2026-07-16T14:49:15.924881+00:00,n3,e3,thekanjimap.com/登,japanesegraph.com/登,"[""climb, ascend"", ""register"", ""appear""]",sports_recreation,false
+385,板,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/板,japanesegraph.com/板,"[""board, plank, plate"", ""flat piece""]",tool_object,false
+386,陽,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/陽,japanesegraph.com/陽,"[""sun, sunlight, positive"", ""warmth"", ""yang""]",nature,false
+387,進,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n4,e3,thekanjimap.com/進,japanesegraph.com/進,"[""advance, progress, proceed"", ""go forward"", ""improve""]",,false
+388,決,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n4,e3,thekanjimap.com/決,japanesegraph.com/決,"[""decide, determine"", ""fix"", ""settle""]",,false
+389,鉄,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/鉄,japanesegraph.com/鉄,"[""iron, steel"", ""railway (as in 鉄道)""]",transportation,false
+390,童,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/童,japanesegraph.com/童,"[""child, young one"", ""innocent""]",family,false
+391,念,2026-07-11T13:08:47.198052+00:00,2026-07-16T14:49:15.924881+00:00,n3,e4,thekanjimap.com/念,japanesegraph.com/念,"[""thought, concern"", ""feeling"", ""desire""]",emotion,false
+392,詩,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/詩,japanesegraph.com/詩,"[""poem, poetry"", ""poetic composition""]",art_music,false
+393,談,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/談,japanesegraph.com/談,"[""talk, discuss, chat"", ""negotiation"", ""conference""]",communication,false
+394,配,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n3,e3,thekanjimap.com/配,japanesegraph.com/配,"[""distribute, worry, arrange"", ""deliver"", ""allocate""]",,false
+395,意,2026-07-11T13:08:47.198052+00:00,2026-07-16T14:49:15.924881+00:00,n4,e3,thekanjimap.com/意,japanesegraph.com/意,"[""mind, intention, meaning"", ""sense"", ""will""]",emotion,false
+396,旅,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/旅,japanesegraph.com/旅,"[""travel, trip, journey"", ""voyage""]",transportation,false
+397,県,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/県,japanesegraph.com/県,"[""prefecture (administrative division)"", ""county""]",geography_place,false
+398,歯,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/歯,japanesegraph.com/歯,"[""tooth, teeth"", ""cog"", ""gear tooth""]",body_part,false
+399,皿,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/皿,japanesegraph.com/皿,"[""plate, dish"", ""saucer"", ""tray""]",tool_object,false
+400,完,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n3,e4,thekanjimap.com/完,japanesegraph.com/完,"[""complete, finish"", ""perfect""]",,false
+401,起,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n5,e3,thekanjimap.com/起,japanesegraph.com/起,"[""rise, get up, happen"", ""originate"", ""awaken""]",,false
+402,写,2026-07-11T13:08:47.198052+00:00,2026-07-16T14:49:15.924881+00:00,n4,e3,thekanjimap.com/写,japanesegraph.com/写,"[""copy, photograph"", ""transcribe"", ""depict""]",art_music,false
+403,平,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n4,e3,thekanjimap.com/平,japanesegraph.com/平,"[""flat, level, peace"", ""ordinary"", ""calm""]",,false
+404,神,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/神,japanesegraph.com/神,"[""god, deity, divine spirit"", ""spirit"", ""supernatural""]",religion_spirit,false
+405,練,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n3,e3,thekanjimap.com/練,japanesegraph.com/練,"[""practice, train, knead"", ""refine"", ""temper""]",,false
+406,礼,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n4,e3,thekanjimap.com/礼,japanesegraph.com/礼,"[""thanks, bow, gratitude"", ""courtesy"", ""etiquette"", ""ceremony""]",,false
+407,使,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n4,e3,thekanjimap.com/使,japanesegraph.com/使,"[""use, employ"", ""messenger"", ""envoy""]",,false
+408,育,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/育,japanesegraph.com/育,"[""raise, bring up, nurture"", ""grow"", ""develop""]",education,false
+409,業,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/業,japanesegraph.com/業,"[""business, work, industry"", ""occupation"", ""deed""]",work_occupation,false
+410,等,2026-07-11T13:08:47.198052+00:00,2026-07-16T14:49:15.924881+00:00,n3,e3,thekanjimap.com/等,japanesegraph.com/等,"[""equal, class, grade, etc."", ""rank"", ""and so on""]",quantity_degree,false
+411,館,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/館,japanesegraph.com/館,"[""building, hall, mansion"", ""museum"", ""library""]",building_place,false
+412,度,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/度,japanesegraph.com/度,"[""degree, times, occasion"", ""temperature unit"", ""angle""]",quantity_degree,false
+413,好,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e4,thekanjimap.com/好,japanesegraph.com/好,"[""like, fond"", ""good"", ""favorable""]",emotion,false
+414,章,2026-07-11T13:08:47.198052+00:00,2026-07-16T14:49:15.924881+00:00,n3,e3,thekanjimap.com/章,japanesegraph.com/章,"[""chapter, section, badge"", ""medal"", ""emblem""]",education,false
+415,筆,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/筆,japanesegraph.com/筆,"[""writing brush, pen"", ""style of writing""]",tool_object,false
+416,所,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/所,japanesegraph.com/所,"[""place, location"", ""point"", ""part""]",direction_position,false
+417,拾,2026-07-11T13:08:47.198052+00:00,2026-07-16T14:49:15.924881+00:00,n4,e3,thekanjimap.com/拾,japanesegraph.com/拾,"[""pick up, find"", ""ten (formal writing)""]",number,false
+418,界,2026-07-11T13:08:47.198052+00:00,2026-07-16T14:49:15.924881+00:00,n3,e3,thekanjimap.com/界,japanesegraph.com/界,"[""world, boundary, sphere"", ""field"", ""realm""]",geography_place,false
+419,族,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/族,japanesegraph.com/族,"[""family, tribe, clan"", ""group"", ""race""]",family,false
+420,曲,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/曲,japanesegraph.com/曲,"[""melody, song, music"", ""bend"", ""curve""]",art_music,false
+421,階,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/階,japanesegraph.com/階,"[""floor, story, level"", ""staircase""]",building_place,false
+422,去,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/去,japanesegraph.com/去,"[""past, go away, leave"", ""last (year"", ""month)""]",time_date,false
+423,想,2026-07-11T13:08:47.198052+00:00,2026-07-16T14:49:15.924881+00:00,n3,e3,thekanjimap.com/想,japanesegraph.com/想,"[""think, imagine, suppose"", ""concept"", ""idea""]",emotion,false
+424,利,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/利,japanesegraph.com/利,"[""profit, advantage"", ""benefit"", ""interest""]",money_business,false
+425,箱,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/箱,japanesegraph.com/箱,"[""box, case, container"", ""carton"", ""chest""]",tool_object,false
+426,消,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n4,e3,thekanjimap.com/消,japanesegraph.com/消,"[""erase, extinguish, disappear"", ""consume"", ""turn off""]",,false
+427,相,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n3,e3,thekanjimap.com/相,japanesegraph.com/相,"[""mutual, phase, minister"", ""each other"", ""appearance""]",,false
+428,次,2026-07-11T13:08:47.198052+00:00,2026-07-16T14:49:15.924881+00:00,n4,e3,thekanjimap.com/次,japanesegraph.com/次,"[""next, following"", ""second"", ""order""]",time_date,false
+429,集,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n4,e3,thekanjimap.com/集,japanesegraph.com/集,"[""gather, collect, assemble"", ""collection""]",,false
+430,祭,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/祭,japanesegraph.com/祭,"[""festival, celebration"", ""ritual"", ""ceremony""]",religion_spirit,false
+431,油,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/油,japanesegraph.com/油,"[""oil, fat"", ""petroleum"", ""grease""]",food,false
+432,都,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/都,japanesegraph.com/都,"[""capital city, metropolis, Tokyo"", ""every time""]",geography_place,false
+433,球,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/球,japanesegraph.com/球,"[""ball, sphere, globe"", ""bulb""]",sports_recreation,false
+434,氷,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/氷,japanesegraph.com/氷,"[""ice"", ""frozen water""]",weather,false
+435,羊,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/羊,japanesegraph.com/羊,"[""sheep"", ""(zodiac animal)""]",animal,false
+436,福,2026-07-11T13:08:47.198052+00:00,2026-07-16T14:49:15.924881+00:00,n3,e3,thekanjimap.com/福,japanesegraph.com/福,"[""good fortune, happiness, blessing"", ""luck"", ""prosperity""]",religion_spirit,false
+437,急,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n4,e3,thekanjimap.com/急,japanesegraph.com/急,"[""urgent, sudden, steep"", ""hurry"", ""emergency""]",,false
+438,調,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n3,e3,thekanjimap.com/調,japanesegraph.com/調,"[""investigate, tune, examine"", ""condition"", ""tone""]",,false
+439,申,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n3,e3,thekanjimap.com/申,japanesegraph.com/申,"[""say (humbly), report"", ""monkey (zodiac)""]",,false
+440,皮,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/皮,japanesegraph.com/皮,"[""skin, peel, hide"", ""leather"", ""rind""]",body_part,false
+441,身,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/身,japanesegraph.com/身,"[""body, oneself"", ""mind"", ""social position""]",body_part,false
+442,式,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n3,e3,thekanjimap.com/式,japanesegraph.com/式,"[""ceremony, style, method"", ""formula"", ""type""]",,false
+443,農,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/農,japanesegraph.com/農,"[""farming, agriculture"", ""peasant"", ""cultivate""]",work_occupation,false
+444,究,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/究,japanesegraph.com/究,"[""investigate, research, study to the end"", ""ultimate"", ""exhaustive""]",education,false
+445,植,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/植,japanesegraph.com/植,"[""plant, grow"", ""implant"", ""cultivate""]",plant,false
+446,泳,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/泳,japanesegraph.com/泳,"[""swim""]",sports_recreation,false
+447,遊,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n5,e3,thekanjimap.com/遊,japanesegraph.com/遊,"[""play, have fun, enjoy"", ""trip"", ""wander""]",sports_recreation,false
+448,落,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n4,e3,thekanjimap.com/落,japanesegraph.com/落,"[""fall, drop, decline"", ""fail"", ""come off""]",,false
+449,鼻,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/鼻,japanesegraph.com/鼻,"[""nose"", ""sense of smell""]",body_part,false
+450,昔,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/昔,japanesegraph.com/昔,"[""long ago, old times"", ""the past"", ""former days""]",time_date,false
+451,波,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/波,japanesegraph.com/波,"[""wave, surge"", ""ripple"", ""fluctuation""]",nature,false
+452,帳,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/帳,japanesegraph.com/帳,"[""notebook, ledger, register"", ""curtain""]",tool_object,false
+453,港,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/港,japanesegraph.com/港,"[""harbor, port"", ""seaport""]",transportation,false
+454,服,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/服,japanesegraph.com/服,"[""clothing, clothes"", ""garment"", ""wear""]",clothing,false
+455,湯,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n4,e3,thekanjimap.com/湯,japanesegraph.com/湯,"[""hot water, bath water"", ""hot spring""]",,false
+456,助,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n3,e3,thekanjimap.com/助,japanesegraph.com/助,"[""help, rescue, assist"", ""spare"", ""save""]",,false
+457,負,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n4,e3,thekanjimap.com/負,japanesegraph.com/負,"[""lose, defeat, carry (on back)"", ""owe"", ""burden""]",,false
+458,湖,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/湖,japanesegraph.com/湖,"[""lake"", ""inland body of water""]",nature,false
+459,昭,2026-07-11T13:08:47.198052+00:00,2026-07-16T14:49:15.924881+00:00,n3,e3,thekanjimap.com/昭,japanesegraph.com/昭,"[""bright, shining, clear"", ""(used mainly in era name 昭和)""]",time_date,false
+460,表,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n4,e3,thekanjimap.com/表,japanesegraph.com/表,"[""surface, table, chart"", ""outside"", ""front"", ""represent""]",,false
+461,向,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/向,japanesegraph.com/向,"[""face toward, direction"", ""suitable for"", ""turn""]",direction_position,false
+462,畑,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/畑,japanesegraph.com/畑,"[""field, farm, vegetable garden"", ""one's area of expertise""]",nature,false
+463,横,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/横,japanesegraph.com/横,"[""side, beside, horizontal"", ""width"", ""sideways""]",direction_position,false
+464,様,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n4,e3,thekanjimap.com/様,japanesegraph.com/様,"[""Mr./Ms. (honorific), way, manner"", ""state"", ""condition"", ""appearance""]",,false
+465,葉,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/葉,japanesegraph.com/葉,"[""leaf, blade, petal"", ""word"", ""phrase""]",plant,false
+466,漢,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n4,e3,thekanjimap.com/漢,japanesegraph.com/漢,"[""Chinese character, China"", ""man (a tough/strong man)""]",,false
+467,駅,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n5,e3,thekanjimap.com/駅,japanesegraph.com/駅,"[""(train/subway) station""]",transportation,false
+468,役,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/役,japanesegraph.com/役,"[""role, service, duty"", ""office"", ""use""]",work_occupation,false
+469,息,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/息,japanesegraph.com/息,"[""breath, son"", ""respiration""]",body_part,false
+470,守,2026-07-11T13:08:47.198052+00:00,2026-07-16T14:49:15.924881+00:00,n3,e3,thekanjimap.com/守,japanesegraph.com/守,"[""protect, defend"", ""keep"", ""obey"", ""guard""]",military,false
+471,習,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/習,japanesegraph.com/習,"[""learn, practice, custom"", ""habit"", ""drill""]",education,false
+472,感,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/感,japanesegraph.com/感,"[""feel, sense, emotion"", ""impression"", ""sensation""]",emotion,false
+473,橋,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/橋,japanesegraph.com/橋,"[""bridge"", ""connecting structure over water""]",building_place,false
+474,発,2026-07-11T13:08:47.198052+00:00,2026-07-16T14:49:15.924881+00:00,n4,e3,thekanjimap.com/発,japanesegraph.com/発,"[""start, emit, dispatch"", ""depart"", ""issue"", ""discover""]",transportation,false
+475,必,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n3,e4,thekanjimap.com/必,japanesegraph.com/必,"[""necessary, certain"", ""inevitable"", ""surely""]",,false
+476,洋,2026-07-11T13:08:47.198052+00:00,2026-07-16T14:49:15.924881+00:00,n3,e3,thekanjimap.com/洋,japanesegraph.com/洋,"[""ocean, Western"", ""foreign"", ""overseas style""]",geography_place,false
+477,打,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n3,e3,thekanjimap.com/打,japanesegraph.com/打,"[""hit, strike, beat"", ""type"", ""knock""]",,false
+478,者,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n4,e3,thekanjimap.com/者,japanesegraph.com/者,"[""person, one (who does something)"", ""somebody""]",,false
+479,院,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/院,japanesegraph.com/院,"[""institution, large building"", ""hospital ward"", ""temple building""]",building_place,false
+480,単,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n3,e4,thekanjimap.com/単,japanesegraph.com/単,"[""single, simple"", ""alone"", ""merely""]",,false
+481,庭,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/庭,japanesegraph.com/庭,"[""garden, yard"", ""court""]",building_place,false
+482,指,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/指,japanesegraph.com/指,"[""finger, point to"", ""indicate"", ""direct""]",body_part,false
+483,荷,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/荷,japanesegraph.com/荷,"[""load, baggage, cargo"", ""burden"", ""freight""]",transportation,false
+484,第,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/第,japanesegraph.com/第,"[""ordinal number prefix (No.~, the ~th)"", ""rank"", ""grade""]",number,false
+485,銀,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/銀,japanesegraph.com/銀,"[""silver"", ""silver-colored"", ""money""]",money_business,false
+486,死,2026-07-11T13:08:47.198052+00:00,2026-07-16T14:49:15.924881+00:00,n4,e3,thekanjimap.com/死,japanesegraph.com/死,"[""die, death"", ""lifeless"", ""deadly""]",body_health,false
+487,路,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/路,japanesegraph.com/路,"[""road, path, route"", ""way"", ""course""]",transportation,false
+488,酒,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/酒,japanesegraph.com/酒,"[""sake, alcohol, alcoholic drink"", ""rice wine""]",food,false
+489,笛,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/笛,japanesegraph.com/笛,"[""flute, whistle, pipe"", ""wind instrument""]",art_music,false
+490,待,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n4,e3,thekanjimap.com/待,japanesegraph.com/待,"[""wait, await"", ""treat"", ""entertain""]",,false
+491,血,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/血,japanesegraph.com/血,"[""blood"", ""bloodline"", ""lineage""]",body_part,false
+492,受,2026-07-11T13:08:47.198052+00:00,2026-07-16T14:49:15.924881+00:00,n3,e3,thekanjimap.com/受,japanesegraph.com/受,"[""receive, accept"", ""take (an exam)"", ""undergo""]",education,false
+493,秒,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/秒,japanesegraph.com/秒,"[""second (unit of time)"", ""instant""]",time_date,false
+494,追,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n3,e3,thekanjimap.com/追,japanesegraph.com/追,"[""chase, pursue, follow"", ""drive away"", ""expel""]",,false
+495,便,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/便,japanesegraph.com/便,"[""convenient, mail"", ""service"", ""flight""]",communication,false
+496,級,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n4,e3,thekanjimap.com/級,japanesegraph.com/級,"[""class, level, rank"", ""grade"", ""step""]",education,false
+497,始,2026-07-11T13:08:47.198052+00:00,2026-07-16T14:49:15.924881+00:00,n4,e3,thekanjimap.com/始,japanesegraph.com/始,"[""begin, start""]",time_date,false
+498,開,2026-07-11T13:08:47.198052+00:00,2026-07-11T13:08:47.198052+00:00,n4,e3,thekanjimap.com/開,japanesegraph.com/開,"[""open, begin"", ""commence"", ""unfold""]",,false
+499,流,2026-07-11T13:08:47.198052+00:00,2026-07-13T23:15:38.60052+00:00,n3,e3,thekanjimap.com/流,japanesegraph.com/流,"[""flow, stream, current"", ""drift"", ""pass (time)""]",nature,false
+500,腸,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/腸,japanesegraph.com/腸,"[""intestine, bowel"", ""gut""]",body_part,false
+501,希,2026-07-11T13:10:03.408305+00:00,2026-07-16T14:49:15.924881+00:00,n3,e4,thekanjimap.com/希,japanesegraph.com/希,"[""hope, rare"", ""scarce""]",emotion,false
+502,法,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/法,japanesegraph.com/法,"[""law, method"", ""rule"", ""way""]",government_law,false
+503,案,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/案,japanesegraph.com/案,"[""plan, proposal"", ""idea"", ""draft"", ""concern""]",,false
+504,候,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/候,japanesegraph.com/候,"[""climate, sign"", ""candidate"", ""condition""]",weather,false
+505,牧,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n1,e4,thekanjimap.com/牧,japanesegraph.com/牧,"[""pasture, tend (animals)"", ""shepherd""]",animal,false
+506,害,2026-07-11T13:10:03.408305+00:00,2026-07-16T14:49:15.924881+00:00,n3,e4,thekanjimap.com/害,japanesegraph.com/害,"[""harm, damage"", ""injury""]",body_health,false
+507,官,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/官,japanesegraph.com/官,"[""government official"", ""public officer""]",government_law,false
+508,告,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/告,japanesegraph.com/告,"[""announce, report"", ""inform"", ""declare""]",communication,false
+509,望,2026-07-11T13:10:03.408305+00:00,2026-07-16T14:49:15.924881+00:00,n3,e4,thekanjimap.com/望,japanesegraph.com/望,"[""hope, desire"", ""wish"", ""gaze""]",emotion,false
+510,兵,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/兵,japanesegraph.com/兵,"[""soldier, troops"", ""arms"", ""military""]",military,false
+511,挙,2026-07-11T13:10:03.408305+00:00,2026-07-16T14:49:15.924881+00:00,n2,e4,thekanjimap.com/挙,japanesegraph.com/挙,"[""raise, cite"", ""list"", ""举行""]",government_law,false
+512,協,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/協,japanesegraph.com/協,"[""cooperation, agreement"", ""collaborate""]",,false
+513,管,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/管,japanesegraph.com/管,"[""pipe, tube"", ""control"", ""manage""]",tool_object,false
+514,億,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/億,japanesegraph.com/億,"[""100 million""]",number,false
+515,倉,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/倉,japanesegraph.com/倉,"[""storehouse, warehouse"", ""granary""]",building_place,false
+516,無,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/無,japanesegraph.com/無,"[""nothing, without"", ""un-"", ""non-"", ""lacking""]",,false
+517,陸,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/陸,japanesegraph.com/陸,"[""land"", ""shore"", ""continent""]",geography_place,false
+518,戦,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/戦,japanesegraph.com/戦,"[""war, battle"", ""fight"", ""match""]",military,false
+519,観,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/観,japanesegraph.com/観,"[""view, observe"", ""outlook"", ""sightseeing""]",,false
+520,議,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/議,japanesegraph.com/議,"[""discuss, deliberate"", ""opinion""]",government_law,false
+521,給,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/給,japanesegraph.com/給,"[""salary, supply"", ""provide"", ""pay""]",money_business,false
+522,功,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n2,e4,thekanjimap.com/功,japanesegraph.com/功,"[""merit, achievement"", ""success"", ""effect""]",,false
+523,卒,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/卒,japanesegraph.com/卒,"[""graduate"", ""finish"", ""suddenly""]",education,false
+524,例,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/例,japanesegraph.com/例,"[""example"", ""precedent"", ""custom""]",,false
+525,束,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/束,japanesegraph.com/束,"[""bundle, promise"", ""bunch"", ""bind""]",,false
+526,鏡,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/鏡,japanesegraph.com/鏡,"[""mirror""]",tool_object,false
+527,隊,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/隊,japanesegraph.com/隊,"[""unit, corps"", ""troop"", ""team""]",military,false
+528,喜,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/喜,japanesegraph.com/喜,"[""joy, rejoice"", ""delight"", ""gladness""]",emotion,false
+529,康,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/康,japanesegraph.com/康,"[""health, peace"", ""ease"", ""well-being""]",body_health,false
+530,争,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/争,japanesegraph.com/争,"[""compete, dispute"", ""fight"", ""contest""]",,false
+531,然,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/然,japanesegraph.com/然,"[""natural, so"", ""like that"", ""certainly""]",,false
+532,徒,2026-07-11T13:10:03.408305+00:00,2026-07-16T14:49:15.924881+00:00,n2,e4,thekanjimap.com/徒,japanesegraph.com/徒,"[""follower, on foot"", ""useless"", ""pupil""]",education,false
+533,史,2026-07-11T13:10:03.408305+00:00,2026-07-16T14:49:15.924881+00:00,n3,e4,thekanjimap.com/史,japanesegraph.com/史,"[""history"", ""chronicle"", ""record""]",education,false
+534,旗,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/旗,japanesegraph.com/旗,"[""flag, banner""]",tool_object,false
+535,芸,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/芸,japanesegraph.com/芸,"[""art, performance"", ""skill"", ""talent""]",art_music,false
+536,令,2026-07-11T13:10:03.408305+00:00,2026-07-16T14:49:15.924881+00:00,n3,e4,thekanjimap.com/令,japanesegraph.com/令,"[""order, command"", ""decree"", ""good""]",government_law,false
+537,典,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n2,e4,thekanjimap.com/典,japanesegraph.com/典,"[""ceremony, law"", ""classic"", ""canon""]",,false
+538,各,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/各,japanesegraph.com/各,"[""each, every"", ""respective""]",,false
+539,芽,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/芽,japanesegraph.com/芽,"[""bud, sprout"", ""shoot""]",plant,false
+540,類,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/類,japanesegraph.com/類,"[""kind, type"", ""similar"", ""category""]",,false
+541,労,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/労,japanesegraph.com/労,"[""labor, toil"", ""trouble"", ""hardship""]",work_occupation,false
+542,士,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/士,japanesegraph.com/士,"[""samurai, person of status"", ""gentleman"", ""warrior""]",military,false
+543,浅,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/浅,japanesegraph.com/浅,"[""shallow"", ""light (color)"", ""superficial""]",size_measure,false
+544,末,2026-07-11T13:10:03.408305+00:00,2026-07-16T14:49:15.924881+00:00,n3,e4,thekanjimap.com/末,japanesegraph.com/末,"[""end, tip"", ""final"", ""unimportant""]",time_date,false
+545,貨,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/貨,japanesegraph.com/貨,"[""goods, money"", ""freight""]",money_business,false
+546,毒,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/毒,japanesegraph.com/毒,"[""poison"", ""harm"", ""venom""]",body_health,false
+547,郡,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n1,e4,thekanjimap.com/郡,japanesegraph.com/郡,"[""county (administrative division)"", ""district""]",geography_place,false
+548,察,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/察,japanesegraph.com/察,"[""guess, inspect"", ""sense"", ""infer""]",,false
+549,未,2026-07-11T13:10:03.408305+00:00,2026-07-16T14:49:15.924881+00:00,n3,e4,thekanjimap.com/未,japanesegraph.com/未,"[""not yet (prefix)"", ""future"", ""incomplete""]",time_date,false
+550,材,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/材,japanesegraph.com/材,"[""material, lumber"", ""talent"", ""resource""]",tool_object,false
+551,民,2026-07-11T13:10:03.408305+00:00,2026-07-16T14:49:15.924881+00:00,n3,e4,thekanjimap.com/民,japanesegraph.com/民,"[""people, folk"", ""civilian"", ""citizen""]",government_law,false
+552,的,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/的,japanesegraph.com/的,"[""target, -ic/-ish (suffix)"", ""bull's-eye"", ""typical""]",,false
+553,軍,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/軍,japanesegraph.com/軍,"[""army, military"", ""armed forces"", ""troops""]",military,false
+554,辺,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/辺,japanesegraph.com/辺,"[""area, vicinity"", ""neighborhood"", ""side""]",direction_position,false
+555,歴,2026-07-11T13:10:03.408305+00:00,2026-07-16T14:49:15.924881+00:00,n3,e4,thekanjimap.com/歴,japanesegraph.com/歴,"[""history, pass through"", ""career"", ""successively""]",education,false
+556,愛,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/愛,japanesegraph.com/愛,"[""love"", ""affection"", ""attachment""]",emotion,false
+557,失,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/失,japanesegraph.com/失,"[""lose, miss"", ""mistake"", ""fail""]",,false
+558,衣,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/衣,japanesegraph.com/衣,"[""clothing, garment"", ""robe""]",clothing,false
+559,漁,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/漁,japanesegraph.com/漁,"[""fishing"", ""catch fish""]",work_occupation,false
+560,象,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/象,japanesegraph.com/象,"[""elephant, phenomenon"", ""appearance"", ""image""]",animal,false
+561,付,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/付,japanesegraph.com/付,"[""attach, accompany"", ""stick to"", ""affix""]",,false
+562,録,2026-07-11T13:10:03.408305+00:00,2026-07-16T14:49:15.924881+00:00,n3,e4,thekanjimap.com/録,japanesegraph.com/録,"[""record"", ""register"", ""note""]",communication,false
+563,借,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n4,e4,thekanjimap.com/借,japanesegraph.com/借,"[""borrow, rent"", ""hire"", ""lease""]",money_business,false
+564,成,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/成,japanesegraph.com/成,"[""become, accomplish"", ""complete"", ""achieve""]",,false
+565,極,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/極,japanesegraph.com/極,"[""extreme, pole"", ""utmost"", ""limit""]",quantity_degree,false
+566,紀,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/紀,japanesegraph.com/紀,"[""chronicle, era"", ""record"", ""century""]",time_date,false
+567,種,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/種,japanesegraph.com/種,"[""kind, seed"", ""type"", ""species""]",plant,false
+568,最,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/最,japanesegraph.com/最,"[""most, extreme"", ""best"", ""utmost""]",quantity_degree,false
+569,仲,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/仲,japanesegraph.com/仲,"[""relationship, terms"", ""mediator"", ""middle""]",,false
+570,清,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/清,japanesegraph.com/清,"[""clear, pure"", ""clean"", ""refreshing""]",,false
+571,粉,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/粉,japanesegraph.com/粉,"[""powder, flour"", ""dust""]",food,false
+572,孫,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/孫,japanesegraph.com/孫,"[""grandchild"", ""descendant""]",family,false
+573,側,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/側,japanesegraph.com/側,"[""side"", ""beside"", ""flank""]",direction_position,false
+574,唱,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/唱,japanesegraph.com/唱,"[""chant, sing"", ""recite"", ""advocate""]",art_music,false
+575,建,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/建,japanesegraph.com/建,"[""build, construct"", ""establish"", ""erect""]",building_place,false
+576,府,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/府,japanesegraph.com/府,"[""urban prefecture, government"", ""office"", ""storehouse""]",government_law,false
+577,季,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/季,japanesegraph.com/季,"[""season""]",time_date,false
+578,児,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/児,japanesegraph.com/児,"[""child, infant"", ""young child""]",family,false
+579,熱,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/熱,japanesegraph.com/熱,"[""heat, fever"", ""enthusiasm"", ""passion""]",body_health,false
+580,景,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/景,japanesegraph.com/景,"[""scenery, view"", ""scene"", ""situation""]",nature,false
+581,節,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/節,japanesegraph.com/節,"[""joint, section"", ""season"", ""festival"", ""melody""]",,false
+582,加,2026-07-11T13:10:03.408305+00:00,2026-07-16T15:01:21.684616+00:00,n3,e4,thekanjimap.com/加,japanesegraph.com/加,"[""add, increase"", ""join""]",number,false
+583,順,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/順,japanesegraph.com/順,"[""order, obedient"", ""sequence"", ""favorable""]",,false
+584,勇,2026-07-11T13:10:03.408305+00:00,2026-07-16T15:01:21.684616+00:00,n3,e4,thekanjimap.com/勇,japanesegraph.com/勇,"[""brave, courage"", ""heroic"", ""bold""]",emotion,false
+585,梅,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/梅,japanesegraph.com/梅,"[""plum"", ""plum blossom""]",plant,false
+586,囲,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n2,e4,thekanjimap.com/囲,japanesegraph.com/囲,"[""surround, encircle"", ""enclose""]",,false
+587,夫,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n4,e4,thekanjimap.com/夫,japanesegraph.com/夫,"[""husband"", ""man"", ""worker""]",family,false
+588,印,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/印,japanesegraph.com/印,"[""seal, stamp"", ""mark"", ""sign""]",tool_object,false
+589,努,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/努,japanesegraph.com/努,"[""endeavor, strive"", ""exert"", ""work hard""]",,false
+590,航,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/航,japanesegraph.com/航,"[""navigate, sail"", ""fly (aircraft)""]",transportation,false
+591,働,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n4,e4,thekanjimap.com/働,japanesegraph.com/働,"[""work, labor""]",work_occupation,false
+592,周,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/周,japanesegraph.com/周,"[""circumference, around"", ""lap"", ""all around""]",direction_position,false
+593,街,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/街,japanesegraph.com/街,"[""street, town"", ""city"", ""avenue""]",building_place,false
+594,票,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/票,japanesegraph.com/票,"[""ballot, vote"", ""ticket"", ""slip""]",government_law,false
+595,伝,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/伝,japanesegraph.com/伝,"[""transmit, convey"", ""legend"", ""biography""]",communication,false
+596,以,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/以,japanesegraph.com/以,"[""by means of, from"", ""because"", ""since""]",,false
+597,信,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/信,japanesegraph.com/信,"[""trust, believe"", ""faith"", ""message""]",communication,false
+598,巣,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/巣,japanesegraph.com/巣,"[""nest"", ""den"", ""haunt""]",animal,false
+599,飯,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n4,e4,thekanjimap.com/飯,japanesegraph.com/飯,"[""cooked rice, meal"", ""food"", ""eating""]",food,false
+600,械,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/械,japanesegraph.com/械,"[""mechanism, machine"", ""instrument""]",technology,false
+601,副,2026-07-11T13:10:03.408305+00:00,2026-07-16T15:01:21.684616+00:00,n3,e4,thekanjimap.com/副,japanesegraph.com/副,"[""vice, secondary"", ""assistant"", ""sub-""]",work_occupation,false
+602,英,2026-07-11T13:10:03.408305+00:00,2026-07-16T15:01:21.684616+00:00,n3,e4,thekanjimap.com/英,japanesegraph.com/英,"[""England, British"", ""excellent"", ""hero""]",geography_place,false
+603,初,2026-07-11T13:10:03.408305+00:00,2026-07-16T15:01:21.684616+00:00,n3,e4,thekanjimap.com/初,japanesegraph.com/初,"[""first, beginning"", ""initial"", ""original""]",time_date,false
+604,胃,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/胃,japanesegraph.com/胃,"[""stomach""]",body_part,false
+605,昨,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/昨,japanesegraph.com/昨,"[""yesterday, previous"", ""last""]",time_date,false
+606,灯,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/灯,japanesegraph.com/灯,"[""lamp, light"", ""lantern""]",tool_object,false
+607,輪,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/輪,japanesegraph.com/輪,"[""wheel, ring"", ""circle"", ""loop""]",tool_object,false
+608,帯,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/帯,japanesegraph.com/帯,"[""belt, zone"", ""carry"", ""wear""]",clothing,false
+609,松,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/松,japanesegraph.com/松,"[""pine tree""]",plant,false
+610,共,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/共,japanesegraph.com/共,"[""together, both"", ""shared"", ""mutual""]",,false
+611,敗,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/敗,japanesegraph.com/敗,"[""lose, fail"", ""be defeated""]",,false
+612,司,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/司,japanesegraph.com/司,"[""administer, manage"", ""control"", ""govern""]",government_law,false
+613,堂,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/堂,japanesegraph.com/堂,"[""hall, temple"", ""impressive"", ""stately""]",building_place,false
+614,標,2026-07-11T13:10:03.408305+00:00,2026-07-16T15:01:21.684616+00:00,n2,e4,thekanjimap.com/標,japanesegraph.com/標,"[""mark, target"", ""sign"", ""symbol""]",tool_object,false
+615,折,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/折,japanesegraph.com/折,"[""fold, break"", ""bend"", ""occasion""]",,false
+616,臣,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n1,e4,thekanjimap.com/臣,japanesegraph.com/臣,"[""subject, retainer"", ""vassal"", ""official""]",government_law,false
+617,博,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/博,japanesegraph.com/博,"[""wide, extensive"", ""doctor"", ""learned""]",education,false
+618,兆,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/兆,japanesegraph.com/兆,"[""trillion, sign"", ""omen"", ""indication""]",number,false
+619,刷,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/刷,japanesegraph.com/刷,"[""print"", ""brush""]",technology,false
+620,包,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/包,japanesegraph.com/包,"[""wrap, enclose"", ""contain"", ""cover""]",,false
+621,塩,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/塩,japanesegraph.com/塩,"[""salt""]",food,false
+622,験,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/験,japanesegraph.com/験,"[""experience, exam"", ""test"", ""effect""]",education,false
+623,脈,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/脈,japanesegraph.com/脈,"[""pulse, vein"", ""range"", ""thread""]",body_part,false
+624,型,2026-07-11T13:10:03.408305+00:00,2026-07-16T15:01:21.684616+00:00,n3,e4,thekanjimap.com/型,japanesegraph.com/型,"[""type, model"", ""mold"", ""pattern""]",tool_object,false
+625,差,2026-07-11T13:10:03.408305+00:00,2026-07-16T15:01:21.684616+00:00,n3,e4,thekanjimap.com/差,japanesegraph.com/差,"[""difference, gap"", ""discrimination"", ""variation""]",number,false
+626,訓,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/訓,japanesegraph.com/訓,"[""instruction, reading (kun)"", ""lesson"", ""teach""]",education,false
+627,良,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n4,e4,thekanjimap.com/良,japanesegraph.com/良,"[""good"", ""fine"", ""excellent""]",,false
+628,救,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/救,japanesegraph.com/救,"[""rescue, save"", ""relieve""]",,false
+629,氏,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n2,e4,thekanjimap.com/氏,japanesegraph.com/氏,"[""Mr., Ms., clan"", ""family name"", ""lineage""]",family,false
+630,課,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/課,japanesegraph.com/課,"[""section, lesson"", ""assignment"", ""division""]",education,false
+631,老,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/老,japanesegraph.com/老,"[""old age"", ""elderly"", ""senior""]",,false
+632,底,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/底,japanesegraph.com/底,"[""bottom, base"", ""depth"", ""thorough""]",direction_position,false
+633,径,2026-07-11T13:10:03.408305+00:00,2026-07-13T23:15:38.60052+00:00,n1,e4,thekanjimap.com/径,japanesegraph.com/径,"[""diameter, path"", ""shortcut""]",size_measure,false
+634,参,2026-07-11T13:10:03.408305+00:00,2026-07-11T13:10:03.408305+00:00,n3,e4,thekanjimap.com/参,japanesegraph.com/参,"[""participate, come (humble)"", ""visit (a shrine)"", ""refer""]",,false
+635,位,2026-07-11T13:10:03.408305+00:00,2026-07-16T15:01:21.684616+00:00,n3,e4,thekanjimap.com/位,japanesegraph.com/位,"[""rank, position"", ""grade"", ""throne""]",direction_position,false
+636,停,2026-07-11T13:10:03.408305+00:00,2026-07-16T15:01:21.684616+00:00,n3,e4,thekanjimap.com/停,japanesegraph.com/停,"[""stop, halt"", ""pause""]",transportation,false
+637,得,2026-07-11T13:11:24.763697+00:00,2026-07-16T15:01:21.684616+00:00,n3,e4,thekanjimap.com/得,japanesegraph.com/得,"[""gain, understand"", ""obtain"", ""profit""]",money_business,false
+638,治,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/治,japanesegraph.com/治,"[""govern, cure"", ""heal"", ""manage""]",government_law,false
+639,照,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e4,thekanjimap.com/照,japanesegraph.com/照,"[""shine, illuminate"", ""compare"", ""reflect""]",,false
+640,授,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/授,japanesegraph.com/授,"[""grant, teach"", ""bestow"", ""confer""]",education,false
+641,独,2026-07-11T13:11:24.763697+00:00,2026-07-16T15:01:21.684616+00:00,n3,e5,thekanjimap.com/独,japanesegraph.com/独,"[""alone, independent"", ""Germany (abbreviation)"", ""solitary""]",geography_place,false
+642,構,2026-07-11T13:11:24.763697+00:00,2026-07-16T15:01:21.684616+00:00,n3,e5,thekanjimap.com/構,japanesegraph.com/構,"[""structure, construct"", ""posture"", ""set up""]",building_place,false
+643,永,2026-07-11T13:11:24.763697+00:00,2026-07-16T15:01:21.684616+00:00,n2,e5,thekanjimap.com/永,japanesegraph.com/永,"[""eternity, forever"", ""long"", ""permanent""]",time_date,false
+644,静,2026-07-11T13:11:24.763697+00:00,2026-07-16T15:01:21.684616+00:00,n3,e4,thekanjimap.com/静,japanesegraph.com/静,"[""quiet, still"", ""calm"", ""peaceful""]",emotion,false
+645,枝,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/枝,japanesegraph.com/枝,"[""branch, twig"", ""bough"", ""limb""]",plant,false
+646,態,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n2,e5,thekanjimap.com/態,japanesegraph.com/態,"[""attitude, state"", ""appearance"", ""manner"", ""condition""]",,false
+647,貧,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/貧,japanesegraph.com/貧,"[""poor, poverty"", ""needy"", ""lacking""]",money_business,false
+648,険,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n2,e5,thekanjimap.com/険,japanesegraph.com/険,"[""dangerous, steep"", ""harsh"", ""險""]",,false
+649,敵,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/敵,japanesegraph.com/敵,"[""enemy, opponent"", ""rival"", ""foe""]",military,false
+650,素,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e5,thekanjimap.com/素,japanesegraph.com/素,"[""basic, plain"", ""origin"", ""bare"", ""simple""]",,false
+651,境,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/境,japanesegraph.com/境,"[""boundary, border"", ""limit"", ""state"", ""circumstances""]",geography_place,false
+652,欠,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e4,thekanjimap.com/欠,japanesegraph.com/欠,"[""lack, absence"", ""defect"", ""chip""]",,false
+653,覚,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e4,thekanjimap.com/覚,japanesegraph.com/覚,"[""memorize, awaken"", ""sense"", ""feeling"", ""realize""]",,false
+654,可,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n2,e5,thekanjimap.com/可,japanesegraph.com/可,"[""possible, passable"", ""allow"", ""approve""]",,false
+655,夢,2026-07-11T13:11:24.763697+00:00,2026-07-16T15:01:21.684616+00:00,n4,e5,thekanjimap.com/夢,japanesegraph.com/夢,"[""dream"", ""vision"", ""fantasy"", ""hope""]",emotion,false
+656,関,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e4,thekanjimap.com/関,japanesegraph.com/関,"[""connection, gate"", ""barrier"", ""concern""]",,false
+657,像,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/像,japanesegraph.com/像,"[""image, statue"", ""figure"", ""picture"", ""idol""]",art_music,false
+658,件,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e5,thekanjimap.com/件,japanesegraph.com/件,"[""matter, case"", ""item"", ""affair"", ""subject""]",,false
+659,仮,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n2,e5,thekanjimap.com/仮,japanesegraph.com/仮,"[""temporary, provisional"", ""hypothetical"", ""fake""]",,false
+660,雑,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e5,thekanjimap.com/雑,japanesegraph.com/雑,"[""miscellaneous, rough"", ""mixed"", ""assorted""]",,false
+661,技,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e5,thekanjimap.com/技,japanesegraph.com/技,"[""skill, technique"", ""ability"", ""art""]",,false
+662,志,2026-07-11T13:11:24.763697+00:00,2026-07-16T15:01:21.684616+00:00,n2,e5,thekanjimap.com/志,japanesegraph.com/志,"[""will, intention"", ""aspiration"", ""ambition""]",emotion,false
+663,武,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/武,japanesegraph.com/武,"[""military, warrior"", ""martial"", ""brave"", ""arms""]",military,false
+664,判,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/判,japanesegraph.com/判,"[""judge, determine"", ""seal"", ""verdict"", ""size""]",government_law,false
+665,余,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/余,japanesegraph.com/余,"[""surplus, excess"", ""spare"", ""remaining"", ""over""]",quantity_degree,false
+666,浴,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/浴,japanesegraph.com/浴,"[""bathe, shower"", ""be exposed to""]",body_health,false
+667,徳,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n2,e5,thekanjimap.com/徳,japanesegraph.com/徳,"[""virtue, morality"", ""goodness"", ""grace"", ""merit""]",,false
+668,報,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/報,japanesegraph.com/報,"[""report, inform"", ""reward"", ""news"", ""repay""]",communication,false
+669,河,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/河,japanesegraph.com/河,"[""river"", ""stream"", ""waterway""]",nature,false
+670,勢,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n2,e5,thekanjimap.com/勢,japanesegraph.com/勢,"[""power, force"", ""momentum"", ""influence""]",,false
+671,幹,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/幹,japanesegraph.com/幹,"[""trunk, main"", ""core"", ""stem""]",plant,false
+672,絶,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n2,e5,thekanjimap.com/絶,japanesegraph.com/絶,"[""sever, extinct"", ""cease"", ""absolute"", ""surpass""]",,false
+673,務,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/務,japanesegraph.com/務,"[""duty, serve"", ""work"", ""obligation"", ""business""]",work_occupation,false
+674,妻,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n4,e5,thekanjimap.com/妻,japanesegraph.com/妻,"[""wife"", ""spouse (female)""]",family,false
+675,酸,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n2,e5,thekanjimap.com/酸,japanesegraph.com/酸,"[""acid, sour"", ""oxygen"", ""acidity""]",,false
+676,仏,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/仏,japanesegraph.com/仏,"[""Buddha, Buddhism"", ""France (abbreviation)"", ""deceased""]",religion_spirit,false
+677,量,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/量,japanesegraph.com/量,"[""amount, quantity"", ""measure"", ""volume""]",quantity_degree,false
+678,潔,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n2,e5,thekanjimap.com/潔,japanesegraph.com/潔,"[""clean, pure"", ""upright"", ""undefiled""]",,false
+679,置,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e4,thekanjimap.com/置,japanesegraph.com/置,"[""place, put"", ""leave"", ""set""]",,false
+680,序,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n2,e5,thekanjimap.com/序,japanesegraph.com/序,"[""order, sequence"", ""beginning"", ""preface"", ""introduction""]",,false
+681,要,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e4,thekanjimap.com/要,japanesegraph.com/要,"[""need, important"", ""essential"", ""main""]",,false
+682,祖,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/祖,japanesegraph.com/祖,"[""ancestor, founder"", ""forefather"", ""originator""]",family,false
+683,統,2026-07-11T13:11:24.763697+00:00,2026-07-16T15:01:21.684616+00:00,n3,e5,thekanjimap.com/統,japanesegraph.com/統,"[""govern, unite"", ""control"", ""overall""]",government_law,false
+684,際,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n2,e5,thekanjimap.com/際,japanesegraph.com/際,"[""occasion, border"", ""edge"", ""time"", ""at the time of""]",,false
+685,承,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n2,e5,thekanjimap.com/承,japanesegraph.com/承,"[""consent, receive"", ""acknowledge"", ""succeed""]",,false
+686,則,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/則,japanesegraph.com/則,"[""rule, law"", ""norm"", ""regulation"", ""principle""]",government_law,false
+687,価,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/価,japanesegraph.com/価,"[""price, value"", ""worth"", ""cost""]",money_business,false
+688,快,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/快,japanesegraph.com/快,"[""pleasant, cheerful"", ""comfortable"", ""delightful""]",emotion,false
+689,格,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n2,e5,thekanjimap.com/格,japanesegraph.com/格,"[""status, rank"", ""standard"", ""style"", ""pattern""]",,false
+690,費,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/費,japanesegraph.com/費,"[""expense, cost"", ""spend"", ""consume""]",money_business,false
+691,属,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n2,e5,thekanjimap.com/属,japanesegraph.com/属,"[""belong to, category"", ""subordinate"", ""family""]",,false
+692,現,2026-07-11T13:11:24.763697+00:00,2026-07-16T15:01:21.684616+00:00,n3,e5,thekanjimap.com/現,japanesegraph.com/現,"[""present, appear"", ""current"", ""actual"", ""manifest""]",time_date,false
+693,検,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e5,thekanjimap.com/検,japanesegraph.com/検,"[""examine, investigate"", ""inspect"", ""check""]",,false
+694,達,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e4,thekanjimap.com/達,japanesegraph.com/達,"[""reach, accomplish"", ""attain"", ""plural suffix""]",,false
+695,願,2026-07-11T13:11:24.763697+00:00,2026-07-16T15:01:21.684616+00:00,n3,e4,thekanjimap.com/願,japanesegraph.com/願,"[""wish, request"", ""desire"", ""petition""]",emotion,false
+696,句,2026-07-11T13:11:24.763697+00:00,2026-07-16T15:01:21.684616+00:00,n2,e5,thekanjimap.com/句,japanesegraph.com/句,"[""phrase, verse"", ""clause"", ""expression""]",communication,false
+697,災,2026-07-11T13:11:24.763697+00:00,2026-07-16T15:01:21.684616+00:00,n2,e5,thekanjimap.com/災,japanesegraph.com/災,"[""disaster, calamity"", ""misfortune"", ""catastrophe""]",nature,false
+698,眼,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/眼,japanesegraph.com/眼,"[""eye, eyeball"", ""vision"", ""discernment""]",body_part,false
+699,桜,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n4,e5,thekanjimap.com/桜,japanesegraph.com/桜,"[""cherry blossom, cherry tree"", ""sakura""]",plant,false
+700,旧,2026-07-11T13:11:24.763697+00:00,2026-07-16T15:01:21.684616+00:00,n2,e5,thekanjimap.com/旧,japanesegraph.com/旧,"[""old, former"", ""previous"", ""ex-""]",time_date,false
+701,績,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n2,e5,thekanjimap.com/績,japanesegraph.com/績,"[""achievement, result"", ""performance"", ""spinning""]",,false
+702,個,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/個,japanesegraph.com/個,"[""individual, piece"", ""personal"", ""separate""]",quantity_degree,false
+703,圧,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n2,e5,thekanjimap.com/圧,japanesegraph.com/圧,"[""pressure, press"", ""overwhelm"", ""suppress""]",,false
+704,別,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e4,thekanjimap.com/別,japanesegraph.com/別,"[""separate, different"", ""another"", ""apart""]",,false
+705,選,2026-07-11T13:11:24.763697+00:00,2026-07-16T15:01:21.684616+00:00,n3,e4,thekanjimap.com/選,japanesegraph.com/選,"[""choose, select"", ""elect"", ""pick""]",government_law,false
+706,益,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/益,japanesegraph.com/益,"[""benefit, profit"", ""useful"", ""gain""]",money_business,false
+707,略,2026-07-11T13:11:24.763697+00:00,2026-07-16T15:01:21.684616+00:00,n2,e5,thekanjimap.com/略,japanesegraph.com/略,"[""abbreviate, outline"", ""omit"", ""strategy"", ""plunder""]",military,false
+708,連,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e4,thekanjimap.com/連,japanesegraph.com/連,"[""connect, take along"", ""series"", ""successive""]",,false
+709,祝,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e4,thekanjimap.com/祝,japanesegraph.com/祝,"[""celebrate, congratulate"", ""blessing"", ""festival""]",,false
+710,適,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e5,thekanjimap.com/適,japanesegraph.com/適,"[""suitable, fit"", ""appropriate"", ""proper"", ""moderate""]",,false
+711,営,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/営,japanesegraph.com/営,"[""manage, operate"", ""run a business"", ""camp""]",money_business,false
+712,固,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e4,thekanjimap.com/固,japanesegraph.com/固,"[""hard, firm"", ""fixed"", ""solid"", ""stubborn""]",,false
+713,故,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n2,e5,thekanjimap.com/故,japanesegraph.com/故,"[""cause, reason"", ""old"", ""deceased"", ""therefore""]",,false
+714,師,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/師,japanesegraph.com/師,"[""teacher, master"", ""expert"", ""leader"", ""clergy""]",work_occupation,false
+715,積,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/積,japanesegraph.com/積,"[""pile up, accumulate"", ""load"", ""area""]",size_measure,false
+716,容,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n2,e5,thekanjimap.com/容,japanesegraph.com/容,"[""contain, tolerate"", ""appearance"", ""form"", ""permit""]",,false
+717,結,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e4,thekanjimap.com/結,japanesegraph.com/結,"[""tie, connect"", ""conclude"", ""result""]",,false
+718,提,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e5,thekanjimap.com/提,japanesegraph.com/提,"[""propose, offer"", ""present"", ""submit"", ""carry""]",,false
+719,政,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/政,japanesegraph.com/政,"[""politics, government"", ""administration"", ""rule""]",government_law,false
+720,状,2026-07-11T13:11:24.763697+00:00,2026-07-16T15:01:21.684616+00:00,n3,e5,thekanjimap.com/状,japanesegraph.com/状,"[""condition, shape"", ""letter"", ""form"", ""state""]",communication,false
+721,留,2026-07-11T13:11:24.763697+00:00,2026-07-16T15:01:21.684616+00:00,n3,e5,thekanjimap.com/留,japanesegraph.com/留,"[""stay, remain"", ""detain"", ""keep"", ""study abroad""]",education,false
+722,久,2026-07-11T13:11:24.763697+00:00,2026-07-16T15:01:21.684616+00:00,n3,e5,thekanjimap.com/久,japanesegraph.com/久,"[""long time, a long while"", ""lasting"", ""permanent""]",time_date,false
+723,飛,2026-07-11T13:11:24.763697+00:00,2026-07-16T15:01:21.684616+00:00,n3,e4,thekanjimap.com/飛,japanesegraph.com/飛,"[""fly"", ""jump"", ""leap""]",transportation,false
+724,布,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/布,japanesegraph.com/布,"[""cloth, spread"", ""fabric"", ""distribute""]",clothing,false
+725,刊,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/刊,japanesegraph.com/刊,"[""publish, print"", ""edition"", ""issue""]",communication,false
+726,張,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e5,thekanjimap.com/張,japanesegraph.com/張,"[""stretch, spread"", ""assert"", ""paste"", ""strain""]",,false
+727,貯,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/貯,japanesegraph.com/貯,"[""save, store"", ""accumulate""]",money_business,false
+728,恩,2026-07-11T13:11:24.763697+00:00,2026-07-16T15:01:21.684616+00:00,n2,e5,thekanjimap.com/恩,japanesegraph.com/恩,"[""grace, favor"", ""kindness"", ""obligation""]",emotion,false
+729,均,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/均,japanesegraph.com/均,"[""equal, level"", ""average"", ""even""]",quantity_degree,false
+730,条,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/条,japanesegraph.com/条,"[""article, clause"", ""strip"", ""line"", ""term""]",government_law,false
+731,泣,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n4,e4,thekanjimap.com/泣,japanesegraph.com/泣,"[""cry, weep""]",emotion,false
+732,変,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e4,thekanjimap.com/変,japanesegraph.com/変,"[""change, strange"", ""unusual"", ""transform""]",,false
+733,基,2026-07-11T13:11:24.763697+00:00,2026-07-16T15:01:21.684616+00:00,n3,e5,thekanjimap.com/基,japanesegraph.com/基,"[""base, foundation"", ""origin"", ""standard""]",building_place,false
+734,往,2026-07-11T13:11:24.763697+00:00,2026-07-16T15:01:21.684616+00:00,n2,e5,thekanjimap.com/往,japanesegraph.com/往,"[""go, proceed"", ""former"", ""past""]",transportation,false
+735,複,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/複,japanesegraph.com/複,"[""compound, repeat"", ""double"", ""multiple"", ""copy""]",quantity_degree,false
+736,能,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e5,thekanjimap.com/能,japanesegraph.com/能,"[""ability, talent"", ""function"", ""Noh theater""]",,false
+737,団,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e5,thekanjimap.com/団,japanesegraph.com/団,"[""group, organization"", ""mass"", ""body"", ""corps""]",,false
+738,栄,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n2,e4,thekanjimap.com/栄,japanesegraph.com/栄,"[""glory, flourish"", ""honor"", ""prosper""]",,false
+739,常,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e5,thekanjimap.com/常,japanesegraph.com/常,"[""normal, always"", ""constant"", ""usual"", ""ordinary""]",,false
+740,焼,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/焼,japanesegraph.com/焼,"[""burn, grill"", ""bake"", ""roast""]",food,false
+741,液,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n2,e5,thekanjimap.com/液,japanesegraph.com/液,"[""liquid, fluid"", ""juice"", ""solution""]",,false
+742,続,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e4,thekanjimap.com/続,japanesegraph.com/続,"[""continue"", ""succeed"", ""follow""]",,false
+743,競,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/競,japanesegraph.com/競,"[""compete, rival"", ""race""]",sports_recreation,false
+744,厚,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/厚,japanesegraph.com/厚,"[""thick, generous"", ""warm"", ""kind"", ""deep""]",size_measure,false
+745,税,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/税,japanesegraph.com/税,"[""tax, duty"", ""levy"", ""tariff""]",money_business,false
+746,省,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e4,thekanjimap.com/省,japanesegraph.com/省,"[""ministry, omit"", ""reflect"", ""save""]",government_law,false
+747,経,2026-07-11T13:11:24.763697+00:00,2026-07-16T15:01:21.684616+00:00,n3,e5,thekanjimap.com/経,japanesegraph.com/経,"[""pass through, manage"", ""experience"", ""longitude""]",geography_place,false
+748,接,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e5,thekanjimap.com/接,japanesegraph.com/接,"[""touch, connect"", ""contact"", ""join"", ""receive""]",,false
+749,残,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e4,thekanjimap.com/残,japanesegraph.com/残,"[""remain, be left"", ""cruel"", ""brutal""]",,false
+750,率,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/率,japanesegraph.com/率,"[""rate, proportion"", ""lead"", ""percentage""]",quantity_degree,false
+751,墓,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/墓,japanesegraph.com/墓,"[""grave, tomb"", ""burial place""]",religion_spirit,false
+752,程,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/程,japanesegraph.com/程,"[""extent, degree"", ""distance"", ""level"", ""about""]",quantity_degree,false
+753,総,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/総,japanesegraph.com/総,"[""whole, general"", ""overall"", ""total"", ""all""]",quantity_degree,false
+754,因,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n2,e5,thekanjimap.com/因,japanesegraph.com/因,"[""cause, reason"", ""factor"", ""origin""]",,false
+755,豊,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e5,thekanjimap.com/豊,japanesegraph.com/豊,"[""rich, abundant"", ""plentiful"", ""prosperous"", ""fertile""]",,false
+756,復,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e5,thekanjimap.com/復,japanesegraph.com/復,"[""return, restore"", ""recover"", ""repeat"", ""revenge""]",,false
+757,効,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e5,thekanjimap.com/効,japanesegraph.com/効,"[""effect, efficacy"", ""result"", ""work (function)""]",,false
+758,婦,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/婦,japanesegraph.com/婦,"[""woman, wife"", ""lady"", ""married woman""]",family,false
+759,辞,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e4,thekanjimap.com/辞,japanesegraph.com/辞,"[""word, resign"", ""decline"", ""dictionary""]",,false
+760,求,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e4,thekanjimap.com/求,japanesegraph.com/求,"[""request, seek"", ""demand"", ""desire""]",,false
+761,査,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e5,thekanjimap.com/査,japanesegraph.com/査,"[""investigate, inspect"", ""examine"", ""check""]",,false
+762,性,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e5,thekanjimap.com/性,japanesegraph.com/性,"[""sex, nature"", ""character"", ""quality"", ""-ness""]",,false
+763,制,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/制,japanesegraph.com/制,"[""system, regulate"", ""control"", ""rule"", ""limit""]",government_law,false
+764,精,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n2,e5,thekanjimap.com/精,japanesegraph.com/精,"[""spirit, refined"", ""energy"", ""vitality"", ""pure""]",,false
+765,損,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/損,japanesegraph.com/損,"[""loss, damage"", ""harm"", ""disadvantage"", ""spoil""]",money_business,false
+766,情,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/情,japanesegraph.com/情,"[""feelings, emotion"", ""circumstances"", ""sympathy""]",emotion,false
+767,笑,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n4,e4,thekanjimap.com/笑,japanesegraph.com/笑,"[""laugh, smile"", ""grin""]",emotion,false
+768,俵,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/俵,japanesegraph.com/俵,"[""straw bag, bale"", ""sack (unit of measure)""]",tool_object,false
+769,版,2026-07-11T13:11:24.763697+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/版,japanesegraph.com/版,"[""edition, printing plate"", ""version"", ""publication""]",communication,false
+770,準,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e5,thekanjimap.com/準,japanesegraph.com/準,"[""standard, quasi-"", ""level"", ""conform to""]",,false
+771,易,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n2,e5,thekanjimap.com/易,japanesegraph.com/易,"[""easy, simple"", ""trade"", ""change""]",,false
+772,殺,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e4,thekanjimap.com/殺,japanesegraph.com/殺,"[""kill"", ""murder"", ""suppress""]",,false
+773,養,2026-07-11T13:11:24.763697+00:00,2026-07-11T13:11:24.763697+00:00,n3,e4,thekanjimap.com/養,japanesegraph.com/養,"[""raise, nourish"", ""support"", ""cultivate""]",,false
+774,採,2026-07-11T13:11:24.763697+00:00,2026-07-16T15:01:21.684616+00:00,n2,e5,thekanjimap.com/採,japanesegraph.com/採,"[""gather, adopt"", ""collect"", ""take"", ""hire""]",work_occupation,false
+775,迷,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n3,e5,thekanjimap.com/迷,japanesegraph.com/迷,"[""lose one's way, perplex"", ""hesitate"", ""be lost"", ""be confused""]",emotion,false
+776,造,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n3,e5,thekanjimap.com/造,japanesegraph.com/造,"[""create, make"", ""build"", ""manufacture"", ""brew""]",tool_object,false
+777,混,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n3,e5,thekanjimap.com/混,japanesegraph.com/混,"[""mix, blend"", ""confuse"", ""mingle""]",,false
+778,揮,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n1,e6,thekanjimap.com/揮,japanesegraph.com/揮,"[""wield, brandish"", ""command"", ""display""]",,false
+779,域,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/域,japanesegraph.com/域,"[""range, region"", ""zone"", ""area"", ""boundary""]",geography_place,false
+780,織,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/織,japanesegraph.com/織,"[""weave, fabric"", ""knit"", ""organize""]",clothing,false
+781,后,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n1,e6,thekanjimap.com/后,japanesegraph.com/后,"[""empress, queen"", ""ruler"", ""sovereign""]",government_law,false
+782,賀,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n2,e5,thekanjimap.com/賀,japanesegraph.com/賀,"[""congratulation, celebration"", ""joy""]",communication,false
+783,規,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/規,japanesegraph.com/規,"[""standard, rule"", ""norm"", ""regulate""]",government_law,false
+784,犯,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/犯,japanesegraph.com/犯,"[""crime, violate"", ""offend"", ""commit (an offense)""]",government_law,false
+785,移,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n3,e5,thekanjimap.com/移,japanesegraph.com/移,"[""move, shift"", ""transfer"", ""change""]",transportation,false
+786,激,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e6,thekanjimap.com/激,japanesegraph.com/激,"[""intense, violent"", ""extreme"", ""fierce""]",,false
+787,推,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e6,thekanjimap.com/推,japanesegraph.com/推,"[""infer, deduce"", ""recommend"", ""push""]",,false
+788,難,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n3,e6,thekanjimap.com/難,japanesegraph.com/難,"[""difficult, trouble"", ""disaster"", ""hardship""]",,false
+789,聖,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/聖,japanesegraph.com/聖,"[""holy, sacred"", ""sage"", ""saint""]",religion_spirit,false
+790,職,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/職,japanesegraph.com/職,"[""job, occupation"", ""post"", ""position"", ""duty""]",work_occupation,false
+791,庁,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/庁,japanesegraph.com/庁,"[""government office, agency"", ""agency"", ""bureau""]",government_law,false
+792,純,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e6,thekanjimap.com/純,japanesegraph.com/純,"[""pure, genuine"", ""innocent"", ""simple""]",,false
+793,暖,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n3,e6,thekanjimap.com/暖,japanesegraph.com/暖,"[""warm, mild"", ""heat"", ""warmth""]",weather,false
+794,寸,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n1,e6,thekanjimap.com/寸,japanesegraph.com/寸,"[""measurement unit, a little"", ""brief"", ""short""]",size_measure,false
+795,確,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n3,e5,thekanjimap.com/確,japanesegraph.com/確,"[""certain, sure"", ""confirm"", ""reliable""]",,false
+796,宝,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n3,e6,thekanjimap.com/宝,japanesegraph.com/宝,"[""treasure, jewel"", ""precious thing""]",money_business,false
+797,護,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e5,thekanjimap.com/護,japanesegraph.com/護,"[""protect, guard"", ""defend"", ""shelter""]",,false
+798,株,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/株,japanesegraph.com/株,"[""stock, shares"", ""stump"", ""root""]",money_business,false
+799,姿,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e6,thekanjimap.com/姿,japanesegraph.com/姿,"[""figure, form, appearance"", ""shape"", ""sight""]",,false
+800,招,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n3,e5,thekanjimap.com/招,japanesegraph.com/招,"[""invite, beckon"", ""call"", ""summon""]",communication,false
+801,供,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e6,thekanjimap.com/供,japanesegraph.com/供,"[""accompany, offer"", ""present"", ""provide""]",,false
+802,灰,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/灰,japanesegraph.com/灰,"[""ash, ashes"", ""gray""]",color,false
+803,宇,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n1,e6,thekanjimap.com/宇,japanesegraph.com/宇,"[""universe, eaves"", ""heaven"", ""sky""]",nature,false
+804,朗,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/朗,japanesegraph.com/朗,"[""cheerful, sonorous"", ""bright"", ""clear""]",emotion,false
+805,預,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/預,japanesegraph.com/預,"[""deposit, entrust"", ""keep"", ""leave in care""]",money_business,false
+806,若,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n3,e6,thekanjimap.com/若,japanesegraph.com/若,"[""young"", ""or"", ""if"", ""as if""]",,false
+807,尺,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n1,e6,thekanjimap.com/尺,japanesegraph.com/尺,"[""shaku (unit of length), measure"", ""scale"", ""ruler""]",size_measure,false
+808,棒,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n3,e6,thekanjimap.com/棒,japanesegraph.com/棒,"[""stick, rod"", ""bar"", ""pole"", ""straight line""]",tool_object,false
+809,宙,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/宙,japanesegraph.com/宙,"[""midair, space"", ""sky"", ""heaven""]",nature,false
+810,測,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/測,japanesegraph.com/測,"[""measure, survey"", ""estimate"", ""fathom""]",size_measure,false
+811,枚,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n4,e6,thekanjimap.com/枚,japanesegraph.com/枚,"[""counter for flat things (paper, boards, etc.)"", ""sheet"", ""piece""]",quantity_degree,false
+812,過,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n3,e5,thekanjimap.com/過,japanesegraph.com/過,"[""pass, exceed"", ""mistake"", ""too much""]",,false
+813,値,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n3,e6,thekanjimap.com/値,japanesegraph.com/値,"[""price, value"", ""worth"", ""number""]",money_business,false
+814,術,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n3,e5,thekanjimap.com/術,japanesegraph.com/術,"[""art, technique"", ""skill"", ""method"", ""magic""]",,false
+815,講,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/講,japanesegraph.com/講,"[""lecture, discourse"", ""course"", ""study""]",education,false
+816,樹,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n1,e6,thekanjimap.com/樹,japanesegraph.com/樹,"[""tree, plant"", ""establish"", ""set up""]",plant,false
+817,我,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e6,thekanjimap.com/我,japanesegraph.com/我,"[""I, oneself"", ""self"", ""ego""]",,false
+818,著,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n2,e6,thekanjimap.com/著,japanesegraph.com/著,"[""write, author"", ""remarkable"", ""notable""]",communication,false
+819,銅,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e5,thekanjimap.com/銅,japanesegraph.com/銅,"[""copper"", ""bronze (medal)""]",,false
+820,律,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/律,japanesegraph.com/律,"[""law, rule"", ""rhythm"", ""discipline""]",government_law,false
+821,劇,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/劇,japanesegraph.com/劇,"[""drama, play"", ""intense"", ""severe""]",art_music,false
+822,謝,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/謝,japanesegraph.com/謝,"[""apologize, thank"", ""decline"", ""express gratitude""]",emotion,false
+823,厳,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e6,thekanjimap.com/厳,japanesegraph.com/厳,"[""strict, stern"", ""solemn"", ""severe""]",,false
+824,慣,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n3,e5,thekanjimap.com/慣,japanesegraph.com/慣,"[""accustom, get used to"", ""habit"", ""practice""]",,false
+825,燃,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n3,e5,thekanjimap.com/燃,japanesegraph.com/燃,"[""burn, combust"", ""ignite"", ""blaze""]",,false
+826,机,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n4,e6,thekanjimap.com/机,japanesegraph.com/机,"[""desk, writing desk"", ""table""]",tool_object,false
+827,暴,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n2,e5,thekanjimap.com/暴,japanesegraph.com/暴,"[""violent, expose"", ""sudden"", ""wild"", ""reckless""]",weather,false
+828,肥,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e5,thekanjimap.com/肥,japanesegraph.com/肥,"[""fat, fertile"", ""manure"", ""rich"", ""plump""]",,false
+829,財,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/財,japanesegraph.com/財,"[""wealth, property"", ""resources"", ""treasure""]",money_business,false
+830,築,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/築,japanesegraph.com/築,"[""build, construct"", ""establish"", ""erect""]",building_place,false
+831,城,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n3,e6,thekanjimap.com/城,japanesegraph.com/城,"[""castle"", ""fortress"", ""stronghold""]",building_place,false
+832,似,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n3,e5,thekanjimap.com/似,japanesegraph.com/似,"[""resemble, similar"", ""look like"", ""take after""]",,false
+833,党,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/党,japanesegraph.com/党,"[""political party, group"", ""faction"", ""clique""]",government_law,false
+834,断,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n3,e5,thekanjimap.com/断,japanesegraph.com/断,"[""sever, refuse"", ""cut off"", ""decide"", ""prohibit""]",,false
+835,卵,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n5,e6,thekanjimap.com/卵,japanesegraph.com/卵,"[""egg"", ""spawn"", ""roe""]",food,false
+836,比,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/比,japanesegraph.com/比,"[""compare, ratio"", ""proportion"", ""versus""]",quantity_degree,false
+837,批,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n2,e6,thekanjimap.com/批,japanesegraph.com/批,"[""criticize, comment on"", ""evaluate"", ""judge""]",communication,false
+838,耕,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e5,thekanjimap.com/耕,japanesegraph.com/耕,"[""cultivate, till"", ""farm"", ""plow""]",,false
+839,群,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e5,thekanjimap.com/群,japanesegraph.com/群,"[""group, crowd"", ""flock"", ""herd"", ""cluster""]",,false
+840,創,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e6,thekanjimap.com/創,japanesegraph.com/創,"[""create, originate"", ""found"", ""establish""]",,false
+841,仁,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n1,e6,thekanjimap.com/仁,japanesegraph.com/仁,"[""benevolence, humanity"", ""compassion"", ""virtue""]",,false
+842,寄,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n3,e5,thekanjimap.com/寄,japanesegraph.com/寄,"[""draw near, approach"", ""contribute"", ""donate""]",money_business,false
+843,破,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n3,e5,thekanjimap.com/破,japanesegraph.com/破,"[""break, destroy"", ""tear"", ""defeat"", ""violate""]",,false
+844,痛,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n4,e6,thekanjimap.com/痛,japanesegraph.com/痛,"[""pain, ache"", ""hurt"", ""sore""]",body_health,false
+845,述,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n2,e5,thekanjimap.com/述,japanesegraph.com/述,"[""state, mention"", ""describe"", ""narrate""]",communication,false
+846,興,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/興,japanesegraph.com/興,"[""interest, excitement"", ""prosper"", ""rise"", ""flourish""]",emotion,false
+847,義,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e5,thekanjimap.com/義,japanesegraph.com/義,"[""righteousness, justice"", ""meaning"", ""duty"", ""loyalty""]",,false
+848,演,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/演,japanesegraph.com/演,"[""perform, play"", ""act"", ""lecture""]",art_music,false
+849,衛,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/衛,japanesegraph.com/衛,"[""guard, protect"", ""defend"", ""satellite""]",military,false
+850,否,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e6,thekanjimap.com/否,japanesegraph.com/否,"[""deny, negate"", ""no"", ""disagree""]",,false
+851,危,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n3,e6,thekanjimap.com/危,japanesegraph.com/危,"[""dangerous, risky"", ""fear"", ""peril""]",,false
+852,退,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n3,e5,thekanjimap.com/退,japanesegraph.com/退,"[""retreat, withdraw"", ""recede"", ""quit"", ""leave""]",,false
+853,質,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n3,e5,thekanjimap.com/質,japanesegraph.com/質,"[""quality, matter"", ""nature"", ""character"", ""substance""]",,false
+854,孝,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n1,e6,thekanjimap.com/孝,japanesegraph.com/孝,"[""filial piety"", ""devotion to parents""]",family,false
+855,幕,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/幕,japanesegraph.com/幕,"[""curtain, act (of a play)"", ""camp"", ""shogunate""]",art_music,false
+856,鉱,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/鉱,japanesegraph.com/鉱,"[""ore, mineral"", ""mine"", ""pit""]",nature,false
+857,居,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n3,e5,thekanjimap.com/居,japanesegraph.com/居,"[""be present, dwell"", ""live"", ""reside""]",building_place,false
+858,存,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n3,e6,thekanjimap.com/存,japanesegraph.com/存,"[""exist, be"", ""know"", ""think (humble)""]",,false
+859,尊,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e6,thekanjimap.com/尊,japanesegraph.com/尊,"[""revere, respect"", ""noble"", ""precious""]",,false
+860,己,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n1,e6,thekanjimap.com/己,japanesegraph.com/己,"[""self, oneself"", ""I"", ""personal""]",,false
+861,設,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n3,e5,thekanjimap.com/設,japanesegraph.com/設,"[""establish, set up"", ""install"", ""found"", ""arrange""]",building_place,false
+862,逆,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/逆,japanesegraph.com/逆,"[""reverse, opposite"", ""contrary"", ""upside down""]",direction_position,false
+863,敬,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e6,thekanjimap.com/敬,japanesegraph.com/敬,"[""respect, reverence"", ""honor"", ""esteem""]",,false
+864,誠,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e6,thekanjimap.com/誠,japanesegraph.com/誠,"[""sincerity, honesty"", ""truth"", ""loyalty""]",,false
+865,賛,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n2,e5,thekanjimap.com/賛,japanesegraph.com/賛,"[""agree, praise"", ""support"", ""approval""]",communication,false
+866,許,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n3,e5,thekanjimap.com/許,japanesegraph.com/許,"[""allow, permit"", ""forgive"", ""license""]",government_law,false
+867,識,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/識,japanesegraph.com/識,"[""know, mark"", ""recognize"", ""knowledge""]",education,false
+868,非,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n3,e5,thekanjimap.com/非,japanesegraph.com/非,"[""not, wrong"", ""un-"", ""non-"", ""negative"", ""fault""]",,false
+869,額,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/額,japanesegraph.com/額,"[""amount, sum"", ""forehead"", ""framed picture""]",money_business,false
+870,欲,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n3,e6,thekanjimap.com/欲,japanesegraph.com/欲,"[""desire, greed"", ""want"", ""wish""]",emotion,false
+871,幼,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n2,e6,thekanjimap.com/幼,japanesegraph.com/幼,"[""young, infant"", ""childhood"", ""immature""]",education,false
+872,宣,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/宣,japanesegraph.com/宣,"[""proclaim, announce"", ""declare"", ""spread""]",communication,false
+873,宅,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n3,e6,thekanjimap.com/宅,japanesegraph.com/宅,"[""home, residence"", ""house"", ""one's own home""]",building_place,false
+874,富,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/富,japanesegraph.com/富,"[""wealth, rich"", ""abundant"", ""prosperous""]",money_business,false
+875,責,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n3,e5,thekanjimap.com/責,japanesegraph.com/責,"[""responsibility, blame"", ""duty"", ""reproach"", ""obligation""]",work_occupation,false
+876,泉,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/泉,japanesegraph.com/泉,"[""spring, fountain"", ""source""]",nature,false
+877,俳,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n1,e6,thekanjimap.com/俳,japanesegraph.com/俳,"[""actor, haiku"", ""comedian"", ""performer""]",art_music,false
+878,飼,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/飼,japanesegraph.com/飼,"[""raise, keep (animals)"", ""breed"", ""rear""]",animal,false
+879,操,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n2,e6,thekanjimap.com/操,japanesegraph.com/操,"[""operate, control"", ""maneuver"", ""chastity""]",technology,false
+880,専,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n3,e6,thekanjimap.com/専,japanesegraph.com/専,"[""specialty, exclusive"", ""solely"", ""only""]",work_occupation,false
+881,防,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n3,e5,thekanjimap.com/防,japanesegraph.com/防,"[""prevent, defend"", ""protect"", ""guard"", ""ward off""]",military,false
+882,将,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/将,japanesegraph.com/将,"[""general, commander"", ""future"", ""be about to""]",military,false
+883,銭,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/銭,japanesegraph.com/銭,"[""coin, money"", ""sen (currency unit)"", ""small change""]",money_business,false
+884,輸,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/輸,japanesegraph.com/輸,"[""transport, export"", ""import"", ""ship"", ""convey""]",transportation,false
+885,罪,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/罪,japanesegraph.com/罪,"[""crime, sin"", ""guilt"", ""offense""]",government_law,false
+886,舌,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/舌,japanesegraph.com/舌,"[""tongue"", ""speech"", ""taste""]",body_part,false
+887,派,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n2,e6,thekanjimap.com/派,japanesegraph.com/派,"[""school of thought, group"", ""dispatch"", ""send"", ""faction""]",work_occupation,false
+888,減,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/減,japanesegraph.com/減,"[""decrease, reduce"", ""lessen"", ""subtract""]",quantity_degree,false
+889,層,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e6,thekanjimap.com/層,japanesegraph.com/層,"[""layer, stratum"", ""social class"", ""floor (of a building)""]",,false
+890,支,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n3,e5,thekanjimap.com/支,japanesegraph.com/支,"[""branch, support"", ""pay"", ""sustain""]",money_business,false
+891,編,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/編,japanesegraph.com/編,"[""knit, compile"", ""edit"", ""braid"", ""volume""]",communication,false
+892,段,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n3,e6,thekanjimap.com/段,japanesegraph.com/段,"[""step, stairs, grade"", ""rank"", ""level"", ""paragraph""]",quantity_degree,false
+893,資,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/資,japanesegraph.com/資,"[""resources, funds"", ""capital"", ""material"", ""talent""]",money_business,false
+894,舎,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e5,thekanjimap.com/舎,japanesegraph.com/舎,"[""building, hut"", ""lodging"", ""quarters""]",building_place,false
+895,簡,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e6,thekanjimap.com/簡,japanesegraph.com/簡,"[""simple, brief"", ""easy"", ""letter""]",,false
+896,評,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n3,e5,thekanjimap.com/評,japanesegraph.com/評,"[""evaluate, comment"", ""criticize"", ""review"", ""reputation""]",communication,false
+897,権,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/権,japanesegraph.com/権,"[""authority, right"", ""power"", ""privilege""]",government_law,false
+898,製,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n3,e5,thekanjimap.com/製,japanesegraph.com/製,"[""make, manufacture"", ""produce"", ""craft"", ""-made""]",tool_object,false
+899,備,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n3,e5,thekanjimap.com/備,japanesegraph.com/備,"[""prepare, furnish"", ""equip"", ""provide"", ""be ready""]",tool_object,false
+900,憲,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/憲,japanesegraph.com/憲,"[""constitution, law"", ""rule"", ""ordinance""]",government_law,false
+901,密,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e6,thekanjimap.com/密,japanesegraph.com/密,"[""dense, secret"", ""close"", ""intimate""]",,false
+902,晩,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n4,e6,thekanjimap.com/晩,japanesegraph.com/晩,"[""evening, night"", ""late"", ""year's end""]",time_date,false
+903,任,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n3,e5,thekanjimap.com/任,japanesegraph.com/任,"[""entrust, duty"", ""appoint"", ""position"", ""responsibility""]",work_occupation,false
+904,再,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n3,e5,thekanjimap.com/再,japanesegraph.com/再,"[""again, re-"", ""second time"", ""repeat""]",,false
+905,貸,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n4,e5,thekanjimap.com/貸,japanesegraph.com/貸,"[""lend, loan"", ""rent out"", ""credit""]",money_business,false
+906,冊,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n4,e6,thekanjimap.com/冊,japanesegraph.com/冊,"[""counter for bound books"", ""volume"", ""booklet""]",quantity_degree,false
+907,奮,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/奮,japanesegraph.com/奮,"[""stir up, rouse"", ""shake"", ""be excited""]",emotion,false
+908,乳,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n3,e6,thekanjimap.com/乳,japanesegraph.com/乳,"[""milk, breast"", ""dairy""]",food,false
+909,導,2026-07-11T13:12:43.326869+00:00,2026-07-16T15:01:21.684616+00:00,n3,e5,thekanjimap.com/導,japanesegraph.com/導,"[""guide, lead"", ""conduct"", ""direct""]",education,false
+910,解,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n3,e5,thekanjimap.com/解,japanesegraph.com/解,"[""dissolve, understand"", ""solve"", ""release"", ""explain""]",,false
+911,善,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e6,thekanjimap.com/善,japanesegraph.com/善,"[""good, virtue"", ""goodness"", ""righteous""]",,false
+912,宗,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/宗,japanesegraph.com/宗,"[""religion, sect"", ""origin"", ""ancestor""]",religion_spirit,false
+913,貿,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/貿,japanesegraph.com/貿,"[""trade, exchange"", ""commerce"", ""barter""]",money_business,false
+914,熟,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e6,thekanjimap.com/熟,japanesegraph.com/熟,"[""ripen, mature"", ""skilled"", ""fully cooked""]",,false
+915,処,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e6,thekanjimap.com/処,japanesegraph.com/処,"[""dispose of, deal with"", ""place"", ""manage""]",,false
+916,貴,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n1,e6,thekanjimap.com/貴,japanesegraph.com/貴,"[""precious, noble"", ""dear"", ""valued""]",,false
+917,忠,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e6,thekanjimap.com/忠,japanesegraph.com/忠,"[""loyalty, faithfulness"", ""devotion"", ""sincerity""]",,false
+918,模,2026-07-11T13:12:43.326869+00:00,2026-07-11T13:12:43.326869+00:00,n2,e6,thekanjimap.com/模,japanesegraph.com/模,"[""model, pattern"", ""imitate"", ""copy""]",,false
+919,増,2026-07-11T13:12:43.326869+00:00,2026-07-13T23:15:38.60052+00:00,n3,e5,thekanjimap.com/増,japanesegraph.com/増,"[""increase, grow"", ""add"", ""multiply"", ""expand""]",quantity_degree,false
+920,優,2026-07-11T13:13:41.91987+00:00,2026-07-11T13:13:41.91987+00:00,n3,e6,thekanjimap.com/優,japanesegraph.com/優,"[""superior, gentle"", ""kind"", ""excellent""]",,false
+921,脳,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n3,e6,thekanjimap.com/脳,japanesegraph.com/脳,"[""brain"", ""mind"", ""intellect""]",body_part,false
+922,捨,2026-07-11T13:13:41.91987+00:00,2026-07-11T13:13:41.91987+00:00,n3,e6,thekanjimap.com/捨,japanesegraph.com/捨,"[""throw away, abandon"", ""discard"", ""give up""]",,false
+923,針,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n3,e6,thekanjimap.com/針,japanesegraph.com/針,"[""needle, pin"", ""hand (of a clock)"", ""compass""]",tool_object,false
+924,降,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n4,e6,thekanjimap.com/降,japanesegraph.com/降,"[""descend, get off"", ""fall (rain/snow)"", ""surrender""]",weather,false
+925,届,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n3,e6,thekanjimap.com/届,japanesegraph.com/届,"[""reach, be delivered"", ""report"", ""notify""]",communication,false
+926,絹,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n1,e6,thekanjimap.com/絹,japanesegraph.com/絹,"[""silk"", ""silk fabric""]",clothing,false
+927,巻,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/巻,japanesegraph.com/巻,"[""roll, wind around"", ""volume (of a book)"", ""coil""]",quantity_degree,false
+928,衆,2026-07-11T13:13:41.91987+00:00,2026-07-16T15:01:21.684616+00:00,n2,e6,thekanjimap.com/衆,japanesegraph.com/衆,"[""masses, people"", ""many"", ""multitude""]",quantity_degree,false
+929,暮,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n3,e6,thekanjimap.com/暮,japanesegraph.com/暮,"[""livelihood, sunset"", ""year end"", ""dusk""]",time_date,false
+930,閉,2026-07-11T13:13:41.91987+00:00,2026-07-11T13:13:41.91987+00:00,n3,e6,thekanjimap.com/閉,japanesegraph.com/閉,"[""close, shut"", ""end"", ""lock""]",,false
+931,就,2026-07-11T13:13:41.91987+00:00,2026-07-16T15:01:21.684616+00:00,n2,e6,thekanjimap.com/就,japanesegraph.com/就,"[""take up, accomplish"", ""succeed to"", ""start""]",work_occupation,false
+932,拝,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/拝,japanesegraph.com/拝,"[""worship, bow reverently"", ""receive (humble)"", ""see (humble)""]",religion_spirit,false
+933,済,2026-07-11T13:13:41.91987+00:00,2026-07-16T15:01:21.684616+00:00,n2,e6,thekanjimap.com/済,japanesegraph.com/済,"[""settle, finish"", ""save"", ""relieve""]",money_business,false
+934,忘,2026-07-11T13:13:41.91987+00:00,2026-07-11T13:13:41.91987+00:00,n4,e6,thekanjimap.com/忘,japanesegraph.com/忘,"[""forget"", ""neglect"", ""overlook""]",,false
+935,紅,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/紅,japanesegraph.com/紅,"[""crimson, red"", ""rouge"", ""lipstick""]",color,false
+936,誌,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/誌,japanesegraph.com/誌,"[""magazine, record"", ""write down"", ""journal""]",communication,false
+937,勤,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/勤,japanesegraph.com/勤,"[""work, diligence"", ""serve"", ""be employed""]",work_occupation,false
+938,策,2026-07-11T13:13:41.91987+00:00,2026-07-16T15:01:21.684616+00:00,n2,e6,thekanjimap.com/策,japanesegraph.com/策,"[""plan, scheme"", ""policy"", ""measure""]",government_law,false
+939,染,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/染,japanesegraph.com/染,"[""dye, be infected"", ""stain"", ""color""]",color,false
+940,異,2026-07-11T13:13:41.91987+00:00,2026-07-11T13:13:41.91987+00:00,n2,e6,thekanjimap.com/異,japanesegraph.com/異,"[""different, strange"", ""unusual"", ""foreign""]",,false
+941,誕,2026-07-11T13:13:41.91987+00:00,2026-07-11T13:13:41.91987+00:00,n4,e6,thekanjimap.com/誕,japanesegraph.com/誕,"[""be born, birth"", ""birth celebration""]",,false
+942,背,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n3,e6,thekanjimap.com/背,japanesegraph.com/背,"[""back, height"", ""betray"", ""turn one's back""]",body_part,false
+943,奏,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/奏,japanesegraph.com/奏,"[""play music, perform"", ""report to the emperor""]",art_music,false
+944,論,2026-07-11T13:13:41.91987+00:00,2026-07-16T15:01:21.684616+00:00,n2,e6,thekanjimap.com/論,japanesegraph.com/論,"[""argument, discussion"", ""theory"", ""thesis""]",communication,false
+945,困,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n3,e6,thekanjimap.com/困,japanesegraph.com/困,"[""be troubled, be distressed"", ""difficulty"", ""hardship""]",emotion,false
+946,縦,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/縦,japanesegraph.com/縦,"[""vertical, length"", ""lengthwise"", ""north-south""]",direction_position,false
+947,疑,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/疑,japanesegraph.com/疑,"[""doubt, suspect"", ""question"", ""distrust""]",emotion,false
+948,並,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n3,e6,thekanjimap.com/並,japanesegraph.com/並,"[""line up, ordinary"", ""average"", ""side by side""]",direction_position,false
+949,遺,2026-07-11T13:13:41.91987+00:00,2026-07-16T15:01:21.684616+00:00,n1,e6,thekanjimap.com/遺,japanesegraph.com/遺,"[""bequeath, leave behind"", ""lose"", ""omit""]",money_business,false
+950,視,2026-07-11T13:13:41.91987+00:00,2026-07-11T13:13:41.91987+00:00,n2,e6,thekanjimap.com/視,japanesegraph.com/視,"[""look at, see"", ""regard"", ""view"", ""inspect""]",,false
+951,拡,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/拡,japanesegraph.com/拡,"[""broaden, expand"", ""enlarge"", ""spread""]",quantity_degree,false
+952,従,2026-07-11T13:13:41.91987+00:00,2026-07-11T13:13:41.91987+00:00,n2,e6,thekanjimap.com/従,japanesegraph.com/従,"[""obey, follow"", ""attend"", ""accompany""]",,false
+953,穀,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n1,e6,thekanjimap.com/穀,japanesegraph.com/穀,"[""grain, cereal"", ""crop"", ""corn""]",food,false
+954,翌,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/翌,japanesegraph.com/翌,"[""next, following"", ""the next day"", ""following day""]",time_date,false
+955,誤,2026-07-11T13:13:41.91987+00:00,2026-07-11T13:13:41.91987+00:00,n2,e6,thekanjimap.com/誤,japanesegraph.com/誤,"[""mistake, error"", ""wrong"", ""false""]",,false
+956,討,2026-07-11T13:13:41.91987+00:00,2026-07-16T15:01:21.684616+00:00,n2,e6,thekanjimap.com/討,japanesegraph.com/討,"[""conquer, discuss"", ""punish"", ""investigate""]",military,false
+957,潮,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/潮,japanesegraph.com/潮,"[""tide, current"", ""sea water"", ""trend""]",nature,false
+958,裏,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n3,e6,thekanjimap.com/裏,japanesegraph.com/裏,"[""back side, reverse"", ""inside"", ""behind the scenes""]",direction_position,false
+959,胸,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n3,e6,thekanjimap.com/胸,japanesegraph.com/胸,"[""chest, breast"", ""heart"", ""mind""]",body_part,false
+960,源,2026-07-11T13:13:41.91987+00:00,2026-07-16T15:01:21.684616+00:00,n2,e6,thekanjimap.com/源,japanesegraph.com/源,"[""source, origin"", ""beginning"", ""root""]",nature,false
+961,革,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/革,japanesegraph.com/革,"[""leather, reform"", ""change"", ""renew""]",clothing,false
+962,射,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/射,japanesegraph.com/射,"[""shoot, fire"", ""emit"", ""radiate""]",military,false
+963,亡,2026-07-11T13:13:41.91987+00:00,2026-07-11T13:13:41.91987+00:00,n2,e6,thekanjimap.com/亡,japanesegraph.com/亡,"[""die, deceased"", ""perish"", ""lose""]",,false
+964,臓,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/臓,japanesegraph.com/臓,"[""internal organ"", ""viscera""]",body_part,false
+965,腹,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n3,e6,thekanjimap.com/腹,japanesegraph.com/腹,"[""belly, stomach"", ""mind"", ""heart""]",body_part,false
+966,詞,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/詞,japanesegraph.com/詞,"[""word, part of speech"", ""lyrics"", ""speech""]",art_music,false
+967,裁,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/裁,japanesegraph.com/裁,"[""judge, cut cloth"", ""decision"", ""verdict""]",government_law,false
+968,訳,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n3,e6,thekanjimap.com/訳,japanesegraph.com/訳,"[""translate, reason"", ""meaning"", ""cause""]",communication,false
+969,砂,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n3,e6,thekanjimap.com/砂,japanesegraph.com/砂,"[""sand"", ""gravel"", ""grit""]",nature,false
+970,座,2026-07-11T13:13:41.91987+00:00,2026-07-11T13:13:41.91987+00:00,n3,e6,thekanjimap.com/座,japanesegraph.com/座,"[""seat, sit down"", ""constellation"", ""position""]",,false
+971,署,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/署,japanesegraph.com/署,"[""government office, station"", ""sign"", ""signature""]",government_law,false
+972,郷,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/郷,japanesegraph.com/郷,"[""hometown, village"", ""rural area"", ""native place""]",geography_place,false
+973,筋,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/筋,japanesegraph.com/筋,"[""muscle, sinew"", ""line"", ""plot"", ""reason""]",body_part,false
+974,肺,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/肺,japanesegraph.com/肺,"[""lung"", ""lungs""]",body_part,false
+975,盟,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/盟,japanesegraph.com/盟,"[""alliance, oath"", ""league"", ""pledge""]",government_law,false
+976,訪,2026-07-11T13:13:41.91987+00:00,2026-07-11T13:13:41.91987+00:00,n3,e6,thekanjimap.com/訪,japanesegraph.com/訪,"[""visit, call on"", ""inquire""]",,false
+977,磁,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/磁,japanesegraph.com/磁,"[""magnet, porcelain"", ""magnetic""]",technology,false
+978,映,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n3,e6,thekanjimap.com/映,japanesegraph.com/映,"[""reflect, project"", ""be becoming"", ""suit""]",art_music,false
+979,系,2026-07-11T13:13:41.91987+00:00,2026-07-11T13:13:41.91987+00:00,n2,e6,thekanjimap.com/系,japanesegraph.com/系,"[""system, lineage"", ""line"", ""series"", ""family""]",,false
+980,警,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/警,japanesegraph.com/警,"[""warn, police"", ""guard"", ""caution""]",government_law,false
+981,干,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/干,japanesegraph.com/干,"[""dry, drought"", ""interfere"", ""concern""]",weather,false
+982,頂,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/頂,japanesegraph.com/頂,"[""summit, top"", ""receive (humble)"", ""crown of head""]",nature,false
+983,装,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/装,japanesegraph.com/装,"[""dress, equip"", ""decorate"", ""pretend""]",clothing,false
+984,糖,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/糖,japanesegraph.com/糖,"[""sugar"", ""sweets"", ""candy""]",food,false
+985,覧,2026-07-11T13:13:41.91987+00:00,2026-07-11T13:13:41.91987+00:00,n2,e6,thekanjimap.com/覧,japanesegraph.com/覧,"[""look at, peruse"", ""see"", ""inspect""]",,false
+986,穴,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n3,e6,thekanjimap.com/穴,japanesegraph.com/穴,"[""hole, pit"", ""cave"", ""gap"", ""defect""]",nature,false
+987,郵,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n3,e6,thekanjimap.com/郵,japanesegraph.com/郵,"[""mail, postal"", ""post""]",communication,false
+988,担,2026-07-11T13:13:41.91987+00:00,2026-07-16T15:01:21.684616+00:00,n2,e6,thekanjimap.com/担,japanesegraph.com/担,"[""carry, bear"", ""be responsible for"", ""shoulder""]",work_occupation,false
+989,看,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/看,japanesegraph.com/看,"[""watch over, nurse"", ""look after"", ""observe""]",body_health,false
+990,認,2026-07-11T13:13:41.91987+00:00,2026-07-11T13:13:41.91987+00:00,n2,e6,thekanjimap.com/認,japanesegraph.com/認,"[""acknowledge, recognize"", ""approve"", ""admit""]",,false
+991,補,2026-07-11T13:13:41.91987+00:00,2026-07-16T15:01:21.684616+00:00,n2,e6,thekanjimap.com/補,japanesegraph.com/補,"[""supplement, assist"", ""fill"", ""make up for""]",work_occupation,false
+992,蒸,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/蒸,japanesegraph.com/蒸,"[""steam, evaporate"", ""sultry"", ""humid""]",weather,false
+993,呼,2026-07-11T13:13:41.91987+00:00,2026-07-16T15:01:21.684616+00:00,n3,e6,thekanjimap.com/呼,japanesegraph.com/呼,"[""call, summon"", ""breathe"", ""name""]",communication,false
+994,班,2026-07-11T13:13:41.91987+00:00,2026-07-11T13:13:41.91987+00:00,n2,e6,thekanjimap.com/班,japanesegraph.com/班,"[""group, squad"", ""team"", ""section""]",,false
+995,沿,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/沿,japanesegraph.com/沿,"[""along, follow (a river or road)"", ""coast"", ""border""]",geography_place,false
+996,納,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/納,japanesegraph.com/納,"[""supply, pay"", ""store"", ""accept""]",money_business,false
+997,縮,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/縮,japanesegraph.com/縮,"[""shrink, contract"", ""reduce"", ""compress""]",quantity_degree,false
+998,諸,2026-07-11T13:13:41.91987+00:00,2026-07-16T15:01:21.684616+00:00,n2,e6,thekanjimap.com/諸,japanesegraph.com/諸,"[""various, all"", ""many"", ""several""]",quantity_degree,false
+999,傷,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n3,e6,thekanjimap.com/傷,japanesegraph.com/傷,"[""wound, injury"", ""scratch"", ""damage""]",body_health,false
+1000,私,2026-07-11T13:13:41.91987+00:00,2026-07-11T13:13:41.91987+00:00,n5,e6,thekanjimap.com/私,japanesegraph.com/私,"[""I, me (first person)"", ""private"", ""personal""]",,false
+1001,皇,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/皇,japanesegraph.com/皇,"[""emperor, imperial"", ""sovereign"", ""imperial family""]",government_law,false
+1002,障,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/障,japanesegraph.com/障,"[""obstacle, hinder"", ""disability"", ""impediment""]",body_health,false
+1003,臨,2026-07-11T13:13:41.91987+00:00,2026-07-11T13:13:41.91987+00:00,n2,e6,thekanjimap.com/臨,japanesegraph.com/臨,"[""look down upon, attend"", ""face"", ""be present at""]",,false
+1004,鋼,2026-07-11T13:13:41.91987+00:00,2026-07-11T13:13:41.91987+00:00,n1,e6,thekanjimap.com/鋼,japanesegraph.com/鋼,"[""steel"", ""hard metal""]",,false
+1005,閣,2026-07-11T13:13:41.91987+00:00,2026-07-16T15:01:21.684616+00:00,n1,e6,thekanjimap.com/閣,japanesegraph.com/閣,"[""cabinet (government), tower"", ""palace"", ""lofty building""]",government_law,false
+1006,蚕,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n1,e6,thekanjimap.com/蚕,japanesegraph.com/蚕,"[""silkworm"", ""sericulture""]",animal,false
+1007,秘,2026-07-11T13:13:41.91987+00:00,2026-07-11T13:13:41.91987+00:00,n2,e6,thekanjimap.com/秘,japanesegraph.com/秘,"[""secret, conceal"", ""mysterious"", ""hidden""]",,false
+1008,吸,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n3,e6,thekanjimap.com/吸,japanesegraph.com/吸,"[""suck, inhale"", ""absorb"", ""breathe in""]",body_health,false
+1009,刻,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/刻,japanesegraph.com/刻,"[""engrave, carve"", ""time"", ""moment""]",time_date,false
+1010,至,2026-07-11T13:13:41.91987+00:00,2026-07-16T15:01:21.684616+00:00,n2,e6,thekanjimap.com/至,japanesegraph.com/至,"[""reach, arrive at"", ""extreme"", ""utmost""]",quantity_degree,false
+1011,窓,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n4,e6,thekanjimap.com/窓,japanesegraph.com/窓,"[""window"", ""opening"", ""porthole""]",building_place,false
+1012,除,2026-07-11T13:13:41.91987+00:00,2026-07-16T15:01:21.684616+00:00,n2,e6,thekanjimap.com/除,japanesegraph.com/除,"[""exclude, remove"", ""except"", ""division (math)""]",number,false
+1013,探,2026-07-11T13:13:41.91987+00:00,2026-07-11T13:13:41.91987+00:00,n3,e6,thekanjimap.com/探,japanesegraph.com/探,"[""search, seek"", ""explore"", ""investigate""]",,false
+1014,蔵,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n2,e6,thekanjimap.com/蔵,japanesegraph.com/蔵,"[""storehouse, possess"", ""warehouse"", ""treasury""]",building_place,false
+1015,陛,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n1,e6,thekanjimap.com/陛,japanesegraph.com/陛,"[""steps to throne, Your Majesty"", ""imperial""]",government_law,false
+1016,骨,2026-07-11T13:13:41.91987+00:00,2026-07-13T23:15:38.60052+00:00,n3,e6,thekanjimap.com/骨,japanesegraph.com/骨,"[""bone"", ""effort"", ""framework""]",body_part,false
+1017,盛,2026-07-11T13:13:41.91987+00:00,2026-07-11T13:13:41.91987+00:00,n2,e6,thekanjimap.com/盛,japanesegraph.com/盛,"[""prosper, flourish"", ""heap up"", ""fill""]",,false
+1018,片,2026-07-11T13:13:41.91987+00:00,2026-07-11T13:13:41.91987+00:00,n3,e6,thekanjimap.com/片,japanesegraph.com/片,"[""one side, fragment"", ""piece"", ""one of a pair""]",,false
+1019,乱,2026-07-11T13:13:41.91987+00:00,2026-07-16T15:01:21.684616+00:00,n2,e6,thekanjimap.com/乱,japanesegraph.com/乱,"[""disorder, chaos"", ""disturb"", ""riot""]",military,false
+1020,垂,2026-07-11T13:13:41.91987+00:00,2026-07-11T13:13:41.91987+00:00,n2,e6,thekanjimap.com/垂,japanesegraph.com/垂,"[""hang down, droop"", ""let fall"", ""dangle""]",,false

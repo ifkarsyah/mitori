@@ -2,14 +2,13 @@ import { NavLink } from 'react-router'
 import { cn } from '@/lib/utils'
 import { LanguageToggle } from '@/components/layout/LanguageToggle'
 import { useLanguage } from '@/features/language/useLanguage'
-import { hasKanji } from '@/features/language/languages'
 
 const links = [
   { to: '/', label: 'Overview', end: true },
   { to: '/kanji', label: 'Kanji', japaneseOnly: true },
   { to: '/kotoba', label: 'Kotoba' },
   { to: '/concept', label: 'Concept' },
-  { to: '/context', label: 'Context' },
+  { to: '/category', label: 'Category' },
   { to: '/source', label: 'Source' },
   { to: '/sentences', label: 'Sentences' },
   { to: '/grammar', label: 'Grammar' },
@@ -18,8 +17,11 @@ const links = [
 ]
 
 export function NavBar() {
-  const { language } = useLanguage()
-  const visibleLinks = links.filter((link) => !link.japaneseOnly || hasKanji(language))
+  const { current } = useLanguage()
+  // The kanji table holds Japanese kanji specifically (JLPT, school grade).
+  // Chinese also has has_characters, but sharing a Han character layer between
+  // them is a later step — until then this is a Japanese-only feature.
+  const visibleLinks = links.filter((link) => !link.japaneseOnly || current?.script === 'japanese')
 
   return (
     <header className="border-b">

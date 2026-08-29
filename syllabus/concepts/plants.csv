@@ -1,0 +1,15 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+pla-plant,plant,noun,1,1444,植物.
+pla-tree,tree,noun,1,,
+pla-flower,flower,noun,1,323,花.
+pla-grass,grass,noun,2,,
+pla-leaf,leaf,noun,1,608,葉.
+pla-branch,branch (of a tree),noun,3,,
+pla-root,root,noun,3,,
+pla-seed,seed,noun,2,,
+pla-forest,forest,noun,1,,
+pla-cherry-blossom,cherry blossom,noun,2,910,桜.
+pla-autumn-leaves,autumn leaves,noun,3,409,紅葉.
+pla-to-plant,to plant,verb,2,313,植える.
+pla-to-grow,to grow (of a plant),verb,2,,
+pla-to-scatter,to scatter (petals),verb,3,1417,散る.

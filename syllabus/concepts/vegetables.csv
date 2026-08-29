@@ -1,0 +1,16 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+veg-vegetables,vegetables,noun,1,1158,野菜.
+veg-onion,onion,noun,1,1326,玉ねぎ.
+veg-potato,potato,noun,1,,
+veg-carrot,carrot,noun,1,,
+veg-tomato,tomato,noun,1,,
+veg-cabbage,cabbage,noun,2,,
+veg-cucumber,cucumber,noun,2,,
+veg-lettuce,lettuce,noun,2,,
+veg-spinach,spinach,noun,3,,
+veg-corn,sweetcorn,noun,2,,
+veg-pepper-veg,pepper (vegetable),noun,3,,Distinct from the spice.
+veg-bean,bean,noun,2,438,豆.
+veg-mushroom,mushroom,noun,2,822,きのこ.
+veg-garlic,garlic,noun,2,970,"Existing concept merges ガーリック and にんにく already."
+veg-ginger,ginger,noun,3,,

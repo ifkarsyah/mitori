@@ -1,0 +1,34 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+sub-subject,school subject,noun,1,,
+sub-maths,mathematics,noun,1,25,数学.
+sub-arithmetic,arithmetic,noun,2,1367,算数.
+sub-science-subject,science (school subject),noun,1,891,理科.
+sub-science,science,noun,1,1354,科学.
+sub-chemistry,chemistry,noun,2,883,化学.
+sub-physics,physics,noun,2,,
+sub-biology,biology,noun,2,,
+sub-history,history,noun,1,747,歴史.
+sub-geography-subject,geography,noun,2,,
+sub-literature,literature,noun,2,1064,古典 — existing concept is classical literature.
+sub-art-subject,art,noun,1,1186,美術.
+sub-music,music,noun,1,469,音楽.
+sub-pe,physical education,noun,2,848,体育.
+sub-education,education,noun,1,125,教育.
+sub-class,class,noun,1,727;107,"Merges 学級 (727) and 教室 (107)."
+sub-lesson,lesson,noun,1,,
+sub-to-study,to study,verb,1,1400;64,"Merges 勉強 (1400) and 学ぶ (64)."
+sub-to-learn-from,to take lessons in,verb,2,647,習う.
+sub-to-graduate,to graduate,verb,1,619,卒業する.
+sub-university-student,university student,noun,1,979,学生.
+sub-pupil,pupil,noun,1,1277,生徒 — German distinguishes Student from Schüler.
+sub-term,term,noun,2,,
+sub-summer-holidays,summer holidays,noun,1,1371,夏休み.
+sub-winter-holidays,winter holidays,noun,2,1157,冬休み.
+sub-spring-holidays,spring holidays,noun,2,1173,春休み.
+sub-after-school,after school,adverb,2,714,放課後.
+sub-club-activity,club activity,noun,2,265,部活.
+sub-school-trip,school trip,noun,3,75,遠足.
+sub-entrance-ceremony,entrance ceremony,noun,3,14,入学式.
+sub-commute-school,commuting to school,noun,3,30,通学.
+sub-preparation-class,lesson preparation,noun,3,1372,予習.
+sub-memorisation,memorisation,noun,2,1426,暗記.

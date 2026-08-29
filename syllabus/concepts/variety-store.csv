@@ -1,0 +1,7 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+var-hundred-yen-shop,pound shop,noun,2,,"Japanese 100円ショップ; the German equivalent is a 1-Euro-Laden."
+var-makeup,make-up,noun,1,315,化粧.
+var-hair-care,hair care,noun,2,56,ヘアケア.
+var-interior-decor,interior decor,noun,2,1182,インテリア.
+var-gift,gift,noun,1,1305,ギフト.
+var-wrapping,gift wrapping,noun,2,,

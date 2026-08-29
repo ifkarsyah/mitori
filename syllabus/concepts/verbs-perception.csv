@@ -1,0 +1,14 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+vpe-to-see,to see,verb,1,991,見る.
+vpe-to-look-at,to look at,verb,1,,
+vpe-to-watch,to watch,verb,1,,
+vpe-to-be-visible,to be visible,verb,2,290,見える.
+vpe-to-show,to show,verb,1,888,見せる.
+vpe-to-hear,to hear,verb,1,,
+vpe-to-be-audible,to be audible,verb,2,1309,聞こえる.
+vpe-to-smell,to smell,verb,2,,
+vpe-smell-noun,smell,noun,2,,
+vpe-to-taste,to taste,verb,2,,
+vpe-to-touch,to touch,verb,1,,
+vpe-to-reflect,to reflect,verb,3,946,映す (transitive).
+vpe-to-be-reflected,to be reflected,verb,3,1207,映る (intransitive).

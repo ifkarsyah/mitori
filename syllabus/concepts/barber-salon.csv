@@ -1,0 +1,12 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+bar-haircut,haircut,noun,1,918,散髪.
+bar-to-cut-hair,to cut (hair),noun,1,262,カット.
+bar-trim,trim,noun,2,1331,短め.
+bar-fringe,fringe,noun,2,296,前髪.
+bar-hair-wash,hair wash,noun,2,255,洗髪.
+bar-shave,shave,noun,2,163,髭剃り.
+bar-beard,beard,noun,2,,
+bar-styling-product,styling product,noun,3,866,整髪料.
+bar-finishing,finishing touches,noun,3,264,仕上げ.
+bar-hair-length,hair length,noun,2,,
+bar-appointment-salon,salon appointment,noun,2,,

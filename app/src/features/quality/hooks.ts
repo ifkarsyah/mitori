@@ -2,12 +2,12 @@ import { useMemo } from 'react'
 import { useKanjiList } from '@/features/kanji/hooks'
 import { useKotobaList, useSentenceKotobaList, useSentencesList, useWordKanjiList } from '@/features/kotoba/hooks'
 import { useLanguage } from '@/features/language/useLanguage'
-import { hasKanji } from '@/features/language/languages'
 import { kanjiCompleteness, kotobaCompleteness, sentenceCompleteness, structuralChecks } from './stats'
 
 export function useQualityStats() {
-  const { language } = useLanguage()
-  const includeKanji = hasKanji(language)
+  const { current } = useLanguage()
+  // Japanese-only: see the note in NavBar about the shared character layer.
+  const includeKanji = current?.script === 'japanese'
   const kotobaQuery = useKotobaList()
   const kanjiQuery = useKanjiList()
   const sentencesQuery = useSentencesList()

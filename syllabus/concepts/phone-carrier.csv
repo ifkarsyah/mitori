@@ -1,0 +1,11 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+pho-tariff,tariff,noun,1,961,プラン.
+pho-data-allowance,data allowance,noun,1,,
+pho-sim-card,SIM card,noun,1,,
+pho-roaming,roaming,noun,2,,
+pho-coverage,coverage,noun,2,,
+pho-monthly-fee,monthly charge,noun,1,,
+pho-top-up,top-up credit,noun,2,,
+pho-contract-length,minimum term,noun,2,,
+pho-to-cancel,to cancel,verb,1,1161,解除.
+pho-provider,provider,noun,1,1232,提供 — existing concept is the provision itself.

@@ -3,23 +3,23 @@ import type { EnrichedSentence } from './hooks'
 export const UNCLASSIFIED = '__unclassified__'
 export const ALL = '__all__'
 
-export type SentenceGroupBy = 'none' | 'jlpt' | 'part_of_speech' | 'kana_type' | 'context'
+export type SentenceGroupBy = 'none' | 'level' | 'part_of_speech' | 'kana_type' | 'category'
 
 export type SentenceFilterState = {
   search: string
-  jlpt: string
+  level: string
   partOfSpeech: string
   kanaType: string
-  context: string
+  category: string
   groupBy: SentenceGroupBy
 }
 
 export const defaultSentenceFilterState: SentenceFilterState = {
   search: '',
-  jlpt: ALL,
+  level: ALL,
   partOfSpeech: ALL,
   kanaType: ALL,
-  context: ALL,
+  category: ALL,
   groupBy: 'none',
 }
 
@@ -35,10 +35,10 @@ export function applySentenceFilters(
 ): EnrichedSentence[] {
   const search = filters.search.trim().toLowerCase()
   return rows.filter((row) => {
-    if (!matchesSingleSelect(row.jlpt, filters.jlpt)) return false
+    if (!matchesSingleSelect(row.level, filters.level)) return false
     if (!matchesSingleSelect(row.partOfSpeech, filters.partOfSpeech)) return false
     if (!matchesSingleSelect(row.kanaType, filters.kanaType)) return false
-    if (!matchesSingleSelect(row.context, filters.context)) return false
+    if (!matchesSingleSelect(row.category, filters.category)) return false
     if (search) {
       const haystack = [row.sentence, row.meaning, row.word, row.wordReading]
         .filter(Boolean)
@@ -53,7 +53,7 @@ export function applySentenceFilters(
 const JLPT_ORDER = ['n5', 'n4', 'n3', 'n2', 'n1']
 const KANA_TYPE_ORDER = ['kanji', 'hiragana', 'katakana']
 
-export function jlptLabel(value: string): string {
+export function levelLabel(value: string): string {
   if (value === UNCLASSIFIED) return 'Unclassified (no JLPT level)'
   return value.toUpperCase()
 }
@@ -68,7 +68,7 @@ export function kanaTypeLabel(value: string): string {
   return value.charAt(0).toUpperCase() + value.slice(1)
 }
 
-export function contextLabel(value: string): string {
+export function categoryLabel(value: string): string {
   if (value === UNCLASSIFIED) return 'Unclassified (no context)'
   return value
 }
@@ -117,17 +117,17 @@ export function groupSentencesBy(
   let labelFor: (key: string) => string
   let sortedKeys: string[]
 
-  if (groupBy === 'jlpt') {
-    buckets = groupByKey(rows, (row) => row.jlpt)
-    labelFor = jlptLabel
+  if (groupBy === 'level') {
+    buckets = groupByKey(rows, (row) => row.level)
+    labelFor = levelLabel
     sortedKeys = sortByDomainOrder([...buckets.keys()], JLPT_ORDER)
   } else if (groupBy === 'part_of_speech') {
     buckets = groupByKey(rows, (row) => row.partOfSpeech)
     labelFor = partOfSpeechLabel
     sortedKeys = sortWithUnclassifiedLast([...buckets.keys()])
-  } else if (groupBy === 'context') {
-    buckets = groupByKey(rows, (row) => row.context)
-    labelFor = contextLabel
+  } else if (groupBy === 'category') {
+    buckets = groupByKey(rows, (row) => row.category)
+    labelFor = categoryLabel
     sortedKeys = sortWithUnclassifiedLast([...buckets.keys()])
   } else {
     buckets = groupByKey(rows, (row) => row.kanaType)
@@ -144,10 +144,10 @@ export function groupSentencesBy(
 
 export function distinctFieldValues(
   rows: EnrichedSentence[],
-  field: 'jlpt' | 'partOfSpeech' | 'kanaType' | 'context',
+  field: 'level' | 'partOfSpeech' | 'kanaType' | 'category',
 ): string[] {
   const present = new Set(rows.map((row) => row[field] ?? UNCLASSIFIED))
-  if (field === 'jlpt') return sortByDomainOrder([...present], JLPT_ORDER)
+  if (field === 'level') return sortByDomainOrder([...present], JLPT_ORDER)
   if (field === 'kanaType') return sortByDomainOrder([...present], KANA_TYPE_ORDER)
   return sortWithUnclassifiedLast([...present])
 }

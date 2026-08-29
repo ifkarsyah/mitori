@@ -1,0 +1,7 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+fst-showroom,showroom,noun,2,,
+fst-flat-pack,flat-pack,adjective,3,1006,折りたたみ — existing concept is folding.
+fst-assembly,assembly,noun,2,,
+fst-delivery-furniture,delivery (of goods),noun,1,484,"配達. Qualified — 配信 (859) already holds the plain gloss for digital distribution."
+fst-measurement,measurement,noun,2,,
+fst-lighting-shop,light fitting,noun,3,,

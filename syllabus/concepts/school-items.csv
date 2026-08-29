@@ -1,0 +1,20 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+sch-pencil,pencil,noun,1,,Absent today.
+sch-pen,pen,noun,1,,
+sch-fountain-pen,fountain pen,noun,3,1125,万年筆.
+sch-brush,writing brush,noun,3,1345,筆.
+sch-eraser,eraser,noun,1,,Absent today.
+sch-notebook,notebook,noun,1,,"Absent; 手帳 (23) is a pocket diary, not a school notebook."
+sch-paper,paper,noun,1,997,紙.
+sch-ruler,ruler,noun,2,,
+sch-schoolbag,school bag,noun,2,,
+sch-stationery,stationery,noun,2,47,文具.
+sch-blackboard,blackboard,noun,2,1307,黒板.
+sch-chalk,chalk,noun,3,,
+sch-homework,homework,noun,1,890,宿題.
+sch-assignment,assignment,noun,2,1301,課題.
+sch-exam,exam,noun,1,376,試験.
+sch-to-sit-exam,to sit an exam,verb,2,584,受験.
+sch-score,score,noun,1,543,点数.
+sch-full-marks,full marks,noun,3,472,満点.
+sch-credit,credit (academic),noun,3,876,単位.

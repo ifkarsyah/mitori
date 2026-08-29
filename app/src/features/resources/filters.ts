@@ -3,13 +3,13 @@ import type { Resource } from './api'
 export const UNCLASSIFIED = '__unclassified__'
 export const ALL = '__all__'
 
-export type ResourceGroupBy = 'none' | 'channel' | 'category' | 'context'
+export type ResourceGroupBy = 'none' | 'channel' | 'category' | 'topic'
 
 export type ResourceFilterState = {
   search: string
   channelId: string
   category: string
-  contextId: string
+  topicId: string
   groupBy: ResourceGroupBy
 }
 
@@ -17,7 +17,7 @@ export const defaultResourceFilterState: ResourceFilterState = {
   search: '',
   channelId: ALL,
   category: ALL,
-  contextId: ALL,
+  topicId: ALL,
   groupBy: 'none',
 }
 
@@ -33,8 +33,8 @@ export function applyResourceFilters(rows: Resource[], filters: ResourceFilterSt
     const channelKey = row.channel_id != null ? String(row.channel_id) : null
     if (!matchesSingleSelect(channelKey, filters.channelId)) return false
     if (!matchesSingleSelect(row.category, filters.category)) return false
-    const contextKey = row.context_id != null ? String(row.context_id) : null
-    if (!matchesSingleSelect(contextKey, filters.contextId)) return false
+    const contextKey = row.category_id != null ? String(row.category_id) : null
+    if (!matchesSingleSelect(contextKey, filters.topicId)) return false
     if (search && !row.title.toLowerCase().includes(search)) return false
     return true
   })
@@ -59,9 +59,9 @@ export function categoryLabel(value: string): string {
     .join(' ')
 }
 
-export function contextLabel(value: string, contextNameById: Map<number, string>): string {
+export function topicLabel(value: string, categoryNameById: Map<number, string>): string {
   if (value === UNCLASSIFIED) return 'Unclassified (no context)'
-  return contextNameById.get(Number(value)) ?? value
+  return categoryNameById.get(Number(value)) ?? value
 }
 
 export type ResourceGroup = { key: string; label: string; rows: Resource[] }
@@ -84,7 +84,7 @@ export function groupResourcesBy(
   rows: Resource[],
   groupBy: ResourceGroupBy,
   channelNameById: Map<number, string>,
-  contextNameById: Map<number, string>,
+  categoryNameById: Map<number, string>,
 ): ResourceGroup[] {
   if (groupBy === 'none') {
     return [{ key: 'all', label: 'All resources', rows }]
@@ -100,8 +100,8 @@ export function groupResourcesBy(
     buckets = groupByKey(rows, (row) => row.category)
     labelFor = categoryLabel
   } else {
-    buckets = groupByKey(rows, (row) => (row.context_id != null ? String(row.context_id) : null))
-    labelFor = (key) => contextLabel(key, contextNameById)
+    buckets = groupByKey(rows, (row) => (row.category_id != null ? String(row.category_id) : null))
+    labelFor = (key) => topicLabel(key, categoryNameById)
   }
 
   const sortedKeys = sortWithUnclassifiedLast([...buckets.keys()])
@@ -120,9 +120,9 @@ export function distinctCategories(rows: Resource[]): string[] {
   return sortWithUnclassifiedLast([...present])
 }
 
-export function distinctContextIds(rows: Resource[]): string[] {
+export function distinctTopicIds(rows: Resource[]): string[] {
   const present = new Set(
-    rows.map((row) => (row.context_id != null ? String(row.context_id) : UNCLASSIFIED)),
+    rows.map((row) => (row.category_id != null ? String(row.category_id) : UNCLASSIFIED)),
   )
   return sortWithUnclassifiedLast([...present])
 }

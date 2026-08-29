@@ -1,0 +1,37 @@
+id,name,created_at,Description,kind
+1,Konbini,2026-06-28T04:56:09.351121+00:00,"7-11, Lawson, Family Mart",concrete
+2,Station,2026-06-28T04:56:20.811134+00:00,"Train Station, Bus Station",concrete
+3,Clothing Store,2026-06-28T04:56:43.495049+00:00,"Uniqlo, GU, Rakuten Fashion",concrete
+4,Electronic Store,2026-06-28T04:57:20.468688+00:00,"Bic Camera, Yamada Denki",concrete
+5,Groceries Store,2026-06-28T04:59:05.478339+00:00,"Gyomu Super, OK Store",concrete
+6,Barber Shop,2026-06-28T04:59:21.088373+00:00,"QB House, Iwasaki",concrete
+7,Restaurant,2026-06-28T05:02:04.800942+00:00,"Sukiya, Ootoya, Matsuya",concrete
+8,School,2026-07-11T23:32:25.558192+00:00,,concrete
+9,Hospital / Clinic,2026-07-11T23:32:25.558192+00:00,,concrete
+10,Family / Home,2026-07-11T23:32:25.558192+00:00,,concrete
+11,Government & Administration,2026-07-11T23:32:25.558192+00:00,,concrete
+12,Travel,2026-07-11T23:32:25.558192+00:00,"airport, hiking",concrete
+13,Time / Date,2026-07-11T23:39:58.678784+00:00,,abstract
+14,Weather / Nature,2026-07-11T23:39:58.678784+00:00,,abstract
+15,Emotion / Feeling,2026-07-11T23:39:58.678784+00:00,,abstract
+16,Color,2026-07-11T23:39:58.678784+00:00,,abstract
+17,Body,2026-07-11T23:39:58.678784+00:00,,abstract
+18,Animal,2026-07-11T23:39:58.678784+00:00,,abstract
+19,Number / Quantity,2026-07-11T23:39:58.678784+00:00,,abstract
+20,Movement,2026-07-11T23:51:49.924426+00:00,,abstract
+21,Size / Measurement,2026-07-11T23:51:49.924426+00:00,,abstract
+22,Direction / Position,2026-07-11T23:51:49.924426+00:00,,abstract
+23,Money / Shopping,2026-07-11T23:51:49.924426+00:00,,abstract
+24,Communication,2026-07-11T23:51:49.924426+00:00,,abstract
+25,Business / Work,2026-07-11T23:51:49.924426+00:00,,abstract
+26,Cognitive,2026-07-11T23:51:49.924426+00:00,,abstract
+27,Sports / Activity,2026-07-11T23:51:49.924426+00:00,,abstract
+28,Comparison / Degree,2026-07-11T23:51:49.924426+00:00,,abstract
+29,Social Media & Apps,2026-07-12T04:44:23.746693+00:00,,concrete
+30,Housing & Real Estate,2026-07-12T04:44:23.746693+00:00,,concrete
+31,E-commerce,2026-07-12T04:44:23.746693+00:00,,concrete
+32,Phone & Mobile Carrier,2026-07-12T04:44:23.746693+00:00,,concrete
+33,Finance & Banking,2026-07-12T04:44:23.746693+00:00,,concrete
+34,Drugstore,2026-07-12T04:44:23.746693+00:00,,concrete
+35,Furniture Store,2026-07-12T04:44:23.746693+00:00,,concrete
+36,Variety Store (100-yen Shop),2026-07-12T04:44:23.746693+00:00,,concrete

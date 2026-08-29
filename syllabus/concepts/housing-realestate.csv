@@ -1,0 +1,33 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+hre-rent,rent,noun,1,306;793,"Merges 賃料 (306) and 家賃 (793)."
+hre-deposit,security deposit,noun,1,1370,敷金.
+hre-key-money,key money,noun,3,1427,礼金 — a Japanese rental practice with no German equivalent.
+hre-renewal-fee,renewal fee,noun,3,790,更新料.
+hre-agent-fee,agency fee,noun,2,966,仲介手数料.
+hre-initial-costs,initial costs,noun,2,1315,初期費用.
+hre-guarantor,guarantor,noun,2,61,保証人.
+hre-guarantor-company,guarantor company,noun,3,1069,保証会社.
+hre-tenancy-contract,tenancy agreement,noun,1,,See off-contract for contracts generally.
+hre-landlord,landlord,noun,1,,
+hre-tenant,tenant,noun,1,,
+hre-estate-agent,estate agent,noun,1,,
+hre-real-estate,real estate,noun,1,134,不動産.
+hre-property,property,noun,1,936,物件.
+hre-viewing,property viewing,noun,1,263;1024,"Merges 内覧 (263) and 見学 (1024)."
+hre-floor-plan,floor plan,noun,1,995,間取り.
+hre-exclusive-area,floor area (exclusive),noun,3,761,専有面積.
+hre-building-age,building age,noun,2,1373,築年数.
+hre-newly-built,newly built,adjective,2,916,新築.
+hre-detached-house,detached house,noun,2,1175,一戸建て.
+hre-apartment,flat (rented),noun,1,1368,アパート.
+hre-condominium,owned flat,noun,2,1456,マンション.
+hre-share-house,house share,noun,2,1201,シェアハウス.
+hre-all-rooms,all rooms,noun,3,940,全室.
+hre-facilities,facilities,noun,2,474;629,"Merges 設備 (474) and 施設 (629)."
+hre-rental,letting,noun,2,880,賃貸.
+hre-housing,housing,noun,1,871,住宅.
+hre-moving-in,moving in,noun,1,1,入居.
+hre-asset-value,asset value,noun,3,442,資産価値.
+hre-wooden-construction,timber construction,noun,3,237,木造.
+hre-minutes-from-station,minutes from the station,noun,3,831,駅徒歩 — a Japanese listing convention.
+hre-utilities,utilities,noun,1,,

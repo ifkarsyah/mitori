@@ -11,7 +11,7 @@ export async function fetchResourceList(language: Language): Promise<Resource[]>
     supabase
       .from('resource')
       .select(
-        'id, channel_id, title, url, category, context_id, created_at, updated_at, transcript, is_transcript_complete, language',
+        'id, channel_id, title, url, category, category_id, created_at, updated_at, transcript, is_transcript_complete, language',
       )
       .eq('language', language)
       .order('id')

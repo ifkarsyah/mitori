@@ -17,7 +17,6 @@ export type Database = {
       captures: {
         Row: {
           captured_at: string
-          context_id: number | null
           id: number
           image_url: string | null
           parsed_at: string | null
@@ -25,7 +24,6 @@ export type Database = {
         }
         Insert: {
           captured_at: string
-          context_id?: number | null
           id?: number
           image_url?: string | null
           parsed_at?: string | null
@@ -33,66 +31,89 @@ export type Database = {
         }
         Update: {
           captured_at?: string
-          context_id?: number | null
           id?: number
           image_url?: string | null
           parsed_at?: string | null
           raw_text?: string | null
         }
         Relationships: [
+        ]
+      }
+      category: {
+        Row: {
+          created_at: string
+          id: number
+          kind: string
+          name: string
+          parent_id: number | null
+          slug: string
+          sort_order: number
+        }
+        Insert: {
+          created_at?: string
+          id?: number
+          kind: string
+          name: string
+          parent_id?: number | null
+          slug: string
+          sort_order?: number
+        }
+        Update: {
+          created_at?: string
+          id?: number
+          kind?: string
+          name?: string
+          parent_id?: number | null
+          slug?: string
+          sort_order?: number
+        }
+        Relationships: [
           {
-            foreignKeyName: "captures_context_id_fkey"
-            columns: ["context_id"]
+            foreignKeyName: "category_parent_id_fkey"
+            columns: ["parent_id"]
             isOneToOne: false
-            referencedRelation: "context"
+            referencedRelation: "category"
             referencedColumns: ["id"]
           },
         ]
       }
       concept: {
         Row: {
+          category_id: number | null
           created_at: string
           gloss: string
           id: number
           part_of_speech: string | null
+          slug: string | null
+          tier: number | null
         }
         Insert: {
+          category_id?: number | null
           created_at?: string
           gloss: string
           id?: number
           part_of_speech?: string | null
+          slug?: string | null
+          tier?: number | null
         }
         Update: {
+          category_id?: number | null
           created_at?: string
           gloss?: string
           id?: number
           part_of_speech?: string | null
+          slug?: string | null
+          tier?: number | null
         }
-        Relationships: []
-      }
-      context: {
-        Row: {
-          created_at: string
-          Description: string | null
-          id: number
-          kind: string
-          name: string | null
-        }
-        Insert: {
-          created_at?: string
-          Description?: string | null
-          id?: number
-          kind: string
-          name?: string | null
-        }
-        Update: {
-          created_at?: string
-          Description?: string | null
-          id?: number
-          kind?: string
-          name?: string | null
-        }
-        Relationships: []
+        Relationships: [
+          {
+            foreignKeyName: "concept_category_id_fkey"
+            columns: ["category_id"]
+            isOneToOne: false
+            referencedRelation: "category"
+            referencedColumns: ["id"]
+          },
+        ]
       }
       grammar_point: {
         Row: {
@@ -177,16 +198,14 @@ export type Database = {
       }
       kotoba: {
         Row: {
-          cefr: string | null
           concept_id: number | null
-          context_id: number | null
           created_at: string
           gender: string | null
           id: number
-          jlpt: string | null
           kana_type: string | null
           language: string
           learned: boolean
+          level: string | null
           meanings: string[]
           part_of_speech: string | null
           plural: string | null
@@ -197,16 +216,14 @@ export type Database = {
           word: string
         }
         Insert: {
-          cefr?: string | null
           concept_id?: number | null
-          context_id?: number | null
           created_at?: string
           gender?: string | null
           id?: number
-          jlpt?: string | null
           kana_type?: string | null
           language?: string
           learned?: boolean
+          level?: string | null
           meanings: string[]
           part_of_speech?: string | null
           plural?: string | null
@@ -217,16 +234,14 @@ export type Database = {
           word: string
         }
         Update: {
-          cefr?: string | null
           concept_id?: number | null
-          context_id?: number | null
           created_at?: string
           gender?: string | null
           id?: number
-          jlpt?: string | null
           kana_type?: string | null
           language?: string
           learned?: boolean
+          level?: string | null
           meanings?: string[]
           part_of_speech?: string | null
           plural?: string | null
@@ -251,20 +266,52 @@ export type Database = {
             referencedRelation: "source"
             referencedColumns: ["id"]
           },
-          {
-            foreignKeyName: "words_context_id_fkey"
-            columns: ["context_id"]
-            isOneToOne: false
-            referencedRelation: "context"
-            referencedColumns: ["id"]
-          },
         ]
+      }
+      language: {
+        Row: {
+          code: string
+          created_at: string
+          direction: string
+          has_characters: boolean
+          has_gender: boolean
+          has_reading: boolean
+          level_system: string | null
+          name: string
+          script: string
+          sort_order: number
+        }
+        Insert: {
+          code: string
+          created_at?: string
+          direction?: string
+          has_characters?: boolean
+          has_gender?: boolean
+          has_reading?: boolean
+          level_system?: string | null
+          name: string
+          script: string
+          sort_order?: number
+        }
+        Update: {
+          code?: string
+          created_at?: string
+          direction?: string
+          has_characters?: boolean
+          has_gender?: boolean
+          has_reading?: boolean
+          level_system?: string | null
+          name?: string
+          script?: string
+          sort_order?: number
+        }
+        Relationships: []
       }
       resource: {
         Row: {
           category: string | null
+          category_id: number | null
           channel_id: number | null
-          context_id: number | null
           created_at: string
           id: number
           is_transcript_complete: boolean
@@ -276,8 +323,8 @@ export type Database = {
         }
         Insert: {
           category?: string | null
+          category_id?: number | null
           channel_id?: number | null
-          context_id?: number | null
           created_at?: string
           id?: number
           is_transcript_complete?: boolean
@@ -289,8 +336,8 @@ export type Database = {
         }
         Update: {
           category?: string | null
+          category_id?: number | null
           channel_id?: number | null
-          context_id?: number | null
           created_at?: string
           id?: number
           is_transcript_complete?: boolean
@@ -306,13 +353,6 @@ export type Database = {
             columns: ["channel_id"]
             isOneToOne: false
             referencedRelation: "resource_channel"
-            referencedColumns: ["id"]
-          },
-          {
-            foreignKeyName: "resource_context_id_fkey"
-            columns: ["context_id"]
-            isOneToOne: false
-            referencedRelation: "context"
             referencedColumns: ["id"]
           },
         ]
@@ -388,7 +428,7 @@ export type Database = {
       }
       sentences: {
         Row: {
-          context_id: number | null
+          category_id: number | null
           created_at: string
           id: number
           language: string
@@ -398,7 +438,7 @@ export type Database = {
           word_id: number | null
         }
         Insert: {
-          context_id?: number | null
+          category_id?: number | null
           created_at?: string
           id?: number
           language?: string
@@ -408,7 +448,7 @@ export type Database = {
           word_id?: number | null
         }
         Update: {
-          context_id?: number | null
+          category_id?: number | null
           created_at?: string
           id?: number
           language?: string
@@ -418,13 +458,6 @@ export type Database = {
           word_id?: number | null
         }
         Relationships: [
-          {
-            foreignKeyName: "sentences_context_id_fkey"
-            columns: ["context_id"]
-            isOneToOne: false
-            referencedRelation: "context"
-            referencedColumns: ["id"]
-          },
           {
             foreignKeyName: "sentences_word_id_fkey"
             columns: ["word_id"]
@@ -436,34 +469,27 @@ export type Database = {
       }
       source: {
         Row: {
-          context_id: number | null
+          category_id: number | null
           created_at: string
           id: number
           name: string
           url: string | null
         }
         Insert: {
-          context_id?: number | null
+          category_id?: number | null
           created_at?: string
           id?: number
           name: string
           url?: string | null
         }
         Update: {
-          context_id?: number | null
+          category_id?: number | null
           created_at?: string
           id?: number
           name?: string
           url?: string | null
         }
         Relationships: [
-          {
-            foreignKeyName: "source_context_id_fkey"
-            columns: ["context_id"]
-            isOneToOne: false
-            referencedRelation: "context"
-            referencedColumns: ["id"]
-          },
         ]
       }
       word_kanji: {

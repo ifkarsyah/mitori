@@ -1,0 +1,34 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+geo-nature,nature,noun,1,897,自然.
+geo-mountain,mountain,noun,1,,"Absent today, though 登山 (600) and 高原 (1364) exist."
+geo-hill,hill,noun,2,444,坂.
+geo-valley,valley,noun,2,102,谷.
+geo-valley-floor,valley floor,noun,3,571,谷底.
+geo-plateau,plateau,noun,3,1364,高原.
+geo-river,river,noun,1,638,河川.
+geo-lake,lake,noun,1,488,湖.
+geo-pond,pond,noun,2,1359,池.
+geo-sea,sea,noun,1,1285,海.
+geo-ocean,ocean,noun,2,234,太平洋 — existing concept is the Pacific specifically.
+geo-wave,wave,noun,2,266,波.
+geo-tide,tide,noun,3,864,干潮 — existing concept is low tide.
+geo-coast,coast,noun,2,1094,沿岸.
+geo-beach,beach,noun,1,1414,海岸.
+geo-island,island,noun,1,,
+geo-archipelago,archipelago,noun,3,710,群島.
+geo-peninsula,peninsula,noun,3,1348,半島.
+geo-desert,desert,noun,2,,
+geo-field-meadow,meadow,noun,2,1236,野原.
+geo-farmland,farmland,noun,2,1087,畑.
+geo-rock,rock,noun,2,1203,岩.
+geo-stone,stone,noun,2,,
+geo-sand,sand,noun,2,,
+geo-soil,soil,noun,3,,
+geo-sky,sky,noun,1,,Absent today.
+geo-earth,earth,noun,1,1198,地球.
+geo-world,world,noun,1,1450,世界.
+geo-scenery,scenery,noun,2,583;1349,"Merges 景色 (583) and 風景 (1349)."
+geo-star,star,noun,1,1339,星.
+geo-moon,moon,noun,1,,Absent today despite 月 appearing in every month name.
+geo-light,light,noun,1,352,光.
+geo-to-shine,to shine,verb,2,1435;905,"Merges 光る (1435) and 照る (905)."

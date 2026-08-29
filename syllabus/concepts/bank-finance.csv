@@ -1,0 +1,17 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+ban-to-open-account,to open an account,verb,1,,
+ban-transfer,bank transfer,noun,1,,
+ban-to-deposit,to pay in,verb,1,,
+ban-to-withdraw,to withdraw,verb,1,,
+ban-bank-card,bank card,noun,1,,
+ban-pin,PIN,noun,1,,
+ban-branch,branch (of a bank),noun,2,,
+ban-interest,interest,noun,2,,
+ban-loan,loan,noun,2,,
+ban-mortgage,mortgage,noun,3,,
+ban-passbook,passbook,noun,3,1432,通帳 — still everyday in Japan.
+ban-statement,statement,noun,2,,
+ban-currency,currency,noun,2,,
+ban-exchange-rate,exchange rate,noun,2,,
+ban-fraud,fraudulent use,noun,2,792,不正利用.
+ban-affiliated-store,affiliated store,noun,3,1430,加盟店.

@@ -1,0 +1,16 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+tod-time,time,noun,1,801,時間.
+tod-hour,hour,noun,1,,
+tod-minute,minute,noun,1,,
+tod-second,second (unit of time),noun,1,27,秒.
+tod-oclock,o'clock,noun,2,,
+tod-morning,morning,noun,1,246,朝.
+tod-am,a.m.,noun,2,115,"午前. Distinct from 朝 — this is the clock half, not the part of day."
+tod-noon,noon,noun,1,923,昼.
+tod-afternoon,afternoon,noun,1,1346,午後.
+tod-evening,evening,noun,1,104,夕方.
+tod-night,night,noun,1,476,夜.
+tod-midnight,midnight,noun,2,558,深夜.
+tod-daytime,daytime,noun,2,726,昼間.
+tod-dawn,dawn,noun,3,,
+tod-dusk,dusk,noun,3,,

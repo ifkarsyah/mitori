@@ -4,12 +4,11 @@ import type { Language } from '@/features/language/languages'
 import type { Tables } from '@/types/database'
 
 const KOTOBA_COLUMNS =
-  'id, word, reading, part_of_speech, sub_part_of_speech, meanings, kana_type, context_id, source_id, jlpt, created_at, updated_at, learned, language, concept_id, gender, plural, cefr'
+  'id, word, reading, part_of_speech, sub_part_of_speech, meanings, kana_type, source_id, created_at, updated_at, learned, language, concept_id, gender, plural, level'
 
 export type Kotoba = Tables<'kotoba'>
 export type WordKanji = Tables<'word_kanji'>
 export type Sentence = Tables<'sentences'>
-export type Context = Tables<'context'>
 export type Source = Tables<'source'>
 export type SentenceKotoba = Tables<'sentence_kotoba'>
 export type Concept = Tables<'concept'>
@@ -35,7 +34,7 @@ export async function fetchConceptList(): Promise<Concept[]> {
   return fetchAllRows<Concept>(async (from, to) =>
     supabase
       .from('concept')
-      .select('id, gloss, part_of_speech, created_at')
+      .select('id, gloss, part_of_speech, created_at, slug, category_id, tier')
       .order('id')
       .range(from, to),
   )
@@ -55,7 +54,7 @@ export async function fetchSentencesList(language: Language): Promise<Sentence[]
   return fetchAllRows<Sentence>(async (from, to) =>
     supabase
       .from('sentences')
-      .select('id, sentence, meaning, word_id, context_id, created_at, updated_at, language')
+      .select('id, sentence, meaning, word_id, category_id, created_at, updated_at, language')
       .eq('language', language)
       .not('word_id', 'is', null)
       .order('id')
@@ -73,21 +72,11 @@ export async function fetchSentenceKotobaList(): Promise<SentenceKotoba[]> {
   )
 }
 
-export async function fetchContextList(): Promise<Context[]> {
-  return fetchAllRows<Context>(async (from, to) =>
-    supabase
-      .from('context')
-      .select('id, name, kind, Description, created_at')
-      .order('id')
-      .range(from, to),
-  )
-}
-
 export async function fetchSourceList(): Promise<Source[]> {
   return fetchAllRows<Source>(async (from, to) =>
     supabase
       .from('source')
-      .select('id, name, url, context_id, created_at')
+      .select('id, name, url, category_id, created_at')
       .order('id')
       .range(from, to),
   )

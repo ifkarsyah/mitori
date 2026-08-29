@@ -1,0 +1,21 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+acm-same,same,adjective,1,52,同じ.
+acm-different,different,adjective,1,,"Absent today — 区別 (43) is the noun and 異なる (326) the verb."
+acm-various,various,adjective,2,942,色々.
+acm-difference,difference,noun,1,43,区別.
+acm-to-differ,to differ,verb,2,326,異なる.
+acm-to-compare,to compare,verb,1,149,例える.
+acm-better,better,adjective,1,,
+acm-best,best,adjective,1,1369,最高.
+acm-worse,worse,adjective,2,,
+acm-very,very,adverb,1,,Absent today.
+acm-too-much,too much,adverb,1,,
+acm-quite,quite,adverb,2,,
+acm-a-little,a little,adverb,1,,
+acm-degree,degree,noun,2,578,程度.
+acm-equality,equality,noun,2,199;893,"Merges 平等 (199) and 均等 (893)."
+acm-gap,gap,noun,3,1225,格差.
+acm-to-surpass,to surpass,verb,2,156,優れる.
+acm-opposite,opposite,noun,1,478,反対.
+acm-together,together,adverb,1,1485,一緒.
+acm-common,common,adjective,2,668,共通.

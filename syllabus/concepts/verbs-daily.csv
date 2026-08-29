@@ -1,0 +1,67 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+vda-to-be,to be,verb,1,709,居る.
+vda-to-become,to become,verb,1,574,成る.
+vda-to-have,to have,verb,1,683,持つ.
+vda-to-do,to do,verb,1,,Absent today despite する being the most common Japanese verb.
+vda-to-make,to make,verb,1,695,作る.
+vda-to-use,to use,verb,1,1214,使う.
+vda-to-take,to take,verb,1,467,取る.
+vda-to-put,to put,verb,1,1415,置く.
+vda-to-take-out,to take out,verb,1,959,出す.
+vda-to-give,to give,verb,1,,Absent today.
+vda-to-receive,to receive,verb,1,401;1048;207,"Merges 受ける (401), 受け取る (1048) and the humble 頂く (207)."
+vda-to-distribute,to hand out,verb,2,1210,配る.
+vda-to-open,to open,verb,1,1090,開ける.
+vda-to-open-book,to open (a book),verb,2,1409,開く.
+vda-to-close,to close,verb,1,320,閉める (transitive).
+vda-to-shut,to shut,verb,2,701,閉まる (intransitive).
+vda-to-sleep,to sleep,verb,1,,Absent today.
+vda-to-wake-up,to wake up,verb,1,1217,起きる.
+vda-to-wake-someone,to wake someone,verb,2,1341,起こす.
+vda-to-wash,to wash,verb,1,,
+vda-to-bathe,to have a shower,verb,1,724,浴びる.
+vda-to-clean,to clean,verb,1,,
+vda-to-tidy,to tidy up,verb,1,140,整える.
+vda-to-cut,to cut,verb,1,111,切る.
+vda-to-fold,to fold,verb,2,908,折る.
+vda-to-wrap,to wrap,verb,2,354,包む.
+vda-to-roll,to roll,verb,3,99,巻く.
+vda-to-divide,to divide,verb,2,983,割る.
+vda-to-add,to add,verb,1,501,加える.
+vda-to-dry,to dry,verb,2,1423,干す.
+vda-to-turn-off,to turn off,verb,1,1325,消す.
+vda-to-attach,to attach,verb,2,339,付ける.
+vda-to-stick,to stick,verb,3,950,付く.
+vda-to-surround,to surround,verb,3,1237,囲む.
+vda-to-choose,to choose,verb,1,1351,選ぶ.
+vda-to-need,to need,verb,1,267,要る.
+vda-to-want,to want,verb,1,,Absent today.
+vda-to-seek,to ask for,verb,2,1410,求める.
+vda-to-be-enough,to be enough,verb,2,994,足りる.
+vda-to-wait,to wait,verb,1,1075,待つ.
+vda-to-meet,to meet,verb,1,1238,会う.
+vda-to-part,to part,verb,2,568,別れる.
+vda-to-help,to help,verb,1,1130,助ける.
+vda-to-save,to rescue,verb,2,1482,救う.
+vda-to-be-saved,to be rescued,verb,3,949,助かる.
+vda-to-forgive,to forgive,verb,2,592,許す.
+vda-to-fix,to fix,verb,1,1033,直す.
+vda-to-borrow,to borrow,verb,1,606,借りる.
+vda-to-lend,to lend,verb,1,,Absent today.
+vda-to-return-something,to give back,verb,1,1074,返す.
+vda-to-begin,to begin,verb,1,812,始める (transitive).
+vda-to-start,to start,verb,1,1298,始まる (intransitive).
+vda-to-end,to finish,verb,1,489,終わる.
+vda-to-continue,to continue,verb,1,924;1385,"Merges 続ける (924) and 続く (1385)."
+vda-to-live,to be alive,verb,1,762,生きる.
+vda-to-reside,to live (reside),verb,1,1440,住む.
+vda-to-be-born,to be born,verb,1,80,生まれる.
+vda-to-die,to die,verb,1,399,亡くなる.
+vda-to-raise,to bring up,verb,2,836,育てる.
+vda-to-spend-time,to spend (time),verb,2,1460,過ごす.
+vda-to-move-house,to move house,verb,2,347,引っ越す.
+vda-to-build,to build,verb,2,1076,建てる.
+vda-to-leave-behind,to leave behind,verb,2,901,残す.
+vda-to-remain,to remain,verb,2,1421,残る.
+vda-to-omit,to leave out,verb,3,839,省く.
+vda-to-apply,to apply for,verb,1,1412,申し込む.

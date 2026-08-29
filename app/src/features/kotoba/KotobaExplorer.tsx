@@ -9,20 +9,19 @@ import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { downloadCsv } from '@/lib/exportCsv'
 import { useLanguage } from '@/features/language/useLanguage'
+import { useConceptCategories, type ConceptCategory } from '@/features/concept/hooks'
 import type { Kotoba } from './api'
 import { useSentencesList, useSourceList } from './hooks'
 import { ANKI_HEADERS, buildKotobaAnkiRows, buildSentencesByWordId } from './exportAnki'
 import {
   ALL,
   applyKotobaFilters,
-  contextLabel,
   defaultKotobaFilterState,
-  distinctContextIds,
   distinctFieldValues,
-  distinctJlptValues,
   distinctKanaTypeValues,
+  distinctLevelValues,
   groupKotobaBy,
-  jlptLabel,
+  levelLabel,
   partOfSpeechLabel,
   kanaTypeLabel,
   subPartOfSpeechLabel,
@@ -31,11 +30,11 @@ import {
 } from './filters'
 
 function buildColumns(
-  contextNameById: Map<number, string>,
+  categoryOfConcept: Map<number, ConceptCategory>,
   sourceNameById: Map<number, string>,
-  includeContextColumn: boolean,
+  includeCategoryColumn: boolean,
   includeSourceColumn: boolean,
-  isJapanese: boolean,
+  caps: LanguageCaps,
 ): ColumnConfig<Kotoba>[] {
   return [
   {
@@ -53,7 +52,7 @@ function buildColumns(
     ),
     sortValue: (row) => row.word,
   },
-  ...(isJapanese
+  ...(caps.hasReading
     ? [
         {
           key: 'reading',
@@ -62,14 +61,17 @@ function buildColumns(
           sortValue: (row: Kotoba) => row.reading,
         },
       ]
-    : [
+    : []),
+  ...(caps.hasGender
+    ? [
         {
           key: 'plural',
           header: 'Plural',
           render: (row: Kotoba) => row.plural ?? <span className="text-muted-foreground">—</span>,
           sortValue: (row: Kotoba) => row.plural,
         },
-      ]),
+      ]
+    : []),
   {
     key: 'meanings',
     header: 'Meanings',
@@ -83,25 +85,27 @@ function buildColumns(
       </div>
     ),
   },
-  ...(includeContextColumn
+  ...(includeCategoryColumn
     ? [
         {
-          key: 'context',
-          header: 'Context',
-          render: (row: Kotoba) =>
-            row.context_id != null ? (
+          key: 'category',
+          // Words have no category of their own; it comes from the concept.
+          header: 'Category',
+          render: (row: Kotoba) => {
+            const entry = row.concept_id != null ? categoryOfConcept.get(row.concept_id) : undefined
+            if (!entry?.category) return <span className="text-muted-foreground">—</span>
+            return (
               <Link
-                to={`/context/${row.context_id}`}
+                to={`/category/${entry.top?.slug ?? entry.category.slug}`}
                 className="hover:underline"
                 onClick={(e) => e.stopPropagation()}
               >
-                {contextLabel(String(row.context_id), contextNameById)}
+                {entry.category.name}
               </Link>
-            ) : (
-              <span className="text-muted-foreground">—</span>
-            ),
+            )
+          },
           sortValue: (row: Kotoba) =>
-            row.context_id != null ? contextLabel(String(row.context_id), contextNameById) : null,
+            (row.concept_id != null ? categoryOfConcept.get(row.concept_id)?.category?.name : null) ?? null,
         },
       ]
     : []),
@@ -143,15 +147,15 @@ function buildColumns(
     render: (row) => row.sub_part_of_speech ?? <span className="text-muted-foreground">—</span>,
     sortValue: (row) => row.sub_part_of_speech,
   },
-  ...(isJapanese
+  {
+    // One column across scales; the header names whichever the language uses.
+    key: 'level',
+    header: caps.levelName,
+    render: (row) => (row.level ? levelLabel(row.level) : <span className="text-muted-foreground">—</span>),
+    sortValue: (row) => row.level,
+  },
+  ...(caps.hasKana
     ? [
-        {
-          key: 'jlpt',
-          header: 'JLPT',
-          render: (row: Kotoba) =>
-            row.jlpt ? jlptLabel(row.jlpt) : <span className="text-muted-foreground">—</span>,
-          sortValue: (row: Kotoba) => row.jlpt,
-        },
         {
           key: 'kana_type',
           header: 'Kana type',
@@ -164,52 +168,56 @@ function buildColumns(
           sortValue: (row: Kotoba) => row.kana_type,
         },
       ]
-    : [
-        {
-          key: 'cefr',
-          header: 'CEFR',
-          render: (row: Kotoba) =>
-            row.cefr ? row.cefr.toUpperCase() : <span className="text-muted-foreground">—</span>,
-          sortValue: (row: Kotoba) => row.cefr,
-        },
-      ]),
+    : []),
   ]
+}
+
+/** What the selected language supports, so columns and filters follow the data. */
+type LanguageCaps = {
+  hasReading: boolean
+  hasGender: boolean
+  hasKana: boolean
+  levelName: string
 }
 
 const BASE_GROUP_BY_OPTIONS = [
   { value: 'none', label: 'None' },
-  { value: 'context', label: 'Context' },
+  { value: 'category', label: 'Category' },
   { value: 'part_of_speech', label: 'Part of speech' },
   { value: 'sub_part_of_speech', label: 'Sub part of speech' },
-]
-
-/** Grouping axes that only exist for Japanese vocabulary. */
-const JAPANESE_GROUP_BY_OPTIONS = [
-  { value: 'kana_type', label: 'Kana type' },
-  { value: 'jlpt', label: 'JLPT' },
+  { value: 'level', label: 'Level' },
 ]
 
 export type KotobaExplorerProps = {
   words: Kotoba[]
-  contextNameById: Map<number, string>
-  /** Set to false when already scoped to a single context (e.g. the context detail page). */
-  includeContextFilter?: boolean
-  /** Set to false when every row shares the same context, making the column redundant (e.g. the context detail page). */
-  includeContextColumn?: boolean
+  /** Set to false when already scoped to one category. */
+  includeCategoryFilter?: boolean
+  /** Set to false when every row shares a category, making the column redundant. */
+  includeCategoryColumn?: boolean
   /** Set to false when every row shares the same source, making the column redundant (e.g. the source detail page). */
   includeSourceColumn?: boolean
 }
 
 export function KotobaExplorer({
   words,
-  contextNameById,
-  includeContextFilter = true,
-  includeContextColumn = true,
+  includeCategoryFilter = true,
+  includeCategoryColumn = true,
   includeSourceColumn = true,
 }: KotobaExplorerProps) {
   const [filters, setFilters] = useState<KotobaFilterState>(defaultKotobaFilterState)
-  const { language } = useLanguage()
-  const isJapanese = language === 'ja'
+  const { current, labelFor, language } = useLanguage()
+  const caps = useMemo<LanguageCaps>(
+    () => ({
+      hasReading: current?.has_reading ?? false,
+      hasGender: current?.has_gender ?? false,
+      // kana_type is specific to the Japanese writing system, not to characters
+      // generally — Chinese has characters but no kana.
+      hasKana: current?.script === 'japanese',
+      levelName: current?.level_system?.toUpperCase() ?? 'Level',
+    }),
+    [current],
+  )
+  const categoryOfConcept = useConceptCategories()
   const { data: sources } = useSourceList()
   const { data: sentences } = useSentencesList()
   const sourceNameById = useMemo(() => {
@@ -222,8 +230,8 @@ export function KotobaExplorer({
 
   const columns = useMemo(
     () =>
-      buildColumns(contextNameById, sourceNameById, includeContextColumn, includeSourceColumn, isJapanese),
-    [contextNameById, sourceNameById, includeContextColumn, includeSourceColumn, isJapanese],
+      buildColumns(categoryOfConcept, sourceNameById, includeCategoryColumn, includeSourceColumn, caps),
+    [categoryOfConcept, sourceNameById, includeCategoryColumn, includeSourceColumn, caps],
   )
 
   function toggleColumn(key: string) {
@@ -238,13 +246,18 @@ export function KotobaExplorer({
     })
   }
 
-  const contextOptions = useMemo(() => {
-    const values = distinctContextIds(words)
+  const categoryOptions = useMemo(() => {
+    const names = new Map<string, string>()
+    for (const word of words) {
+      const entry = word.concept_id != null ? categoryOfConcept.get(word.concept_id) : undefined
+      const top = entry?.top
+      if (top && !names.has(top.slug)) names.set(top.slug, top.name)
+    }
     return [
-      { value: ALL, label: 'All contexts' },
-      ...values.map((v) => ({ value: v, label: contextLabel(v, contextNameById) })),
+      { value: ALL, label: 'All categories' },
+      ...[...names.entries()].map(([value, label]) => ({ value, label })),
     ]
-  }, [words, contextNameById])
+  }, [words, categoryOfConcept])
 
   const partOfSpeechOptions = useMemo(() => {
     const values = distinctFieldValues(words, 'part_of_speech')
@@ -262,13 +275,13 @@ export function KotobaExplorer({
     ]
   }, [words])
 
-  const jlptOptions = useMemo(() => {
-    const values = distinctJlptValues(words)
+  const levelOptions = useMemo(() => {
+    const values = distinctLevelValues(words)
     return [
-      { value: ALL, label: 'All JLPT levels' },
-      ...values.map((v) => ({ value: v, label: jlptLabel(v) })),
+      { value: ALL, label: `All ${caps.levelName} levels` },
+      ...values.map((v) => ({ value: v, label: levelLabel(v) })),
     ]
-  }, [words])
+  }, [words, caps.levelName])
 
   const kanaTypeOptions = useMemo(() => {
     const values = distinctKanaTypeValues(words)
@@ -279,31 +292,27 @@ export function KotobaExplorer({
   }, [words])
 
   const fields: FilterFieldConfig[] = [
-    ...(includeContextFilter
-      ? [{ key: 'contextId', label: 'Context', options: contextOptions }]
+    ...(includeCategoryFilter
+      ? [{ key: 'categorySlug', label: 'Category', options: categoryOptions }]
       : []),
     { key: 'partOfSpeech', label: 'Part of speech', options: partOfSpeechOptions },
     { key: 'subPartOfSpeech', label: 'Sub-type', options: subPartOfSpeechOptions },
-    // Kana type and JLPT only mean anything for Japanese.
-    ...(isJapanese
-      ? [
-          { key: 'kana_type', label: 'Kana type', options: kanaTypeOptions },
-          { key: 'jlpt', label: 'JLPT', options: jlptOptions },
-        ]
-      : []),
+    { key: 'level', label: caps.levelName, options: levelOptions },
+    // Kana type only means anything for the Japanese writing system.
+    ...(caps.hasKana ? [{ key: 'kana_type', label: 'Kana type', options: kanaTypeOptions }] : []),
   ]
 
-  const allGroupByOptions = isJapanese
-    ? [...BASE_GROUP_BY_OPTIONS, ...JAPANESE_GROUP_BY_OPTIONS]
+  const allGroupByOptions = caps.hasKana
+    ? [...BASE_GROUP_BY_OPTIONS, { value: 'kana_type', label: 'Kana type' }]
     : BASE_GROUP_BY_OPTIONS
-  const groupByOptions = includeContextFilter
+  const groupByOptions = includeCategoryFilter
     ? allGroupByOptions
-    : allGroupByOptions.filter((o) => o.value !== 'context')
+    : allGroupByOptions.filter((o) => o.value !== 'category')
 
   const groups = useMemo(() => {
-    const filtered = applyKotobaFilters(words, filters)
-    return groupKotobaBy(filtered, filters.groupBy, contextNameById)
-  }, [words, filters, contextNameById])
+    const filtered = applyKotobaFilters(words, filters, categoryOfConcept)
+    return groupKotobaBy(filtered, filters.groupBy, categoryOfConcept)
+  }, [words, filters, categoryOfConcept])
 
   const visibleColumns = useMemo(
     () => columns.filter((c) => !hiddenColumns.has(c.key)),
@@ -324,11 +333,11 @@ export function KotobaExplorer({
         searchPlaceholder="Search word, reading, or meaning…"
         fields={fields}
         fieldValues={{
-          contextId: filters.contextId,
+          categorySlug: filters.categorySlug,
           partOfSpeech: filters.partOfSpeech,
           subPartOfSpeech: filters.subPartOfSpeech,
           kana_type: filters.kana_type,
-          jlpt: filters.jlpt,
+          level: filters.level,
         }}
         onFieldChange={(key, value) => setFilters((f) => ({ ...f, [key]: value }))}
         groupByOptions={groupByOptions}
@@ -353,7 +362,11 @@ export function KotobaExplorer({
         columns={visibleColumns}
         getRowKey={(row) => row.id}
         getRowHref={(row) => `/kotoba/${row.word}`}
-        emptyMessage="No kotoba match these filters."
+        emptyMessage={
+          words.length === 0
+            ? `No ${labelFor(language)} words yet.`
+            : 'No kotoba match these filters.'
+        }
       />
     </div>
   )

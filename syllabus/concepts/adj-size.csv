@@ -1,0 +1,25 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+asi-big,big,adjective,1,692,大きい.
+asi-small,small,adjective,1,312,小さい.
+asi-long,long,adjective,1,120,長い.
+asi-short-length,short,adjective,1,957,短い.
+asi-tall,tall,adjective,1,655,高い — the same Japanese word also means expensive and loud.
+asi-low,low,adjective,1,,
+asi-wide,wide,adjective,1,706,広い.
+asi-narrow,narrow,adjective,1,,
+asi-thick,thick,adjective,2,867,太い.
+asi-thin,thin,adjective,2,1252,細い.
+asi-fine-detailed,fine (detailed),adjective,2,180,細かい.
+asi-heavy,heavy,adjective,1,825,重い.
+asi-light-weight,light (not heavy),adjective,1,659,軽い.
+asi-deep,deep,adjective,2,1143,深い.
+asi-shallow,shallow,adjective,3,,
+asi-size-scale,scale,noun,2,1311,規模.
+asi-height-thing,height,noun,2,,See bod-height for a person's height.
+asi-length,length,noun,2,,
+asi-width,width,noun,3,,
+asi-to-measure,to measure,verb,2,1061,量る.
+asi-to-expand,to expand,verb,2,1138,拡大する.
+asi-expansion,expansion,noun,2,743;855,"Merges 拡大 (743) and 拡張 (855)."
+asi-to-extend,to extend,verb,3,722,延びる.
+asi-wide-ranging,wide-ranging,adjective,3,1089,幅広い.

@@ -1,0 +1,25 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+qty-all,all,determiner,1,26,全部.
+qty-everyone,everyone,pronoun,1,147,全員.
+qty-none,none,determiner,1,,
+qty-some,some,determiner,1,,
+qty-many,many,adjective,1,686,多い.
+qty-few,few,adjective,1,1477,少ない.
+qty-more,more,adjective,1,,
+qty-less,less,adjective,2,,
+qty-most,most,adjective,2,,
+qty-enough,enough,adjective,1,1146,十分.
+qty-half,half,noun,1,259,半分.
+qty-both,both,determiner,1,193,両方.
+qty-each,each,determiner,2,,
+qty-several,several,determiner,2,,
+qty-part,part,noun,1,285;1132,"Merges 部分 (285) and 一部 (1132) — both glossed ""part"" today."
+qty-whole,whole,adjective,2,,
+qty-total,total,noun,2,191,総額 — existing gloss is the money sense; keep the general sense here.
+qty-average,average,noun,2,794,平均.
+qty-remainder,remainder,noun,2,823,残り.
+qty-ratio,ratio,noun,3,126,割合.
+qty-increase,increase,noun,2,439,増加.
+qty-decrease,decrease,noun,2,36,減少.
+qty-double,double,adjective,2,1455,倍.
+qty-count,number of items,noun,3,1478,件数.

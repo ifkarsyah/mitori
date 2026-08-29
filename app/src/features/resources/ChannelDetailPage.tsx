@@ -8,16 +8,16 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
-import { useContextList } from '@/features/kotoba/hooks'
+import { useCategoryList } from '@/features/category/hooks'
 import type { Resource } from './api'
 import {
   ALL,
   applyResourceFilters,
   categoryLabel,
-  contextLabel,
+  topicLabel,
   defaultResourceFilterState,
   distinctCategories,
-  distinctContextIds,
+  distinctTopicIds,
   groupResourcesBy,
   type ResourceFilterState,
   type ResourceGroupBy,
@@ -27,7 +27,7 @@ import { useResourceChannelBySlug, useResourcesForChannel } from './hooks'
 const GROUP_BY_OPTIONS = [
   { value: 'none', label: 'None' },
   { value: 'category', label: 'Category' },
-  { value: 'context', label: 'Context' },
+  { value: 'topic', label: 'Topic' },
 ]
 
 export function ChannelDetailPage() {
@@ -35,16 +35,16 @@ export function ChannelDetailPage() {
 
   const { data: channel, isLoading, isError, error, refetch } = useResourceChannelBySlug(slug)
   const { data: resources, isLoading: resourcesLoading } = useResourcesForChannel(channel?.id)
-  const { data: contexts } = useContextList()
+  const { data: categories } = useCategoryList()
   const [filters, setFilters] = useState<ResourceFilterState>(defaultResourceFilterState)
 
-  const contextNameById = useMemo(() => {
+  const categoryNameById = useMemo(() => {
     const map = new Map<number, string>()
-    for (const c of contexts ?? []) {
+    for (const c of categories ?? []) {
       if (c.name) map.set(c.id, c.name)
     }
     return map
-  }, [contexts])
+  }, [categories])
 
   const columns = useMemo<ColumnConfig<Resource>[]>(
     () => [
@@ -61,19 +61,19 @@ export function ChannelDetailPage() {
         sortValue: (row) => row.category,
       },
       {
-        key: 'context',
-        header: 'Context',
+        key: 'topic',
+        header: 'Topic',
         render: (row) =>
-          row.context_id != null ? (
-            contextLabel(String(row.context_id), contextNameById)
+          row.category_id != null ? (
+            topicLabel(String(row.category_id), categoryNameById)
           ) : (
             <span className="text-muted-foreground">—</span>
           ),
         sortValue: (row) =>
-          row.context_id != null ? contextLabel(String(row.context_id), contextNameById) : null,
+          row.category_id != null ? topicLabel(String(row.category_id), categoryNameById) : null,
       },
     ],
-    [contextNameById],
+    [categoryNameById],
   )
 
   const categoryOptions = useMemo(() => {
@@ -85,22 +85,22 @@ export function ChannelDetailPage() {
   }, [resources])
 
   const contextOptions = useMemo(() => {
-    const values = distinctContextIds(resources)
+    const values = distinctTopicIds(resources)
     return [
-      { value: ALL, label: 'All contexts' },
-      ...values.map((v) => ({ value: v, label: contextLabel(v, contextNameById) })),
+      { value: ALL, label: 'All topics' },
+      ...values.map((v) => ({ value: v, label: topicLabel(v, categoryNameById) })),
     ]
-  }, [resources, contextNameById])
+  }, [resources, categoryNameById])
 
   const fields: FilterFieldConfig[] = [
     { key: 'category', label: 'Category', options: categoryOptions },
-    { key: 'contextId', label: 'Context', options: contextOptions },
+    { key: 'topicId', label: 'Topic', options: contextOptions },
   ]
 
   const groups = useMemo(() => {
     const filtered = applyResourceFilters(resources, filters)
-    return groupResourcesBy(filtered, filters.groupBy, new Map(), contextNameById)
-  }, [resources, filters, contextNameById])
+    return groupResourcesBy(filtered, filters.groupBy, new Map(), categoryNameById)
+  }, [resources, filters, categoryNameById])
 
   if (isLoading) return <LoadingState />
   if (isError) return <ErrorState error={error} onRetry={() => refetch()} />
@@ -144,7 +144,7 @@ export function ChannelDetailPage() {
             onSearchChange={(search) => setFilters((f) => ({ ...f, search }))}
             searchPlaceholder="Search title…"
             fields={fields}
-            fieldValues={{ category: filters.category, contextId: filters.contextId }}
+            fieldValues={{ category: filters.category, topicId: filters.topicId }}
             onFieldChange={(key, value) => setFilters((f) => ({ ...f, [key]: value }))}
             groupByOptions={GROUP_BY_OPTIONS}
             groupBy={filters.groupBy}

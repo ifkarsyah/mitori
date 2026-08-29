@@ -1,0 +1,15 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+dai-milk,milk,noun,1,590,牛乳.
+dai-cheese,cheese,noun,1,1292,チーズ.
+dai-butter,butter,noun,1,,
+dai-yoghurt,yoghurt,noun,2,,
+dai-cream,cream,noun,3,,
+dai-salt,salt,noun,1,509,塩.
+dai-sugar,sugar,noun,1,,
+dai-pepper-spice,pepper (spice),noun,2,,
+dai-oil,cooking oil,noun,1,358,油.
+dai-vinegar,vinegar,noun,3,,
+dai-sauce,sauce,noun,2,,
+dai-seasoning,seasoning,noun,2,400,調味料.
+dai-honey,honey,noun,3,,
+dai-jam,jam,noun,3,,

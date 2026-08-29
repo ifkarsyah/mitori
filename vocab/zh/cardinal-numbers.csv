@@ -1,0 +1,22 @@
+concept_slug,gloss,word,reading,part_of_speech,level,note
+number-zero,zero,零,líng,numeral,hsk1,
+number-one,one,一,yī,numeral,hsk1,Tone changes in context (yì/yí).
+number-two,two,二,èr,numeral,hsk1,"两 (liǎng) is used before measure words."
+number-three,three,三,sān,numeral,hsk1,
+number-four,four,四,sì,numeral,hsk1,
+number-five,five,五,wǔ,numeral,hsk1,
+number-six,six,六,liù,numeral,hsk1,
+number-seven,seven,七,qī,numeral,hsk1,
+number-eight,eight,八,bā,numeral,hsk1,
+number-nine,nine,九,jiǔ,numeral,hsk1,
+number-ten,ten,十,shí,numeral,hsk1,
+number-eleven,eleven,十一,shí yī,numeral,hsk1,Compositional like Japanese.
+number-twelve,twelve,十二,shí èr,numeral,hsk1,
+number-twenty,twenty,二十,èr shí,numeral,hsk1,
+number-thirty,thirty,三十,sān shí,numeral,hsk1,
+number-forty,forty,四十,sì shí,numeral,hsk1,
+number-fifty,fifty,五十,wǔ shí,numeral,hsk1,
+number-hundred,hundred,百,bǎi,numeral,hsk1,
+number-thousand,thousand,千,qiān,numeral,hsk2,
+number-ten-thousand,ten thousand,万,wàn,numeral,hsk3,A base unit as in Japanese; German compounds instead.
+number-million,million,百万,bǎi wàn,numeral,hsk4,Built on 万 rather than a distinct root.

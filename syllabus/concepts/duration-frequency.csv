@@ -1,0 +1,25 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+dur-always,always,adverb,1,,
+dur-often,often,adverb,1,,
+dur-sometimes,sometimes,adverb,1,,
+dur-rarely,rarely,adverb,2,,
+dur-never,never,adverb,1,,
+dur-usually,usually,adverb,1,1473,通常.
+dur-now,now,adverb,1,1378,現在.
+dur-soon,soon,adverb,1,,
+dur-later,later,adverb,1,,
+dur-already,already,adverb,1,,
+dur-still,still (continuing),adverb,1,,
+dur-again,again,adverb,1,,
+dur-recently,recently,adverb,2,945,最近.
+dur-before,before (previously),adverb,1,820,以前.
+dur-just-before,just before,adverb,3,1347,直前.
+dur-this-time,this time,adverb,2,436,今回.
+dur-period,period,noun,2,560,期間.
+dur-daily,daily,adverb,1,1095,毎日.
+dur-weekly,weekly,adverb,2,1215,毎週.
+dur-monthly,monthly,adverb,2,1032,毎月.
+dur-yearly,yearly,adverb,2,1023,毎年.
+dur-once,once,adverb,2,,
+dur-twice,twice,adverb,2,,
+dur-forever,forever,adverb,3,,See 380 (永遠) and 1184 (永久) for the noun/adjective forms.
