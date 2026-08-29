@@ -1,0 +1,4 @@
+code,name,script,direction,level_system,has_reading,has_gender,has_characters,sort_order,created_at
+de,German,latin,ltr,cefr,false,true,false,2,2026-08-29T04:45:36.387112+00:00
+ja,Japanese,japanese,ltr,jlpt,true,false,true,1,2026-08-29T04:45:36.387112+00:00
+zh,Chinese,han,ltr,hsk,true,false,true,3,2026-08-29T04:45:36.387112+00:00

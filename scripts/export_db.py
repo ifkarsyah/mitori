@@ -27,21 +27,23 @@ ENV_LOCAL = REPO_ROOT / "app" / ".env.local"
 PAGE_SIZE = 1000
 
 # Ordered so a human reading the export meets the vocabulary spine first.
-TABLES = [
-    "language",
-    "concept",
-    "context",
-    "source",
-    "kotoba",
-    "kanji",
-    "word_kanji",
-    "sentences",
-    "sentence_kotoba",
-    "grammar_point",
-    "resource_channel",
-    "resource",
-    "captures",
-]
+# The value is the column to sort by — not every table is keyed on id.
+TABLES = {
+    "language": "code",
+    "category": "id",
+    "concept": "id",
+    "context": "id",
+    "source": "id",
+    "kotoba": "id",
+    "kanji": "id",
+    "word_kanji": "id",
+    "sentences": "id",
+    "sentence_kotoba": "id",
+    "grammar_point": "id",
+    "resource_channel": "id",
+    "resource": "id",
+    "captures": "id",
+}
 
 
 def read_env_local() -> dict[str, str]:
@@ -72,8 +74,8 @@ def credentials() -> tuple[str, str]:
     return url.rstrip("/"), key
 
 
-def fetch_page(base_url: str, key: str, table: str, offset: int) -> list[dict]:
-    query = f"select=*&order=id.asc&limit={PAGE_SIZE}&offset={offset}"
+def fetch_page(base_url: str, key: str, table: str, order_by: str, offset: int) -> list[dict]:
+    query = f"select=*&order={order_by}.asc&limit={PAGE_SIZE}&offset={offset}"
     request = urllib.request.Request(
         f"{base_url}/rest/v1/{table}?{query}",
         headers={"apikey": key, "Authorization": f"Bearer {key}"},
@@ -82,10 +84,10 @@ def fetch_page(base_url: str, key: str, table: str, offset: int) -> list[dict]:
         return json.loads(response.read().decode("utf-8"))
 
 
-def fetch_all(base_url: str, key: str, table: str) -> list[dict]:
+def fetch_all(base_url: str, key: str, table: str, order_by: str) -> list[dict]:
     rows: list[dict] = []
     while True:
-        page = fetch_page(base_url, key, table, len(rows))
+        page = fetch_page(base_url, key, table, order_by, len(rows))
         rows.extend(page)
         if len(page) < PAGE_SIZE:
             return rows
@@ -123,9 +125,9 @@ def main() -> None:
     base_url, key = credentials()
 
     total = 0
-    for table in TABLES:
+    for table, order_by in TABLES.items():
         try:
-            rows = fetch_all(base_url, key, table)
+            rows = fetch_all(base_url, key, table, order_by)
         except urllib.error.HTTPError as error:
             # A table in the list may not exist yet (or any more); say so rather
             # than aborting a backup that is otherwise complete.

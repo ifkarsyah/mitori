@@ -1,0 +1,88 @@
+id,slug,name,parent_id,kind,sort_order,created_at
+1,numbers,Numbers & Quantity,,core,0,2026-08-29T04:46:23.802893+00:00
+2,cardinal-numbers,Cardinal numbers,1,core,1,2026-08-29T04:46:23.802893+00:00
+3,ordinal-numbers,Ordinal numbers,1,core,2,2026-08-29T04:46:23.802893+00:00
+4,quantity-amount,Quantity & amount,1,core,3,2026-08-29T04:46:23.802893+00:00
+5,counters,Counters & measure words,1,core,4,2026-08-29T04:46:23.802893+00:00
+6,time-date,Time & Date,,core,5,2026-08-29T04:46:23.802893+00:00
+7,days-of-week,Days of the week,6,core,6,2026-08-29T04:46:23.802893+00:00
+8,months,Months,6,core,7,2026-08-29T04:46:23.802893+00:00
+9,time-of-day,Time of day,6,core,8,2026-08-29T04:46:23.802893+00:00
+10,calendar-words,Calendar & relative time,6,core,9,2026-08-29T04:46:23.802893+00:00
+11,duration-frequency,Duration & frequency,6,core,10,2026-08-29T04:46:23.802893+00:00
+12,color,Colors,,core,11,2026-08-29T04:46:23.802893+00:00
+13,people,People & Family,,core,12,2026-08-29T04:46:23.802893+00:00
+14,family-members,Family members,13,core,13,2026-08-29T04:46:23.802893+00:00
+15,pronouns,Pronouns,13,core,14,2026-08-29T04:46:23.802893+00:00
+16,people-roles,People & roles,13,core,15,2026-08-29T04:46:23.802893+00:00
+17,body-health,Body & Health,,core,16,2026-08-29T04:46:23.802893+00:00
+18,body-parts,Body parts,17,core,17,2026-08-29T04:46:23.802893+00:00
+19,health-illness,Health & illness,17,core,18,2026-08-29T04:46:23.802893+00:00
+20,food-drink,Food & Drink,,core,19,2026-08-29T04:46:23.802893+00:00
+21,fruit,Fruit,20,core,20,2026-08-29T04:46:23.802893+00:00
+22,vegetables,Vegetables,20,core,21,2026-08-29T04:46:23.802893+00:00
+23,grains-carbs,Grains & carbs,20,core,22,2026-08-29T04:46:23.802893+00:00
+24,meat-fish,Meat & fish,20,core,23,2026-08-29T04:46:23.802893+00:00
+25,dairy-condiments,Dairy & condiments,20,core,24,2026-08-29T04:46:23.802893+00:00
+26,drinks,Drinks,20,core,25,2026-08-29T04:46:23.802893+00:00
+27,cooking-taste,Cooking & taste,20,core,26,2026-08-29T04:46:23.802893+00:00
+28,home,Home,,core,27,2026-08-29T04:46:23.802893+00:00
+29,rooms,Rooms,28,core,28,2026-08-29T04:46:23.802893+00:00
+30,furniture,Furniture,28,core,29,2026-08-29T04:46:23.802893+00:00
+31,appliances,Appliances,28,core,30,2026-08-29T04:46:23.802893+00:00
+32,household-items,Household items,28,core,31,2026-08-29T04:46:23.802893+00:00
+33,clothing,Clothing,,core,32,2026-08-29T04:46:23.802893+00:00
+34,nature-weather,Nature & Weather,,core,33,2026-08-29T04:46:23.802893+00:00
+35,weather,Weather,34,core,34,2026-08-29T04:46:23.802893+00:00
+36,animals,Animals,34,core,35,2026-08-29T04:46:23.802893+00:00
+37,plants,Plants,34,core,36,2026-08-29T04:46:23.802893+00:00
+38,geography,Geography & landscape,34,core,37,2026-08-29T04:46:23.802893+00:00
+39,places-travel,Places & Travel,,core,38,2026-08-29T04:46:23.802893+00:00
+40,transport,Transport,39,core,39,2026-08-29T04:46:23.802893+00:00
+41,directions-position,Directions & position,39,core,40,2026-08-29T04:46:23.802893+00:00
+42,buildings-places,Buildings & places,39,core,41,2026-08-29T04:46:23.802893+00:00
+43,address-location,Addresses & location,39,core,42,2026-08-29T04:46:23.802893+00:00
+44,school-learning,School & Learning,,core,43,2026-08-29T04:46:23.802893+00:00
+45,school-items,School items,44,core,44,2026-08-29T04:46:23.802893+00:00
+46,school-subjects,School subjects,44,core,45,2026-08-29T04:46:23.802893+00:00
+47,language-learning,Language learning,44,core,46,2026-08-29T04:46:23.802893+00:00
+48,work-money,Work & Money,,core,47,2026-08-29T04:46:23.802893+00:00
+49,jobs-occupations,Jobs & occupations,48,core,48,2026-08-29T04:46:23.802893+00:00
+50,money-shopping,Money & shopping,48,core,49,2026-08-29T04:46:23.802893+00:00
+51,office-work,Office & work life,48,core,50,2026-08-29T04:46:23.802893+00:00
+52,communication,Communication,,core,51,2026-08-29T04:46:23.802893+00:00
+53,speaking-writing,Speaking & writing,52,core,52,2026-08-29T04:46:23.802893+00:00
+54,phone-internet,Phone & internet,52,core,53,2026-08-29T04:46:23.802893+00:00
+55,emotions-states,Emotions & States,,core,54,2026-08-29T04:46:23.802893+00:00
+56,emotions,Emotions,55,core,55,2026-08-29T04:46:23.802893+00:00
+57,mental-states,Thinking & mental states,55,core,56,2026-08-29T04:46:23.802893+00:00
+58,verbs-common,Common verbs,,core,57,2026-08-29T04:46:23.802893+00:00
+59,verbs-motion,Motion verbs,58,core,58,2026-08-29T04:46:23.802893+00:00
+60,verbs-perception,Perception verbs,58,core,59,2026-08-29T04:46:23.802893+00:00
+61,verbs-daily,Daily action verbs,58,core,60,2026-08-29T04:46:23.802893+00:00
+62,adjectives-common,Common adjectives,,core,61,2026-08-29T04:46:23.802893+00:00
+63,adj-size,Size & measurement,62,core,62,2026-08-29T04:46:23.802893+00:00
+64,adj-quality,Quality & condition,62,core,63,2026-08-29T04:46:23.802893+00:00
+65,adj-comparison,Comparison & degree,62,core,64,2026-08-29T04:46:23.802893+00:00
+66,function-words,Question & function words,,core,65,2026-08-29T04:46:23.802893+00:00
+67,question-words,Question words,66,core,66,2026-08-29T04:46:23.802893+00:00
+68,connectors,Connectors,66,core,67,2026-08-29T04:46:23.802893+00:00
+69,sports-activity,Sports & Activity,,core,68,2026-08-29T04:46:23.802893+00:00
+70,society-government,Society & Government,,core,69,2026-08-29T04:46:23.802893+00:00
+71,restaurant,Restaurant,,situational,70,2026-08-29T04:46:23.802893+00:00
+72,groceries-store,Groceries store,,situational,71,2026-08-29T04:46:23.802893+00:00
+73,konbini,Convenience store,,situational,72,2026-08-29T04:46:23.802893+00:00
+74,clothing-store,Clothing store,,situational,73,2026-08-29T04:46:23.802893+00:00
+75,electronics-store,Electronics store,,situational,74,2026-08-29T04:46:23.802893+00:00
+76,variety-store,Variety store,,situational,75,2026-08-29T04:46:23.802893+00:00
+77,furniture-store,Furniture store,,situational,76,2026-08-29T04:46:23.802893+00:00
+78,drugstore,Drugstore & pharmacy,,situational,77,2026-08-29T04:46:23.802893+00:00
+79,hospital-clinic,Hospital & clinic,,situational,78,2026-08-29T04:46:23.802893+00:00
+80,bank-finance,Bank & finance,,situational,79,2026-08-29T04:46:23.802893+00:00
+81,government-office,Government office,,situational,80,2026-08-29T04:46:23.802893+00:00
+82,station-transport,Station & transport,,situational,81,2026-08-29T04:46:23.802893+00:00
+83,accommodation,Accommodation,,situational,82,2026-08-29T04:46:23.802893+00:00
+84,housing-realestate,Housing & real estate,,situational,83,2026-08-29T04:46:23.802893+00:00
+85,ecommerce,Online shopping,,situational,84,2026-08-29T04:46:23.802893+00:00
+86,phone-carrier,Phone & mobile carrier,,situational,85,2026-08-29T04:46:23.802893+00:00
+87,barber-salon,Barber & salon,,situational,86,2026-08-29T04:46:23.802893+00:00
