@@ -1,0 +1,16 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+fruit-itself,fruit,noun,1,1420,The category word itself (果物).
+fruit-apple,apple,noun,1,,
+fruit-banana,banana,noun,1,,
+fruit-orange,orange (fruit),noun,1,,See color-orange; glosses are qualified because concept.gloss is UNIQUE.
+fruit-grape,grape,noun,1,,
+fruit-strawberry,strawberry,noun,1,,
+fruit-peach,peach,noun,2,,Culturally prominent in Japan (桃).
+fruit-melon,melon,noun,2,,
+fruit-watermelon,watermelon,noun,2,,
+fruit-pear,pear,noun,2,,"Japanese 梨 (nashi) is a different fruit from the European pear; expect a note on the word."
+fruit-lemon,lemon,noun,2,,
+fruit-pineapple,pineapple,noun,3,,
+fruit-mango,mango,noun,3,,
+fruit-cherry,cherry,noun,3,,"The fruit (さくらんぼ), not the blossom — 桜 already exists as concept 910."
+fruit-kiwi,kiwi,noun,3,,

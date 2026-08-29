@@ -1,0 +1,17 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+color-itself,colour,noun,1,1418,The word for colour itself (色).
+color-red,red,adjective,1,1104,
+color-blue,blue,adjective,1,862,"Japanese 青い also covers the green of traffic lights and plants; keep that nuance on the word, not the concept."
+color-green,green,adjective,1,247,Existing concept is the noun 緑; the adjective form attaches to the same concept.
+color-yellow,yellow,adjective,1,72;796,"Merges two existing concepts: 72 (黄色い, adjective) and 796 (黄色, noun) are the same meaning in two forms."
+color-black,black,adjective,1,112,Existing gloss is ""black· dark""; the dark sense stays as a word meaning.
+color-white,white,adjective,1,951,
+color-gray,grey,adjective,2,6,
+color-brown,brown,adjective,2,667,
+color-orange,orange (colour),adjective,2,,"Distinct from the fruit — see fruit-orange. Glosses must differ because concept.gloss is UNIQUE."
+color-pink,pink,adjective,2,,
+color-purple,purple,adjective,2,,
+color-silver,silver (colour),adjective,3,204,"Distinct from the metal; existing concept 204 is 銀色 (colour), not 銀 (metal)."
+color-gold,gold (colour),adjective,3,,Distinct from the metal.
+color-light,light (shade),adjective,3,,"Modifier for shades: light blue, light green."
+color-dark,dark (shade),adjective,3,,"Modifier for shades. Separate from 黒い's ""dark"" sense in color-black."

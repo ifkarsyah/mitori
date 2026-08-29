@@ -1,0 +1,22 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+number-zero,zero,numeral,1,,
+number-one,one,numeral,1,,"Not 一つ (concept 500, a counter form) nor 一番 (705, ""first"")."
+number-two,two,numeral,1,,
+number-three,three,numeral,1,,
+number-four,four,numeral,1,,Japanese has two readings (し/よん) with superstition around し.
+number-five,five,numeral,1,,
+number-six,six,numeral,1,,
+number-seven,seven,numeral,1,,Japanese has two readings (しち/なな).
+number-eight,eight,numeral,1,,
+number-nine,nine,numeral,1,,Japanese has two readings (く/きゅう).
+number-ten,ten,numeral,1,,
+number-eleven,eleven,numeral,2,,"German is irregular (elf); ja/zh are compositional (十一)."
+number-twelve,twelve,numeral,2,,German is irregular (zwölf).
+number-twenty,twenty,numeral,2,,
+number-thirty,thirty,numeral,2,,
+number-forty,forty,numeral,3,,
+number-fifty,fifty,numeral,2,,
+number-hundred,hundred,numeral,1,,
+number-thousand,thousand,numeral,1,,
+number-ten-thousand,ten thousand,numeral,2,,"A base unit in Japanese (万) and Chinese (万); German just compounds it as Zehntausend."
+number-million,million,numeral,3,,"Japanese and Chinese build this on 万 (百万), not on a distinct root."

@@ -1,0 +1,36 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+ll-language,language,noun,1,66,Existing concept 66 is 言語 (language as a system).
+ll-word,vocabulary word,noun,1,1100,"単語. Distinct from 言葉 (concept 657, ""words/speech"") which belongs under speaking-writing."
+ll-sentence,sentence,noun,1,515,
+ll-grammar,grammar,noun,1,,Absent today despite a whole grammar/ folder in the repo.
+ll-pronunciation,pronunciation,noun,1,,Absent today.
+ll-meaning,meaning,noun,1,,"424 (意義) and 1418 exist but mean significance/hue; this is ""what a word means""."
+ll-to-translate,to translate,verb,1,,
+ll-translation,translation,noun,2,,
+ll-dictionary,dictionary,noun,1,458,辞書 — same meaning as the existing concept.
+ll-textbook,textbook,noun,2,351,教科書 — existing gloss is ""textbook· coursebook""; same meaning.
+ll-to-study,to study a language,verb,1,1248,語学 — existing concept is the noun; the activity attaches to the same meaning.
+ll-to-practise,to practise,verb,1,,See existing 775 (練習) for the noun form.
+ll-to-memorise,to memorise,verb,1,,See existing 1426 (暗記).
+ll-to-pronounce,to pronounce,verb,2,,
+ll-written-character,written character,noun,2,127,"漢字/汉字. The shared Han character layer will hang off this concept."
+ll-alphabet,alphabet,noun,2,,Relevant for German; ja/zh will need a note about kana/pinyin instead.
+ll-native-speaker,native speaker,noun,2,,
+ll-mother-tongue,mother tongue,noun,2,,
+ll-foreign-language,foreign language,noun,2,,
+ll-fluent,fluent,adjective,2,,
+ll-accent,accent,noun,3,,
+ll-listening,listening,noun,2,,
+ll-speaking,speaking,noun,2,,
+ll-reading-skill,reading (skill),noun,2,,"Distinct from 読書 (concept 610, reading as a pastime)."
+ll-writing-skill,writing (skill),noun,2,,
+ll-level,level,noun,2,,"Proficiency level — the concept behind JLPT/CEFR/HSK."
+ll-beginner,beginner,noun,2,,
+ll-intermediate,intermediate,noun,3,,
+ll-advanced,advanced,adjective,3,,
+ll-mistake,mistake,noun,1,,"See existing 1194 (失敗) — that is failure generally; this is a language error."
+ll-to-correct,to correct,verb,2,,
+ll-japanese,Japanese (language),noun,2,547,
+ll-german,German (language),noun,2,,
+ll-chinese,Chinese (language),noun,2,,
+ll-english,English (language),noun,2,1466,
