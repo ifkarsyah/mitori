@@ -1,0 +1,10 @@
+concept_slug,gloss,word,reading,part_of_speech,level,note
+dow-monday,monday,星期一,xīng qī yī,noun,hsk1,"Days are numbered: literally ""week one""."
+dow-tuesday,tuesday,星期二,xīng qī èr,noun,hsk1,
+dow-wednesday,wednesday,星期三,xīng qī sān,noun,hsk1,
+dow-thursday,thursday,星期四,xīng qī sì,noun,hsk1,
+dow-friday,friday,星期五,xīng qī wǔ,noun,hsk1,
+dow-saturday,saturday,星期六,xīng qī liù,noun,hsk1,
+dow-sunday,sunday,星期天,xīng qī tiān,noun,hsk1,Breaks the numbering; 星期日 is the formal variant.
+dow-day-of-week,day of the week,星期,xīng qī,noun,hsk1,
+dow-weekend,weekend,周末,zhōu mò,noun,hsk3,
