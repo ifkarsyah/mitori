@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
+import { useCategoryList } from '@/features/category/hooks'
 import {
-  useContextList,
   useKotobaList,
   useSentenceKotobaList,
   useSentencesList,
@@ -20,23 +20,23 @@ export type EnrichedSentence = {
   word: string | null
   wordReading: string | null
   partOfSpeech: string | null
-  jlpt: string | null
+  level: string | null
   kanaType: string | null
-  contextId: number | null
-  context: string | null
+  categoryId: number | null
+  category: string | null
   linkedWords: LinkedWord[]
 }
 
 export function useSentencesWithWords() {
   const sentencesQuery = useSentencesList()
   const kotobaQuery = useKotobaList()
-  const contextQuery = useContextList()
+  const categoryQuery = useCategoryList()
   const sentenceKotobaQuery = useSentenceKotobaList()
 
   const data = useMemo<EnrichedSentence[]>(() => {
     if (!sentencesQuery.data) return []
     const kotobaById = new Map((kotobaQuery.data ?? []).map((k) => [k.id, k]))
-    const contextById = new Map((contextQuery.data ?? []).map((c) => [c.id, c]))
+    const categoryById = new Map((categoryQuery.data ?? []).map((c) => [c.id, c]))
 
     const linkedWordsBySentenceId = new Map<number, LinkedWord[]>()
     for (const link of sentenceKotobaQuery.data ?? []) {
@@ -53,7 +53,7 @@ export function useSentencesWithWords() {
 
     return sentencesQuery.data.map((s) => {
       const word = s.word_id != null ? kotobaById.get(s.word_id) : undefined
-      const context = s.context_id != null ? contextById.get(s.context_id) : undefined
+      const category = s.category_id != null ? categoryById.get(s.category_id) : undefined
       return {
         id: s.id,
         sentence: s.sentence,
@@ -62,29 +62,29 @@ export function useSentencesWithWords() {
         word: word?.word ?? null,
         wordReading: word?.reading ?? null,
         partOfSpeech: word?.part_of_speech ?? null,
-        jlpt: word?.jlpt ?? null,
+        level: word?.level ?? null,
         kanaType: word?.kana_type ?? null,
-        contextId: s.context_id,
-        context: context?.name ?? null,
+        categoryId: s.category_id,
+        category: category?.name ?? null,
         linkedWords: linkedWordsBySentenceId.get(s.id) ?? [],
       }
     })
-  }, [sentencesQuery.data, kotobaQuery.data, contextQuery.data, sentenceKotobaQuery.data])
+  }, [sentencesQuery.data, kotobaQuery.data, categoryQuery.data, sentenceKotobaQuery.data])
 
   return {
     data,
     isLoading:
       sentencesQuery.isLoading ||
       kotobaQuery.isLoading ||
-      contextQuery.isLoading ||
+      categoryQuery.isLoading ||
       sentenceKotobaQuery.isLoading,
     isError:
-      sentencesQuery.isError || kotobaQuery.isError || contextQuery.isError || sentenceKotobaQuery.isError,
-    error: sentencesQuery.error ?? kotobaQuery.error ?? contextQuery.error ?? sentenceKotobaQuery.error,
+      sentencesQuery.isError || kotobaQuery.isError || categoryQuery.isError || sentenceKotobaQuery.isError,
+    error: sentencesQuery.error ?? kotobaQuery.error ?? categoryQuery.error ?? sentenceKotobaQuery.error,
     refetch: () => {
       sentencesQuery.refetch()
       kotobaQuery.refetch()
-      contextQuery.refetch()
+      categoryQuery.refetch()
       sentenceKotobaQuery.refetch()
     },
   }

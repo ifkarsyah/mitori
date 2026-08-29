@@ -1,11 +1,12 @@
 import type { Kotoba } from './api'
+import type { ConceptCategory } from '@/features/concept/hooks'
 
 export const UNCLASSIFIED = '__unclassified__'
 export const ALL = '__all__'
 
 export type KotobaGroupBy =
   | 'none'
-  | 'context'
+  | 'category'
   | 'part_of_speech'
   | 'sub_part_of_speech'
   | 'kana_type'
@@ -13,7 +14,8 @@ export type KotobaGroupBy =
 
 export type KotobaFilterState = {
   search: string
-  contextId: string
+  /** Slug of a top-level category, resolved through the word's concept. */
+  categorySlug: string
   partOfSpeech: string
   subPartOfSpeech: string
   kana_type: string
@@ -23,7 +25,7 @@ export type KotobaFilterState = {
 
 export const defaultKotobaFilterState: KotobaFilterState = {
   search: '',
-  contextId: ALL,
+  categorySlug: ALL,
   partOfSpeech: ALL,
   subPartOfSpeech: ALL,
   kana_type: ALL,
@@ -37,11 +39,17 @@ function matchesSingleSelect(value: string | null, selected: string): boolean {
   return key === selected
 }
 
-export function applyKotobaFilters(rows: Kotoba[], filters: KotobaFilterState): Kotoba[] {
+export function applyKotobaFilters(
+  rows: Kotoba[],
+  filters: KotobaFilterState,
+  categoryOfConcept: Map<number, ConceptCategory>,
+): Kotoba[] {
   const search = filters.search.trim().toLowerCase()
   return rows.filter((row) => {
-    const contextKey = row.context_id != null ? String(row.context_id) : null
-    if (!matchesSingleSelect(contextKey, filters.contextId)) return false
+    if (filters.categorySlug !== ALL) {
+      const top = row.concept_id != null ? categoryOfConcept.get(row.concept_id)?.top : undefined
+      if ((top?.slug ?? UNCLASSIFIED) !== filters.categorySlug) return false
+    }
     if (!matchesSingleSelect(row.part_of_speech, filters.partOfSpeech)) return false
     if (!matchesSingleSelect(row.sub_part_of_speech, filters.subPartOfSpeech)) return false
     if (!matchesSingleSelect(row.kana_type, filters.kana_type)) return false
@@ -75,12 +83,6 @@ export function partOfSpeechLabel(value: string): string {
 export function subPartOfSpeechLabel(value: string): string {
   if (value === UNCLASSIFIED) return 'Unclassified'
   return value
-}
-
-export function contextLabel(value: string, contextNameById: Map<number, string>): string {
-  if (value === UNCLASSIFIED) return 'Unclassified (no context)'
-  const name = contextNameById.get(Number(value))
-  return name ?? value
 }
 
 // Every scale runs easiest-first, so one ordering serves JLPT, CEFR and HSK.
@@ -126,7 +128,7 @@ function sortByDomainOrder(keys: string[], order: string[]): string[] {
 export function groupKotobaBy(
   rows: Kotoba[],
   groupBy: KotobaGroupBy,
-  contextNameById: Map<number, string>,
+  categoryOfConcept: Map<number, ConceptCategory>,
 ): KotobaGroup[] {
   if (groupBy === 'none') {
     return [{ key: 'all', label: 'All kotoba', rows }]
@@ -136,9 +138,11 @@ export function groupKotobaBy(
   let labelFor: (key: string) => string
   let sortedKeys: string[]
 
-  if (groupBy === 'context') {
-    buckets = groupByKey(rows, (row) => (row.context_id != null ? String(row.context_id) : null))
-    labelFor = (key) => contextLabel(key, contextNameById)
+  if (groupBy === 'category') {
+    buckets = groupByKey(rows, (row) =>
+      row.concept_id != null ? categoryOfConcept.get(row.concept_id)?.top?.name ?? null : null,
+    )
+    labelFor = (key) => (key === UNCLASSIFIED ? 'Outside the syllabus' : key)
     sortedKeys = sortWithUnclassifiedLast([...buckets.keys()])
   } else if (groupBy === 'part_of_speech') {
     buckets = groupByKey(rows, (row) => row.part_of_speech)
@@ -184,9 +188,3 @@ export function distinctKanaTypeValues(rows: Kotoba[]): string[] {
 }
 
 
-export function distinctContextIds(rows: Kotoba[]): string[] {
-  const present = new Set(
-    rows.map((row) => (row.context_id != null ? String(row.context_id) : UNCLASSIFIED)),
-  )
-  return sortWithUnclassifiedLast([...present])
-}

@@ -7,8 +7,8 @@ import { KotobaDashboardPage } from '@/features/kotoba/KotobaDashboardPage'
 import { KotobaDetailPage } from '@/features/kotoba/KotobaDetailPage'
 import { ConceptDashboardPage } from '@/features/concept/ConceptDashboardPage'
 import { ConceptDetailPage } from '@/features/concept/ConceptDetailPage'
-import { ContextDashboardPage } from '@/features/context/ContextDashboardPage'
-import { ContextDetailPage } from '@/features/context/ContextDetailPage'
+import { CategoryDashboardPage } from '@/features/category/CategoryDashboardPage'
+import { CategoryDetailPage } from '@/features/category/CategoryDetailPage'
 import { SourceDashboardPage } from '@/features/source/SourceDashboardPage'
 import { SourceDetailPage } from '@/features/source/SourceDetailPage'
 import { SentenceDashboardPage } from '@/features/sentences/SentenceDashboardPage'
@@ -32,8 +32,8 @@ export const router = createBrowserRouter([
       { path: 'kotoba/:word', element: <KotobaDetailPage /> },
       { path: 'concept', element: <ConceptDashboardPage /> },
       { path: 'concept/:id', element: <ConceptDetailPage /> },
-      { path: 'context', element: <ContextDashboardPage /> },
-      { path: 'context/:id', element: <ContextDetailPage /> },
+      { path: 'category', element: <CategoryDashboardPage /> },
+      { path: 'category/:slug', element: <CategoryDetailPage /> },
       { path: 'source', element: <SourceDashboardPage /> },
       { path: 'source/:id', element: <SourceDetailPage /> },
       { path: 'sentences', element: <SentenceDashboardPage /> },

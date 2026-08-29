@@ -4,7 +4,7 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
-import { useContextById } from '@/features/context/hooks'
+import { useCategoryLookup } from '@/features/category/hooks'
 import { getYoutubeEmbedUrl } from './embed'
 import { categoryLabel } from './filters'
 import { useResourceById, useResourceChannelById } from './hooks'
@@ -15,7 +15,9 @@ export function ResourceDetailPage() {
 
   const { data: resource, isLoading, isError, error, refetch } = useResourceById(resourceId)
   const { data: channel } = useResourceChannelById(resource?.channel_id ?? undefined)
-  const { data: context } = useContextById(resource?.context_id ?? undefined)
+  const categories = useCategoryLookup()
+  const category =
+    resource?.category_id != null ? categories.byId.get(resource.category_id) : undefined
   const [showTranscript, setShowTranscript] = useState(false)
 
   if (isLoading) return <LoadingState />
@@ -36,7 +38,7 @@ export function ResourceDetailPage() {
         </div>
         <div className="flex flex-wrap gap-2">
           {resource.category && <Badge variant="outline">{categoryLabel(resource.category)}</Badge>}
-          {context && <Badge variant="outline">{context.name}</Badge>}
+          {category && <Badge variant="outline">{category.name}</Badge>}
         </div>
         {channel && (
           <Link

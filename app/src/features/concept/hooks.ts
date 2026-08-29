@@ -64,3 +64,25 @@ export function useCoverage(rows: ConceptRow[], codes: string[]) {
     [rows, codes],
   )
 }
+
+export type ConceptCategory = { category: Category | undefined; top: Category | undefined }
+
+/**
+ * Category per concept id. Words no longer carry a context of their own, so the
+ * kotoba views read the category off the concept the word realizes.
+ */
+export function useConceptCategories() {
+  const { data: concepts } = useConceptList()
+  const categories = useCategoryLookup()
+
+  return useMemo(() => {
+    const map = new Map<number, ConceptCategory>()
+    for (const concept of concepts ?? []) {
+      map.set(concept.id, {
+        category: concept.category_id != null ? categories.byId.get(concept.category_id) : undefined,
+        top: categories.topLevelOf(concept.category_id),
+      })
+    }
+    return map
+  }, [concepts, categories])
+}

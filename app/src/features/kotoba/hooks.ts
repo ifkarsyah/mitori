@@ -2,7 +2,6 @@ import { useMemo } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import {
   fetchConceptList,
-  fetchContextList,
   fetchKotobaList,
   fetchKotobaListAllLanguages,
   fetchSentenceKotobaList,
@@ -49,13 +48,6 @@ export function useSentenceKotobaList() {
   return useQuery({
     queryKey: ['sentenceKotoba', 'list'],
     queryFn: fetchSentenceKotobaList,
-  })
-}
-
-export function useContextList() {
-  return useQuery({
-    queryKey: ['context', 'list'],
-    queryFn: fetchContextList,
   })
 }
 

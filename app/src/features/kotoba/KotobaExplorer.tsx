@@ -9,15 +9,14 @@ import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { downloadCsv } from '@/lib/exportCsv'
 import { useLanguage } from '@/features/language/useLanguage'
+import { useConceptCategories, type ConceptCategory } from '@/features/concept/hooks'
 import type { Kotoba } from './api'
 import { useSentencesList, useSourceList } from './hooks'
 import { ANKI_HEADERS, buildKotobaAnkiRows, buildSentencesByWordId } from './exportAnki'
 import {
   ALL,
   applyKotobaFilters,
-  contextLabel,
   defaultKotobaFilterState,
-  distinctContextIds,
   distinctFieldValues,
   distinctKanaTypeValues,
   distinctLevelValues,
@@ -31,9 +30,9 @@ import {
 } from './filters'
 
 function buildColumns(
-  contextNameById: Map<number, string>,
+  categoryOfConcept: Map<number, ConceptCategory>,
   sourceNameById: Map<number, string>,
-  includeContextColumn: boolean,
+  includeCategoryColumn: boolean,
   includeSourceColumn: boolean,
   caps: LanguageCaps,
 ): ColumnConfig<Kotoba>[] {
@@ -86,25 +85,27 @@ function buildColumns(
       </div>
     ),
   },
-  ...(includeContextColumn
+  ...(includeCategoryColumn
     ? [
         {
-          key: 'context',
-          header: 'Context',
-          render: (row: Kotoba) =>
-            row.context_id != null ? (
+          key: 'category',
+          // Words have no category of their own; it comes from the concept.
+          header: 'Category',
+          render: (row: Kotoba) => {
+            const entry = row.concept_id != null ? categoryOfConcept.get(row.concept_id) : undefined
+            if (!entry?.category) return <span className="text-muted-foreground">—</span>
+            return (
               <Link
-                to={`/context/${row.context_id}`}
+                to={`/category/${entry.top?.slug ?? entry.category.slug}`}
                 className="hover:underline"
                 onClick={(e) => e.stopPropagation()}
               >
-                {contextLabel(String(row.context_id), contextNameById)}
+                {entry.category.name}
               </Link>
-            ) : (
-              <span className="text-muted-foreground">—</span>
-            ),
+            )
+          },
           sortValue: (row: Kotoba) =>
-            row.context_id != null ? contextLabel(String(row.context_id), contextNameById) : null,
+            (row.concept_id != null ? categoryOfConcept.get(row.concept_id)?.category?.name : null) ?? null,
         },
       ]
     : []),
@@ -181,7 +182,7 @@ type LanguageCaps = {
 
 const BASE_GROUP_BY_OPTIONS = [
   { value: 'none', label: 'None' },
-  { value: 'context', label: 'Context' },
+  { value: 'category', label: 'Category' },
   { value: 'part_of_speech', label: 'Part of speech' },
   { value: 'sub_part_of_speech', label: 'Sub part of speech' },
   { value: 'level', label: 'Level' },
@@ -189,20 +190,18 @@ const BASE_GROUP_BY_OPTIONS = [
 
 export type KotobaExplorerProps = {
   words: Kotoba[]
-  contextNameById: Map<number, string>
-  /** Set to false when already scoped to a single context (e.g. the context detail page). */
-  includeContextFilter?: boolean
-  /** Set to false when every row shares the same context, making the column redundant (e.g. the context detail page). */
-  includeContextColumn?: boolean
+  /** Set to false when already scoped to one category. */
+  includeCategoryFilter?: boolean
+  /** Set to false when every row shares a category, making the column redundant. */
+  includeCategoryColumn?: boolean
   /** Set to false when every row shares the same source, making the column redundant (e.g. the source detail page). */
   includeSourceColumn?: boolean
 }
 
 export function KotobaExplorer({
   words,
-  contextNameById,
-  includeContextFilter = true,
-  includeContextColumn = true,
+  includeCategoryFilter = true,
+  includeCategoryColumn = true,
   includeSourceColumn = true,
 }: KotobaExplorerProps) {
   const [filters, setFilters] = useState<KotobaFilterState>(defaultKotobaFilterState)
@@ -218,6 +217,7 @@ export function KotobaExplorer({
     }),
     [current],
   )
+  const categoryOfConcept = useConceptCategories()
   const { data: sources } = useSourceList()
   const { data: sentences } = useSentencesList()
   const sourceNameById = useMemo(() => {
@@ -230,8 +230,8 @@ export function KotobaExplorer({
 
   const columns = useMemo(
     () =>
-      buildColumns(contextNameById, sourceNameById, includeContextColumn, includeSourceColumn, caps),
-    [contextNameById, sourceNameById, includeContextColumn, includeSourceColumn, caps],
+      buildColumns(categoryOfConcept, sourceNameById, includeCategoryColumn, includeSourceColumn, caps),
+    [categoryOfConcept, sourceNameById, includeCategoryColumn, includeSourceColumn, caps],
   )
 
   function toggleColumn(key: string) {
@@ -246,13 +246,18 @@ export function KotobaExplorer({
     })
   }
 
-  const contextOptions = useMemo(() => {
-    const values = distinctContextIds(words)
+  const categoryOptions = useMemo(() => {
+    const names = new Map<string, string>()
+    for (const word of words) {
+      const entry = word.concept_id != null ? categoryOfConcept.get(word.concept_id) : undefined
+      const top = entry?.top
+      if (top && !names.has(top.slug)) names.set(top.slug, top.name)
+    }
     return [
-      { value: ALL, label: 'All contexts' },
-      ...values.map((v) => ({ value: v, label: contextLabel(v, contextNameById) })),
+      { value: ALL, label: 'All categories' },
+      ...[...names.entries()].map(([value, label]) => ({ value, label })),
     ]
-  }, [words, contextNameById])
+  }, [words, categoryOfConcept])
 
   const partOfSpeechOptions = useMemo(() => {
     const values = distinctFieldValues(words, 'part_of_speech')
@@ -287,8 +292,8 @@ export function KotobaExplorer({
   }, [words])
 
   const fields: FilterFieldConfig[] = [
-    ...(includeContextFilter
-      ? [{ key: 'contextId', label: 'Context', options: contextOptions }]
+    ...(includeCategoryFilter
+      ? [{ key: 'categorySlug', label: 'Category', options: categoryOptions }]
       : []),
     { key: 'partOfSpeech', label: 'Part of speech', options: partOfSpeechOptions },
     { key: 'subPartOfSpeech', label: 'Sub-type', options: subPartOfSpeechOptions },
@@ -300,14 +305,14 @@ export function KotobaExplorer({
   const allGroupByOptions = caps.hasKana
     ? [...BASE_GROUP_BY_OPTIONS, { value: 'kana_type', label: 'Kana type' }]
     : BASE_GROUP_BY_OPTIONS
-  const groupByOptions = includeContextFilter
+  const groupByOptions = includeCategoryFilter
     ? allGroupByOptions
-    : allGroupByOptions.filter((o) => o.value !== 'context')
+    : allGroupByOptions.filter((o) => o.value !== 'category')
 
   const groups = useMemo(() => {
-    const filtered = applyKotobaFilters(words, filters)
-    return groupKotobaBy(filtered, filters.groupBy, contextNameById)
-  }, [words, filters, contextNameById])
+    const filtered = applyKotobaFilters(words, filters, categoryOfConcept)
+    return groupKotobaBy(filtered, filters.groupBy, categoryOfConcept)
+  }, [words, filters, categoryOfConcept])
 
   const visibleColumns = useMemo(
     () => columns.filter((c) => !hiddenColumns.has(c.key)),
@@ -328,7 +333,7 @@ export function KotobaExplorer({
         searchPlaceholder="Search word, reading, or meaning…"
         fields={fields}
         fieldValues={{
-          contextId: filters.contextId,
+          categorySlug: filters.categorySlug,
           partOfSpeech: filters.partOfSpeech,
           subPartOfSpeech: filters.subPartOfSpeech,
           kana_type: filters.kana_type,

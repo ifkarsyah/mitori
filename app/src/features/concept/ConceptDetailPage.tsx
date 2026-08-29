@@ -22,8 +22,7 @@ function WordCard({ word }: { word: Kotoba }) {
         {word.plural && <span className="text-muted-foreground">pl. {word.plural}</span>}
       </div>
       <div className="flex flex-wrap gap-2">
-        {word.jlpt && <Badge variant="outline">{word.jlpt.toUpperCase()}</Badge>}
-        {word.cefr && <Badge variant="outline">{word.cefr.toUpperCase()}</Badge>}
+        {word.level && <Badge variant="outline">{word.level.toUpperCase()}</Badge>}
         {word.sub_part_of_speech && <Badge variant="outline">{word.sub_part_of_speech}</Badge>}
       </div>
     </li>

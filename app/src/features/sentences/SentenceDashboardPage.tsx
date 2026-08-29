@@ -16,11 +16,11 @@ import { ANKI_HEADERS, buildSentenceAnkiRows } from './exportAnki'
 import {
   ALL,
   applySentenceFilters,
-  contextLabel,
+  categoryLabel,
   defaultSentenceFilterState,
   distinctFieldValues,
   groupSentencesBy,
-  jlptLabel,
+  levelLabel,
   kanaTypeLabel,
   partOfSpeechLabel,
   type SentenceFilterState,
@@ -29,8 +29,8 @@ import {
 
 const GROUP_BY_OPTIONS = [
   { value: 'none', label: 'None' },
-  { value: 'context', label: 'Context' },
-  { value: 'jlpt', label: 'JLPT' },
+  { value: 'category', label: 'Category' },
+  { value: 'level', label: 'Level' },
   { value: 'part_of_speech', label: 'Part of speech' },
   { value: 'kana_type', label: 'Kana type' },
 ]
@@ -100,28 +100,28 @@ const columns: ColumnConfig<EnrichedSentence>[] = [
     sortValue: (row) => row.word,
   },
   {
-    key: 'context',
-    header: 'Context',
+    key: 'category',
+    header: 'Category',
     render: (row) =>
-      row.contextId != null && row.context ? (
+      row.categoryId != null && row.category ? (
         <Link
-          to={`/context/${row.contextId}`}
+          to={`/context/${row.categoryId}`}
           className="hover:underline"
           onClick={(e) => e.stopPropagation()}
         >
-          {row.context}
+          {row.category}
         </Link>
       ) : (
-        (row.context ?? <span className="text-muted-foreground">—</span>)
+        (row.category ?? <span className="text-muted-foreground">—</span>)
       ),
-    sortValue: (row) => row.context,
+    sortValue: (row) => row.category,
   },
   {
-    key: 'jlpt',
-    header: 'JLPT',
+    key: 'level',
+    header: 'Level',
     render: (row) =>
-      row.jlpt ? jlptLabel(row.jlpt) : <span className="text-muted-foreground">—</span>,
-    sortValue: (row) => row.jlpt,
+      row.level ? levelLabel(row.level) : <span className="text-muted-foreground">—</span>,
+    sortValue: (row) => row.level,
   },
 ]
 
@@ -131,8 +131,8 @@ export function SentenceDashboardPage() {
   const [filters, setFilters] = useState<SentenceFilterState>(defaultSentenceFilterState)
 
   const jlptOptions = useMemo(() => {
-    const values = distinctFieldValues(data, 'jlpt')
-    return [{ value: ALL, label: 'All JLPT levels' }, ...values.map((v) => ({ value: v, label: jlptLabel(v) }))]
+    const values = distinctFieldValues(data, 'level')
+    return [{ value: ALL, label: 'All levels' }, ...values.map((v) => ({ value: v, label: levelLabel(v) }))]
   }, [data])
 
   const partOfSpeechOptions = useMemo(() => {
@@ -152,18 +152,18 @@ export function SentenceDashboardPage() {
   }, [data])
 
   const contextOptions = useMemo(() => {
-    const values = distinctFieldValues(data, 'context')
+    const values = distinctFieldValues(data, 'category')
     return [
-      { value: ALL, label: 'All contexts' },
-      ...values.map((v) => ({ value: v, label: contextLabel(v) })),
+      { value: ALL, label: 'All categories' },
+      ...values.map((v) => ({ value: v, label: categoryLabel(v) })),
     ]
   }, [data])
 
   const fields: FilterFieldConfig[] = [
-    { key: 'context', label: 'Context', options: contextOptions },
+    { key: 'category', label: 'Category', options: contextOptions },
     { key: 'partOfSpeech', label: 'Part of speech', options: partOfSpeechOptions },
     { key: 'kanaType', label: 'Kana type', options: kanaTypeOptions },
-    { key: 'jlpt', label: 'JLPT', options: jlptOptions },
+    { key: 'level', label: 'Level', options: jlptOptions },
   ]
 
   const groups = useMemo(() => {
@@ -192,10 +192,10 @@ export function SentenceDashboardPage() {
         searchPlaceholder="Search sentence, meaning, or word…"
         fields={fields}
         fieldValues={{
-          context: filters.context,
+          category: filters.category,
           partOfSpeech: filters.partOfSpeech,
           kanaType: filters.kanaType,
-          jlpt: filters.jlpt,
+          level: filters.level,
         }}
         onFieldChange={(key, value) => setFilters((f) => ({ ...f, [key]: value }))}
         groupByOptions={GROUP_BY_OPTIONS}

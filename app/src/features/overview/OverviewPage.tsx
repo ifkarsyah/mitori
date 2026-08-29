@@ -6,7 +6,8 @@ import { ErrorState } from '@/components/ErrorState'
 import { useKanjiList } from '@/features/kanji/hooks'
 import { groupKanjiBy } from '@/features/kanji/filters'
 import { useKotobaList, useSentencesList } from '@/features/kotoba/hooks'
-import { useContextList } from '@/features/context/hooks'
+import { useCategoryList } from '@/features/category/hooks'
+import { useConceptCategories } from '@/features/concept/hooks'
 import { groupKotobaBy } from '@/features/kotoba/filters'
 import { useLanguage } from '@/features/language/useLanguage'
 
@@ -16,19 +17,12 @@ export function OverviewPage() {
   const kanjiQuery = useKanjiList()
   const kotobaQuery = useKotobaList()
   const sentencesQuery = useSentencesList()
-  const contextQuery = useContextList()
+  const categoryQuery = useCategoryList()
+  const categoryOfConcept = useConceptCategories()
 
   const isLoading =
-    kanjiQuery.isLoading || kotobaQuery.isLoading || sentencesQuery.isLoading || contextQuery.isLoading
-  const firstError = kanjiQuery.error || kotobaQuery.error || sentencesQuery.error || contextQuery.error
-
-  const contextNameById = useMemo(() => {
-    const map = new Map<number, string>()
-    for (const c of contextQuery.data ?? []) {
-      if (c.name) map.set(c.id, c.name)
-    }
-    return map
-  }, [contextQuery.data])
+    kanjiQuery.isLoading || kotobaQuery.isLoading || sentencesQuery.isLoading || categoryQuery.isLoading
+  const firstError = kanjiQuery.error || kotobaQuery.error || sentencesQuery.error || categoryQuery.error
 
   const kanjiByJlpt = useMemo(
     () => groupKanjiBy(kanjiQuery.data ?? [], 'jlpt').map((g) => ({ ...g, count: g.rows.length })),
@@ -40,27 +34,27 @@ export function OverviewPage() {
   )
   const kotobaByPartOfSpeech = useMemo(
     () =>
-      groupKotobaBy(kotobaQuery.data ?? [], 'part_of_speech', contextNameById).map((g) => ({
+      groupKotobaBy(kotobaQuery.data ?? [], 'part_of_speech', categoryOfConcept).map((g) => ({
         ...g,
         count: g.rows.length,
       })),
-    [kotobaQuery.data, contextNameById],
+    [kotobaQuery.data, categoryOfConcept],
   )
-  const kotobaByContext = useMemo(
+  const kotobaByCategory = useMemo(
     () =>
-      groupKotobaBy(kotobaQuery.data ?? [], 'context', contextNameById).map((g) => ({
+      groupKotobaBy(kotobaQuery.data ?? [], 'category', categoryOfConcept).map((g) => ({
         ...g,
         count: g.rows.length,
       })),
-    [kotobaQuery.data, contextNameById],
+    [kotobaQuery.data, categoryOfConcept],
   )
   const kotobaByKanaType = useMemo(
     () =>
-      groupKotobaBy(kotobaQuery.data ?? [], 'kana_type', contextNameById).map((g) => ({
+      groupKotobaBy(kotobaQuery.data ?? [], 'kana_type', categoryOfConcept).map((g) => ({
         ...g,
         count: g.rows.length,
       })),
-    [kotobaQuery.data, contextNameById],
+    [kotobaQuery.data, categoryOfConcept],
   )
 
   if (isLoading) return <LoadingState />
@@ -79,7 +73,7 @@ export function OverviewPage() {
         {showKanji && <StatCard label="Kanji" value={kanjiQuery.data?.length ?? 0} />}
         <StatCard label="Kotoba" value={kotobaQuery.data?.length ?? 0} />
         <StatCard label="Sentences" value={sentencesQuery.data?.length ?? 0} />
-        <StatCard label="Contexts" value={contextQuery.data?.length ?? 0} />
+        <StatCard label="Categories" value={categoryQuery.data?.length ?? 0} />
       </div>
 
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
@@ -90,7 +84,7 @@ export function OverviewPage() {
         {showKanji ? (
           <GroupCountList title="Kotoba by kana type" groups={kotobaByKanaType} />
         ) : (
-          <GroupCountList title="Kotoba by context" groups={kotobaByContext} />
+          <GroupCountList title="Kotoba by category" groups={kotobaByCategory} />
         )}
       </div>
     </div>

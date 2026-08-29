@@ -8,7 +8,7 @@ const links = [
   { to: '/kanji', label: 'Kanji', japaneseOnly: true },
   { to: '/kotoba', label: 'Kotoba' },
   { to: '/concept', label: 'Concept' },
-  { to: '/context', label: 'Context' },
+  { to: '/category', label: 'Category' },
   { to: '/source', label: 'Source' },
   { to: '/sentences', label: 'Sentences' },
   { to: '/grammar', label: 'Grammar' },

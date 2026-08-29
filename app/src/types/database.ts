@@ -17,7 +17,6 @@ export type Database = {
       captures: {
         Row: {
           captured_at: string
-          context_id: number | null
           id: number
           image_url: string | null
           parsed_at: string | null
@@ -25,7 +24,6 @@ export type Database = {
         }
         Insert: {
           captured_at: string
-          context_id?: number | null
           id?: number
           image_url?: string | null
           parsed_at?: string | null
@@ -33,20 +31,12 @@ export type Database = {
         }
         Update: {
           captured_at?: string
-          context_id?: number | null
           id?: number
           image_url?: string | null
           parsed_at?: string | null
           raw_text?: string | null
         }
         Relationships: [
-          {
-            foreignKeyName: "captures_context_id_fkey"
-            columns: ["context_id"]
-            isOneToOne: false
-            referencedRelation: "context"
-            referencedColumns: ["id"]
-          },
         ]
       }
       category: {
@@ -124,30 +114,6 @@ export type Database = {
             referencedColumns: ["id"]
           },
         ]
-      }
-      context: {
-        Row: {
-          created_at: string
-          Description: string | null
-          id: number
-          kind: string
-          name: string | null
-        }
-        Insert: {
-          created_at?: string
-          Description?: string | null
-          id?: number
-          kind: string
-          name?: string | null
-        }
-        Update: {
-          created_at?: string
-          Description?: string | null
-          id?: number
-          kind?: string
-          name?: string | null
-        }
-        Relationships: []
       }
       grammar_point: {
         Row: {
@@ -232,13 +198,10 @@ export type Database = {
       }
       kotoba: {
         Row: {
-          cefr: string | null
           concept_id: number | null
-          context_id: number | null
           created_at: string
           gender: string | null
           id: number
-          jlpt: string | null
           kana_type: string | null
           language: string
           learned: boolean
@@ -253,13 +216,10 @@ export type Database = {
           word: string
         }
         Insert: {
-          cefr?: string | null
           concept_id?: number | null
-          context_id?: number | null
           created_at?: string
           gender?: string | null
           id?: number
-          jlpt?: string | null
           kana_type?: string | null
           language?: string
           learned?: boolean
@@ -274,13 +234,10 @@ export type Database = {
           word: string
         }
         Update: {
-          cefr?: string | null
           concept_id?: number | null
-          context_id?: number | null
           created_at?: string
           gender?: string | null
           id?: number
-          jlpt?: string | null
           kana_type?: string | null
           language?: string
           learned?: boolean
@@ -307,13 +264,6 @@ export type Database = {
             columns: ["source_id"]
             isOneToOne: false
             referencedRelation: "source"
-            referencedColumns: ["id"]
-          },
-          {
-            foreignKeyName: "words_context_id_fkey"
-            columns: ["context_id"]
-            isOneToOne: false
-            referencedRelation: "context"
             referencedColumns: ["id"]
           },
         ]
@@ -360,8 +310,8 @@ export type Database = {
       resource: {
         Row: {
           category: string | null
+          category_id: number | null
           channel_id: number | null
-          context_id: number | null
           created_at: string
           id: number
           is_transcript_complete: boolean
@@ -373,8 +323,8 @@ export type Database = {
         }
         Insert: {
           category?: string | null
+          category_id?: number | null
           channel_id?: number | null
-          context_id?: number | null
           created_at?: string
           id?: number
           is_transcript_complete?: boolean
@@ -386,8 +336,8 @@ export type Database = {
         }
         Update: {
           category?: string | null
+          category_id?: number | null
           channel_id?: number | null
-          context_id?: number | null
           created_at?: string
           id?: number
           is_transcript_complete?: boolean
@@ -403,13 +353,6 @@ export type Database = {
             columns: ["channel_id"]
             isOneToOne: false
             referencedRelation: "resource_channel"
-            referencedColumns: ["id"]
-          },
-          {
-            foreignKeyName: "resource_context_id_fkey"
-            columns: ["context_id"]
-            isOneToOne: false
-            referencedRelation: "context"
             referencedColumns: ["id"]
           },
         ]
@@ -485,7 +428,7 @@ export type Database = {
       }
       sentences: {
         Row: {
-          context_id: number | null
+          category_id: number | null
           created_at: string
           id: number
           language: string
@@ -495,7 +438,7 @@ export type Database = {
           word_id: number | null
         }
         Insert: {
-          context_id?: number | null
+          category_id?: number | null
           created_at?: string
           id?: number
           language?: string
@@ -505,7 +448,7 @@ export type Database = {
           word_id?: number | null
         }
         Update: {
-          context_id?: number | null
+          category_id?: number | null
           created_at?: string
           id?: number
           language?: string
@@ -515,13 +458,6 @@ export type Database = {
           word_id?: number | null
         }
         Relationships: [
-          {
-            foreignKeyName: "sentences_context_id_fkey"
-            columns: ["context_id"]
-            isOneToOne: false
-            referencedRelation: "context"
-            referencedColumns: ["id"]
-          },
           {
             foreignKeyName: "sentences_word_id_fkey"
             columns: ["word_id"]
@@ -533,34 +469,27 @@ export type Database = {
       }
       source: {
         Row: {
-          context_id: number | null
+          category_id: number | null
           created_at: string
           id: number
           name: string
           url: string | null
         }
         Insert: {
-          context_id?: number | null
+          category_id?: number | null
           created_at?: string
           id?: number
           name: string
           url?: string | null
         }
         Update: {
-          context_id?: number | null
+          category_id?: number | null
           created_at?: string
           id?: number
           name?: string
           url?: string | null
         }
         Relationships: [
-          {
-            foreignKeyName: "source_context_id_fkey"
-            columns: ["context_id"]
-            isOneToOne: false
-            referencedRelation: "context"
-            referencedColumns: ["id"]
-          },
         ]
       }
       word_kanji: {
