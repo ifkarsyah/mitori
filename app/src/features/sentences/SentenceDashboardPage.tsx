@@ -9,6 +9,8 @@ import { ErrorState } from '@/components/ErrorState'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { downloadCsv } from '@/lib/exportCsv'
+import { useLanguage } from '@/features/language/useLanguage'
+import { languageLabel } from '@/features/language/languages'
 import type { EnrichedSentence, LinkedWord } from './hooks'
 import { useSentencesWithWords } from './hooks'
 import { ANKI_HEADERS, buildSentenceAnkiRows } from './exportAnki'
@@ -125,6 +127,7 @@ const columns: ColumnConfig<EnrichedSentence>[] = [
 ]
 
 export function SentenceDashboardPage() {
+  const { language } = useLanguage()
   const { data, isLoading, isError, error, refetch } = useSentencesWithWords()
   const [filters, setFilters] = useState<SentenceFilterState>(defaultSentenceFilterState)
 
@@ -213,7 +216,11 @@ export function SentenceDashboardPage() {
         columns={columns}
         getRowKey={(row) => row.id}
         getRowHref={(row) => (row.word != null ? `/kotoba/${row.word}` : '#')}
-        emptyMessage="No sentences match these filters."
+        emptyMessage={
+          data.length === 0
+            ? `No ${languageLabel(language)} sentences yet.`
+            : 'No sentences match these filters.'
+        }
       />
     </div>
   )

@@ -47,7 +47,7 @@ export function applyKotobaFilters(rows: Kotoba[], filters: KotobaFilterState): 
     if (!matchesSingleSelect(row.kana_type, filters.kana_type)) return false
     if (!matchesSingleSelect(row.jlpt, filters.jlpt)) return false
     if (search) {
-      const haystack = [row.word, row.reading, ...(row.meanings ?? [])]
+      const haystack = [row.word, row.reading, row.plural, ...(row.meanings ?? [])]
         .filter(Boolean)
         .join(' ')
         .toLowerCase()
@@ -60,9 +60,12 @@ export function applyKotobaFilters(rows: Kotoba[], filters: KotobaFilterState): 
 const KANA_TYPE_ORDER = ['kanji', 'hiragana', 'katakana']
 
 export function kanaTypeLabel(value: string): string {
-  if (value === UNCLASSIFIED) return 'Unclassified'
+  // Non-Japanese words have no kana type at all, so "—" reads better than
+  // "Unclassified", which implies a missing value that ought to be filled in.
+  if (value === UNCLASSIFIED) return '—'
   return value.charAt(0).toUpperCase() + value.slice(1)
 }
+
 
 export function partOfSpeechLabel(value: string): string {
   if (value === UNCLASSIFIED) return 'Unclassified'
@@ -175,9 +178,10 @@ export function distinctJlptValues(rows: Kotoba[]): string[] {
 }
 
 export function distinctKanaTypeValues(rows: Kotoba[]): string[] {
-  const present = new Set(rows.map((row) => row.kana_type))
+  const present = new Set(rows.map((row) => row.kana_type ?? UNCLASSIFIED))
   return sortByDomainOrder([...present], KANA_TYPE_ORDER)
 }
+
 
 export function distinctContextIds(rows: Kotoba[]): string[] {
   const present = new Set(

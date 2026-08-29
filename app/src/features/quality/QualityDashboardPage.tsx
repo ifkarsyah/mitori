@@ -96,14 +96,14 @@ export function QualityDashboardPage() {
 
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
         <StatCard label="Kotoba" value={data.kotobaTotal} />
-        <StatCard label="Kanji" value={data.kanjiTotal} />
+        {data.includeKanji && <StatCard label="Kanji" value={data.kanjiTotal} />}
         <StatCard label="Sentences" value={data.sentencesTotal} />
         <StatCard label="Checks flagged" value={`${flaggedCount} of ${data.checks.length}`} />
       </div>
 
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-3">
         <CompletenessSection title="Kotoba columns" stats={data.kotobaStats} />
-        <CompletenessSection title="Kanji columns" stats={data.kanjiStats} />
+        {data.includeKanji && <CompletenessSection title="Kanji columns" stats={data.kanjiStats} />}
         <CompletenessSection title="Sentence columns" stats={data.sentenceStats} />
       </div>
 

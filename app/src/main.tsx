@@ -5,11 +5,14 @@ import { RouterProvider } from 'react-router'
 import './index.css'
 import { queryClient } from '@/lib/queryClient'
 import { router } from '@/router/routes'
+import { LanguageProvider } from '@/features/language/LanguageProvider'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <QueryClientProvider client={queryClient}>
-      <RouterProvider router={router} />
-    </QueryClientProvider>
+    <LanguageProvider>
+      <QueryClientProvider client={queryClient}>
+        <RouterProvider router={router} />
+      </QueryClientProvider>
+    </LanguageProvider>
   </StrictMode>,
 )

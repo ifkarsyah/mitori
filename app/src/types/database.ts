@@ -10,7 +10,7 @@ export type Database = {
   // Allows to automatically instantiate createClient with right options
   // instead of createClient<Database, { PostgrestVersion: 'XX' }>(URL, KEY)
   __InternalSupabase: {
-    PostgrestVersion: "14.5"
+    PostgrestVersion: "14.17"
   }
   public: {
     Tables: {
@@ -49,6 +49,27 @@ export type Database = {
           },
         ]
       }
+      concept: {
+        Row: {
+          created_at: string
+          gloss: string
+          id: number
+          part_of_speech: string | null
+        }
+        Insert: {
+          created_at?: string
+          gloss: string
+          id?: number
+          part_of_speech?: string | null
+        }
+        Update: {
+          created_at?: string
+          gloss?: string
+          id?: number
+          part_of_speech?: string | null
+        }
+        Relationships: []
+      }
       context: {
         Row: {
           created_at: string
@@ -80,6 +101,7 @@ export type Database = {
           created_at: string
           folder_order: number
           id: number
+          language: string
           slug: string
           sort_order: number
           title: string
@@ -91,6 +113,7 @@ export type Database = {
           created_at?: string
           folder_order: number
           id?: number
+          language?: string
           slug: string
           sort_order: number
           title: string
@@ -102,6 +125,7 @@ export type Database = {
           created_at?: string
           folder_order?: number
           id?: number
+          language?: string
           slug?: string
           sort_order?: number
           title?: string
@@ -153,14 +177,19 @@ export type Database = {
       }
       kotoba: {
         Row: {
+          cefr: string | null
+          concept_id: number | null
           context_id: number | null
           created_at: string
+          gender: string | null
           id: number
           jlpt: string | null
-          kana_type: string
+          kana_type: string | null
+          language: string
           learned: boolean
           meanings: string[]
           part_of_speech: string | null
+          plural: string | null
           reading: string | null
           source_id: number | null
           sub_part_of_speech: string | null
@@ -168,14 +197,19 @@ export type Database = {
           word: string
         }
         Insert: {
+          cefr?: string | null
+          concept_id?: number | null
           context_id?: number | null
           created_at?: string
+          gender?: string | null
           id?: number
           jlpt?: string | null
-          kana_type: string
+          kana_type?: string | null
+          language?: string
           learned?: boolean
           meanings: string[]
           part_of_speech?: string | null
+          plural?: string | null
           reading?: string | null
           source_id?: number | null
           sub_part_of_speech?: string | null
@@ -183,14 +217,19 @@ export type Database = {
           word: string
         }
         Update: {
+          cefr?: string | null
+          concept_id?: number | null
           context_id?: number | null
           created_at?: string
+          gender?: string | null
           id?: number
           jlpt?: string | null
-          kana_type?: string
+          kana_type?: string | null
+          language?: string
           learned?: boolean
           meanings?: string[]
           part_of_speech?: string | null
+          plural?: string | null
           reading?: string | null
           source_id?: number | null
           sub_part_of_speech?: string | null
@@ -198,6 +237,13 @@ export type Database = {
           word?: string
         }
         Relationships: [
+          {
+            foreignKeyName: "kotoba_concept_id_fkey"
+            columns: ["concept_id"]
+            isOneToOne: false
+            referencedRelation: "concept"
+            referencedColumns: ["id"]
+          },
           {
             foreignKeyName: "kotoba_source_id_fkey"
             columns: ["source_id"]
@@ -222,6 +268,7 @@ export type Database = {
           created_at: string
           id: number
           is_transcript_complete: boolean
+          language: string
           title: string
           transcript: string | null
           updated_at: string | null
@@ -234,6 +281,7 @@ export type Database = {
           created_at?: string
           id?: number
           is_transcript_complete?: boolean
+          language?: string
           title: string
           transcript?: string | null
           updated_at?: string | null
@@ -246,6 +294,7 @@ export type Database = {
           created_at?: string
           id?: number
           is_transcript_complete?: boolean
+          language?: string
           title?: string
           transcript?: string | null
           updated_at?: string | null
@@ -273,6 +322,7 @@ export type Database = {
           created_at: string
           description: string | null
           id: number
+          language: string
           name: string
           platform: string
           slug: string
@@ -282,6 +332,7 @@ export type Database = {
           created_at?: string
           description?: string | null
           id?: number
+          language?: string
           name: string
           platform: string
           slug: string
@@ -291,6 +342,7 @@ export type Database = {
           created_at?: string
           description?: string | null
           id?: number
+          language?: string
           name?: string
           platform?: string
           slug?: string
@@ -339,6 +391,7 @@ export type Database = {
           context_id: number | null
           created_at: string
           id: number
+          language: string
           meaning: string | null
           sentence: string | null
           updated_at: string | null
@@ -348,6 +401,7 @@ export type Database = {
           context_id?: number | null
           created_at?: string
           id?: number
+          language?: string
           meaning?: string | null
           sentence?: string | null
           updated_at?: string | null
@@ -357,6 +411,7 @@ export type Database = {
           context_id?: number | null
           created_at?: string
           id?: number
+          language?: string
           meaning?: string | null
           sentence?: string | null
           updated_at?: string | null

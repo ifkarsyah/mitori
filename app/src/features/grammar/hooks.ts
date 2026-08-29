@@ -1,10 +1,12 @@
 import { useQuery } from '@tanstack/react-query'
 import { fetchGrammarPointList } from './api'
+import { useLanguage } from '@/features/language/useLanguage'
 
 export function useGrammarPointList() {
+  const { language } = useLanguage()
   return useQuery({
-    queryKey: ['grammarPoint', 'list'],
-    queryFn: fetchGrammarPointList,
+    queryKey: ['grammarPoint', 'list', language],
+    queryFn: () => fetchGrammarPointList(language),
   })
 }
 

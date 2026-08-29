@@ -8,6 +8,7 @@ import { ColumnVisibilityToggle } from '@/components/ColumnVisibilityToggle'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { downloadCsv } from '@/lib/exportCsv'
+import { useLanguage } from '@/features/language/useLanguage'
 import type { Kotoba } from './api'
 import { useSentencesList, useSourceList } from './hooks'
 import { ANKI_HEADERS, buildKotobaAnkiRows, buildSentencesByWordId } from './exportAnki'
@@ -34,6 +35,7 @@ function buildColumns(
   sourceNameById: Map<number, string>,
   includeContextColumn: boolean,
   includeSourceColumn: boolean,
+  isJapanese: boolean,
 ): ColumnConfig<Kotoba>[] {
   return [
   {
@@ -45,17 +47,29 @@ function buildColumns(
         className="text-lg hover:underline"
         onClick={(e) => e.stopPropagation()}
       >
-        {row.word}
+        {/* German nouns read naturally with their article, but sort by the bare word. */}
+        {row.gender ? `${row.gender} ${row.word}` : row.word}
       </Link>
     ),
     sortValue: (row) => row.word,
   },
-  {
-    key: 'reading',
-    header: 'Reading',
-    render: (row) => row.reading ?? <span className="text-muted-foreground">—</span>,
-    sortValue: (row) => row.reading,
-  },
+  ...(isJapanese
+    ? [
+        {
+          key: 'reading',
+          header: 'Reading',
+          render: (row: Kotoba) => row.reading ?? <span className="text-muted-foreground">—</span>,
+          sortValue: (row: Kotoba) => row.reading,
+        },
+      ]
+    : [
+        {
+          key: 'plural',
+          header: 'Plural',
+          render: (row: Kotoba) => row.plural ?? <span className="text-muted-foreground">—</span>,
+          sortValue: (row: Kotoba) => row.plural,
+        },
+      ]),
   {
     key: 'meanings',
     header: 'Meanings',
@@ -129,19 +143,36 @@ function buildColumns(
     render: (row) => row.sub_part_of_speech ?? <span className="text-muted-foreground">—</span>,
     sortValue: (row) => row.sub_part_of_speech,
   },
-  {
-    key: 'jlpt',
-    header: 'JLPT',
-    render: (row) =>
-      row.jlpt ? jlptLabel(row.jlpt) : <span className="text-muted-foreground">—</span>,
-    sortValue: (row) => row.jlpt,
-  },
-  {
-    key: 'kana_type',
-    header: 'Kana type',
-    render: (row) => kanaTypeLabel(row.kana_type),
-    sortValue: (row) => row.kana_type,
-  },
+  ...(isJapanese
+    ? [
+        {
+          key: 'jlpt',
+          header: 'JLPT',
+          render: (row: Kotoba) =>
+            row.jlpt ? jlptLabel(row.jlpt) : <span className="text-muted-foreground">—</span>,
+          sortValue: (row: Kotoba) => row.jlpt,
+        },
+        {
+          key: 'kana_type',
+          header: 'Kana type',
+          render: (row: Kotoba) =>
+            row.kana_type ? (
+              kanaTypeLabel(row.kana_type)
+            ) : (
+              <span className="text-muted-foreground">—</span>
+            ),
+          sortValue: (row: Kotoba) => row.kana_type,
+        },
+      ]
+    : [
+        {
+          key: 'cefr',
+          header: 'CEFR',
+          render: (row: Kotoba) =>
+            row.cefr ? row.cefr.toUpperCase() : <span className="text-muted-foreground">—</span>,
+          sortValue: (row: Kotoba) => row.cefr,
+        },
+      ]),
   ]
 }
 
@@ -150,6 +181,10 @@ const BASE_GROUP_BY_OPTIONS = [
   { value: 'context', label: 'Context' },
   { value: 'part_of_speech', label: 'Part of speech' },
   { value: 'sub_part_of_speech', label: 'Sub part of speech' },
+]
+
+/** Grouping axes that only exist for Japanese vocabulary. */
+const JAPANESE_GROUP_BY_OPTIONS = [
   { value: 'kana_type', label: 'Kana type' },
   { value: 'jlpt', label: 'JLPT' },
 ]
@@ -173,6 +208,8 @@ export function KotobaExplorer({
   includeSourceColumn = true,
 }: KotobaExplorerProps) {
   const [filters, setFilters] = useState<KotobaFilterState>(defaultKotobaFilterState)
+  const { language } = useLanguage()
+  const isJapanese = language === 'ja'
   const { data: sources } = useSourceList()
   const { data: sentences } = useSentencesList()
   const sourceNameById = useMemo(() => {
@@ -184,8 +221,9 @@ export function KotobaExplorer({
   const [hiddenColumns, setHiddenColumns] = useState<Set<string>>(new Set())
 
   const columns = useMemo(
-    () => buildColumns(contextNameById, sourceNameById, includeContextColumn, includeSourceColumn),
-    [contextNameById, sourceNameById, includeContextColumn, includeSourceColumn],
+    () =>
+      buildColumns(contextNameById, sourceNameById, includeContextColumn, includeSourceColumn, isJapanese),
+    [contextNameById, sourceNameById, includeContextColumn, includeSourceColumn, isJapanese],
   )
 
   function toggleColumn(key: string) {
@@ -246,13 +284,21 @@ export function KotobaExplorer({
       : []),
     { key: 'partOfSpeech', label: 'Part of speech', options: partOfSpeechOptions },
     { key: 'subPartOfSpeech', label: 'Sub-type', options: subPartOfSpeechOptions },
-    { key: 'kana_type', label: 'Kana type', options: kanaTypeOptions },
-    { key: 'jlpt', label: 'JLPT', options: jlptOptions },
+    // Kana type and JLPT only mean anything for Japanese.
+    ...(isJapanese
+      ? [
+          { key: 'kana_type', label: 'Kana type', options: kanaTypeOptions },
+          { key: 'jlpt', label: 'JLPT', options: jlptOptions },
+        ]
+      : []),
   ]
 
+  const allGroupByOptions = isJapanese
+    ? [...BASE_GROUP_BY_OPTIONS, ...JAPANESE_GROUP_BY_OPTIONS]
+    : BASE_GROUP_BY_OPTIONS
   const groupByOptions = includeContextFilter
-    ? BASE_GROUP_BY_OPTIONS
-    : BASE_GROUP_BY_OPTIONS.filter((o) => o.value !== 'context')
+    ? allGroupByOptions
+    : allGroupByOptions.filter((o) => o.value !== 'context')
 
   const groups = useMemo(() => {
     const filtered = applyKotobaFilters(words, filters)

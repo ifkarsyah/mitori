@@ -1,19 +1,32 @@
 import { useMemo } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import {
+  fetchConceptList,
   fetchContextList,
   fetchKotobaList,
+  fetchKotobaListAllLanguages,
   fetchSentenceKotobaList,
   fetchSentencesList,
   fetchSourceList,
   fetchWordKanjiList,
 } from './api'
 import { useKanjiList } from '@/features/kanji/hooks'
+import { useLanguage } from '@/features/language/useLanguage'
 
+/** Words in the language the app is currently scoped to. */
 export function useKotobaList() {
+  const { language } = useLanguage()
   return useQuery({
-    queryKey: ['kotoba', 'list'],
-    queryFn: fetchKotobaList,
+    queryKey: ['kotoba', 'list', language],
+    queryFn: () => fetchKotobaList(language),
+  })
+}
+
+/** Words in every language — for the concept bridge and kanji links only. */
+export function useKotobaListAllLanguages() {
+  return useQuery({
+    queryKey: ['kotoba', 'list', 'all'],
+    queryFn: fetchKotobaListAllLanguages,
   })
 }
 
@@ -25,9 +38,10 @@ export function useWordKanjiList() {
 }
 
 export function useSentencesList() {
+  const { language } = useLanguage()
   return useQuery({
-    queryKey: ['sentences', 'list'],
-    queryFn: fetchSentencesList,
+    queryKey: ['sentences', 'list', language],
+    queryFn: () => fetchSentencesList(language),
   })
 }
 
@@ -50,6 +64,32 @@ export function useSourceList() {
     queryKey: ['source', 'list'],
     queryFn: fetchSourceList,
   })
+}
+
+export function useConceptList() {
+  return useQuery({
+    queryKey: ['concept', 'list'],
+    queryFn: fetchConceptList,
+  })
+}
+
+export function useConceptById(id: number | null | undefined) {
+  const query = useConceptList()
+  const concept = id == null ? undefined : query.data?.find((row) => row.id === id)
+  return { ...query, data: concept }
+}
+
+/**
+ * Every word realizing a concept, in every language — including Japanese synonyms
+ * that share one concept (持ち帰り / お持ち帰り / テイクアウト).
+ */
+export function useKotobaForConcept(conceptId: number | null | undefined) {
+  // Cross-language on purpose — showing the other language's word for this
+  // concept is the entire point of the concept link.
+  const query = useKotobaListAllLanguages()
+  const words =
+    conceptId == null ? [] : (query.data?.filter((row) => row.concept_id === conceptId) ?? [])
+  return { ...query, data: words }
 }
 
 export function useKotobaById(id: number | undefined) {

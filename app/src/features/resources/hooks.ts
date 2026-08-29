@@ -1,18 +1,21 @@
 import { useMemo } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import { fetchResourceChannelList, fetchResourceList } from './api'
+import { useLanguage } from '@/features/language/useLanguage'
 
 export function useResourceList() {
+  const { language } = useLanguage()
   return useQuery({
-    queryKey: ['resource', 'list'],
-    queryFn: fetchResourceList,
+    queryKey: ['resource', 'list', language],
+    queryFn: () => fetchResourceList(language),
   })
 }
 
 export function useResourceChannelList() {
+  const { language } = useLanguage()
   return useQuery({
-    queryKey: ['resourceChannel', 'list'],
-    queryFn: fetchResourceChannelList,
+    queryKey: ['resourceChannel', 'list', language],
+    queryFn: () => fetchResourceChannelList(language),
   })
 }
 

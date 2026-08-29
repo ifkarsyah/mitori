@@ -1,10 +1,14 @@
 import { NavLink } from 'react-router'
 import { cn } from '@/lib/utils'
+import { LanguageToggle } from '@/components/layout/LanguageToggle'
+import { useLanguage } from '@/features/language/useLanguage'
+import { hasKanji } from '@/features/language/languages'
 
 const links = [
   { to: '/', label: 'Overview', end: true },
-  { to: '/kanji', label: 'Kanji' },
+  { to: '/kanji', label: 'Kanji', japaneseOnly: true },
   { to: '/kotoba', label: 'Kotoba' },
+  { to: '/concept', label: 'Concept' },
   { to: '/context', label: 'Context' },
   { to: '/source', label: 'Source' },
   { to: '/sentences', label: 'Sentences' },
@@ -14,12 +18,15 @@ const links = [
 ]
 
 export function NavBar() {
+  const { language } = useLanguage()
+  const visibleLinks = links.filter((link) => !link.japaneseOnly || hasKanji(language))
+
   return (
     <header className="border-b">
       <div className="mx-auto flex max-w-6xl items-center gap-6 px-4 py-3">
         <span className="font-semibold">mitori</span>
-        <nav className="flex gap-4">
-          {links.map((link) => (
+        <nav className="flex flex-wrap gap-4">
+          {visibleLinks.map((link) => (
             <NavLink
               key={link.to}
               to={link.to}
@@ -35,6 +42,9 @@ export function NavBar() {
             </NavLink>
           ))}
         </nav>
+        <div className="ml-auto">
+          <LanguageToggle />
+        </div>
       </div>
     </header>
   )

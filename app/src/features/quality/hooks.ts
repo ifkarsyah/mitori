@@ -1,9 +1,13 @@
 import { useMemo } from 'react'
 import { useKanjiList } from '@/features/kanji/hooks'
 import { useKotobaList, useSentenceKotobaList, useSentencesList, useWordKanjiList } from '@/features/kotoba/hooks'
+import { useLanguage } from '@/features/language/useLanguage'
+import { hasKanji } from '@/features/language/languages'
 import { kanjiCompleteness, kotobaCompleteness, sentenceCompleteness, structuralChecks } from './stats'
 
 export function useQualityStats() {
+  const { language } = useLanguage()
+  const includeKanji = hasKanji(language)
   const kotobaQuery = useKotobaList()
   const kanjiQuery = useKanjiList()
   const sentencesQuery = useSentencesList()
@@ -27,16 +31,28 @@ export function useQualityStats() {
     const sentenceKotoba = sentenceKotobaQuery.data ?? []
     const kotobaById = new Map(kotoba.map((k) => [k.id, k]))
 
+    // Kanji stats and the kanji-breakdown check are Japanese-structural, so
+    // they are dropped entirely rather than shown as vacuously passing.
+    const checks = structuralChecks({ kotoba, sentences, wordKanji, sentenceKotoba, kotobaById })
+
     return {
+      includeKanji,
       kotobaTotal: kotoba.length,
-      kanjiTotal: kanji.length,
+      kanjiTotal: includeKanji ? kanji.length : 0,
       sentencesTotal: sentences.length,
       kotobaStats: kotobaCompleteness(kotoba),
-      kanjiStats: kanjiCompleteness(kanji),
+      kanjiStats: includeKanji ? kanjiCompleteness(kanji) : [],
       sentenceStats: sentenceCompleteness(sentences, kotobaById),
-      checks: structuralChecks({ kotoba, sentences, wordKanji, sentenceKotoba, kotobaById }),
+      checks: includeKanji ? checks : checks.filter((c) => c.key !== 'kanji_breakdown'),
     }
-  }, [kotobaQuery.data, kanjiQuery.data, sentencesQuery.data, wordKanjiQuery.data, sentenceKotobaQuery.data])
+  }, [
+    kotobaQuery.data,
+    kanjiQuery.data,
+    sentencesQuery.data,
+    wordKanjiQuery.data,
+    sentenceKotobaQuery.data,
+    includeKanji,
+  ])
 
   return {
     data,

@@ -7,6 +7,8 @@ import { GroupedTable } from '@/components/GroupedTable'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
 import { useContextList } from '@/features/kotoba/hooks'
+import { useLanguage } from '@/features/language/useLanguage'
+import { languageLabel } from '@/features/language/languages'
 import type { Resource } from './api'
 import { useResourceChannelList, useResourceList } from './hooks'
 import {
@@ -32,6 +34,7 @@ const GROUP_BY_OPTIONS = [
 ]
 
 export function ResourcesDashboardPage() {
+  const { language } = useLanguage()
   const { data, isLoading, isError, error, refetch } = useResourceList()
   const { data: channels } = useResourceChannelList()
   const { data: contexts } = useContextList()
@@ -178,7 +181,11 @@ export function ResourcesDashboardPage() {
         columns={columns}
         getRowKey={(row) => row.id}
         getRowHref={(row) => `/resources/${row.id}`}
-        emptyMessage="No resources match these filters."
+        emptyMessage={
+          (data?.length ?? 0) === 0
+            ? `No ${languageLabel(language)} resources yet.`
+            : 'No resources match these filters.'
+        }
       />
     </div>
   )
