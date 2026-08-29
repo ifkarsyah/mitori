@@ -1,9 +1,14 @@
-"""Check the syllabus draft for problems that would only surface at migration time.
+"""Check the syllabus CSVs for problems that would only surface at migration time.
 
-Two of these are easy to create by hand and expensive to discover later:
-concept.gloss is UNIQUE in the database, so a syllabus gloss that collides with
-an existing concept it is not merging will fail the migration; and an existing
-concept claimed by two syllabus entries would have to be split, not merged.
+Structural checks always run: slug and gloss uniqueness across every file, a
+recognised part of speech, a tier in range, and CSV rows that did not silently
+shift because of an unquoted comma.
+
+Two further checks compare against db-export/concept.csv — a syllabus gloss
+colliding with an existing concept it is not merging would fail the UNIQUE
+constraint, and one existing concept claimed twice would be a split rather than
+a merge. Those only make sense against a pre-migration export, so they are
+skipped once the export shows the syllabus already applied.
 
 Usage: python3 syllabus/validate.py      (run from the repo root)
 """
@@ -37,7 +42,12 @@ def main() -> None:
     errors: list[str] = []
     category_slugs, leaf_slugs = load_categories()
 
-    existing = {r["id"]: r["gloss"] for r in csv.DictReader(EXPORTED_CONCEPTS.open(encoding="utf-8"))}
+    exported = list(csv.DictReader(EXPORTED_CONCEPTS.open(encoding="utf-8")))
+    existing = {r["id"]: r["gloss"] for r in exported}
+    # Once the syllabus has been applied, the export contains the syllabus
+    # itself: every gloss "collides" and folded-away ids are gone. Comparing
+    # against it then reports noise rather than problems.
+    already_applied = any(r.get("slug") for r in exported)
 
     seen_slugs: dict[str, str] = {}
     seen_glosses: dict[str, str] = {}
@@ -87,17 +97,17 @@ def main() -> None:
 
             merged_glosses = []
             for concept_id in filter(None, (p.strip() for p in row["existing_concept_ids"].split(";"))):
-                if concept_id not in existing:
-                    errors.append(f"{where}: existing_concept_ids {concept_id} not in db-export/concept.csv")
-                    continue
                 if concept_id in claimed:
                     errors.append(f"{where}: concept {concept_id} already claimed by {claimed[concept_id]}")
                 claimed[concept_id] = where
-                merged_glosses.append(existing[concept_id])
+                if concept_id in existing:
+                    merged_glosses.append(existing[concept_id])
+                elif not already_applied:
+                    errors.append(f"{where}: existing_concept_ids {concept_id} not in db-export/concept.csv")
 
             # A syllabus gloss identical to an existing concept it is NOT merging
             # would violate concept.gloss UNIQUE when the syllabus is inserted.
-            if gloss in existing.values() and gloss not in merged_glosses:
+            if not already_applied and gloss in existing.values() and gloss not in merged_glosses:
                 clashing = [i for i, g in existing.items() if g == gloss]
                 errors.append(
                     f"{where}: gloss {gloss!r} already exists as concept {clashing[0]} "
@@ -109,6 +119,8 @@ def main() -> None:
         sys.exit(f"\n{len(errors)} problem(s) across {len(files)} file(s)")
 
     covered = len(leaf_slugs & {p.stem for p in files})
+    if already_applied:
+        print("db-export already contains the syllabus; skipped the pre-migration checks")
     print(f"{total} concepts across {len(files)} of {len(leaf_slugs)} leaf categories")
     print(f"  tier 1: {by_tier['1']}   tier 2: {by_tier['2']}   tier 3: {by_tier['3']}")
     print(f"  merging {len(claimed)} of {len(existing)} existing concepts")
