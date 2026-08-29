@@ -1,0 +1,40 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+men-to-think,to think,verb,1,1029;1177,"Merges 考える (1029) and 思う (1177)."
+men-thought,thought,noun,1,1139,考え.
+men-mind,mind,noun,1,233,心.
+men-to-know,to know,verb,1,151,知る.
+men-knowledge,knowledge,noun,1,711,知識.
+men-to-understand,to understand,verb,1,636,分かる.
+men-understanding,understanding,noun,2,289,理解.
+men-to-remember,to remember,verb,1,122,覚える.
+men-memory,memory,noun,1,1027,思い出.
+men-to-forget,to forget,verb,1,,Absent today.
+men-to-notice,to notice,verb,1,143,気付く.
+men-to-believe,to believe,verb,1,1299,信じる.
+men-to-doubt,to doubt,verb,2,1056,疑う.
+men-doubt,doubt,noun,2,1165,疑問.
+men-suspicion,suspicion,noun,3,832,疑惑.
+men-to-decide,to decide,verb,1,1136,決める.
+men-decision,decision,noun,1,813,決定.
+men-solution,solution,noun,1,371,解決.
+men-idea,idea,noun,1,,
+men-imagination,imagination,noun,2,750,想像.
+men-to-investigate,to look up,verb,1,700,調べる.
+men-observation,observation,noun,2,781,観察.
+men-discovery,discovery,noun,2,975,発見.
+men-impression,impression,noun,2,693;454,"Merges 印象 (693) and 感想 (454)."
+men-consciousness,awareness,noun,2,228,意識.
+men-attention,attention,noun,1,101;230,"Merges 注意 (101) and 注目 (230)."
+men-caution,vigilance,noun,3,1113,警戒.
+men-reflection,self-reflection,noun,3,938,反省.
+men-assumption,assumption,noun,2,1000,仮定.
+men-consideration,consideration,noun,2,1483,考察 — existing concept is 検討.
+men-calculation,calculation,noun,2,759,計算.
+men-to-count,to count,verb,1,1428,数える.
+men-skill,skill,noun,1,365,技能.
+men-talent,talent,noun,2,1120,才能.
+men-ingenuity,ingenuity,noun,3,1396,工夫.
+men-basics,basics,noun,1,1425,基本.
+men-foundation,foundation,noun,2,53,基礎.
+men-certain,certain,adjective,1,1187,確実.
+men-to-confirm,to confirm,verb,1,1005,確認.

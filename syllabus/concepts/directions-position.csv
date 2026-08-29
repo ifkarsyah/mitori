@@ -1,0 +1,37 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+dir-direction,direction,noun,1,675,方向.
+dir-position,position,noun,1,894,位置.
+dir-place,place,noun,1,385,場所.
+dir-left,left,noun,1,1008,左側.
+dir-right,right,noun,1,625,右側.
+dir-up,up,adverb,1,,
+dir-down,down,adverb,1,,
+dir-front,front,noun,1,552,前.
+dir-behind,behind,adverb,1,1344,後.
+dir-inside,inside,adverb,1,1105,室内 — existing concept is specifically indoors.
+dir-outside,outside,adverb,1,86,外.
+dir-outdoors,outdoors,noun,2,1258,戸外.
+dir-above,above,adverb,1,1223,以上 — existing concept is the ""more than"" sense.
+dir-below,below,adverb,1,650,以下.
+dir-near,near,adjective,1,1166,近い.
+dir-far,far,adjective,1,960,遠い.
+dir-between,between,preposition,1,217,間.
+dir-middle,middle,noun,1,302,中央.
+dir-side,side,noun,1,1290,横.
+dir-corner,corner,noun,2,974,角.
+dir-top,top,noun,2,227;1103,"Merges 頂上 (227) and 先頭 (1103)."
+dir-bottom,bottom,noun,2,,
+dir-opposite-side,the other side,noun,2,986,向こう.
+dir-underground,underground (below ground),noun,2,1464,地下.
+dir-upstairs,upstairs,noun,2,1168,二階.
+dir-boundary,boundary,noun,2,806,境界.
+dir-north,north,noun,1,972,北.
+dir-south,south,noun,1,556,南.
+dir-east,east,noun,1,1476,東.
+dir-west,west,noun,1,1050,西.
+dir-here,here,adverb,1,,
+dir-there,there,adverb,1,,
+dir-to-face,to face,verb,2,145,向く.
+dir-to-point,to point at,verb,2,698,指す.
+dir-to-line-up,to queue up,verb,2,723,並ぶ (intransitive).
+dir-to-arrange,to line up (something),verb,2,559,並べる (transitive).

@@ -1,0 +1,44 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+net-telephone,telephone,noun,1,1205,電話.
+net-to-call,to phone,verb,1,,
+net-mobile-phone,mobile phone,noun,1,,
+net-message,message,noun,1,,
+net-email,email,noun,1,,
+net-internet,internet,noun,1,,
+net-website,website,noun,1,,
+net-app,app,noun,1,,
+net-account,account,noun,1,,
+net-password,password,noun,1,,
+net-to-log-in,to log in,verb,1,,
+net-profile,profile,noun,2,976,プロフィール.
+net-registration,registration,noun,1,1384,登録.
+net-application-form,application,noun,1,226,申し込み.
+net-settings,settings,noun,1,1054,設定.
+net-search,search,noun,1,1128,検索.
+net-to-search,to search,verb,1,,
+net-video,video,noun,1,465,動画.
+net-channel,channel,noun,2,20,チャンネル.
+net-to-follow,to follow,noun,2,108,フォロー.
+net-comment,comment,noun,1,835,コメント.
+net-to-share,to share,noun,2,1220,共有.
+net-notification,notification,noun,1,982,通知.
+net-to-send,to send,noun,1,1179,送信.
+net-to-receive,to receive (a signal),noun,2,494,受信.
+net-to-delete,delete,noun,1,577,削除.
+net-to-save-file,save,noun,1,955,保存.
+net-to-edit,edit,noun,1,45,編集.
+net-draft,draft,noun,2,906,下書き.
+net-bookmark,bookmark,noun,2,67,ブックマーク.
+net-history-record,browsing history,noun,2,378,履歴.
+net-playback,playback,noun,2,1419,再生.
+net-mute,mute,noun,3,39,ミュート.
+net-block,block,noun,2,1443,ブロック.
+net-viewing,viewing (media),noun,3,138,"視聴. Qualified — concept 1024 (見学) already holds the plain gloss for a site visit."
+net-download,download,noun,1,,
+net-upload,upload,noun,1,,
+net-file,file,noun,1,,
+net-screen,screen,noun,1,,
+net-security,security,noun,1,783;865,"Merges セキュリティ (783) and 安全 (865)."
+net-identity-check,identity verification,noun,3,1380,本人確認.
+net-signal,signal,noun,2,170,電波.
+net-support,support,noun,1,1230;1178,"Merges サポート (1230) and 対応 (1178)."

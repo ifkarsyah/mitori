@@ -1,0 +1,41 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+vmo-to-go,to go,verb,1,1271,行く.
+vmo-to-come,to come,verb,1,993,来る.
+vmo-to-walk,to walk,verb,1,522,歩く.
+vmo-to-run,to run,verb,1,514,走る.
+vmo-to-swim,to swim,verb,1,1374,泳ぐ.
+vmo-to-fly,to fly,verb,1,1154,飛ぶ.
+vmo-to-enter,to enter,verb,1,288,入る.
+vmo-to-exit,to go out,verb,1,604,出る.
+vmo-to-return,to go home,verb,1,73,帰る.
+vmo-to-leave,to leave,verb,1,1114,去る.
+vmo-to-arrive,to arrive,verb,1,1126,着く.
+vmo-to-climb,to climb,verb,1,656,登る.
+vmo-to-go-up,to go up,verb,1,76,上がる.
+vmo-to-go-down,to go down,verb,1,1291,下がる.
+vmo-to-move,to move,verb,1,913,動く.
+vmo-to-advance,to advance,verb,2,1273,進む.
+vmo-to-head-for,to head for,verb,2,697,向かう.
+vmo-to-approach,to approach,verb,2,605;343,"Merges 寄る (605) and 寄せる (343)."
+vmo-to-hurry,to hurry,verb,1,615,急ぐ.
+vmo-to-stand,to stand,verb,1,621,立つ.
+vmo-to-sit,to sit,verb,1,,Absent today.
+vmo-to-stop,to stop,verb,1,1148,止まる (intransitive).
+vmo-to-halt,to stop (something),verb,1,1211,止める (transitive).
+vmo-to-fall,to fall,verb,1,250,落ちる.
+vmo-to-fall-over,to fall over,verb,2,1355,転ぶ.
+vmo-to-drop,to drop,verb,1,789,落とす.
+vmo-to-carry,to carry,verb,1,119,運ぶ.
+vmo-to-bring,to bring along,verb,1,362,連れる.
+vmo-to-throw,to throw,verb,2,685,投げる.
+vmo-to-chase,to chase,verb,2,653,追う.
+vmo-to-turn,to turn,verb,2,811,回る.
+vmo-to-flow,to flow,verb,2,799,流れる.
+vmo-to-pick-up,to pick up,verb,2,1353,拾う.
+vmo-to-gather,to gather,verb,2,1306,集まる (intransitive).
+vmo-to-collect,to collect,verb,2,434,集める (transitive).
+vmo-gathering,gathering,noun,3,763,集合.
+vmo-walk-noun,a walk,noun,1,342,散歩.
+vmo-action,action,noun,2,909,行動.
+vmo-activity,activity,noun,2,819,活動.
+vmo-mountaineering,mountaineering,noun,3,600,登山する.

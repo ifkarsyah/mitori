@@ -1,0 +1,40 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+spk-to-speak,to speak,verb,1,330,話す.
+spk-to-say,to say,verb,1,1022;272,"Merges 言う (1022) and the humble 申す (272)."
+spk-to-tell,to tell,verb,1,89;1147,"Merges 告げる (89) and 伝える (1147)."
+spk-to-listen,to listen,verb,1,778,聞く.
+spk-to-ask,to ask,verb,1,,
+spk-to-answer,to answer,verb,1,136,答える.
+spk-question,question,noun,1,249,質問.
+spk-answer,answer,noun,1,407;1014;861,"Merges 返事 (407), 回答 (1014) and 答え (861)."
+spk-reply,reply,noun,2,1322,返信.
+spk-conversation,conversation,noun,1,324;333,"Merges 話 (324) and 談話 (333)."
+spk-discussion,discussion,noun,2,504;581,"Merges 議論 (504) and 相談 (581)."
+spk-opinion,opinion,noun,1,1479;755,"Merges 意見 (1479) and 見解 (755)."
+spk-word-speech,words,noun,1,657,言葉 — distinct from 単語 (ll-word).
+spk-voice,voice,noun,1,690,声.
+spk-loud-voice,shout,noun,2,1313,大声.
+spk-to-read,to read,verb,1,338,読む.
+spk-reading-pastime,reading (pastime),noun,2,610,読書.
+spk-to-write,to write,verb,1,1357,書く.
+spk-letter-post,letter,noun,1,74,手紙.
+spk-newspaper,newspaper,noun,1,68,新聞.
+spk-newsprint,newsprint,noun,3,166,新聞紙.
+spk-news,news,noun,1,1484,ニュース.
+spk-explanation,explanation,noun,1,1381,説明.
+spk-instruction,instruction,noun,1,885,指示.
+spk-warning,warning,noun,2,1142,警告.
+spk-complaint,complaint,noun,2,1162,文句.
+spk-rudeness,rudeness,noun,2,846,失礼.
+spk-to-teach,to teach,verb,1,1021,教える.
+spk-contact,contact,noun,1,911,連絡.
+spk-communication,communication,noun,1,437,通信.
+spk-interaction,interaction,noun,2,1043,交流.
+spk-quotation,quotation,noun,3,511,引用.
+spk-punctuation,punctuation,noun,3,428,句読点.
+spk-to-be-conveyed,to be conveyed,verb,3,213,伝わる.
+spk-to-recite,to recite,verb,3,1160,唱える.
+spk-publication,public release,noun,3,707,公開.
+spk-broadcast,broadcast,noun,2,1015,放送.
+spk-tv-programme,programme,noun,1,652,番組.
+spk-broadcaster,broadcaster,noun,3,402,放送局.

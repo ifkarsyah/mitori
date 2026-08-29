@@ -1,0 +1,21 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+con-and,and,conjunction,1,,
+con-or,or,conjunction,1,,
+con-but,but,conjunction,1,,
+con-because,because,conjunction,1,,
+con-so,so,conjunction,1,,
+con-if,if,conjunction,1,,
+con-then,then,adverb,1,,
+con-also,also,adverb,1,,
+con-however,however,conjunction,2,,
+con-therefore,therefore,conjunction,2,,
+con-although,although,conjunction,2,,
+con-while,while,conjunction,2,,
+con-until,until,conjunction,2,,
+con-since-time,since,conjunction,2,542,以来.
+con-for-example,for example,adverb,2,1362,例.
+con-reason,reason,noun,1,1308;431,"Merges 理由 (1308) and 原因 (431)."
+con-result,result,noun,1,715,結果.
+con-condition,condition,noun,2,471,条件.
+con-case-situation,case,noun,2,117,場合.
+con-situation,situation,noun,1,1092;35,"Merges 現状 (1092) and 様子 (35)."

@@ -1,0 +1,47 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+off-work,work,noun,1,483,勤務.
+off-to-work,to work,verb,1,239;1204,"Merges 勤める (239) and 働く (1204)."
+off-workplace,workplace,noun,1,777,職場.
+off-company,company,noun,1,676,会社.
+off-corporation,corporation,noun,3,737,法人.
+off-business,business,noun,1,3,商売.
+off-industry,industry,noun,2,623;626;508,"Merges 工業 (623), 産業 (626) and 業界 (508)."
+off-trade,trade,noun,2,1001,貿易.
+off-meeting,meeting,noun,1,19,会議.
+off-appointment,appointment,noun,1,,
+off-deadline,deadline,noun,1,,
+off-schedule-work,schedule,noun,1,408,予定.
+off-project,project,noun,2,853,計画.
+off-task,task,noun,1,,
+off-document,document,noun,1,241,書類.
+off-report,report,noun,1,398,報告.
+off-presentation,presentation,noun,2,830,発表.
+off-lecture,lecture,noun,2,567,講演.
+off-salary,salary,noun,1,386,給料.
+off-wages,wages,noun,2,1081,賃金.
+off-holiday-leave,annual leave,noun,1,,
+off-to-quit,to resign,verb,1,110,辞める.
+off-hiring,recruitment,noun,2,925,採用.
+off-interview,job interview,noun,1,561,面接.
+off-qualification,qualification,noun,2,404,資格.
+off-experience-work,work experience,noun,2,,See 717 (経験) for experience generally.
+off-going-to-work,going to work,noun,2,171,出勤.
+off-business-trip,business trip,noun,2,480,出張.
+off-management,management,noun,2,453;1312;1122,"Merges 管理 (453), 経営 (1312) and 運営 (1122)."
+off-responsibility,responsibility,noun,1,841,担当.
+off-role,role,noun,1,849,役割.
+off-rank,rank,noun,2,611,地位.
+off-speciality,speciality,noun,2,733,専門.
+off-contract,contract,noun,1,810,契約.
+off-profit,profit,noun,2,82,利益.
+off-economy,economy,noun,2,989,経済.
+off-investment,investment,noun,3,182,投資.
+off-shares,shares,noun,3,1145,株式.
+off-share-price,share price,noun,3,388,株価.
+off-insurance,insurance,noun,2,130,保険.
+off-bank-account,bank account,noun,1,1144,口座.
+off-balance,account balance,noun,2,948,残高.
+off-supply,supply,noun,3,132,供給.
+off-demand,demand,noun,2,133,要求.
+off-research,research,noun,2,964,研究.
+off-research-institute,research institute,noun,3,565,研究所.

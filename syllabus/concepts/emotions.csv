@@ -1,0 +1,44 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+emo-feeling,feeling,noun,1,554;1206,"Merges 気分 (554) and 気持ち (1206)."
+emo-to-feel,to feel,verb,1,1251,感じる.
+emo-happy,happy,adjective,1,1321,幸せ.
+emo-happiness,happiness,noun,1,872,幸福.
+emo-joy,joy,noun,1,768,喜び.
+emo-to-be-glad,to be glad,verb,1,1438,喜ぶ.
+emo-sad,sad,adjective,1,521,悲しい.
+emo-to-cry,to cry,verb,1,818,泣く.
+emo-to-laugh,to laugh,verb,1,183,笑う.
+emo-angry,angry,adjective,1,,Absent today.
+emo-afraid,afraid,adjective,1,,Absent today.
+emo-surprised,surprised,adjective,1,802,意外 — existing concept is the noun surprise.
+emo-worry,worry,noun,1,54,心配.
+emo-anxious,anxious,adjective,1,94,不安.
+emo-relief,relief,noun,1,1216,安心.
+emo-calm,calm,adjective,2,,
+emo-nervous,nervous,adjective,2,,
+emo-lonely,lonely,adjective,1,,
+emo-bored,bored,adjective,2,,
+emo-excited,excited,adjective,2,,
+emo-tired-emotion,fed up,adjective,3,,
+emo-love,love,noun,1,,Absent today.
+emo-to-like,to like,verb,1,,Absent today.
+emo-to-hate,to hate,verb,1,,
+emo-kind,kind,adjective,1,5,優しい.
+emo-kindness,kindness,noun,2,1249,親切.
+emo-fun,fun,adjective,1,646,楽しい.
+emo-to-enjoy,to enjoy,verb,1,563,楽しむ.
+emo-interesting,interesting,adjective,1,281,面白い.
+emo-comfortable,comfortable,adjective,2,1193,快適.
+emo-refreshing,refreshing,adjective,3,1213,爽快.
+emo-hope,hope,noun,1,628,希望.
+emo-to-hope,to hope,verb,1,1404,望む.
+emo-to-wish,to wish,verb,1,892,願う.
+emo-expectation,expectation,noun,2,218,期待.
+emo-patience,patience,noun,2,470,我慢.
+emo-regret,regret,noun,2,1036,後悔.
+emo-unhappiness,misfortune,noun,2,731,不幸.
+emo-painful,distressing,adjective,2,1059,苦しい.
+emo-thanks,gratitude,noun,1,996;1386,"Merges 感謝 (996) and お礼 (1386)."
+emo-moved,to be moved,noun,3,1314,感動.
+emo-confusion,confusion,noun,2,648,混乱.
+emo-to-hurt-someone,to hurt (someone),verb,2,1255,傷つける.

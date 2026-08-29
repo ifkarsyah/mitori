@@ -1,0 +1,48 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+aqu-good,good,adjective,1,,Absent today.
+aqu-bad,bad,adjective,1,,Absent today.
+aqu-new,new,adjective,1,1241,新しい.
+aqu-old-thing,old (of things),adjective,1,28,古い.
+aqu-old-fashioned,old-fashioned,adjective,3,1106,旧式.
+aqu-clean,clean,adjective,1,215,清潔.
+aqu-dirty,dirty,adjective,1,,
+aqu-beautiful,beautiful,adjective,1,965,美しい.
+aqu-ugly,ugly,adjective,2,,
+aqu-easy,easy,adjective,1,582;1261,"Merges 容易 (582) and 簡単 (1261)."
+aqu-difficult,difficult,adjective,1,956,難しい.
+aqu-strong,strong,adjective,1,539,強い.
+aqu-weak,weak,adjective,1,599,弱い.
+aqu-fast,fast,adjective,1,854,速い.
+aqu-slow,slow,adjective,1,,Absent today.
+aqu-early,early,adjective,1,856,早い.
+aqu-late,late,adjective,1,,
+aqu-bright,bright,adjective,1,493,明るい.
+aqu-dark,dark,adjective,1,815,暗い.
+aqu-quiet,quiet,adjective,1,,
+aqu-noisy,noisy,adjective,1,,
+aqu-important,important,adjective,1,91;557;1117,"Merges 大事 (91), 重要 (557) and 大切 (1117)."
+aqu-precious,precious,adjective,2,627,貴重.
+aqu-famous,famous,adjective,2,445,有名.
+aqu-excellent,excellent,adjective,2,999;248,"Merges 優秀 (999) and 見事 (248)."
+aqu-correct,correct,adjective,1,1416,正しい.
+aqu-wrong,wrong,adjective,1,,
+aqu-accurate,accurate,adjective,2,682,正確.
+aqu-safe,safe,adjective,1,,
+aqu-dangerous,dangerous,adjective,1,1067,危険.
+aqu-possible,possible,adjective,1,1133,可能.
+aqu-impossible,impossible,adjective,1,,
+aqu-necessary,necessary,adjective,1,,
+aqu-free-time,free (available),adjective,2,,
+aqu-busy,busy,adjective,1,,Absent today.
+aqu-serious,serious,adjective,2,520,真面目.
+aqu-honest,honest,adjective,2,1020,正直.
+aqu-polite,polite,adjective,2,103,丁寧.
+aqu-skilled,good at,adjective,2,203,上手.
+aqu-unskilled,bad at,adjective,2,785;346,"Merges 下手 (785) and 苦手 (346)."
+aqu-unusual,unusual,adjective,2,114,異常.
+aqu-real,real,adjective,2,85,本当.
+aqu-simple-plain,plain,adjective,3,644,簡潔.
+aqu-useful,useful,adjective,1,1310,有益.
+aqu-valid,valid,adjective,2,749,有効.
+aqu-secondhand,secondhand,adjective,2,987,中古.
+aqu-brand-new,brand new,adjective,3,90,新品.
