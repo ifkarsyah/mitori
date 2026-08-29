@@ -1,0 +1,151 @@
+concept_id,gloss,ja_word,part_of_speech,de_part_of_speech,de_word,de_gender,de_plural,de_cefr,note
+901,"to leave behind, save, set aside",残す,verb,verb,aufbewahren,,,b1,
+902,"construction work, engineering work",工事,noun,noun,Bauarbeiten,die,,b1,Used in the plural in German.
+903,individual,個人,noun,noun,Einzelperson,die,Einzelpersonen,b2,
+904,battery,電池,noun,noun,Batterie,die,Batterien,a2,
+905,"to shine (sun, moon)",照る,verb,verb,scheinen,,,b1,
+906,draft,下書き,noun,noun,Entwurf,der,Entwürfe,b2,
+907,ashtray,灰皿,noun,noun,Aschenbecher,der,Aschenbecher,b1,
+908,"to fold, break, bend",折る,verb,verb,falten,,,b1,
+909,"action, conduct",行動,noun,noun,Verhalten,das,,b1,
+910,"cherry blossom, cherry tree",桜,noun,noun,Kirschblüte,die,Kirschblüten,b1,
+911,"contact, communication, liaison",連絡,noun,noun,Kontakt,der,Kontakte,a2,Distinct from 通信/Kommunikation.
+912,"bullet train, shinkansen",新幹線,noun,noun,Hochgeschwindigkeitszug,der,Hochgeschwindigkeitszüge,b2,
+913,"to move, to shift",動く,verb,verb,sich bewegen,,,a2,
+914,boy,男の子,noun,noun,Junge,der,Jungen,a1,
+915,"western-style clothes, clothes (general)",洋服,noun,noun,Kleidung,die,,a1,
+916,newly built,新築,noun,phrase,neu gebaut,,,b2,"German expresses this as a phrase, not a noun."
+917,via,経由,noun,preposition,über,,,a2,"German equivalent is a preposition, not a noun."
+918,haircut,散髪,noun,noun,Haarschnitt,der,Haarschnitte,b1,
+919,"autumn equinox, autumnal equinox",秋分,noun,noun,Herbsttagundnachtgleiche,die,,c2,
+920,definition,定義,noun,noun,Definition,die,Definitionen,b2,
+921,shirt,シャツ,noun,noun,Hemd,das,Hemden,a1,
+922,cost,費用,noun,noun,Kosten,die,,b1,Used in the plural in German; distinct from 価格/Preis.
+923,"noon, daytime, midday",昼,noun,noun,Mittag,der,Mittage,a1,
+924,"to continue (transitive), keep doing",続ける,verb,verb,fortsetzen,,,b1,
+925,hiring,採用,noun,noun,Einstellung,die,Einstellungen,b2,
+926,delay,遅延,noun,noun,Verspätung,die,Verspätungen,b1,Distinct from 延期/Verschiebung.
+927,"factory, plant, workshop",工場,noun,noun,Fabrik,die,Fabriken,b1,
+928,"office, place of business",事務所,noun,noun,Büro,das,Büros,a1,
+929,"to compete, dispute, fight over",争う,verb,verb,streiten,,,b1,
+930,"traffic, transportation",交通,noun,noun,Straßenverkehr,der,,b1,Distinct from 往来/Verkehr.
+931,mattress,マットレス,noun,noun,Matratze,die,Matratzen,b1,
+932,"removal, elimination",除去,noun,noun,Entfernung,die,Entfernungen,b2,Distinct from 排除/Beseitigung.
+933,cotton,綿,noun,noun,Baumwolle,die,,b1,
+934,bill / check,お会計,noun,,,,,,German has no polite register; 会計/Rechnung carries this meaning.
+935,"park, public garden",公園,noun,noun,Park,der,Parks,a1,
+936,real estate property,物件,noun,noun,Objekt,das,Objekte,b2,Distinct from 不動産/Immobilie.
+937,"class, group, team, set",組,noun,noun,Gruppe,die,Gruppen,a2,Distinct from 学級/Klasse.
+938,"reflection, self-examination",反省,noun,noun,Selbstreflexion,die,,c1,
+939,"country, nation",国,noun,noun,Land,das,Länder,a1,
+940,all rooms,全室,noun,phrase,alle Zimmer,,,b1,"German uses a phrase, not a single noun."
+941,"passing through, transit",通過,noun,noun,Durchfahrt,die,Durchfahrten,b2,
+942,"various, all kinds, many different",色々,noun,adjective,verschieden,,,a2,"German equivalent is an adjective, not a noun."
+943,"within, not exceeding, no more than",以内,noun,,,,,,A grammatical function word; no German noun equivalent.
+944,"buying and selling, trade, transaction",売買,noun,noun,An- und Verkauf,der,,b2,Distinct from 貿易/Handel.
+945,"recently, lately, these days",最近,noun,adverb,kürzlich,,,b1,"German equivalent is an adverb, not a noun."
+946,"to project, to reflect",映す,verb,verb,spiegeln,,,b2,
+947,newborn baby,新生児,noun,noun,Neugeborene,das,Neugeborenen,b2,
+948,balance (account),残高,noun,noun,Kontostand,der,Kontostände,b2,
+949,"to be saved, to be rescued",助かる,verb,verb,gerettet werden,,,b2,
+950,"to stick, be attached, be lit",付く,verb,verb,haften,,,b2,
+951,white,白い,adjective,adjective,weiß,,,a1,
+952,"to reach, achieve, attain, amount to",達する,verb,verb,erreichen,,,b1,
+953,"rest, break, repose",休息,noun,noun,Pause,die,Pausen,a1,Distinct from 残り/Rest.
+954,single item,単品,noun,noun,Einzelartikel,der,Einzelartikel,b2,
+955,save,保存,noun,noun,Speicherung,die,,b2,
+956,"difficult, hard",難しい,adjective,adjective,schwierig,,,a1,
+957,"short (length, time)",短い,adjective,adjective,kurz,,,a1,
+958,three people,三人,noun,,,,,,A counted quantity rather than vocabulary.
+959,"to take out, to put out",出す,verb,verb,herausnehmen,,,a2,
+960,"far, distant",遠い,adjective,adjective,weit,,,a1,
+961,plan,プラン,noun,noun,Konzept,das,Konzepte,b2,Distinct from 予定/Plan and 計画/Vorhaben.
+962,january,一月,noun,noun,Januar,der,,a1,
+963,"burden, load, responsibility, share of cost",負担,noun,noun,Belastung,die,Belastungen,b2,
+964,"research, study, investigation",研究,noun,noun,Forschung,die,Forschungen,b1,
+965,"beautiful, lovely, pretty",美しい,adjective,adjective,schön,,,a1,
+966,broker's commission,仲介手数料,noun,noun,Maklerprovision,die,Maklerprovisionen,c1,
+967,"price, cost",価格,noun,noun,Preis,der,Preise,a1,
+968,"we, us",我々,noun,pronoun,wir,,,a1,"German equivalent is a pronoun, not a noun."
+969,soup,スープ,noun,noun,Suppe,die,Suppen,a1,
+970,garlic,ガーリック,noun,noun,Knoblauch,der,,a2,
+971,what,何,noun,pronoun,was,,,a1,"German equivalent is a pronoun, not a noun."
+972,north,北,noun,noun,Norden,der,,a2,
+973,repair,修理,noun,noun,Reparatur,die,Reparaturen,b1,
+974,"corner, angle",角,noun,noun,Ecke,die,Ecken,a2,
+975,"discovery, finding",発見,noun,noun,Entdeckung,die,Entdeckungen,b1,
+976,profile,プロフィール,noun,noun,Profil,das,Profile,b1,
+977,"to cry, to chirp, to bark, to sing (animals/birds)",鳴く,verb,verb,zwitschern,,,b2,
+978,"product, merchandise, goods",商品,noun,noun,Ware,die,Waren,b1,
+979,student (mainly university level),学生,noun,noun,Student,der,Studenten,a1,
+980,"to run along, to follow (a road or river)",沿う,verb,verb,entlangführen,,,c1,
+981,arrival,到着,noun,noun,Ankunft,die,,a2,
+982,notification,通知,noun,noun,Benachrichtigung,die,Benachrichtigungen,b2,
+983,"to divide, to split",割る,verb,verb,teilen,,,a2,
+984,"farmhouse, farming family, farmer",農家,noun,noun,Bauer,der,Bauern,a2,
+985,"warm (temperature), warm-hearted",温かい,adjective,adjective,warm,,,a1,
+986,"the other side, over there",向こう,noun,noun,andere Seite,die,,b1,
+987,secondhand,中古,noun,adjective,gebraucht,,,b1,"German equivalent is an adjective, not a noun."
+988,"to play, to have fun, to enjoy oneself",遊ぶ,verb,verb,spielen,,,a1,
+989,"economy, economics",経済,noun,noun,Wirtschaft,die,,b1,
+990,points / rewards,ポイント,noun,noun,Bonuspunkt,der,Bonuspunkte,b1,Distinct from 地点/Punkt.
+991,"to see, to look, to watch, to view, to observe, to examine, to assess",見る,verb,verb,sehen,,,a1,
+992,purpose,目的,noun,noun,Zweck,der,Zwecke,b1,
+993,"to come, to arrive",来る,verb,verb,kommen,,,a1,
+994,"to be sufficient, to be enough",足りる,verb,verb,genügen,,,b1,
+995,floor plan,間取り,noun,noun,Grundriss,der,Grundrisse,b2,
+996,"thanks, gratitude",感謝,noun,noun,Dank,der,,a2,
+997,"paper, sheet of paper",紙,noun,noun,Papier,das,Papiere,a1,
+998,"grand shrine, imperial shrine",神宮,noun,,,,,,Shinto-specific; German only borrows Jingu.
+999,"excellent, outstanding",優秀,adjective,adjective,hervorragend,,,b2,
+1000,"assumption, hypothesis",仮定,noun,noun,Annahme,die,Annahmen,b2,
+1001,"trade, commerce",貿易,noun,noun,Handel,der,,b1,
+1002,"exile, defection",亡命,noun,noun,Exil,das,,c1,
+1003,"to drink, to swallow",飲む,verb,verb,trinken,,,a1,
+1004,"representative, spokesperson",代表,noun,noun,Vertreter,der,Vertreter,b1,
+1005,"confirmation, verification",確認,noun,noun,Bestätigung,die,Bestätigungen,b1,
+1006,folding,折りたたみ,noun,adjective,klappbar,,,b2,"German equivalent is an adjective, not a noun."
+1007,different color variant,色違い,noun,noun,Farbvariante,die,Farbvarianten,b2,
+1008,left side,左側,noun,noun,linke Seite,die,,a1,
+1009,last train,終電,noun,noun,letzte Zug,der,,b1,
+1010,august,八月,noun,noun,August,der,,a1,
+1011,kotatsu (heated table),こたつ,noun,,,,,,Culturally specific; German only borrows Kotatsu.
+1012,formal wear,フォーマル,noun,noun,Abendgarderobe,die,,c1,
+1013,next year,来年,noun,noun,Folgejahr,das,Folgejahre,b1,Distinct from 昨年/Vorjahr.
+1014,"answer, reply, response",回答,noun,noun,Erwiderung,die,Erwiderungen,c1,Distinct from 返事/Antwort and 答え/Auflösung.
+1015,"broadcast, broadcasting (tv/radio)",放送,noun,noun,Ausstrahlung,die,Ausstrahlungen,b2,Distinct from 番組/Sendung.
+1016,"training, drill, practice",訓練,noun,noun,Training,das,,b1,Distinct from 練習/Übung.
+1017,"neck, head (of an organization)",首,noun,noun,Hals,der,Hälse,a2,
+1018,"limit, boundary",限度,noun,noun,Obergrenze,die,Obergrenzen,b2,
+1019,"musical performance, playing",演奏,noun,noun,Aufführung,die,Aufführungen,b2,
+1020,"honest, frank, truthful",正直,adjective,adjective,ehrlich,,,b1,
+1021,"to teach, to instruct",教える,verb,verb,unterrichten,,,a2,
+1022,"to say, to speak, to tell",言う,verb,verb,sagen,,,a1,
+1023,"every year, annually",毎年,noun,adverb,jährlich,,,b1,"German equivalent is an adverb, not a noun."
+1024,viewing,見学,noun,noun,Führung,die,Führungen,b1,
+1025,"elementary school, primary school",小学校,noun,noun,Grundschule,die,Grundschulen,a2,
+1026,ring (for a finger),指輪,noun,noun,Ring,der,Ringe,a2,
+1027,"memory, recollection, reminiscence",思い出,noun,noun,Erinnerung,die,Erinnerungen,b1,
+1028,"parallel, concurrent",並行,noun,adjective,parallel,,,b2,"German equivalent is an adjective, not a noun."
+1029,"to think, to consider, to ponder",考える,verb,verb,denken,,,a1,
+1030,"guest, visitor",客,noun,noun,Gast,der,Gäste,a1,Distinct from 顧客/Kunde.
+1031,sushi,寿司,noun,,,,,,Culturally specific; German only borrows Sushi.
+1032,"every month, monthly",毎月,noun,adverb,monatlich,,,b1,"German equivalent is an adverb, not a noun."
+1033,"to fix, to repair, to correct",直す,verb,verb,reparieren,,,a2,
+1034,preparation,用意,noun,noun,Vorbereitung,die,Vorbereitungen,b1,
+1035,"autumn, fall",秋,noun,noun,Herbst,der,Herbste,a1,
+1036,"regret, remorse",後悔,noun,noun,Bedauern,das,,b2,
+1037,campaign,キャンペーン,noun,noun,Kampagne,die,Kampagnen,b2,
+1038,airport,空港,noun,noun,Flughafen,der,Flughäfen,a1,
+1039,arrow,矢,noun,noun,Pfeil,der,Pfeile,b1,
+1040,chair,椅子,noun,noun,Stuhl,der,Stühle,a1,
+1041,"overseas, abroad, foreign countries",海外,noun,,,,,,German Ausland already covers 外国; no distinct overseas noun.
+1042,"savings, money saved",貯金,noun,noun,Ersparnisse,die,,b1,Used in the plural in German.
+1043,"exchange (of people, ideas), interaction, fellowship",交流,noun,noun,Umgang,der,,b2,Distinct from 交換/Austausch.
+1044,display item,展示品,noun,noun,Ausstellungsstück,das,Ausstellungsstücke,b2,
+1045,"permit, license",許可証,noun,noun,Genehmigung,die,Genehmigungen,b2,
+1046,"round trip, going and returning",往復,noun,noun,Hin- und Rückfahrt,die,,b1,
+1047,eating and drinking,飲食,noun,noun,Verpflegung,die,,b2,
+1048,"to receive, to accept",受け取る,verb,verb,empfangen,,,b1,
+1049,"ruins, historic site",遺跡,noun,noun,Ruine,die,Ruinen,b2,
+1050,"west, western direction",西,noun,noun,Westen,der,,a2,

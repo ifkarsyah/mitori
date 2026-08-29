@@ -1,0 +1,138 @@
+concept_id,gloss,ja_word,part_of_speech,de_part_of_speech,de_word,de_gender,de_plural,de_cefr,note
+1351,"to choose, select, pick",選ぶ,verb,verb,wählen,,,a2,
+1352,"gate, entrance, school gate",門,noun,noun,Tor,das,Tore,a2,
+1353,"to pick up, to find (and take), to collect",拾う,verb,verb,aufheben,,,b1,
+1354,science,科学,noun,noun,Wissenschaft,die,Wissenschaften,b1,Distinct from 理科/Naturwissenschaft.
+1355,"to fall down, to tumble, to trip",転ぶ,verb,verb,hinfallen,,,b1,
+1356,library,図書館,noun,noun,Bibliothek,die,Bibliotheken,a2,
+1357,"to write, to compose, to draw",書く,verb,verb,schreiben,,,a1,
+1358,"reaction, response",反応,noun,noun,Reaktion,die,Reaktionen,b1,
+1359,pond,池,noun,noun,Teich,der,Teiche,b1,
+1360,pasta,パスタ,noun,noun,Pasta,die,,a2,
+1361,"food, thing to eat",食べ物,noun,noun,Speise,die,Speisen,b1,Distinct from 食品/Lebensmittel.
+1362,"example, instance, precedent",例,noun,noun,Beispiel,das,Beispiele,a1,
+1363,"getting up, rising (from bed)",起床,noun,noun,Aufstehen,das,,b1,
+1364,"plateau, highlands, tableland",高原,noun,noun,Hochebene,die,Hochebenen,c1,
+1365,carpet,カーペット,noun,noun,Teppich,der,Teppiche,a2,
+1366,"united states of america, the us",米国,noun,,,,,,A proper place name rather than vocabulary.
+1367,"arithmetic, elementary school math",算数,noun,noun,Rechnen,das,,a2,Distinct from 数学/Mathematik.
+1368,apartment,アパート,noun,noun,Mietwohnung,die,Mietwohnungen,b1,
+1369,"best, highest, maximum, greatest",最高,noun,adjective,höchst,,,b1,"German equivalent is an adjective, not a noun."
+1370,security deposit,敷金,noun,noun,Kaution,die,Kautionen,b2,
+1371,"summer vacation, summer holidays",夏休み,noun,noun,Sommerferien,die,,a2,Used in the plural in German.
+1372,"preparation for class, advance study",予習,noun,noun,Unterrichtsvorbereitung,die,,c1,Distinct from 用意/Vorbereitung.
+1373,building age,築年数,noun,noun,Baujahr,das,Baujahre,b2,
+1374,to swim,泳ぐ,verb,verb,schwimmen,,,a1,
+1375,timetable,時刻表,noun,noun,Fahrplan,der,Fahrpläne,b1,
+1376,to scan,読み取る,verb,verb,einlesen,,,b2,
+1377,air temperature,気温,noun,noun,Lufttemperatur,die,,b2,Distinct from 温度/Temperatur.
+1378,"now, present, currently",現在,noun,adverb,derzeit,,,b1,"German equivalent is an adverb, not a noun."
+1379,"village, hometown, birthplace, country",里,noun,noun,Dorf,das,Dörfer,a2,
+1380,identity verification,本人確認,noun,noun,Identitätsprüfung,die,Identitätsprüfungen,c1,
+1381,"explanation, description, account",説明,noun,noun,Erklärung,die,Erklärungen,a2,
+1382,"showa era (1926-1989), the reign of emperor hirohito",昭和,noun,,,,,,A Japanese era name rather than vocabulary.
+1383,viewpoint,目線,noun,noun,Blickwinkel,der,Blickwinkel,b2,
+1384,registration,登録,noun,noun,Registrierung,die,Registrierungen,b1,Distinct from 申し込み/Anmeldung.
+1385,"to continue, last, go on",続く,verb,verb,andauern,,,b1,
+1386,"thanks, gratitude, expression of thanks",お礼,noun,noun,Danksagung,die,Danksagungen,b2,Distinct from 感謝/Dank.
+1387,"to compete, rival",競う,verb,verb,wetteifern,,,c1,
+1388,"different culture, foreign culture",異文化,noun,noun,Fremdkultur,die,Fremdkulturen,c1,
+1389,monthly publication,月刊,noun,noun,Monatszeitschrift,die,Monatszeitschriften,b2,
+1390,"alcohol, sake, japanese rice wine",酒,noun,,,,,,A third synonym of アルコール/Alkohol.
+1391,"carbonic acid, carbonation, fizzy/sparkling (water/drink)",炭酸,noun,noun,Kohlensäure,die,,b2,
+1392,"reality, actuality",現実,noun,noun,Wirklichkeit,die,,b1,
+1393,kitchen,台所,noun,noun,Küche,die,Küchen,a1,
+1394,"direct, directly, in person",直接,noun,adjective,direkt,,,a2,"German equivalent is an adjective, not a noun."
+1395,galaxy,銀河,noun,noun,Galaxie,die,Galaxien,b2,
+1396,"device, scheme, ingenuity",工夫,noun,noun,Einfallsreichtum,der,,c1,
+1397,"market, marketplace (いちば)",市場,noun,noun,Markt,der,Märkte,a2,
+1398,blood,血液,noun,noun,Blut,das,,a2,
+1399,egg,たまご,noun,noun,Ei,das,Eier,a1,
+1400,"study, studying",勉強,noun,noun,Studium,das,Studien,b1,
+1401,"pharmacy, drugstore",薬局,noun,noun,Apotheke,die,Apotheken,a2,
+1402,"work, job",仕事,noun,noun,Arbeit,die,Arbeiten,a1,Distinct from 勤務/Dienst and 職場/Arbeitsplatz.
+1403,"fairy tale, children's story",童話,noun,noun,Kindergeschichte,die,Kindergeschichten,b1,Distinct from 昔話/Märchen.
+1404,"to hope, desire, wish for",望む,verb,verb,erhoffen,,,b2,
+1405,manga,漫画,noun,,,,,,Culturally specific; German only borrows Manga.
+1406,"dinner, evening meal, supper",夕飯,noun,noun,Abendessen,das,Abendessen,a1,
+1407,"fee, charge, fare",料金,noun,noun,Gebühr,die,Gebühren,b1,Distinct from 運賃/Fahrpreis.
+1408,left hand,左手,noun,noun,linke Hand,die,,a1,
+1409,"to open (a door, book, etc.)",開く,verb,verb,aufschlagen,,,b1,Distinct from 開ける/öffnen.
+1410,"to seek, request, demand, desire",求める,verb,verb,verlangen,,,b1,
+1411,"wound, injury",傷,noun,noun,Verletzung,die,Verletzungen,b1,Distinct from 傷口/Wunde.
+1412,"to apply, to register, to sign up",申し込む,verb,verb,sich anmelden,,,a2,
+1413,"animal cry, call, chirp, bark",鳴き声,noun,noun,Tierlaut,der,Tierlaute,c1,
+1414,"seashore, coast, beach",海岸,noun,noun,Strand,der,Strände,a2,Distinct from 沿岸/Küste.
+1415,"to put, place, leave",置く,verb,verb,hinstellen,,,a2,
+1416,"correct, right, proper",正しい,adjective,adjective,richtig,,,a1,
+1417,"to scatter, fall (petals), disperse",散る,verb,verb,verstreuen,,,b2,
+1418,"color, hue",色,noun,noun,Farbe,die,Farben,a1,
+1419,playback,再生,noun,noun,Wiedergabe,die,Wiedergaben,b2,
+1420,fruit,果物,noun,noun,Obst,das,,a1,
+1421,"to remain, be left over",残る,verb,verb,übrig bleiben,,,b1,
+1422,"value, worth",価値,noun,noun,Wert,der,Werte,b1,Distinct from 資産価値/Vermögenswert.
+1423,"to dry, to air out",干す,verb,verb,trocknen,,,b1,
+1424,"siblings, brothers",兄弟,noun,noun,Geschwister,die,,a2,Used in the plural in German.
+1425,"basics, fundamentals",基本,noun,noun,Grundprinzip,das,Grundprinzipien,b2,Distinct from 基礎/Grundlage.
+1426,"memorization, learning by heart",暗記,noun,noun,Auswendiglernen,das,,b2,
+1427,key money (non-refundable move-in gift),礼金,noun,,,,,,A Japanese rental practice with no German equivalent.
+1428,"to count, to enumerate",数える,verb,verb,zählen,,,a2,
+1429,"to illuminate, light up, shine on",照らす,verb,verb,beleuchten,,,b2,
+1430,affiliated store,加盟店,noun,noun,Partnerbetrieb,der,Partnerbetriebe,c1,
+1431,"home, household, family (domestic setting)",家庭,noun,noun,Haushalt,der,Haushalte,b1,Distinct from 家族/Familie.
+1432,"bankbook, passbook",通帳,noun,noun,Sparbuch,das,Sparbücher,b2,
+1433,"cold (weather, air temperature)",寒い,adjective,adjective,kalt,,,a1,
+1434,limited-time,期間限定,noun,phrase,zeitlich begrenzt,,,b2,"German expresses this as a phrase, not a noun."
+1435,"to shine, to glitter, to sparkle",光る,verb,verb,leuchten,,,b1,
+1436,"movement, travel",移動,noun,noun,Fortbewegung,die,,b2,Distinct from 運動/Bewegung.
+1437,"guidance, information, guide, tour",案内,noun,noun,Auskunft,die,Auskünfte,b1,Distinct from 見学/Führung.
+1438,"to be glad, rejoice, be delighted",喜ぶ,verb,verb,sich freuen,,,a2,
+1439,"bookstore, bookshop",本屋,noun,noun,Buchhandlung,die,Buchhandlungen,a2,
+1440,"to live, to reside",住む,verb,verb,wohnen,,,a1,
+1441,order,注文,noun,noun,Bestellung,die,Bestellungen,a2,
+1442,shampoo,シャンプー,noun,noun,Shampoo,das,Shampoos,a2,
+1443,block,ブロック,noun,noun,Block,der,Blöcke,b1,
+1444,"plant, vegetation, flora",植物,noun,noun,Pflanze,die,Pflanzen,a2,
+1445,"rule, regulation",規則,noun,noun,Regel,die,Regeln,a2,Distinct from 指針/Richtlinie.
+1446,"marriage, wedding",結婚,noun,noun,Ehe,die,Ehen,b1,Distinct from 結婚式/Hochzeit.
+1447,"object, target, subject (of something)",対象,noun,noun,Gegenstand,der,Gegenstände,b2,Distinct from 物件/Objekt.
+1448,"display, demonstration",発揮,noun,noun,Entfaltung,die,,c1,
+1449,"liquid, fluid",液体,noun,noun,Flüssigkeit,die,Flüssigkeiten,b1,
+1450,"world, the globe",世界,noun,noun,Welt,die,Welten,a1,Distinct from 地球/Erde.
+1451,"defect, flaw, shortcoming, weakness",欠点,noun,noun,Mangel,der,Mängel,b2,Distinct from 短所/Schwäche and 弱点/Schwachstelle.
+1452,domestically produced,国産,noun,adjective,einheimisch,,,b2,"German equivalent is an adjective, not a noun."
+1453,"mail, post",郵便,noun,noun,Briefpost,die,,b2,Distinct from 郵便局/Post.
+1454,tuesday,火曜日,noun,noun,Dienstag,der,Dienstage,a1,
+1455,"double, twice as much",倍,noun,adjective,doppelt,,,a2,"German equivalent is an adjective, not a noun."
+1456,condominium,マンション,noun,noun,Eigentumswohnung,die,Eigentumswohnungen,b2,
+1457,"freedom, liberty",自由,noun,noun,Freiheit,die,Freiheiten,b1,
+1458,"traffic signal, signal, sign",信号,noun,noun,Ampel,die,Ampeln,a2,
+1459,takeout,持ち帰り,noun,phrase,zum Mitnehmen,,,b1,"German uses a fixed phrase, not a noun."
+1460,"to spend (time), to pass",過ごす,verb,verb,verbringen,,,b1,
+1461,wheat (as a crop),小麦,noun,,,,,,German Weizen is already assigned to 麦.
+1462,february,二月,noun,noun,Februar,der,,a1,
+1463,payment,決済,noun,noun,Zahlung,die,Zahlungen,b1,Distinct from 会計/Rechnung.
+1464,"underground, below ground",地下,noun,noun,Untergeschoss,das,Untergeschosse,b1,
+1465,repaying a favor,恩返し,noun,,,,,,No single German word for returning a kindness received.
+1466,english language,英語,noun,noun,Englisch,das,,a1,
+1467,shipping fee,送料,noun,noun,Versandkosten,die,,b1,Used in the plural in German.
+1468,"road, way, path, street",道,noun,noun,Weg,der,Wege,a1,Distinct from 道路/Straße.
+1469,entrance,入口,noun,noun,Eingang,der,Eingänge,a1,
+1470,"hardship, toil, trouble, suffering",苦労,noun,noun,Mühe,die,Mühen,b1,
+1471,morning set,モーニング,noun,,,,,,A Japanese café convention with no German equivalent.
+1472,"speed, velocity, rate",速度,noun,noun,Geschwindigkeit,die,Geschwindigkeiten,b1,
+1473,usual,通常,noun,adjective,üblich,,,b1,"German equivalent is an adjective, not a noun."
+1474,"permission, approval",許可,noun,noun,Erlaubnis,die,,b1,Distinct from 許可証/Genehmigung.
+1475,sunday,日曜日,noun,noun,Sonntag,der,Sonntage,a1,
+1476,"east, eastern direction",東,noun,noun,Osten,der,,a2,
+1477,"few, scarce, little",少ない,adjective,adjective,wenig,,,a1,
+1478,"number of cases, count",件数,noun,noun,Anzahl,die,,b1,
+1479,"opinion, view",意見,noun,noun,Meinung,die,Meinungen,a2,Distinct from 見解/Auffassung.
+1480,"personality, character",性格,noun,noun,Charakter,der,Charaktere,b1,
+1481,side dish,サイド,noun,,,,,,Loanword duplicating 惣菜/Beilage.
+1482,"to save, rescue, relieve",救う,verb,verb,retten,,,b1,
+1483,"consideration, examination",検討,noun,noun,Erwägung,die,Erwägungen,c1,Distinct from 検査/Untersuchung.
+1484,news,ニュース,noun,noun,Nachricht,die,Nachrichten,a2,
+1485,"together, at the same time",一緒,noun,adverb,zusammen,,,a1,"German equivalent is an adverb, not a noun."
+1486,pants,パンツ,noun,noun,Hose,die,Hosen,a1,
+1487,"various countries, many nations",諸国,noun,phrase,verschiedene Länder,,,b1,"German uses a phrase, not a single noun."

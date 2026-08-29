@@ -1,0 +1,151 @@
+concept_id,gloss,ja_word,part_of_speech,de_part_of_speech,de_word,de_gender,de_plural,de_cefr,note
+1051,"oil, petroleum, kerosene",石油,noun,noun,Erdöl,das,,b1,Distinct from 油/Öl.
+1052,storage container,保存容器,noun,noun,Vorratsdose,die,Vorratsdosen,b2,
+1053,this morning,今朝,noun,adverb,heute Morgen,,,a1,"German equivalent is an adverbial phrase, not a noun."
+1054,settings,設定,noun,noun,Konfiguration,die,Konfigurationen,b2,
+1055,lunch,昼ご飯,noun,noun,Mittagessen,das,Mittagessen,a1,
+1056,"to doubt, to suspect",疑う,verb,verb,bezweifeln,,,b2,
+1057,"commemoration, memory",記念,noun,noun,Gedenken,das,,b2,Distinct from 思い出/Erinnerung.
+1058,"to limit, to restrict",限る,verb,verb,begrenzen,,,b2,
+1059,"painful, difficult, hard (physically/emotionally)",苦しい,adjective,adjective,qualvoll,,,b2,
+1060,"region, area, district",地域,noun,noun,Region,die,Regionen,b1,Distinct from 地区/Bezirk and 区域/Gebiet.
+1061,to measure (weight/volume),量る,verb,verb,wiegen,,,b1,
+1062,"exercise, physical activity",運動,noun,noun,Bewegung,die,Bewegungen,b1,
+1063,this month,今月,noun,adverb,diesen Monat,,,a2,"German equivalent is an adverbial phrase, not a noun."
+1064,"classical literature, classic",古典,noun,noun,Klassiker,der,Klassiker,b2,
+1065,dessert,デザート,noun,noun,Nachspeise,die,Nachspeisen,a2,
+1066,"incident, case",事件,noun,noun,Vorfall,der,Vorfälle,b2,Distinct from 場合/Fall.
+1067,"danger, hazard, peril",危険,adjective,adjective,gefährlich,,,a2,
+1068,"upright, manly, gallant",潔い,adjective,adjective,aufrichtig,,,c1,
+1069,guarantor company,保証会社,noun,noun,Bürgschaftsgesellschaft,die,Bürgschaftsgesellschaften,c1,
+1070,this year,今年,noun,adverb,dieses Jahr,,,a2,"German equivalent is an adverbial phrase, not a noun."
+1071,sisters,姉妹,noun,,,,,,German simply pluralizes Schwester; no separate word.
+1072,"absorption, assimilation",吸収,noun,noun,Aufnahme,die,Aufnahmen,b2,
+1073,cardigan,カーディガン,noun,noun,Strickjacke,die,Strickjacken,b1,
+1074,"to return, to give back, to send back",返す,verb,verb,zurückgeben,,,a2,
+1075,"to wait, to wait for",待つ,verb,verb,warten,,,a1,
+1076,"to build, construct, erect",建てる,verb,verb,bauen,,,a2,
+1077,"ethnic group, people, race, nation",民族,noun,noun,Volk,das,Völker,b2,
+1078,bookshelf,本棚,noun,noun,Bücherregal,das,Bücherregale,a2,
+1079,"aid, assistance",援助,noun,noun,Hilfe,die,,a2,
+1080,"photograph, photo",写真,noun,noun,Foto,das,Fotos,a1,
+1081,"wages, salary, pay",賃金,noun,noun,Lohn,der,Löhne,b1,Distinct from 給料/Gehalt.
+1082,prefecture (administrative division in japan),県,noun,,,,,,Japanese administrative division with no German equivalent.
+1083,laundry,洗濯,noun,noun,Wäsche,die,,a2,
+1084,guest,ゲスト,noun,,,,,,Loanword duplicating 客/Gast.
+1085,cashback,還元,noun,noun,Rückvergütung,die,Rückvergütungen,c1,
+1086,"to send, to deliver, to transmit",送る,verb,verb,senden,,,a2,
+1087,"field (for growing crops), farm, vegetable garden",畑,noun,noun,Feld,das,Felder,a2,
+1088,"flute, whistle, pipe (wind instrument)",笛,noun,noun,Flöte,die,Flöten,b1,
+1089,wide-ranging,幅広い,adjective,adjective,umfangreich,,,b2,
+1090,to open (something),開ける,verb,verb,öffnen,,,a1,
+1091,source,出典,noun,noun,Quelle,die,Quellen,b2,
+1092,"present situation, current state",現状,noun,noun,Lage,die,Lagen,b1,
+1093,cabinet minister,閣僚,noun,noun,Minister,der,Minister,b2,
+1094,"coast, shore",沿岸,noun,noun,Küste,die,Küsten,b1,
+1095,"every day, daily",毎日,noun,adverb,täglich,,,a1,"German equivalent is an adverb, not a noun."
+1096,"you (familiar, mainly used by males or among friends)",君,noun,pronoun,du,,,a1,"German equivalent is a pronoun, not a noun."
+1097,"sales floor, counter, sales section",売り場,noun,noun,Verkaufsabteilung,die,Verkaufsabteilungen,b2,
+1098,charge,チャージ,noun,noun,Aufladung,die,Aufladungen,b2,
+1099,change,変更,noun,noun,Änderung,die,Änderungen,b1,Distinct from 変化/Veränderung.
+1100,"word, vocabulary item",単語,noun,noun,Vokabel,die,Vokabeln,b1,Distinct from 言葉/Wort.
+1101,cabinet (government),内閣,noun,noun,Kabinett,das,Kabinette,c1,
+1102,innerwear,インナー,noun,noun,Unterhemd,das,Unterhemden,b1,
+1103,"front, lead, top, vanguard",先頭,noun,noun,Spitze,die,Spitzen,b2,
+1104,red,赤い,adjective,adjective,rot,,,a1,
+1105,"indoors, interior, inside a room",室内,noun,adverb,drinnen,,,a2,"German equivalent is an adverb, not a noun."
+1106,"old-fashioned, obsolete",旧式,adjective,adjective,veraltet,,,b2,
+1107,"steamship, steamboat",汽船,noun,noun,Dampfer,der,Dampfer,c1,
+1108,"illness, sickness, disease",病気,noun,noun,Krankheit,die,Krankheiten,a2,
+1109,cleaning,清掃,noun,noun,Reinigung,die,Reinigungen,b1,
+1110,parking lot,駐車場,noun,noun,Parkplatz,der,Parkplätze,a2,
+1111,"to spend, use up, expend, consume",費やす,verb,verb,aufwenden,,,c1,
+1112,"to hit, to strike (something)",当たる,verb,verb,treffen,,,b1,
+1113,"vigilance, caution",警戒,noun,noun,Wachsamkeit,die,,c1,Distinct from 注意/Achtung.
+1114,"to leave, to go away",去る,verb,verb,weggehen,,,b1,
+1115,"inheritance, legacy",遺産,noun,noun,Erbe,das,,b2,
+1116,"to fight, battle, compete",戦う,verb,verb,kämpfen,,,b1,
+1117,"important, precious, valued",大切,adjective,adjective,kostbar,,,b2,Distinct from 大事/wichtig and 重要/bedeutend.
+1118,exclusive use,専用,noun,adjective,ausschließlich,,,b2,"German equivalent is an adjective, not a noun."
+1119,"to reform, correct, renew, reconsider",改める,verb,verb,überarbeiten,,,b2,
+1120,"talent, ability, gift, aptitude",才能,noun,noun,Talent,das,Talente,b1,Distinct from 技能/Fähigkeit.
+1121,april,四月,noun,noun,April,der,,a1,
+1122,"operation, management",運営,noun,noun,Geschäftsführung,die,,b2,Distinct from 管理/Verwaltung and 運行/Betrieb.
+1123,drink / beverage,飲み物,noun,noun,Getränk,das,Getränke,a1,
+1124,"barley tea (a cold, roasted barley drink popular in japan)",麦茶,noun,,,,,,Culturally specific; German only borrows Mugicha.
+1125,fountain pen,万年筆,noun,noun,Füller,der,Füller,b1,
+1126,"to arrive, to reach (a destination)",着く,verb,verb,ankommen,,,a2,
+1127,point of departure,出発地,noun,noun,Abfahrtsort,der,Abfahrtsorte,b2,
+1128,search,検索,noun,noun,Suche,die,Suchen,a2,
+1129,last month,先月,noun,noun,Vormonat,der,Vormonate,b1,
+1130,"to help, to rescue",助ける,verb,verb,helfen,,,a1,
+1131,"international, global",国際,noun,adjective,international,,,b1,"German equivalent is an adjective, not a noun."
+1132,part,一部,noun,noun,Teilbereich,der,Teilbereiche,b2,Distinct from 部分/Teil.
+1133,"possible, potential",可能,adjective,adjective,möglich,,,a2,
+1134,"cooperation, joint, collaboration",共同,noun,noun,Zusammenarbeit,die,,b1,
+1135,"scholar, academic, learned person",学者,noun,noun,Gelehrte,der,Gelehrten,c1,
+1136,"to decide, to determine, to fix upon",決める,verb,verb,entscheiden,,,b1,
+1137,member (of a club or organization),会員,noun,noun,Mitglied,das,Mitglieder,b1,
+1138,"to expand, to enlarge",拡大する,verb,verb,vergrößern,,,b1,
+1139,"idea, thought, thinking, opinion",考え,noun,noun,Gedanke,der,Gedanken,b1,
+1140,to accumulate,貯まる,verb,verb,sich ansammeln,,,b2,
+1141,"problem, question, issue",問題,noun,noun,Problem,das,Probleme,a2,
+1142,"warning, alert",警告,noun,noun,Warnung,die,Warnungen,b1,
+1143,"deep, profound",深い,adjective,adjective,tief,,,a2,
+1144,bank account,口座,noun,noun,Bankkonto,das,Bankkonten,b1,
+1145,"stock, shares",株式,noun,noun,Aktie,die,Aktien,b2,
+1146,"sufficient, enough, adequate",十分,adjective,adjective,ausreichend,,,b1,
+1147,"to convey, tell, pass on, report",伝える,verb,verb,übermitteln,,,b2,Distinct from 告げる/mitteilen.
+1148,"to stop, to halt, to come to a stop (intransitive)",止まる,verb,verb,anhalten,,,a2,
+1149,breakfast,朝ご飯,noun,noun,Frühstück,das,Frühstücke,a1,
+1150,"innovation, reform",革新,noun,noun,Innovation,die,Innovationen,b2,Distinct from 改革/Reform.
+1151,"lodging, overnight stay",宿泊,noun,noun,Übernachtung,die,Übernachtungen,b1,
+1152,blanket,毛布,noun,noun,Decke,die,Decken,a2,
+1153,winter,冬,noun,noun,Winter,der,Winter,a1,
+1154,"to fly, jump, leap",飛ぶ,verb,verb,fliegen,,,a2,
+1155,museum,博物館,noun,noun,Museum,das,Museen,a1,Distinct from 美術館/Kunstmuseum.
+1156,post office,郵便局,noun,noun,Post,die,,a1,
+1157,"winter vacation, winter holidays",冬休み,noun,noun,Winterferien,die,,a2,Used in the plural in German.
+1158,vegetables,野菜,noun,noun,Gemüse,das,,a1,
+1159,"restriction, limitation",制限,noun,noun,Beschränkung,die,Beschränkungen,b2,Distinct from 限度/Obergrenze.
+1160,"to chant, recite, advocate",唱える,verb,verb,rezitieren,,,c1,
+1161,release,解除,noun,noun,Aufhebung,die,Aufhebungen,b2,
+1162,"complaint, grumble",文句,noun,noun,Beschwerde,die,Beschwerden,b1,
+1163,fully occupied / full,満席,noun,adjective,ausgebucht,,,b2,"German equivalent is an adjective, not a noun."
+1164,"athlete, player, competitor",選手,noun,noun,Sportler,der,Sportler,b1,
+1165,"question, doubt",疑問,noun,noun,Zweifel,der,Zweifel,b2,Distinct from 質問/Frage.
+1166,"near, close, short (distance)",近い,adjective,adjective,nah,,,a1,
+1167,"neighborhood, vicinity",近所,noun,noun,Nachbarschaft,die,,b1,
+1168,"second floor, upstairs",二階,noun,noun,Obergeschoss,das,Obergeschosse,b1,
+1169,wine,ワイン,noun,noun,Wein,der,Weine,a1,
+1170,"japanese sword, katana",日本刀,noun,,,,,,Culturally specific; German only borrows Katana.
+1171,subject (in grammar),主語,noun,noun,Subjekt,das,Subjekte,b2,
+1172,bread,パン,noun,noun,Brot,das,Brote,a1,
+1173,"spring vacation, spring break",春休み,noun,noun,Osterferien,die,,a2,Used in the plural in German.
+1174,horse racing,競馬,noun,noun,Pferderennen,das,Pferderennen,b2,Distinct from 競走/Rennen.
+1175,detached house,一戸建て,noun,noun,Einfamilienhaus,das,Einfamilienhäuser,b2,
+1176,"city, municipality",市,noun,noun,Gemeinde,die,Gemeinden,b1,Distinct from 都市/Stadt.
+1177,"to think, to feel, to consider",思う,verb,verb,meinen,,,a2,Distinct from 考える/denken.
+1178,compatible / support,対応,noun,noun,Unterstützung,die,,b1,
+1179,send (mail/signal),送信,noun,noun,Versand,der,,b1,
+1180,"east exit, east entrance",東口,noun,noun,Ostausgang,der,Ostausgänge,b1,
+1181,consecutive holidays,連休,noun,noun,langes Wochenende,das,,b1,
+1182,interior decor,インテリア,noun,noun,Inneneinrichtung,die,,b2,
+1183,dried goods,乾物,noun,noun,Trockenware,die,Trockenwaren,c1,
+1184,"permanence, eternity",永久,noun,noun,Ewigkeit,die,,b2,
+1185,"friend (formal, adult usage)",友人,noun,,,,,,German Freund covers 友達 with no separate formal register.
+1186,"art, fine arts",美術,noun,noun,Kunst,die,Künste,a2,
+1187,"certain, reliable",確実,adjective,adjective,sicher,,,b1,
+1188,cat,猫,noun,noun,Katze,die,Katzen,a1,
+1189,"to protect, to defend",守る,verb,verb,schützen,,,b1,
+1190,storage,収納,noun,noun,Aufbewahrung,die,,b2,Distinct from 保存/Speicherung.
+1191,"addition, supplement, appendix",追加,noun,noun,Ergänzung,die,Ergänzungen,b1,
+1192,"hometown, native place, birthplace",故里,noun,,,,,,A third synonym of 郷土/Heimat and 故郷/Geburtsort.
+1193,"comfortable, pleasant",快適,adjective,adjective,angenehm,,,b1,
+1194,"failure, mistake, blunder",失敗,noun,noun,Fehler,der,Fehler,a2,
+1195,"nutrition, nourishment",栄養,noun,noun,Ernährung,die,,b1,
+1196,fried egg,目玉焼き,noun,noun,Spiegelei,das,Spiegeleier,a2,
+1197,graduate school,大学院,noun,noun,Aufbaustudium,das,,c1,
+1198,"earth, the globe, the world",地球,noun,noun,Erde,die,,a2,
+1199,nurse,看護師,noun,noun,Krankenschwester,die,Krankenschwestern,a2,
+1200,"western-style food, western cuisine",洋食,noun,phrase,westliche Küche,,,b1,"German uses a phrase, not a single noun."

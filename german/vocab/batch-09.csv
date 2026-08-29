@@ -1,0 +1,151 @@
+concept_id,gloss,ja_word,part_of_speech,de_part_of_speech,de_word,de_gender,de_plural,de_cefr,note
+1201,share house,シェアハウス,noun,noun,Wohngemeinschaft,die,Wohngemeinschaften,b2,
+1202,to heat up,温める,verb,verb,erwärmen,,,b1,
+1203,"rock, boulder, crag",岩,noun,noun,Fels,der,Felsen,b1,
+1204,"to work, labor",働く,verb,verb,tätig sein,,,b2,Distinct from 勤める/arbeiten.
+1205,"telephone, phone, phone call",電話,noun,noun,Telefon,das,Telefone,a1,
+1206,"feeling, mood, sensation",気持ち,noun,noun,Gefühl,das,Gefühle,a2,Distinct from 気分/Stimmung.
+1207,"to be reflected, to appear",映る,verb,verb,sich spiegeln,,,b2,
+1208,money,お金,noun,noun,Geld,das,,a1,
+1209,"to get off, to alight",降りる,verb,verb,aussteigen,,,a2,
+1210,"to distribute, to hand out, to deal (cards)",配る,verb,verb,verteilen,,,b1,
+1211,"to stop, to halt, to prevent (transitive)",止める,verb,verb,stoppen,,,a2,
+1212,"guardianship, guardian, backing, support",後見,noun,noun,Vormundschaft,die,Vormundschaften,c1,
+1213,"refreshing, exhilarating",爽快,adjective,adjective,erfrischend,,,b2,
+1214,"to use, to make use of",使う,verb,verb,benutzen,,,a1,
+1215,"every week, weekly",毎週,noun,adverb,wöchentlich,,,b1,"German equivalent is an adverb, not a noun."
+1216,"relief, peace of mind",安心,noun,noun,Beruhigung,die,,b2,
+1217,"to wake up, to get up, to occur",起きる,verb,verb,aufstehen,,,a1,
+1218,"box, case, container",箱,noun,noun,Schachtel,die,Schachteln,a2,
+1219,diagnosis,診断,noun,noun,Diagnose,die,Diagnosen,b2,
+1220,share (jointly own),共有,noun,noun,Freigabe,die,Freigaben,b2,Distinct from 共同/Zusammenarbeit.
+1221,bank (financial institution),銀行,noun,noun,Bank,die,Banken,a1,
+1222,"guideline, policy",指針,noun,noun,Richtlinie,die,Richtlinien,b2,
+1223,"above, more than, that's all, no less than",以上,noun,,,,,,A grammatical function word; no German noun equivalent.
+1224,"refrigerator, fridge",冷蔵庫,noun,noun,Kühlschrank,der,Kühlschränke,a1,
+1225,"disparity, gap",格差,noun,noun,Kluft,die,Klüfte,c1,
+1226,foreign country,異国,noun,,,,,,German Ausland already covers 外国; no separate word.
+1227,"shopping, purchasing",買い物,noun,noun,Einkauf,der,Einkäufe,a1,
+1228,roof,屋根,noun,noun,Dach,das,Dächer,a2,
+1229,father (humble/plain form),父,noun,,,,,,German has no humble register; 父親/Vater and お父さん/Papa cover this.
+1230,support,サポート,noun,,,,,,Loanword duplicating 対応/Unterstützung.
+1231,curry,カレー,noun,noun,Curry,das,,a2,
+1232,"offer, provision",提供,noun,noun,Angebot,das,Angebote,b1,
+1233,"town, city, street",街,noun,noun,Innenstadt,die,Innenstädte,b1,Distinct from 都市/Stadt and 市/Gemeinde.
+1234,pizza,ピザ,noun,noun,Pizza,die,Pizzen,a1,
+1235,private lodging (airbnb-style stay),民泊,noun,noun,Privatunterkunft,die,Privatunterkünfte,b2,
+1236,"field, meadow, open plain",野原,noun,noun,Wiese,die,Wiesen,a2,
+1237,"to surround, enclose, encircle",囲む,verb,verb,umgeben,,,b2,
+1238,"to meet, to see (a person)",会う,verb,verb,begegnen,,,b1,
+1239,"beauty salon, hairdresser's",美容院,noun,noun,Friseursalon,der,Friseursalons,a2,
+1240,"arranging, tidying up, organizing",整理,noun,noun,Ordnung,die,,b1,
+1241,"new, fresh, recent",新しい,adjective,adjective,neu,,,a1,
+1242,t-shirt,Tシャツ,noun,noun,T-Shirt,das,T-Shirts,a1,
+1243,"circumstances, convenience",都合,noun,noun,Umstände,die,,b2,Used in the plural in German.
+1244,"easy-going, careless",安易,adjective,adjective,leichtfertig,,,c1,
+1245,"musical composition, composing music",作曲,noun,noun,Komposition,die,Kompositionen,b2,
+1246,"command, direction",指揮,noun,noun,Leitung,die,Leitungen,b2,
+1247,bereaved family,遺族,noun,noun,Hinterbliebenen,die,,c1,Used in the plural in German.
+1248,"language study, linguistics",語学,noun,noun,Sprachwissenschaft,die,Sprachwissenschaften,b2,
+1249,"kindness, kind-heartedness, being kind",親切,noun,noun,Freundlichkeit,die,,b1,
+1250,size,サイズ,noun,noun,Größe,die,Größen,a1,
+1251,"to feel, to sense, to perceive",感じる,verb,verb,fühlen,,,a2,
+1252,"thin, slender, narrow, fine",細い,adjective,adjective,dünn,,,a1,Distinct from 細かい/fein.
+1253,"healthy, energetic, lively",元気,adjective,adjective,munter,,,b1,
+1254,"disability, handicap",障害,noun,noun,Behinderung,die,Behinderungen,b1,
+1255,"to wound, to injure",傷つける,verb,verb,verletzen,,,b1,
+1256,family,家族,noun,noun,Familie,die,Familien,a1,
+1257,younger brother (plain/humble),弟,noun,,,,,,German Bruder already covers 兄; no separate word for younger brother.
+1258,"outdoors, open air, outside",戸外,noun,noun,Freie,das,,b2,Distinct from 外/draußen.
+1259,transfer (train),乗り換え,noun,noun,Umstieg,der,Umstiege,b1,
+1260,instruction manual,取扱説明書,noun,noun,Bedienungsanleitung,die,Bedienungsanleitungen,b1,
+1261,"simple, easy",簡単,adjective,adjective,unkompliziert,,,b1,Distinct from 容易/einfach.
+1262,space,空間,noun,noun,Raum,der,Räume,b1,
+1263,"crisis, emergency",危機,noun,noun,Krise,die,Krisen,b2,
+1264,"military, armed forces, troops",軍隊,noun,noun,Militär,das,,b2,
+1265,"medical science, medicine (as a field)",医学,noun,noun,Medizin,die,,b1,
+1266,"cheerful, lively; fine weather, warm weather",陽気,noun,adjective,heiter,,,b2,"German equivalent is an adjective, not a noun."
+1267,"the west, western world, occident",西洋,noun,noun,Abendland,das,,c1,
+1268,guesthouse,民宿,noun,noun,Pension,die,Pensionen,b1,
+1269,"cooking, cuisine, dish",料理,noun,noun,Gericht,das,Gerichte,b1,
+1270,"simultaneous, at the same time, concurrent",同時,noun,adjective,gleichzeitig,,,b1,"German equivalent is an adjective, not a noun."
+1271,"to go, to proceed, to head toward",行く,verb,verb,hingehen,,,a2,Distinct from 歩く/gehen.
+1272,automobile,自動車,noun,noun,Auto,das,Autos,a1,
+1273,"to advance, to progress, to proceed",進む,verb,verb,vorankommen,,,b1,
+1274,special sale,特売,noun,noun,Sonderangebot,das,Sonderangebote,b1,
+1275,square meters,平米,noun,noun,Quadratmeter,der,Quadratmeter,b1,
+1276,october,十月,noun,noun,Oktober,der,,a1,
+1277,"student (secondary school), pupil",生徒,noun,noun,Schüler,der,Schüler,a1,Distinct from 学生/Student.
+1278,"wool yarn, knitting yarn",毛糸,noun,noun,Wolle,die,,b1,
+1279,"new year, new year's holiday",正月,noun,noun,Neujahr,das,,a2,
+1280,body weight,体重,noun,noun,Körpergewicht,das,,a2,
+1281,"development (of land, software, products)",開発,noun,noun,Erschließung,die,Erschließungen,c1,Distinct from 発展/Entwicklung.
+1282,"screening, showing (of a film)",上映,noun,noun,Vorführung,die,Vorführungen,b2,
+1283,"person in charge, official",係,noun,noun,Zuständige,der,Zuständigen,b2,
+1284,shinto shrine,神社,noun,,,,,,Shinto-specific; German only borrows Schrein in this sense.
+1285,"sea, ocean",海,noun,noun,Meer,das,Meere,a1,
+1286,"to change, alter, transform",変わる,verb,verb,sich verändern,,,b1,
+1287,"pressure, force",圧力,noun,,,,,,German Druck is already assigned to 印刷; no clean second word for physical pressure.
+1288,temperature,温度,noun,noun,Temperatur,die,Temperaturen,a2,
+1289,popularity,人気,noun,noun,Beliebtheit,die,,b1,
+1290,"side, beside",横,noun,noun,Seite,die,Seiten,a1,
+1291,"to go down, to fall, to drop",下がる,verb,verb,sinken,,,b1,
+1292,cheese,チーズ,noun,noun,Käse,der,,a1,
+1293,son (one's own),息子,noun,noun,Sohn,der,Söhne,a1,
+1294,"release, liberation",解放,noun,noun,Befreiung,die,Befreiungen,b2,Distinct from 解除/Aufhebung.
+1295,beef rice bowl,牛めし,noun,,,,,,Culturally specific dish with no German equivalent.
+1296,ticket vending machine,券売機,noun,noun,Fahrkartenautomat,der,Fahrkartenautomaten,b1,
+1297,"route, line (bus/train), course",路線,noun,noun,Strecke,die,Strecken,b1,
+1298,"to begin, to start (intransitive)",始まる,verb,verb,anfangen,,,a1,
+1299,"to believe, trust",信じる,verb,verb,glauben,,,a2,
+1300,living room,居間,noun,noun,Wohnzimmer,das,Wohnzimmer,a1,
+1301,"task, assignment, issue, challenge",課題,noun,noun,Aufgabe,die,Aufgaben,a2,Distinct from 問題/Problem.
+1302,"building, structure",建物,noun,noun,Gebäude,das,Gebäude,a2,
+1303,traffic jam,渋滞,noun,noun,Stau,der,Staus,b1,
+1304,"to rest, to take a break",休む,verb,verb,sich ausruhen,,,a2,
+1305,gift,ギフト,noun,noun,Geschenk,das,Geschenke,a2,
+1306,"to gather, to assemble, to come together (intransitive)",集まる,verb,verb,sich versammeln,,,b1,
+1307,"blackboard, chalkboard",黒板,noun,noun,Tafel,die,Tafeln,a2,
+1308,"reason, cause, explanation",理由,noun,noun,Grund,der,Gründe,a2,Distinct from 原因/Ursache.
+1309,"to be audible, to be heard, to sound",聞こえる,verb,verb,vernehmen,,,c1,
+1310,"profitable, beneficial",有益,adjective,adjective,nützlich,,,b1,
+1311,"scale, scope, size",規模,noun,noun,Größenordnung,die,Größenordnungen,b2,
+1312,"management, administration",経営,noun,noun,Management,das,,b2,Distinct from 管理/Verwaltung and 運営/Geschäftsführung.
+1313,"loud voice, shout, yell",大声,noun,noun,Ruf,der,Rufe,b1,
+1314,"being moved (emotionally), being touched, being impressed",感動,noun,noun,Rührung,die,,c1,
+1315,initial costs,初期費用,noun,noun,Anfangskosten,die,,b2,Used in the plural in German.
+1316,train (formal/general term),列車,noun,noun,Personenzug,der,Personenzüge,b2,Distinct from 電車/Zug.
+1317,"to burn, bake, be roasted, be grilled",焼ける,verb,verb,verbrennen,,,b1,
+1318,room,部屋,noun,noun,Zimmer,das,Zimmer,a1,
+1319,"stairs, staircase, steps",階段,noun,noun,Treppe,die,Treppen,a2,
+1320,"meal, dining, eating",食事,noun,noun,Essen,das,Essen,a1,Distinct from ご飯/Mahlzeit.
+1321,"happiness, good fortune",幸せ,adjective,adjective,glücklich,,,a2,
+1322,reply,返信,noun,noun,Rückmeldung,die,Rückmeldungen,b2,Distinct from 返事/Antwort and 回答/Erwiderung.
+1323,one person,一人,noun,,,,,,A counted quantity rather than vocabulary.
+1324,mother (humble/plain form),母,noun,,,,,,German has no humble register; 母親/Mutter and お母さん/Mama cover this.
+1325,"to turn off, to erase, to put out",消す,verb,verb,löschen,,,a2,
+1326,onion,玉ねぎ,noun,noun,Zwiebel,die,Zwiebeln,a2,
+1327,"violation, infringement",違反,noun,noun,Verstoß,der,Verstöße,b2,
+1328,"accident, incident",事故,noun,noun,Unfall,der,Unfälle,a2,Distinct from 事件/Vorfall.
+1329,atmospheric pressure,気圧,noun,noun,Luftdruck,der,,b2,
+1330,"to wear, to put on (upper body clothing)",着る,verb,verb,anziehen,,,a1,
+1331,shorter (than usual),短め,noun,adjective,kürzer,,,b1,"German equivalent is a comparative adjective, not a noun."
+1332,cushion,クッション,noun,noun,Kissen,das,Kissen,a2,
+1333,"baggage, luggage",荷物,noun,noun,Gepäck,das,,a2,
+1334,"human being, person, mankind",人間,noun,noun,Mensch,der,Menschen,a2,
+1335,"university, college",大学,noun,noun,Universität,die,Universitäten,a1,
+1336,"to fall (rain, snow, hail)",降る,verb,verb,regnen,,,a1,German lacks a general precipitation verb; regnen is the rain-specific rendering.
+1337,"duty, obligation",義務,noun,noun,Pflicht,die,Pflichten,b1,
+1338,"calligraphy, the art of writing",書道,noun,noun,Kalligrafie,die,Kalligrafien,c1,
+1339,"star, heavenly body",星,noun,noun,Stern,der,Sterne,a2,
+1340,"round, circular, spherical",丸い,adjective,adjective,rund,,,a2,
+1341,"to wake someone up, to cause, to raise up",起こす,verb,verb,wecken,,,b1,
+1342,japan,日本,noun,,,,,,A proper place name rather than vocabulary.
+1343,"to ride, to get on",乗る,verb,verb,einsteigen,,,a2,
+1344,"after, later, behind",後,noun,adverb,danach,,,a2,"German equivalent is an adverb, not a noun."
+1345,"writing brush, paintbrush",筆,noun,noun,Pinsel,der,Pinsel,b1,
+1346,"afternoon, pm (after noon)",午後,noun,noun,Nachmittag,der,Nachmittage,a1,
+1347,just before,直前,noun,adverb,kurz davor,,,b1,"German equivalent is an adverbial phrase, not a noun."
+1348,peninsula,半島,noun,noun,Halbinsel,die,Halbinseln,b1,
+1349,"scenery, landscape, view",風景,noun,noun,Aussicht,die,Aussichten,b1,Distinct from 景色/Landschaft.
+1350,this week,今週,noun,adverb,diese Woche,,,a2,"German equivalent is an adverbial phrase, not a noun."

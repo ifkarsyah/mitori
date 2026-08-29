@@ -1,0 +1,151 @@
+concept_id,gloss,ja_word,part_of_speech,de_part_of_speech,de_word,de_gender,de_plural,de_cefr,note
+751,"mom, mother (polite/familiar form)",お母さん,noun,noun,Mama,die,Mamas,a1,Familiar register; Mutter reserved for 母親.
+752,"progress, advance, development, improvement",進歩,noun,noun,Fortschritt,der,Fortschritte,b1,
+753,wild bird,野鳥,noun,noun,Wildvogel,der,Wildvögel,b2,
+754,"izakaya, japanese pub, bar/tavern",居酒屋,noun,,,,,,Culturally specific; German only borrows Izakaya.
+755,"opinion, point of view, perspective (formal)",見解,noun,noun,Auffassung,die,Auffassungen,b2,
+756,"to be defeated, lose",敗れる,verb,verb,scheitern,,,b2,Distinct from 負ける/unterliegen.
+757,"universe, outer space",宇宙,noun,noun,Weltall,das,,b1,
+758,"official, formal",公式,noun,adjective,offiziell,,,b1,"German equivalent is an adjective, not a noun."
+759,"calculation, computation, arithmetic",計算,noun,noun,Berechnung,die,Berechnungen,b1,
+760,alcohol,アルコール,noun,noun,Alkohol,der,,b1,
+761,exclusive floor area,専有面積,noun,noun,Wohnfläche,die,Wohnflächen,b2,
+762,"to live, to be alive",生きる,verb,verb,leben,,,a1,
+763,"gathering, assembly, meeting point, rendezvous",集合,noun,noun,Versammlung,die,Versammlungen,b1,
+764,"clock, watch",時計,noun,noun,Uhr,die,Uhren,a1,
+765,store staff,店員,noun,noun,Verkäufer,der,Verkäufer,a2,
+766,"steep, precipitous",険しい,adjective,adjective,steil,,,b1,
+767,"alcohol, sake (polite form)",お酒,noun,,,,,,German has no polite register; アルコール/Alkohol carries this meaning.
+768,"joy, delight, pleasure, happiness",喜び,noun,noun,Freude,die,Freuden,a2,
+769,"uniform (school, work, etc.)",制服,noun,noun,Uniform,die,Uniformen,b1,
+770,"railroad, railway",鉄道,noun,noun,Eisenbahn,die,Eisenbahnen,b1,
+771,tokyo (capital of japan),東京,noun,,,,,,A proper place name rather than vocabulary.
+772,refugee,難民,noun,noun,Flüchtling,der,Flüchtlinge,b2,
+773,prime minister,首相,noun,noun,Kanzler,der,Kanzler,b2,
+774,"story, tale, narrative",物語,noun,noun,Erzählung,die,Erzählungen,b1,
+775,"practice, training, exercise",練習,noun,noun,Übung,die,Übungen,a2,
+776,"evaluation, assessment",評価,noun,noun,Bewertung,die,Bewertungen,b1,
+777,workplace,職場,noun,noun,Arbeitsplatz,der,Arbeitsplätze,b1,
+778,"to listen, to hear, to ask",聞く,verb,verb,hören,,,a1,
+779,ponzu sauce,ポン酢,noun,,,,,,Culturally specific; German only borrows Ponzu.
+780,spring (season),春,noun,noun,Frühling,der,Frühlinge,a1,
+781,"observation, watching",観察,noun,noun,Beobachtung,die,Beobachtungen,b1,
+782,"factor, main cause",要因,noun,noun,Faktor,der,Faktoren,b1,Distinct from 原因/Ursache.
+783,security,セキュリティ,noun,,,,,,Loanword duplicating 安全/Sicherheit.
+784,shochu,焼酎,noun,,,,,,Culturally specific; German only borrows Shochu.
+785,"unskilled, poor at, clumsy",下手,adjective,adjective,ungeschickt,,,b1,
+786,summer,夏,noun,noun,Sommer,der,Sommer,a1,
+787,friday,金曜日,noun,noun,Freitag,der,Freitage,a1,
+788,bento box,弁当,noun,,,,,,Culturally specific; German only borrows Bento.
+789,"to drop, to lose, to let fall",落とす,verb,verb,fallen lassen,,,b1,
+790,lease renewal fee,更新料,noun,noun,Verlängerungsgebühr,die,Verlängerungsgebühren,c1,
+791,next week,来週,noun,noun,Folgewoche,die,Folgewochen,b1,
+792,fraudulent use,不正利用,noun,noun,Missbrauch,der,,b2,
+793,rent (for housing),家賃,noun,noun,Wohnungsmiete,die,Wohnungsmieten,b1,Distinct from 賃料/Miete.
+794,"average, mean",平均,noun,noun,Durchschnitt,der,Durchschnitte,b1,
+795,"way, method, manner",仕方,noun,noun,Art und Weise,die,,b1,Distinct from 方法/Methode.
+796,yellow (color),黄色,noun,noun,Gelb,das,,a1,The noun; 黄色い/gelb is the adjective.
+797,"eyeglasses, spectacles",眼鏡,noun,noun,Sehhilfe,die,Sehhilfen,c1,Distinct from メガネ/Brille.
+798,"writer, author, novelist",作家,noun,noun,Schriftsteller,der,Schriftsteller,b1,
+799,"to flow, to stream, to run",流れる,verb,verb,fließen,,,b1,
+800,"area, district, zone",地区,noun,noun,Bezirk,der,Bezirke,b1,Distinct from 区域/Gebiet and 地元/Gegend.
+801,"time, hour",時間,noun,noun,Zeit,die,Zeiten,a1,
+802,"unexpectedness, surprise",意外,noun,noun,Überraschung,die,Überraschungen,b1,
+803,"house, home",家,noun,noun,Haus,das,Häuser,a1,
+804,meat,肉,noun,noun,Fleisch,das,,a1,
+805,"half a year, six months",半年,noun,noun,Halbjahr,das,Halbjahre,b1,
+806,"boundary, border",境界,noun,noun,Abgrenzung,die,Abgrenzungen,b2,Distinct from 国境/Grenze.
+807,cashier / register,レジ,noun,noun,Kasse,die,Kassen,a2,
+808,pick-up/drop-off service,送迎,noun,noun,Abholservice,der,Abholservices,b2,
+809,to award,進呈,noun,noun,Überreichung,die,,c1,
+810,contract,契約,noun,noun,Vertrag,der,Verträge,b1,
+811,"to turn, to rotate",回る,verb,verb,sich drehen,,,a2,
+812,"to begin, to start (something)",始める,verb,verb,beginnen,,,a1,
+813,"decision, determination",決定,noun,noun,Entscheidung,die,Entscheidungen,b1,
+814,"to occur, to happen, to arise",起こる,verb,verb,geschehen,,,b1,
+815,"dark, dim",暗い,adjective,adjective,dunkel,,,a1,
+816,"breakdown, malfunction",故障,noun,noun,Panne,die,Pannen,b1,
+817,"clinic, doctor's office",医院,noun,noun,Praxis,die,Praxen,b1,
+818,"to cry, weep",泣く,verb,verb,weinen,,,a2,
+819,"activity, action, movement",活動,noun,noun,Aktivität,die,Aktivitäten,b1,
+820,"before, previously, formerly, ago",以前,noun,adverb,früher,,,a2,"German equivalent is an adverb, not a noun."
+821,airplane,飛行機,noun,noun,Flugzeug,das,Flugzeuge,a1,
+822,mushroom,きのこ,noun,noun,Pilz,der,Pilze,a2,
+823,"remainder, rest, leftover",残り,noun,noun,Rest,der,Reste,a2,
+824,snow,雪,noun,noun,Schnee,der,,a1,
+825,"heavy (weight), serious, severe",重い,adjective,adjective,schwer,,,a1,
+826,carbonara,カルボナーラ,noun,,,,,,A proper dish name rather than vocabulary.
+827,december,十二月,noun,noun,Dezember,der,,a1,
+828,hokkaido (northernmost main island of japan),北海道,noun,,,,,,A proper place name rather than vocabulary.
+829,tempura,天ぷら,noun,,,,,,Culturally specific; German only borrows Tempura.
+830,"announcement, presentation, publication",発表,noun,noun,Ankündigung,die,Ankündigungen,b1,
+831,minutes on foot from the station,駅徒歩,noun,,,,,,A Japanese property-listing convention with no German equivalent.
+832,"suspicion, doubt",疑惑,noun,noun,Verdacht,der,,b2,
+833,poet,詩人,noun,noun,Dichter,der,Dichter,b2,
+834,"row, line, queue",列,noun,noun,Reihe,die,Reihen,a2,Distinct from 行列/Schlange.
+835,comment,コメント,noun,noun,Kommentar,der,Kommentare,b1,
+836,"to raise, to bring up",育てる,verb,verb,erziehen,,,b1,
+837,childbirth,出産,noun,noun,Entbindung,die,Entbindungen,b2,
+838,"to win, to be victorious",勝つ,verb,verb,gewinnen,,,a2,
+839,"to omit, save, cut out",省く,verb,verb,weglassen,,,b2,
+840,soba noodles,そば,noun,,,,,,Culturally specific; German only borrows Soba.
+841,"charge, responsibility, being in charge of",担当,noun,noun,Zuständigkeit,die,Zuständigkeiten,b2,
+842,tableware,食器,noun,noun,Geschirr,das,,b1,
+843,cupboard,食器棚,noun,noun,Geschirrschrank,der,Geschirrschränke,b2,
+844,"era, period, age, epoch",時代,noun,noun,Epoche,die,Epochen,b2,
+845,hospital,病院,noun,noun,Krankenhaus,das,Krankenhäuser,a2,
+846,"rudeness, impoliteness; excuse me",失礼,noun,noun,Unhöflichkeit,die,,b2,
+847,"to raise, lift up, cite, give as an example",挙げる,verb,verb,anführen,,,b2,
+848,"physical education, p.e.",体育,noun,noun,Sportunterricht,der,,b1,
+849,"role, part",役割,noun,noun,Rolle,die,Rollen,b1,
+850,"clear weather, sunny, fine weather",晴れ,noun,noun,Sonnenschein,der,,b1,
+851,no smoking,禁煙,noun,noun,Rauchverbot,das,Rauchverbote,b1,
+852,weather forecast,天気予報,noun,noun,Wettervorhersage,die,Wettervorhersagen,a2,
+853,"plan, project, schedule",計画,noun,noun,Vorhaben,das,Vorhaben,b2,Distinct from 予定/Plan.
+854,"fast, quick, speedy (refers to speed of movement)",速い,adjective,adjective,schnell,,,a1,
+855,"expansion, extension",拡張,noun,noun,Ausdehnung,die,,b2,Distinct from 拡大/Erweiterung.
+856,"early, too soon",早い,adjective,adjective,früh,,,a1,
+857,blood pressure,血圧,noun,noun,Blutdruck,der,,b1,
+858,"tonight, this evening",今夜,noun,adverb,heute Abend,,,a1,"German equivalent is an adverbial phrase, not a noun."
+859,delivery,配信,noun,noun,Übertragung,die,Übertragungen,b2,Distinct from 配達/Lieferung: the digital-distribution sense.
+860,art museum,美術館,noun,noun,Kunstmuseum,das,Kunstmuseen,a2,
+861,"answer, solution, response",答え,noun,noun,Auflösung,die,Auflösungen,b2,Distinct from 返事/Antwort.
+862,"blue, green (for traffic lights, plants)",青い,adjective,adjective,blau,,,a1,
+863,detergent,洗剤,noun,noun,Waschmittel,das,Waschmittel,b1,
+864,"low tide, ebb tide",干潮,noun,noun,Ebbe,die,,c1,
+865,"safety, security",安全,noun,noun,Sicherheit,die,,b1,
+866,hair styling product,整髪料,noun,noun,Stylingprodukt,das,Stylingprodukte,b2,
+867,"fat, thick, broad",太い,adjective,adjective,dick,,,a1,
+868,inn,宿,noun,noun,Gasthaus,das,Gasthäuser,b1,
+869,"business, sales, operation",営業,noun,noun,Vertrieb,der,,b2,
+870,"oneself, myself, yourself",自分,noun,pronoun,selbst,,,a2,"German equivalent is a pronoun, not a noun."
+871,housing,住宅,noun,noun,Wohnraum,der,Wohnräume,b2,
+872,"happiness, bliss, good fortune",幸福,noun,noun,Glückseligkeit,die,,c1,Distinct from 運/Glück and 幸運/Glücksfall.
+873,"to perform, to act",演じる,verb,verb,aufführen,,,b2,
+874,"sightseeing, watching, spectacle",見物,noun,noun,Schauspiel,das,Schauspiele,b2,Distinct from 観光/Tourismus.
+875,pot,鍋,noun,noun,Topf,der,Töpfe,a2,
+876,"unit, credit (academic)",単位,noun,noun,Einheit,die,Einheiten,b1,
+877,"needle, pin",針,noun,noun,Nadel,die,Nadeln,b1,
+878,beef bowl,牛丼,noun,,,,,,Culturally specific dish; German only borrows Gyudon.
+879,"zoo, zoological garden",動物園,noun,noun,Zoo,der,Zoos,a1,
+880,rental,賃貸,noun,noun,Vermietung,die,,b2,
+881,september,九月,noun,noun,September,der,,a1,
+882,"taste, flavor",味,noun,noun,Geschmack,der,Geschmäcker,a2,
+883,chemistry (science),化学,noun,noun,Chemie,die,,b1,
+884,"ruling party, governing party",与党,noun,noun,Regierungspartei,die,Regierungsparteien,c1,
+885,"instructions, directions, indication",指示,noun,noun,Anweisung,die,Anweisungen,b1,
+886,photocopy,コピー,noun,noun,Kopie,die,Kopien,a2,
+887,bag,袋,noun,noun,Tüte,die,Tüten,a2,
+888,"to show, to display, to present",見せる,verb,verb,vorzeigen,,,b1,Distinct from 指す/zeigen.
+889,"extension, prolongation",延長,noun,noun,Verlängerung,die,Verlängerungen,b1,Distinct from 延期/Verschiebung.
+890,"homework, assignment",宿題,noun,noun,Hausaufgabe,die,Hausaufgaben,a1,
+891,science (as a school subject),理科,noun,noun,Naturwissenschaft,die,Naturwissenschaften,b1,
+892,"to wish, request, hope, pray",願う,verb,verb,wünschen,,,a2,
+893,"equality, evenness",均等,noun,noun,Gleichmäßigkeit,die,,c1,Distinct from 平等/Gleichheit.
+894,"position, location, place",位置,noun,noun,Position,die,Positionen,b1,Distinct from 場所/Ort and 地位/Stellung.
+895,current location,現在地,noun,noun,aktueller Standort,der,,b1,
+896,older sister (plain/humble),姉,noun,,,,,,German Schwester already covers 妹; no separate word for older sister.
+897,"nature, the natural world, naturally",自然,noun,noun,Natur,die,,a2,
+898,coupon,クーポン,noun,noun,Gutschein,der,Gutscheine,a2,
+899,warranty,保証,noun,noun,Garantie,die,Garantien,b1,
+900,march,三月,noun,noun,März,der,,a1,

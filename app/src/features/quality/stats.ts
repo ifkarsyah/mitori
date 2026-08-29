@@ -51,9 +51,16 @@ export function kotobaCompleteness(rows: Kotoba[]): CompletenessStat[] {
   const subtypeApplicable = rows.filter((r) => r.part_of_speech === 'verb' || r.part_of_speech === 'adjective')
   const missingSubtype = subtypeApplicable.filter((r) => r.sub_part_of_speech == null).map(kotobaAffectedRow)
   return [
+    toStat('concept_id', 'Concept', rows.length, missing((r) => r.concept_id == null)),
     toStat('context_id', 'Context', rows.length, missing((r) => r.context_id == null)),
     toStat('source_id', 'Source', rows.length, missing((r) => r.source_id == null)),
-    toStat('jlpt', 'JLPT level', rows.length, missing((r) => r.jlpt == null)),
+    // JLPT applies to Japanese only; German words are levelled by CEFR instead.
+    toStat(
+      'jlpt',
+      'JLPT level (Japanese)',
+      rows.filter((r) => r.language === 'ja').length,
+      rows.filter((r) => r.language === 'ja' && r.jlpt == null).map(kotobaAffectedRow),
+    ),
     toStat('sub_part_of_speech', 'Sub part of speech (verbs/adjectives)', subtypeApplicable.length, missingSubtype),
   ]
 }

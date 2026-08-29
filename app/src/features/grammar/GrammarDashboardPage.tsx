@@ -4,10 +4,13 @@ import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
+import { useLanguage } from '@/features/language/useLanguage'
+import { languageLabel } from '@/features/language/languages'
 import { useGrammarPointList } from './hooks'
 import { applyGrammarSearch, groupGrammarByCategory } from './filters'
 
 export function GrammarDashboardPage() {
+  const { language } = useLanguage()
   const { data, isLoading, isError, error, refetch } = useGrammarPointList()
   const [search, setSearch] = useState('')
 
@@ -39,7 +42,9 @@ export function GrammarDashboardPage() {
 
       {groups.length === 0 ? (
         <p className="py-12 text-center text-sm text-muted-foreground">
-          No grammar points match this search.
+          {(data?.length ?? 0) === 0
+            ? `No ${languageLabel(language)} grammar points yet.`
+            : 'No grammar points match this search.'}
         </p>
       ) : (
         <div className="flex flex-col gap-8">

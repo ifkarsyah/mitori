@@ -3,8 +3,15 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
-import { useKanjiForWord, useKotobaByWord, useSentencesForWord } from './hooks'
+import {
+  useConceptById,
+  useKanjiForWord,
+  useKotobaByWord,
+  useKotobaForConcept,
+  useSentencesForWord,
+} from './hooks'
 import { jlptLabel, partOfSpeechLabel, kanaTypeLabel } from './filters'
+import { languageLabel } from '@/features/language/languages'
 
 export function KotobaDetailPage() {
   const { word } = useParams<{ word: string }>()
@@ -12,6 +19,9 @@ export function KotobaDetailPage() {
   const { data: kotoba, isLoading, isError, error, refetch } = useKotobaByWord(word)
   const { data: sentences, isLoading: sentencesLoading } = useSentencesForWord(kotoba?.id)
   const { data: composingKanji, isLoading: kanjiLoading } = useKanjiForWord(kotoba?.id)
+  const { data: concept } = useConceptById(kotoba?.concept_id)
+  const { data: conceptWords } = useKotobaForConcept(kotoba?.concept_id)
+  const translations = conceptWords.filter((row) => row.id !== kotoba?.id)
 
   if (isLoading) return <LoadingState />
   if (isError) return <ErrorState error={error} onRetry={() => refetch()} />
@@ -25,16 +35,23 @@ export function KotobaDetailPage() {
 
       <div className="flex flex-col gap-2">
         <div className="flex items-baseline gap-3">
-          <span className="text-4xl">{kotoba.word}</span>
+          <span className="text-4xl">
+            {kotoba.gender ? `${kotoba.gender} ${kotoba.word}` : kotoba.word}
+          </span>
           {kotoba.reading && <span className="text-lg text-muted-foreground">【{kotoba.reading}】</span>}
+          {kotoba.plural && (
+            <span className="text-lg text-muted-foreground">pl. {kotoba.plural}</span>
+          )}
         </div>
-        <div className="flex gap-2">
+        <div className="flex flex-wrap gap-2">
+          <Badge variant="outline">{languageLabel(kotoba.language)}</Badge>
           {kotoba.jlpt && <Badge variant="outline">{jlptLabel(kotoba.jlpt)}</Badge>}
+          {kotoba.cefr && <Badge variant="outline">{kotoba.cefr.toUpperCase()}</Badge>}
           {kotoba.part_of_speech && (
             <Badge variant="outline">{partOfSpeechLabel(kotoba.part_of_speech)}</Badge>
           )}
           {kotoba.sub_part_of_speech && <Badge variant="outline">{kotoba.sub_part_of_speech}</Badge>}
-          <Badge variant="outline">{kanaTypeLabel(kotoba.kana_type)}</Badge>
+          {kotoba.kana_type && <Badge variant="outline">{kanaTypeLabel(kotoba.kana_type)}</Badge>}
         </div>
         <div className="flex flex-wrap gap-1">
           {(kotoba.meanings ?? []).map((meaning) => (
@@ -44,6 +61,32 @@ export function KotobaDetailPage() {
           ))}
         </div>
       </div>
+
+      {concept && (
+        <div>
+          <h2 className="mb-2 text-sm font-medium text-muted-foreground">Concept</h2>
+          <Link to={`/concept/${concept.id}`} className="hover:underline">
+            {concept.gloss}
+          </Link>
+          {translations.length === 0 ? (
+            <p className="mt-2 text-sm text-muted-foreground">
+              No other word recorded for this concept yet.
+            </p>
+          ) : (
+            <ul className="mt-2 flex flex-col divide-y">
+              {translations.map((t) => (
+                <li key={t.id} className="flex items-baseline gap-2 py-2">
+                  <Badge variant="outline">{languageLabel(t.language)}</Badge>
+                  <Link to={`/kotoba/${t.word}`} className="text-lg hover:underline">
+                    {t.gender ? `${t.gender} ${t.word}` : t.word}
+                  </Link>
+                  {t.reading && <span className="text-sm text-muted-foreground">【{t.reading}】</span>}
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
+      )}
 
       {kotoba.kana_type === 'kanji' && (
         <div>

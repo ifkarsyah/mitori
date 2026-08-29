@@ -1,0 +1,151 @@
+concept_id,gloss,ja_word,part_of_speech,de_part_of_speech,de_word,de_gender,de_plural,de_cefr,note
+601,futon,布団,noun,,,,,,Culturally specific; German Futon means a different kind of mattress.
+602,"sidewalk, footpath, pedestrian path",歩道,noun,noun,Gehweg,der,Gehwege,a2,
+603,"kansai region (western japan including osaka, kyoto, kobe)",関西,noun,,,,,,A proper place name rather than vocabulary.
+604,"to go out, to exit, to leave",出る,verb,verb,hinausgehen,,,a2,
+605,"to approach, to draw near",寄る,verb,verb,sich nähern,,,b1,
+606,"to borrow, rent, hire",借りる,verb,verb,leihen,,,a2,
+607,"living together, cohabitation",同居,noun,noun,Zusammenleben,das,,b2,
+608,"leaf, blade (of grass), petal",葉,noun,noun,Blatt,das,Blätter,a2,
+609,"painter, artist",画家,noun,noun,Maler,der,Maler,a2,
+610,reading (books as a hobby or activity),読書,noun,noun,Lesen,das,,a2,
+611,"status, standing, position, rank",地位,noun,noun,Stellung,die,Stellungen,b2,
+612,wednesday,水曜日,noun,noun,Mittwoch,der,Mittwoche,a1,
+613,"local, one's hometown, home area",地元,noun,noun,Gegend,die,Gegenden,b1,
+614,japanese-style room,和室,noun,,,,,,Culturally specific; German only borrows Washitsu.
+615,"to hurry, to rush, to hasten",急ぐ,verb,verb,sich beeilen,,,a2,
+616,"acquaintance, person one knows",知人,noun,noun,Bekannte,der,Bekannten,b1,
+617,"match, contest, competition",勝負,noun,noun,Wettkampf,der,Wettkämpfe,b1,
+618,toy,玩具,noun,noun,Spielzeug,das,Spielzeuge,a1,
+619,to graduate,卒業する,verb,verb,absolvieren,,,b2,
+620,thursday,木曜日,noun,noun,Donnerstag,der,Donnerstage,a1,
+621,"to stand, to stand up",立つ,verb,verb,stehen,,,a1,
+622,ramen,ラーメン,noun,,,,,,Culturally specific; German only borrows Ramen.
+623,"industry, manufacturing, engineering",工業,noun,noun,Industrie,die,Industrien,b1,
+624,free of charge,無料,noun,adjective,kostenlos,,,a2,"German equivalent is an adjective, not a noun."
+625,right side,右側,noun,noun,rechte Seite,die,,a1,
+626,"industry, enterprise, business",産業,noun,noun,Gewerbe,das,Gewerbe,b2,Distinct from 工業/Industrie.
+627,"precious, valuable",貴重,adjective,adjective,wertvoll,,,b1,
+628,"hope, wish, desire",希望,noun,noun,Hoffnung,die,Hoffnungen,b1,
+629,facility,施設,noun,noun,Einrichtung,die,Einrichtungen,b1,
+630,noodles,麺類,noun,noun,Nudel,die,Nudeln,a1,
+631,"other person, stranger",他人,noun,noun,Fremde,der,Fremden,b1,
+632,"to grill, bake, burn, roast",焼く,verb,verb,braten,,,a2,
+633,"one day, all day long",一日,noun,noun,Tag,der,Tage,a1,
+634,"care, looking after",世話,noun,noun,Betreuung,die,,b2,
+635,hat,帽子,noun,noun,Hut,der,Hüte,a1,
+636,"to understand, to comprehend",分かる,verb,verb,verstehen,,,a1,
+637,"adult, grown-up",大人,noun,noun,Erwachsene,der,Erwachsenen,a2,
+638,"rivers, waterways",河川,noun,noun,Fluss,der,Flüsse,a2,
+639,"constellation, star sign",星座,noun,noun,Sternbild,das,Sternbilder,b2,
+640,"festival, celebration, matsuri",祭り,noun,noun,Fest,das,Feste,a2,
+641,"breathing, respiration",呼吸,noun,noun,Atmung,die,,b1,
+642,celebrity,有名人,noun,noun,Prominente,der,Prominenten,b2,
+643,"to change (transitive), alter",変える,verb,verb,ändern,,,a2,
+644,"concise, brief",簡潔,adjective,adjective,knapp,,,b2,
+645,day trip,日帰り,noun,noun,Tagesausflug,der,Tagesausflüge,b1,
+646,"fun, enjoyable, pleasant",楽しい,adjective,adjective,lustig,,,a1,
+647,"to learn (from a teacher), to take lessons in",習う,verb,verb,erlernen,,,b1,
+648,"confusion, disorder",混乱,noun,noun,Verwirrung,die,,b2,
+649,opposition party,野党,noun,noun,Opposition,die,,b2,
+650,"below, less than, as follows",以下,noun,,,,,,A grammatical function word; no German noun equivalent.
+651,"to lose, to be defeated, to succumb",負ける,verb,verb,unterliegen,,,b2,
+652,"tv program, radio program",番組,noun,noun,Sendung,die,Sendungen,b1,
+653,"to chase, to pursue, to follow",追う,verb,verb,verfolgen,,,b1,
+654,coffee,コーヒー,noun,noun,Kaffee,der,Kaffees,a1,
+655,"tall, high, expensive, loud",高い,adjective,adjective,hoch,,,a1,
+656,"to climb, to ascend, to go up",登る,verb,verb,klettern,,,a2,
+657,"word, language, expression, speech",言葉,noun,noun,Wort,das,Wörter,a1,
+658,"benefactor, person one is indebted to",恩人,noun,noun,Wohltäter,der,Wohltäter,c1,
+659,"light (not heavy), easy, casual",軽い,adjective,adjective,leicht,,,a1,
+660,"train, electric train, commuter train",電車,noun,noun,Zug,der,Züge,a1,
+661,goldfish,金魚,noun,noun,Goldfisch,der,Goldfische,a2,
+662,"table, chart, list",表,noun,noun,Tabelle,die,Tabellen,b1,
+663,coal,石炭,noun,noun,Kohle,die,Kohlen,b1,
+664,"to save (money), accumulate, store up",貯める,verb,verb,sparen,,,a2,
+665,checkout / payment,会計,noun,noun,Rechnung,die,Rechnungen,a2,
+666,"range, scope, extent",範囲,noun,noun,Umfang,der,Umfänge,b2,
+667,brown (color),茶色,noun,noun,Braun,das,,a1,
+668,"common, shared, mutual",共通,noun,adjective,gemeinsam,,,a2,"German equivalent is an adjective, not a noun."
+669,index,指数,noun,noun,Index,der,Indizes,b2,
+670,to grant,付与,noun,noun,Gewährung,die,,c1,
+671,chicken (meat),鶏肉,noun,noun,Hühnerfleisch,das,,a2,
+672,check-in,チェックイン,noun,noun,Check-in,der,Check-ins,b1,
+673,new arrival,新着,noun,noun,Neuzugang,der,Neuzugänge,b2,
+674,today,今日,noun,adverb,heute,,,a1,"German equivalent is an adverb, not a noun."
+675,"direction, orientation",方向,noun,noun,Richtung,die,Richtungen,a2,
+676,"company, firm, corporation",会社,noun,noun,Firma,die,Firmen,a1,
+677,"to get used to, to become accustomed to",慣れる,verb,verb,sich gewöhnen,,,b1,
+678,"weak point, weakness, vulnerability",弱点,noun,noun,Schwachstelle,die,Schwachstellen,b2,Distinct from 短所/Schwäche.
+679,younger sister (plain/humble),妹,noun,noun,Schwester,die,Schwestern,a1,German does not distinguish older from younger sibling.
+680,skin (of the body),皮膚,noun,noun,Haut,die,Häute,a2,
+681,frozen food,冷凍食品,noun,noun,Tiefkühlkost,die,,b1,
+682,"accurate, precise",正確,adjective,adjective,genau,,,a2,
+683,"to hold, to have, to carry",持つ,verb,verb,halten,,,a2,
+684,overview,概要,noun,noun,Übersicht,die,Übersichten,b1,
+685,"to throw, to toss, to pitch",投げる,verb,verb,werfen,,,a2,
+686,"many, numerous, a lot",多い,adjective,adjective,viel,,,a1,
+687,"kyushu, the southernmost of japan's four main islands",九州,noun,,,,,,A proper place name rather than vocabulary.
+688,breast milk,母乳,noun,noun,Muttermilch,die,,b1,
+689,block (subdivision of a district in japanese addresses),丁目,noun,,,,,,Japanese address unit with no German equivalent.
+690,"voice, sound (of a person or animal)",声,noun,noun,Stimme,die,Stimmen,a2,
+691,"name (of a person, thing, place)",名前,noun,noun,Name,der,Namen,a1,
+692,"big, large, great",大きい,adjective,adjective,groß,,,a1,
+693,impression,印象,noun,noun,Wirkung,die,Wirkungen,b1,Distinct from 感想/Eindruck.
+694,"address, residence",住所,noun,noun,Adresse,die,Adressen,a1,
+695,"to make, to create, to produce",作る,verb,verb,machen,,,a1,
+696,fish,魚,noun,noun,Fisch,der,Fische,a1,
+697,"to head toward, to go toward",向かう,verb,verb,zusteuern,,,b2,
+698,"to point to, to indicate, to refer to",指す,verb,verb,zeigen,,,a2,
+699,"to be in disorder, to be disturbed",乱れる,verb,verb,durcheinandergeraten,,,c1,
+700,"to investigate, to look up, to examine, to check",調べる,verb,verb,nachschlagen,,,b1,
+701,"to close, to be shut (intransitive)",閉まる,verb,verb,zugehen,,,b1,
+702,"voting, ballot, poll",投票,noun,noun,Abstimmung,die,Abstimmungen,b1,
+703,"travel, trip, journey",旅行,noun,noun,Reise,die,Reisen,a1,
+704,"political views, political opinions",政見,noun,noun,Gesinnung,die,Gesinnungen,c1,
+705,"number one, first",一番,noun,adjective,erste,,,a1,"German equivalent is an ordinal adjective, not a noun."
+706,"wide, spacious, broad",広い,adjective,adjective,breit,,,a1,
+707,"public release, making public",公開,noun,noun,Veröffentlichung,die,Veröffentlichungen,b2,
+708,sale,セール,noun,noun,Ausverkauf,der,Ausverkäufe,b1,
+709,"to be, to exist (for animate objects)",居る,verb,verb,sein,,,a1,
+710,"archipelago, group of islands",群島,noun,noun,Inselgruppe,die,Inselgruppen,b2,
+711,"knowledge, information, learning",知識,noun,noun,Wissen,das,,b1,
+712,vacant room,空室,noun,phrase,freies Zimmer,,,a2,"German uses a phrase, not a single noun."
+713,"use, application",使用,noun,noun,Gebrauch,der,,b1,
+714,after school,放課後,noun,phrase,nach dem Unterricht,,,a2,"German uses a phrase, not a single noun."
+715,"result, outcome, consequence",結果,noun,noun,Ergebnis,das,Ergebnisse,b1,
+716,point,地点,noun,noun,Punkt,der,Punkte,a2,
+717,experience,経験,noun,noun,Erfahrung,die,Erfahrungen,b1,Distinct from 体験/Erlebnis.
+718,season,季節,noun,noun,Jahreszeit,die,Jahreszeiten,a2,
+719,weather,天気,noun,noun,Wetter,das,,a1,
+720,store,店舗,noun,noun,Geschäftslokal,das,Geschäftslokale,b2,Distinct from 商店/Laden and 商売/Geschäft.
+721,husband (one's own),主人,noun,noun,Gatte,der,Gatten,b2,Distinct from 夫/Ehemann.
+722,"to extend, to be prolonged",延びる,verb,verb,sich verlängern,,,b1,
+723,"to line up, to stand in a row",並ぶ,verb,verb,anstehen,,,b1,
+724,"to bathe in, shower, be exposed to",浴びる,verb,verb,duschen,,,a2,
+725,"shop, store, restaurant",店,noun,noun,Lokal,das,Lokale,b1,
+726,"daytime, during the day",昼間,noun,adverb,tagsüber,,,b1,"German equivalent is an adverb, not a noun."
+727,"class, classroom (in school)",学級,noun,noun,Klasse,die,Klassen,a2,
+728,"both parents, parents (father and mother)",両親,noun,,,,,,German Eltern already covers 親; no separate word for both parents.
+729,"work of art, creation, piece",作品,noun,noun,Werk,das,Werke,b1,
+730,"subway, underground train, metro",地下鉄,noun,noun,U-Bahn,die,U-Bahnen,a1,
+731,"unhappiness, misfortune",不幸,noun,noun,Unglück,das,,b1,
+732,all-you-can-drink,飲み放題,noun,phrase,Getränke inklusive,,,b1,"German uses a phrase, not a single noun."
+733,"specialty, expertise, special field",専門,noun,noun,Fachwissen,das,,b2,
+734,"city, urban area, metropolis",都市,noun,noun,Stadt,die,Städte,a1,
+735,"small bird, little bird",小鳥,noun,noun,Singvogel,der,Singvögel,b1,
+736,triple (size),トリプル,noun,adjective,dreifach,,,b1,"German equivalent is an adjective, not a noun."
+737,corporation,法人,noun,noun,Körperschaft,die,Körperschaften,c1,
+738,pet (animal),ペット,noun,noun,Haustier,das,Haustiere,a2,
+739,"use, utilization, making use of",利用,noun,noun,Nutzung,die,Nutzungen,b1,Distinct from 使用/Gebrauch.
+740,"school principal, headmaster",校長,noun,noun,Schulleiter,der,Schulleiter,b1,
+741,small side dish bowl,小鉢,noun,,,,,,Japanese tableware with no German equivalent.
+742,"opportunity, chance, occasion",機会,noun,noun,Gelegenheit,die,Gelegenheiten,b1,
+743,"expansion, enlargement",拡大,noun,noun,Erweiterung,die,Erweiterungen,b2,
+744,"genius, prodigy, extraordinary talent",天才,noun,noun,Genie,das,Genies,b2,
+745,tofu,豆腐,noun,noun,Tofu,der,,a2,Fully naturalized in German unlike other borrowings here.
+746,frozen,冷凍,noun,adjective,tiefgekühlt,,,b1,"German equivalent is an adjective, not a noun."
+747,history,歴史,noun,noun,Geschichte,die,Geschichten,a2,
+748,"company employee, staff member",社員,noun,noun,Angestellte,der,Angestellten,b1,
+749,"valid, effective, in effect",有効,noun,adjective,gültig,,,b1,"German equivalent is an adjective, not a noun."
+750,"imagination, fancy, supposition",想像,noun,noun,Vorstellung,die,Vorstellungen,b1,
