@@ -1,0 +1,32 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+bod-body,body,noun,1,8;12,Merges 身体 (8) and 体 (12).
+bod-head,head,noun,1,519,頭.
+bod-face,face,noun,1,451,顔.
+bod-hair,hair,noun,1,,
+bod-eye,eye,noun,1,,
+bod-eyebrow,eyebrow,noun,3,41,眉毛.
+bod-ear,ear,noun,1,,
+bod-nose,nose,noun,1,244,鼻.
+bod-mouth,mouth,noun,1,,
+bod-tooth,tooth,noun,1,,
+bod-tongue,tongue,noun,2,,"The organ; 言語 (concept 66) is language, filed under language-learning."
+bod-neck,neck,noun,1,1017,首.
+bod-shoulder,shoulder,noun,2,,
+bod-arm,arm,noun,1,,
+bod-hand,hand,noun,1,,
+bod-right-hand,right hand,noun,2,268,右手.
+bod-left-hand,left hand,noun,2,1408,左手.
+bod-finger,finger,noun,1,,
+bod-chest,chest,noun,2,350,胸.
+bod-back,back (body),noun,2,,
+bod-stomach,stomach,noun,1,,
+bod-leg,leg,noun,1,,
+bod-foot,foot,noun,1,,
+bod-knee,knee,noun,2,,
+bod-skin,skin,noun,2,680,皮膚.
+bod-bone,bone,noun,2,447,骨.
+bod-blood,blood,noun,2,1398,血液.
+bod-heart-organ,heart (organ),noun,2,,See 233 (心) for the mind/spirit sense under mental-states.
+bod-height,height (of a person),noun,2,475,身長.
+bod-weight,body weight,noun,2,1280,体重.
+bod-complexion,complexion,noun,3,225,顔色.

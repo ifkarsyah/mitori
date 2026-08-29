@@ -1,0 +1,27 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+coo-to-cook,to cook,verb,1,,
+coo-dish,dish (prepared food),noun,1,1269,料理.
+coo-food,food,noun,1,1361;194,"Merges 食べ物 (1361) and 食品 (194)."
+coo-meal,meal,noun,1,1320,食事.
+coo-to-eat,to eat,verb,1,426,食べる.
+coo-to-drink,to drink,verb,1,1003,飲む.
+coo-to-boil,to boil,verb,2,,
+coo-to-fry,to fry,verb,2,,
+coo-to-grill,to grill,verb,2,632,焼く (transitive).
+coo-to-be-grilled,to be grilled,verb,3,1317,焼ける (intransitive).
+coo-to-heat,to heat up,verb,2,1202,温める.
+coo-to-cut-food,to chop,verb,2,,See 111 (切る) for the general cutting sense.
+coo-taste,taste,noun,1,882,味.
+coo-delicious,delicious,adjective,1,,
+coo-sweet,sweet,adjective,1,,
+coo-salty,salty,adjective,1,,
+coo-sour,sour,adjective,2,,
+coo-bitter,bitter,adjective,2,,
+coo-spicy,spicy,adjective,1,349,辛さ — existing concept is the noun; the adjective attaches to the same meaning.
+coo-hungry,hungry,adjective,1,,
+coo-thirsty,thirsty,adjective,1,,
+coo-full-stomach,full (sated),adjective,2,,
+coo-fresh,fresh,adjective,1,,
+coo-frozen,frozen,adjective,2,746,冷凍.
+coo-side-dish,side dish,noun,2,18;1481,"Merges 惣菜 (18) and サイド (1481)."
+coo-dessert,dessert,noun,1,1065,デザート.

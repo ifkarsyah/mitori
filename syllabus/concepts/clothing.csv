@@ -1,0 +1,36 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+clo-clothes,clothes,noun,1,915,洋服.
+clo-shirt,shirt,noun,1,921,シャツ.
+clo-tshirt,t-shirt,noun,1,1242,Tシャツ.
+clo-trousers,trousers,noun,1,1486,"パンツ — in Japanese the same word also means underwear; note that on the word."
+clo-jeans,jeans,noun,2,,
+clo-skirt,skirt,noun,1,357,スカート.
+clo-dress,dress,noun,1,456,ワンピース.
+clo-jacket,jacket,noun,1,,
+clo-coat,coat,noun,1,,
+clo-sweater,jumper,noun,1,229,セーター.
+clo-cardigan,cardigan,noun,2,1073,カーディガン.
+clo-underwear,underwear,noun,1,479,下着.
+clo-socks,socks,noun,1,,
+clo-shoes,shoes,noun,1,417,靴.
+clo-boots,boots,noun,2,,
+clo-hat,hat,noun,1,635,帽子.
+clo-scarf,scarf,noun,2,,
+clo-gloves,gloves,noun,2,,
+clo-belt,belt,noun,2,,
+clo-tie,tie,noun,2,,
+clo-pyjamas,pyjamas,noun,2,460,ルームウェア — existing concept is loungewear generally.
+clo-outerwear,outerwear,noun,2,184,アウター.
+clo-innerwear,innerwear,noun,3,1102,インナー.
+clo-formal-wear,formal wear,noun,3,1012,フォーマル.
+clo-uniform,uniform,noun,2,769,制服.
+clo-glasses,glasses,noun,1,403;797,Merges メガネ (403) and 眼鏡 (797).
+clo-watch,wristwatch,noun,1,,See hou-clock — Japanese 時計 covers both.
+clo-ring,ring,noun,2,1026,指輪.
+clo-jewellery,jewellery,noun,3,,
+clo-size,size,noun,1,1250,サイズ.
+clo-to-wear,to wear,verb,1,1330,着る.
+clo-to-take-off,to take off (clothes),verb,1,,
+clo-cotton,cotton,noun,2,933,綿.
+clo-wool,wool,noun,2,1278,毛糸.
+clo-leather,leather,noun,3,,

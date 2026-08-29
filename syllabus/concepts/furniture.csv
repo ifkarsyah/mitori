@@ -1,0 +1,24 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+fur-furniture,furniture,noun,1,534,家具.
+fur-table,table,noun,1,,"Absent today — the original example that started this redesign."
+fur-chair,chair,noun,1,1040,椅子.
+fur-desk,desk,noun,1,71;526,Merges 机 (71) and デスク (526).
+fur-bed,bed,noun,1,331,ベッド.
+fur-sofa,sofa,noun,1,235,ソファ.
+fur-shelf,shelf,noun,2,,
+fur-bookshelf,bookshelf,noun,2,1078,本棚.
+fur-cupboard,cupboard,noun,2,843,食器棚.
+fur-wardrobe,wardrobe,noun,2,,
+fur-drawer,drawer,noun,3,,
+fur-mirror,mirror,noun,2,,
+fur-carpet,carpet,noun,2,1365,カーペット.
+fur-curtain,curtain,noun,2,328,カーテン.
+fur-cushion,cushion,noun,2,1332,クッション.
+fur-floor-cushion,floor cushion,noun,3,98,座布団.
+fur-mattress,mattress,noun,2,931,マットレス.
+fur-blanket,blanket,noun,2,1152,毛布.
+fur-pillow,pillow,noun,1,,
+fur-bedding,bedding,noun,3,214,寝具.
+fur-futon,futon,noun,3,601,Japanese-specific; German Futon means a different object.
+fur-kotatsu,kotatsu,noun,3,1011,Japanese-specific heated table.
+fur-tv-stand,tv stand,noun,3,425,テレビ台.

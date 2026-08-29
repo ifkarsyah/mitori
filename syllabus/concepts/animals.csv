@@ -1,0 +1,28 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+ani-animal,animal,noun,1,165,動物.
+ani-pet,pet,noun,1,738,ペット.
+ani-dog,dog,noun,1,406,犬.
+ani-cat,cat,noun,1,1188,猫.
+ani-bird,bird,noun,1,423,鳥.
+ani-small-bird,small bird,noun,3,735,小鳥.
+ani-wild-bird,wild bird,noun,3,753,野鳥.
+ani-horse,horse,noun,1,580,馬.
+ani-cow,cow,noun,1,,
+ani-pig,pig,noun,1,,
+ani-sheep,sheep,noun,2,359,羊.
+ani-chicken-animal,chicken (bird),noun,2,,See mea-chicken-meat for the food sense.
+ani-mouse,mouse,noun,2,,
+ani-rabbit,rabbit,noun,2,,
+ani-monkey,monkey,noun,2,,
+ani-bear,bear,noun,2,,
+ani-tiger,tiger,noun,3,,
+ani-lion,lion,noun,3,,
+ani-elephant,elephant,noun,3,,
+ani-snake,snake,noun,3,,
+ani-insect,insect,noun,2,,
+ani-butterfly,butterfly,noun,3,,
+ani-goldfish,goldfish,noun,3,661,金魚.
+ani-wing,wing,noun,2,242,羽根.
+ani-tail,tail,noun,3,,
+ani-to-chirp,to chirp,verb,3,977,鳴く.
+ani-animal-cry,animal cry,noun,3,1413,鳴き声.

@@ -1,0 +1,15 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+dri-drink,drink,noun,1,1123,飲み物.
+dri-water,water,noun,1,,"Absent today — お湯 (hot water) exists but 水 does not."
+dri-hot-water,hot water,noun,2,591,お湯 — a distinct word from 水 in Japanese.
+dri-tea,tea,noun,1,243,お茶.
+dri-black-tea,black tea,noun,2,525,紅茶.
+dri-coffee,coffee,noun,1,654,コーヒー.
+dri-juice,juice,noun,1,,
+dri-milk-drink,milk (as a drink),noun,2,,See dai-milk for the ingredient sense.
+dri-soft-drink,soft drink,noun,2,,
+dri-sparkling-water,sparkling water,noun,2,548;1391,"Merges 炭酸水 (548) and 炭酸 (1391)."
+dri-beer,beer,noun,1,46,ビール.
+dri-wine,wine,noun,1,1169,ワイン.
+dri-alcohol,alcohol,noun,1,760;767;1390,"Merges アルコール (760), お酒 (767) and 酒 (1390) — three registers of one meaning."
+dri-soup,soup,noun,1,969,スープ.

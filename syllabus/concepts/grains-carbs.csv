@@ -1,0 +1,11 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+gra-rice-grain,rice (uncooked),noun,1,535;533,"Merges 米 (535) and the polite お米 (533)."
+gra-rice-cooked,cooked rice,noun,1,461,ご飯 — a separate word from 米 in Japanese and worth its own concept.
+gra-bread,bread,noun,1,1172,パン.
+gra-noodles,noodles,noun,1,630,麺類.
+gra-pasta,pasta,noun,2,1360,
+gra-wheat,wheat,noun,2,123;1461,Merges 麦 (123) and 小麦 (1461).
+gra-flour,flour,noun,2,,
+gra-potato-carb,potato (as a staple),noun,3,,See veg-potato for the vegetable sense.
+gra-cereal,cereal,noun,3,,
+gra-tofu,tofu,noun,2,745,豆腐.

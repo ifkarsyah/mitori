@@ -1,0 +1,29 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+wea-weather,weather,noun,1,719,天気.
+wea-forecast,weather forecast,noun,2,852,天気予報.
+wea-rain,rain,noun,1,,"Absent as a noun; 降る (1336) covers the verb."
+wea-to-rain,to fall (rain or snow),verb,1,1336,降る — German has no general precipitation verb.
+wea-snow,snow,noun,1,824,雪.
+wea-heavy-snow,heavy snowfall,noun,3,211,大雪.
+wea-wind,wind,noun,1,286,"風 — the same word also means a cold in Japanese; see hea-cold-illness."
+wea-cloud,cloud,noun,1,44,雲.
+wea-sun,sun,noun,1,546,太陽.
+wea-sunny,sunny,adjective,1,850;1266,"Merges 晴れ (850) and 陽気 (1266)."
+wea-to-clear-up,to clear up,verb,2,487,晴れる.
+wea-cloudy,cloudy,adjective,1,,
+wea-rainy,rainy,adjective,1,,
+wea-storm,storm,noun,2,,
+wea-typhoon,typhoon,noun,2,220,台風.
+wea-thunder,thunder,noun,2,,
+wea-lightning,lightning,noun,3,,
+wea-fog,fog,noun,3,,
+wea-ice,ice,noun,1,420,氷.
+wea-temperature,temperature,noun,1,1288,温度.
+wea-air-temperature,air temperature,noun,2,1377,気温.
+wea-hot-weather,hot (weather),adjective,1,4,暑い.
+wea-cold-weather,cold (weather),adjective,1,1433,寒い.
+wea-warm,warm,adjective,1,985,温かい.
+wea-cool,cool,adjective,2,,
+wea-humid,humid,adjective,2,,
+wea-dry-weather,dry,adjective,2,,
+wea-air-pressure,atmospheric pressure,noun,3,1329,気圧.

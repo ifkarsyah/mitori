@@ -1,0 +1,11 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+ctr-general,general counter,noun,1,500,"一つ. Japanese つ / Chinese 个; German has no equivalent and will stay empty."
+ctr-one-person,one person,noun,1,1323,一人.
+ctr-two-people,two people,noun,1,131,二人.
+ctr-three-people,three people,noun,2,958,三人.
+ctr-counter-people,counter for people,noun,2,,人 / 口.
+ctr-counter-flat,counter for flat things,noun,2,,枚 / 张 — paper, tickets, plates.
+ctr-counter-long,counter for long things,noun,3,,本 / 条.
+ctr-counter-animals,counter for animals,noun,3,,匹 / 只.
+ctr-counter-books,counter for books,noun,3,,冊 / 本.
+ctr-counter-machines,counter for machines,noun,3,,台.

@@ -1,0 +1,17 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+app-refrigerator,refrigerator,noun,1,1224,冷蔵庫.
+app-washing-machine,washing machine,noun,1,,
+app-dryer,dryer,noun,2,530,乾燥機.
+app-air-conditioner,air conditioner,noun,1,,
+app-heater,heater,noun,2,,
+app-microwave,microwave,noun,1,,
+app-oven,oven,noun,2,,
+app-stove,cooker,noun,2,,
+app-television,television,noun,1,,
+app-computer,computer,noun,1,,
+app-lamp,lamp,noun,2,,
+app-lighting,lighting,noun,2,135,照明.
+app-vacuum,vacuum cleaner,noun,2,,
+app-humidifier,humidifier,noun,3,391,加湿器.
+app-fan,fan (electric),noun,3,,
+app-kettle,kettle,noun,3,,

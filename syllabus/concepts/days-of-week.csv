@@ -1,0 +1,11 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+dow-monday,monday,noun,1,322,
+dow-tuesday,tuesday,noun,1,1454,
+dow-wednesday,wednesday,noun,1,612,
+dow-thursday,thursday,noun,1,620,
+dow-friday,friday,noun,1,787,
+dow-saturday,saturday,noun,1,553,
+dow-sunday,sunday,noun,1,1475,
+dow-day-of-week,day of the week,noun,1,128,曜日.
+dow-weekday,weekday,noun,2,,
+dow-weekend,weekend,noun,1,491,週末.

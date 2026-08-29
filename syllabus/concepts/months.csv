@@ -1,0 +1,14 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+mon-january,january,noun,1,962,
+mon-february,february,noun,1,1462,
+mon-march,march,noun,1,900,
+mon-april,april,noun,1,1121,
+mon-may,may,noun,1,381,
+mon-june,june,noun,1,118,
+mon-july,july,noun,1,62,
+mon-august,august,noun,1,1010,
+mon-september,september,noun,1,881,
+mon-october,october,noun,1,1276,
+mon-november,november,noun,1,495,
+mon-december,december,noun,1,827,
+mon-month-unit,month (unit of time),noun,1,,"Japanese and Chinese build month names on the number plus 月; German uses distinct roots."

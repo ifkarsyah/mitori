@@ -1,0 +1,33 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+cal-today,today,adverb,1,674,今日.
+cal-tomorrow,tomorrow,adverb,1,292,明日.
+cal-yesterday,yesterday,adverb,1,144,昨日.
+cal-day-after-tomorrow,day after tomorrow,adverb,2,,Single words in ja/zh (明後日 / 后天); German needs übermorgen.
+cal-day-before-yesterday,day before yesterday,adverb,2,,
+cal-this-morning,this morning,adverb,2,1053,今朝.
+cal-tonight,tonight,adverb,2,858,今夜.
+cal-day,day,noun,1,633,一日.
+cal-week,week,noun,1,,
+cal-year,year,noun,1,,
+cal-this-week,this week,adverb,1,1350,今週.
+cal-last-week,last week,adverb,1,441,先週.
+cal-next-week,next week,adverb,1,791,来週.
+cal-this-month,this month,adverb,1,1063,今月.
+cal-last-month,last month,adverb,1,1129,先月.
+cal-next-month,next month,adverb,1,,
+cal-this-year,this year,adverb,1,1070,今年.
+cal-last-year,last year,adverb,1,148,昨年.
+cal-next-year,next year,adverb,1,1013,来年.
+cal-date,date (calendar),noun,1,,
+cal-calendar,calendar,noun,2,,
+cal-season,season,noun,1,718,季節.
+cal-century,century,noun,3,340,世紀.
+cal-holiday,public holiday,noun,1,190,祝日.
+cal-long-weekend,consecutive holidays,noun,3,1181,連休.
+cal-new-year,new year,noun,2,1279,正月.
+cal-birthday,birthday,noun,1,,
+cal-half-year,half a year,noun,3,805,半年.
+cal-spring,spring (season),noun,1,780,春.
+cal-summer,summer,noun,1,786,夏.
+cal-autumn,autumn,noun,1,1035,秋.
+cal-winter,winter,noun,1,1153,冬.

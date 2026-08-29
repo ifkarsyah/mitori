@@ -1,0 +1,15 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+pro-i,I,pronoun,1,,"Absent today. Japanese has register variants (私/僕/俺) that attach as several words to this one concept."
+pro-you-sg,you (singular),pronoun,1,1096,君.
+pro-you-pl,you (plural),pronoun,2,,
+pro-he,he,pronoun,1,,
+pro-she,she,pronoun,1,,
+pro-it,it,pronoun,2,,
+pro-we,we,pronoun,1,968,我々.
+pro-they,they,pronoun,1,,
+pro-oneself,oneself,pronoun,1,870,自分.
+pro-someone,someone,pronoun,2,,
+pro-noone,no one,pronoun,2,,
+pro-everyone-pro,everybody,pronoun,2,,See qty-everyone (全員) for the quantity sense.
+pro-something,something,pronoun,2,,
+pro-nothing,nothing,pronoun,2,,

@@ -1,0 +1,34 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+fam-family,family,noun,1,1256,家族.
+fam-household,household,noun,2,1431,家庭.
+fam-parent,parent,noun,1,421,親.
+fam-parents,parents,noun,1,728,両親.
+fam-father,father,noun,1,167;1229,"Merges 父親 (167) and 父 (1229); the familiar お父さん is separate as ""dad""."
+fam-dad,dad,noun,1,13,"お父さん. German Papa, Chinese 爸爸 — the familiar register exists in all three."
+fam-mother,mother,noun,1,121;1324,Merges 母親 (121) and 母 (1324).
+fam-mum,mum,noun,1,751,お母さん.
+fam-child,child,noun,1,196,子供.
+fam-son,son,noun,1,1293,息子.
+fam-daughter,daughter,noun,1,,Absent today despite 息子 existing.
+fam-brother,brother,noun,1,,"German Bruder covers both; ja/zh will stay empty here and fill the age-specific ones."
+fam-sister,sister,noun,1,,
+fam-older-brother,older brother,noun,1,178,兄 — ja/zh distinguish age; German cannot.
+fam-younger-brother,younger brother,noun,1,1257,弟.
+fam-older-sister,older sister,noun,1,896,姉.
+fam-younger-sister,younger sister,noun,1,679,妹.
+fam-siblings,siblings,noun,2,1424,兄弟.
+fam-sisters,sisters,noun,3,1071,姉妹.
+fam-grandfather,grandfather,noun,1,,
+fam-grandmother,grandmother,noun,1,,
+fam-grandchild,grandchild,noun,3,,
+fam-uncle,uncle,noun,2,,
+fam-aunt,aunt,noun,2,,
+fam-cousin,cousin,noun,2,,
+fam-husband,husband,noun,1,297;721,Merges 夫 (297) and 主人 (721).
+fam-wife,wife,noun,1,,Absent today despite 夫 existing.
+fam-married-couple,married couple,noun,2,116,夫婦.
+fam-marriage,marriage,noun,1,1446,結婚.
+fam-baby,baby,noun,1,382,赤ちゃん.
+fam-newborn,newborn,noun,3,947,新生児.
+fam-relative,relative,noun,2,,
+fam-bereaved,bereaved family,noun,3,1247,遺族.

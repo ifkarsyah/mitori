@@ -1,0 +1,12 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+mea-meat,meat,noun,1,804;466,"Merges 肉 (804) and 精肉 (466, ""fresh meat"")."
+mea-beef,beef,noun,1,368,牛肉.
+mea-pork,pork,noun,1,,
+mea-chicken-meat,chicken (meat),noun,1,671,鶏肉.
+mea-lamb,lamb,noun,3,,
+mea-fish-food,fish (as food),noun,1,696;473,"Merges 魚 (696) and 鮮魚 (473). The live animal sense also uses this concept."
+mea-shrimp,prawn,noun,2,,
+mea-eel,eel,noun,3,159,うなぎ.
+mea-egg,egg,noun,1,1399,たまご.
+mea-sausage,sausage,noun,2,,Prominent in German (Wurst).
+mea-ham,ham,noun,2,,
