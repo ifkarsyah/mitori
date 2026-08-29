@@ -9,11 +9,10 @@ import { useKotobaList, useSentencesList } from '@/features/kotoba/hooks'
 import { useContextList } from '@/features/context/hooks'
 import { groupKotobaBy } from '@/features/kotoba/filters'
 import { useLanguage } from '@/features/language/useLanguage'
-import { hasKanji, languageLabel } from '@/features/language/languages'
 
 export function OverviewPage() {
-  const { language } = useLanguage()
-  const showKanji = hasKanji(language)
+  const { current, labelFor, language } = useLanguage()
+  const showKanji = current?.script === 'japanese'
   const kanjiQuery = useKanjiList()
   const kotobaQuery = useKotobaList()
   const sentencesQuery = useSentencesList()
@@ -72,7 +71,7 @@ export function OverviewPage() {
       <div>
         <h1 className="text-xl font-semibold">Overview</h1>
         <p className="text-sm text-muted-foreground">
-          Your {languageLabel(language)} vocabulary at a glance
+          Your {labelFor(language)} vocabulary at a glance
         </p>
       </div>
 

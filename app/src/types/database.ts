@@ -49,26 +49,81 @@ export type Database = {
           },
         ]
       }
+      category: {
+        Row: {
+          created_at: string
+          id: number
+          kind: string
+          name: string
+          parent_id: number | null
+          slug: string
+          sort_order: number
+        }
+        Insert: {
+          created_at?: string
+          id?: number
+          kind: string
+          name: string
+          parent_id?: number | null
+          slug: string
+          sort_order?: number
+        }
+        Update: {
+          created_at?: string
+          id?: number
+          kind?: string
+          name?: string
+          parent_id?: number | null
+          slug?: string
+          sort_order?: number
+        }
+        Relationships: [
+          {
+            foreignKeyName: "category_parent_id_fkey"
+            columns: ["parent_id"]
+            isOneToOne: false
+            referencedRelation: "category"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       concept: {
         Row: {
+          category_id: number | null
           created_at: string
           gloss: string
           id: number
           part_of_speech: string | null
+          slug: string | null
+          tier: number | null
         }
         Insert: {
+          category_id?: number | null
           created_at?: string
           gloss: string
           id?: number
           part_of_speech?: string | null
+          slug?: string | null
+          tier?: number | null
         }
         Update: {
+          category_id?: number | null
           created_at?: string
           gloss?: string
           id?: number
           part_of_speech?: string | null
+          slug?: string | null
+          tier?: number | null
         }
-        Relationships: []
+        Relationships: [
+          {
+            foreignKeyName: "concept_category_id_fkey"
+            columns: ["category_id"]
+            isOneToOne: false
+            referencedRelation: "category"
+            referencedColumns: ["id"]
+          },
+        ]
       }
       context: {
         Row: {
@@ -187,6 +242,7 @@ export type Database = {
           kana_type: string | null
           language: string
           learned: boolean
+          level: string | null
           meanings: string[]
           part_of_speech: string | null
           plural: string | null
@@ -207,6 +263,7 @@ export type Database = {
           kana_type?: string | null
           language?: string
           learned?: boolean
+          level?: string | null
           meanings: string[]
           part_of_speech?: string | null
           plural?: string | null
@@ -227,6 +284,7 @@ export type Database = {
           kana_type?: string | null
           language?: string
           learned?: boolean
+          level?: string | null
           meanings?: string[]
           part_of_speech?: string | null
           plural?: string | null
@@ -259,6 +317,45 @@ export type Database = {
             referencedColumns: ["id"]
           },
         ]
+      }
+      language: {
+        Row: {
+          code: string
+          created_at: string
+          direction: string
+          has_characters: boolean
+          has_gender: boolean
+          has_reading: boolean
+          level_system: string | null
+          name: string
+          script: string
+          sort_order: number
+        }
+        Insert: {
+          code: string
+          created_at?: string
+          direction?: string
+          has_characters?: boolean
+          has_gender?: boolean
+          has_reading?: boolean
+          level_system?: string | null
+          name: string
+          script: string
+          sort_order?: number
+        }
+        Update: {
+          code?: string
+          created_at?: string
+          direction?: string
+          has_characters?: boolean
+          has_gender?: boolean
+          has_reading?: boolean
+          level_system?: string | null
+          name?: string
+          script?: string
+          sort_order?: number
+        }
+        Relationships: []
       }
       resource: {
         Row: {

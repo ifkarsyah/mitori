@@ -8,7 +8,6 @@ import { ErrorState } from '@/components/ErrorState'
 import type { Source } from '@/features/kotoba/api'
 import { useContextList } from '@/features/kotoba/hooks'
 import { useLanguage } from '@/features/language/useLanguage'
-import { languageLabel } from '@/features/language/languages'
 import { useSourceList, useSourceWordCounts } from './hooks'
 import {
   ALL,
@@ -27,7 +26,7 @@ const GROUP_BY_OPTIONS = [
 ]
 
 export function SourceDashboardPage() {
-  const { language } = useLanguage()
+  const { language, labelFor } = useLanguage()
   const { data, isLoading, isError, error, refetch } = useSourceList()
   const { data: contexts } = useContextList()
   const wordCounts = useSourceWordCounts()
@@ -124,7 +123,7 @@ export function SourceDashboardPage() {
         getRowHref={(row) => `/source/${row.id}`}
         emptyMessage={
           (data?.length ?? 0) === 0
-            ? `No sources recorded for ${languageLabel(language)} words yet.`
+            ? `No sources recorded for ${labelFor(language)} words yet.`
             : 'No sources match these filters.'
         }
       />

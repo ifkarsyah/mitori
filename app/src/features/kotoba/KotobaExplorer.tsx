@@ -19,10 +19,10 @@ import {
   defaultKotobaFilterState,
   distinctContextIds,
   distinctFieldValues,
-  distinctJlptValues,
   distinctKanaTypeValues,
+  distinctLevelValues,
   groupKotobaBy,
-  jlptLabel,
+  levelLabel,
   partOfSpeechLabel,
   kanaTypeLabel,
   subPartOfSpeechLabel,
@@ -35,7 +35,7 @@ function buildColumns(
   sourceNameById: Map<number, string>,
   includeContextColumn: boolean,
   includeSourceColumn: boolean,
-  isJapanese: boolean,
+  caps: LanguageCaps,
 ): ColumnConfig<Kotoba>[] {
   return [
   {
@@ -53,7 +53,7 @@ function buildColumns(
     ),
     sortValue: (row) => row.word,
   },
-  ...(isJapanese
+  ...(caps.hasReading
     ? [
         {
           key: 'reading',
@@ -62,14 +62,17 @@ function buildColumns(
           sortValue: (row: Kotoba) => row.reading,
         },
       ]
-    : [
+    : []),
+  ...(caps.hasGender
+    ? [
         {
           key: 'plural',
           header: 'Plural',
           render: (row: Kotoba) => row.plural ?? <span className="text-muted-foreground">—</span>,
           sortValue: (row: Kotoba) => row.plural,
         },
-      ]),
+      ]
+    : []),
   {
     key: 'meanings',
     header: 'Meanings',
@@ -143,15 +146,15 @@ function buildColumns(
     render: (row) => row.sub_part_of_speech ?? <span className="text-muted-foreground">—</span>,
     sortValue: (row) => row.sub_part_of_speech,
   },
-  ...(isJapanese
+  {
+    // One column across scales; the header names whichever the language uses.
+    key: 'level',
+    header: caps.levelName,
+    render: (row) => (row.level ? levelLabel(row.level) : <span className="text-muted-foreground">—</span>),
+    sortValue: (row) => row.level,
+  },
+  ...(caps.hasKana
     ? [
-        {
-          key: 'jlpt',
-          header: 'JLPT',
-          render: (row: Kotoba) =>
-            row.jlpt ? jlptLabel(row.jlpt) : <span className="text-muted-foreground">—</span>,
-          sortValue: (row: Kotoba) => row.jlpt,
-        },
         {
           key: 'kana_type',
           header: 'Kana type',
@@ -164,16 +167,16 @@ function buildColumns(
           sortValue: (row: Kotoba) => row.kana_type,
         },
       ]
-    : [
-        {
-          key: 'cefr',
-          header: 'CEFR',
-          render: (row: Kotoba) =>
-            row.cefr ? row.cefr.toUpperCase() : <span className="text-muted-foreground">—</span>,
-          sortValue: (row: Kotoba) => row.cefr,
-        },
-      ]),
+    : []),
   ]
+}
+
+/** What the selected language supports, so columns and filters follow the data. */
+type LanguageCaps = {
+  hasReading: boolean
+  hasGender: boolean
+  hasKana: boolean
+  levelName: string
 }
 
 const BASE_GROUP_BY_OPTIONS = [
@@ -181,12 +184,7 @@ const BASE_GROUP_BY_OPTIONS = [
   { value: 'context', label: 'Context' },
   { value: 'part_of_speech', label: 'Part of speech' },
   { value: 'sub_part_of_speech', label: 'Sub part of speech' },
-]
-
-/** Grouping axes that only exist for Japanese vocabulary. */
-const JAPANESE_GROUP_BY_OPTIONS = [
-  { value: 'kana_type', label: 'Kana type' },
-  { value: 'jlpt', label: 'JLPT' },
+  { value: 'level', label: 'Level' },
 ]
 
 export type KotobaExplorerProps = {
@@ -208,8 +206,18 @@ export function KotobaExplorer({
   includeSourceColumn = true,
 }: KotobaExplorerProps) {
   const [filters, setFilters] = useState<KotobaFilterState>(defaultKotobaFilterState)
-  const { language } = useLanguage()
-  const isJapanese = language === 'ja'
+  const { current, labelFor, language } = useLanguage()
+  const caps = useMemo<LanguageCaps>(
+    () => ({
+      hasReading: current?.has_reading ?? false,
+      hasGender: current?.has_gender ?? false,
+      // kana_type is specific to the Japanese writing system, not to characters
+      // generally — Chinese has characters but no kana.
+      hasKana: current?.script === 'japanese',
+      levelName: current?.level_system?.toUpperCase() ?? 'Level',
+    }),
+    [current],
+  )
   const { data: sources } = useSourceList()
   const { data: sentences } = useSentencesList()
   const sourceNameById = useMemo(() => {
@@ -222,8 +230,8 @@ export function KotobaExplorer({
 
   const columns = useMemo(
     () =>
-      buildColumns(contextNameById, sourceNameById, includeContextColumn, includeSourceColumn, isJapanese),
-    [contextNameById, sourceNameById, includeContextColumn, includeSourceColumn, isJapanese],
+      buildColumns(contextNameById, sourceNameById, includeContextColumn, includeSourceColumn, caps),
+    [contextNameById, sourceNameById, includeContextColumn, includeSourceColumn, caps],
   )
 
   function toggleColumn(key: string) {
@@ -262,13 +270,13 @@ export function KotobaExplorer({
     ]
   }, [words])
 
-  const jlptOptions = useMemo(() => {
-    const values = distinctJlptValues(words)
+  const levelOptions = useMemo(() => {
+    const values = distinctLevelValues(words)
     return [
-      { value: ALL, label: 'All JLPT levels' },
-      ...values.map((v) => ({ value: v, label: jlptLabel(v) })),
+      { value: ALL, label: `All ${caps.levelName} levels` },
+      ...values.map((v) => ({ value: v, label: levelLabel(v) })),
     ]
-  }, [words])
+  }, [words, caps.levelName])
 
   const kanaTypeOptions = useMemo(() => {
     const values = distinctKanaTypeValues(words)
@@ -284,17 +292,13 @@ export function KotobaExplorer({
       : []),
     { key: 'partOfSpeech', label: 'Part of speech', options: partOfSpeechOptions },
     { key: 'subPartOfSpeech', label: 'Sub-type', options: subPartOfSpeechOptions },
-    // Kana type and JLPT only mean anything for Japanese.
-    ...(isJapanese
-      ? [
-          { key: 'kana_type', label: 'Kana type', options: kanaTypeOptions },
-          { key: 'jlpt', label: 'JLPT', options: jlptOptions },
-        ]
-      : []),
+    { key: 'level', label: caps.levelName, options: levelOptions },
+    // Kana type only means anything for the Japanese writing system.
+    ...(caps.hasKana ? [{ key: 'kana_type', label: 'Kana type', options: kanaTypeOptions }] : []),
   ]
 
-  const allGroupByOptions = isJapanese
-    ? [...BASE_GROUP_BY_OPTIONS, ...JAPANESE_GROUP_BY_OPTIONS]
+  const allGroupByOptions = caps.hasKana
+    ? [...BASE_GROUP_BY_OPTIONS, { value: 'kana_type', label: 'Kana type' }]
     : BASE_GROUP_BY_OPTIONS
   const groupByOptions = includeContextFilter
     ? allGroupByOptions
@@ -328,7 +332,7 @@ export function KotobaExplorer({
           partOfSpeech: filters.partOfSpeech,
           subPartOfSpeech: filters.subPartOfSpeech,
           kana_type: filters.kana_type,
-          jlpt: filters.jlpt,
+          level: filters.level,
         }}
         onFieldChange={(key, value) => setFilters((f) => ({ ...f, [key]: value }))}
         groupByOptions={groupByOptions}
@@ -353,7 +357,11 @@ export function KotobaExplorer({
         columns={visibleColumns}
         getRowKey={(row) => row.id}
         getRowHref={(row) => `/kotoba/${row.word}`}
-        emptyMessage="No kotoba match these filters."
+        emptyMessage={
+          words.length === 0
+            ? `No ${labelFor(language)} words yet.`
+            : 'No kotoba match these filters.'
+        }
       />
     </div>
   )

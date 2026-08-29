@@ -1,38 +1,25 @@
 import { createContext } from 'react'
+import type { Tables } from '@/types/database'
 
-export const LANGUAGES = ['ja', 'de'] as const
+export type LanguageRow = Tables<'language'>
 
-export type Language = (typeof LANGUAGES)[number]
+/** A language code. The set of valid codes lives in the database, not here. */
+export type Language = string
 
 export const DEFAULT_LANGUAGE: Language = 'ja'
 
 /** Key in localStorage; the choice persists across sessions like a theme setting. */
 export const LANGUAGE_STORAGE_KEY = 'mitori.language'
 
-const LANGUAGE_LABELS: Record<Language, string> = {
-  ja: 'Japanese',
-  de: 'German',
-}
-
-export function isLanguage(value: unknown): value is Language {
-  return typeof value === 'string' && (LANGUAGES as readonly string[]).includes(value)
-}
-
-export function languageLabel(value: string): string {
-  return isLanguage(value) ? LANGUAGE_LABELS[value] : value
-}
-
-/**
- * Features that only exist for Japanese. Kanji is structural — German has no
- * logographic script — so its nav entry is hidden rather than shown empty.
- */
-export function hasKanji(language: Language): boolean {
-  return language === 'ja'
-}
-
 export type LanguageContextValue = {
+  /** The language the whole app is currently scoped to. */
   language: Language
   setLanguage: (language: Language) => void
+  /** Every language the database knows about, in display order. */
+  languages: LanguageRow[]
+  /** The row for the selected language; undefined until the list has loaded. */
+  current: LanguageRow | undefined
+  labelFor: (code: string) => string
 }
 
 export const LanguageContext = createContext<LanguageContextValue | null>(null)

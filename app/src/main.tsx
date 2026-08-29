@@ -9,10 +9,11 @@ import { LanguageProvider } from '@/features/language/LanguageProvider'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <LanguageProvider>
-      <QueryClientProvider client={queryClient}>
+    {/* LanguageProvider is inside the query client: it fetches the language list. */}
+    <QueryClientProvider client={queryClient}>
+      <LanguageProvider>
         <RouterProvider router={router} />
-      </QueryClientProvider>
-    </LanguageProvider>
+      </LanguageProvider>
+    </QueryClientProvider>
   </StrictMode>,
 )

@@ -9,7 +9,7 @@ export type KotobaGroupBy =
   | 'part_of_speech'
   | 'sub_part_of_speech'
   | 'kana_type'
-  | 'jlpt'
+  | 'level'
 
 export type KotobaFilterState = {
   search: string
@@ -17,7 +17,7 @@ export type KotobaFilterState = {
   partOfSpeech: string
   subPartOfSpeech: string
   kana_type: string
-  jlpt: string
+  level: string
   groupBy: KotobaGroupBy
 }
 
@@ -27,7 +27,7 @@ export const defaultKotobaFilterState: KotobaFilterState = {
   partOfSpeech: ALL,
   subPartOfSpeech: ALL,
   kana_type: ALL,
-  jlpt: ALL,
+  level: ALL,
   groupBy: 'none',
 }
 
@@ -45,7 +45,7 @@ export function applyKotobaFilters(rows: Kotoba[], filters: KotobaFilterState): 
     if (!matchesSingleSelect(row.part_of_speech, filters.partOfSpeech)) return false
     if (!matchesSingleSelect(row.sub_part_of_speech, filters.subPartOfSpeech)) return false
     if (!matchesSingleSelect(row.kana_type, filters.kana_type)) return false
-    if (!matchesSingleSelect(row.jlpt, filters.jlpt)) return false
+    if (!matchesSingleSelect(row.level, filters.level)) return false
     if (search) {
       const haystack = [row.word, row.reading, row.plural, ...(row.meanings ?? [])]
         .filter(Boolean)
@@ -83,10 +83,11 @@ export function contextLabel(value: string, contextNameById: Map<number, string>
   return name ?? value
 }
 
-const JLPT_ORDER = ['n5', 'n4', 'n3', 'n2', 'n1']
+// Every scale runs easiest-first, so one ordering serves JLPT, CEFR and HSK.
+const LEVEL_ORDER = ['n5', 'n4', 'n3', 'n2', 'n1', 'a1', 'a2', 'b1', 'b2', 'c1', 'c2', 'hsk1', 'hsk2', 'hsk3', 'hsk4', 'hsk5', 'hsk6']
 
-export function jlptLabel(value: string): string {
-  if (value === UNCLASSIFIED) return 'Unclassified (no JLPT level)'
+export function levelLabel(value: string): string {
+  if (value === UNCLASSIFIED) return 'Unclassified (no level)'
   return value.toUpperCase()
 }
 
@@ -147,10 +148,10 @@ export function groupKotobaBy(
     buckets = groupByKey(rows, (row) => row.sub_part_of_speech)
     labelFor = subPartOfSpeechLabel
     sortedKeys = sortWithUnclassifiedLast([...buckets.keys()])
-  } else if (groupBy === 'jlpt') {
-    buckets = groupByKey(rows, (row) => row.jlpt)
-    labelFor = jlptLabel
-    sortedKeys = sortByDomainOrder([...buckets.keys()], JLPT_ORDER)
+  } else if (groupBy === 'level') {
+    buckets = groupByKey(rows, (row) => row.level)
+    labelFor = levelLabel
+    sortedKeys = sortByDomainOrder([...buckets.keys()], LEVEL_ORDER)
   } else {
     buckets = groupByKey(rows, (row) => row.kana_type)
     labelFor = kanaTypeLabel
@@ -172,9 +173,9 @@ export function distinctFieldValues(
   return sortWithUnclassifiedLast([...present])
 }
 
-export function distinctJlptValues(rows: Kotoba[]): string[] {
-  const present = new Set(rows.map((row) => row.jlpt ?? UNCLASSIFIED))
-  return sortByDomainOrder([...present], JLPT_ORDER)
+export function distinctLevelValues(rows: Kotoba[]): string[] {
+  const present = new Set(rows.map((row) => row.level ?? UNCLASSIFIED))
+  return sortByDomainOrder([...present], LEVEL_ORDER)
 }
 
 export function distinctKanaTypeValues(rows: Kotoba[]): string[] {

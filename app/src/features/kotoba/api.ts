@@ -4,7 +4,7 @@ import type { Language } from '@/features/language/languages'
 import type { Tables } from '@/types/database'
 
 const KOTOBA_COLUMNS =
-  'id, word, reading, part_of_speech, sub_part_of_speech, meanings, kana_type, context_id, source_id, jlpt, created_at, updated_at, learned, language, concept_id, gender, plural, cefr'
+  'id, word, reading, part_of_speech, sub_part_of_speech, meanings, kana_type, context_id, source_id, jlpt, created_at, updated_at, learned, language, concept_id, gender, plural, cefr, level'
 
 export type Kotoba = Tables<'kotoba'>
 export type WordKanji = Tables<'word_kanji'>
@@ -35,7 +35,7 @@ export async function fetchConceptList(): Promise<Concept[]> {
   return fetchAllRows<Concept>(async (from, to) =>
     supabase
       .from('concept')
-      .select('id, gloss, part_of_speech, created_at')
+      .select('id, gloss, part_of_speech, created_at, slug, category_id, tier')
       .order('id')
       .range(from, to),
   )

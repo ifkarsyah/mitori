@@ -1,5 +1,5 @@
 import type { Kotoba, Sentence } from './api'
-import { jlptLabel, partOfSpeechLabel, subPartOfSpeechLabel } from './filters'
+import { levelLabel, partOfSpeechLabel, subPartOfSpeechLabel } from './filters'
 
 export const ANKI_HEADERS = ['Front', 'Back']
 
@@ -31,7 +31,7 @@ export function buildKotobaAnkiRows(rows: Kotoba[], sentencesByWordId: Map<numbe
       const subtype = row.sub_part_of_speech ? subPartOfSpeechLabel(row.sub_part_of_speech) : null
       backLines.push(subtype ? `${pos} (${subtype})` : pos)
     }
-    if (row.jlpt) backLines.push(jlptLabel(row.jlpt))
+    if (row.level) backLines.push(levelLabel(row.level))
 
     return [front, backLines.join('<br>')]
   })
