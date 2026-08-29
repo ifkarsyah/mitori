@@ -1,0 +1,2662 @@
+id,slug,title,category,folder_order,sort_order,content,created_at,updated_at,language
+1,0-overview,Overview,overview,0,0,"Here's the practical core — the stuff that shows up in nearly every conversation, versus the long tail of patterns that are mostly for reading/writing or exam nuance.
+
+## 1. Particles are the skeleton
+Japanese word order is flexible because particles mark grammatical role, not position. Six carry almost all daily conversation:
+- **は** — topic (""as for X..."")
+- **が** — subject/emphasis (subtly different from は — the classic hard-to-explain pair, but daily use is learnable by pattern before theory)
+- **を** — direct object
+- **に / で** — に for time/destination/indirect object, で for location-of-action/means
+- **の** — possession/linking nouns
+- **と / も** — ""and/with"" for people, ""also""
+
+## 2. The て-form is the hub of the language
+This is the single highest-leverage thing to master. Once you can form it, it unlocks most of daily grammar by just attaching things to it:
+- 食べて + ください → please eat
+- 食べて + いる → eating (progressive/state)
+- 食べて + もいい → allowed to eat
+- 食べて + はいけない → not allowed to eat
+- 食べて + みる → try eating
+- 食べて + おく → eat in preparation
+- 食べて、飲んで、寝た → sequencing actions
+
+If you only drill one conjugation hard, make it this one.
+
+## 3. Register: plain form vs です/ます
+Daily life constantly switches between polite (strangers, coworkers, service) and plain/casual (friends, family, inner thoughts). You need both forms of everything — this isn't optional politeness, it's a structural axis of the grammar (plain form is also what's used inside longer sentences, e.g. before と思う).
+
+## 4. A small set of workhorse patterns
+These cover a disproportionate share of real speech:
+- **〜たい** — want to do
+- **〜たら** — if/when (the most flexible, casual conditional — skip ば/と/なら until たら feels natural)
+- **〜と思う** — I think
+- **〜んです** — explanatory nuance (""the thing is..."") — extremely common in natural speech, rarely taught early
+- **あげる/くれる/もらう** — giving and receiving, direction-of-favor matters a lot socially in Japanese
+- **〜ことができる / 動詞可能形** — ability
+
+## 5. Sentence-final particles
+ね (seeking agreement), よ (asserting new info), か (question), わ (softening) — these get skipped in formal grammar study but carry enormous conversational nuance. Native daily speech barely exists without them.
+
+---
+
+Everything else — causative-passive, formal written forms, most of the ""hundred patterns"" — is long-tail: useful eventually, low-frequency in daily talk. If you want, this list could double as the actual skeleton for your notes draft, grouped as ""core"" vs ""everything else,"" rather than following the guide's chronological lesson order.",2026-07-16T09:38:08.895758+00:00,2026-07-16T09:38:08.895758+00:00,ja
+2,1-particle/1a-は,は - topic particle,particle,1,1,"# は - topic particle
+
+Marks what the sentence is *about* — sets the frame, then says something about it. Read as ""wa"" (not ""ha"") when used as a particle.
+
+## Core pattern
+**X は Y** → ""as for X, Y"" / ""speaking of X, it's Y""
+
+- 私は学生です。— I'm a student. (as for me, [I'm a] student)
+- これは本です。— This is a book.
+- 東京は大きいです。— Tokyo is big.
+
+## What it actually does
+は doesn't mark the grammatical subject — it marks the **topic**. The topic can be the subject, but doesn't have to be:
+
+- 象は鼻が長い。— Elephants, [their] trunk is long. (topic: elephant, subject of 長い: 鼻)
+- この店はラーメンがおいしい。— This shop, the ramen is good. (topic: shop, subject: ramen)
+
+This is why は and が can coexist in the same sentence — they're not competing for the same job.
+
+## は vs が (the classic pain point)
+Don't try to fully resolve this early — pattern-match instead:
+
+| Use は | Use が |
+|---|---|
+| Introducing what you're talking about | Introducing new information |
+| Known/already-established topic | Answering ""who/what"" questions |
+| General statements, contrast | Specific, in-the-moment observation |
+| 私は田中です。(self-intro) | 誉が来た。(が for ""who came"") |
+
+Quick test: if the question is ""what about X?"" → は. If the question is ""what/who is it?"" → が.
+
+- 田中さんは先生です。— Mr. Tanaka is a teacher. (talking about Tanaka)
+- だれが先生ですか。— Who is the teacher? / 田中さんが先生です。— Tanaka is [the one who's] the teacher. (が picks him out of a group)
+
+## Contrast use
+は can single something out in contrast to something else (often left unsaid):
+
+- 魚は食べますが、肉は食べません。— I eat fish, but I don't eat meat.
+- 日本語は話せますが、中国語は話せません。— I can speak Japanese, but not Chinese.
+
+This contrastive は can attach to almost any part of a sentence, not just the subject:
+
+- 今日は行きません。— [Unlike other days,] today I'm not going.
+
+## Negation magnet
+Negative sentences pull を/が toward は even when the noun isn't the ""topic"" in a strong sense — this is extremely common:
+
+- パンを食べません。→ パンは食べません。— I don't eat bread.
+
+## Notes
+- は replaces を and が entirely (never は and を/が together on the same noun).
+- With に/で/と/から etc., は stacks after the particle: 東京には行きました。(added emphasis/contrast — ""to Tokyo, [at least,] I went"")
+- Topic doesn't have to be repeated once established — Japanese drops it constantly once context is clear.",2026-07-16T09:38:08.895758+00:00,2026-07-16T09:38:08.895758+00:00,ja
+3,1-particle/1b-が,が - subject/emphasis particle,particle,1,2,"# が - subject/emphasis particle
+
+Marks the grammatical subject, with a flavor of ""this one specifically"" — pointing at *who/what* does or is something, often as new or highlighted information. See [[1a-は]] for the full は-vs-が comparison table.
+
+## Core pattern
+**X が Y** → ""X is the one that Y"" / introduces X as the answer
+
+- 猫がいます。— There's a cat. (announcing its existence)
+- 誰が来ましたか。— Who came? / 田中さんが来ました。— Tanaka came.
+- 雨が降っています。— It's raining. (rain as the subject of the observed event)
+
+## New information / answering ""who/what""
+が is the natural choice when you're identifying something out of a group, or stating a fact for the first time:
+
+- あの人が犯人です。— That person is the culprit. (picking them out)
+- どれがあなたのですか。— Which one is yours? / これが私のです。— This one is mine.
+
+Contrast with は, which would sound like ""that person, [as for them,] is the culprit"" — fine, but less natural as a first-mention answer.
+
+## Objects of feeling/ability/desire
+A large chunk of が's daily use isn't about ""subject"" at all — certain predicates just grammatically require が for their object:
+
+- 日本語が分かります。— I understand Japanese.
+- コーヒーが好きです。— I like coffee.
+- 車がほしいです。— I want a car.
+- 漢字が読めます。— I can read kanji. (potential form)
+
+These aren't は/が contrast cases — the thing liked/wanted/understood/able-to-be-done is marked with が, full stop, even though English treats it like an object (""I like coffee"" → coffee = object, but Japanese treats it as what's inducing the feeling in you).
+
+## Subordinate clauses: が where は can't go
+Inside a relative clause or subordinate clause modifying a noun, the subject is marked with が (not は), even if it would take は as a main-clause topic:
+
+- 私が作った料理です。— This is the food [that] I made.
+- 猫がいる家。— A house where there's a cat.
+
+This is the same mechanic behind 象は鼻が長い (see [[1a-は]]) — が marks the local subject inside the descriptive part, while は sets the overall topic.
+
+## Emphatic contrast (the opposite direction of は)
+が can also emphasize ""X and only X,"" gently excluding alternatives — often felt as slightly assertive or corrective:
+
+- 僕がやります。— I'll do it. (I'm the one who will — not someone else)
+- それが問題です。— That's the problem. (that one specifically)
+
+## Notes
+- が cannot stack with を or は on the same noun — it replaces them.
+- Beginners overuse は and underuse が — if you're introducing something for the first time or answering a ""who/what"" question, reach for が.",2026-07-16T09:38:08.895758+00:00,2026-07-16T09:38:08.895758+00:00,ja
+4,1-particle/2-を,を - direct object particle,particle,1,3,"# を - direct object particle
+
+Marks the thing a verb acts on. Read as ""o"" (the を kana is basically only used for this particle).
+
+## Core pattern
+**X を Verb** → ""[do Verb] to/on X""
+
+- パンを食べます。— I eat bread.
+- 本を読みます。— I read a book.
+- テレビを見ます。— I watch TV.
+
+## Movement through/away from a space
+A distinct use: を marks the space a motion verb passes through or departs from, not something being ""acted on"":
+
+- 公園を歩きます。— I walk through the park.
+- 道を渡ります。— I cross the street.
+- 家を出ます。— I leave the house.
+- 空を飛ぶ鳥。— A bird that flies through the sky.
+
+Don't confuse this with に/で for destinations/locations — を is specifically the path or point of departure, not a fixed location.
+
+## Dropped constantly in speech
+In casual conversation, を is one of the first things to disappear. If the object is clear from context, native speakers routinely skip it — especially with common verbs:
+
+- ご飯食べた? — (Did you) eat? (skipping ご飯を)
+- 水ちょうだい。— Give me water. (skipping 水を)
+- 何する? — What are you gonna do? (skipping 何を)
+
+This is different from omitting the object entirely (which also happens once it's established in context) — here the noun stays, only the particle drops. It sounds natural and casual, not sloppy; but keep を in polite/written Japanese, and when the sentence would otherwise be ambiguous.
+
+## Notes
+- を cannot stack with は/が on the same noun — は or が replaces it under topic/contrast or negation (see [[1a-は]] ""negation magnet"").
+- Some set expressions use を with verbs that don't feel like classic ""objects"": 旅行をする (to travel), 質問をする (to ask a question) — grammatically the noun+する combo takes を on the noun part.",2026-07-16T09:38:08.895758+00:00,2026-07-16T09:38:08.895758+00:00,ja
+5,1-particle/3a-に,に - time / destination / indirect object particle,particle,1,4,"# に - time / destination / indirect object particle
+
+に marks a fixed point: a point in time, a point you move toward, a point something exists at, or the person/thing on the receiving end of an action. See [[3b-で]] for the に-vs-で comparison.
+
+## Time
+Specific points in time (clock times, dates, days of week) take に. Relative time words (今日, 明日, 毎日, etc.) usually don't:
+
+- 7時に起きます。— I get up at 7.
+- 月曜日に行きます。— I'll go on Monday.
+- 2020年に生まれました。— [I] was born in 2020.
+- ~~今日に行きます~~ → 今日行きます。— I'll go today. (no に)
+
+## Destination (motion toward a point)
+With 行く/来る/帰る and similar verbs, に marks where you're headed:
+
+- 学校に行きます。— I'm going to school.
+- 家に帰ります。— I'm going home.
+- 東京に来ました。— [I] came to Tokyo.
+
+へ can substitute for this use (softer, more ""in the direction of""), but に is the default and also does more jobs へ can't.
+
+## Existence / location of being
+With いる/ある (existence verbs), に marks where something is located — not で:
+
+- 猫が部屋にいます。— The cat is in the room.
+- 机の上に本があります。— There's a book on the desk.
+
+## Indirect object (the receiver)
+に marks the person something is given to, said to, sent to, taught to — the ""to X"" of ""give X to Y"":
+
+- 友達にプレゼントをあげました。— I gave a present to my friend.
+- 先生に聞きました。— I asked the teacher.
+- メールを田中さんに送りました。— I sent an email to Tanaka.
+
+## Purpose (before a movement verb)
+Verb stem + に + movement verb = ""go/come [in order] to do"":
+
+- 昼ご飯を食べに行きます。— I'm going to eat lunch.
+- 映画を見に行きました。— [I] went to see a movie.
+
+## に vs で — the key split
+Both can look like ""at/in [place],"" but they're not interchangeable:
+
+| に | で |
+|---|---|
+| Where something **exists** (いる/ある) | Where an **action happens** |
+| Fixed point in time | — |
+| Destination of motion | Means/instrument of doing something |
+| 部屋にいます。(I'm in the room — existing) | 部屋で勉強します。(I study in the room — acting) |
+
+Rule of thumb: if the verb is いる/ある or a ""arrive-at"" verb, use に. If the verb describes an activity happening in a place, use で. See [[3b-で]] for the full breakdown from で's side.
+
+## Notes
+- に can stack after は/も for topic/contrast: 東京には行きました。(see [[1a-は]])
+- に also marks the agent in passive/causative sentences (先生に叱られた — was scolded by the teacher) — long-tail, not needed early.",2026-07-16T09:38:08.895758+00:00,2026-07-16T09:38:08.895758+00:00,ja
+6,1-particle/3b-で,で - location-of-action / means particle,particle,1,5,"# で - location-of-action / means particle
+
+で marks the setting an action takes place in, or the tool/method used to do it. See [[3a-に]] for the に-vs-で comparison.
+
+## Location of action
+When a verb describes something happening (not just existing), で marks where it happens:
+
+- 公園で遊びます。— [I] play in the park.
+- レストランで食べました。— [I] ate at a restaurant.
+- 図書館で勉強します。— [I] study at the library.
+
+Compare with いる/ある, which take に instead — see the split below.
+
+## Means / instrument
+で marks the tool, method, or medium used to do something — ""by means of,"" ""with,"" ""using"":
+
+- 電車で行きます。— [I] go by train.
+- はしで食べます。— [I] eat with chopsticks.
+- 日本語で話しました。— [I] spoke in Japanese.
+- ペンで書いてください。— Please write with a pen.
+
+## Cause/reason
+で can mark the cause behind a state or event, especially with natural causes or circumstances:
+
+- 風邪で休みました。— [I] took the day off because of a cold.
+- 事故で電車が止まった。— The train stopped due to an accident.
+
+## Scope/limit (""within X"")
+で can mark a bounding quantity, time limit, or group:
+
+- 3人で行きます。— [We] go as a group of 3.
+- 1時間でできます。— [It] can be done within an hour.
+- 全部で1000円です。— It's 1000 yen in total.
+
+## に vs で — the key split
+The classic beginner trap is choosing between に and で for ""at/in [place]."" They split along **existence vs. action**:
+
+| で | に |
+|---|---|
+| Where an **action happens** | Where something **exists** (いる/ある) |
+| Means/instrument of doing something | Fixed point in time |
+| — | Destination of motion |
+| 部屋で勉強します。(studying — an action happening in the room) | 部屋にいます。(existing — just being in the room) |
+
+A useful test: can you meaningfully ask ""doing what, there?"" — if yes, で. If the sentence is really just answering ""where is it,"" そこにある/いる territory — に.
+
+Some verbs genuinely take either depending on what you mean: 公園に集まる (gather at — arriving at a point) vs 公園で集まって遊ぶ (gather and play — action happening there). See [[3a-に]] for the full breakdown from に's side.
+
+## Notes
+- で also marks the material something is made from: 木で作った椅子。— A chair made of wood.
+- で can stack after topic/contrast は: 電車では行きません。— [I] won't go by train (implying some other way).",2026-07-16T09:38:08.895758+00:00,2026-07-16T09:38:08.895758+00:00,ja
+7,1-particle/4-の,の - possession / noun-linking particle,particle,1,6,"# の - possession / noun-linking particle
+
+Links two nouns together, most commonly as possession, but really it's a general ""noun's noun"" connector.
+
+## Possession
+**X の Y** → ""X's Y"" / ""Y of X""
+
+- 私の本。— My book.
+- 田中さんの車。— Tanaka's car.
+- 日本の首都。— The capital of Japan.
+
+## Noun modifying noun (broader than possession)
+の links any noun to another noun, describing/categorizing it — often where English uses a compound noun or ""of"":
+
+- 英語の先生。— English teacher. (teacher of English)
+- 大学の友達。— A friend from university.
+- 木の机。— A wooden desk. (desk of wood)
+- 日本語の本。— A Japanese[-language] book.
+
+## Nominalizer (turning a clause into a noun)
+の can turn a whole verb/adjective clause into something you can talk about as a thing — very common in casual explanation and with こと-like structures:
+
+- 走るのが好きです。— [I] like running. (running, [that thing], is liked)
+- 漢字を読むのは難しい。— Reading kanji is hard.
+- 財布を忘れたのに気づいた。— [I] noticed that [I'd] forgotten my wallet.
+
+This is functionally close to こと, but の is preferred for things you can perceive directly (見る/聞く/気づく) or habitual/immediate actions, while こと fits more abstract statements — a fine distinction to not over-worry about early.
+
+## Explanatory の (spoken, casual んです's cousin)
+At the end of a sentence, の (often contracted to ん, as in 〜んです) adds an explanatory/seeking-clarification tone:
+
+- どうしたの? — What's wrong? (seeking an explanation)
+- 遅れたの。— [I'm explaining:] I was late.
+
+This overlaps heavily with 〜んです — see the workhorse patterns note in [[0-overview]].
+
+## Chaining
+の can chain multiple times:
+
+- 私の母の車。— My mother's car.
+- 日本の会社の社長。— The president of a Japanese company.
+
+## Pronoun-like の (omitting a repeated noun)
+の can stand in for a noun already established, avoiding repetition:
+
+- 私の本と彼の(本)。— My book and his (one).
+- 赤いのをください。— Please give me the red one.
+
+## Notes
+- Unlike English ""of,"" の always goes X の Y with X first — order never flips.
+- の doesn't stack with は/が/を on the noun it attaches to a preceding noun; it just links nouns directly.",2026-07-16T09:38:08.895758+00:00,2026-07-16T09:38:08.895758+00:00,ja
+8,1-particle/5a-と,"と - ""and/with"" (people, exhaustive lists) particle",particle,1,7,"# と - ""and/with"" (people, exhaustive lists) particle
+
+Links nouns exhaustively (""and""), or marks a companion/counterpart for an action done together. See [[5b-も]] for how と differs from も's ""also"" role.
+
+## Exhaustive ""and"" (complete list)
+と lists all the items — nothing left out. Contrast with や (not covered in the core set), which implies ""and others"":
+
+- パンとコーヒーを買いました。— I bought bread and coffee. (only those two things)
+- 犬と猫がいます。— There's a dog and a cat.
+
+## ""With"" (companion)
+と marks who you do something together with — the co-participant, not the object:
+
+- 友達と映画を見ました。— I watched a movie with a friend.
+- 一人で行くより、家族と行きたい。— Rather than going alone, I want to go with family.
+
+Compare: 友達に会いました (I met [ran into] a friend, に marks the target) vs 友達と会いました (I met up with a friend, と marks doing it together, more planned/mutual).
+
+## Quoting / reporting speech and thought
+と marks the content of what's said, thought, called, or written — pairs constantly with 言う/思う/聞く:
+
+- 「行きます」と言いました。— [He] said, ""I'll go.""
+- 明日雨が降ると思います。— I think it'll rain tomorrow.
+- これは日本語で「猫」と言います。— This is called ""neko"" in Japanese.
+
+This is the と behind the workhorse pattern 〜と思う (see [[0-overview]]) — always plain form before と思う, even in polite sentences.
+
+## Conditional ""if/when"" (と-conditional)
+と can form a conditional meaning ""whenever X happens, Y naturally follows"" — mechanical/automatic relationships, not one-off choices:
+
+- 春になると、花が咲きます。— When spring comes, flowers bloom.
+- このボタンを押すと、電気がつきます。— If you press this button, the light turns on.
+
+Less flexible than たら for everyday hypothetical situations — see the note on たら in [[0-overview]] for why that's usually the better default.
+
+## Reciprocal verbs
+Certain verbs describing mutual action pair naturally with と since the action inherently involves two sides:
+
+- 彼と結婚しました。— [I] married him.
+- 隣の人と喧嘩した。— [I] had a fight with my neighbor.
+
+## Notes
+- と can't be dropped the way を is — it's load-bearing for clarity in ""and"" lists and quoting.
+- と can stack with は for contrast: 彼とは話しません。— I won't talk with him [implying: unlike others].",2026-07-16T09:38:08.895758+00:00,2026-07-16T09:38:08.895758+00:00,ja
+9,1-particle/5b-も,"も - ""also/too"" particle",particle,1,8,"# も - ""also/too"" particle
+
+Marks something as being included alongside something else — ""also,"" ""too,"" or (in negative sentences) ""not... either."" See [[5a-と]] for how も differs from と's exhaustive-list role.
+
+## Basic ""also/too""
+も replaces は/が/を on the noun it attaches to — it doesn't stack with them:
+
+- 私も学生です。— I'm also a student. (implying someone else already was mentioned)
+- コーヒーも飲みます。— [I] drink coffee too.
+- 田中さんも来ました。— Tanaka came too.
+
+Compare with と: 私と田中さん (me and Tanaka, listed together in one clause) vs 私も行きます。田中さんも行きます。(I'm going too. Tanaka's going too. — separately confirmed, additive across sentences/clauses).
+
+## Negative ""not... either""
+In a negative sentence, も means ""not this one either"" — very common in daily conversation:
+
+- 私も行きません。— I'm not going either.
+- 肉も魚も食べません。— [I] don't eat meat or fish [either]. (see below for the も...も pattern)
+
+## も...も — ""both...and"" / ""neither...nor""
+Repeating も across two or more items gives an exhaustive ""both X and Y"" (affirmative) or ""neither X nor Y"" (negative):
+
+- 兄も姉もいます。— I have both an older brother and an older sister.
+- 時間もお金もない。— [I] have neither time nor money.
+
+This is a distinct, stronger construction from と — と just lists things factually, も...も emphasizes the ""even this, even that"" completeness.
+
+## Emphatic extremes (""even"")
+も can push toward ""even,"" especially with numbers or extreme cases:
+
+- 三時間も待ちました。— [I] waited a whopping three hours. (emphasizing it's a lot)
+- 一円も持っていない。— [I] don't have even one yen.
+
+## Notes
+- も cannot combine with は/が/を on the same noun — it takes their place.
+- With other particles (に, で, と, から), も stacks after them rather than replacing them: 東京にも行きました。— [I] went to Tokyo too.
+- Don't confuse the additive も (this note) with も as part of 〜てもいい (see the て-form hub in [[0-overview]]) — that's an unrelated grammaticalized use, not ""also.""",2026-07-16T09:38:08.895758+00:00,2026-07-16T09:38:08.895758+00:00,ja
+10,1-particle/6a-よ,よ - asserting new information particle,particle,1,9,"# よ - asserting new information particle
+
+A sentence-final particle that flags what you're saying as new/important information the listener doesn't have yet — roughly ""I'm telling you,"" ""just so you know."" See [[6a-ね]] for the contrasting ""seeking agreement"" particle and [[6c-わ]] for the softening particle.
+
+## Asserting new info
+Use よ when you're telling the listener something they likely don't already know, or correcting/updating their assumption:
+
+- もう12時ですよ。— It's already 12, you know. (they probably didn't realize)
+- これ、おいしいですよ。— This is tasty, [I'm telling you]. (recommending, they haven't tried it)
+- 危ないよ! — Watch out! / That's dangerous! (urgent new info)
+
+Compare directly with ね: おいしいですね (isn't this tasty — inviting agreement, assuming they'll agree) vs おいしいですよ (this is tasty — informing/asserting, they don't know yet).
+
+## Correction / pushback
+よ carries a mild ""actually..."" force when contradicting or correcting the listener:
+
+- 違いますよ。— That's wrong, [actually].
+- もう食べましたよ。— [I] already ate, [you know]. (correcting an assumption that you hadn't)
+
+Overusing よ in this mode can come across as pushy or condescending — tone and relationship matter a lot.
+
+## Emphasis / insistence
+よ can simply add force/insistence to a statement, opinion, or invitation:
+
+- 行きましょうよ! — Let's go [come on]!
+- 大丈夫ですよ。— It's fine, [really].
+
+## Stacking with か/ね
+よ combines with other sentence-final particles:
+
+- よね — assert + check agreement: 明日休みですよね? — Tomorrow's a holiday, right? (see [[6a-ね]])
+- よ alone doesn't combine with か (they serve opposite functions — asserting vs questioning) — か replaces よ, not stacks with it.
+
+## Notes
+- Dial down よ with strangers/superiors in sensitive moments — it can sound blunt; ね or no particle at all is safer when unsure.
+- よ is not inherently rude — it's just informational emphasis; tone of voice determines whether it lands as helpful or curt.",2026-07-16T09:38:08.895758+00:00,2026-07-16T09:38:08.895758+00:00,ja
+11,1-particle/6a-ね,ね - seeking agreement particle,particle,1,10,"# ね - seeking agreement particle
+
+A sentence-final particle that invites the listener to confirm, agree, or share the feeling — roughly ""right?"" / ""isn't it?"" but far more woven into daily speech than that English gloss suggests. See [[6a-よ]] for the contrasting ""new info"" particle and [[6c-わ]] for the softening particle.
+
+## Seeking agreement / confirmation
+The default use — you believe something and are checking the listener agrees or already knows:
+
+- いい天気ですね。— Nice weather, isn't it?
+- これ、おいしいですね。— This is tasty, right?
+- 明日休みですよね? — Tomorrow's a day off, right? (よね stacks よ's assertion with ね's checking)
+
+## Softening / inviting connection
+Even when there's nothing to literally confirm, ね softens a statement and signals ""I'm not just broadcasting at you, I want your reaction"":
+
+- 頑張りましたね。— [You] worked hard, huh. (empathetic, not really a question)
+- そうですね... — Well, let's see... (used constantly as a thinking filler before answering)
+
+そうですね is worth knowing on its own — it's the single most common way to buy a beat before responding, or to agree (""that's right"").
+
+## Turn-taking / conversational glue
+ね gets dropped in constantly, especially at clause boundaries in casual speech, functioning almost like ""you know"" — checking the listener is still following:
+
+- 昨日ね、友達とね、映画を見に行ったんです。— So yesterday, right, with a friend, [I] went to see a movie.
+
+This mid-sentence use is very casual/spoken — don't overuse it in writing or formal speech.
+
+## Notes
+- ね can attach after plain or polite forms, and after other sentence-final particles (よね, わね).
+- Tone matters a lot: rising/soft ね invites genuine agreement; flatter ね is closer to filler. Pattern-matching from listening is more reliable than a rule here.
+- Overusing ね is a common learner tell — natives use it, but not on every single sentence.",2026-07-16T09:38:08.895758+00:00,2026-07-16T09:38:08.895758+00:00,ja
+12,1-particle/6c-わ,わ - softening particle,particle,1,11,"# わ - softening particle
+
+A sentence-final particle that softens a statement, adding a gentle, personal, self-directed feel. See [[6a-ね]] and [[6a-よ]] for the other sentence-final particles it can combine with.
+
+## Softening a statement
+わ rounds off a sentence without asserting or demanding anything from the listener — closer to ""..."" or a soft exhale than an actual grammatical marker:
+
+- 疲れたわ。— [I'm] tired. (soft, musing aloud)
+- そうだわ、忘れてた。— Oh right, [I] forgot. (realization, said to oneself)
+- 行くわ。— [I]'ll go. (gentle statement of intent)
+
+## Gendered association (softening the reality)
+わ is traditionally associated with feminine speech in standard/Tokyo Japanese — women's speech textbooks lean on it heavily. In real usage this has loosened a lot:
+- In the Kansai dialect (Osaka/Kyoto etc.), わ is used by everyone regardless of gender, with a flatter, more matter-of-fact tone than the standard-dialect ""soft"" version.
+- In standard-dialect casual speech, men do use わ occasionally, especially rising-intonation わ! for surprise, but it still reads as softer/more feminine than よ or plain assertion.
+- Media (anime, drama) exaggerates わ as a ""feminine speech"" marker far more than real usage — don't calibrate your sense of naturalness from subtitles alone.
+
+## Stacking with よ/ね
+わ combines with other sentence-final particles, always coming first:
+
+- 行くわよ。— [I]'ll go, [you know]. (わ softens, よ asserts)
+- 疲れたわね。— [I'm] tired, aren't I. (わ softens, ね invites agreement)
+
+## Notes
+- Don't over-invest in producing わ yourself early on — it's easy to sound off if the gendered register doesn't match your intent. Recognizing it in speech/media is more useful than actively using it as a learner.
+- Distinct from the standalone exclamation わ! (surprise, ""whoa!"") — same kana, unrelated function, judged from context/intonation.",2026-07-16T09:38:08.895758+00:00,2026-07-16T09:38:08.895758+00:00,ja
+13,1-particle/7-か,か - question particle,particle,1,12,"# か - question particle
+
+Turns a statement into a question by attaching to the end. Also does double duty as an ""or"" connector between choices. See [[6a-ね]]/[[6a-よ]] for the other sentence-final particles it can precede but not stack after.
+
+## Basic yes/no and wh-questions
+Add か to the end of a plain or polite sentence to make it a question — no word-order change needed, unlike English:
+
+- 学生ですか。— Are [you] a student?
+- 何を食べますか。— What will [you] eat?
+- 行きましたか。— Did [you] go?
+
+## Politeness split
+か is the standard way to ask questions in polite (です/ます) speech. In casual speech, か is often dropped entirely, replaced by rising intonation alone, or by の (see [[4-の]] ""explanatory の""):
+
+- 行きますか。(polite, explicit question marker)
+- 行くの? (casual, の + rising tone)
+- 行く? (casual, tone alone — か would sound oddly formal/blunt here)
+
+Using plain-form + か in casual speech (行くか?) can sound rough/masculine — worth knowing but not a default beginners should reach for.
+
+## ""Or"" between choices
+か can link two or more nouns/clauses as alternatives:
+
+- コーヒーか紅茶がほしいです。— I want coffee or tea.
+- 行くか行かないか決めてください。— Please decide whether to go or not.
+
+## Embedded questions (uncertainty inside a sentence)
+か can mark an embedded question — ""whether/if"" — inside a larger sentence, very common with 分かる/知る/考える:
+
+- 彼が来るかどうか分かりません。— I don't know whether he'll come. (どうか adds ""or not"")
+- 何を食べるか決めていません。— [I] haven't decided what to eat.
+
+This plain-form-plus-か pattern is the backbone of a lot of ""I wonder / not sure if"" constructions.
+
+## Rhetorical / softening use
+か can appear mid-sentence or doubled up to hedge or muse aloud, without being a real question:
+
+- そうですか。— Is that so. / I see. (acknowledging, not actually asking)
+- 誰か来ましたか。— Did someone come? (誰か = ""someone,"" か attached to 誰 makes an indefinite pronoun — a different, unrelated job of か)
+
+## Notes
+- か replaces nothing — it just attaches to the end of an already-complete sentence.
+- か doesn't combine with よ (see [[6a-よ]]) since they point opposite directions (assert vs. ask), but でしょうか is common for a softer, more polite ""I wonder/is it perhaps.""
+- か attached to question words (誰, 何, どこ, いつ) turns them into indefinites: 誰か (someone), 何か (something), どこか (somewhere) — worth recognizing as a separate pattern from the sentence-final question use.",2026-07-16T09:38:08.895758+00:00,2026-07-16T09:38:08.895758+00:00,ja
+14,2-verb/4-たい-form,たい-form — want to,verb,2,4,"# たい-form — want to
+
+Turns a verb into ""want to [verb]."" Built directly from the ます-stem (see [[1-conjugation-group]]), and conjugates like an い-adjective once formed.
+
+## Forming it
+ます-stem + たい, for any group:
+
+- 食べる → 食べたい — want to eat
+- 飲む → 飲みたい — want to drink
+- 行く → 行きたい — want to go
+- する → したい — want to do
+- 来る (kuru) → 来たい (きたい) — want to come
+
+## Conjugates as an い-adjective, not a verb
+Once you've formed X-たい, treat it exactly like an い-adjective (see the adjective notes) — not like a verb:
+
+| | Plain | Polite |
+|---|---|---|
+| Non-past affirmative | 食べたい | 食べたいです |
+| Non-past negative | 食べたくない | 食べたくないです |
+| Past affirmative | 食べたかった | 食べたかったです |
+| Past negative | 食べたくなかった | 食べたくなかったです |
+
+## Object marking: が vs を
+With たい, the object can take either が or を — が leans slightly more natural/common in casual speech, を is common when emphasizing the object or in more neutral/written style:
+
+- 水が飲みたい。/ 水を飲みたい。— [I] want to drink water.
+
+This is the same pattern behind other feeling/desire predicates taking が (see [[1b-が]]) — たい softens but doesn't eliminate that pull toward が.
+
+## First person (and why 3rd person is different)
+Plain たい directly describes the *speaker's* own desire — using it to state someone else's desire sounds off, similar to how you can't directly say ""he is sad"" the same way you say ""I am sad"" in Japanese:
+
+- 私は行きたいです。— I want to go. (natural)
+- ~~彼は行きたいです。~~ — sounds like you're claiming direct access to his inner state.
+
+For third parties, hedge or use different constructions — 彼は行きたがっている (he seems to want to go, たがる form) or 彼は行きたいと言っています (he says he wants to go). These are long-tail refinements; not needed to start using たい for yourself.
+
+## Notes
+- たい + と思う stacks constantly in natural speech: 食べたいと思います。— I think I want to eat. (softens the directness of stating a desire, especially in polite contexts)
+- Don't confuse verb-stem+たい (want to do) with the unrelated い-adjective 高い/暑い etc. — the たい here is a suffix, not a coincidence of spelling.",2026-07-16T09:41:30.500702+00:00,2026-07-16T09:41:30.500702+00:00,ja
+15,2-verb/5-potential-form,Potential form (可能形) — ability,verb,2,5,"# Potential form (可能形) — ability
+
+Turns a verb into ""can [verb]"" — a single-word alternative to 〜ことができる (see [[0-overview]]'s workhorse list, which pairs the two). Group-dependent, built directly on [[1-conjugation-group]].
+
+## Forming it
+
+**う-verbs (Group 1)** — change the final -u to -e, add る:
+
+- 読む → 読める — can read
+- 話す → 話せる — can speak
+- 行く → 行ける — can go
+- 買う → 買える — can buy
+
+**る-verbs (Group 2)** — drop る, add られる:
+
+- 食べる → 食べられる — can eat
+- 見る → 見られる — can see
+
+**Irregulars**
+- する → できる — can do
+- 来る (kuru) → 来られる (こられる) — can come
+
+The result is always a る-verb (Group 2) regardless of the original group, so it conjugates like 食べる from there: 食べられます, 食べられない, 食べられました, etc.
+
+## The ら抜き言葉 shortcut (colloquial)
+In casual speech, る-verb potentials commonly drop the ら: 食べられる → 食べれる, 見られる → 見れる. This is extremely common in spoken Japanese but still considered non-standard/incorrect in formal writing and on tests — recognize it, but default to the full られる form when producing polite or written Japanese.
+
+## Object marking: を → が
+Just like たい (see [[4-たい-form]]), potential form pulls the object toward が instead of を — this is the same ""feeling/ability predicate"" pull as 好き, ほしい, 分かる:
+
+- 日本語を話す → 日本語が話せる。— [I] can speak Japanese.
+- 漢字を読む → 漢字が読める。— [I] can read kanji.
+
+を isn't strictly wrong here, but が is the more natural default.
+
+## Potential vs 〜ことができる
+Both mean ""can do X,"" but potential form is shorter and more common in speech; ことができる is more common in writing, explanations, or when the verb's potential form would be awkward/ambiguous:
+
+- 泳げます。/ 泳ぐことができます。— [I] can swim. (interchangeable)
+- ことができる also works cleanly with する-verbs where できる already exists: 運転することができる vs the more natural 運転できる (する's own potential).
+
+## Potential vs たい — don't confuse the two
+たい = want to (desire); potential = can (ability). They stack: 食べられるものを食べたい。— [I] want to eat something [that I] am able to eat.
+
+## Notes
+- Potential form describes general capability/possibility, not a one-off achievement — for ""I managed to do X [this one time],"" other constructions (〜ことができた, context) are often more natural, but potential past (食べられた) is still fine and commonly used.
+- Some verbs have a distinct, older potential form for う-verbs using れる (話される) which is actually the passive form — don't confuse conversationally derived 話せる (potential) with 話される (passive/honorific); they look similar but come from different mechanics.",2026-07-16T09:41:30.500702+00:00,2026-07-16T09:41:30.500702+00:00,ja
+16,2-verb/6-conditional,Conditionals — たら / ば / と / なら,verb,2,6,"# Conditionals — たら / ば / と / なら
+
+Japanese has four conditional forms where English just has ""if."" They overlap heavily but aren't interchangeable. Per [[0-overview]], たら is the one to master first — it's the most flexible and covers casual daily ""if/when"" almost entirely; treat ば/と/なら as later refinements, not day-one material.
+
+## たら — the default, flexible conditional
+Forms off plain past (た-form, see [[2-て-form]] for the sound-shift table) + ら:
+
+- 食べたら → if/when [you] eat
+- 高かったら → if [it]'s expensive (い-adjective past + ら)
+- 暇だったら → if [I]'m free (な-adjective/noun past + ら)
+
+たら covers one-off hypotheticals, sequences, and suggestions/requests after the fact — this breadth is exactly why it's the safe daily default:
+
+- 雨が降ったら、行きません。— If it rains, [I] won't go.
+- 駅に着いたら、電話してください。— When [you] arrive at the station, please call. (sequence: arrive, then call)
+- 疲れたら、休んでください。— If/when [you] get tired, please rest.
+
+## と — mechanical/automatic ""whenever""
+Already covered from the particle side in [[5a-と]] — と-conditional describes something that *always* follows automatically, not a one-off choice. Can't be used for suggestions, requests, or anything involving deliberate will in the result clause:
+
+- 春になると、暖かくなる。— When spring comes, it gets warm. (natural law, always true)
+- ~~このボタンを押すと、開けてください。~~ — ungrammatical: と can't end in a request.
+
+## ば — formal/written, ""if"" with emphasis on the condition itself
+Formed by changing the final -u of the plain non-past to -eba (う-verbs) or dropping る and adding れば (る-verbs):
+
+- 読む → 読めば — if [you] read
+- 食べる → 食べれば — if [you] eat
+- 高い → 高ければ — if [it]'s expensive
+
+ば feels more formal/written than たら, and is common in set phrases and proverbs:
+
+- 聞けば分かります。— If [you] ask, [you]'ll understand.
+- すみませんが、できればお願いします。— Sorry, if possible, please [do it]. (できれば is a very common fixed phrase — ""if possible"")
+
+Like と, ば traditionally resists ending in a direct request/command in the strictest grammar, though this is loosened in casual modern use — たら remains the safer choice when in doubt.
+
+## なら — conditional on a premise/topic, not an event
+なら reacts to something already said or assumed — ""if that's the case, then..."" — and can also mean ""if you're going to do X"" (advice framing). It attaches to plain form (dropping the copula for nouns/な-adjectives):
+
+- 行くなら、傘を持って行って。— If you're going [to go], take an umbrella. (reacting to their stated plan)
+- 田中さんなら、知っていると思います。— If it's [about] Tanaka, I think [he]'d know. (premise: talking about Tanaka specifically)
+
+なら is distinct from the other three because it's not really about a hypothetical event unfolding — it's about responding to a premise on the table.
+
+## Quick comparison
+
+| Form | Best for | Can end in request/command? |
+|---|---|---|
+| たら | Default, flexible, sequences | Yes |
+| と | Automatic/mechanical results | No |
+| ば | Formal, written, set phrases | Traditionally no (loosening) |
+| なら | Reacting to a stated premise/plan | Yes |
+
+## Notes
+- All four can often be swapped for たら without sounding wrong in casual speech — the finer distinctions matter more for natural-sounding formal/written Japanese than for getting understood.
+- Don't drill ば/と/なら hard until たら is automatic — per [[0-overview]], this is explicitly long-tail refinement once the workhorse form is solid.",2026-07-16T09:41:30.500702+00:00,2026-07-16T09:41:30.500702+00:00,ja
+17,2-verb/7-volitional-form,Volitional form — let's / I intend to,verb,2,7,"# Volitional form — let's / I intend to
+
+Expresses ""let's [do]"" (inviting someone) or ""I will/intend to [do]"" (stating your own resolve). Has both polite and plain registers, mirroring [[3-plain-vs-polite-form]].
+
+## Polite volitional — ましょう
+ます-stem (see [[1-conjugation-group]]) + ましょう:
+
+- 食べる → 食べましょう — let's eat
+- 行く → 行きましょう — let's go
+- する → しましょう — let's do [it]
+
+ましょうか softens it into a suggestion/offer rather than a direct proposal:
+
+- 手伝いましょうか。— Shall [I] help?
+- 一緒に行きましょうか。— Shall we go together?
+
+## Plain volitional — group-dependent sound shift
+**う-verbs**: change final -u to -o, add う:
+- 行く → 行こう — let's go / I'll go
+- 話す → 話そう — let's talk
+- 買う → 買おう — let's buy
+
+**る-verbs**: drop る, add よう:
+- 食べる → 食べよう — let's eat
+- 見る → 見よう — let's watch
+
+**Irregulars**: する → しよう, 来る (kuru) → 来よう (こよう)
+
+## Two readings: ""let's"" vs ""I will""
+Context (especially the presence of a listener to invite) decides which reading applies — the form itself doesn't distinguish:
+
+- さあ、食べよう! — Alright, let's eat! (inviting)
+- 明日から頑張ろうと思う。— I think I'll work hard starting tomorrow. (self-directed resolve, often paired with と思う — see [[5a-と]])
+
+The self-directed ""I will"" reading pairs constantly with 〜と思う to soften a bare declaration of intent into ""I'm thinking I'll..."":
+
+- 留学しようと思っています。— I'm thinking of studying abroad.
+
+## Volitional vs たい vs plain future
+Don't confuse these three, which all touch ""future/intent"" territory:
+
+- 食べたい — want to eat (desire, not commitment)
+- 食べよう — let's eat / I will eat (invitation or resolve)
+- 食べる — will eat (plain non-past also covers simple future, no special ""intent"" nuance — 明日食べる just states a fact about tomorrow)
+
+## Notes
+- Volitional form + とする means ""try to (about to)"": 帰ろうとしたら、雨が降ってきた。— Just as [I] was about to head home, it started raining.
+- ましょう said to someone senior/a stranger out of the blue can sound presumptuous (it implies you're both doing it together) — 〜ませんか (won't you...?) is often a politer way to propose the same thing: 一緒に行きませんか。— Won't [you] go with [me]?",2026-07-16T09:41:30.500702+00:00,2026-07-16T09:41:30.500702+00:00,ja
+18,2-verb/8-giving-receiving,あげる / くれる / もらう — giving and receiving,verb,2,8,"# あげる / くれる / もらう — giving and receiving
+
+Three verbs for ""give/receive,"" but the choice isn't about who physically hands what to whom — it's about **direction relative to the speaker's in-group**, and getting it backwards is a common, noticeable learner mistake. Core per [[0-overview]].
+
+## The three verbs
+
+**あげる** — I/someone give to someone else (away from the speaker's perspective)
+**くれる** — someone gives to me/my in-group (toward the speaker's perspective)
+**もらう** — I/someone receive from someone else (receiving, direction-neutral on the giving side)
+
+The key mental model: あげる and くれる both mean ""give,"" but あげる is used when the giving moves *away* from you (you→someone, or A→B where you're not involved), while くれる is used when the giving moves *toward* you (someone→you). もらう flips the frame entirely — it's from the receiver's viewpoint regardless of direction.
+
+## あげる — giving away from yourself
+- 私は友達にプレゼントをあげました。— I gave my friend a present.
+- 田中さんは山田さんに本をあげました。— Tanaka gave Yamada a book. (neither party is ""me,"" but the giving is described from the giver's side, away from them)
+
+Using あげる for something given *to you* sounds off — 友達は私にプレゼントをあげました is grammatically parseable but unnatural; native speakers reach for くれる instead.
+
+## くれる — giving toward yourself (or your in-group)
+- 友達が私にプレゼントをくれました。— My friend gave me a present.
+- 田中さんが弟にお金をくれました。— Tanaka gave my little brother money. (in-group extends to family/close circle, not just literal ""me"")
+
+The giver takes が (not は as topic, typically — が marks who's doing the giving, since the interesting/new info is often who gave it):
+
+- 誰がくれたの? — Who gave [it to you]?
+
+## もらう — receiving (viewpoint flip)
+Structured as [receiver]は[giver]に/から[thing]をもらう — receiver is the topic/subject, giver marked with に or から:
+
+- 私は友達にプレゼントをもらいました。— I received a present from my friend. (= my friend gave me a present, same event as the くれる example above, opposite grammatical framing)
+- 誕生日に何をもらいましたか。— What did [you] get for your birthday?
+
+あげる/くれる describe the event from the giver's side; もらう describes the same event from the receiver's side — often either works for the same real-world event, and the choice is about whose perspective you want to center.
+
+## Quick decision table
+
+| Direction | Verb | Giver marked with | Topic/subject |
+|---|---|---|---|
+| Me → someone else | あげる | は/が (giver = topic) | giver |
+| Someone → me | くれる | が (giver) | giver, but centers on me as recipient |
+| I receive from someone | もらう | に/から (giver) | receiver (me) is topic |
+
+## て-form attachment: favors, not just objects
+These three attach to て-form to describe doing an action *as a favor*, not just handing over a thing — this is extremely common in daily speech (see [[2-て-form]]):
+
+- 手伝ってあげる。— I'll help [you] [as a favor, from me outward].
+- 手伝ってくれる? — Will [you] help me [as a favor toward me]? (a very common, natural way to ask for help)
+- 先生に教えてもらいました。— [I] had the teacher explain [it] [to me]. / The teacher explained it for me.
+
+てくれる and てもらう both describe someone doing something that benefits you, but with different subjects: 教えてくれる (the teacher is the subject, doing it toward me) vs 教えてもらう (I'm the subject, receiving the favor).
+
+## Notes
+- あげる toward a social superior can sound presumptuous/condescending (implies you're bestowing something) — さしあげる is the humble alternative in formal contexts; not needed for casual daily use, just good to recognize.
+- くれる is the one learners most often get backwards early on, since English ""give"" doesn't grammaticalize this directional split — if in doubt, ask ""did this benefit *me*?"" → くれる/もらう territory, not あげる.",2026-07-16T09:41:30.500702+00:00,2026-07-16T09:41:30.500702+00:00,ja
+19,2-verb/9-ている,ている — progressive vs. resultant state,verb,2,9,"# ている — progressive vs. resultant state
+
+て-form + いる (see [[2-て-form]]) is introduced early as ""-ing,"" but it actually covers two different meanings depending on the verb — mixing them up is a common source of confusion in daily conversation.
+
+## Forming it
+Standard て-form attachment: 食べて + いる → 食べている. Conjugates as a る-verb from there:
+
+- 食べている / 食べていない / 食べていた / 食べていなかった
+- Polite: 食べています / 食べていません / 食べていました
+
+Casual speech routinely drops the い: 食べてる, 食べてない — extremely common, safe to use casually, but keep the full いる form in polite/written contexts.
+
+## Reading 1 — progressive (action in progress)
+With **continuous/durative verbs** (actions that take time to complete), ている describes the action happening right now, mid-way through:
+
+- 今、ご飯を食べている。— [I]'m eating right now.
+- 雨が降っている。— It's raining. (ongoing)
+- 本を読んでいます。— [I]'m reading a book.
+
+This is the ""-ing"" reading most learners default to — correct for this class of verbs.
+
+## Reading 2 — resultant state (the result of a change persists)
+With **instantaneous/punctual verbs** (actions that happen in a single moment, not drawn out — 死ぬ, 結婚する, 知る, 落ちる, 開く), ている instead describes the *state that results* from that instant having already happened:
+
+- 結婚している。— [I]'m married. (NOT ""I'm in the middle of marrying"" — the event already happened, and the resulting state persists)
+- 知っている。— [I] know. (the moment of learning already happened; knowing is the resulting state)
+- 窓が開いている。— The window is open. (someone opened it; open is the resulting state)
+- 彼は死んでいる。— He is dead. (not ""he is dying"")
+
+This trips learners up specifically because English ""-ing"" would suggest the action is mid-way, but for these verbs Japanese ている always means the state-after-the-fact, never ""in the process of.""
+
+## How to tell which reading applies
+Ask whether the verb describes something that takes a stretch of time (progressive reading) or something that happens in an instant, after which a new state holds (resultant-state reading). A few genuinely ambiguous verbs (着る — to wear/put on) can go either way and need context:
+
+- 今、服を着ている。— [I]'m putting on clothes. (in progress) OR [I]'m wearing clothes. (state) — both readings exist; context/tone disambiguates.
+
+## ている vs てある
+てある is related but distinct — it marks a deliberately-arranged resultant state, usually of something someone did on purpose to an object, and implies the state was set up intentionally (often for a purpose):
+
+- 窓が開いている。— The window is open. (neutral observation of a state)
+- 窓が開けてある。— The window has been [deliberately] left open. (implies someone did it on purpose, often ""in preparation for something"" — see て + おく in [[2-て-form]], which is the deliberate-preparation act; てある is the resulting state of that act)
+
+てある is lower-frequency in casual daily talk than ている — recognize it, but ている does most of the daily work.
+
+## Notes
+- 知る is a common trap: 知る itself means ""to learn/find out"" (a moment), so ""I know"" is always 知っている, never the bare plain-form 知る in the present-state sense — 知りません (I don't know) is the one common exception where the plain negative works directly without ている.
+- Habitual/repeated actions can also use ている: 毎日走っている。— [I] run every day. (a third loose use, close to ""I habitually do X,"" distinct from both readings above but easy to fold into the ""ongoing state"" intuition once you're comfortable with the core two.)",2026-07-16T09:41:30.500702+00:00,2026-07-16T09:41:30.500702+00:00,ja
+20,2-verb/10-たり,たり〜たりする - listing representative actions,verb,2,10,"# たり〜たりする - listing representative actions
+
+Lists a few example actions out of a larger, unstated set — ""[I do] things like X and Y,"" not an exhaustive account of everything that happens. Built on the same sound-shift as plain past (た-form, see [[2-て-form]]), just with り attached.
+
+## Forming it
+Plain past (た-form) + り, repeated for each example action, ending in する (conjugated for tense/register):
+
+- 休みの日は本を読んだり、映画を見たりします。— On days off, [I] do things like read books and watch movies.
+- 週末は掃除したり、洗濯したりします。— On weekends, [I] do things like clean and do laundry.
+- 公園で走ったり、散歩したりしました。— At the park, [I] did things like run and take walks.
+
+The final する carries the actual tense/politeness — the individual たり verbs themselves don't need to match tense with each other or with する.
+
+## Why not just use て-form or と for the list?
+Compare to plain て-form sequencing (see [[2-て-form]]) or と's exhaustive ""and"" (see [[../1-particle/5a-と]]):
+
+- 本を読んで、映画を見ました。— [I] read a book, [then] watched a movie. (て-form: a complete, sequential account of exactly what happened)
+- 本を読んだり、映画を見たりしました。— [I] did things like read a book and watch a movie. (たり: examples from a longer, unstated list — implies other things happened too)
+
+たり is the natural choice whenever you're giving a representative sample rather than a complete report — which covers a huge share of daily ""what do you do on weekends"" type conversation.
+
+## Contradictory/alternating actions
+たり also works well for describing back-and-forth or contradictory actions, emphasizing the alternation itself:
+
+- 天気は良かったり悪かったりです。— The weather is sometimes good, sometimes bad.
+- 行ったり来たりする。— [To] go back and forth. (a common fixed expression, lit. ""going and coming"")
+
+## Single たり (less common, but valid)
+たり can technically appear just once, still implying ""among other things,"" though doubling it is far more natural and common in daily speech:
+
+- テレビを見たりして、ゆっくりしました。— [I] relaxed, [doing things] like watching TV [among other things].
+
+## Notes
+- Don't confuse たり (listing representative/alternating actions) with たら (conditional, see [[6-conditional]]) — both come from the same た-stem sound-shift, but たり always needs する at the end and never means ""if/when.""
+- Extremely common when answering casual ""what do you usually do"" questions — a natural, idiomatic way to avoid listing an exhaustive, overly precise account of your routine.",2026-07-16T09:41:30.500702+00:00,2026-07-16T09:41:30.500702+00:00,ja
+21,3-adjective/1-i-vs-na-adjective,い-adjective vs な-adjective,adjective,3,1,"# い-adjective vs な-adjective
+
+Japanese adjectives split into two structurally different types. Telling them apart matters because they conjugate completely differently — い-adjectives conjugate on their own, な-adjectives lean on the copula だ/です just like nouns (see [[3-plain-vs-polite-form]] in 2-verb).
+
+## Identifying the two types
+
+**い-adjectives** — end in い in dictionary form (with a few exceptions below), conjugate independently:
+
+- 高い (takai) — expensive/tall
+- 暑い (atsui) — hot
+- おいしい (oishii) — tasty
+- いい (ii) / 良い (yoi) — good (irregular, see below)
+
+**な-adjectives** — don't end in a ""real"" い (or do, but aren't true い-adjectives — see the trap below), require な before a noun and だ/です for predicate use, behave grammatically like nouns:
+
+- 静か(な) — quiet
+- 元気(な) — energetic/well
+- きれい(な) — pretty/clean
+- 有名(な) — famous
+- 好き(な) — liked/favorite (note: きれい and 嫌い/好き end in い but are な-adjectives — the trap below)
+
+## The い-adjective trap
+A handful of words end in -い but are actually な-adjectives — memorize these as exceptions:
+
+- きれい(な) — pretty (not きれ + い)
+- 嫌い(な) — disliked
+- 有名(な) is safe (doesn't end in い) but きらい/きれい specifically are the classic gotchas.
+
+Test: try dropping the い and conjugating as an い-adjective (静かい→静かくない). If that sounds wrong and you'd naturally reach for だ/です instead, it's な.
+
+## い-adjective conjugation
+Conjugates without needing だ/です at all in plain form:
+
+| | Plain | Polite |
+|---|---|---|
+| Non-past affirmative | 高い | 高いです |
+| Non-past negative | 高くない | 高くないです / 高くありません |
+| Past affirmative | 高かった | 高かったです |
+| Past negative | 高くなかった | 高くなかったです |
+
+Pattern: drop い, then -くない (negative), -かった (past), -くなかった (past negative). This shift (い→く/かった) is worth drilling the same way the て-form sound shifts are.
+
+## な-adjective conjugation
+Conjugates exactly like a noun + copula (だ/です) — see the copula table in [[3-plain-vs-polite-form]]:
+
+| | Plain | Polite |
+|---|---|---|
+| Non-past affirmative | 静かだ | 静かです |
+| Non-past negative | 静かじゃない | 静かじゃないです / 静かではありません |
+| Past affirmative | 静かだった | 静かでした |
+| Past negative | 静かじゃなかった | 静かじゃなかったです |
+
+## Modifying a noun (attributive use)
+This is where the two types visibly diverge in name:
+
+- い-adjective + noun: nothing extra needed — 高い本 (expensive book)
+- な-adjective + な + noun: な is required — 静かな部屋 (quiet room), not 静か部屋
+
+Dropping な before a noun is one of the most common beginner mistakes with な-adjectives.
+
+## いい — the one irregular い-adjective
+いい (good) conjugates using its older form 良い (よい) for everything except the plain non-past affirmative:
+
+- いい (not いくない for negative)
+- 良くない (よくない) — not good
+- 良かった (よかった) — was good / thank goodness
+- 良くなかった (よくなかった) — was not good
+
+良かった as a standalone exclamation (""thank goodness,"" ""glad [that happened]"") is extremely common in daily speech — worth knowing on its own.
+
+## Notes
+- Both types can be nominalized/turned adverbial — see [[2-adverbial-form]].
+- な-adjectives are sometimes listed in dictionaries without な (静か, 元気) since な itself isn't part of the word — only added when directly modifying a noun.",2026-07-16T09:41:30.500702+00:00,2026-07-16T09:41:30.500702+00:00,ja
+22,3-adjective/2-adverbial-form,Adverbial form — turning adjectives into adverbs,adjective,3,2,"# Adverbial form — turning adjectives into adverbs
+
+Turns ""expensive/quiet"" into ""expensively/quietly"" — modifying a verb instead of a noun. Small, mechanical rule, but used constantly in daily speech (早く来て! — come quickly!). Builds on the い/な split in [[1-i-vs-na-adjective]].
+
+## い-adjectives: い → く
+Drop the final い, add く:
+
+- 早い → 早く — early/quickly: 早く起きた。— [I] got up early.
+- 高い → 高く — expensively: 高く売れた。— [It] sold for a lot.
+- おいしい → おいしく: おいしく作る。— [To] make [it] tasty.
+
+This is the exact same い→く shift used in negative conjugation (高くない, see [[1-i-vs-na-adjective]]) — the adverbial form is just that shift without ない attached.
+
+## な-adjectives: な → に
+Drop な, add に:
+
+- 静か(な) → 静かに — quietly: 静かに話してください。— Please speak quietly.
+- 上手(な) → 上手に — skillfully: 上手に歌う。— [To] sing well.
+- きれい(な) → きれいに: きれいに片付けた。— [I] cleaned [it] up nicely.
+
+## Common daily uses
+
+**Modifying how an action is done** (the core use):
+- 元気に育つ。— [To] grow up healthy/energetic.
+- 楽しく過ごしてください。— Please have a good/enjoyable time. (楽しい→楽しく)
+
+**With なる (to become)** — extremely common pattern, ""become [adjective]"":
+- 寒くなる。— [It]'s getting cold. (寒い→寒く+なる)
+- 静かになる。— [It]'s becoming quiet. (静か+に+なる)
+- 上手になりました。— [I] got good at [it].
+
+This adjective+adverbial-form+なる pattern is one of the highest-frequency ways to talk about change in daily conversation — worth internalizing alongside the raw conjugation rule.
+
+**With する (to make/do)** — ""make [something adjective]"":
+- 部屋をきれいにする。— [To] make the room clean/tidy [it] up.
+- 声を大きくしてください。— Please make [your] voice louder. (大きい→大きく)
+
+Mirrors なる: なる = something becomes X on its own, する = someone actively makes something X.
+
+## Notes
+- いい's adverbial form uses the irregular よく (from 良い), not いく — 仲良く (get along well), よく食べる (eat a lot/often).
+- The adverbial form of a な-adjective (Xに) looks identical to the destination/time particle に (see [[3a-に]] in 1-particle) — they're unrelated grammatically, just a coincidence of spelling; context makes it obvious which is which.",2026-07-16T09:41:30.500702+00:00,2026-07-16T09:41:30.500702+00:00,ja
+23,3-adjective/3-comparison,Comparison — もっと / より / 一番,adjective,3,3,"# Comparison — もっと / より / 一番
+
+Japanese doesn't conjugate adjectives for comparison (no ""-er""/""-est"" equivalent) — comparison is done with separate words layered on top of the plain adjective from [[1-i-vs-na-adjective]].
+
+## より — ""more than"" (the comparison particle)
+より marks what something is being compared against — attaches after the noun being compared to:
+
+- 今日は昨日より暑いです。— Today is hotter than yesterday. (attached to 昨日, the thing compared against)
+- 電車はバスより速い。— The train is faster than the bus.
+- これはそれよりいいです。— This is better than that.
+
+The compared item doesn't need を/は/が — より takes its place as the marker on the ""than X"" side.
+
+## もっと — ""more"" (intensifier, no explicit comparison target)
+もっと boosts a quality without necessarily naming what it's being compared to — ""more,"" ""even more"":
+
+- もっと大きいのがほしい。— [I] want a bigger one. (bigger [than what I have], target implied not stated)
+- もっと頑張ってください。— Please try harder [than you are now].
+- もっと静かにしてください。— Please be quieter.
+
+もっと and より can combine: これはそれよりもっといい。— This is even better than that. (more emphatic layering)
+
+## 一番 — ""the most"" (superlative)
+一番 (literally ""number one"") marks the top of a group — Japan's equivalent of ""-est"":
+
+- この中で一番好きです。— [I] like [this one] the most out of these.
+- 富士山は日本で一番高い山です。— Mt. Fuji is the tallest mountain in Japan.
+- 一番好きな食べ物は何ですか。— What's [your] favorite (most-liked) food?
+
+一番 typically pairs with で to mark the group/category being compared within: [category]で一番[adjective].
+
+## Asking ""which is more...?""
+どちら/どっち (which of two) + が + adjective + ですか is the standard comparison question:
+
+- コーヒーと紅茶とどちらが好きですか。— Which do [you] like more, coffee or tea?
+- どっちが安い? — Which one's cheaper? (casual)
+
+For three or more options, どれ (which, of three+) replaces どちら:
+
+- この中でどれが一番おいしいですか。— Which one [of these] is the tastiest?
+
+## Equal comparison — 〜と同じくらい
+""As X as Y"" / ""about the same as"":
+
+- 兄は父と同じくらい背が高い。— [My] older brother is about as tall as [my] father.
+
+## Quick reference
+
+| Pattern | Meaning |
+|---|---|
+| AはBより[adj] | A is more [adj] than B |
+| もっと[adj] | more [adj] (no explicit target) |
+| [category]で一番[adj] | the most [adj] in [category] |
+| AとBとどちらが[adj]ですか | which is more [adj], A or B? |
+| Aと同じくらい[adj] | as [adj] as A |
+
+## Notes
+- より on its own (without もっと) is the neutral, common way to compare two things — don't feel like you need もっと every time; もっと is for emphasis or when there's no explicit ""than X"" target in the sentence.
+- な-adjectives and い-adjectives both slot into these patterns exactly as their plain form — no special comparison conjugation to learn beyond what's already in [[1-i-vs-na-adjective]].",2026-07-16T09:41:30.500702+00:00,2026-07-16T09:41:30.500702+00:00,ja
+24,4-pattern/1-んです,んです / んだ - explanatory nuance,pattern,4,1,"# んです / んだ - explanatory nuance
+
+Adds an ""explaining/seeking explanation"" undertone to a sentence — signals ""here's the reason/context,"" or asks ""what's the story here?"" Extremely common in natural spoken Japanese despite being rarely taught early. んです is the polite register, んだ the plain/casual register (see [[3-plain-vs-polite-form]] in 2-verb). Built on plain form + の (see [[4-の]] in 1-particle, ""explanatory の""), contracted to ん.
+
+## Forming it
+Attaches to the plain form of verbs/adjectives, and to noun/な-adjective + な (not だ) before んです:
+
+- 食べる → 食べるんです / 食べるんだ
+- 食べた → 食べたんです / 食べたんだ
+- 忙しい → 忙しいんです / 忙しいんだ
+- 学生 → 学生なんです / 学生なんだ (な inserted before ん for nouns/な-adjectives — unlike plain だ, which is dropped here)
+
+## Explaining a situation (giving background/reason)
+The core use: framing a statement as background context or a reason for something, rather than a flat, isolated fact:
+
+- 疲れたんです。— [The thing is,] I'm tired. (explaining why you look tired, or why you're asking to leave early)
+- 電車に乗り遅れたんです。— [I'm explaining:] I missed the train. (as opposed to bare 電車に乗り遅れました, which just states the fact with no implied connection to anything)
+
+Compare: 疲れました is a neutral statement. 疲れたんです implies ""and that's relevant to what's going on / why I'm telling you this.""
+
+## Seeking an explanation (question form)
+んですか asks ""what's the story?"" — genuinely curious, more probing than a bare か-question:
+
+- どうしたんですか。— What's wrong? / What happened? (noticing something's off, asking for the story)
+- 何を見ているんですか。— What are [you] looking at? (curious about something already observed, not a cold opening question)
+
+Compare: 何を見ますか (a neutral, out-of-nowhere question about future viewing) vs 何を見ているんですか (noticing someone is currently looking at something, asking about it).
+
+## Softening a request or opinion (with けど/が)
+んです pairs constantly with the softening けど/が (see [[12-けど]] in 1-particle) to lead into a request or opinion gently, without stating it too bluntly:
+
+- ちょっと聞きたいんですけど。— [I] wanted to ask something... (leads into a question softly)
+- これ、いいと思うんですが。— I think this is good, but... (offering an opinion, leaving room for pushback)
+
+## Casual んだ
+Plain-register んだ works identically, just less formal — extremely common in casual conversation, inner monologue, and casual writing:
+
+- そうなんだ! — Oh, I see! / Really! (a very common reaction to new information)
+- 疲れたんだ。— [Explaining, casually:] I'm tired.
+
+そうなんだ/そうなんですね are near-automatic reactions in casual/polite conversation respectively — worth having ready as reflexes.
+
+## Notes
+- Overusing んです on every sentence sounds unnatural — it's for when there's genuinely some explanation, context, or noticing involved, not a default sentence-ender.
+- んです often gets contracted further in very casual speech to just んだ or even dropped to plain の (see [[4-の]] in 1-particle) — all closely related, same underlying mechanic.",2026-07-16T09:41:30.500702+00:00,2026-07-16T09:41:30.500702+00:00,ja
+25,4-pattern/2-requests,Requests — て / てください / ないでください / お願いします,pattern,4,2,"# Requests — て / てください / ないでください / お願いします
+
+How to ask someone to do something, or ask them *not* to — a survival-essential set of patterns, all built on て-form (see [[2-て-form]] in 2-verb), plus お願いします for requesting things rather than actions.
+
+## Casual request — bare て-form
+Just the て-form on its own, often with rising intonation, works as a soft casual request or instruction between friends/family:
+
+- ちょっと待って。— Wait a sec.
+- これ、取って。— Grab that [for me].
+- 手伝って! — Help [me]!
+
+This is not rude — it's the normal way to ask close friends/family for small things. It would sound too blunt with strangers or superiors, where てください or further softening is expected.
+
+## Polite request — てください
+The standard, safe polite request — works in most everyday polite situations (asking a stranger, service staff, coworkers):
+
+- ちょっと待ってください。— Please wait a moment.
+- こちらに来てください。— Please come this way.
+- もう一度言ってください。— Please say that again.
+
+てください can still sound like a direct instruction in some contexts (closer to ""please do X"" as a directive) — for a softer, more deferential request (especially to someone senior or in a formal setting), see the ていただけますか note below.
+
+## Negative request — ないでください
+""Please don't [do X]"" — built on the plain negative (see [[3-plain-vs-polite-form]] in 2-verb) + でください:
+
+- 写真を撮らないでください。— Please don't take photos.
+- ここに座らないでください。— Please don't sit here.
+- 心配しないでください。— Please don't worry.
+
+Casually, just ないで on its own (dropping ください) works among friends:
+
+- 心配しないで。— Don't worry. (softer, no explicit ください needed)
+- 行かないで! — Don't go!
+
+## お願いします — requesting a thing/service, not an action
+Where てください attaches to a *verb* (""please do X""), お願いします attaches to a *noun* — ""please [handle/give me] X."" Standard for ordering, requesting items, or asking for a service:
+
+- 水をお願いします。— Water, please.
+- 会計をお願いします。— The check, please.
+- 予約をお願いします。— [I'd like to] make a reservation, please.
+
+For simple physical items, ください and お願いします overlap and are roughly interchangeable — 水をください and 水をお願いします both work, with お願いします feeling a shade more polite/service-oriented:
+
+- 水をください。— [Give me] water, please. (direct, request for the object itself)
+- 水をお願いします。— Water, please. (slightly softer/more formal framing, common when ordering)
+
+## お願いします standing alone
+Unlike ください, お願いします can stand completely alone, without a preceding verb or even a noun — used when the request is already obvious from context, or as a general ""please [take care of this]"":
+
+- (handing over a form) お願いします。— Here you go, please [handle this]. / Please [take care of it].
+- こちらへどうぞ。— Right this way. / (客) お願いします。— (customer, following) Thank you / please [lead the way].
+
+## よろしくお願いします — the essential set phrase
+お願いします is the base of よろしくお願いします, one of the most common phrases in Japanese daily life — said when starting a working relationship, asking a favor, or closing an introduction. It has no direct English equivalent and no ください counterpart:
+
+- はじめまして、よろしくお願いします。— Nice to meet you, [I look forward to working with you / please treat me well].
+- 今日はよろしくお願いします。— [Let's do our best] today. (said before a meeting, lesson, collaborative task)
+
+## More polite / deferential requests
+For situations calling for extra politeness (asking a favor of someone senior, a customer-facing request, formal writing), てもらえますか or ていただけますか are common upgrades from てください — literally asking ""could I receive the favor of your doing X?"" (see [[8-giving-receiving]] in 2-verb for the もらう mechanic behind this):
+
+- 手伝ってもらえますか。— Could [you] help me? (fairly polite)
+- もう少し待っていただけますか。— Could [you] wait a bit longer? (more formal/deferential)
+
+These read as questions asking permission/favor rather than direct commands, which is why they land as more polite than a bare てください.
+
+## Quick ladder (casual → most polite)
+
+| Form | Register | Attaches to |
+|---|---|---|
+| 〜て | Casual, close friends/family | verb |
+| 〜てください | Standard polite, safe default | verb |
+| 〜てもらえますか | Polite, asking a favor | verb |
+| 〜ていただけますか | Formal/deferential | verb |
+| Xをお願いします | Standard polite, ordering/requesting items | noun |
+
+Negative mirrors the same ladder: 〜ないで (casual) → 〜ないでください (polite).
+
+## Notes
+- てください directed at a stranger out of nowhere for something non-obvious can sound like an order — pairing with すみません or a softening んですが (see [[1-んです]]) makes it land more naturally: すみません、写真を撮ってもらえますか。— Excuse me, could [you] take a photo [for me]?
+- Don't confuse ないでください (please don't do X) with なくてもいい (don't have to / it's fine not to do X, the negative counterpart of permission てもいい) — different meanings, easy to mix up at a glance.",2026-07-16T09:41:30.500702+00:00,2026-07-16T09:41:30.500702+00:00,ja
+26,4-pattern/3-obligation,Obligation — 〜なければならない / 〜なくちゃ / 〜なきゃ,pattern,4,3,"# Obligation — 〜なければならない / 〜なくちゃ / 〜なきゃ
+
+""Have to / must [do X]"" — built from the plain negative (see [[3-plain-vs-polite-form]] in 2-verb) plus a conditional-shaped ending. Several versions exist on a formality spectrum from stiff/written to very casual.
+
+## The underlying logic
+All versions share the same shape: [plain negative stem]く + a conditional ending (""if [you] don't do X...""), with the rest (""...it's no good / won't do"") dropped or contracted. Literally ""if [you] don't do X, [it's bad]"" → practically ""[you] have to do X.""
+
+## Formal/written: 〜なければならない
+ない-form, drop い, add ければならない:
+
+- 行く → 行かない → 行かなければならない — [I] have to go.
+- 食べる → 食べない → 食べなければならない — [I] have to eat.
+- する → しない → しなければならない — [I] have to do [it].
+
+This is the full, formal version — common in writing, announcements, rules. A bit stiff for casual daily speech but not wrong.
+
+## Slightly softer/common: 〜なくてはいけない
+Same idea, different conditional ending (なくては instead of なければ), also fairly common in both speech and writing:
+
+- 行かなくてはいけない — [I] have to go.
+- 食べなくてはいけない — [I] have to eat.
+
+なければならない and なくてはいけない are largely interchangeable in daily use — pick whichever comes to mind.
+
+## Casual contraction: 〜なくちゃ
+なくては contracts to なくちゃ in casual speech — the ending (いけない) is very often dropped entirely, since the obligation is understood from なくちゃ alone:
+
+- 行かなくちゃ(いけない)。— [I] gotta go.
+- もう寝なくちゃ。— [I] gotta sleep now.
+
+Dropping いけない and just ending on なくちゃ is extremely natural and common — a bare なくちゃ! by itself (e.g. glancing at a clock) reads as ""gotta go/gotta do it.""
+
+## Most casual contraction: 〜なきゃ
+なければ contracts to なきゃ — same deal, いけない/ならない routinely dropped:
+
+- 行かなきゃ(ならない)。— [I] gotta go.
+- 早く起きなきゃ。— [I] have to get up early.
+
+なきゃ is probably the single most common way ""have to"" gets expressed in relaxed daily conversation — more casual-sounding than なくちゃ to most ears, though both are fine.
+
+## Quick formality reference
+
+| Form | Register |
+|---|---|
+| 〜なければならない | Formal/written |
+| 〜なくてはいけない | Neutral/common |
+| 〜なくちゃ(いけない) | Casual, contraction of なくては |
+| 〜なきゃ(ならない) | Very casual, contraction of なければ |
+
+## Notes
+- All of these attach to the plain negative stem — the group-dependent negative conjugation rules from [[1-conjugation-group]] (2-verb) apply first, before adding these endings.
+- 〜なきゃ/なくちゃ standing completely alone (no verb before it, no いけない after) is a common standalone reaction meaning ""I should get going"" or ""gotta do that [thing we were just discussing]"" — context fills in the rest.",2026-07-16T09:41:30.500702+00:00,2026-07-16T09:41:30.500702+00:00,ja
+27,4-pattern/4-ちゃう,ちゃう / じゃう - casual contraction of てしまう,pattern,4,4,"# ちゃう / じゃう - casual contraction of てしまう
+
+Casual, contracted form of て-form + しまう (see [[2-て-form]] in 2-verb). てしまう itself means ""end up doing,"" ""finish doing completely,"" or ""do something regrettable"" — ちゃう is how that sounds in relaxed daily speech, and it's everywhere in real conversation.
+
+## How the contraction works
+て + しまう → ちゃう (for verbs whose て-form ends in て). で + しまう → じゃう (for verbs whose て-form ends in で, i.e. the んで group — see the sound-shift table in [[2-て-form]]):
+
+- 食べてしまう → 食べちゃう — end up eating / eat it all
+- 忘れてしまう → 忘れちゃう — end up forgetting
+- 読んでしまう → 読んじゃう — end up reading / finish reading (で→じゃう)
+- 死んでしまう → 死んじゃう — end up dying
+
+Conjugates as a regular う-verb from there: ちゃう/ちゃった/ちゃわない, じゃう/じゃった/じゃわない.
+
+## Two core meanings (same as full てしまう)
+
+**Completion — did something fully/entirely:**
+- もう食べちゃった。— [I] already finished eating (all of it).
+- 全部読んじゃった。— [I] read the whole thing.
+
+**Regret / unintended consequence — something happened that you wish hadn't, often accidentally:**
+- 財布を忘れちゃった。— [I] went and forgot my wallet. (oops)
+- 壊しちゃった。— [I] broke it. (accidentally, and feeling bad about it)
+- 寝ちゃった。— [I] [accidentally] fell asleep. (e.g. when you meant to stay awake)
+
+Which reading applies is mostly determined by context — a completion-type verb with no obvious downside (食べちゃう) reads as ""finished eating""; an accident-prone context (忘れちゃう, 壊しちゃう) reads as regret.
+
+## Very common standalone reactions
+- やっちゃった! — [I] [screwed up and] did it! / Oh no, I did the thing [again]. (very common exclamation after a small mistake)
+- しちゃった。— [I] did it [without meaning to] / [I] went ahead and did it.
+
+## Politeness note
+ちゃう/じゃう is casual-register only — for polite speech, use the full てしまいます/てしまいました, or drop the nuance and just use a plain verb if the ""regret/completion"" flavor isn't essential to convey.
+
+## Notes
+- Don't confuse the contraction ちゃう with random verbs that happen to end in ちゃう unrelatedly — in practice this is rare, context makes it obvious.
+- Casual speech often further contracts the past tense: ちゃった is already the norm; you won't typically see it shortened further, but you will hear it constantly in fast, natural speech (やっちゃった、忘れちゃった、寝ちゃった are all near-reflexive daily phrases).",2026-07-16T09:43:43.976791+00:00,2026-07-16T09:43:43.976791+00:00,ja
+28,4-pattern/5-appearance-hearsay,"そう / みたい / らしい - appearance, seeming, hearsay",pattern,4,5,"# そう / みたい / らしい - appearance, seeming, hearsay
+
+Three ways to say ""looks like / seems / apparently,"" each with a distinct source of information: そう is a visual/sensory impression, みたい is a casual, general ""seems like,"" and らしい is hearsay/what you heard secondhand. Mixing these up is a common source of subtle unnaturalness even at intermediate level.
+
+## そう (様態) — visual/sensory impression, ""looks like""
+Attaches to the ます-stem of verbs (see [[1-conjugation-group]] in 2-verb) or the stem of い/な-adjectives (drop the final い or な), describing an impression formed by looking at something — before you've confirmed it:
+
+- おいしそう。— [That] looks tasty. (haven't tasted it yet, judging by appearance)
+- 雨が降りそう。— [It] looks like [it]'s about to rain. (based on the sky right now)
+- 疲れてそう。— [You] look tired. (visual impression)
+- 便利そう。— [That] looks convenient. (な-adjective stem, drop な: 便利(な)→便利そう)
+
+Irregular: いい → よさそう (not いいそう), ない → なさそう.
+
+This そう is about a *prediction/impression from what you currently perceive* — it's specifically not for something you've already confirmed as true (for that, just state it directly: おいしいです, not おいしいそうです in that sense — see hearsay そう below for the confusingly identical-looking but different construction).
+
+## そう (伝聞) — hearsay, ""I heard that"" (different grammar, same word!)
+A second, unrelated そう attaches to the **full plain form** (not the stem) and means ""I heard that..."" — reporting something you were told, not your own impression:
+
+- 明日は雨が降るそうです。— I heard [it]'ll rain tomorrow. (from the news, someone else, etc.)
+- 田中さんは忙しいそうです。— I heard Tanaka is busy.
+
+The difference is entirely in what そう attaches to: stem (降りそう, appearance) vs. full plain form (降るそうです, hearsay) — easy to mix up, worth double-checking which one you mean.
+
+## みたい — casual ""seems like"" (general-purpose, spoken)
+The casual, catch-all version of both そう and らしい — attaches after the plain form of verbs/い-adjectives, or directly after nouns/な-adjective stems (no な needed before みたい):
+
+- 雨みたい。— Seems like rain. (could be visual, could be secondhand — みたい doesn't specify the source)
+- 元気みたい。— [They] seem energetic/well.
+- 学生みたいです。— [They] seem to be a student.
+
+みたい is the natural default in casual conversation when you don't need to be precise about *why* you think something — much more common in speech than carefully choosing between visual-そう and hearsay-そう.
+
+## らしい — hearsay / ""apparently"" (also: ""typical of"")
+Similar to hearsay-そう, but slightly more distanced/uncertain in tone, and also carries a secondary ""typical of X"" meaning. Attaches after plain form (with the same noun/な-adjective exception as みたい — no だ needed):
+
+- 明日は雨らしい。— Apparently [it]'ll rain tomorrow. (secondhand, slightly more hedge than そう)
+- 彼は忙しいらしいです。— [I hear] he's busy.
+- 子供らしい。— [That]'s childlike / typical of a child. (the ""typical of"" sense — distinct usage, worth recognizing)
+
+## Quick comparison
+
+| Form | Attaches to | Source of info |
+|---|---|---|
+| Xそう (appearance) | verb/adjective stem | visual impression, before confirming |
+| Xそうです (hearsay) | full plain form | reported, ""I heard"" |
+| Xみたい | plain form / noun | casual, source unspecified — safest default |
+| Xらしい | plain form / noun | hearsay, more distanced; also ""typical of"" |
+
+## Notes
+- In casual daily conversation, みたい does most of the work — don't stress over precisely choosing between visual-そう and らしい early on.
+- All four can stack with んです/けど for softening (see [[1-んです]]): 雨が降りそうなんですけど。— It looks like it might rain, so...",2026-07-16T09:43:43.976791+00:00,2026-07-16T09:43:43.976791+00:00,ja
+29,4-pattern/6-すぎる,"すぎる - ""too much""",pattern,4,6,"# すぎる - ""too much""
+
+Attaches to verbs or adjectives to say something is excessive — ""too [X],"" ""[verb] too much."" Extremely common in daily complaints, observations, and self-deprecating remarks.
+
+## Forming it
+
+**With verbs** — ます-stem (see [[1-conjugation-group]] in 2-verb) + すぎる:
+
+- 食べる → 食べすぎる — eat too much
+- 飲む → 飲みすぎる — drink too much
+- 働く → 働きすぎる — work too much
+- 寝る → 寝すぎる — sleep too much
+
+**With い-adjectives** — drop the final い, add すぎる:
+
+- 高い → 高すぎる — too expensive
+- 難しい → 難しすぎる — too difficult
+- 忙しい → 忙しすぎる — too busy
+
+**With な-adjectives** — drop な, add すぎる:
+
+- 静か(な) → 静かすぎる — too quiet
+- 便利(な) → 便利すぎる — too convenient
+
+Irregular: いい → よすぎる (not いすぎる).
+
+The result conjugates as a る-verb from there: すぎる/すぎない/すぎた/すぎました.
+
+## Core use — excess, usually with a negative connotation
+Almost always implies ""more than is good/appropriate,"" even when the underlying thing is positive:
+
+- 昨日、食べすぎました。— [I] ate too much yesterday. (mild regret)
+- これ、高すぎる! — This is way too expensive!
+- 頑張りすぎないでください。— Please don't overdo it [with effort]. (see [[2-requests]] for the ないでください pattern)
+
+## Combining with other patterns
+すぎる pairs naturally with the casual regret contraction ちゃう (see [[4-ちゃう]]) and with んです (see [[1-んです]]) when explaining why something's a problem:
+
+- 食べすぎちゃった。— [I] ended up eating too much (oops).
+- ちょっと働きすぎなんです。— [The thing is,] [I]'m working a bit too much.
+
+## Notes
+- すぎる can be nominalized with 食べ過ぎ (as a noun: ""overeating"") — common in health/lifestyle contexts: 食べ過ぎは体に悪い。— Overeating is bad for [your] body.
+- Distinct from とても/すごく (""very"") — すぎる specifically frames something as *excessive/undesirable*, not just intense. とても高い (very expensive, neutral intensity) vs 高すぎる (too expensive, implying it's a problem).",2026-07-16T09:43:43.976791+00:00,2026-07-16T09:43:43.976791+00:00,ja
+30,4-pattern/7-ほうがいい,"ほうがいい - ""should"" / ""better to""",pattern,4,7,"# ほうがいい - ""should"" / ""better to""
+
+The standard way to give advice or state a preference between options — ""[you] should do X"" / ""it's better to do X."" One of the most commonly used advice-giving patterns in daily conversation.
+
+## Forming it — affirmative advice
+Plain past (た-form, see [[2-て-form]] in 2-verb) + ほうがいい, even though the meaning is about future/hypothetical action, not something already done:
+
+- 早く寝たほうがいいよ。— [You] should sleep early. (lit. ""the having-slept-early option is better"")
+- 病院に行ったほうがいいですよ。— [You] should go to the hospital.
+- もっと勉強したほうがいい。— [You] should study more.
+
+Using た-form here (not plain non-past 寝るほうがいい) is the standard, most natural pattern for advice about a specific, immediate situation — using plain non-past instead sounds more like a general statement of preference than concrete advice.
+
+## Forming it — negative advice (""shouldn't"")
+Plain negative (ない-form, see [[3-plain-vs-polite-form]]) + ほうがいい — note: **not** た-form here, unlike the affirmative:
+
+- お酒を飲まないほうがいいですよ。— [You] shouldn't drink alcohol.
+- 無理しないほうがいい。— [You] shouldn't push [yourself] too hard.
+- 心配しないほうがいいよ。— [You] shouldn't worry.
+
+This affirmative-uses-た / negative-uses-ない asymmetry is the one thing worth memorizing carefully — mixing them up (using た-form for negative advice) is a common mistake.
+
+## General preference (comparing two options)
+Beyond advice to someone, ほうがいい also states a plain preference between two things, tying back to より (see [[3-comparison]] in 3-adjective):
+
+- コーヒーよりお茶のほうがいい。— Tea is better than coffee. (preference, not advice)
+- 静かなほうがいいです。— [I] prefer [it] quiet. (な-adjective + な + ほうがいい)
+
+## Softening the directness
+ほうがいい can sound quite direct/opinionated on its own — よ or と思う often soften it into a suggestion rather than a command:
+
+- 早く寝たほうがいいと思う。— I think [you] should sleep early. (softer, framed as opinion — see [[../1-particle/5a-と]] for と思う)
+- 行ったほうがいいんじゃない? — Isn't it better to go? (very casual, softened via a rhetorical question — see [[1-んです]] for the んじゃない construction)
+
+## Notes
+- ほうがいい compares an implied alternative — even without stating it, 早く寝たほうがいい implies ""...rather than staying up.""
+- Don't confuse this ほう (方, ""direction/option/side"") with 方 as in やり方 (""way of doing"") — related etymologically but functioning differently; here ほう always pairs with が+いい to form the comparison structure.",2026-07-16T09:43:43.976791+00:00,2026-07-16T09:43:43.976791+00:00,ja
+31,4-pattern/8-かも,"かも(しれない) - ""might / maybe""",pattern,4,8,"# かも(しれない) - ""might / maybe""
+
+Hedges a statement as a possibility, not a certainty — ""might be,"" ""maybe,"" ""could be."" One of the most common ways to soften a claim in daily casual speech.
+
+## Forming it
+Attaches after the plain form of verbs/adjectives, or directly after nouns/な-adjective stems (no だ needed) — full form is かもしれない (casual) / かもしれません (polite), often just clipped to かも in speech:
+
+- 行けないかも(しれない)。— [I] might not be able to go.
+- 雨が降るかもしれません。— It might rain.
+- 明日は休みかも。— [It] might be a day off tomorrow.
+- 高いかもしれない。— [It] might be expensive.
+
+## Bare かも — the natural casual clip
+In relaxed daily speech, しれない is very often dropped entirely, leaving just かも as a complete, natural sentence-ender:
+
+- A: 明日来る? — Are you coming tomorrow?
+- B: かも。— Maybe. (perfectly complete on its own)
+- 忘れちゃったかも。— [I] might have forgotten [it]. (see [[4-ちゃう]] for the ちゃう contraction)
+
+## かも vs かな — different kind of uncertainty
+Easy to conflate since both hedge, but they point in different directions: かも estimates the *likelihood of a fact* (""it might be true that...""); かな expresses the speaker's own *wondering/musing* (""I wonder...""), often about their own feelings, plans, or something with no clear answer to look up. See [[9-かな]] for the full comparison.
+
+- 雨が降るかも。— It might rain. (assessing an external fact/probability)
+- 雨、降るかな。— I wonder if it'll rain. (musing aloud, less committed to an actual probability estimate)
+
+## Notes
+- かも is safe in both casual and polite registers (かもしれません for polite, かも/かもしれない for casual) — unlike some fillers, it scales cleanly across formality.
+- Stacks naturally with んです/けど for softening explanations: 遅れるかもしれないんですが。— [I] might be late, so...",2026-07-16T09:43:43.976791+00:00,2026-07-16T09:43:43.976791+00:00,ja
+32,4-pattern/9-かな,"かな - ""I wonder"" (self-directed musing)",pattern,4,9,"# かな - ""I wonder"" (self-directed musing)
+
+Marks a thought as uncertain, musing, or half-directed at yourself rather than a real question posed to the listener — ""I wonder..."", ""maybe I should..."", ""is it...?"" said mostly to think out loud. See [[8-かも]] for how this differs from かも's probability-hedge role.
+
+## Forming it
+Attaches after plain form (verbs, い-adjectives, な-adjective/noun without だ):
+
+- 大丈夫かな。— I wonder if [it]'s okay. / Is it okay, I wonder.
+- 明日、晴れるかな。— I wonder if [it]'ll be sunny tomorrow.
+- 何時かな。— I wonder what time it is.
+- 行こうかな。— Maybe I'll go. (volitional + かな — see [[../2-verb/7-volitional-form]] — softens a decision into a half-formed intention)
+
+## Musing vs. asking — the key distinction
+Unlike a real question (〜ですか), かな doesn't strongly demand an answer — it's often said with no listener at all, or said near someone as a soft, low-pressure way of thinking aloud that they *could* respond to but aren't obligated to:
+
+- どうしようかな。— What should [I] do, I wonder. (genuinely undecided, thinking out loud)
+- これでいいかな? — Is this okay, I wonder? (softer than これでいいですか — inviting a casual opinion rather than formally asking)
+
+This is why かな shows up constantly in inner monologue, diary writing, and low-key conversational asides — it's the sound of someone actively deciding or checking their own uncertainty in real time.
+
+## かな + negative — hoping/wondering about something not happening
+かな pairs with negative form to wonder whether something *won't* happen, often carrying a hopeful undertone:
+
+- 雨、降らないかな。— I hope it doesn't rain. (lit. ""I wonder if it won't rain"" — reads as a soft wish)
+- 誰か来ないかな。— I wonder if someone will come. (hoping someone shows up)
+
+## A note on real-world usage: code-switching into English speech
+かな shows up often even when Japanese speakers are otherwise speaking English — especially in mixed-language workplace conversation (e.g. bilingual teams, like at Rakuten). It gets dropped in at the end of an English sentence or as a standalone murmur, because it captures a ""musing/half-committed"" tone that English doesn't have a single clean equivalent for (""I think so, kana"" / ""maybe... kana"" / just a trailing ""...kana~""). Hearing it mixed into English isn't broken grammar — it's a deliberate borrow of the nuance, same function as in pure Japanese: signaling ""I'm still deciding/not fully sure,"" said as much to themselves as to you. Worth recognizing as a genuine, common code-switch rather than an error or quirk specific to one speaker.
+
+## Notes
+- かな can double up for extra hesitation: かなあ (drawn out) — even softer, more drawn-out uncertainty.
+- Don't confuse か+な (this pattern) with な as the casual masculine command-negation particle (行くな — don't go) — unrelated, context (preceding plain form + full sentence intonation) makes it obvious which is meant.",2026-07-16T09:43:43.976791+00:00,2026-07-16T09:43:43.976791+00:00,ja
+33,4-pattern/10-だろう-でしょう,"だろう / でしょう(でしょ) - ""probably"" / confirmation tag",pattern,4,10,"# だろう / でしょう(でしょ) - ""probably"" / confirmation tag
+
+Expresses a confident guess (""probably X"") or seeks/asserts agreement with a rising tone (""...right?""). だろう is the plain-form register, でしょう the polite — でしょ is でしょう's casual clip, extremely common as a tag question.
+
+## Forming it
+Attaches after plain form (dropping だ for nouns/な-adjectives):
+
+- 明日は晴れるだろう。— [It]'ll probably be sunny tomorrow. (plain, more common in narration/writing or masculine-leaning casual speech)
+- 明日は晴れるでしょう。— [It]'ll probably be sunny tomorrow. (polite, common in weather forecasts, formal predictions)
+- 彼はもう帰っただろう。— He's probably already gone home.
+- 学生だろう。/ 学生でしょう。— [They]'re probably a student.
+
+## ""Probably"" — confident prediction
+The core use: stating a likely outcome with more confidence than かも (see [[8-かも]]), but still short of certainty:
+
+- 田中さんは来るでしょう。— Tanaka will probably come.
+- 高いだろうと思う。— I think [it]'s probably expensive. (stacks with と思う, see [[../1-particle/5a-と]])
+
+Compare the confidence ladder: かも (might, genuinely uncertain) < かな (wondering, undecided) < だろう/でしょう (probably, fairly confident) < plain assertion (certain).
+
+## でしょ — casual confirmation tag (""...right?"")
+Clipped でしょ, said with rising intonation, asks the listener to confirm or agree — similar territory to ね (see [[../1-particle/6a-ね]]), but でしょ carries more of ""I'm pretty confident I'm right, back me up"" rather than ね's neutral ""don't you agree too"":
+
+- すごいでしょ! — Pretty amazing, right?! (showing off, expecting agreement)
+- おいしいでしょ? — Tasty, right? (confident it's true, checking the listener agrees)
+- だから言ったでしょ! — [That's why] I told you [so], right?! (mildly scolding — ""I was right"")
+
+## でしょ vs ね — nuance difference
+ね genuinely invites the listener's independent reaction/agreement (""isn't it?"" — open to their own take). でしょ leans toward ""I already know I'm right, confirm it"" — more assertive, sometimes a little smug or playful depending on tone:
+
+- いい天気ですね。— Nice weather, isn't it. (neutral, sharing the observation)
+- いい天気でしょ? — Nice weather, right? (implying ""I told you it would be"" or ""see, I was right"")
+
+## Notes
+- だろう can sound blunt/masculine in casual speech if used carelessly — でしょ is the safer, more universally natural casual choice for the ""probably/right?"" role in everyday conversation.
+- でしょうか is the formal, softened question form (""I wonder if... / would it be..."") — distinct from casual でしょ, see the brief mention in [[../1-particle/7-か]].",2026-07-16T09:43:43.976791+00:00,2026-07-16T09:43:43.976791+00:00,ja
+34,4-pattern/11-んじゃない,"んじゃない(?) - rhetorical ""isn't it?"" tag",pattern,4,11,"# んじゃない(?) - rhetorical ""isn't it?"" tag
+
+Floats an opinion or observation as a soft rhetorical question rather than a flat statement — ""isn't it...?"", ""I think it's..., no?"" Built from の/ん (see [[../1-particle/4-の]]) + じゃない (casual negative copula, see [[../2-verb/3-plain-vs-polite-form]]), but the negative here isn't literal — it's a rhetorical-question shape, not an actual negation.
+
+## Forming it
+Plain form + んじゃない (casual) / んじゃないですか (polite):
+
+- それ、いいんじゃない? — Isn't that good? / I think that's good, no?
+- 高いんじゃない? — Isn't [that] expensive?
+- 行ったほうがいいんじゃない? — Isn't it better to go? (stacks with ほうがいい, see [[7-ほうがいい]])
+- 大丈夫なんじゃないですか。— Isn't [it] probably fine? (polite version, な inserted for na-adjectives/nouns before ん, same as んです — see [[1-んです]])
+
+## Not a real negative — a softened assertion
+The literal grammar reads as ""isn't it not X"" (double negative-shaped), but the actual meaning is a gently floated positive opinion — the rhetorical question shape exists specifically to avoid stating something too bluntly:
+
+- それ、変じゃない? — Isn't that weird? (= I think that's weird, but framed as a question so it's less confrontational)
+- できるんじゃない? — Can't [you] probably do it? (= I think you can, encouraging)
+
+## んじゃない vs でしょ vs ね — three ways to float an opinion softly
+All three invite some kind of listener reaction, but with different flavors:
+
+| Form | Flavor |
+|---|---|
+| 〜んじゃない? | ""I think X, but I'm floating it as a question"" — genuinely open to pushback |
+| 〜でしょ? | ""I'm confident X is right, confirm it"" — see [[10-だろう-でしょう]] |
+| 〜ね | ""I assume you agree, sharing the feeling"" — see [[../1-particle/6a-ね]] |
+
+んじゃない is the most tentative/hedge-y of the three — it's specifically useful when suggesting something without wanting to sound like you're asserting a fact.
+
+## Common daily uses: suggestions and gentle pushback
+- 今日は疲れてるし、休んだほうがいいんじゃない? — [You]'re tired today, maybe [you] should rest? (a suggestion, softened)
+- それ、違うんじゃない? — Isn't that wrong? / I don't think that's right. (gentle correction, less blunt than 違うよ)
+
+## Notes
+- Intonation matters — rising, soft intonation reads as genuinely open/gentle; flatter delivery can sound more like a mild assertion of disagreement, closer to ""that's not right, is it.""
+- んじゃないかな combines this with かな (see [[9-かな]]) for maximum softness/hedging: 大丈夫なんじゃないかな。— I think it's probably okay, though [I'm not totally sure].",2026-07-16T09:43:43.976791+00:00,2026-07-16T09:43:43.976791+00:00,ja
+35,4-pattern/12-たことがある,"たことがある - ""have done X before"" (experience)",pattern,4,12,"# たことがある - ""have done X before"" (experience)
+
+States that you have experience doing something at some point in the (usually unspecified) past — ""I've done X before,"" ""I have experience with X."" Extremely common in daily conversation about travel, food, hobbies, and general life experience.
+
+## Forming it
+Plain past (た-form, see [[../2-verb/2-て-form]]) + ことがある:
+
+- 日本に行ったことがあります。— [I]'ve been to Japan [before].
+- 納豆を食べたことがある。— [I]'ve eaten natto before.
+- 富士山に登ったことがありますか。— Have [you] ever climbed Mt. Fuji?
+
+Negative — ""never done X"":
+- 海外に行ったことがない。— [I]'ve never been abroad.
+- そんなの聞いたことがありません。— [I]'ve never heard of such a thing.
+
+## Emphasis on experience, not recency or a specific time
+This pattern is specifically about the *fact of having done something at least once*, without pinning down when — contrast with plain past, which reports a specific event:
+
+- 日本に行きました。— [I] went to Japan. (a specific, completed trip — implies a known ""when"")
+- 日本に行ったことがあります。— [I]'ve been to Japan [at some point]. (experience/résumé fact, timing irrelevant)
+
+Don't use this pattern for something that just happened or has an obvious specific timeframe — たことがある sounds odd for very recent/specific events (誰かと今日話したことがある sounds strange; just 今日話しました is natural).
+
+## Asking about experience — common conversation starter
+〜たことがありますか is one of the most natural ways to make small talk about travel, food, or hobbies:
+
+- 韓国に行ったことがありますか。— Have [you] ever been to Korea?
+- この映画、見たことある? — Have [you] seen this movie [before]? (casual, ある without ですか)
+
+## Casual clipping
+In relaxed speech, ことがある often drops the が: ことある — very common, natural contraction:
+
+- それ、聞いたことある。— [I]'ve heard of that.
+- やったことない。— [I]'ve never done [it].
+
+## Notes
+- Not to be confused with things happening habitually (that's ている/たり〜たりする, see [[../2-verb/10-たり]]) — たことがある is strictly about whether an experience exists at all in your history, once or more, not how often.
+- こと here nominalizes the verb (turning ""did X"" into ""the experience of having done X"") — the same こと used in 〜ことができる (potential, see [[../2-verb/5-potential-form]]).",2026-07-16T09:43:43.976791+00:00,2026-07-16T09:43:43.976791+00:00,ja
+36,4-pattern/13-verb-nai-invitation,Verb-ない? - casual invitation,pattern,4,13,"# Verb-ない? - casual invitation
+
+A plain negative question used specifically to invite someone to do something together — ""wanna...?"", ""won't you...?"" One of the most natural, common ways to propose plans casually, distinct from んじゃない's rhetorical-opinion use (see [[11-んじゃない]]).
+
+## Forming it
+Plain negative (see [[../2-verb/3-plain-vs-polite-form]]) + rising intonation, written with a question mark in casual text:
+
+- 一緒に行かない? — Wanna go together?
+- お茶しない? — Wanna grab tea?
+- 今度、映画見ない? — Wanna watch a movie sometime?
+- 週末、遊ばない? — Wanna hang out this weekend?
+
+## Why negative form for a positive invitation
+The negative framing (""won't you do X?"") softens the invitation compared to a flat positive suggestion — it leaves room for the other person to say no without it feeling like they're rejecting a direct proposal. This mirrors ませんか as its polite counterpart (see the note in [[../2-verb/7-volitional-form]]):
+
+- 行かない? — Wanna go? (casual, plain negative)
+- 行きませんか。— Won't [you] go [with me]? (polite negative — same softening logic, formal register)
+
+Both are gentler than a bare volitional 行こう (let's go — see [[../2-verb/7-volitional-form]]), which reads more like a decision already being made rather than an open invitation.
+
+## Responding to an invitation
+Natural casual responses:
+
+- いいね、行こう! — Sounds good, let's go! (accepting, switching to volitional)
+- うん、いいよ。— Yeah, sure.
+- ごめん、今日はちょっと... — Sorry, today's a bit... (declining, trailing off — see [[../5-filler/5-ちょっと]] for this soft-refusal pattern)
+
+## Distinguishing from a real negative question
+Context and intonation separate this from an actual ""aren't you doing X?"" question — an invitation-ない? is warm/forward-looking (proposing something new), while a literal negative question usually checks on an existing plan or fact:
+
+- 行かない? — Wanna go? (proposing something new)
+- 行かないの? — [You]'re not going? (checking on an already-known plan, mild surprise — see the の nuance in [[../1-particle/4-の]])
+
+## Notes
+- This pattern works with any verb, not just social activities — 食べない? (want to eat [some]?), 座らない? (wanna sit?) — anywhere you'd propose a shared action.
+- Purely casual register — for anyone you'd need politeness with, use ませんか instead.",2026-07-16T09:43:43.976791+00:00,2026-07-16T09:43:43.976791+00:00,ja
+37,4-pattern/14-てほしい,"てほしい - ""want someone [else] to do X""",pattern,4,14,"# てほしい - ""want someone [else] to do X""
+
+Expresses wanting another person to do something — the other-directed counterpart to たい (see [[../2-verb/4-たい-form]]), which is strictly about the speaker's own desire to act.
+
+## Forming it
+て-form (see [[../2-verb/2-て-form]]) + ほしい, which conjugates as a regular い-adjective:
+
+- 来てほしい。— [I] want [you] to come.
+- 手伝ってほしいんですが。— [I]'d like [you] to help, if [you] could. (stacking with んです, see [[1-んです]], for a softer request-flavored statement)
+- もっと話してほしかった。— [I] wish [he]'d talked more. (past: てほしかった)
+
+Negative — wanting someone *not* to do something:
+- 心配してほしくない。— [I] don't want [you] to worry.
+- もう来てほしくない。— [I] don't want [you] to come anymore.
+
+## たい vs てほしい — who's doing the action
+This is the one thing to keep straight: たい attaches when the *speaker* is the one who wants to act; てほしい attaches when the speaker wants *someone else* to act:
+
+- 行きたい。— [I] want to go. (I'm the one going)
+- 行ってほしい。— [I] want [you] to go. (someone else is going, I want it to happen)
+
+Mixing these up is a common learner slip, since English ""want"" doesn't grammaticalize this distinction the same way.
+
+## てほしい vs a direct request (てください)
+てほしい states a desire/wish about someone else's action — it's more of an expressed hope than an actual command, and often softer/more indirect than directly asking with てください (see [[2-requests]]):
+
+- 手伝ってください。— Please help [me]. (direct request)
+- 手伝ってほしいな。— [I] wish [you'd] help [me]. (expressing a wish, softer, sometimes used when not directly asking, just voicing a hope)
+
+てほしい is common when talking *about* wanting something from someone who isn't present, or when softening a wish rather than issuing an instruction.
+
+## Notes
+- Like たい, てほしい directly describes the speaker's own feeling — for describing a third party's wish about someone else, hedge with と思っている or がっている constructions (long-tail, not needed early — see the third-person note in [[../2-verb/4-たい-form]] for the parallel logic with たい).
+- Often paired with な/よね for a musing, wishful tone in casual speech: 早く終わってほしいな。— [I] wish it would end soon.",2026-07-16T09:43:43.976791+00:00,2026-07-16T09:43:43.976791+00:00,ja
+38,5-filler/1-なんか,"なんか - filler / ""like"" / ""something""",filler,5,1,"# なんか - filler / ""like"" / ""something""
+
+One of the most common words in casual spoken Japanese, doing three related jobs: a thinking filler, a casual ""something,"" and a non-exhaustive example marker. If you listen to any natural conversation, なんか shows up constantly.
+
+## Pure filler (""like,"" ""um,"" ""sort of"")
+Dropped in at the start of a sentence or mid-thought while organizing what to say, or to soften a statement — functionally close to English ""like"" as a filler:
+
+- なんか、疲れた。— Like, [I'm] tired. / Somehow [I'm] tired.
+- なんか、今日変な日だった。— Today was, like, a weird day.
+- それ、なんか違うと思う。— I think that's, like, not quite right.
+
+This use carries no fixed literal meaning — it's a hedge/pause word, similar to how ""like"" or ""kind of"" gets inserted in casual English speech. Overusing it is a real tic (native speakers do it too, in bursts), but as a learner it's more important to *recognize* it than to force it into your own speech constantly.
+
+## Casual contraction of 何か (""something"")
+なんか is the everyday spoken contraction of 何か (see the indefinite-pronoun note in [[7-か]]):
+
+- なんか食べたい。— [I] want to eat something.
+- なんか変な音がした。— [I] heard some kind of weird sound.
+- なんか用? — [You] need something [from me]? / What's up? (casual, slightly blunt)
+
+Compare with the filler use: 何か食べたい (want to eat *something*, specific unspecified object) vs なんか、食べたい (like, [I] want to eat — filler softening the whole sentence, no specific ""something"" implied). Context and what follows なんか usually disambiguates.
+
+## Non-exhaustive example marker (""things like X"")
+Attaches after a noun to suggest it as one example among similar things — overlaps with とか (see [[13-とか]]) but slightly more casual/dismissive in tone, sometimes implying mild distance or a lack of enthusiasm:
+
+- コーヒーなんか好きです。— [I] like things like coffee. (coffee as one example of what I like)
+- 一人でなんか行けないよ。— [I] can't go alone or anything [like that]. (なんか reinforcing ""there's no way"")
+
+## Vague dissatisfaction / ""something's off"" feeling
+なんか often precedes a vague, hard-to-pin-down feeling or impression — ""somehow,"" ""for some reason"":
+
+- なんか変。— Something's weird [about this]. (can't quite say what)
+- なんか嫌だ。— [I] just don't like it, somehow. (no clear reason given)
+
+## Notes
+- なんか is almost exclusively spoken/casual — avoid it in polite or written contexts; そうですね-style fillers or a clean sentence without it are better there.
+- Don't confuse なんか (filler/something/example-marker, this file) with なにか, its full, unabbreviated written form — they're the same word, なんか is just the natural spoken contraction.",2026-07-16T09:43:43.976791+00:00,2026-07-16T09:43:43.976791+00:00,ja
+39,5-filler/2-あの,あの / あのー - hesitation / attention-getter,filler,5,2,"# あの / あのー - hesitation / attention-getter
+
+Opens a sentence to get someone's attention, hesitate before saying something (often awkward or a request), or politely interrupt. One of the most reflexive fillers in Japanese — often the very first sound out of someone's mouth when approaching a stranger.
+
+## Getting someone's attention / approaching a stranger
+The standard, polite way to open an interaction with someone you don't know — a waiter, a stranger on the street, a store clerk:
+
+- あの、すみません。— Um, excuse me.
+- あのー、これはいくらですか。— Um, how much is this?
+
+Functionally similar to ""excuse me"" or ""um"" in English as a conversation-opener, not a request itself — it just signals ""I'm about to say something to you.""
+
+## Hesitation before a request or awkward topic
+あの (often lengthened to あのー while thinking) buys a beat before saying something potentially uncomfortable, asking a favor, or bringing up a sensitive topic:
+
+- あの、ちょっとお願いがあるんですが。— Um, [I] have a bit of a favor to ask...
+- あのー、実は... — Um, actually...
+
+Pairs naturally with the softening んですが/んですけど pattern (see [[1-んです]] in 4-pattern and [[12-けど]] in 1-particle).
+
+## Length signals hesitation level
+A short あの is a quick attention-getter; a drawn-out あのー signals more hesitation or that the speaker is actively formulating what to say next — similar to how ""um..."" can be short or stretched out in English depending on how much someone is stalling.
+
+## Notes
+- あの is polite/neutral register — safe with strangers, service staff, and in formal contexts, unlike more casual fillers like なんか (see [[1-なんか]]).
+- Don't confuse this あの with あの as a demonstrative adjective (""that ~ over there,"" as in あの人 — that person) — same word, different job; context (start of a sentence with nothing following directly = filler; あの + noun = demonstrative) makes it clear.",2026-07-16T09:43:43.976791+00:00,2026-07-16T09:43:43.976791+00:00,ja
+40,5-filler/3-えっと,えっと / えーと - thinking filler,filler,5,3,"# えっと / えーと - thinking filler
+
+Pure ""let me think"" filler — used while recalling information, deciding what to say, or working something out in real time. Unlike あの (see [[2-あの]]), which opens an interaction, えっと is used mid-thought, often when put on the spot.
+
+## Buying time to think
+Dropped in right before or during the moment of trying to remember or calculate something:
+
+- えっと、明日は... 火曜日だ。— Um, tomorrow is... [it]'s Tuesday.
+- えっと、名前なんだっけ。— Uh, what was [their] name again...
+- えーと、どこまで話したっけ。— Um, where was I in the story...
+
+## Answering a question you need a second to think about
+Extremely common right after being asked something that requires a moment of recall or calculation:
+
+- Q: 全部でいくらですか。— How much is it in total?
+- A: えっと... 3000円です。— Um... it's 3000 yen.
+
+## えっと vs あの — different jobs
+えっと is about the speaker's own thinking process (internal, ""let me recall/figure this out""); あの is about addressing the listener (external, ""hey, before I say this...""). They can even stack: あの、えっと... — Um, uh... (hesitating both to speak up and to figure out what to say).
+
+## Notes
+- えっと/えーと is neutral register — fine in both casual and polite conversation, since it's just a natural pause, not a stylistic choice like なんか (see [[1-なんか]]).
+- Lengthening the ー (えーーーと) mirrors dragging out ""uhhhh"" in English — more stalling, same function.",2026-07-16T09:45:51.325896+00:00,2026-07-16T09:45:51.325896+00:00,ja
+41,5-filler/4-やっぱり,"やっぱり / やっぱ - ""as I thought"" / ""after all""",filler,5,4,"# やっぱり / やっぱ - ""as I thought"" / ""after all""
+
+Signals that a conclusion matches what you suspected, or marks a change of mind back to an earlier instinct. One of the most frequently used words in casual Japanese conversation — やっぱ is the even more casual, clipped version.
+
+## Confirming a hunch (""as I thought"" / ""I knew it"")
+Used when reality confirms what you already suspected or predicted:
+
+- やっぱり雨が降った。— [It] rained after all, [just as I thought].
+- やっぱり彼は来なかった。— [As expected], he didn't come.
+- やっぱりそうだと思った! — I knew it! (lit. ""I thought it was as I expected, after all"")
+
+## Reverting to an earlier choice (""after all,"" ""on second thought"")
+Marks changing your mind back toward something you'd considered before, or reconsidering a decision mid-stream:
+
+- やっぱりコーヒーにする。— [I]'ll have coffee after all. (changed mind, back to original instinct)
+- やっぱりやめよう。— Let's not, after all. / On second thought, let's not.
+- 行くか迷ったけど、やっぱり行くことにした。— [I] was torn about going, but decided to go after all.
+
+This ""changing your mind, landing back on your gut instinct"" use is extremely common in daily decision-making speech — ordering food, making plans, etc.
+
+## Standalone reaction
+やっぱり! by itself is a common one-word reaction meaning ""I knew it!"" / ""just as expected"" — reacting to news that confirms a suspicion.
+
+## やっぱ — casual clip
+やっぱ is just やっぱり with the last syllable dropped, used identically but sounds more casual/quick — common in relaxed spoken Japanese:
+
+- やっぱ無理。— Nah, can't do it after all.
+
+## Notes
+- やっぱり doesn't attach grammatically to anything — it's a standalone adverb that sits at the start of (or floats within) a sentence, unlike particles that attach directly to words.
+- Distinct from もう一度 (once more) or また (again) — やっぱり is specifically about matching an expectation or reverting to an earlier inclination, not repetition.",2026-07-16T09:45:51.325896+00:00,2026-07-16T09:45:51.325896+00:00,ja
+42,5-filler/5-ちょっと,"ちょっと - ""a little"" / softening hedge",filler,5,5,"# ちょっと - ""a little"" / softening hedge
+
+Literally ""a little/a bit,"" but its real daily job is softening requests, refusals, and criticism — one of the most reflexively used words in polite/casual Japanese to avoid sounding blunt.
+
+## Literal ""a little""
+The base meaning, quantifying something as small in degree or amount:
+
+- ちょっと待ってください。— Please wait a moment.
+- ちょっと高いですね。— [It]'s a bit expensive, isn't it.
+- ちょっとだけ食べた。— [I] ate just a little. (see [[9a-だけ]] in 1-particle for the stacking with だけ)
+
+## Softening a refusal (""that's a bit..."")
+ちょっと is the go-to way to decline or express reluctance without directly saying no — trailing off is completely normal and understood as a soft ""no"":
+
+- 今日はちょっと... — Today's a bit... [not good for me]. (trails off, understood as declining)
+- それはちょっと難しいです。— That's a bit difficult. (softer than 無理です/できません — ""impossible/can't do it"")
+
+Leaving the sentence unfinished after ちょっと is not rude or incomplete — it's the expected, polite way to say no in many daily situations, especially declining invitations. See [[../8-conjunction/2-trailing-off]] for this same trailing-off habit across けど/し/から/て-form.
+
+## Softening a request or interruption
+Similar to あの (see [[2-あの]]), ちょっと often opens a request to make it feel smaller/less imposing:
+
+- ちょっと聞いてもいいですか。— Can I ask [you] something [real quick]?
+- ちょっとすみません。— Excuse me a moment. (getting past someone, interrupting briefly)
+
+## Softening criticism or a negative observation
+Cushions a critical or negative statement so it lands less harshly:
+
+- それはちょっと... — That's a bit [off/not great]. (implied criticism, unfinished)
+- ちょっとうるさいよ。— [That]'s a little loud, y'know. (softer than 直接 うるさい! alone)
+
+## Notes
+- ちょっと is safe across both polite and casual registers — one of the most universally usable softeners in the language, unlike casual-only fillers such as なんか (see [[1-なんか]] in 5-filler).
+- ちょっと + trailing silence (no verb after) is a distinct, very common pattern worth specifically getting comfortable with — it's not a sentence fragment mistake, it's how native speakers decline things gracefully.",2026-07-16T09:45:51.325896+00:00,2026-07-16T09:45:51.325896+00:00,ja
+43,5-filler/6-まあ,"まあ - ""well"" / hedging filler",filler,5,6,"# まあ - ""well"" / hedging filler
+
+A soft hedge meaning roughly ""well,"" ""I guess,"" ""more or less"" — downplays certainty, tones down a statement, or signals reluctant acceptance.
+
+## Downplaying / ""I guess"" / ""more or less""
+Softens a statement so it doesn't sound too definite or strong:
+
+- まあ、いいか。— Well, [it]'s fine [I guess]. / Oh well, whatever.
+- まあ、そうですね。— Well, I suppose so. (agreeing, but without full conviction)
+- まあまあです。— [It]'s so-so / okay, I guess. (doubled まあまあ specifically means ""mediocre/average"")
+
+## Reluctant acceptance / settling for something
+Signals accepting a situation without being fully enthusiastic about it:
+
+- まあ、仕方ないね。— Well, [it] can't be helped, I guess.
+- まあ、いいんじゃない? — Well, [I guess it]'s fine? (mild, unenthusiastic approval)
+
+## Softening before disagreeing or qualifying
+Often opens a sentence right before a mild pushback or qualification, cushioning it:
+
+- まあ、それはそうだけど... — Well, that's true, but... (see [[../1-particle/12-けど]] for the けど half of this pairing)
+
+## まあまあ — ""so-so"" (distinct doubled form)
+Worth knowing as its own fixed phrase — answering ""how was it?"" with まあまあ means ""eh, okay/average,"" neither good nor bad:
+
+- Q: 映画どうだった? — How was the movie?
+- A: まあまあだった。— It was so-so.
+
+## Notes
+- まあ is safe in both casual and moderately polite speech — less blunt/casual-only than なんか (see [[1-なんか]]), closer in register to ちょっと (see [[5-ちょっと]]).
+- Don't confuse the filler まあ with 前 (まえ, ""before/front"") — unrelated words, distinguishable by context and that まあ never takes に/の the way 前 does.",2026-07-16T09:45:51.325896+00:00,2026-07-16T09:45:51.325896+00:00,ja
+44,5-filler/7-というか,"というか - ""or rather"" / self-correction filler",filler,5,7,"# というか - ""or rather"" / self-correction filler
+
+Used to rephrase, correct, or refine what you just said (or are about to say) mid-sentence — ""or rather,"" ""I mean,"" ""more like."" Literally ""or [if I were to] say"" (と + 言う + か, see [[../1-particle/5a-と]] for と's quoting function).
+
+## Rephrasing / correcting yourself mid-thought
+Signals swapping out a word or framing for a more accurate one, right after saying it:
+
+- 楽しい、というか、面白かった。— [It] was fun — or rather, interesting. (refining the word choice)
+- 忙しい、というか、時間がない。— [I]'m busy — I mean, [I] don't have time. (clarifying what ""busy"" actually means here)
+
+## Pushing back on a premise gently
+というか can also redirect a conversation, gently suggesting the other person's framing is slightly off before offering a better one:
+
+- A: それ、難しいね。— That's hard, huh.
+- B: というか、無理じゃない? — I mean, isn't it [just] impossible? (reframing ""hard"" as ""impossible"")
+
+## Opening with a correction to what was just implied
+Common right at the start of a response, right after hearing something you want to gently push back on or reframe:
+
+- というか、それ聞いてないんだけど。— Wait, I mean, [I] wasn't told that. (mild pushback, softened by というか instead of a blunt correction)
+
+## というか vs まあ — different jobs
+まあ (see [[6-まあ]]) hedges/downplays; というか actively rephrases or corrects. They can even combine: まあ、というか... — Well, I mean...
+
+## Notes
+- というか is casual-to-neutral register — fine in relaxed conversation, less at home in formal/polite contexts where a fuller rephrase (それより, むしろ) would be more appropriate.
+- Functions similarly to inserting ""I mean"" or ""or rather"" mid-sentence in English — a live self-edit, not a planned part of the sentence structure.",2026-07-16T09:45:51.325896+00:00,2026-07-16T09:45:51.325896+00:00,ja
+45,5-filler/8-じゃあ,"じゃあ / じゃ - ""well then"" / ""so"" transition",filler,5,8,"# じゃあ / じゃ - ""well then"" / ""so"" transition
+
+Opens a response or shifts into an action/decision based on what was just said — ""well then,"" ""so,"" ""in that case."" One of the most common ways to transition a conversation forward in daily Japanese.
+
+## Reacting to information — ""well then"" / ""in that case""
+Signals that what follows is a natural conclusion or reaction to what the other person just said:
+
+- A: 今日は雨みたいだよ。— Looks like rain today. B: じゃあ、傘を持っていこう。— Well then, [I]'ll bring an umbrella. (see [[../4-pattern/5-appearance-hearsay]] for みたい)
+- A: もう時間だよ。— It's already time. B: じゃあ、行くね。— Okay then, [I]'m off.
+
+## Transitioning into an action or closing
+Extremely common to open the final line of an exchange — wrapping up and moving into what happens next:
+
+- じゃあ、始めましょうか。— Well then, shall [we] begin? (see [[../2-verb/7-volitional-form]] for ましょうか)
+- じゃあね! — See ya! / Bye then! (a very common casual goodbye)
+- じゃあ、また明日。— Okay, see [you] tomorrow then.
+
+## じゃ — casual clip
+じゃ is じゃあ shortened further, used identically but slightly more clipped/quick, common in fast casual speech:
+
+- じゃ、行こうか。— Well, shall we go?
+
+## じゃあ vs では — formality register
+では is the more formal/written equivalent of じゃあ, appearing in business speech, presentations, and writing (では、始めます — well then, let's begin) — じゃあ/じゃ is what you'll hear in casual daily conversation almost exclusively.
+
+## Notes
+- じゃあ is unrelated to じゃない (casual negative copula, see [[../2-verb/3-plain-vs-polite-form]]) despite the visual similarity — じゃあ is a standalone transition word, じゃない is a conjugated negative form attached to something.
+- Often paired with a beat of thought before it, functioning like えっと (see [[3-えっと]]) crossed with a decision — じゃあ often marks the moment a decision gets made, not just idle transition.",2026-07-16T09:45:51.325896+00:00,2026-07-16T09:45:51.325896+00:00,ja
+46,6-counter/1-counters,Counters (助数詞) — how to count things,counter,6,1,"# Counters (助数詞) — how to count things
+
+Japanese doesn't count ""two books"" the way English does — every noun category has its own counter suffix attached to a number, and the numbers themselves sometimes shift sound depending on which counter follows. Survival-critical: ordering food, buying things, giving your age, telling time, counting people, all route through this system.
+
+## Two number systems
+Japanese has native Japanese numbers (used for a small, closed set of generic counting) and Sino-Japanese numbers (used with virtually all counters):
+
+**Native (native Japanese, only goes 1–10, then switches to Sino-Japanese):**
+ひとつ、ふたつ、みっつ、よっつ、いつつ、むっつ、ななつ、やっつ、ここのつ、とお
+
+Used generically for objects with no specific counter, or when you don't know/remember the right counter — a safe fallback: りんごを 3つ ください。— [Give me] 3 apples, please. (using つ instead of 個)
+
+**Sino-Japanese (the base system nearly all counters attach to):**
+いち、に、さん、よん(し)、ご、ろく、なな(しち)、はち、きゅう(く)、じゅう
+
+4, 7, and 9 each have two readings (よん/し, なな/しち, きゅう/く) — which one is used depends on the specific counter or context; both exist because し and しち sound too similar and get avoided in speech, and し/く carry unlucky death/suffering associations avoided in certain contexts (hospitals, gift quantities).
+
+## Common counters
+
+| Counter | Used for | Example |
+|---|---|---|
+| 人 (にん/り) | people | 一人 (ひとり), 二人 (ふたり), 三人 (さんにん) — irregular for 1 and 2! |
+| つ | generic objects (native numbers) | 一つ、二つ、三つ |
+| 個 (こ) | small general objects | 一個、二個、三個 |
+| 枚 (まい) | flat things (paper, tickets, plates) | 一枚、二枚 |
+| 本 (ほん/ぼん/ぽん) | long cylindrical things (bottles, pens, trains) | 一本 (いっぽん), 二本 (にほん), 三本 (さんぼん) |
+| 冊 (さつ) | bound things (books, magazines) | 一冊、二冊 |
+| 匹 (ひき/びき/ぴき) | small animals (cats, dogs, bugs) | 一匹 (いっぴき), 二匹 (にひき) |
+| 頭 (とう) | large animals (cows, elephants) | 一頭、二頭 |
+| 台 (だい) | machines, vehicles | 一台、二台 |
+| 階 (かい/がい) | floors of a building | 一階 (いっかい), 二階 (にかい) |
+| 歳/才 (さい) | age | 一歳、二十歳 (はたち — irregular!) |
+| 円 (えん) | yen | 百円、千円 |
+| 時 (じ) | hour (clock time) | 一時、二時、四時 (よじ, not よんじ) |
+| 分 (ふん/ぷん) | minutes | 一分 (いっぷん), 二分 (にふん), 三分 (さんぷん) |
+
+## The sound-shift trap
+Certain counters starting with は/ひ/ふ (本、匹、分, etc.) trigger consonant shifts on 1, 3, 6, 8, and 10 — this is genuinely irregular and just needs memorizing per counter, following patterns like:
+
+- 一 + 本/匹/分/階 → いっぽん/いっぴき/いっぷん/いっかい (っ + p-sound)
+- 三 + 本 → さんぼん (b-sound, not h)
+- 六/八/十 + 本 → ろっぽん/はっぽん/じゅっぽん (っ + p-sound again)
+
+There's no universal shortcut — but the pattern of ""1, 3, 6, 8, 10 are the troublemakers with は-row counters"" is worth knowing so you're not caught off guard.
+
+## 人 — the irregular counter for people
+The most commonly used counter has genuinely irregular readings for 1 and 2, then becomes regular:
+
+- 一人 (ひとり) — one person
+- 二人 (ふたり) — two people
+- 三人 (さんにん), 四人 (よにん), 五人 (ごにん)... — regular にん from 3 onward
+
+## Asking ""how many?""
+The question word matches the counting system in use:
+
+- いくつ — how many (with native つ counting, or asking age casually: おいくつですか — how old are you, polite)
+- 何 + counter — how many, with Sino-Japanese counters: 何人 (なんにん, how many people), 何個 (なんこ, how many pieces), 何歳 (なんさい, how old)
+
+## Notes
+- When unsure of the exact counter for something, つ (native numbers) is a safe generic fallback for physical objects — natives will understand even if it's not the ""textbook precise"" counter.
+- The most natural position for a number+counter is right after the noun's particle, floating before the verb: りんごを3つ買った。— [I] bought 3 apples. Placing it before the noun with の (3つのりんごを買った) is also grammatical and common, just a slightly different emphasis — both are fine to use.",2026-07-16T09:45:51.325896+00:00,2026-07-16T09:45:51.325896+00:00,ja
+47,7-question-word/1-こそあど,こそあど - demonstrative system (this/that/where/how),question-word,7,1,"# こそあど - demonstrative system (this/that/where/how)
+
+A systematic family of reference words built on four prefixes — こ (near speaker), そ (near listener / already mentioned), あ (far from both / shared knowledge), ど (question) — each combined with the same set of suffixes for ""thing,"" ""place,"" ""direction,"" ""kind,"" and ""manner."" Learn the pattern once, get the whole system.
+
+## The grid
+
+| | こ (near me) | そ (near you / mentioned) | あ (far from both) | ど (which/where?) |
+|---|---|---|---|---|
+| Thing | これ (this) | それ (that) | あれ (that, over there) | どれ (which one) |
+| Place | ここ (here) | そこ (there) | あそこ (over there) | どこ (where) |
+| Direction | こちら/こっち (this way) | そちら/そっち (that way) | あちら/あっち (that way, far) | どちら/どっち (which way) |
+| Kind (+noun) | この (this ~) | その (that ~) | あの (that ~, far) | どの (which ~) |
+| Adjectival | こんな (this kind of) | そんな (that kind of) | あんな (that kind of, far) | どんな (what kind of) |
+| Manner | こう (like this) | そう (like that) | ああ (like that, far) | どう (how) |
+
+## こ/そ/あ — physical distance vs. conversational distance
+Two overlapping systems:
+
+**Physical**: こ = close to the speaker, そ = close to the listener, あ = far from both.
+- これ、ください。— This one, please. (near you, the speaker)
+- それ、何ですか。— What's that? (near the listener)
+- あそこに猫がいる。— There's a cat over there. (far from both)
+
+**Conversational/discourse**: そ = something the listener just mentioned or that's newly introduced into the conversation; あ = something both speaker and listener already know about/share context on (shared memory, not physically present).
+
+- A: 昨日、いい映画を見たよ。— I saw a good movie yesterday. B: それ、何て映画? — What movie [is] that? (そ — referring to what was just said, not physically present)
+- あの店、また行きたいね。— [I] want to go to that shop again, huh. (あ — a shared reference both people already know, not currently visible)
+
+## この/その/あの/どの — before a noun (attributive)
+These must be directly followed by a noun — they cannot stand alone the way これ/それ/あれ/どれ can:
+
+- この本。— This book. (not ~~これ本~~)
+- どの人ですか。— Which person is it?
+
+Note: あの here is the same word as the filler あの (see [[../5-filler/2-あの]]) — genuinely the same demonstrative, just grammaticalized into a filler/attention-getter when used alone at the start of a sentence.
+
+## こんな/そんな/あんな/どんな — describing a kind/type
+Function like な-adjectives, describing ""this kind of,"" ""that sort of"":
+
+- こんな服が好きです。— [I] like this kind of clothes.
+- そんなこと言わないで。— Don't say something like that. (see [[2-requests]] for ないで)
+- どんな音楽が好きですか。— What kind of music do [you] like?
+
+## こう/そう/ああ/どう — manner (""like this/that/how"")
+Describe *how* something is done or *how* something is:
+
+- こうしてください。— Please do [it] like this.
+- どうしましたか。— What happened? / What's wrong? (extremely common daily question — see the んですか pairing in [[1-んです]]: どうしたんですか)
+- そう思います。— I think so. (そう here overlaps with the appearance/hearsay そう — see [[5-appearance-hearsay]])
+
+## Notes
+- どう/どんな/どちら are the question-row — they combine with か to form indefinites, mirroring 何か/誰か (see [[../1-particle/7-か]]): どこか (somewhere), どれか (some one of them).
+- こちら/そちら/あちら/どちら (formal) vs こっち/そっち/あっち/どっち (casual) — same meaning, different register; the casual っち forms are far more common in daily speech.",2026-07-16T09:45:51.325896+00:00,2026-07-16T09:45:51.325896+00:00,ja
+48,7-question-word/2-question-words,Question words — 何 / 誰 / いつ / いくら / なぜ・どうして,question-word,7,2,"# Question words — 何 / 誰 / いつ / いくら / なぜ・どうして
+
+The core interrogatives that live outside the こそあど grid (see [[1-こそあど]] for どこ/どれ/どう/どの/どんな, which are part of that system). These are basic, load-bearing daily vocabulary — asking what, who, when, how much, and why.
+
+## 何 (なに/なん) — what
+Two readings depending on what follows — なん before certain consonants (especially な/だ/の rows, and counters), なに elsewhere. Both common, no need to overthink which to use in most cases:
+
+- これは何ですか。— What is this? (なん before です)
+- 何を食べますか。— What will [you] eat? (なに before を)
+- 何時ですか。— What time is it? (なんじ)
+- 何色が好きですか。— What color do [you] like? (なにいろ)
+
+何+か/でも/も builds indefinites, already covered from the か side (see [[../1-particle/7-か]]):
+- 何か食べたい。— [I] want to eat something.
+- 何でもいい。— Anything's fine.
+- 何もない。— There's nothing. (with negative verb)
+
+## 誰 (だれ) / どなた — who
+だれ is the standard casual/neutral form; どなた is the polite version, used with strangers or in formal contexts:
+
+- 誰ですか。— Who is it?
+- あれは誰の傘ですか。— Whose umbrella is that? (誰の — see [[../1-particle/4-の]] for の as possession)
+- どなたですか。— Who may I ask is calling/speaking? (polite, e.g. answering the phone)
+
+誰+か/も follows the same indefinite pattern as 何:
+- 誰か来た。— Someone came.
+- 誰もいない。— There's no one [here]. (with negative)
+
+## いつ — when
+Straightforward, no reading variation, works for both specific and general time questions:
+
+- いつ行きますか。— When will [you] go?
+- 誕生日はいつですか。— When's [your] birthday?
+
+いつか (someday) and いつも (always) are the indefinite/extended forms, both extremely common:
+- いつか日本に行きたい。— [I] want to go to Japan someday.
+- 彼はいつも忙しい。— He's always busy.
+
+## いくら — how much (price/cost)
+Specifically for money/cost — not to be confused with いくつ (how many, see the counters note in [[../6-counter/1-counters]]):
+
+- これはいくらですか。— How much is this?
+- 全部でいくらになりますか。— How much does it come to in total?
+
+## なぜ / どうして — why
+Both mean ""why,"" but どうして is the more common, natural everyday choice; なぜ leans more formal/written, or is used when the question carries a heavier, more serious weight:
+
+- どうして遅れたの? — Why were [you] late? (casual, everyday)
+- なぜですか。— Why [is that]? (more formal, or asking about something significant)
+
+どうして also works as a genuine ""how"" in older/formal usage, but in modern daily conversation it's almost always ""why"" — for ""how,"" see どう / どうやって below.
+
+## どう / どうやって — how
+どう (see [[1-こそあど]]'s manner row) asks about a state or opinion (""how is it""); どうやって specifically asks about method (""by what means/how do you do it""):
+
+- 元気? どう? — How's it going? / How are you?
+- これ、どうやって作るの? — How do [you] make this?
+- 会社までどうやって行きますか。— How do [you] get to the office? (asking about method — train, walk, etc.)
+
+## Quick reference
+
+| Word | Asks about |
+|---|---|
+| 何 (なに/なん) | what |
+| 誰 (だれ) / どなた | who |
+| いつ | when |
+| いくら | how much (cost) |
+| いくつ | how many (see [[../6-counter/1-counters]]) |
+| なぜ / どうして | why |
+| どう | how (state/opinion) |
+| どうやって | how (method) |
+| どこ/どれ/どの/どんな | where/which/what kind (see [[1-こそあど]]) |
+
+## Notes
+- Question words never take は as their own topic marker in the question itself — they take が when they're the subject (誰が来ましたか, not 誰は), matching the new-information rule for が (see [[../1-particle/1b-が]]).
+- Answers to a question-word question typically echo back with が for the same reason: 田中さんが来ました, not 田中さんは来ました, when directly answering 誰が来ましたか.",2026-07-16T09:45:51.325896+00:00,2026-07-16T09:45:51.325896+00:00,ja
+49,8-conjunction/1-そして-それから-でも,そして / それから / でも - sentence-starting conjunctions,conjunction,8,1,"# そして / それから / でも - sentence-starting conjunctions
+
+Connect two separate, complete sentences — distinct from clause-attaching particles like けど (see [[../1-particle/12-けど]]), し (see [[../1-particle/15-し]]), or から (see [[../1-particle/8a-から]]), which all glue onto the end of the *first* clause. These instead stand alone at the start of the *second* sentence, after a full stop.
+
+## そして — ""and then"" (formal-leaning sequencing)
+Connects two sentences in sequence, often with a sense of a notable next step — common in narration, writing, and somewhat formal/deliberate speech:
+
+- 朝ごはんを食べた。そして、仕事に行った。— [I] ate breakfast. And then, [I] went to work.
+- 頑張った。そして、成功した。— [I] worked hard. And [then], [I] succeeded.
+
+そして can feel a little formal/narrative for very casual daily chat — in relaxed conversation, that それから below, or just starting the next sentence with nothing at all, is often more natural.
+
+## それから — ""after that"" / ""and then"" (casual, everyday sequencing)
+The everyday, casual equivalent of そして for listing what happened next, or adding one more item to a list:
+
+- 学校に行った。それから、友達と遊んだ。— [I] went to school. After that, [I] hung out with friends.
+- パンを買った。それから、牛乳も買った。— [I] bought bread. And [then I] also bought milk.
+
+それから also works to add an afterthought item to a list, similar to ""oh, and also"":
+
+- コーヒーをください。それから、水も。— Coffee, please. And also water.
+
+## でも — ""but"" (standalone, sentence-initial)
+The sentence-starting counterpart to clause-attached けど (see [[../1-particle/12-けど]]) — same meaning, different structural slot. でも opens a new sentence that contrasts with the one before it:
+
+- 行きたい。でも、時間がない。— [I] want to go. But, [I] don't have time.
+- 高い。でも、買った。— [It]'s expensive. But, [I] bought [it].
+
+Compare directly with けど gluing the same idea into one sentence:
+- 行きたいけど、時間がない。— [I] want to go, but [I] don't have time. (one sentence)
+- 行きたい。でも、時間がない。— [I] want to go. But [I] don't have time. (two sentences, でも opens the second)
+
+Both are common and largely interchangeable in meaning — the choice is about pacing/emphasis: でも as its own sentence gives the contrast more weight/pause than けど folded into a single breath.
+
+## Quick comparison: clause-attached vs. sentence-starting
+
+| Meaning | Attaches to end of clause | Starts a new sentence |
+|---|---|---|
+| but | 〜けど (see [[../1-particle/12-けど]]) | でも |
+| and then / next | 〜て (see [[../2-verb/2-て-form]]) | そして / それから |
+| because... so | 〜から (see [[../1-particle/8a-から]]) | だから (see note below) |
+
+## Notes
+- でも here is unrelated to でも as an indefinite-extending suffix (何でも — anything, 誰でも — anyone) — same spelling, different grammatical job; context makes it obvious.
+- だから (""so, therefore"") is the natural fourth member of this family — the sentence-starting counterpart to から, e.g. 疲れた。だから、休んだ。— [I] was tired. So, [I] rested. Worth its own note if this folder grows further.",2026-07-16T09:45:51.325896+00:00,2026-07-16T09:45:51.325896+00:00,ja
+50,8-conjunction/2-trailing-off,"Trailing off — ending a sentence to imply ""...and more unsaid""",conjunction,8,2,"# Trailing off — ending a sentence to imply ""...and more unsaid""
+
+A genuinely common Japanese conversational habit: ending a sentence right at a connector (けど, し, から, て-form) without ever finishing the thought. The connector itself signals ""there's more to this, but I'll let you fill in the rest"" — it's not a grammatical mistake or an interrupted sentence, it's a deliberate softening/politeness technique. Ties together threads already mentioned individually in [[../1-particle/12-けど]], [[../1-particle/15-し]], and [[../5-filler/5-ちょっと]].
+
+## Why trail off at all
+Finishing a sentence completely — stating a full request, a full refusal, a full opinion — can land as more forceful or final than intended. Stopping right at the connector leaves the conclusion implicit, which reads as softer, more polite, and less confrontational. The listener understands exactly what's being implied; it just isn't said outright.
+
+## けど — trailing before a request or opinion
+Covered in [[../1-particle/12-けど]], but worth seeing as part of the bigger pattern: けど at the end of a sentence sets up an unstated ""...so [can you help / what do you think / etc.]"":
+
+- すみません、ちょっと聞きたいんですけど。— Excuse me, [I] wanted to ask something... (implies: ""...so, can I?"")
+- これ、いいと思うんですけど。— I think this is good, but... (implies: ""...what do you think?"" or ""...so let's go with it, unless you object"")
+
+## し — trailing as a loose, shrugging justification
+Covered in [[../1-particle/15-し]]: a sentence ending on し implies ""...and there's more reasons like this,"" without listing them all — reads as a casual, semi-complete justification:
+
+- でも、疲れてるし。— But, [I]'m tired, [you know]. (implies: ""...so let's not / so give me a break,"" left unstated)
+
+## から — trailing before an implied conclusion
+から (see [[../1-particle/8a-から]]) can trail the same way, leaving the ""so..."" conclusion unstated when it's obvious from context:
+
+- もう遅いから...。— It's already late, so... (implied: ""...we should go / you should leave / let's wrap up"")
+
+## て-form — trailing as a soft, unfinished request
+A bare て-form (see [[../2-verb/2-て-form]]) at the end of an utterance can similarly leave a fuller request implicit, especially in pleading or emotional contexts:
+
+- お願い、聞いて...。— Please, listen [to me]... (trails into an unstated ""...just this once"" or similar)
+
+## ちょっと — trailing as a soft refusal
+A different flavor of the same mechanic, covered in [[../5-filler/5-ちょっと]]: trailing off right after ちょっと is the standard, expected way to decline something without a blunt ""no"":
+
+- 今日はちょっと...。— Today's a bit... (declining, fully understood without finishing)
+
+## The common thread
+In every case, the sentence is *structurally* incomplete but *pragmatically* complete — the listener isn't left confused, they're being given room to not force a direct confrontation, refusal, or demand into the open. This is one of the more distinctly Japanese conversational habits, and recognizing it (rather than waiting for someone to ""finish their sentence"") is important for following natural daily speech.
+
+## Notes
+- Rising, soft intonation on the trailing connector signals this is intentional, not a false start or a memory lapse — tone carries a lot of the meaning here, same as with ね (see [[../1-particle/6a-ね]]).
+- As a learner, you don't need to master producing this yourself early on — recognizing it in others' speech (and not waiting awkwardly for them to ""finish"") is the higher-value skill to build first.",2026-07-16T09:45:51.325896+00:00,2026-07-16T09:45:51.325896+00:00,ja
+51,1-particle/8a-から,"から - ""from"" / ""because"" particle",particle,1,13,"# から - ""from"" / ""because"" particle
+
+Two distinct jobs: marking a starting point (time/place), and marking a reason/cause. They look identical but attach to different things — see [[8b-まで]] for the ""until"" counterpart that pairs with から's starting-point use.
+
+## Starting point: time/place ""from""
+Marks where or when something begins:
+
+- 9時から始まります。— [It] starts from 9 o'clock.
+- 家から駅まで歩きます。— [I] walk from home to the station. (see [[8b-まで]] for the から〜まで pair)
+- 大阪から来ました。— [I] came from Osaka.
+
+## Source / origin (broader than physical start)
+から also marks where something originates from more abstractly — who gave/told/made something, or what something is derived from:
+
+- 先生から聞きました。— [I] heard [it] from the teacher.
+- 友達から手紙が来た。— A letter came from a friend.
+- 米から作られる。— [It]'s made from rice.
+
+Compare with に as indirect object (see [[3a-に]]): 先生に聞きました (I asked the teacher — targeting them) vs 先生から聞きました (I heard it from the teacher — them as the source). Different verbs, different direction of information flow.
+
+## Reason/cause: ""because""
+Attaches to the end of a clause (after plain or polite form) to give a reason — the から-clause comes first, the result/conclusion follows:
+
+- 疲れたから、休みます。— Because [I]'m tired, [I]'ll rest.
+- 雨が降っているから、行きたくない。— Since it's raining, [I] don't want to go.
+- 危ないから、気をつけて。— [It]'s dangerous, so be careful.
+
+Unlike the particle use (which attaches only to nouns), reason-から attaches to a full clause — verb, adjective, or noun+だ/です:
+
+- 学生だから、お金がない。— Since [I]'m a student, [I] don't have money. (plain だ before から, even in a polite conversation — see [[3-plain-vs-polite-form]])
+- 忙しいですから、行けません。— [I]'m busy, so [I] can't go. (polite です before から is also fine — unlike と思う, から doesn't force plain form)
+
+## から vs ので (reason particles — brief note)
+から is more direct/assertive about the cause; ので is softer and more common in polite/formal explanations. から is the safer daily default — ので is a later refinement, not needed to start.
+
+## Notes
+- から can stack after は for contrast: 明日からは頑張ります。— Starting tomorrow, [I]'ll work hard [implying: unlike until now].
+- てから is a related but distinct pattern: て-form + から means ""after doing X"" (sequencing, not reason) — 食べてから、寝ます。— [I]'ll sleep after eating. Don't confuse this with plain-form+から (reason).",2026-07-16T09:48:41.292222+00:00,2026-07-16T09:48:41.292222+00:00,ja
+52,1-particle/8b-まで,"まで - ""until/up to"" particle",particle,1,14,"# まで - ""until/up to"" particle
+
+Marks an endpoint — in time, space, or extent. Pairs naturally with [[8a-から]] to bracket a range: から marks where something starts, まで marks where it ends.
+
+## Endpoint: time/place ""until/to""
+- 9時まで働きます。— [I] work until 9 o'clock.
+- 駅まで歩きます。— [I] walk to/as far as the station.
+- 家から駅まで10分です。— [It]'s 10 minutes from home to the station.
+
+The から〜まで pairing is the standard way to express a range with a clear start and end:
+
+- 月曜日から金曜日まで働きます。— [I] work from Monday to Friday.
+- 東京から大阪まで新幹線で行きました。— [I] went from Tokyo to Osaka by shinkansen.
+
+## まで alone (no から needed)
+まで works fine without a stated starting point — the start is just whatever ""now""/the default reference point is:
+
+- 明日まで待ってください。— Please wait until tomorrow.
+- ここまでできました。— [I]'ve gotten this far. / [I]'ve done up to here.
+
+## まで vs までに — a critical distinction
+This is the single most important thing to get right with まで: **まで** means the action/state continues *up through* the endpoint, while **までに** means the action must happen *by* (at some point no later than) the deadline — a one-time event, not a continuous state:
+
+- 5時まで待ちます。— [I]'ll wait until 5. (waiting continues the whole time, up to 5)
+- 5時までに来てください。— Please come by 5. (arrival happens at some point no later than 5 — not ""arriving continuously"")
+
+Mixing these up is a common, meaning-changing mistake:
+- 明日まで終わらせます。would oddly suggest ""finishing"" as an ongoing state through tomorrow.
+- 明日までに終わらせます。— [I]'ll get [it] finished by tomorrow. (correct — finishing is a one-time event with a deadline)
+
+Rule of thumb: if the verb describes something continuous/ongoing (待つ, 働く, いる), use plain まで. If the verb describes a one-time completed event (終わる, 出す, 来る, 提出する), use までに.
+
+## Extent: ""even/as far as"" (emphatic)
+Like も (see [[5b-も]]), まで can push toward an extreme, emphatic reading — ""even,"" ""to the extent of"":
+
+- 彼は私にまで嘘をついた。— He lied even to me.
+- そこまで言わなくても。— [You] didn't have to go that far [in what you said]. (lit. ""even to that point"")
+
+## Notes
+- まで doesn't replace は/が/を the way many other particles do — it can combine with は for contrast: 5時までは大丈夫です。— Until 5, [it]'s fine [implying: after that, it's not].
+- Don't confuse まで (until, this file) with 〜前に (before) — 5時まで (up until 5, inclusive of the whole span) vs 5時前に (before 5, i.e. sometime earlier than 5) describe different things.",2026-07-16T09:48:41.292222+00:00,2026-07-16T09:48:41.292222+00:00,ja
+53,1-particle/9a-だけ,"だけ - ""only"" (neutral) particle",particle,1,15,"# だけ - ""only"" (neutral) particle
+
+Marks a strict limit — ""only X,"" ""just X"" — in either affirmative or negative sentences, with a neutral, matter-of-fact tone. See [[9b-しか]] for the negative-only counterpart with a different nuance.
+
+## Basic ""only""
+Attaches directly to nouns, replacing は/が/を much like も does (see [[5b-も]]):
+
+- 千円だけあります。— [I] only have 1000 yen. (stated as plain fact)
+- これだけください。— Please give [me] just this.
+- 少しだけ食べました。— [I] ate just a little.
+
+## Works in affirmative sentences (unlike しか)
+だけ is fine standing alone with a positive verb — this is the key structural difference from しか, which forces a negative verb:
+
+- 水だけ飲みます。— [I]'ll only drink water. (plain affirmative, no negative needed)
+
+## だけ with verbs/clauses
+だけ can attach after a plain-form verb or clause, not just nouns, meaning ""only [do X]"" or ""just because [X]"":
+
+- 見るだけです。— [I]'m just looking. (common in shops, deflecting a salesperson)
+- 言っただけです。— [I] just said [it, no deeper meaning].
+
+## Tone: neutral, not emotional
+だけ simply states a limit without extra feeling — compare with しか, which carries a stronger ""that's all there is, and it feels insufficient"" undertone (see [[9b-しか]]). だけ is the safer, more neutral default when you just want to say ""only.""
+
+## Notes
+- だけ can combine with で: 一人だけで行った。— [I] went alone, just by myself.
+- だけじゃなく(て) — ""not only"" — sets up a ""not only X, but also Y"" pattern: 日本語だけじゃなく、中国語も話せます。— [I] can speak not only Japanese, but also Chinese [see [[5b-も]] for the も half of this pattern].",2026-07-16T09:48:41.292222+00:00,2026-07-16T09:48:41.292222+00:00,ja
+54,1-particle/9b-しか,"しか - ""only"" (negative-forced) particle",particle,1,16,"# しか - ""only"" (negative-forced) particle
+
+Also means ""only,"" but structurally different from [[9a-だけ]] in one strict way: しか always requires a negative verb at the end of the sentence, and carries a stronger ""that's all there is"" undertone — often implying it's less than [you] wanted/expected.
+
+## Must pair with a negative verb
+This is the one hard rule to remember — しか + affirmative verb is ungrammatical:
+
+- 千円しかありません。— [I] only have 1000 yen. (lit. ""there isn't [anything] except 1000 yen"")
+- ~~千円しかあります。~~ — ungrammatical, must be negative.
+- 日本語しか話せません。— [I] can only speak Japanese [and no other language].
+- 少ししか食べなかった。— [I] only ate a little. (implying: less than expected/hoped)
+
+The double-negative logic (""nothing except X"") is baked into the grammar even though the English translation reads as a plain positive statement (""I only have..."").
+
+## しか vs だけ — the nuance difference
+Both can translate to ""only,"" but they don't feel the same:
+
+| | だけ | しか |
+|---|---|---|
+| Verb form | either | must be negative |
+| Tone | neutral | implies insufficiency/regret |
+| Example | 水だけ飲みます。(I'll just drink water — neutral choice) | 水しかありません。(There's only water — implying ""that's all there is, sorry"") |
+
+If you want to express mild disappointment or emphasize scarcity, reach for しか. If you're just stating a plain limit, だけ is safer and more neutral.
+
+## Common daily patterns
+- 〜人しかいない — ""there are only [N] people"" (often implying too few): 三人しかいません。— There are only 3 people [and that's not enough].
+- 〜しかない — ""there's no choice but to..."" (idiomatic, beyond literal ""only""): やるしかない。— [There's] nothing to do but try. / [I] have no choice but to do it.
+
+## Notes
+- しか replaces は/が/を on the noun it attaches to, same as だけ and も.
+- しか can stack after other particles: これしか道がない。— This is the only path [there is].",2026-07-16T09:48:41.292222+00:00,2026-07-16T09:48:41.292222+00:00,ja
+55,1-particle/10-ぐらい,"ぐらい / くらい - ""about/approximately"" particle",particle,1,17,"# ぐらい / くらい - ""about/approximately"" particle
+
+Marks a rough estimate — amount, time, degree — rather than an exact figure. Both spellings/pronunciations are used interchangeably (くらい is slightly more common in careful/formal speech, ぐらい in casual speech), no meaning difference.
+
+## Approximate quantity
+Attaches after a number/amount to soften it into an estimate:
+
+- 3時間ぐらい待ちました。— [I] waited about 3 hours.
+- 千円くらいです。— [It]'s about 1000 yen.
+- 10人ぐらい来ました。— About 10 people came.
+
+## Approximate degree (comparison of scale)
+ぐらい/くらい can also express ""to the extent of,"" comparing a degree or intensity rather than a quantity — often paired with a noun/clause as the reference point:
+
+- 死ぬぐらい疲れた。— [I]'m tired to the point of [almost] dying. (hyperbolic, very common casual exaggeration)
+- 彼ぐらい上手じゃない。— [I]'m not as skilled as him. (roughly ""to his degree"")
+
+## それぐらい / どのぐらい — common set phrases
+- それぐらい分かるよ。— [I] know [at least] that much. (mild pushback, ""give me some credit"")
+- どのぐらいかかりますか。— About how long does [it] take? (asking for an estimate — extremely common daily question, alongside どれぐらい)
+
+## ぐらい vs ほど — brief note
+ほど is a more formal/written near-synonym for the ""degree/extent"" sense of ぐらい — 〜ほど not needed as a first pass; ぐらい/くらい covers casual daily use fine on its own.
+
+## Notes
+- ぐらい/くらいはdoesn't replace は/が/を the way だけ/しか/も do — it attaches to the quantity/degree expression itself, which then behaves normally in the sentence (3時間ぐらい待った — ぐらい sits between the quantity and the verb, no particle conflict).
+- Can combine with other particles: 3時間ぐらいで着きます。— [We]'ll arrive in about 3 hours. (ぐらい + で, marking the approximate duration as a bounding scope — see [[3b-で]]).",2026-07-16T09:48:41.292222+00:00,2026-07-16T09:48:41.292222+00:00,ja
+56,1-particle/11-ながら,"ながら - ""while doing"" particle",particle,1,18,"# ながら - ""while doing"" particle
+
+Links two actions happening at the same time, done by the same person — ""while doing X, [also do] Y."" Attaches to the ます-stem (see [[1-conjugation-group]] in 2-verb), not the dictionary form.
+
+## Forming it
+ます-stem + ながら:
+
+- 食べる → 食べながら — while eating
+- 話す → 話しながら — while talking
+- 歩く → 歩きながら — while walking
+- する → しながら — while doing
+
+## Core pattern
+**A-ながら、B** → ""while doing A, [do] B"" — B is the main action, A is the background/simultaneous one:
+
+- 音楽を聞きながら勉強します。— [I] study while listening to music.
+- 歩きながらスマホを見るのは危ない。— Looking at your phone while walking is dangerous.
+- テレビを見ながらご飯を食べた。— [I] ate while watching TV.
+
+The subject must be the same person doing both actions — ながら can't link two different people's simultaneous actions.
+
+## Word order matters for emphasis
+The verb after ながら (B) is the main, foregrounded action; the ながら-clause (A) is the backdrop. Swapping which action goes where changes what's emphasized:
+
+- 音楽を聞きながら勉強する。— [I] study (main) while listening to music (background).
+- 勉強しながら音楽を聞く。— [I] listen to music (main) while studying (background).
+
+Same two activities, different emphasis depending on which one is the ""point"" of the sentence.
+
+## ながら as ""despite/although"" (secondary use)
+A less common but real second meaning: ながら can mean ""even though,"" especially in the fixed phrase 残念ながら:
+
+- 残念ながら、行けません。— Unfortunately (lit. ""while it's regrettable""), [I] can't go.
+- 知っていながら、教えてくれなかった。— Even though [he] knew, [he] didn't tell [me].
+
+This use is lower-frequency than the simultaneous-action use but 残念ながら itself is common enough as a fixed phrase to recognize on sight.
+
+## Notes
+- Don't confuse ながら (same person, two simultaneous actions) with て-form sequencing (see [[2-て-form]] in 2-verb), which describes actions happening one after another, not at the same time.
+- Casual daily speech uses this constantly for everyday multitasking descriptions — one of the more naturally-produced patterns once the ます-stem is solid.",2026-07-16T09:48:41.292222+00:00,2026-07-16T09:48:41.292222+00:00,ja
+57,1-particle/12-けど,"けど - casual ""but"" particle",particle,1,19,"# けど - casual ""but"" particle
+
+Casual version of が (as a clause-connector, not the subject particle covered in [[1b-が]]) and でも — links two clauses in contrast, or just softens a statement. Extremely common in daily speech.
+
+## Basic contrast: ""but""
+Attaches after plain or polite form, connecting two clauses where the second contradicts or contrasts with the first:
+
+- 行きたいけど、時間がない。— [I] want to go, but [I] don't have time.
+- 高いけど、おいしいです。— [It]'s expensive, but [it]'s good.
+- 忙しいですけど、大丈夫です。— [I]'m busy, but [it]'s fine. (polite form + けど is fine — けど doesn't force plain form, like から)
+
+Formality ladder: けど (most casual) → けれど → けれども (most formal/written). All three mean the same thing; けど is what you'll hear constantly in daily conversation.
+
+## Softening / cushioning (no real contrast)
+Just like the softening use of が in formal speech, けど often appears with nothing actually being contrasted — it just takes the edge off a statement, request, or opinion:
+
+- これ、いいと思うんですけど。— I think this is good, [but/well...]. (hedging an opinion, inviting reaction)
+- すみません、ちょっと聞きたいんですけど。— Excuse me, [I] wanted to ask something... (softening a request before making it)
+
+This trailing-off use — ending a sentence right at けど without finishing the thought — is one of the most natural-sounding casual speech habits once you notice it. It leaves room for the listener to respond rather than steamrolling with a complete statement. See [[../8-conjunction/2-trailing-off]] for this pattern across けど/し/から/て-form as a unified habit.
+
+## けど introducing background before the main point
+けど is also used to set up context before getting to what you actually want to say, similar to English ""so, [background]... anyway, [point]"":
+
+- 昨日話したことなんだけど、やっぱり無理かも。— About what [we] talked about yesterday... [I] think it might not work after all.
+
+## Notes
+- けど doesn't replace は/が/を — it attaches to the end of a complete clause, not to a noun.
+- Don't confuse this けど with けど as a shortened, casual sentence-final softener with no contrast at all — context (is there an actual contrast, or is it just trailing off) tells you which reading applies, both are common.",2026-07-16T09:48:41.292222+00:00,2026-07-16T09:48:41.292222+00:00,ja
+58,1-particle/13-とか,"とか - casual ""or something/like"" particle",particle,1,20,"# とか - casual ""or something/like"" particle
+
+Casual, hedging version of と (see [[5a-と]]) for listing examples — signals ""this and stuff like it,"" not an exhaustive list. Extremely common in relaxed daily speech.
+
+## Non-exhaustive listing (""...and stuff"", ""...or whatever"")
+Where と lists items completely (see [[5a-と]]), とか implies there are other similar things left unsaid — softer, more casual, ""for example"":
+
+- パンとかコーヒーとか買いました。— [I] bought bread, coffee, and stuff like that.
+- 週末は映画とか見ます。— On weekends [I] watch movies and stuff.
+
+Often only appears once, at the end of a single example, functioning like ""or something"":
+
+- 疲れたから、休むとか。— [I]'m tired, so maybe [I'll] rest or something. (very casual, trailing suggestion)
+
+## Softening an example or suggestion
+とか frequently marks something as just one option among many, keeping the tone light and non-committal — useful for suggestions without sounding pushy:
+
+- お茶とか、どう? — How about tea or something?
+- 明日とか、暇? — Are [you] free tomorrow or [some other day nearby]?
+
+## Quoting/hedged reporting (casual version of と + 言う)
+とか can casually report what someone said, with a slightly detached, ""or something like that"" flavor — less precise/committal than と言っていた:
+
+- 田中さん、来ないとか言ってたよ。— Tanaka said something about not coming, [I think].
+
+This carries a ""secondhand, not 100% sure of the exact wording"" nuance that plain と + 言う doesn't have.
+
+## とか vs や — both non-exhaustive, different register
+や (not yet covered as its own file) is the more neutral/written non-exhaustive ""and"" (パンやコーヒーを買いました。); とか is its casual-speech cousin with the added ""or something"" hedge. In daily conversation, とか is far more common than や.
+
+## Notes
+- とか doesn't replace は/が/を — it attaches directly after the nouns/clauses being listed, and the whole とか-list can still take a particle afterward (パンとかコーヒーとかを買いました. — the final を marks the whole list as the object, though it's often dropped in casual speech per [[2-を]]).
+- Overusing とか as a verbal tic (like English ""like"" or ""or whatever"") is common in very casual youth speech — recognize it, but don't feel pressured to overuse it yourself.",2026-07-16T09:48:41.292222+00:00,2026-07-16T09:48:41.292222+00:00,ja
+59,1-particle/15-し,"し - casual ""and, what's more"" (reason-stacking) particle",particle,1,21,"# し - casual ""and, what's more"" (reason-stacking) particle
+
+Lists reasons or facts, implying there are more where that came from — ""X, and also Y, [so...]."" Distinct from から (see [[8a-から]]), which gives a single, direct reason; し stacks multiple points loosely, often for a casual explanation or complaint.
+
+## Forming it
+Attaches after plain form (verbs, い-adjectives, and な-adjectives/nouns + だ):
+
+- 忙しいし、疲れてるし、今日は休む。— [I]'m busy, and [I]'m tired, so [I]'m resting today.
+- このレストラン、安いし、おいしいし、また来たい。— This restaurant is cheap, and tasty, so [I] want to come again.
+- 今日は雨だし、寒いし、出かけたくない。— Today it's rainy, and it's cold, so [I] don't want to go out.
+
+## One し is enough — doesn't need to be doubled
+Unlike も...も (see [[5b-も]]) or the examples above, a single し at the end of one clause already implies ""and there's more"" even without a second し stacking another clause:
+
+- 疲れたし、もう寝る。— [I]'m tired, so [I]'m going to sleep. (one reason stated, but し signals ""among other things"")
+
+## し vs から/ので — tone difference
+から/ので present a direct, singular cause → effect. し presents a looser list of contributing factors, often used to justify a decision without sounding like [you]'re over-explaining or being defensive — a very natural way to casually rationalize something:
+
+- 疲れたから、休む。— Because [I]'m tired, [I]'ll rest. (direct, single reason)
+- 疲れたし、休む。— [I]'m tired, [and stuff], so [I]'ll rest. (looser, casual, implies unstated additional reasons)
+
+## Standalone use — trailing justification
+し can end a sentence on its own as a shrugging, semi-complete justification, similar to how English ""...and stuff"" or ""I mean..."" trails off:
+
+- でも、疲れてるし。— But, [I]'m tired, [you know]. (trailing off, offering a loose excuse)
+
+See [[../8-conjunction/2-trailing-off]] for this same habit across けど/し/から/て-form.
+
+## Notes
+- し doesn't replace は/が/を — it attaches to the end of a complete clause, like けど (see [[12-けど]]).
+- Casual, everyday register — safe in relaxed conversation, less common in formal/written contexts where から/ので or a fuller list would be preferred.",2026-07-16T09:48:41.292222+00:00,2026-07-16T09:48:41.292222+00:00,ja
+60,1-particle/16-ばかり,"ばかり - ""just did X"" / ""only, all X"" particle",particle,1,22,"# ばかり - ""just did X"" / ""only, all X"" particle
+
+Two related but distinct uses: marking something as having *just* happened, or marking something as happening *excessively/exclusively*. Different nuance from だけ/しか (see [[9a-だけ]]/[[9b-しか]]), which are about strict limits, not recency or repetition.
+
+## Just did X — たばかり
+Attaches after plain past (た-form, see [[../2-verb/2-て-form]] for the sound-shift table) to mean ""just did,"" emphasizing how recently something happened:
+
+- 食べたばかりです。— [I] just ate.
+- 日本に来たばかりです。— [I] just came to Japan [recently].
+- 始めたばかりで、まだよく分かりません。— [I] just started, so [I] don't really understand [it] yet.
+
+This is a distinct, common daily pattern — different from さっき (a moment ago, a plain adverb) in that ばかり grammatically frames the *state of having just done it* as still relevant/fresh.
+
+## Only/all X — excessive repetition or exclusivity
+Attaches after nouns (with を often dropped) or plain form, meaning ""nothing but X,"" ""always doing X"" — usually with a mildly critical or exasperated tone:
+
+- 彼はゲームばかりしている。— He's always playing games [and nothing else]. (see [[../2-verb/9-ている]] for the ている state)
+- お菓子ばかり食べないで。— Don't eat nothing but sweets. (see [[../4-pattern/2-requests]] for ないで as a casual negative request)
+- 文句ばかり言う。— [He] does nothing but complain.
+
+This use carries an implicit ""...and that's a problem"" undertone — different from だけ, which is neutral about the limit it states.
+
+## ばかり vs たばかり — don't confuse the two
+Same word, different attachment point, different meaning entirely:
+
+| Form | Meaning |
+|---|---|
+| 動詞た形 + ばかり | just did X (recency) |
+| 名詞/動詞 + ばかり | only/always X (excess, mild criticism) |
+
+## Notes
+- ばかり can combine with いる for a compound state: 泣いてばかりいる。— [She]'s always crying. (て-form + ばかり + いる)
+- Casual speech often shortens ばかり to just ばっかり or ばっか — same meaning, more emphatic/colloquial: ゲームばっかり! — Nothing but games!",2026-07-16T09:48:41.292222+00:00,2026-07-16T09:48:41.292222+00:00,ja
+61,2-verb/1-conjugation-group,Verb conjugation groups,verb,2,1,"# Verb conjugation groups
+
+Japanese verbs split into three groups by how they conjugate. Everything downstream — て-form, plain form, potential, negative, conditional — is a mechanical rule applied on top of this grouping. Learn to classify a verb correctly first; the rest is pattern application. See [[2-て-form]] and [[3-plain-vs-polite-form]], both built directly on this.
+
+## The three groups
+
+**Group 1 — う-verbs (godan / ""u-verbs"")**
+Dictionary form ends in -u, and the final kana is any u-row kana other than る preceded by an i/e sound (see the る-verb trap below):
+
+- 話す (hanasu) — to speak
+- 読む (yomu) — to read
+- 買う (kau) — to buy
+- 待つ (matsu) — to wait
+- 帰る (kaeru) — to return (looks like a る-verb, isn't — see below)
+
+**Group 2 — る-verbs (ichidan / ""ru-verbs"")**
+Dictionary form ends in -iru or -eru, where removing る leaves a valid stem directly usable across all conjugations:
+
+- 食べる (taberu) — to eat
+- 見る (miru) — to see
+- 起きる (okiru) — to get up
+- 寝る (neru) — to sleep
+
+**Group 3 — irregular**
+Only two true irregulars, but they're extremely high-frequency:
+
+- する — to do
+- 来る (kuru) — to come
+
+## The る-verb trap
+Not every verb ending in -iru/-eru is a る-verb. Some are secretly う-verbs that happen to end in る:
+
+- 帰る (kaeru) — to return → う-verb (conjugates 帰ります, not 帰えます)
+- 入る (hairu) — to enter → う-verb
+- 走る (hashiru) — to run → う-verb
+- 知る (shiru) — to know → う-verb
+
+There's no 100% reliable shortcut — these have to be memorized as exceptions. When in doubt, check the ます-form: real る-verbs drop る cleanly (食べる→食べます), fake ones (う-verbs in disguise) change the vowel (帰る→帰ります, not 帰ます).
+
+## ます-stem (masu-stem)
+The single most useful form to extract from any verb — nearly every conjugation pattern builds off it:
+
+| Group | Rule | Example |
+|---|---|---|
+| う-verb | change final -u to -i | 話す → 話し |
+| る-verb | drop る | 食べる → 食べ |
+| irregular | する→し, 来る→来(き) | する → し, 来る → 来 |
+
+Add ます for polite non-past: 話します, 食べます, します, 来ます (きます).
+
+## Why this matters before anything else
+て-form, た-form (plain past), potential form, passive, causative — all of them are group-dependent rules. If you can't reliably say ""this is a う-verb"" vs ""this is a る-verb,"" every subsequent pattern becomes rote memorization per-verb instead of a rule applied once. Nail this first.
+
+## Notes
+- 一段 (ichidan) = ""one grade"" = る-verb (stem doesn't change). 五段 (godan) = ""five grades"" = う-verb (stem shifts across the five u-row vowels: か/き/く/け/こ etc.) — the Japanese grammar terms literally describe the mechanic.
+- Dictionary form is also called plain non-past — see [[3-plain-vs-polite-form]].",2026-07-16T09:48:41.292222+00:00,2026-07-16T09:48:41.292222+00:00,ja
+62,2-verb/2-て-form,て-form,verb,2,2,"# て-form
+
+The single highest-leverage conjugation in Japanese — see [[0-overview]] point 2. Once you can produce it reliably, most of daily grammar is just attaching things to it. Built directly from the conjugation groups in [[1-conjugation-group]] — make sure that's solid first.
+
+## Forming て-form by group
+
+**る-verbs (Group 2) — trivial**
+Drop る, add て:
+
+- 食べる → 食べて
+- 見る → 見て
+- 起きる → 起きて
+
+**Irregulars (Group 3)**
+- する → して
+- 来る (kuru) → 来て (きて)
+
+**う-verbs (Group 1) — the sound-shift rules**
+The ending determines the shift. These are worth drilling until automatic:
+
+| Ending | Rule | Example |
+|---|---|---|
+| う, つ, る | → って | 買う→買って, 待つ→待って, 帰る→帰って |
+| む, ぶ, ぬ | → んで | 読む→読んで, 遊ぶ→遊んで, 死ぬ→死んで |
+| く | → いて | 書く→書いて |
+| ぐ | → いで | 泳ぐ→泳いで |
+| す | → して | 話す→話して |
+
+Exception: 行く (iku, ""to go"") is irregular within this pattern — 行って, not 行いて.
+
+Same shifts apply to plain past (た-form): って/んで/いて/いで/して → just swap the final て for た (行って→行った). Learning て-form well means た-form comes almost for free.
+
+## What attaches to て-form
+This is the part that makes て-form the ""hub"" — a small set of endings turn it into most of daily grammar:
+
+- 食べて + ください → please eat
+- 食べて + いる → eating / (state of having eaten, context-dependent)
+- 食べて + もいい → allowed to eat
+- 食べて + はいけない → not allowed to eat
+- 食べて + みる → try eating
+- 食べて + おく → eat in preparation / ahead of time
+- 食べて + しまう → end up eating / eat completely (often regret/completion nuance)
+- 食べて、飲んで、寝た → sequencing actions (""ate, drank, [then] slept"")
+
+## てくる / ていく — change over time
+Two more て-form attachments, specifically for describing something unfolding across time rather than a fixed state. Both come from くる (to come) and いく (to go), but used abstractly rather than about physical movement:
+
+**てくる — a change that's been happening up to now, moving toward the present**
+- 天気が良くなってきた。— The weather's been getting better [and continues to now].
+- 日本語が分かるようになってきた。— [I]'ve gradually come to understand Japanese.
+- 雨が降ってきた。— It's started raining. (a change beginning, arriving at the present moment)
+
+**ていく — a change that will continue on from now, moving toward the future**
+- これからも頑張っていきます。— [I]'ll keep doing my best going forward.
+- 少しずつ人口が減っていく。— The population will keep gradually decreasing [from here on].
+- 子供はどんどん大きくなっていく。— Kids just keep growing bigger and bigger [as time goes on].
+
+The core intuition: てくる pulls a trend up to *now* (often from the past), ていく pushes a trend forward from *now* (into the future). Both are common in daily narration about gradual change — weather, feelings, habits, life circumstances — not just literal coming/going.
+
+## て-form for sequencing vs. simultaneous connecting
+When chaining clauses with て, the actions are read as sequential (and often causally/temporally linked), not just ""and"":
+
+- 顔を洗って、歯を磨いた。— [I] washed my face, [then] brushed my teeth.
+- 熱があって、休みました。— [I] had a fever, so [I] rested. (て can carry a loose cause-effect reading)
+
+## Notes
+- て-form itself carries no tense — tense comes from whatever attaches after it, or from context if it ends a casual sentence (食べて! as a soft command).
+- Get the う-verb sound-shift table (って/んで/いて/いで/して) to muscle memory before moving on — it's the one part of Japanese conjugation most worth over-drilling.",2026-07-16T09:48:41.292222+00:00,2026-07-16T09:48:41.292222+00:00,ja
+63,2-verb/3-plain-vs-polite-form,Plain vs. polite (です/ます) form,verb,2,3,"# Plain vs. polite (です/ます) form
+
+Japanese runs on two parallel registers for nearly every verb and adjective. This isn't optional politeness dressing — see [[0-overview]] point 3 — it's a structural axis: certain grammar patterns require plain form even inside an otherwise polite sentence.
+
+## The two registers
+
+**Polite (です/ます)** — used with strangers, coworkers, service interactions, formal writing, and by default when unsure:
+
+- 食べます / 食べません / 食べました / 食べませんでした
+- 学生です / 学生ではありません (or じゃないです, more casual-polite)
+
+**Plain (辞書形)** — used with friends, family, inner thought, casual writing, and *inside* longer sentences regardless of the overall politeness level:
+
+- 食べる / 食べない / 食べた / 食べなかった
+- 学生だ / 学生じゃない
+
+## Conjugation table (verbs)
+
+| | Polite | Plain |
+|---|---|---|
+| Non-past affirmative | 食べます | 食べる |
+| Non-past negative | 食べません | 食べない |
+| Past affirmative | 食べました | 食べた |
+| Past negative | 食べませんでした | 食べなかった |
+
+う-verb plain negative: drop -u, add -anai (行く→行かない, 話す→話さない — う irregularly becomes わ: 買う→買わない). Plain past follows the same sound-shift as て-form (see [[2-て-form]]): 行って→行った.
+
+## Copula (だ/です) table
+
+| | Polite | Plain |
+|---|---|---|
+| Affirmative | 学生です | 学生だ |
+| Negative | 学生じゃないです | 学生じゃない |
+| Past affirmative | 学生でした | 学生だった |
+| Past negative | 学生じゃなかったです | 学生じゃなかった |
+
+だ is often dropped entirely in casual speech when it's the final word of a plain sentence (学生。just standing alone) — but it reappears before だろう, だと思う, etc.
+
+## Why plain form is required mid-sentence
+A long list of grammar patterns attach to plain form regardless of the sentence's overall politeness — this is the ""structural axis"" point:
+
+- 〜と思う: 雨が降ると思います。— I think it'll rain. (降る is plain, even though the sentence ends politely with 思います)
+- 〜んです: 疲れたんです。— [explaining:] I'm tired. (plain 疲れた + んです, not 疲れましたんです)
+- Before ようだ, らしい, し, けど (casual), and inside relative clauses modifying nouns: 昨日買った本 — the book [I] bought yesterday (買った is plain even in an otherwise polite conversation)
+
+Mixing this up — trying ます before と思う, for instance — is one of the most common beginner errors once sentences get longer than a single clause.
+
+## When to use which
+- Default to polite (です/ます) in speech with anyone you're not close to, and in first encounters — it's the safe default.
+- Plain form is not ""ruder,"" it's a different social register — used with close friends/family, in diaries/casual writing, in your own internal monologue (と思う clauses), and it's also what dictionaries, grammar explanations, and most example sentences default to as the ""base"" form.
+- Within one conversation, don't randomly alternate です/ます and plain endings on main clauses — pick a register and stay consistent; only the mid-sentence plain-form rule above is an exception.
+
+## Notes
+- Plain non-past = dictionary form — the same form used for classifying conjugation groups in [[1-conjugation-group]].
+- な-adjectives and the copula behave alike (だ/です pattern); い-adjectives conjugate on their own without needing だ/です for plain form (see the upcoming adjective notes) — い-adjective plain non-past is just the adjective itself: 高い, not 高いだ.",2026-07-16T09:48:41.292222+00:00,2026-07-16T09:48:41.292222+00:00,ja
