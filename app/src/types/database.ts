@@ -467,6 +467,27 @@ export type Database = {
           },
         ]
       }
+      simplification: {
+        Row: {
+          created_at: string
+          id: number
+          simplified: string
+          traditional: string
+        }
+        Insert: {
+          created_at?: string
+          id?: number
+          simplified: string
+          traditional: string
+        }
+        Update: {
+          created_at?: string
+          id?: number
+          simplified?: string
+          traditional?: string
+        }
+        Relationships: []
+      }
       source: {
         Row: {
           category_id: number | null
