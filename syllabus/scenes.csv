@@ -1,0 +1,25 @@
+slug,name,parent_slug,language,note
+restaurant,Restaurant,,,
+cafe,Cafe,,,New.
+groceries-store,Supermarket,,,
+konbini,Convenience store,,,
+clothing-store,Clothing store,,,
+electronics-store,Electronics store,,,
+variety-store,Variety store,,,
+furniture-store,Furniture store,,,
+drugstore,Drugstore & pharmacy,,,
+hospital-clinic,Hospital & clinic,,,
+bank-finance,Bank,,,
+government-office,Government office & post office,,,
+station-transport,Station,,,
+accommodation,Hotel & ryokan,,,
+housing-realestate,Estate agent,,,Looking for and renting a home.
+phone-carrier,Phone shop,,,"Carrier store (docomo, au, SoftBank)."
+barber-salon,Barber & salon,,,
+home,Home,,,New.
+online,Online,,,New. Websites and apps rather than a physical place.
+ecommerce,Online shopping,online,,Was a top-level place-category.
+social-media,Social media,online,,New.
+maps-travel-apps,Maps & travel apps,online,,New.
+konbini-checkout,Konbini checkout,konbini,ja,
+hanabi,Fireworks festival (花火大会),,ja,
