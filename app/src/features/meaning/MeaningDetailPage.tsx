@@ -62,11 +62,14 @@ export function MeaningDetailPage() {
             <Badge variant="outline">{partOfSpeechLabel(meaning.part_of_speech)}</Badge>
           )}
           {meaning.category_id != null && categories.byId.get(meaning.category_id) && (
-            <Badge variant="secondary">
-              {categories.topLevelOf(meaning.category_id)?.name}
-              {' · '}
-              {categories.byId.get(meaning.category_id)?.name}
-            </Badge>
+            <Link to={`/category/${categories.byId.get(meaning.category_id)!.slug}`}>
+              <Badge variant="secondary">
+                {categories
+                  .pathOf(meaning.category_id)
+                  .map((c) => c.name)
+                  .join(' › ')}
+              </Badge>
+            </Link>
           )}
           {(scenesByMeaning.get(meaning.id) ?? []).map((sceneId) => {
             const scene = sceneById.get(sceneId)

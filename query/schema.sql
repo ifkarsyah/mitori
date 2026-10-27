@@ -40,7 +40,8 @@ CREATE POLICY "allow all - anon" ON public.language FOR ALL TO anon, authenticat
 -- ============================================================
 -- public.category
 -- ============================================================
--- Hierarchical vocabulary syllabus, two levels deep: what a word is about
+-- Hierarchical vocabulary syllabus, any depth (today three: Abstract ›
+-- Time & Date › Months): what a word is about
 -- (fruit, drinks, body parts, banking), never where you use it — that is a
 -- scene. Sits on meaning rather than word because "apple is a fruit" holds in
 -- every language, whereas "I saw this word at a Family Mart" is one encounter

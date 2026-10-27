@@ -74,7 +74,7 @@ export function SceneDetailPage() {
         render: (row) =>
           row.category ? (
             <Link
-              to={`/category/${(row.topCategory ?? row.category).slug}`}
+              to={`/category/${row.category.slug}`}
               className="hover:underline"
               onClick={(e) => e.stopPropagation()}
             >

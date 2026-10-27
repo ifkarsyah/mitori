@@ -9,14 +9,15 @@ import { ErrorState } from '@/components/ErrorState'
 import { Badge } from '@/components/ui/badge'
 import type { Word } from '@/features/word/api'
 import { useLanguage } from '@/features/language/useLanguage'
+import { categoryFilterOptions, useCategoryLookup } from '@/features/category/hooks'
 import { useMeaningRows, useCoverage, type MeaningRow } from './hooks'
 import {
   ALL,
+  UNCLASSIFIED,
   applyMeaningFilters,
   defaultMeaningFilterState,
   distinctPartOfSpeechValues,
   distinctTiers,
-  distinctTopCategories,
   groupMeaningsBy,
   partOfSpeechLabel,
   tierLabel,
@@ -106,12 +107,17 @@ export function MeaningDashboardPage() {
     [languages],
   )
 
+  const { tree } = useCategoryLookup()
   const categoryOptions = useMemo(
     () => [
       { value: ALL, label: 'All categories' },
-      ...distinctTopCategories(data).map((c) => ({ value: c.slug, label: c.name })),
+      ...categoryFilterOptions(
+        tree,
+        data.map((r) => r.path),
+      ),
+      ...(data.some((r) => r.path.length === 0) ? [{ value: UNCLASSIFIED, label: 'Outside the syllabus' }] : []),
     ],
-    [data],
+    [data, tree],
   )
 
   const tierOptions = useMemo(
@@ -139,7 +145,7 @@ export function MeaningDashboardPage() {
   )
 
   const fields: FilterFieldConfig[] = [
-    { key: 'topCategory', label: 'Category', options: categoryOptions },
+    { key: 'category', label: 'Category', options: categoryOptions },
     { key: 'tier', label: 'Tier', options: tierOptions },
     { key: 'missingIn', label: 'Coverage', options: missingOptions },
     { key: 'partOfSpeech', label: 'Part of speech', options: partOfSpeechOptions },
@@ -185,7 +191,7 @@ export function MeaningDashboardPage() {
         searchPlaceholder="Search meaning, category, or word…"
         fields={fields}
         fieldValues={{
-          topCategory: filters.topCategory,
+          category: filters.category,
           tier: filters.tier,
           missingIn: filters.missingIn,
           partOfSpeech: filters.partOfSpeech,

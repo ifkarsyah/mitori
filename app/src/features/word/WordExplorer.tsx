@@ -10,6 +10,7 @@ import { Badge } from '@/components/ui/badge'
 import { downloadCsv } from '@/lib/exportCsv'
 import { useLanguage } from '@/features/language/useLanguage'
 import { useMeaningCategories, type MeaningCategory } from '@/features/meaning/hooks'
+import { categoryFilterOptions, useCategoryLookup } from '@/features/category/hooks'
 import type { Word } from './api'
 import { useSentencesList, useSourceList } from './hooks'
 import { ANKI_HEADERS, buildWordAnkiRows, buildSentencesByWordId } from './exportAnki'
@@ -96,7 +97,7 @@ function buildColumns(
             if (!entry?.category) return <span className="text-muted-foreground">—</span>
             return (
               <Link
-                to={`/category/${entry.top?.slug ?? entry.category.slug}`}
+                to={`/category/${entry.category.slug}`}
                 className="hover:underline"
                 onClick={(e) => e.stopPropagation()}
               >
@@ -246,18 +247,17 @@ export function WordExplorer({
     })
   }
 
-  const categoryOptions = useMemo(() => {
-    const names = new Map<string, string>()
-    for (const word of words) {
-      const entry = word.meaning_id != null ? categoryOfMeaning.get(word.meaning_id) : undefined
-      const top = entry?.top
-      if (top && !names.has(top.slug)) names.set(top.slug, top.name)
-    }
-    return [
+  const { tree } = useCategoryLookup()
+  const categoryOptions = useMemo(
+    () => [
       { value: ALL, label: 'All categories' },
-      ...[...names.entries()].map(([value, label]) => ({ value, label })),
-    ]
-  }, [words, categoryOfMeaning])
+      ...categoryFilterOptions(
+        tree,
+        words.map((w) => (w.meaning_id != null ? categoryOfMeaning.get(w.meaning_id)?.path ?? [] : [])),
+      ),
+    ],
+    [words, categoryOfMeaning, tree],
+  )
 
   const partOfSpeechOptions = useMemo(() => {
     const values = distinctFieldValues(words, 'part_of_speech')

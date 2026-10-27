@@ -10,7 +10,8 @@ export { useMeaningList, useMeaningById, useWordForMeaning } from '@/features/wo
 export type MeaningRow = {
   meaning: Meaning
   category: Category | undefined
-  topCategory: Category | undefined
+  /** The category and its ancestors, root first; empty outside the syllabus. */
+  path: Category[]
   wordsByLanguage: Map<string, Word[]>
 }
 
@@ -42,7 +43,7 @@ export function useMeaningRows() {
       return {
         meaning,
         category: meaning.category_id != null ? categories.byId.get(meaning.category_id) : undefined,
-        topCategory: categories.topLevelOf(meaning.category_id),
+        path: categories.pathOf(meaning.category_id),
         wordsByLanguage: byLanguage,
       }
     })
@@ -65,7 +66,7 @@ export function useCoverage(rows: MeaningRow[], codes: string[]) {
   )
 }
 
-export type MeaningCategory = { category: Category | undefined; top: Category | undefined }
+export type MeaningCategory = { category: Category | undefined; path: Category[] }
 
 /**
  * Category per meaning id. Words no longer carry a context of their own, so the
@@ -80,7 +81,7 @@ export function useMeaningCategories() {
     for (const meaning of meanings ?? []) {
       map.set(meaning.id, {
         category: meaning.category_id != null ? categories.byId.get(meaning.category_id) : undefined,
-        top: categories.topLevelOf(meaning.category_id),
+        path: categories.pathOf(meaning.category_id),
       })
     }
     return map

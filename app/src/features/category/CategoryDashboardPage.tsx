@@ -13,7 +13,7 @@ export function CategoryDashboardPage() {
   const { languages } = useLanguage()
   const { isLoading, isError, error, refetch } = useCategoryList()
   const summaries = useCategorySummaries()
-  const topLevelCount = summaries.filter((s) => s.depth === 0).length
+  const rootCount = summaries.filter((s) => s.depth === 0).length
 
   // No sortValue on any column: the rows form a tree, and sorting them would
   // pull sub-categories away from their parent.
@@ -25,7 +25,13 @@ export function CategoryDashboardPage() {
         render: (row) => (
           <Link
             to={`/category/${row.category.slug}`}
-            className={cn('hover:underline', row.depth === 0 ? 'text-lg font-medium' : 'pl-6 text-muted-foreground')}
+            className={cn(
+              'hover:underline',
+              row.depth === 0 && 'text-lg font-semibold',
+              row.depth === 1 && 'font-medium',
+              row.depth > 1 && 'text-muted-foreground',
+            )}
+            style={{ paddingLeft: `${row.depth * 1.5}rem` }}
             onClick={(e) => e.stopPropagation()}
           >
             {row.category.name}
@@ -35,7 +41,7 @@ export function CategoryDashboardPage() {
       {
         key: 'meanings',
         header: 'Meanings',
-        render: (row) => <span className={row.depth === 0 ? 'font-medium' : undefined}>{row.meanings}</span>,
+        render: (row) => <span className={row.depth <= 1 ? 'font-medium' : undefined}>{row.meanings}</span>,
       },
       // Coverage per language is the point of this page: where the gaps are.
       ...languages.map((lang) => ({
@@ -57,8 +63,8 @@ export function CategoryDashboardPage() {
       <div>
         <h1 className="text-xl font-semibold">Category</h1>
         <p className="text-sm text-muted-foreground">
-          {topLevelCount} top-level categories of vocabulary — what a word is about, not where you use it
-          (that is a scene)
+          {rootCount} broad areas of vocabulary, each split into categories — what a word is about, not where
+          you use it (that is a scene)
         </p>
       </div>
 

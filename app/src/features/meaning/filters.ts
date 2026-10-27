@@ -7,8 +7,8 @@ export type MeaningGroupBy = 'none' | 'category' | 'tier' | 'part_of_speech'
 
 export type MeaningFilterState = {
   search: string
-  /** Slug of a top-level category. */
-  topCategory: string
+  /** Slug of a category at any level; matches everything beneath it. */
+  category: string
   tier: string
   /** A language code: show only meanings with no word in it. */
   missingIn: string
@@ -18,7 +18,7 @@ export type MeaningFilterState = {
 
 export const defaultMeaningFilterState: MeaningFilterState = {
   search: '',
-  topCategory: ALL,
+  category: ALL,
   tier: ALL,
   missingIn: ALL,
   partOfSpeech: ALL,
@@ -38,7 +38,8 @@ export function tierLabel(value: string): string {
 export function applyMeaningFilters(rows: MeaningRow[], filters: MeaningFilterState): MeaningRow[] {
   const search = filters.search.trim().toLowerCase()
   return rows.filter((row) => {
-    if (filters.topCategory !== ALL && (row.topCategory?.slug ?? UNCLASSIFIED) !== filters.topCategory) {
+    if (filters.category === UNCLASSIFIED && row.path.length > 0) return false
+    if (filters.category !== ALL && filters.category !== UNCLASSIFIED && !row.path.some((c) => c.slug === filters.category)) {
       return false
     }
     if (filters.tier !== ALL && String(row.meaning.tier ?? UNCLASSIFIED) !== filters.tier) return false
@@ -80,18 +81,18 @@ export function groupMeaningsBy(rows: MeaningRow[], groupBy: MeaningGroupBy): Me
   if (groupBy === 'none') return [{ key: 'all', label: 'All meanings', rows }]
 
   if (groupBy === 'category') {
-    // Keep the syllabus order rather than sorting alphabetically.
-    const buckets = bucket(rows, (r) => r.topCategory?.slug ?? UNCLASSIFIED)
+    // One section per root category, in syllabus order rather than alphabetical.
+    const buckets = bucket(rows, (r) => r.path[0]?.slug ?? UNCLASSIFIED)
     const order = new Map<string, number>()
     for (const row of rows) {
-      const slug = row.topCategory?.slug ?? UNCLASSIFIED
-      if (!order.has(slug)) order.set(slug, row.topCategory?.sort_order ?? Number.MAX_SAFE_INTEGER)
+      const slug = row.path[0]?.slug ?? UNCLASSIFIED
+      if (!order.has(slug)) order.set(slug, row.path[0]?.sort_order ?? Number.MAX_SAFE_INTEGER)
     }
     return [...buckets.keys()]
       .sort((a, b) => (order.get(a) ?? 0) - (order.get(b) ?? 0))
       .map((key) => ({
         key,
-        label: buckets.get(key)![0].topCategory?.name ?? 'Outside the syllabus',
+        label: buckets.get(key)![0].path[0]?.name ?? 'Outside the syllabus',
         rows: buckets.get(key)!,
       }))
   }
@@ -111,20 +112,6 @@ export function groupMeaningsBy(rows: MeaningRow[], groupBy: MeaningGroupBy): Me
     label: partOfSpeechLabel(key),
     rows: buckets.get(key)!,
   }))
-}
-
-export function distinctTopCategories(rows: MeaningRow[]): { slug: string; name: string }[] {
-  const seen = new Map<string, { slug: string; name: string; order: number }>()
-  for (const row of rows) {
-    const slug = row.topCategory?.slug ?? UNCLASSIFIED
-    if (seen.has(slug)) continue
-    seen.set(slug, {
-      slug,
-      name: row.topCategory?.name ?? 'Outside the syllabus',
-      order: row.topCategory?.sort_order ?? Number.MAX_SAFE_INTEGER,
-    })
-  }
-  return [...seen.values()].sort((a, b) => a.order - b.order).map(({ slug, name }) => ({ slug, name }))
 }
 
 export function distinctTiers(rows: MeaningRow[]): string[] {

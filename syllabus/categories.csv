@@ -1,26 +1,31 @@
 slug,name,parent_slug,existing_context,note
-numbers,Numbers & Quantity,,Number / Quantity,
+abstract,Abstract,,,"Numbers, time, colours and function words."
+people-self,People & self,,,
+daily-life,Daily life,,,
+world,World,,,
+core-words,Core verbs & adjectives,,,Word classes rather than topics.
+numbers,Numbers & Quantity,abstract,Number / Quantity,
 cardinal-numbers,Cardinal numbers,numbers,,"1-10, teens, tens, 100, 1000, 10000. Entirely absent today."
 ordinal-numbers,Ordinal numbers,numbers,,"first, second, third…"
 quantity-amount,Quantity & amount,numbers,,"some, many, few, all, none, half, both"
 counters,Counters & measure words,numbers,,"Japanese counters and Chinese measure words are the same idea; German has none."
-time-date,Time & Date,,Time / Date,
+time-date,Time & Date,abstract,Time / Date,
 days-of-week,Days of the week,time-date,,Already complete in Japanese.
 months,Months,time-date,,Already complete in Japanese.
 time-of-day,Time of day,time-date,,"morning, noon, evening, night, hour, minute"
 calendar-words,Calendar & relative time,time-date,,"today, tomorrow, yesterday, week, month, year, last/next"
 duration-frequency,Duration & frequency,time-date,,"always, often, sometimes, never, since, until"
-color,Colors,,Color,Partly present; missing several basics as standalone concepts.
-people,People & Family,,,
+color,Colors,abstract,Color,Partly present; missing several basics as standalone concepts.
+people,People & Family,people-self,,
 family-members,Family members,people,,"mother, father, sibling, child, grandparent"
 pronouns,Pronouns,people,,"I, you, he, she, we, they"
 people-roles,People & roles,people,,"teacher, student, doctor, friend, neighbour, stranger"
-body-health,Body & Health,,Body,
+body-health,Body & Health,people-self,Body,
 body-parts,Body parts,body-health,,"head, hand, eye, leg, back"
 health-illness,Health & illness,body-health,,"pain, fever, cold, injury, medicine"
 medical,Medical care,body-health,,
 personal-care,Personal care & beauty,body-health,,
-food-drink,Food & Drink,,,Objects only; dishes and eating-out vocabulary have their own sub-categories.
+food-drink,Food & Drink,daily-life,,Objects only; dishes and eating-out vocabulary have their own sub-categories.
 fruit,Fruit,food-drink,,"apple, banana, orange, grape — entirely absent today."
 vegetables,Vegetables,food-drink,,"carrot, potato, tomato, onion"
 grains-carbs,Grains & carbs,food-drink,,"rice, bread, noodles, flour"
@@ -30,51 +35,51 @@ drinks,Drinks,food-drink,,"water, tea, coffee, juice, beer"
 cooking-taste,Cooking & taste,food-drink,,"boil, fry, sweet, salty, spicy, fresh"
 dishes,Dishes & meals,food-drink,,
 eating-out,Eating out,food-drink,,
-home,Home,,Family / Home,
+home,Home,daily-life,Family / Home,
 rooms,Rooms,home,,"kitchen, bedroom, bathroom, living room"
 furniture,Furniture,home,,"chair, table, bed, shelf. The shop-visit vocabulary is under Furniture store."
 appliances,Appliances,home,,"fridge, washing machine, air conditioner, lamp"
 household-items,Household items,home,,"key, towel, soap, rubbish bin, cup"
 housing,Housing & renting,home,,
-clothing,Clothing,,,"Garments themselves; shopping for them is under Clothing store."
-nature-weather,Nature & Weather,,Weather / Nature,
+clothing,Clothing,daily-life,,"Garments themselves; shopping for them is under Clothing store."
+nature-weather,Nature & Weather,world,Weather / Nature,
 weather,Weather,nature-weather,,"rain, snow, wind, cloud, hot, cold"
 animals,Animals,nature-weather,Animal,
 plants,Plants,nature-weather,,"tree, flower, grass, leaf"
 geography,Geography & landscape,nature-weather,,"mountain, river, sea, island, forest"
-places-travel,Places & Travel,,Travel,
+places-travel,Places & Travel,world,Travel,
 transport,Transport,places-travel,,"car, train, bus, bicycle, plane"
 directions-position,Directions & position,places-travel,Direction / Position,"left, right, above, under, near, between, north, south"
 buildings-places,Buildings & places,places-travel,,"school, hospital, park, shop, station as objects"
 address-location,Addresses & location,places-travel,,"address, street, floor, postcode. Japan-specific forms (丁目) land here."
 lodging,Hotels & lodging,places-travel,,
-school-learning,School & Learning,,School,
+school-learning,School & Learning,daily-life,School,
 school-items,School items,school-learning,,"pencil, eraser, notebook, ruler, bag — entirely absent today."
 school-subjects,School subjects,school-learning,,"maths, science, history, music"
 language-learning,Language learning,school-learning,,"word, grammar, pronunciation, sentence, translate, accent, fluent. Your requested category; nothing exists for it today."
-work-money,Work & Money,,Business / Work,
+work-money,Work & Money,daily-life,Business / Work,
 jobs-occupations,Jobs & occupations,work-money,,
 money-shopping,Money & shopping,work-money,Money / Shopping,"price, cheap, expensive, pay, change, discount"
 office-work,Office & work life,work-money,,"meeting, deadline, colleague, salary, holiday"
 banking,Banking & payments,work-money,,
 online-shopping,Online shopping,work-money,,
-communication,Communication,,Communication,
+communication,Communication,daily-life,Communication,
 speaking-writing,Speaking & writing,communication,,"say, ask, answer, read, write, letter"
 phone-internet,Phone & internet,communication,Social Media & Apps,"call, message, app, account, password, upload"
 post,Post & parcels,communication,,
-emotions-states,Emotions & States,,Emotion / Feeling,
+emotions-states,Emotions & States,people-self,Emotion / Feeling,
 emotions,Emotions,emotions-states,,"happy, sad, angry, afraid, surprised, tired"
 mental-states,Thinking & mental states,emotions-states,Cognitive,"know, think, remember, forget, understand, believe"
-verbs-common,Common verbs,,,"High-frequency verbs that do not belong to one topic."
+verbs-common,Common verbs,core-words,,"High-frequency verbs that do not belong to one topic."
 verbs-motion,Motion verbs,verbs-common,Movement,"go, come, walk, run, enter, leave, return"
 verbs-perception,Perception verbs,verbs-common,,"see, hear, look, listen, feel, smell, taste"
 verbs-daily,Daily action verbs,verbs-common,,"eat, drink, sleep, wake, wash, open, close, buy, give, take"
-adjectives-common,Common adjectives,,,
+adjectives-common,Common adjectives,core-words,,
 adj-size,Size & measurement,adjectives-common,Size / Measurement,"big, small, long, short, heavy, light, wide"
 adj-quality,Quality & condition,adjectives-common,,"good, bad, new, old, clean, dirty, easy, difficult"
 adj-comparison,Comparison & degree,adjectives-common,Comparison / Degree,"more, less, very, too, enough, same, different, best"
-function-words,Question & function words,,,
+function-words,Question & function words,abstract,,
 question-words,Question words,function-words,,"what, who, where, when, why, how, which, how many"
 connectors,Connectors,function-words,,"and, but, or, because, so, if, then"
-sports-activity,Sports & Activity,,Sports / Activity,
-society-government,Society & Government,,,"country, law, election, tax, citizen — the concepts, not the office visit."
+sports-activity,Sports & Activity,daily-life,Sports / Activity,
+society-government,Society & Government,world,,"country, law, election, tax, citizen — the concepts, not the office visit."

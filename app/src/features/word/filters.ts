@@ -14,7 +14,7 @@ export type WordGroupBy =
 
 export type WordFilterState = {
   search: string
-  /** Slug of a top-level category, resolved through the word's meaning. */
+  /** Slug of a category at any level, resolved through the word's meaning; matches everything beneath it. */
   categorySlug: string
   partOfSpeech: string
   subPartOfSpeech: string
@@ -47,8 +47,8 @@ export function applyWordFilters(
   const search = filters.search.trim().toLowerCase()
   return rows.filter((row) => {
     if (filters.categorySlug !== ALL) {
-      const top = row.meaning_id != null ? categoryOfMeaning.get(row.meaning_id)?.top : undefined
-      if ((top?.slug ?? UNCLASSIFIED) !== filters.categorySlug) return false
+      const path = row.meaning_id != null ? categoryOfMeaning.get(row.meaning_id)?.path ?? [] : []
+      if (!path.some((c) => c.slug === filters.categorySlug)) return false
     }
     if (!matchesSingleSelect(row.part_of_speech, filters.partOfSpeech)) return false
     if (!matchesSingleSelect(row.sub_part_of_speech, filters.subPartOfSpeech)) return false
@@ -140,7 +140,7 @@ export function groupWordBy(
 
   if (groupBy === 'category') {
     buckets = groupByKey(rows, (row) =>
-      row.meaning_id != null ? categoryOfMeaning.get(row.meaning_id)?.top?.name ?? null : null,
+      row.meaning_id != null ? categoryOfMeaning.get(row.meaning_id)?.path[0]?.name ?? null : null,
     )
     labelFor = (key) => (key === UNCLASSIFIED ? 'Outside the syllabus' : key)
     sortedKeys = sortWithUnclassifiedLast([...buckets.keys()])

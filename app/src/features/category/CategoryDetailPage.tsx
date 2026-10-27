@@ -9,7 +9,7 @@ import { GroupedTable } from '@/components/GroupedTable'
 import type { Word } from '@/features/word/api'
 import { useLanguage } from '@/features/language/useLanguage'
 import { useMeaningRows, type MeaningRow } from '@/features/meaning/hooks'
-import { useCategoryList } from './hooks'
+import { useCategoryList, useCategoryLookup } from './hooks'
 
 function WordList({ words }: { words: Word[] | undefined }) {
   if (!words || words.length === 0) return <span className="text-muted-foreground">—</span>
@@ -29,23 +29,31 @@ function WordList({ words }: { words: Word[] | undefined }) {
   )
 }
 
+/** The part of a meaning's path below a category, e.g. "Time & Date › Months" under Abstract. */
+function subPath(row: MeaningRow, categoryId: number | undefined): string {
+  return row.path
+    .slice(row.path.findIndex((c) => c.id === categoryId) + 1)
+    .map((c) => c.name)
+    .join(' › ')
+}
+
 export function CategoryDetailPage() {
   const { slug } = useParams<{ slug: string }>()
   const { languages } = useLanguage()
   const { data: categories, isLoading, isError, error, refetch } = useCategoryList()
   const { data: meaningRows } = useMeaningRows()
+  const { pathOf } = useCategoryLookup()
 
   const category = categories?.find((c) => c.slug === slug)
-  const descendantIds = useMemo(() => {
-    if (!category) return new Set<number>()
-    const ids = new Set<number>([category.id])
-    for (const c of categories ?? []) if (c.parent_id === category.id) ids.add(c.id)
-    return ids
-  }, [categories, category])
+  const ancestors = category ? pathOf(category.id).slice(0, -1) : []
+  const children = (categories ?? [])
+    .filter((c) => category != null && c.parent_id === category.id)
+    .sort((a, b) => a.sort_order - b.sort_order)
 
+  // Everything beneath this category, at any depth.
   const rows = useMemo(
-    () => meaningRows.filter((r) => r.meaning.category_id != null && descendantIds.has(r.meaning.category_id)),
-    [meaningRows, descendantIds],
+    () => (category ? meaningRows.filter((r) => r.path.some((c) => c.id === category.id)) : []),
+    [meaningRows, category],
   )
 
   const columns = useMemo<ColumnConfig<MeaningRow>[]>(
@@ -67,13 +75,8 @@ export function CategoryDetailPage() {
       {
         key: 'sub',
         header: 'Sub-category',
-        render: (row) =>
-          row.category && row.category.id !== category?.id ? (
-            row.category.name
-          ) : (
-            <span className="text-muted-foreground">—</span>
-          ),
-        sortValue: (row) => row.category?.name ?? null,
+        render: (row) => subPath(row, category?.id) || <span className="text-muted-foreground">—</span>,
+        sortValue: (row) => subPath(row, category?.id) || null,
       },
       {
         key: 'tier',
@@ -109,6 +112,18 @@ export function CategoryDetailPage() {
       </Button>
 
       <div className="flex flex-col gap-2">
+        {ancestors.length > 0 && (
+          <div className="flex flex-wrap items-center gap-1 text-sm text-muted-foreground">
+            {ancestors.map((a) => (
+              <span key={a.id}>
+                <Link to={`/category/${a.slug}`} className="hover:underline">
+                  {a.name}
+                </Link>{' '}
+                ›
+              </span>
+            ))}
+          </div>
+        )}
         <span className="text-4xl">{category.name}</span>
         <div className="flex flex-wrap gap-2">
           <Badge variant="secondary">{rows.length} meanings</Badge>
@@ -121,6 +136,16 @@ export function CategoryDetailPage() {
             )
           })}
         </div>
+        {children.length > 0 && (
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="text-sm text-muted-foreground">Sub-categories:</span>
+            {children.map((c) => (
+              <Link key={c.id} to={`/category/${c.slug}`}>
+                <Badge variant="secondary">{c.name}</Badge>
+              </Link>
+            ))}
+          </div>
+        )}
       </div>
 
       <GroupedTable
