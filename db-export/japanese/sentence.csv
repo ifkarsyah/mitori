@@ -1,4 +1,4 @@
-id,sentence,meaning,created_at,updated_at,word_id,category_id,context_id
+id,sentence,meaning,created_at,updated_at,word_id,category_id,scene_id
 1,優秀な学生が表彰された。,An outstanding student was commended.,2026-07-11T13:23:16.810483+00:00,2026-08-29T05:35:26.246638+00:00,142,44,
 2,この道は危険だ。,This road is dangerous.,2026-07-11T13:23:16.810483+00:00,2026-07-13T12:10:10.869826+00:00,169,,
 3,睡眠が十分ではない。,I don't have sufficient sleep.,2026-07-11T13:23:16.810483+00:00,2026-07-11T13:23:16.810483+00:00,88,,

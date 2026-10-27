@@ -14,36 +14,6 @@ export type Database = {
   }
   chinese: {
     Tables: {
-      context: {
-        Row: {
-          category_id: number | null
-          created_at: string
-          description: string | null
-          id: number
-          name: string
-          slug: string
-          sort_order: number
-        }
-        Insert: {
-          category_id?: number | null
-          created_at?: string
-          description?: string | null
-          id?: number
-          name: string
-          slug: string
-          sort_order?: number
-        }
-        Update: {
-          category_id?: number | null
-          created_at?: string
-          description?: string | null
-          id?: number
-          name?: string
-          slug?: string
-          sort_order?: number
-        }
-        Relationships: []
-      }
       grammar_point: {
         Row: {
           category: string
@@ -149,33 +119,63 @@ export type Database = {
         }
         Relationships: []
       }
+      scene: {
+        Row: {
+          category_id: number | null
+          created_at: string
+          description: string | null
+          id: number
+          name: string
+          slug: string
+          sort_order: number
+        }
+        Insert: {
+          category_id?: number | null
+          created_at?: string
+          description?: string | null
+          id?: number
+          name: string
+          slug: string
+          sort_order?: number
+        }
+        Update: {
+          category_id?: number | null
+          created_at?: string
+          description?: string | null
+          id?: number
+          name?: string
+          slug?: string
+          sort_order?: number
+        }
+        Relationships: []
+      }
       sentence: {
         Row: {
           category_id: number | null
-          context_id: number | null
           created_at: string
           id: number
           meaning: string | null
+          scene_id: number | null
           sentence: string | null
           updated_at: string | null
           word_id: number | null
         }
         Insert: {
           category_id?: number | null
-          context_id?: number | null
           created_at?: string
           id?: number
           meaning?: string | null
+          scene_id?: number | null
           sentence?: string | null
           updated_at?: string | null
           word_id?: number | null
         }
         Update: {
           category_id?: number | null
-          context_id?: number | null
           created_at?: string
           id?: number
           meaning?: string | null
+          scene_id?: number | null
           sentence?: string | null
           updated_at?: string | null
           word_id?: number | null
@@ -251,7 +251,6 @@ export type Database = {
       word: {
         Row: {
           concept_id: number | null
-          context_id: number | null
           created_at: string
           id: number
           learned: boolean
@@ -259,13 +258,13 @@ export type Database = {
           meanings: string[]
           part_of_speech: string | null
           reading: string | null
+          scene_id: number | null
           source_id: number | null
           updated_at: string | null
           word: string
         }
         Insert: {
           concept_id?: number | null
-          context_id?: number | null
           created_at?: string
           id?: number
           learned?: boolean
@@ -273,13 +272,13 @@ export type Database = {
           meanings: string[]
           part_of_speech?: string | null
           reading?: string | null
+          scene_id?: number | null
           source_id?: number | null
           updated_at?: string | null
           word: string
         }
         Update: {
           concept_id?: number | null
-          context_id?: number | null
           created_at?: string
           id?: number
           learned?: boolean
@@ -287,6 +286,7 @@ export type Database = {
           meanings?: string[]
           part_of_speech?: string | null
           reading?: string | null
+          scene_id?: number | null
           source_id?: number | null
           updated_at?: string | null
           word?: string
@@ -309,36 +309,6 @@ export type Database = {
   }
   german: {
     Tables: {
-      context: {
-        Row: {
-          category_id: number | null
-          created_at: string
-          description: string | null
-          id: number
-          name: string
-          slug: string
-          sort_order: number
-        }
-        Insert: {
-          category_id?: number | null
-          created_at?: string
-          description?: string | null
-          id?: number
-          name: string
-          slug: string
-          sort_order?: number
-        }
-        Update: {
-          category_id?: number | null
-          created_at?: string
-          description?: string | null
-          id?: number
-          name?: string
-          slug?: string
-          sort_order?: number
-        }
-        Relationships: []
-      }
       grammar_point: {
         Row: {
           category: string
@@ -444,33 +414,63 @@ export type Database = {
         }
         Relationships: []
       }
+      scene: {
+        Row: {
+          category_id: number | null
+          created_at: string
+          description: string | null
+          id: number
+          name: string
+          slug: string
+          sort_order: number
+        }
+        Insert: {
+          category_id?: number | null
+          created_at?: string
+          description?: string | null
+          id?: number
+          name: string
+          slug: string
+          sort_order?: number
+        }
+        Update: {
+          category_id?: number | null
+          created_at?: string
+          description?: string | null
+          id?: number
+          name?: string
+          slug?: string
+          sort_order?: number
+        }
+        Relationships: []
+      }
       sentence: {
         Row: {
           category_id: number | null
-          context_id: number | null
           created_at: string
           id: number
           meaning: string | null
+          scene_id: number | null
           sentence: string | null
           updated_at: string | null
           word_id: number | null
         }
         Insert: {
           category_id?: number | null
-          context_id?: number | null
           created_at?: string
           id?: number
           meaning?: string | null
+          scene_id?: number | null
           sentence?: string | null
           updated_at?: string | null
           word_id?: number | null
         }
         Update: {
           category_id?: number | null
-          context_id?: number | null
           created_at?: string
           id?: number
           meaning?: string | null
+          scene_id?: number | null
           sentence?: string | null
           updated_at?: string | null
           word_id?: number | null
@@ -525,7 +525,6 @@ export type Database = {
       word: {
         Row: {
           concept_id: number | null
-          context_id: number | null
           created_at: string
           gender: string | null
           id: number
@@ -534,13 +533,13 @@ export type Database = {
           meanings: string[]
           part_of_speech: string | null
           plural: string | null
+          scene_id: number | null
           source_id: number | null
           updated_at: string | null
           word: string
         }
         Insert: {
           concept_id?: number | null
-          context_id?: number | null
           created_at?: string
           gender?: string | null
           id?: number
@@ -549,13 +548,13 @@ export type Database = {
           meanings: string[]
           part_of_speech?: string | null
           plural?: string | null
+          scene_id?: number | null
           source_id?: number | null
           updated_at?: string | null
           word: string
         }
         Update: {
           concept_id?: number | null
-          context_id?: number | null
           created_at?: string
           gender?: string | null
           id?: number
@@ -564,6 +563,7 @@ export type Database = {
           meanings?: string[]
           part_of_speech?: string | null
           plural?: string | null
+          scene_id?: number | null
           source_id?: number | null
           updated_at?: string | null
           word?: string
@@ -586,36 +586,6 @@ export type Database = {
   }
   japanese: {
     Tables: {
-      context: {
-        Row: {
-          category_id: number | null
-          created_at: string
-          description: string | null
-          id: number
-          name: string
-          slug: string
-          sort_order: number
-        }
-        Insert: {
-          category_id?: number | null
-          created_at?: string
-          description?: string | null
-          id?: number
-          name: string
-          slug: string
-          sort_order?: number
-        }
-        Update: {
-          category_id?: number | null
-          created_at?: string
-          description?: string | null
-          id?: number
-          name?: string
-          slug?: string
-          sort_order?: number
-        }
-        Relationships: []
-      }
       grammar_point: {
         Row: {
           category: string
@@ -763,33 +733,63 @@ export type Database = {
         }
         Relationships: []
       }
+      scene: {
+        Row: {
+          category_id: number | null
+          created_at: string
+          description: string | null
+          id: number
+          name: string
+          slug: string
+          sort_order: number
+        }
+        Insert: {
+          category_id?: number | null
+          created_at?: string
+          description?: string | null
+          id?: number
+          name: string
+          slug: string
+          sort_order?: number
+        }
+        Update: {
+          category_id?: number | null
+          created_at?: string
+          description?: string | null
+          id?: number
+          name?: string
+          slug?: string
+          sort_order?: number
+        }
+        Relationships: []
+      }
       sentence: {
         Row: {
           category_id: number | null
-          context_id: number | null
           created_at: string
           id: number
           meaning: string | null
+          scene_id: number | null
           sentence: string | null
           updated_at: string | null
           word_id: number | null
         }
         Insert: {
           category_id?: number | null
-          context_id?: number | null
           created_at?: string
           id?: number
           meaning?: string | null
+          scene_id?: number | null
           sentence?: string | null
           updated_at?: string | null
           word_id?: number | null
         }
         Update: {
           category_id?: number | null
-          context_id?: number | null
           created_at?: string
           id?: number
           meaning?: string | null
+          scene_id?: number | null
           sentence?: string | null
           updated_at?: string | null
           word_id?: number | null
@@ -844,7 +844,6 @@ export type Database = {
       word: {
         Row: {
           concept_id: number | null
-          context_id: number | null
           created_at: string
           id: number
           kana_type: string
@@ -853,6 +852,7 @@ export type Database = {
           meanings: string[]
           part_of_speech: string | null
           reading: string | null
+          scene_id: number | null
           source_id: number | null
           sub_part_of_speech: string | null
           updated_at: string | null
@@ -860,7 +860,6 @@ export type Database = {
         }
         Insert: {
           concept_id?: number | null
-          context_id?: number | null
           created_at?: string
           id?: number
           kana_type: string
@@ -869,6 +868,7 @@ export type Database = {
           meanings: string[]
           part_of_speech?: string | null
           reading?: string | null
+          scene_id?: number | null
           source_id?: number | null
           sub_part_of_speech?: string | null
           updated_at?: string | null
@@ -876,7 +876,6 @@ export type Database = {
         }
         Update: {
           concept_id?: number | null
-          context_id?: number | null
           created_at?: string
           id?: number
           kana_type?: string
@@ -885,6 +884,7 @@ export type Database = {
           meanings?: string[]
           part_of_speech?: string | null
           reading?: string | null
+          scene_id?: number | null
           source_id?: number | null
           sub_part_of_speech?: string | null
           updated_at?: string | null

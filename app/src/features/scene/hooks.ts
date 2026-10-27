@@ -3,13 +3,13 @@ import { useQuery } from '@tanstack/react-query'
 import { useKotobaList, useSentenceWordList } from '@/features/kotoba/hooks'
 import type { Kotoba } from '@/features/kotoba/api'
 import { useLanguage } from '@/features/language/useLanguage'
-import { fetchContextList, fetchPhraseList, type Phrase } from './api'
+import { fetchSceneList, fetchPhraseList, type Phrase } from './api'
 
-export function useContextList() {
+export function useSceneList() {
   const { language, current } = useLanguage()
   return useQuery({
-    queryKey: ['context', 'list', language],
-    queryFn: () => fetchContextList(current!),
+    queryKey: ['scene', 'list', language],
+    queryFn: () => fetchSceneList(current!),
     enabled: current != null,
   })
 }
@@ -23,14 +23,14 @@ export function usePhraseList() {
   })
 }
 
-export function useContextBySlug(slug: string | undefined) {
-  const query = useContextList()
-  const context = query.data?.find((row) => row.slug === slug)
-  return { ...query, data: context }
+export function useSceneBySlug(slug: string | undefined) {
+  const query = useSceneList()
+  const scene = query.data?.find((row) => row.slug === slug)
+  return { ...query, data: scene }
 }
 
-/** Word and phrase counts per context id. */
-export function useContextCounts() {
+/** Word and phrase counts per scene id. */
+export function useSceneCounts() {
   const { data: words } = useKotobaList()
   const { data: phrases } = usePhraseList()
   return useMemo(() => {
@@ -42,31 +42,31 @@ export function useContextCounts() {
       counts.set(id, fresh)
       return fresh
     }
-    for (const w of words ?? []) if (w.context_id != null) entry(w.context_id).words++
-    for (const p of phrases ?? []) if (p.context_id != null) entry(p.context_id).phrases++
+    for (const w of words ?? []) if (w.scene_id != null) entry(w.scene_id).words++
+    for (const p of phrases ?? []) if (p.scene_id != null) entry(p.scene_id).phrases++
     return counts
   }, [words, phrases])
 }
 
-export function useKotobaForContext(contextId: number | undefined) {
+export function useKotobaForScene(sceneId: number | undefined) {
   const query = useKotobaList()
   const words = useMemo<Kotoba[]>(
-    () => (contextId == null ? [] : (query.data ?? []).filter((w) => w.context_id === contextId)),
-    [query.data, contextId],
+    () => (sceneId == null ? [] : (query.data ?? []).filter((w) => w.scene_id === sceneId)),
+    [query.data, sceneId],
   )
   return { ...query, data: words }
 }
 
 export type PhraseWithWords = Phrase & { words: Kotoba[] }
 
-/** A context's phrases, each with the words it uses (from sentence_word). */
-export function usePhrasesForContext(contextId: number | undefined) {
+/** A scene's phrases, each with the words it uses (from sentence_word). */
+export function usePhrasesForScene(sceneId: number | undefined) {
   const phraseQuery = usePhraseList()
   const { data: words } = useKotobaList()
   const { data: links } = useSentenceWordList()
 
   const data = useMemo<PhraseWithWords[]>(() => {
-    if (contextId == null) return []
+    if (sceneId == null) return []
     const wordById = new Map((words ?? []).map((w) => [w.id, w]))
     const wordsBySentence = new Map<number, Kotoba[]>()
     for (const link of links ?? []) {
@@ -77,9 +77,9 @@ export function usePhrasesForContext(contextId: number | undefined) {
       else wordsBySentence.set(link.sentence_id, [word])
     }
     return (phraseQuery.data ?? [])
-      .filter((p) => p.context_id === contextId)
+      .filter((p) => p.scene_id === sceneId)
       .map((p) => ({ ...p, words: wordsBySentence.get(p.id) ?? [] }))
-  }, [phraseQuery.data, words, links, contextId])
+  }, [phraseQuery.data, words, links, sceneId])
 
   return { ...phraseQuery, data }
 }

@@ -1,4 +1,4 @@
-id,word,gender,plural,part_of_speech,meanings,level,concept_id,source_id,learned,created_at,updated_at,context_id
+id,word,gender,plural,part_of_speech,meanings,level,concept_id,source_id,learned,created_at,updated_at,scene_id
 1507,Einzug,der,Einzüge,noun,"[""moving in"", ""occupancy""]",b1,1,,false,2026-08-28T15:40:17.402749+00:00,2026-08-29T04:45:36.387112+00:00,
 1508,Veränderung,die,Veränderungen,noun,"[""change, variation, transformation"", ""alteration""]",b1,2,,false,2026-08-28T15:40:17.402749+00:00,2026-08-29T04:45:36.387112+00:00,
 1509,Geschäft,das,Geschäfte,noun,"[""business, trade, commerce"", ""buying and selling""]",a2,3,,false,2026-08-28T15:40:17.402749+00:00,2026-08-29T04:45:36.387112+00:00,

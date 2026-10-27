@@ -9,7 +9,7 @@ const links = [
   { to: '/kotoba', label: 'Kotoba' },
   { to: '/concept', label: 'Concept' },
   { to: '/category', label: 'Category' },
-  { to: '/context', label: 'Context' },
+  { to: '/scene', label: 'Scene' },
   { to: '/source', label: 'Source' },
   { to: '/sentences', label: 'Sentences' },
   { to: '/grammar', label: 'Grammar' },

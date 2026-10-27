@@ -6,37 +6,37 @@ import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
 import { useCategoryLookup } from '@/features/category/hooks'
 import { useLanguage } from '@/features/language/useLanguage'
-import type { Context } from './api'
-import { useContextCounts, useContextList } from './hooks'
+import type { Scene } from './api'
+import { useSceneCounts, useSceneList } from './hooks'
 
-export function ContextDashboardPage() {
+export function SceneDashboardPage() {
   const { current } = useLanguage()
-  const { data, isLoading, isError, error, refetch } = useContextList()
+  const { data, isLoading, isError, error, refetch } = useSceneList()
   const categories = useCategoryLookup()
-  const counts = useContextCounts()
+  const counts = useSceneCounts()
 
-  // Grouped by the general category each context narrows; the rest exist only
+  // Grouped by the general category each scene narrows; the rest exist only
   // in this language and have no general counterpart.
   const groups = useMemo(() => {
-    const byKey = new Map<string, { key: string; label: string; rows: Context[] }>()
-    for (const context of data ?? []) {
-      const category = context.category_id != null ? categories.byId.get(context.category_id) : undefined
+    const byKey = new Map<string, { key: string; label: string; rows: Scene[] }>()
+    for (const scene of data ?? []) {
+      const category = scene.category_id != null ? categories.byId.get(scene.category_id) : undefined
       const key = category ? String(category.id) : 'none'
       const label = category?.name ?? `Only in ${current?.name ?? 'this language'}`
       const group = byKey.get(key)
-      if (group) group.rows.push(context)
-      else byKey.set(key, { key, label, rows: [context] })
+      if (group) group.rows.push(scene)
+      else byKey.set(key, { key, label, rows: [scene] })
     }
     return [...byKey.values()]
   }, [data, categories, current])
 
-  const columns = useMemo<ColumnConfig<Context>[]>(
+  const columns = useMemo<ColumnConfig<Scene>[]>(
     () => [
       {
         key: 'name',
-        header: 'Context',
+        header: 'Scene',
         render: (row) => (
-          <Link to={`/context/${row.slug}`} className="hover:underline" onClick={(e) => e.stopPropagation()}>
+          <Link to={`/scene/${row.slug}`} className="hover:underline" onClick={(e) => e.stopPropagation()}>
             {row.name}
           </Link>
         ),
@@ -69,7 +69,7 @@ export function ContextDashboardPage() {
   return (
     <div className="flex flex-col gap-6">
       <div className="flex flex-col gap-1">
-        <h1 className="text-2xl font-semibold">Context</h1>
+        <h1 className="text-2xl font-semibold">Scene</h1>
         <p className="text-sm text-muted-foreground">
           {data?.length ?? 0} situations specific to {current?.name ?? 'this language'}, with the words and set
           phrases they call for.
@@ -80,8 +80,8 @@ export function ContextDashboardPage() {
         groups={groups}
         columns={columns}
         getRowKey={(row) => row.id}
-        getRowHref={(row) => `/context/${row.slug}`}
-        emptyMessage={`No ${current?.name ?? ''} contexts yet.`}
+        getRowHref={(row) => `/scene/${row.slug}`}
+        emptyMessage={`No ${current?.name ?? ''} scenes yet.`}
       />
     </div>
   )
