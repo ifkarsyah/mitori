@@ -89,8 +89,8 @@ export function SceneDashboardPage() {
       <div className="flex flex-col gap-1">
         <h1 className="text-2xl font-semibold">Scene</h1>
         <p className="text-sm text-muted-foreground">
-          Real-world places, grouped by how often you need them, with the words, set phrases and sentences
-          you need there.
+          Places and situations — self-introduction first, then places grouped by how often you need
+          them — with the words, set phrases and sentences each calls for.
         </p>
       </div>
 

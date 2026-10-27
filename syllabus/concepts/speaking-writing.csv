@@ -38,3 +38,5 @@ spk-publication,public release,noun,3,707,公開.
 spk-broadcast,broadcast,noun,2,1015,放送.
 spk-tv-programme,programme,noun,1,652,番組.
 spk-broadcaster,broadcaster,noun,3,402,放送局.
+spk-nice-to-meet-you,nice to meet you,phrase,1,,"はじめまして. Added for the self-introduction scene."
+spk-to-introduce,to introduce,verb,1,,"紹介する. Added for the self-introduction scene."

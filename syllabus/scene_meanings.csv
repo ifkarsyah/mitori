@@ -260,6 +260,141 @@ restaurant,res-udon,udon
 restaurant,res-waiter-service,service
 restaurant,res-wasabi,wasabi
 restaurant,res-western-cuisine,Western cuisine
+self-intro-family,fam-aunt,aunt
+self-intro-family,fam-baby,baby
+self-intro-family,fam-bereaved,bereaved family
+self-intro-family,fam-brother,brother
+self-intro-family,fam-child,child
+self-intro-family,fam-cousin,cousin
+self-intro-family,fam-dad,dad
+self-intro-family,fam-daughter,daughter
+self-intro-family,fam-family,family
+self-intro-family,fam-father,father
+self-intro-family,fam-grandchild,grandchild
+self-intro-family,fam-grandfather,grandfather
+self-intro-family,fam-grandmother,grandmother
+self-intro-family,fam-household,household
+self-intro-family,fam-husband,husband
+self-intro-family,fam-marriage,marriage
+self-intro-family,fam-married-couple,married couple
+self-intro-family,fam-mother,mother
+self-intro-family,fam-mum,mum
+self-intro-family,fam-newborn,newborn
+self-intro-family,fam-older-brother,older brother
+self-intro-family,fam-older-sister,older sister
+self-intro-family,fam-parent,parent
+self-intro-family,fam-parents,parents
+self-intro-family,fam-relative,relative
+self-intro-family,fam-siblings,siblings
+self-intro-family,fam-sister,sister
+self-intro-family,fam-sisters,sisters
+self-intro-family,fam-son,son
+self-intro-family,fam-uncle,uncle
+self-intro-family,fam-wife,wife
+self-intro-family,fam-younger-brother,younger brother
+self-intro-family,fam-younger-sister,younger sister
+self-intro-general,,"birthplace, hometown, origin, background (education/organization)"
+self-intro-general,,"name (of a person, thing, place)"
+self-intro-general,adr-country,country
+self-intro-general,cal-birthday,birthday
+self-intro-general,gov-nationality,nationality
+self-intro-general,pro-everyone-pro,everybody
+self-intro-general,pro-he,he
+self-intro-general,pro-i,I
+self-intro-general,pro-it,it
+self-intro-general,pro-noone,no one
+self-intro-general,pro-nothing,nothing
+self-intro-general,pro-oneself,oneself
+self-intro-general,pro-she,she
+self-intro-general,pro-someone,someone
+self-intro-general,pro-something,something
+self-intro-general,pro-they,they
+self-intro-general,pro-we,we
+self-intro-general,pro-you-pl,you (plural)
+self-intro-general,pro-you-sg,you (singular)
+self-intro-general,rol-age,age (of a person)
+self-intro-general,spk-nice-to-meet-you,nice to meet you
+self-intro-general,spk-to-introduce,to introduce
+self-intro-general,vda-to-be-born,to be born
+self-intro-general,vda-to-reside,to live (reside)
+self-intro-hobbies,ban-interest,interest
+self-intro-hobbies,emo-to-like,to like
+self-intro-hobbies,spo-archery-japanese,Japanese archery
+self-intro-hobbies,spo-arrow,arrow
+self-intro-hobbies,spo-baseball,baseball
+self-intro-hobbies,spo-basketball,basketball
+self-intro-hobbies,spo-bow-and-arrow,bow and arrow
+self-intro-hobbies,spo-calligraphy,calligraphy
+self-intro-hobbies,spo-comeback,comeback
+self-intro-hobbies,spo-composition,composing music
+self-intro-hobbies,spo-cycling,cycling
+self-intro-hobbies,spo-defeat,defeat
+self-intro-hobbies,spo-exercise,exercise
+self-intro-hobbies,spo-football,football
+self-intro-hobbies,spo-game,game
+self-intro-hobbies,spo-gym,gym
+self-intro-hobbies,spo-hobby,hobby
+self-intro-hobbies,spo-horse-racing,horse racing
+self-intro-hobbies,spo-match,match
+self-intro-hobbies,spo-musical-performance,musical performance
+self-intro-hobbies,spo-photography,photography
+self-intro-hobbies,spo-practice,practice
+self-intro-hobbies,spo-race,race
+self-intro-hobbies,spo-record-achievement,record
+self-intro-hobbies,spo-running,running
+self-intro-hobbies,spo-skiing,skiing
+self-intro-hobbies,spo-sport,sport
+self-intro-hobbies,spo-swimming,swimming
+self-intro-hobbies,spo-team,team
+self-intro-hobbies,spo-tennis,tennis
+self-intro-hobbies,spo-to-compete,to compete
+self-intro-hobbies,spo-to-dance,to dance
+self-intro-hobbies,spo-to-draw,to draw
+self-intro-hobbies,spo-to-lose,to lose (a game)
+self-intro-hobbies,spo-to-sing,to sing
+self-intro-hobbies,spo-to-win,to win
+self-intro-hobbies,spo-training,training
+self-intro-hobbies,spo-victory,victory
+self-intro-job,job-actor,actor
+self-intro-job,job-ambassador,ambassador
+self-intro-job,job-artist,artist
+self-intro-job,job-athlete,athlete
+self-intro-job,job-cleaner,cleaner
+self-intro-job,job-cook,chef
+self-intro-job,job-dentist,dentist
+self-intro-job,job-doctor,doctor
+self-intro-job,job-driver,driver
+self-intro-job,job-employee,employee
+self-intro-job,job-engineer,engineer
+self-intro-job,job-eye-doctor,ophthalmologist
+self-intro-job,job-farmer,farmer
+self-intro-job,job-firefighter,firefighter
+self-intro-job,job-hairdresser,hairdresser
+self-intro-job,job-head-teacher,head teacher
+self-intro-job,job-job,job
+self-intro-job,job-journalist,journalist
+self-intro-job,job-lawyer,lawyer
+self-intro-job,job-manager,manager
+self-intro-job,job-minister,government minister
+self-intro-job,job-musician,musician
+self-intro-job,job-nurse,nurse
+self-intro-job,job-occupation,occupation
+self-intro-job,job-person-in-charge,person in charge
+self-intro-job,job-poet,poet
+self-intro-job,job-police-officer,police officer
+self-intro-job,job-prime-minister,prime minister
+self-intro-job,job-programmer,programmer
+self-intro-job,job-representative,representative
+self-intro-job,job-scholar,scholar
+self-intro-job,job-shop-assistant,shop assistant
+self-intro-job,job-singer,singer
+self-intro-job,job-staff,staff
+self-intro-job,job-station-staff,station attendant
+self-intro-job,job-teacher,teacher
+self-intro-job,job-waiter,waiter
+self-intro-job,job-writer,writer
+self-intro-job,off-company,company
+self-intro-job,off-work,work
 station-transport,sta-arrival,arrival
 station-transport,sta-boarding-ship,boarding a ship
 station-transport,sta-commuter-pass,season ticket

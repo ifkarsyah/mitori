@@ -1,4 +1,9 @@
 slug,name,parent_slug,language,description
+self-introduction,Self-introduction,,,Introducing yourself and answering the questions that follow.
+self-intro-general,Introducing yourself,self-introduction,,
+self-intro-hobbies,Talking about hobbies,self-introduction,,
+self-intro-job,Talking about your job,self-introduction,,
+self-intro-family,Talking about family,self-introduction,,
 dining-out,Dining out,,,
 restaurant,Restaurant,dining-out,,
 cafe,Cafe,dining-out,,
