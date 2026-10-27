@@ -5,15 +5,15 @@ import { useLanguage } from '@/features/language/useLanguage'
 
 const links = [
   { to: '/', label: 'Overview', end: true },
-  { to: '/kanji', label: 'Kanji', japaneseOnly: true },
+  { to: '/scene', label: 'Scene' },
+  { to: '/sentences', label: 'Sentences' },
+  { to: '/category', label: 'Category' },
   { to: '/kotoba', label: 'Kotoba' },
   { to: '/meaning', label: 'Meaning' },
-  { to: '/category', label: 'Category' },
-  { to: '/scene', label: 'Scene' },
-  { to: '/source', label: 'Source' },
-  { to: '/sentences', label: 'Sentences' },
+  { to: '/kanji', label: 'Kanji', japaneseOnly: true },
   { to: '/grammar', label: 'Grammar' },
   { to: '/resources', label: 'Resources' },
+  { to: '/source', label: 'Source' },
   { to: '/quality', label: 'Quality' },
 ]
 
