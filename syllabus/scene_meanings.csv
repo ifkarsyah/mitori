@@ -1,0 +1,297 @@
+scene_slug,meaning_slug,gloss
+accommodation,acc-breakfast-included,breakfast included
+accommodation,acc-check-in,check-in
+accommodation,acc-check-out,check-out
+accommodation,acc-double-room,double room
+accommodation,acc-front-desk,front desk
+accommodation,acc-hot-spring,hot spring
+accommodation,acc-key-card,key card
+accommodation,acc-late-checkout,late check-out
+accommodation,acc-lodging,accommodation
+accommodation,acc-luggage,luggage
+accommodation,acc-pickup-service,pick-up service
+accommodation,acc-private-lodging,private lodging
+accommodation,acc-room-type,room type
+accommodation,acc-ryokan,ryokan
+accommodation,acc-single-room,single room
+accommodation,acc-vacancy,vacancy
+bank-finance,,index
+bank-finance,,"life, living, daily life"
+bank-finance,,"method, way, means, approach"
+bank-finance,,not applicable
+bank-finance,,"object, target, subject (of something)"
+bank-finance,,"other party, partner, opponent"
+bank-finance,,preparation
+bank-finance,,source
+bank-finance,,to accumulate
+bank-finance,,to award
+bank-finance,,to grant
+bank-finance,,to scan
+bank-finance,,"use, utilization, making use of"
+bank-finance,ban-affiliated-store,affiliated store
+bank-finance,ban-bank-card,bank card
+bank-finance,ban-branch,branch (of a bank)
+bank-finance,ban-currency,currency
+bank-finance,ban-exchange-rate,exchange rate
+bank-finance,ban-fraud,fraudulent use
+bank-finance,ban-interest,interest
+bank-finance,ban-loan,loan
+bank-finance,ban-mortgage,mortgage
+bank-finance,ban-passbook,passbook
+bank-finance,ban-pin,PIN
+bank-finance,ban-statement,statement
+bank-finance,ban-to-deposit,to pay in
+bank-finance,ban-to-open-account,to open an account
+bank-finance,ban-to-withdraw,to withdraw
+bank-finance,ban-transfer,bank transfer
+barber-salon,bar-appointment-salon,salon appointment
+barber-salon,bar-beard,beard
+barber-salon,bar-finishing,finishing touches
+barber-salon,bar-fringe,fringe
+barber-salon,bar-hair-length,hair length
+barber-salon,bar-hair-wash,hair wash
+barber-salon,bar-haircut,haircut
+barber-salon,bar-shave,shave
+barber-salon,bar-styling-product,styling product
+barber-salon,bar-to-cut-hair,to cut (hair)
+barber-salon,bar-trim,trim
+clothing-store,,childbirth
+clothing-store,cst-changing-room-queue,queue
+clothing-store,cst-colour-variant,colour variant
+clothing-store,cst-fitting-room,fitting room
+clothing-store,cst-in-fashion,fashion
+clothing-store,cst-refund,refund
+clothing-store,cst-return-goods,return of goods
+clothing-store,cst-to-exchange,to exchange
+clothing-store,cst-to-fit,to fit
+clothing-store,cst-to-try-on,to try on
+drugstore,dru-bandage,bandage
+drugstore,dru-dosage,dosage
+drugstore,dru-face-mask,face mask
+drugstore,dru-painkiller,painkiller
+drugstore,dru-pharmacist,pharmacist
+drugstore,dru-plaster,plaster
+drugstore,dru-prescription,prescription
+drugstore,dru-sunscreen,sun cream
+drugstore,dru-tissue,tissues
+drugstore,dru-toothpaste,toothpaste
+drugstore,dru-vitamin,vitamin
+ecommerce,eco-barcode,barcode
+ecommerce,eco-campaign,promotion
+ecommerce,eco-cart,basket (online)
+ecommerce,eco-checkout-online,checkout
+ecommerce,eco-courier,courier
+ecommerce,eco-delivery-address,delivery address
+ecommerce,eco-limited-time,limited-time
+ecommerce,eco-new-arrival,new arrival
+ecommerce,eco-online-shop,online shop
+ecommerce,eco-out-for-delivery,dispatched
+ecommerce,eco-rating,rating
+ecommerce,eco-return-online,returns
+ecommerce,eco-review,review
+ecommerce,eco-to-add-to-cart,to add to basket
+ecommerce,eco-tracking,tracking
+electronics-store,ele-breakdown,breakdown
+electronics-store,ele-cable,cable
+electronics-store,ele-charger,charger
+electronics-store,ele-display-model,display model
+electronics-store,ele-electricity,electricity
+electronics-store,ele-manual,instruction manual
+electronics-store,ele-model,model
+electronics-store,ele-plug,plug
+electronics-store,ele-repair,repair
+electronics-store,ele-socket,socket
+electronics-store,ele-warranty,warranty
+furniture-store,fst-assembly,assembly
+furniture-store,fst-delivery-furniture,delivery (of goods)
+furniture-store,fst-flat-pack,flat-pack
+furniture-store,fst-lighting-shop,light fitting
+furniture-store,fst-measurement,measurement
+furniture-store,fst-showroom,showroom
+government-office,gov-certificate,certificate
+government-office,gov-counter-window,service counter
+government-office,gov-form,form
+government-office,gov-immigration,immigration
+government-office,gov-nationality,nationality
+government-office,gov-parcel,parcel
+government-office,gov-passport,passport
+government-office,gov-post,post
+government-office,gov-postage-stamp,postage stamp
+government-office,gov-queue-number,queue number
+government-office,gov-registration-official,official registration
+government-office,gov-residence-card,residence permit
+government-office,gov-seal-stamp,personal seal
+government-office,gov-signature,signature
+government-office,gov-to-fill-in,to fill in
+government-office,gov-to-post,to post
+government-office,gov-visa,visa
+groceries-store,gro-aisle,aisle
+groceries-store,gro-barley-tea,barley tea
+groceries-store,gro-basket,basket
+groceries-store,gro-best-before,best before date
+groceries-store,gro-domestic-produce,domestically produced
+groceries-store,gro-dried-goods,dried goods
+groceries-store,gro-frozen-food,frozen food
+groceries-store,gro-matcha,matcha
+groceries-store,gro-organic,organic
+groceries-store,gro-plastic-bag,carrier bag
+groceries-store,gro-produce,fresh produce
+groceries-store,gro-scales,scales
+groceries-store,gro-self-checkout,self-checkout
+groceries-store,gro-trolley,trolley
+hospital-clinic,hos-ambulance,ambulance
+hospital-clinic,hos-appointment-med,medical appointment
+hospital-clinic,hos-consultation-room,consulting room
+hospital-clinic,hos-emergency,emergency
+hospital-clinic,hos-injection,injection
+hospital-clinic,hos-insurance-card,insurance card
+hospital-clinic,hos-patient,patient
+hospital-clinic,hos-reception-desk,reception
+hospital-clinic,hos-surgery-operation,operation
+hospital-clinic,hos-symptom,symptom
+hospital-clinic,hos-waiting-room,waiting room
+hospital-clinic,hos-ward,ward
+hospital-clinic,hos-x-ray,x-ray
+housing-realestate,,birth
+housing-realestate,,charm
+housing-realestate,,exclusive use
+housing-realestate,,popularity
+housing-realestate,,"realization, actualization"
+housing-realestate,,space
+housing-realestate,,viewpoint
+housing-realestate,hre-agent-fee,agency fee
+housing-realestate,hre-all-rooms,all rooms
+housing-realestate,hre-apartment,flat (rented)
+housing-realestate,hre-asset-value,asset value
+housing-realestate,hre-building-age,building age
+housing-realestate,hre-condominium,owned flat
+housing-realestate,hre-deposit,security deposit
+housing-realestate,hre-detached-house,detached house
+housing-realestate,hre-estate-agent,estate agent
+housing-realestate,hre-exclusive-area,floor area (exclusive)
+housing-realestate,hre-facilities,facilities
+housing-realestate,hre-floor-plan,floor plan
+housing-realestate,hre-guarantor,guarantor
+housing-realestate,hre-guarantor-company,guarantor company
+housing-realestate,hre-housing,housing
+housing-realestate,hre-initial-costs,initial costs
+housing-realestate,hre-key-money,key money
+housing-realestate,hre-landlord,landlord
+housing-realestate,hre-minutes-from-station,minutes from the station
+housing-realestate,hre-moving-in,moving in
+housing-realestate,hre-newly-built,newly built
+housing-realestate,hre-property,property
+housing-realestate,hre-real-estate,real estate
+housing-realestate,hre-renewal-fee,renewal fee
+housing-realestate,hre-rent,rent
+housing-realestate,hre-rental,letting
+housing-realestate,hre-share-house,house share
+housing-realestate,hre-tenancy-contract,tenancy agreement
+housing-realestate,hre-tenant,tenant
+housing-realestate,hre-utilities,utilities
+housing-realestate,hre-viewing,property viewing
+housing-realestate,hre-wooden-construction,timber construction
+konbini,kon-atm,cash machine
+konbini,kon-bento,bento box
+konbini,kon-convenience-store,convenience store
+konbini,kon-hot-counter,hot food counter
+konbini,kon-onigiri,rice ball
+konbini,kon-open-24h,open 24 hours
+konbini,kon-parcel-pickup,parcel collection
+konbini,kon-photocopier,photocopy
+phone-carrier,pho-contract-length,minimum term
+phone-carrier,pho-coverage,coverage
+phone-carrier,pho-data-allowance,data allowance
+phone-carrier,pho-monthly-fee,monthly charge
+phone-carrier,pho-provider,provider
+phone-carrier,pho-roaming,roaming
+phone-carrier,pho-sim-card,SIM card
+phone-carrier,pho-tariff,tariff
+phone-carrier,pho-to-cancel,to cancel
+phone-carrier,pho-top-up,top-up credit
+restaurant,,curry
+restaurant,,"dinner, evening meal, supper"
+restaurant,,pizza
+restaurant,res-all-you-can-drink,all you can drink
+restaurant,res-all-you-can-eat,all you can eat
+restaurant,res-breakfast-set,breakfast set
+restaurant,res-burger-patty,burger patty
+restaurant,res-carbonara,carbonara
+restaurant,res-eat-in,to eat in
+restaurant,res-eating-drinking,eating and drinking
+restaurant,res-flame-grilled,flame-grilled
+restaurant,res-fried-egg,fried egg
+restaurant,res-fully-booked,fully booked
+restaurant,res-grilled-meat,grilled meat
+restaurant,res-izakaya,izakaya
+restaurant,res-japanese-cuisine,Japanese cuisine
+restaurant,res-main-course,main course
+restaurant,res-menu,menu
+restaurant,res-natto,natto
+restaurant,res-no-smoking,no smoking
+restaurant,res-order,order
+restaurant,res-ponzu,ponzu
+restaurant,res-portion,portion size
+restaurant,res-private-room,private room
+restaurant,res-ramen,ramen
+restaurant,res-recommendation,recommendation
+restaurant,res-reservation,reservation
+restaurant,res-rice-bowl,rice bowl dish
+restaurant,res-sake,sake
+restaurant,res-salad,salad
+restaurant,res-sandwich,sandwich
+restaurant,res-shochu,shochu
+restaurant,res-side-order,single item
+restaurant,res-small-bowl,small side bowl
+restaurant,res-soba,soba
+restaurant,res-starter,starter
+restaurant,res-steak,steak
+restaurant,res-sushi,sushi
+restaurant,res-table-booking,table (for a booking)
+restaurant,res-takeaway,takeaway
+restaurant,res-tempura,tempura
+restaurant,res-thick-cut,thick-cut
+restaurant,res-tip,tip
+restaurant,res-to-book,to book
+restaurant,res-to-order,to order
+restaurant,res-to-pay-bill,to pay the bill
+restaurant,res-topping,topping
+restaurant,res-udon,udon
+restaurant,res-waiter-service,service
+restaurant,res-wasabi,wasabi
+restaurant,res-western-cuisine,Western cuisine
+station-transport,sta-arrival,arrival
+station-transport,sta-boarding-ship,boarding a ship
+station-transport,sta-commuter-pass,season ticket
+station-transport,sta-delay,delay
+station-transport,sta-departure,departure
+station-transport,sta-departure-point,point of departure
+station-transport,sta-destination,destination
+station-transport,sta-east-exit,east exit
+station-transport,sta-entrance,entrance
+station-transport,sta-exit,exit
+station-transport,sta-express,express train
+station-transport,sta-fare,fare
+station-transport,sta-last-train,last train
+station-transport,sta-line-side,area along the line
+station-transport,sta-main-line,main line
+station-transport,sta-platform,platform
+station-transport,sta-route,route
+station-transport,sta-seat,seat
+station-transport,sta-station,station
+station-transport,sta-steam-train,steam train
+station-transport,sta-steamship,steamship
+station-transport,sta-ticket,ticket
+station-transport,sta-ticket-barrier,ticket barrier
+station-transport,sta-ticket-machine,ticket machine
+station-transport,sta-timetable,timetable
+station-transport,sta-to-pass-through,to pass through
+station-transport,sta-to-transfer,to change trains
+station-transport,sta-transit,transit
+station-transport,sta-unreserved-seat,unreserved seat
+variety-store,var-gift,gift
+variety-store,var-hair-care,hair care
+variety-store,var-hundred-yen-shop,pound shop
+variety-store,var-interior-decor,interior decor
+variety-store,var-makeup,make-up
+variety-store,var-wrapping,gift wrapping

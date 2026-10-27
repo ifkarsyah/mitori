@@ -9,7 +9,6 @@ import { GroupedTable } from '@/components/GroupedTable'
 import type { Word } from '@/features/word/api'
 import { useLanguage } from '@/features/language/useLanguage'
 import { useMeaningRows, type MeaningRow } from '@/features/meaning/hooks'
-import { useSceneList } from '@/features/scene/hooks'
 import { useCategoryList } from './hooks'
 
 function WordList({ words }: { words: Word[] | undefined }) {
@@ -32,10 +31,9 @@ function WordList({ words }: { words: Word[] | undefined }) {
 
 export function CategoryDetailPage() {
   const { slug } = useParams<{ slug: string }>()
-  const { languages, current } = useLanguage()
+  const { languages } = useLanguage()
   const { data: categories, isLoading, isError, error, refetch } = useCategoryList()
   const { data: meaningRows } = useMeaningRows()
-  const { data: scenes } = useSceneList()
 
   const category = categories?.find((c) => c.slug === slug)
   const descendantIds = useMemo(() => {
@@ -44,10 +42,6 @@ export function CategoryDetailPage() {
     for (const c of categories ?? []) if (c.parent_id === category.id) ids.add(c.id)
     return ids
   }, [categories, category])
-
-  const narrowerScenes = (scenes ?? []).filter(
-    (c) => c.category_id != null && descendantIds.has(c.category_id),
-  )
 
   const rows = useMemo(
     () => meaningRows.filter((r) => r.meaning.category_id != null && descendantIds.has(r.meaning.category_id)),
@@ -117,7 +111,6 @@ export function CategoryDetailPage() {
       <div className="flex flex-col gap-2">
         <span className="text-4xl">{category.name}</span>
         <div className="flex flex-wrap gap-2">
-          <Badge variant="outline">{category.kind === 'core' ? 'Core' : 'Situational'}</Badge>
           <Badge variant="secondary">{rows.length} meanings</Badge>
           {languages.map((lang) => {
             const covered = rows.filter((r) => (r.wordsByLanguage.get(lang.code)?.length ?? 0) > 0).length
@@ -128,16 +121,6 @@ export function CategoryDetailPage() {
             )
           })}
         </div>
-        {narrowerScenes.length > 0 && (
-          <div className="flex flex-wrap items-center gap-2">
-            <span className="text-sm text-muted-foreground">{current?.name} scenes:</span>
-            {narrowerScenes.map((c) => (
-              <Link key={c.id} to={`/scene/${c.slug}`}>
-                <Badge variant="secondary">{c.name}</Badge>
-              </Link>
-            ))}
-          </div>
-        )}
       </div>
 
       <GroupedTable

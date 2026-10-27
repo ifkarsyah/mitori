@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
 import { WordExplorer } from '@/features/word/WordExplorer'
-import { useCategoryLookup } from '@/features/category/hooks'
+import { useSceneLookup } from '@/features/scene/hooks'
 import { useWordForSource, useSourceById } from './hooks'
 
 export function SourceDetailPage() {
@@ -12,9 +12,8 @@ export function SourceDetailPage() {
   const sourceId = id ? Number(id) : undefined
 
   const { data: source, isLoading, isError, error, refetch } = useSourceById(sourceId)
-  const categories = useCategoryLookup()
-  const category =
-    source?.category_id != null ? categories.byId.get(source.category_id) : undefined
+  const sceneById = useSceneLookup()
+  const scene = source?.scene_id != null ? sceneById.get(source.scene_id) : undefined
   const { data: words, isLoading: wordsLoading } = useWordForSource(sourceId)
 
   if (isLoading) return <LoadingState />
@@ -30,7 +29,11 @@ export function SourceDetailPage() {
       <div className="flex flex-col gap-2">
         <div className="flex items-baseline gap-3">
           <span className="text-3xl font-semibold">{source.name}</span>
-          {category && <Badge variant="outline">{category.name}</Badge>}
+          {scene && (
+            <Link to={`/scene/${scene.slug}`}>
+              <Badge variant="outline">{scene.name}</Badge>
+            </Link>
+          )}
         </div>
         {source.url && (
           <a

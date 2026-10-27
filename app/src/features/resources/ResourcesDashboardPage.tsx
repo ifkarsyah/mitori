@@ -7,6 +7,7 @@ import { GroupedTable } from '@/components/GroupedTable'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
 import { useCategoryList } from '@/features/category/hooks'
+import { useSceneList } from '@/features/scene/hooks'
 import { useLanguage } from '@/features/language/useLanguage'
 import type { Resource } from './api'
 import { useResourceChannelList, useResourceList } from './hooks'
@@ -20,6 +21,8 @@ import {
   distinctCategories,
   distinctChannelIds,
   distinctTopicIds,
+  distinctSceneIds,
+  sceneLabel,
   groupResourcesBy,
   type ResourceFilterState,
   type ResourceGroupBy,
@@ -30,6 +33,7 @@ const GROUP_BY_OPTIONS = [
   { value: 'channel', label: 'Channel' },
   { value: 'category', label: 'Category' },
   { value: 'topic', label: 'Topic' },
+  { value: 'scene', label: 'Scene' },
 ]
 
 export function ResourcesDashboardPage() {
@@ -37,6 +41,7 @@ export function ResourcesDashboardPage() {
   const { data, isLoading, isError, error, refetch } = useResourceList()
   const { data: channels } = useResourceChannelList()
   const { data: categories } = useCategoryList()
+  const { data: scenes } = useSceneList()
   const [filters, setFilters] = useState<ResourceFilterState>(defaultResourceFilterState)
 
   const channelNameById = useMemo(() => {
@@ -58,6 +63,8 @@ export function ResourcesDashboardPage() {
     }
     return map
   }, [categories])
+
+  const sceneNameById = useMemo(() => new Map((scenes ?? []).map((s) => [s.id, s.name])), [scenes])
 
   const columns = useMemo<ColumnConfig<Resource>[]>(
     () => [
@@ -107,8 +114,19 @@ export function ResourcesDashboardPage() {
         sortValue: (row) =>
           row.category_id != null ? topicLabel(String(row.category_id), categoryNameById) : null,
       },
+      {
+        key: 'scene',
+        header: 'Scene',
+        render: (row) =>
+          row.scene_id != null ? (
+            sceneLabel(String(row.scene_id), sceneNameById)
+          ) : (
+            <span className="text-muted-foreground">—</span>
+          ),
+        sortValue: (row) => (row.scene_id != null ? sceneLabel(String(row.scene_id), sceneNameById) : null),
+      },
     ],
-    [channelNameById, channelSlugById, categoryNameById],
+    [channelNameById, channelSlugById, categoryNameById, sceneNameById],
   )
 
   const channelOptions = useMemo(() => {
@@ -135,16 +153,25 @@ export function ResourcesDashboardPage() {
     ]
   }, [data, categoryNameById])
 
+  const sceneOptions = useMemo(() => {
+    const values = distinctSceneIds(data ?? [])
+    return [
+      { value: ALL, label: 'All scenes' },
+      ...values.map((v) => ({ value: v, label: sceneLabel(v, sceneNameById) })),
+    ]
+  }, [data, sceneNameById])
+
   const fields: FilterFieldConfig[] = [
     { key: 'channelId', label: 'Channel', options: channelOptions },
     { key: 'category', label: 'Category', options: categoryOptions },
     { key: 'topicId', label: 'Topic', options: contextOptions },
+    { key: 'sceneId', label: 'Scene', options: sceneOptions },
   ]
 
   const groups = useMemo(() => {
     const filtered = applyResourceFilters(data ?? [], filters)
-    return groupResourcesBy(filtered, filters.groupBy, channelNameById, categoryNameById)
-  }, [data, filters, channelNameById, categoryNameById])
+    return groupResourcesBy(filtered, filters.groupBy, channelNameById, categoryNameById, sceneNameById)
+  }, [data, filters, channelNameById, categoryNameById, sceneNameById])
 
   if (isLoading) return <LoadingState />
   if (isError) return <ErrorState error={error} onRetry={() => refetch()} />
@@ -167,6 +194,7 @@ export function ResourcesDashboardPage() {
           channelId: filters.channelId,
           category: filters.category,
           topicId: filters.topicId,
+          sceneId: filters.sceneId,
         }}
         onFieldChange={(key, value) => setFilters((f) => ({ ...f, [key]: value }))}
         groupByOptions={GROUP_BY_OPTIONS}

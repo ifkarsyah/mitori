@@ -22,28 +22,5 @@ res-recommendation,recommendation,noun,1,146,おすすめ.
 res-eating-drinking,eating and drinking,noun,3,1047,飲食.
 res-to-pay-bill,to pay the bill,verb,1,,
 res-tip,tip,noun,2,,Culturally absent in Japan; relevant for German.
-res-steak,steak,noun,2,550,ステーキ.
-res-burger-patty,burger patty,noun,3,42,ハンバーグ.
-res-salad,salad,noun,1,299,サラダ.
-res-sandwich,sandwich,noun,1,,
-res-carbonara,carbonara,noun,3,826,カルボナーラ.
-res-japanese-cuisine,Japanese cuisine,noun,2,162,和食.
-res-western-cuisine,Western cuisine,noun,3,1200,洋食.
-res-ramen,ramen,noun,2,622,Japanese-specific.
-res-udon,udon,noun,3,596,Japanese-specific.
-res-soba,soba,noun,3,840,Japanese-specific.
-res-sushi,sushi,noun,2,1031,Japanese-specific.
-res-tempura,tempura,noun,3,829,Japanese-specific.
-res-natto,natto,noun,3,260,Japanese-specific.
-res-rice-bowl,rice bowl dish,noun,3,481;1295;878,"Merges 丼 (481), 牛めし (1295) and 牛丼 (878)."
-res-grilled-meat,grilled meat,noun,3,564,焼肉.
-res-fried-egg,fried egg,noun,2,1196,目玉焼き.
-res-wasabi,wasabi,noun,3,464,Japanese-specific.
-res-ponzu,ponzu,noun,3,779,Japanese-specific.
-res-shochu,shochu,noun,3,784,Japanese-specific.
-res-sake,sake,noun,2,383,日本酒.
 res-izakaya,izakaya,noun,3,754,Japanese-specific.
-res-thick-cut,thick-cut,adjective,3,507,厚切り.
-res-flame-grilled,flame-grilled,adjective,3,455,直火焼き.
 res-small-bowl,small side bowl,noun,3,741,小鉢.
-res-breakfast-set,breakfast set,noun,3,1471,モーニング — a Japanese café convention.

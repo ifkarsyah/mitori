@@ -23,12 +23,14 @@ import {
   levelLabel,
   kanaTypeLabel,
   partOfSpeechLabel,
+  sceneLabel,
   type SentenceFilterState,
   type SentenceGroupBy,
 } from './filters'
 
 const GROUP_BY_OPTIONS = [
   { value: 'none', label: 'None' },
+  { value: 'scene', label: 'Scene' },
   { value: 'category', label: 'Category' },
   { value: 'level', label: 'Level' },
   { value: 'part_of_speech', label: 'Part of speech' },
@@ -100,6 +102,19 @@ const columns: ColumnConfig<EnrichedSentence>[] = [
     sortValue: (row) => row.word,
   },
   {
+    key: 'scene',
+    header: 'Scene',
+    render: (row) =>
+      row.sceneSlug != null && row.scene ? (
+        <Link to={`/scene/${row.sceneSlug}`} className="hover:underline" onClick={(e) => e.stopPropagation()}>
+          {row.scene}
+        </Link>
+      ) : (
+        <span className="text-muted-foreground">—</span>
+      ),
+    sortValue: (row) => row.scene,
+  },
+  {
     key: 'category',
     header: 'Category',
     render: (row) =>
@@ -159,7 +174,13 @@ export function SentenceDashboardPage() {
     ]
   }, [data])
 
+  const sceneOptions = useMemo(() => {
+    const values = distinctFieldValues(data, 'scene')
+    return [{ value: ALL, label: 'All scenes' }, ...values.map((v) => ({ value: v, label: sceneLabel(v) }))]
+  }, [data])
+
   const fields: FilterFieldConfig[] = [
+    { key: 'scene', label: 'Scene', options: sceneOptions },
     { key: 'category', label: 'Category', options: contextOptions },
     { key: 'partOfSpeech', label: 'Part of speech', options: partOfSpeechOptions },
     { key: 'kanaType', label: 'Kana type', options: kanaTypeOptions },
@@ -192,6 +213,7 @@ export function SentenceDashboardPage() {
         searchPlaceholder="Search sentence, meaning, or word…"
         fields={fields}
         fieldValues={{
+          scene: filters.scene,
           category: filters.category,
           partOfSpeech: filters.partOfSpeech,
           kanaType: filters.kanaType,

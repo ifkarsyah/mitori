@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import { useCategoryList } from '@/features/category/hooks'
+import { useSceneList } from '@/features/scene/hooks'
 import {
   useWordList,
   useSentenceWordList,
@@ -25,6 +26,8 @@ export type EnrichedSentence = {
   categoryId: number | null
   category: string | null
   categorySlug: string | null
+  scene: string | null
+  sceneSlug: string | null
   linkedWords: LinkedWord[]
 }
 
@@ -33,11 +36,13 @@ export function useSentencesWithWords() {
   const wordQuery = useWordList()
   const categoryQuery = useCategoryList()
   const sentenceWordQuery = useSentenceWordList()
+  const sceneQuery = useSceneList()
 
   const data = useMemo<EnrichedSentence[]>(() => {
     if (!sentencesQuery.data) return []
     const wordById = new Map((wordQuery.data ?? []).map((k) => [k.id, k]))
     const categoryById = new Map((categoryQuery.data ?? []).map((c) => [c.id, c]))
+    const sceneById = new Map((sceneQuery.data ?? []).map((c) => [c.id, c]))
 
     const linkedWordsBySentenceId = new Map<number, LinkedWord[]>()
     for (const link of sentenceWordQuery.data ?? []) {
@@ -55,6 +60,7 @@ export function useSentencesWithWords() {
     return sentencesQuery.data.map((s) => {
       const word = s.word_id != null ? wordById.get(s.word_id) : undefined
       const category = s.category_id != null ? categoryById.get(s.category_id) : undefined
+      const scene = s.scene_id != null ? sceneById.get(s.scene_id) : undefined
       return {
         id: s.id,
         sentence: s.sentence,
@@ -68,10 +74,12 @@ export function useSentencesWithWords() {
         categoryId: s.category_id,
         category: category?.name ?? null,
         categorySlug: category?.slug ?? null,
+        scene: scene?.name ?? null,
+        sceneSlug: scene?.slug ?? null,
         linkedWords: linkedWordsBySentenceId.get(s.id) ?? [],
       }
     })
-  }, [sentencesQuery.data, wordQuery.data, categoryQuery.data, sentenceWordQuery.data])
+  }, [sentencesQuery.data, wordQuery.data, categoryQuery.data, sentenceWordQuery.data, sceneQuery.data])
 
   return {
     data,
@@ -79,14 +87,21 @@ export function useSentencesWithWords() {
       sentencesQuery.isLoading ||
       wordQuery.isLoading ||
       categoryQuery.isLoading ||
+      sceneQuery.isLoading ||
       sentenceWordQuery.isLoading,
     isError:
-      sentencesQuery.isError || wordQuery.isError || categoryQuery.isError || sentenceWordQuery.isError,
-    error: sentencesQuery.error ?? wordQuery.error ?? categoryQuery.error ?? sentenceWordQuery.error,
+      sentencesQuery.isError ||
+      wordQuery.isError ||
+      categoryQuery.isError ||
+      sceneQuery.isError ||
+      sentenceWordQuery.isError,
+    error:
+      sentencesQuery.error ?? wordQuery.error ?? categoryQuery.error ?? sceneQuery.error ?? sentenceWordQuery.error,
     refetch: () => {
       sentencesQuery.refetch()
       wordQuery.refetch()
       categoryQuery.refetch()
+      sceneQuery.refetch()
       sentenceWordQuery.refetch()
     },
   }

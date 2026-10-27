@@ -95,7 +95,7 @@ export async function fetchSourceList(language: LanguageRow): Promise<Source[]> 
   return fetchAllRows<Source>(async (from, to) =>
     languageDb(language)
       .from('source')
-      .select('id, name, url, category_id, created_at')
+      .select('id, name, url, scene_id, created_at')
       .order('id')
       .range(from, to),
   )

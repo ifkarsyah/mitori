@@ -6,6 +6,7 @@ import { ErrorState } from '@/components/ErrorState'
 import type { Word } from '@/features/word/api'
 import { useLanguage } from '@/features/language/useLanguage'
 import { useCategoryLookup } from '@/features/category/hooks'
+import { useSceneLookup, useScenesByMeaning } from '@/features/scene/hooks'
 import { useMeaningById, useWordForMeaning } from './hooks'
 import { partOfSpeechLabel } from './filters'
 
@@ -36,6 +37,8 @@ export function MeaningDetailPage() {
   const { data: meaning, isLoading, isError, error, refetch } = useMeaningById(meaningId)
   const categories = useCategoryLookup()
   const { data: words } = useWordForMeaning(meaningId)
+  const sceneById = useSceneLookup()
+  const scenesByMeaning = useScenesByMeaning()
 
   if (isLoading) return <LoadingState />
   if (isError) return <ErrorState error={error} onRetry={() => refetch()} />
@@ -65,6 +68,16 @@ export function MeaningDetailPage() {
               {categories.byId.get(meaning.category_id)?.name}
             </Badge>
           )}
+          {(scenesByMeaning.get(meaning.id) ?? []).map((sceneId) => {
+            const scene = sceneById.get(sceneId)
+            return (
+              scene && (
+                <Link key={scene.id} to={`/scene/${scene.slug}`}>
+                  <Badge variant="outline">{scene.name}</Badge>
+                </Link>
+              )
+            )
+          })}
           {meaning.tier != null && <Badge variant="outline">Tier {meaning.tier}</Badge>}
           {meaning.slug == null && (
             <Badge variant="outline">Outside the syllabus</Badge>

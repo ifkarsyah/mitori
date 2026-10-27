@@ -58,6 +58,7 @@ export type Database = {
           created_at: string
           id: number
           is_transcript_complete: boolean
+          scene_id: number | null
           title: string
           transcript: string | null
           updated_at: string | null
@@ -70,6 +71,7 @@ export type Database = {
           created_at?: string
           id?: number
           is_transcript_complete?: boolean
+          scene_id?: number | null
           title: string
           transcript?: string | null
           updated_at?: string | null
@@ -82,6 +84,7 @@ export type Database = {
           created_at?: string
           id?: number
           is_transcript_complete?: boolean
+          scene_id?: number | null
           title?: string
           transcript?: string | null
           updated_at?: string | null
@@ -116,36 +119,6 @@ export type Database = {
           platform?: string
           slug?: string
           url?: string | null
-        }
-        Relationships: []
-      }
-      scene: {
-        Row: {
-          category_id: number | null
-          created_at: string
-          description: string | null
-          id: number
-          name: string
-          slug: string
-          sort_order: number
-        }
-        Insert: {
-          category_id?: number | null
-          created_at?: string
-          description?: string | null
-          id?: number
-          name: string
-          slug: string
-          sort_order?: number
-        }
-        Update: {
-          category_id?: number | null
-          created_at?: string
-          description?: string | null
-          id?: number
-          name?: string
-          slug?: string
-          sort_order?: number
         }
         Relationships: []
       }
@@ -226,21 +199,21 @@ export type Database = {
       }
       source: {
         Row: {
-          category_id: number | null
+          scene_id: number | null
           created_at: string
           id: number
           name: string
           url: string | null
         }
         Insert: {
-          category_id?: number | null
+          scene_id?: number | null
           created_at?: string
           id?: number
           name: string
           url?: string | null
         }
         Update: {
-          category_id?: number | null
+          scene_id?: number | null
           created_at?: string
           id?: number
           name?: string
@@ -353,6 +326,7 @@ export type Database = {
           created_at: string
           id: number
           is_transcript_complete: boolean
+          scene_id: number | null
           title: string
           transcript: string | null
           updated_at: string | null
@@ -365,6 +339,7 @@ export type Database = {
           created_at?: string
           id?: number
           is_transcript_complete?: boolean
+          scene_id?: number | null
           title: string
           transcript?: string | null
           updated_at?: string | null
@@ -377,6 +352,7 @@ export type Database = {
           created_at?: string
           id?: number
           is_transcript_complete?: boolean
+          scene_id?: number | null
           title?: string
           transcript?: string | null
           updated_at?: string | null
@@ -411,36 +387,6 @@ export type Database = {
           platform?: string
           slug?: string
           url?: string | null
-        }
-        Relationships: []
-      }
-      scene: {
-        Row: {
-          category_id: number | null
-          created_at: string
-          description: string | null
-          id: number
-          name: string
-          slug: string
-          sort_order: number
-        }
-        Insert: {
-          category_id?: number | null
-          created_at?: string
-          description?: string | null
-          id?: number
-          name: string
-          slug: string
-          sort_order?: number
-        }
-        Update: {
-          category_id?: number | null
-          created_at?: string
-          description?: string | null
-          id?: number
-          name?: string
-          slug?: string
-          sort_order?: number
         }
         Relationships: []
       }
@@ -500,21 +446,21 @@ export type Database = {
       }
       source: {
         Row: {
-          category_id: number | null
+          scene_id: number | null
           created_at: string
           id: number
           name: string
           url: string | null
         }
         Insert: {
-          category_id?: number | null
+          scene_id?: number | null
           created_at?: string
           id?: number
           name: string
           url?: string | null
         }
         Update: {
-          category_id?: number | null
+          scene_id?: number | null
           created_at?: string
           id?: number
           name?: string
@@ -672,6 +618,7 @@ export type Database = {
           created_at: string
           id: number
           is_transcript_complete: boolean
+          scene_id: number | null
           title: string
           transcript: string | null
           updated_at: string | null
@@ -684,6 +631,7 @@ export type Database = {
           created_at?: string
           id?: number
           is_transcript_complete?: boolean
+          scene_id?: number | null
           title: string
           transcript?: string | null
           updated_at?: string | null
@@ -696,6 +644,7 @@ export type Database = {
           created_at?: string
           id?: number
           is_transcript_complete?: boolean
+          scene_id?: number | null
           title?: string
           transcript?: string | null
           updated_at?: string | null
@@ -730,36 +679,6 @@ export type Database = {
           platform?: string
           slug?: string
           url?: string | null
-        }
-        Relationships: []
-      }
-      scene: {
-        Row: {
-          category_id: number | null
-          created_at: string
-          description: string | null
-          id: number
-          name: string
-          slug: string
-          sort_order: number
-        }
-        Insert: {
-          category_id?: number | null
-          created_at?: string
-          description?: string | null
-          id?: number
-          name: string
-          slug: string
-          sort_order?: number
-        }
-        Update: {
-          category_id?: number | null
-          created_at?: string
-          description?: string | null
-          id?: number
-          name?: string
-          slug?: string
-          sort_order?: number
         }
         Relationships: []
       }
@@ -819,21 +738,21 @@ export type Database = {
       }
       source: {
         Row: {
-          category_id: number | null
+          scene_id: number | null
           created_at: string
           id: number
           name: string
           url: string | null
         }
         Insert: {
-          category_id?: number | null
+          scene_id?: number | null
           created_at?: string
           id?: number
           name: string
           url?: string | null
         }
         Update: {
-          category_id?: number | null
+          scene_id?: number | null
           created_at?: string
           id?: number
           name?: string
@@ -957,14 +876,12 @@ export type Database = {
           parsed_at?: string | null
           raw_text?: string | null
         }
-        Relationships: [
-        ]
+        Relationships: []
       }
       category: {
         Row: {
           created_at: string
           id: number
-          kind: string
           name: string
           parent_id: number | null
           slug: string
@@ -973,7 +890,6 @@ export type Database = {
         Insert: {
           created_at?: string
           id?: number
-          kind: string
           name: string
           parent_id?: number | null
           slug: string
@@ -982,7 +898,6 @@ export type Database = {
         Update: {
           created_at?: string
           id?: number
-          kind?: string
           name?: string
           parent_id?: number | null
           slug?: string
@@ -992,44 +907,6 @@ export type Database = {
           {
             foreignKeyName: "category_parent_id_fkey"
             columns: ["parent_id"]
-            isOneToOne: false
-            referencedRelation: "category"
-            referencedColumns: ["id"]
-          },
-        ]
-      }
-      meaning: {
-        Row: {
-          category_id: number | null
-          created_at: string
-          gloss: string
-          id: number
-          part_of_speech: string | null
-          slug: string | null
-          tier: number | null
-        }
-        Insert: {
-          category_id?: number | null
-          created_at?: string
-          gloss: string
-          id?: number
-          part_of_speech?: string | null
-          slug?: string | null
-          tier?: number | null
-        }
-        Update: {
-          category_id?: number | null
-          created_at?: string
-          gloss?: string
-          id?: number
-          part_of_speech?: string | null
-          slug?: string | null
-          tier?: number | null
-        }
-        Relationships: [
-          {
-            foreignKeyName: "meaning_category_id_fkey"
-            columns: ["category_id"]
             isOneToOne: false
             referencedRelation: "category"
             referencedColumns: ["id"]
@@ -1077,6 +954,125 @@ export type Database = {
           sort_order?: number
         }
         Relationships: []
+      }
+      meaning: {
+        Row: {
+          category_id: number | null
+          created_at: string
+          gloss: string
+          id: number
+          part_of_speech: string | null
+          slug: string | null
+          tier: number | null
+        }
+        Insert: {
+          category_id?: number | null
+          created_at?: string
+          gloss: string
+          id?: number
+          part_of_speech?: string | null
+          slug?: string | null
+          tier?: number | null
+        }
+        Update: {
+          category_id?: number | null
+          created_at?: string
+          gloss?: string
+          id?: number
+          part_of_speech?: string | null
+          slug?: string | null
+          tier?: number | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "meaning_category_id_fkey"
+            columns: ["category_id"]
+            isOneToOne: false
+            referencedRelation: "category"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      scene: {
+        Row: {
+          created_at: string
+          description: string | null
+          id: number
+          language: string | null
+          name: string
+          parent_id: number | null
+          slug: string
+          sort_order: number
+        }
+        Insert: {
+          created_at?: string
+          description?: string | null
+          id?: number
+          language?: string | null
+          name: string
+          parent_id?: number | null
+          slug: string
+          sort_order?: number
+        }
+        Update: {
+          created_at?: string
+          description?: string | null
+          id?: number
+          language?: string | null
+          name?: string
+          parent_id?: number | null
+          slug?: string
+          sort_order?: number
+        }
+        Relationships: [
+          {
+            foreignKeyName: "scene_language_fkey"
+            columns: ["language"]
+            isOneToOne: false
+            referencedRelation: "language"
+            referencedColumns: ["code"]
+          },
+          {
+            foreignKeyName: "scene_parent_id_fkey"
+            columns: ["parent_id"]
+            isOneToOne: false
+            referencedRelation: "scene"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      scene_meaning: {
+        Row: {
+          created_at: string
+          meaning_id: number
+          scene_id: number
+        }
+        Insert: {
+          created_at?: string
+          meaning_id: number
+          scene_id: number
+        }
+        Update: {
+          created_at?: string
+          meaning_id?: number
+          scene_id?: number
+        }
+        Relationships: [
+          {
+            foreignKeyName: "scene_meaning_meaning_id_fkey"
+            columns: ["meaning_id"]
+            isOneToOne: false
+            referencedRelation: "meaning"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "scene_meaning_scene_id_fkey"
+            columns: ["scene_id"]
+            isOneToOne: false
+            referencedRelation: "scene"
+            referencedColumns: ["id"]
+          },
+        ]
       }
     }
     Views: {

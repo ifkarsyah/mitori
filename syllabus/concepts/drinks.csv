@@ -13,3 +13,7 @@ dri-beer,beer,noun,1,46,ビール.
 dri-wine,wine,noun,1,1169,ワイン.
 dri-alcohol,alcohol,noun,1,760;767;1390,"Merges アルコール (760), お酒 (767) and 酒 (1390) — three registers of one meaning."
 dri-soup,soup,noun,1,969,スープ.
+gro-matcha,matcha,noun,3,209,Japanese-specific.
+gro-barley-tea,barley tea,noun,3,1124,Japanese-specific.
+res-shochu,shochu,noun,3,784,Japanese-specific.
+res-sake,sake,noun,2,383,日本酒.

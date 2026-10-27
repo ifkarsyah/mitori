@@ -40,3 +40,28 @@ mon-savings,savings,noun,2,1042,貯金.
 mon-consumption,consumption,noun,3,278,消費.
 mon-shipping-fee,delivery charge,noun,2,1467,送料.
 mon-utility-bills,utility bills,noun,2,485,公共料金.
+cst-return-goods,return of goods,noun,1,7,返品.
+cst-to-exchange,to exchange,verb,1,298,交換.
+cst-refund,refund,noun,1,,
+cst-changing-room-queue,queue,noun,2,595;834,"Merges 行列 (595) and 列 (834)."
+eco-barcode,barcode,noun,2,384,バーコード.
+eco-limited-time,limited-time,adjective,2,1434,期間限定.
+eco-campaign,promotion,noun,2,1037,キャンペーン.
+ele-warranty,warranty,noun,1,899,保証.
+ele-display-model,display model,noun,2,1044,展示品.
+fst-showroom,showroom,noun,2,,
+fst-flat-pack,flat-pack,adjective,3,1006,折りたたみ — existing concept is folding.
+gro-trolley,trolley,noun,1,,
+gro-basket,basket,noun,1,,
+gro-aisle,aisle,noun,2,,
+gro-self-checkout,self-checkout,noun,2,,
+gro-plastic-bag,carrier bag,noun,1,,
+gro-scales,scales,noun,3,,
+gro-best-before,best before date,noun,1,141,賞味期限.
+gro-organic,organic,adjective,2,448,有機.
+gro-domestic-produce,domestically produced,adjective,2,1452,国産.
+kon-hot-counter,hot food counter,noun,3,,
+kon-open-24h,open 24 hours,adjective,2,,
+var-hundred-yen-shop,pound shop,noun,2,,"Japanese 100円ショップ; the German equivalent is a 1-Euro-Laden."
+var-gift,gift,noun,1,1305,ギフト.
+var-wrapping,gift wrapping,noun,2,,

@@ -1,53 +1,17 @@
-import { useMemo, useState } from 'react'
+import { useMemo } from 'react'
 import { Link } from 'react-router'
-import type { FilterFieldConfig } from '@/components/FilterBar'
-import { FilterBar } from '@/components/FilterBar'
 import type { ColumnConfig } from '@/components/GroupedTable'
 import { GroupedTable } from '@/components/GroupedTable'
+import { CoverageBar } from '@/components/CoverageBar'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
 import { useLanguage } from '@/features/language/useLanguage'
 import { useCategoryList, useCategorySummaries, type CategorySummary } from './hooks'
-import {
-  ALL,
-  applyCategoryFilters,
-  defaultCategoryFilterState,
-  groupCategoriesBy,
-  type CategoryFilterState,
-  type CategoryGroupBy,
-} from './filters'
-
-const GROUP_BY_OPTIONS = [
-  { value: 'kind', label: 'Kind' },
-  { value: 'none', label: 'None' },
-]
-
-const KIND_OPTIONS = [
-  { value: ALL, label: 'All kinds' },
-  { value: 'core', label: 'Core' },
-  { value: 'situational', label: 'Situational' },
-]
-
-function CoverageBar({ covered, total }: { covered: number; total: number }) {
-  const percent = total === 0 ? 0 : Math.round((covered / total) * 100)
-  return (
-    <div className="flex items-center gap-2">
-      <div className="h-1.5 w-16 overflow-hidden rounded-full bg-muted">
-        <div className="h-full rounded-full bg-foreground" style={{ width: `${percent}%` }} />
-      </div>
-      <span className="text-sm tabular-nums">
-        {covered}
-        <span className="text-muted-foreground">/{total}</span>
-      </span>
-    </div>
-  )
-}
 
 export function CategoryDashboardPage() {
   const { languages } = useLanguage()
   const { isLoading, isError, error, refetch } = useCategoryList()
   const summaries = useCategorySummaries()
-  const [filters, setFilters] = useState<CategoryFilterState>(defaultCategoryFilterState)
 
   const columns = useMemo<ColumnConfig<CategorySummary>[]>(
     () => [
@@ -98,13 +62,6 @@ export function CategoryDashboardPage() {
     [languages],
   )
 
-  const fields: FilterFieldConfig[] = [{ key: 'kind', label: 'Kind', options: KIND_OPTIONS }]
-
-  const groups = useMemo(
-    () => groupCategoriesBy(applyCategoryFilters(summaries, filters), filters.groupBy),
-    [summaries, filters],
-  )
-
   if (isLoading) return <LoadingState />
   if (isError) return <ErrorState error={error} onRetry={() => refetch()} />
 
@@ -113,30 +70,17 @@ export function CategoryDashboardPage() {
       <div>
         <h1 className="text-xl font-semibold">Category</h1>
         <p className="text-sm text-muted-foreground">
-          {summaries.length} top-level categories — core holds the things themselves, situational
-          the vocabulary for a place
+          {summaries.length} top-level categories of vocabulary — what a word is about, not where you
+          use it (that is a scene)
         </p>
       </div>
 
-      <FilterBar
-        search={filters.search}
-        onSearchChange={(search) => setFilters((f) => ({ ...f, search }))}
-        searchPlaceholder="Search category…"
-        fields={fields}
-        fieldValues={{ kind: filters.kind }}
-        onFieldChange={(key, value) => setFilters((f) => ({ ...f, [key]: value }))}
-        groupByOptions={GROUP_BY_OPTIONS}
-        groupBy={filters.groupBy}
-        onGroupByChange={(value) => setFilters((f) => ({ ...f, groupBy: value as CategoryGroupBy }))}
-        onClear={() => setFilters(defaultCategoryFilterState)}
-      />
-
       <GroupedTable
-        groups={groups}
+        groups={[{ key: 'all', label: 'All categories', rows: summaries }]}
         columns={columns}
         getRowKey={(row) => row.category.id}
         getRowHref={(row) => `/category/${row.category.slug}`}
-        emptyMessage="No categories match these filters."
+        emptyMessage="No categories yet."
       />
     </div>
   )

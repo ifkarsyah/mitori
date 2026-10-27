@@ -6,39 +6,39 @@ import { GroupedTable } from '@/components/GroupedTable'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
 import type { Source } from '@/features/word/api'
-import { useCategoryList } from '@/features/category/hooks'
+import { useSceneList } from '@/features/scene/hooks'
 import { useLanguage } from '@/features/language/useLanguage'
 import { useSourceList, useSourceWordCounts } from './hooks'
 import {
   ALL,
   applySourceFilters,
   defaultSourceFilterState,
-  distinctSourceCategoryIds,
+  distinctSourceSceneIds,
   groupSourcesBy,
-  sourceCategoryLabel,
+  sourceSceneLabel,
   type SourceFilterState,
   type SourceGroupBy,
 } from './filters'
 
 const GROUP_BY_OPTIONS = [
   { value: 'none', label: 'None' },
-  { value: 'category', label: 'Category' },
+  { value: 'scene', label: 'Scene' },
 ]
 
 export function SourceDashboardPage() {
   const { language, labelFor } = useLanguage()
   const { data, isLoading, isError, error, refetch } = useSourceList()
-  const { data: categories } = useCategoryList()
+  const { data: scenes } = useSceneList()
   const wordCounts = useSourceWordCounts()
   const [filters, setFilters] = useState<SourceFilterState>(defaultSourceFilterState)
 
-  const categoryNameById = useMemo(() => {
+  const sceneNameById = useMemo(() => {
     const map = new Map<number, string>()
-    for (const c of categories ?? []) {
+    for (const c of scenes ?? []) {
       if (c.name) map.set(c.id, c.name)
     }
     return map
-  }, [categories])
+  }, [scenes])
 
   const columns = useMemo<ColumnConfig<Source>[]>(
     () => [
@@ -55,16 +55,16 @@ export function SourceDashboardPage() {
         sortValue: (row) => row.url,
       },
       {
-        key: 'category',
-        header: 'Category',
+        key: 'scene',
+        header: 'Scene',
         render: (row) =>
-          row.category_id != null ? (
-            sourceCategoryLabel(String(row.category_id), categoryNameById)
+          row.scene_id != null ? (
+            sourceSceneLabel(String(row.scene_id), sceneNameById)
           ) : (
             <span className="text-muted-foreground">—</span>
           ),
         sortValue: (row) =>
-          row.category_id != null ? sourceCategoryLabel(String(row.category_id), categoryNameById) : null,
+          row.scene_id != null ? sourceSceneLabel(String(row.scene_id), sceneNameById) : null,
       },
       {
         key: 'words',
@@ -73,23 +73,23 @@ export function SourceDashboardPage() {
         sortValue: (row) => wordCounts.get(row.id) ?? 0,
       },
     ],
-    [wordCounts, categoryNameById],
+    [wordCounts, sceneNameById],
   )
 
-  const contextOptions = useMemo(() => {
-    const values = distinctSourceCategoryIds(data ?? [])
+  const sceneOptions = useMemo(() => {
+    const values = distinctSourceSceneIds(data ?? [])
     return [
-      { value: ALL, label: 'All categories' },
-      ...values.map((v) => ({ value: v, label: sourceCategoryLabel(v, categoryNameById) })),
+      { value: ALL, label: 'All scenes' },
+      ...values.map((v) => ({ value: v, label: sourceSceneLabel(v, sceneNameById) })),
     ]
-  }, [data, categoryNameById])
+  }, [data, sceneNameById])
 
-  const fields: FilterFieldConfig[] = [{ key: 'categoryId', label: 'Category', options: contextOptions }]
+  const fields: FilterFieldConfig[] = [{ key: 'sceneId', label: 'Scene', options: sceneOptions }]
 
   const groups = useMemo(() => {
     const filtered = applySourceFilters(data ?? [], filters)
-    return groupSourcesBy(filtered, filters.groupBy, categoryNameById)
-  }, [data, filters, categoryNameById])
+    return groupSourcesBy(filtered, filters.groupBy, sceneNameById)
+  }, [data, filters, sceneNameById])
 
   if (isLoading) return <LoadingState />
   if (isError) return <ErrorState error={error} onRetry={() => refetch()} />
@@ -108,7 +108,7 @@ export function SourceDashboardPage() {
         onSearchChange={(search) => setFilters((f) => ({ ...f, search }))}
         searchPlaceholder="Search source name or URL…"
         fields={fields}
-        fieldValues={{ categoryId: filters.categoryId }}
+        fieldValues={{ sceneId: filters.sceneId }}
         onFieldChange={(key, value) => setFilters((f) => ({ ...f, [key]: value }))}
         groupByOptions={GROUP_BY_OPTIONS}
         groupBy={filters.groupBy}

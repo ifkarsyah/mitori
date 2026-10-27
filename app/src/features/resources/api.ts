@@ -11,7 +11,7 @@ export async function fetchResourceList(language: LanguageRow): Promise<Resource
     languageDb(language)
       .from('resource')
       .select(
-        'id, channel_id, title, url, category, category_id, created_at, updated_at, transcript, is_transcript_complete',
+        'id, channel_id, title, url, category, category_id, scene_id, created_at, updated_at, transcript, is_transcript_complete',
       )
       .order('id')
       .range(from, to),

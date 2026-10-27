@@ -3,7 +3,7 @@ import type { EnrichedSentence } from './hooks'
 export const UNCLASSIFIED = '__unclassified__'
 export const ALL = '__all__'
 
-export type SentenceGroupBy = 'none' | 'level' | 'part_of_speech' | 'kana_type' | 'category'
+export type SentenceGroupBy = 'none' | 'level' | 'part_of_speech' | 'kana_type' | 'category' | 'scene'
 
 export type SentenceFilterState = {
   search: string
@@ -11,6 +11,7 @@ export type SentenceFilterState = {
   partOfSpeech: string
   kanaType: string
   category: string
+  scene: string
   groupBy: SentenceGroupBy
 }
 
@@ -20,6 +21,7 @@ export const defaultSentenceFilterState: SentenceFilterState = {
   partOfSpeech: ALL,
   kanaType: ALL,
   category: ALL,
+  scene: ALL,
   groupBy: 'none',
 }
 
@@ -39,6 +41,7 @@ export function applySentenceFilters(
     if (!matchesSingleSelect(row.partOfSpeech, filters.partOfSpeech)) return false
     if (!matchesSingleSelect(row.kanaType, filters.kanaType)) return false
     if (!matchesSingleSelect(row.category, filters.category)) return false
+    if (!matchesSingleSelect(row.scene, filters.scene)) return false
     if (search) {
       const haystack = [row.sentence, row.meaning, row.word, row.wordReading]
         .filter(Boolean)
@@ -69,7 +72,12 @@ export function kanaTypeLabel(value: string): string {
 }
 
 export function categoryLabel(value: string): string {
-  if (value === UNCLASSIFIED) return 'Unclassified (no context)'
+  if (value === UNCLASSIFIED) return 'No category'
+  return value
+}
+
+export function sceneLabel(value: string): string {
+  if (value === UNCLASSIFIED) return 'No scene'
   return value
 }
 
@@ -129,6 +137,10 @@ export function groupSentencesBy(
     buckets = groupByKey(rows, (row) => row.category)
     labelFor = categoryLabel
     sortedKeys = sortWithUnclassifiedLast([...buckets.keys()])
+  } else if (groupBy === 'scene') {
+    buckets = groupByKey(rows, (row) => row.scene)
+    labelFor = sceneLabel
+    sortedKeys = sortWithUnclassifiedLast([...buckets.keys()])
   } else {
     buckets = groupByKey(rows, (row) => row.kanaType)
     labelFor = kanaTypeLabel
@@ -144,7 +156,7 @@ export function groupSentencesBy(
 
 export function distinctFieldValues(
   rows: EnrichedSentence[],
-  field: 'level' | 'partOfSpeech' | 'kanaType' | 'category',
+  field: 'level' | 'partOfSpeech' | 'kanaType' | 'category' | 'scene',
 ): string[] {
   const present = new Set(rows.map((row) => row[field] ?? UNCLASSIFIED))
   if (field === 'level') return sortByDomainOrder([...present], JLPT_ORDER)
