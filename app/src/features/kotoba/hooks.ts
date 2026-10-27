@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import {
-  fetchConceptList,
+  fetchMeaningList,
   fetchKotobaList,
   fetchKotobaListAllLanguages,
   fetchSentenceWordList,
@@ -22,7 +22,7 @@ export function useKotobaList() {
   })
 }
 
-/** Words in every language — for the concept bridge only. */
+/** Words in every language — for the meaning bridge only. */
 export function useKotobaListAllLanguages() {
   const { languages } = useLanguage()
   return useQuery({
@@ -77,29 +77,29 @@ export function useSourceList() {
   })
 }
 
-export function useConceptList() {
+export function useMeaningList() {
   return useQuery({
-    queryKey: ['concept', 'list'],
-    queryFn: fetchConceptList,
+    queryKey: ['meaning', 'list'],
+    queryFn: fetchMeaningList,
   })
 }
 
-export function useConceptById(id: number | null | undefined) {
-  const query = useConceptList()
-  const concept = id == null ? undefined : query.data?.find((row) => row.id === id)
-  return { ...query, data: concept }
+export function useMeaningById(id: number | null | undefined) {
+  const query = useMeaningList()
+  const meaning = id == null ? undefined : query.data?.find((row) => row.id === id)
+  return { ...query, data: meaning }
 }
 
 /**
- * Every word realizing a concept, in every language — including Japanese synonyms
- * that share one concept (持ち帰り / お持ち帰り / テイクアウト).
+ * Every word realizing a meaning, in every language — including Japanese synonyms
+ * that share one meaning (持ち帰り / お持ち帰り / テイクアウト).
  */
-export function useKotobaForConcept(conceptId: number | null | undefined) {
+export function useKotobaForMeaning(meaningId: number | null | undefined) {
   // Cross-language on purpose — showing the other language's word for this
-  // concept is the entire point of the concept link.
+  // meaning is the entire point of the meaning link.
   const query = useKotobaListAllLanguages()
   const words =
-    conceptId == null ? [] : (query.data?.filter((row) => row.concept_id === conceptId) ?? [])
+    meaningId == null ? [] : (query.data?.filter((row) => row.meaning_id === meaningId) ?? [])
   return { ...query, data: words }
 }
 

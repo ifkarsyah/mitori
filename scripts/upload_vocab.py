@@ -1,6 +1,6 @@
 """Load reviewed vocabulary CSVs for one language straight into <schema>.word.
 
-Rows are keyed on concept slug rather than concept id, so the files stay
+Rows are keyed on meaning slug rather than meaning id, so the files stay
 readable and survive any renumbering. Everything goes through PostgREST in
 batches — routing hundreds of rows through a SQL literal is slow and expensive.
 
@@ -36,11 +36,11 @@ def get(base_url: str, key: str, path: str, schema: str = "public") -> list[dict
         return json.loads(response.read().decode("utf-8"))
 
 
-def concept_ids_by_slug(base_url: str, key: str) -> dict[str, int]:
+def meaning_ids_by_slug(base_url: str, key: str) -> dict[str, int]:
     ids: dict[str, int] = {}
     offset = 0
     while True:
-        page = get(base_url, key, f"concept?select=id,slug&slug=not.is.null&limit=1000&offset={offset}")
+        page = get(base_url, key, f"meaning?select=id,slug&slug=not.is.null&limit=1000&offset={offset}")
         if not page:
             return ids
         for row in page:
@@ -66,7 +66,7 @@ def load_rows(language: str) -> list[dict]:
                 errors.append(f"{where}: too many fields — quote any value containing a comma")
                 continue
             if not row["word"].strip():
-                continue  # deliberately blank: no good word for this concept
+                continue  # deliberately blank: no good word for this meaning
             rows.append({**{k: (v or "").strip() for k, v in row.items() if k != "_extra"}, "_where": where})
     if errors:
         sys.exit("\n".join(errors))
@@ -85,13 +85,13 @@ def main() -> None:
     schema, has_reading = found[0]["schema_name"], found[0]["has_reading"]
 
     rows = load_rows(language)
-    slugs = concept_ids_by_slug(base_url, key)
+    slugs = meaning_ids_by_slug(base_url, key)
 
     payload, errors, seen = [], [], {}
     for row in rows:
         slug = row["concept_slug"]
         if slug not in slugs:
-            errors.append(f"{row['_where']}: no concept with slug {slug!r}")
+            errors.append(f"{row['_where']}: no meaning with slug {slug!r}")
             continue
         if slug in seen:
             errors.append(f"{row['_where']}: slug {slug!r} already used at {seen[slug]}")
@@ -99,10 +99,10 @@ def main() -> None:
         seen[slug] = row["_where"]
         word = {
             "word": row["word"],
-            "concept_id": slugs[slug],
+            "meaning_id": slugs[slug],
             "part_of_speech": row["part_of_speech"] or None,
             "level": row["level"] or None,
-            # Meanings mirror the concept gloss; the concept is the meaning.
+            # The word's own glosses just repeat its shared meaning's gloss.
             "meanings": [row["gloss"]],
         }
         # Only schemas whose language has a reading have the column at all.
@@ -112,16 +112,16 @@ def main() -> None:
     if errors:
         sys.exit("\n".join(errors))
 
-    # Skip concepts that already have a word in this language, so re-running is safe.
+    # Skip meanings that already have a word in this language, so re-running is safe.
     existing = set()
     offset = 0
     while True:
-        page = get(base_url, key, f"word?select=concept_id&limit=1000&offset={offset}", schema)
+        page = get(base_url, key, f"word?select=meaning_id&limit=1000&offset={offset}", schema)
         if not page:
             break
-        existing.update(r["concept_id"] for r in page if r["concept_id"] is not None)
+        existing.update(r["meaning_id"] for r in page if r["meaning_id"] is not None)
         offset += len(page)
-    fresh = [r for r in payload if r["concept_id"] not in existing]
+    fresh = [r for r in payload if r["meaning_id"] not in existing]
 
     for i in range(0, len(fresh), BATCH):
         batch = fresh[i : i + BATCH]

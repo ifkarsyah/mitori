@@ -250,7 +250,7 @@ export type Database = {
       }
       word: {
         Row: {
-          concept_id: number | null
+          meaning_id: number | null
           created_at: string
           id: number
           learned: boolean
@@ -264,7 +264,7 @@ export type Database = {
           word: string
         }
         Insert: {
-          concept_id?: number | null
+          meaning_id?: number | null
           created_at?: string
           id?: number
           learned?: boolean
@@ -278,7 +278,7 @@ export type Database = {
           word: string
         }
         Update: {
-          concept_id?: number | null
+          meaning_id?: number | null
           created_at?: string
           id?: number
           learned?: boolean
@@ -524,7 +524,7 @@ export type Database = {
       }
       word: {
         Row: {
-          concept_id: number | null
+          meaning_id: number | null
           created_at: string
           gender: string | null
           id: number
@@ -539,7 +539,7 @@ export type Database = {
           word: string
         }
         Insert: {
-          concept_id?: number | null
+          meaning_id?: number | null
           created_at?: string
           gender?: string | null
           id?: number
@@ -554,7 +554,7 @@ export type Database = {
           word: string
         }
         Update: {
-          concept_id?: number | null
+          meaning_id?: number | null
           created_at?: string
           gender?: string | null
           id?: number
@@ -843,7 +843,7 @@ export type Database = {
       }
       word: {
         Row: {
-          concept_id: number | null
+          meaning_id: number | null
           created_at: string
           id: number
           kana_type: string
@@ -859,7 +859,7 @@ export type Database = {
           word: string
         }
         Insert: {
-          concept_id?: number | null
+          meaning_id?: number | null
           created_at?: string
           id?: number
           kana_type: string
@@ -875,7 +875,7 @@ export type Database = {
           word: string
         }
         Update: {
-          concept_id?: number | null
+          meaning_id?: number | null
           created_at?: string
           id?: number
           kana_type?: string
@@ -998,7 +998,7 @@ export type Database = {
           },
         ]
       }
-      concept: {
+      meaning: {
         Row: {
           category_id: number | null
           created_at: string
@@ -1028,7 +1028,7 @@ export type Database = {
         }
         Relationships: [
           {
-            foreignKeyName: "concept_category_id_fkey"
+            foreignKeyName: "meaning_category_id_fkey"
             columns: ["category_id"]
             isOneToOne: false
             referencedRelation: "category"

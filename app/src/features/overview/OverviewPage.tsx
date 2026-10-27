@@ -7,7 +7,7 @@ import { useKanjiList } from '@/features/kanji/hooks'
 import { groupKanjiBy } from '@/features/kanji/filters'
 import { useKotobaList, useSentencesList } from '@/features/kotoba/hooks'
 import { useCategoryList } from '@/features/category/hooks'
-import { useConceptCategories } from '@/features/concept/hooks'
+import { useMeaningCategories } from '@/features/meaning/hooks'
 import { groupKotobaBy } from '@/features/kotoba/filters'
 import { useLanguage } from '@/features/language/useLanguage'
 
@@ -18,7 +18,7 @@ export function OverviewPage() {
   const kotobaQuery = useKotobaList()
   const sentencesQuery = useSentencesList()
   const categoryQuery = useCategoryList()
-  const categoryOfConcept = useConceptCategories()
+  const categoryOfMeaning = useMeaningCategories()
 
   const isLoading =
     kanjiQuery.isLoading || kotobaQuery.isLoading || sentencesQuery.isLoading || categoryQuery.isLoading
@@ -34,27 +34,27 @@ export function OverviewPage() {
   )
   const kotobaByPartOfSpeech = useMemo(
     () =>
-      groupKotobaBy(kotobaQuery.data ?? [], 'part_of_speech', categoryOfConcept).map((g) => ({
+      groupKotobaBy(kotobaQuery.data ?? [], 'part_of_speech', categoryOfMeaning).map((g) => ({
         ...g,
         count: g.rows.length,
       })),
-    [kotobaQuery.data, categoryOfConcept],
+    [kotobaQuery.data, categoryOfMeaning],
   )
   const kotobaByCategory = useMemo(
     () =>
-      groupKotobaBy(kotobaQuery.data ?? [], 'category', categoryOfConcept).map((g) => ({
+      groupKotobaBy(kotobaQuery.data ?? [], 'category', categoryOfMeaning).map((g) => ({
         ...g,
         count: g.rows.length,
       })),
-    [kotobaQuery.data, categoryOfConcept],
+    [kotobaQuery.data, categoryOfMeaning],
   )
   const kotobaByKanaType = useMemo(
     () =>
-      groupKotobaBy(kotobaQuery.data ?? [], 'kana_type', categoryOfConcept).map((g) => ({
+      groupKotobaBy(kotobaQuery.data ?? [], 'kana_type', categoryOfMeaning).map((g) => ({
         ...g,
         count: g.rows.length,
       })),
-    [kotobaQuery.data, categoryOfConcept],
+    [kotobaQuery.data, categoryOfMeaning],
   )
 
   if (isLoading) return <LoadingState />

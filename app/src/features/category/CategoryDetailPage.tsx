@@ -8,7 +8,7 @@ import type { ColumnConfig } from '@/components/GroupedTable'
 import { GroupedTable } from '@/components/GroupedTable'
 import type { Kotoba } from '@/features/kotoba/api'
 import { useLanguage } from '@/features/language/useLanguage'
-import { useConceptRows, type ConceptRow } from '@/features/concept/hooks'
+import { useMeaningRows, type MeaningRow } from '@/features/meaning/hooks'
 import { useSceneList } from '@/features/scene/hooks'
 import { useCategoryList } from './hooks'
 
@@ -34,7 +34,7 @@ export function CategoryDetailPage() {
   const { slug } = useParams<{ slug: string }>()
   const { languages, current } = useLanguage()
   const { data: categories, isLoading, isError, error, refetch } = useCategoryList()
-  const { data: conceptRows } = useConceptRows()
+  const { data: meaningRows } = useMeaningRows()
   const { data: scenes } = useSceneList()
 
   const category = categories?.find((c) => c.slug === slug)
@@ -50,25 +50,25 @@ export function CategoryDetailPage() {
   )
 
   const rows = useMemo(
-    () => conceptRows.filter((r) => r.concept.category_id != null && descendantIds.has(r.concept.category_id)),
-    [conceptRows, descendantIds],
+    () => meaningRows.filter((r) => r.meaning.category_id != null && descendantIds.has(r.meaning.category_id)),
+    [meaningRows, descendantIds],
   )
 
-  const columns = useMemo<ColumnConfig<ConceptRow>[]>(
+  const columns = useMemo<ColumnConfig<MeaningRow>[]>(
     () => [
       {
         key: 'gloss',
-        header: 'Concept',
+        header: 'Meaning',
         render: (row) => (
           <Link
-            to={`/concept/${row.concept.id}`}
+            to={`/meaning/${row.meaning.id}`}
             className="text-lg hover:underline"
             onClick={(e) => e.stopPropagation()}
           >
-            {row.concept.gloss}
+            {row.meaning.gloss}
           </Link>
         ),
-        sortValue: (row) => row.concept.gloss,
+        sortValue: (row) => row.meaning.gloss,
       },
       {
         key: 'sub',
@@ -85,18 +85,18 @@ export function CategoryDetailPage() {
         key: 'tier',
         header: 'Tier',
         render: (row) =>
-          row.concept.tier != null ? (
-            <Badge variant="outline">{row.concept.tier}</Badge>
+          row.meaning.tier != null ? (
+            <Badge variant="outline">{row.meaning.tier}</Badge>
           ) : (
             <span className="text-muted-foreground">—</span>
           ),
-        sortValue: (row) => row.concept.tier,
+        sortValue: (row) => row.meaning.tier,
       },
       ...languages.map((lang) => ({
         key: lang.code,
         header: lang.name,
-        render: (r: ConceptRow) => <WordList words={r.wordsByLanguage.get(lang.code)} />,
-        sortValue: (r: ConceptRow) => r.wordsByLanguage.get(lang.code)?.[0]?.word ?? null,
+        render: (r: MeaningRow) => <WordList words={r.wordsByLanguage.get(lang.code)} />,
+        sortValue: (r: MeaningRow) => r.wordsByLanguage.get(lang.code)?.[0]?.word ?? null,
       })),
     ],
     [languages, category],
@@ -118,7 +118,7 @@ export function CategoryDetailPage() {
         <span className="text-4xl">{category.name}</span>
         <div className="flex flex-wrap gap-2">
           <Badge variant="outline">{category.kind === 'core' ? 'Core' : 'Situational'}</Badge>
-          <Badge variant="secondary">{rows.length} concepts</Badge>
+          <Badge variant="secondary">{rows.length} meanings</Badge>
           {languages.map((lang) => {
             const covered = rows.filter((r) => (r.wordsByLanguage.get(lang.code)?.length ?? 0) > 0).length
             return (
@@ -143,9 +143,9 @@ export function CategoryDetailPage() {
       <GroupedTable
         groups={[{ key: 'all', label: category.name, rows }]}
         columns={columns}
-        getRowKey={(row) => row.concept.id}
-        getRowHref={(row) => `/concept/${row.concept.id}`}
-        emptyMessage="No concepts in this category yet."
+        getRowKey={(row) => row.meaning.id}
+        getRowHref={(row) => `/meaning/${row.meaning.id}`}
+        emptyMessage="No meanings in this category yet."
       />
     </div>
   )

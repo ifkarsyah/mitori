@@ -79,20 +79,20 @@ export function CategoryDashboardPage() {
         sortValue: (row) => row.children.length,
       },
       {
-        key: 'concepts',
-        header: 'Concepts',
-        render: (row) => row.concepts,
-        sortValue: (row) => row.concepts,
+        key: 'meanings',
+        header: 'Meanings',
+        render: (row) => row.meanings,
+        sortValue: (row) => row.meanings,
       },
       // Coverage per language is the point of this page: where the gaps are.
       ...languages.map((lang) => ({
         key: lang.code,
         header: lang.name,
         render: (row: CategorySummary) => (
-          <CoverageBar covered={row.coveredByLanguage.get(lang.code) ?? 0} total={row.concepts} />
+          <CoverageBar covered={row.coveredByLanguage.get(lang.code) ?? 0} total={row.meanings} />
         ),
         sortValue: (row: CategorySummary) =>
-          row.concepts === 0 ? 0 : (row.coveredByLanguage.get(lang.code) ?? 0) / row.concepts,
+          row.meanings === 0 ? 0 : (row.coveredByLanguage.get(lang.code) ?? 0) / row.meanings,
       })),
     ],
     [languages],

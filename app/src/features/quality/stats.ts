@@ -51,7 +51,7 @@ export function kotobaCompleteness(rows: Kotoba[]): CompletenessStat[] {
   const subtypeApplicable = rows.filter((r) => r.part_of_speech === 'verb' || r.part_of_speech === 'adjective')
   const missingSubtype = subtypeApplicable.filter((r) => r.sub_part_of_speech == null).map(kotobaAffectedRow)
   return [
-    toStat('concept_id', 'Concept', rows.length, missing((r) => r.concept_id == null)),
+    toStat('meaning_id', 'Shared meaning', rows.length, missing((r) => r.meaning_id == null)),
     toStat('source_id', 'Source', rows.length, missing((r) => r.source_id == null)),
     // One stat across scales: JLPT, CEFR and HSK all live in kotoba.level.
     toStat('level', 'Level', rows.length, missing((r) => r.level == null)),

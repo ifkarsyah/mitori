@@ -5,8 +5,8 @@ import { KanjiDashboardPage } from '@/features/kanji/KanjiDashboardPage'
 import { KanjiDetailPage } from '@/features/kanji/KanjiDetailPage'
 import { KotobaDashboardPage } from '@/features/kotoba/KotobaDashboardPage'
 import { KotobaDetailPage } from '@/features/kotoba/KotobaDetailPage'
-import { ConceptDashboardPage } from '@/features/concept/ConceptDashboardPage'
-import { ConceptDetailPage } from '@/features/concept/ConceptDetailPage'
+import { MeaningDashboardPage } from '@/features/meaning/MeaningDashboardPage'
+import { MeaningDetailPage } from '@/features/meaning/MeaningDetailPage'
 import { CategoryDashboardPage } from '@/features/category/CategoryDashboardPage'
 import { CategoryDetailPage } from '@/features/category/CategoryDetailPage'
 import { SceneDashboardPage } from '@/features/scene/SceneDashboardPage'
@@ -32,8 +32,8 @@ export const router = createBrowserRouter([
       { path: 'kanji/:character', element: <KanjiDetailPage /> },
       { path: 'kotoba', element: <KotobaDashboardPage /> },
       { path: 'kotoba/:word', element: <KotobaDetailPage /> },
-      { path: 'concept', element: <ConceptDashboardPage /> },
-      { path: 'concept/:id', element: <ConceptDetailPage /> },
+      { path: 'meaning', element: <MeaningDashboardPage /> },
+      { path: 'meaning/:id', element: <MeaningDetailPage /> },
       { path: 'category', element: <CategoryDashboardPage /> },
       { path: 'category/:slug', element: <CategoryDetailPage /> },
       { path: 'scene', element: <SceneDashboardPage /> },

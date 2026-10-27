@@ -40,7 +40,7 @@ CORE_TABLES = {
     "resource": "id",
 }
 SCHEMAS = {
-    "public": {"language": "code", "category": "id", "concept": "id", "captures": "id"},
+    "public": {"language": "code", "category": "id", "meaning": "id", "captures": "id"},
     "japanese": {**CORE_TABLES, "kanji": "id", "word_kanji": "id"},
     "german": CORE_TABLES,
     "chinese": {**CORE_TABLES, "simplification": "id"},
