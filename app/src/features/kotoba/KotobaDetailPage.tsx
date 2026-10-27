@@ -22,7 +22,9 @@ export function KotobaDetailPage() {
   const { data: composingKanji, isLoading: kanjiLoading } = useKanjiForWord(kotoba?.id)
   const { data: concept } = useConceptById(kotoba?.concept_id)
   const { data: conceptWords } = useKotobaForConcept(kotoba?.concept_id)
-  const translations = conceptWords.filter((row) => row.id !== kotoba?.id)
+  const translations = conceptWords.filter(
+    (row) => row.id !== kotoba?.id || row.language !== kotoba?.language,
+  )
 
   if (isLoading) return <LoadingState />
   if (isError) return <ErrorState error={error} onRetry={() => refetch()} />
@@ -75,7 +77,7 @@ export function KotobaDetailPage() {
           ) : (
             <ul className="mt-2 flex flex-col divide-y">
               {translations.map((t) => (
-                <li key={t.id} className="flex items-baseline gap-2 py-2">
+                <li key={`${t.language}-${t.id}`} className="flex items-baseline gap-2 py-2">
                   <Badge variant="outline">{labelFor(t.language)}</Badge>
                   <Link to={`/kotoba/${t.word}`} className="text-lg hover:underline">
                     {t.gender ? `${t.gender} ${t.word}` : t.word}

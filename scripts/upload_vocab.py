@@ -1,4 +1,4 @@
-"""Load reviewed vocabulary CSVs for one language straight into kotoba.
+"""Load reviewed vocabulary CSVs for one language straight into <schema>.word.
 
 Rows are keyed on concept slug rather than concept id, so the files stay
 readable and survive any renumbering. Everything goes through PostgREST in
@@ -27,10 +27,10 @@ REQUIRED = {"concept_slug", "gloss", "word", "reading", "part_of_speech", "level
 BATCH = 200
 
 
-def get(base_url: str, key: str, path: str) -> list[dict]:
+def get(base_url: str, key: str, path: str, schema: str = "public") -> list[dict]:
     request = urllib.request.Request(
         f"{base_url}/rest/v1/{path}",
-        headers={"apikey": key, "Authorization": f"Bearer {key}"},
+        headers={"apikey": key, "Authorization": f"Bearer {key}", "Accept-Profile": schema},
     )
     with urllib.request.urlopen(request) as response:
         return json.loads(response.read().decode("utf-8"))
@@ -79,6 +79,11 @@ def main() -> None:
     language = sys.argv[1]
     base_url, key = credentials()
 
+    found = get(base_url, key, f"language?select=schema_name,has_reading&code=eq.{language}")
+    if not found:
+        sys.exit(f"no language with code {language!r}")
+    schema, has_reading = found[0]["schema_name"], found[0]["has_reading"]
+
     rows = load_rows(language)
     slugs = concept_ids_by_slug(base_url, key)
 
@@ -92,18 +97,18 @@ def main() -> None:
             errors.append(f"{row['_where']}: slug {slug!r} already used at {seen[slug]}")
             continue
         seen[slug] = row["_where"]
-        payload.append(
-            {
-                "word": row["word"],
-                "language": language,
-                "concept_id": slugs[slug],
-                "reading": row["reading"] or None,
-                "part_of_speech": row["part_of_speech"] or None,
-                "level": row["level"] or None,
-                # Meanings mirror the concept gloss; the concept is the meaning.
-                "meanings": [row["gloss"]],
-            }
-        )
+        word = {
+            "word": row["word"],
+            "concept_id": slugs[slug],
+            "part_of_speech": row["part_of_speech"] or None,
+            "level": row["level"] or None,
+            # Meanings mirror the concept gloss; the concept is the meaning.
+            "meanings": [row["gloss"]],
+        }
+        # Only schemas whose language has a reading have the column at all.
+        if has_reading:
+            word["reading"] = row["reading"] or None
+        payload.append(word)
     if errors:
         sys.exit("\n".join(errors))
 
@@ -111,7 +116,7 @@ def main() -> None:
     existing = set()
     offset = 0
     while True:
-        page = get(base_url, key, f"kotoba?select=concept_id&language=eq.{language}&limit=1000&offset={offset}")
+        page = get(base_url, key, f"word?select=concept_id&limit=1000&offset={offset}", schema)
         if not page:
             break
         existing.update(r["concept_id"] for r in page if r["concept_id"] is not None)
@@ -121,12 +126,13 @@ def main() -> None:
     for i in range(0, len(fresh), BATCH):
         batch = fresh[i : i + BATCH]
         request = urllib.request.Request(
-            f"{base_url}/rest/v1/kotoba",
+            f"{base_url}/rest/v1/word",
             data=json.dumps(batch, ensure_ascii=False).encode("utf-8"),
             headers={
                 "apikey": key,
                 "Authorization": f"Bearer {key}",
                 "Content-Type": "application/json",
+                "Content-Profile": schema,
             },
             method="POST",
         )

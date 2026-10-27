@@ -12,6 +12,819 @@ export type Database = {
   __InternalSupabase: {
     PostgrestVersion: "14.17"
   }
+  chinese: {
+    Tables: {
+      grammar_point: {
+        Row: {
+          category: string
+          content: string
+          created_at: string
+          folder_order: number
+          id: number
+          slug: string
+          sort_order: number
+          title: string
+          updated_at: string | null
+        }
+        Insert: {
+          category: string
+          content: string
+          created_at?: string
+          folder_order: number
+          id?: number
+          slug: string
+          sort_order: number
+          title: string
+          updated_at?: string | null
+        }
+        Update: {
+          category?: string
+          content?: string
+          created_at?: string
+          folder_order?: number
+          id?: number
+          slug?: string
+          sort_order?: number
+          title?: string
+          updated_at?: string | null
+        }
+        Relationships: []
+      }
+      resource: {
+        Row: {
+          category: string | null
+          category_id: number | null
+          channel_id: number | null
+          created_at: string
+          id: number
+          is_transcript_complete: boolean
+          title: string
+          transcript: string | null
+          updated_at: string | null
+          url: string
+        }
+        Insert: {
+          category?: string | null
+          category_id?: number | null
+          channel_id?: number | null
+          created_at?: string
+          id?: number
+          is_transcript_complete?: boolean
+          title: string
+          transcript?: string | null
+          updated_at?: string | null
+          url: string
+        }
+        Update: {
+          category?: string | null
+          category_id?: number | null
+          channel_id?: number | null
+          created_at?: string
+          id?: number
+          is_transcript_complete?: boolean
+          title?: string
+          transcript?: string | null
+          updated_at?: string | null
+          url?: string
+        }
+        Relationships: []
+      }
+      resource_channel: {
+        Row: {
+          created_at: string
+          description: string | null
+          id: number
+          name: string
+          platform: string
+          slug: string
+          url: string | null
+        }
+        Insert: {
+          created_at?: string
+          description?: string | null
+          id?: number
+          name: string
+          platform: string
+          slug: string
+          url?: string | null
+        }
+        Update: {
+          created_at?: string
+          description?: string | null
+          id?: number
+          name?: string
+          platform?: string
+          slug?: string
+          url?: string | null
+        }
+        Relationships: []
+      }
+      sentence: {
+        Row: {
+          category_id: number | null
+          created_at: string
+          id: number
+          meaning: string | null
+          sentence: string | null
+          updated_at: string | null
+          word_id: number | null
+        }
+        Insert: {
+          category_id?: number | null
+          created_at?: string
+          id?: number
+          meaning?: string | null
+          sentence?: string | null
+          updated_at?: string | null
+          word_id?: number | null
+        }
+        Update: {
+          category_id?: number | null
+          created_at?: string
+          id?: number
+          meaning?: string | null
+          sentence?: string | null
+          updated_at?: string | null
+          word_id?: number | null
+        }
+        Relationships: []
+      }
+      sentence_word: {
+        Row: {
+          created_at: string
+          id: number
+          sentence_id: number
+          word_id: number
+        }
+        Insert: {
+          created_at?: string
+          id?: number
+          sentence_id: number
+          word_id: number
+        }
+        Update: {
+          created_at?: string
+          id?: number
+          sentence_id?: number
+          word_id?: number
+        }
+        Relationships: []
+      }
+      simplification: {
+        Row: {
+          created_at: string
+          id: number
+          simplified: string
+          traditional: string
+        }
+        Insert: {
+          created_at?: string
+          id?: number
+          simplified: string
+          traditional: string
+        }
+        Update: {
+          created_at?: string
+          id?: number
+          simplified?: string
+          traditional?: string
+        }
+        Relationships: []
+      }
+      source: {
+        Row: {
+          category_id: number | null
+          created_at: string
+          id: number
+          name: string
+          url: string | null
+        }
+        Insert: {
+          category_id?: number | null
+          created_at?: string
+          id?: number
+          name: string
+          url?: string | null
+        }
+        Update: {
+          category_id?: number | null
+          created_at?: string
+          id?: number
+          name?: string
+          url?: string | null
+        }
+        Relationships: []
+      }
+      word: {
+        Row: {
+          concept_id: number | null
+          created_at: string
+          id: number
+          learned: boolean
+          level: string | null
+          meanings: string[]
+          part_of_speech: string | null
+          reading: string | null
+          source_id: number | null
+          updated_at: string | null
+          word: string
+        }
+        Insert: {
+          concept_id?: number | null
+          created_at?: string
+          id?: number
+          learned?: boolean
+          level?: string | null
+          meanings: string[]
+          part_of_speech?: string | null
+          reading?: string | null
+          source_id?: number | null
+          updated_at?: string | null
+          word: string
+        }
+        Update: {
+          concept_id?: number | null
+          created_at?: string
+          id?: number
+          learned?: boolean
+          level?: string | null
+          meanings?: string[]
+          part_of_speech?: string | null
+          reading?: string | null
+          source_id?: number | null
+          updated_at?: string | null
+          word?: string
+        }
+        Relationships: []
+      }
+    }
+    Views: {
+      [_ in never]: never
+    }
+    Functions: {
+      [_ in never]: never
+    }
+    Enums: {
+      [_ in never]: never
+    }
+    CompositeTypes: {
+      [_ in never]: never
+    }
+  }
+  german: {
+    Tables: {
+      grammar_point: {
+        Row: {
+          category: string
+          content: string
+          created_at: string
+          folder_order: number
+          id: number
+          slug: string
+          sort_order: number
+          title: string
+          updated_at: string | null
+        }
+        Insert: {
+          category: string
+          content: string
+          created_at?: string
+          folder_order: number
+          id?: number
+          slug: string
+          sort_order: number
+          title: string
+          updated_at?: string | null
+        }
+        Update: {
+          category?: string
+          content?: string
+          created_at?: string
+          folder_order?: number
+          id?: number
+          slug?: string
+          sort_order?: number
+          title?: string
+          updated_at?: string | null
+        }
+        Relationships: []
+      }
+      resource: {
+        Row: {
+          category: string | null
+          category_id: number | null
+          channel_id: number | null
+          created_at: string
+          id: number
+          is_transcript_complete: boolean
+          title: string
+          transcript: string | null
+          updated_at: string | null
+          url: string
+        }
+        Insert: {
+          category?: string | null
+          category_id?: number | null
+          channel_id?: number | null
+          created_at?: string
+          id?: number
+          is_transcript_complete?: boolean
+          title: string
+          transcript?: string | null
+          updated_at?: string | null
+          url: string
+        }
+        Update: {
+          category?: string | null
+          category_id?: number | null
+          channel_id?: number | null
+          created_at?: string
+          id?: number
+          is_transcript_complete?: boolean
+          title?: string
+          transcript?: string | null
+          updated_at?: string | null
+          url?: string
+        }
+        Relationships: []
+      }
+      resource_channel: {
+        Row: {
+          created_at: string
+          description: string | null
+          id: number
+          name: string
+          platform: string
+          slug: string
+          url: string | null
+        }
+        Insert: {
+          created_at?: string
+          description?: string | null
+          id?: number
+          name: string
+          platform: string
+          slug: string
+          url?: string | null
+        }
+        Update: {
+          created_at?: string
+          description?: string | null
+          id?: number
+          name?: string
+          platform?: string
+          slug?: string
+          url?: string | null
+        }
+        Relationships: []
+      }
+      sentence: {
+        Row: {
+          category_id: number | null
+          created_at: string
+          id: number
+          meaning: string | null
+          sentence: string | null
+          updated_at: string | null
+          word_id: number | null
+        }
+        Insert: {
+          category_id?: number | null
+          created_at?: string
+          id?: number
+          meaning?: string | null
+          sentence?: string | null
+          updated_at?: string | null
+          word_id?: number | null
+        }
+        Update: {
+          category_id?: number | null
+          created_at?: string
+          id?: number
+          meaning?: string | null
+          sentence?: string | null
+          updated_at?: string | null
+          word_id?: number | null
+        }
+        Relationships: []
+      }
+      sentence_word: {
+        Row: {
+          created_at: string
+          id: number
+          sentence_id: number
+          word_id: number
+        }
+        Insert: {
+          created_at?: string
+          id?: number
+          sentence_id: number
+          word_id: number
+        }
+        Update: {
+          created_at?: string
+          id?: number
+          sentence_id?: number
+          word_id?: number
+        }
+        Relationships: []
+      }
+      source: {
+        Row: {
+          category_id: number | null
+          created_at: string
+          id: number
+          name: string
+          url: string | null
+        }
+        Insert: {
+          category_id?: number | null
+          created_at?: string
+          id?: number
+          name: string
+          url?: string | null
+        }
+        Update: {
+          category_id?: number | null
+          created_at?: string
+          id?: number
+          name?: string
+          url?: string | null
+        }
+        Relationships: []
+      }
+      word: {
+        Row: {
+          concept_id: number | null
+          created_at: string
+          gender: string | null
+          id: number
+          learned: boolean
+          level: string | null
+          meanings: string[]
+          part_of_speech: string | null
+          plural: string | null
+          source_id: number | null
+          updated_at: string | null
+          word: string
+        }
+        Insert: {
+          concept_id?: number | null
+          created_at?: string
+          gender?: string | null
+          id?: number
+          learned?: boolean
+          level?: string | null
+          meanings: string[]
+          part_of_speech?: string | null
+          plural?: string | null
+          source_id?: number | null
+          updated_at?: string | null
+          word: string
+        }
+        Update: {
+          concept_id?: number | null
+          created_at?: string
+          gender?: string | null
+          id?: number
+          learned?: boolean
+          level?: string | null
+          meanings?: string[]
+          part_of_speech?: string | null
+          plural?: string | null
+          source_id?: number | null
+          updated_at?: string | null
+          word?: string
+        }
+        Relationships: []
+      }
+    }
+    Views: {
+      [_ in never]: never
+    }
+    Functions: {
+      [_ in never]: never
+    }
+    Enums: {
+      [_ in never]: never
+    }
+    CompositeTypes: {
+      [_ in never]: never
+    }
+  }
+  japanese: {
+    Tables: {
+      grammar_point: {
+        Row: {
+          category: string
+          content: string
+          created_at: string
+          folder_order: number
+          id: number
+          slug: string
+          sort_order: number
+          title: string
+          updated_at: string | null
+        }
+        Insert: {
+          category: string
+          content: string
+          created_at?: string
+          folder_order: number
+          id?: number
+          slug: string
+          sort_order: number
+          title: string
+          updated_at?: string | null
+        }
+        Update: {
+          category?: string
+          content?: string
+          created_at?: string
+          folder_order?: number
+          id?: number
+          slug?: string
+          sort_order?: number
+          title?: string
+          updated_at?: string | null
+        }
+        Relationships: []
+      }
+      kanji: {
+        Row: {
+          character: string | null
+          cluster: string | null
+          created_at: string
+          grade: string | null
+          id: number
+          jlpt: string | null
+          kanjigraph_url: string | null
+          kanjimap_url: string | null
+          learned: boolean
+          meanings: string[] | null
+          updated_at: string | null
+        }
+        Insert: {
+          character?: string | null
+          cluster?: string | null
+          created_at?: string
+          grade?: string | null
+          id?: number
+          jlpt?: string | null
+          kanjigraph_url?: string | null
+          kanjimap_url?: string | null
+          learned?: boolean
+          meanings?: string[] | null
+          updated_at?: string | null
+        }
+        Update: {
+          character?: string | null
+          cluster?: string | null
+          created_at?: string
+          grade?: string | null
+          id?: number
+          jlpt?: string | null
+          kanjigraph_url?: string | null
+          kanjimap_url?: string | null
+          learned?: boolean
+          meanings?: string[] | null
+          updated_at?: string | null
+        }
+        Relationships: []
+      }
+      resource: {
+        Row: {
+          category: string | null
+          category_id: number | null
+          channel_id: number | null
+          created_at: string
+          id: number
+          is_transcript_complete: boolean
+          title: string
+          transcript: string | null
+          updated_at: string | null
+          url: string
+        }
+        Insert: {
+          category?: string | null
+          category_id?: number | null
+          channel_id?: number | null
+          created_at?: string
+          id?: number
+          is_transcript_complete?: boolean
+          title: string
+          transcript?: string | null
+          updated_at?: string | null
+          url: string
+        }
+        Update: {
+          category?: string | null
+          category_id?: number | null
+          channel_id?: number | null
+          created_at?: string
+          id?: number
+          is_transcript_complete?: boolean
+          title?: string
+          transcript?: string | null
+          updated_at?: string | null
+          url?: string
+        }
+        Relationships: []
+      }
+      resource_channel: {
+        Row: {
+          created_at: string
+          description: string | null
+          id: number
+          name: string
+          platform: string
+          slug: string
+          url: string | null
+        }
+        Insert: {
+          created_at?: string
+          description?: string | null
+          id?: number
+          name: string
+          platform: string
+          slug: string
+          url?: string | null
+        }
+        Update: {
+          created_at?: string
+          description?: string | null
+          id?: number
+          name?: string
+          platform?: string
+          slug?: string
+          url?: string | null
+        }
+        Relationships: []
+      }
+      sentence: {
+        Row: {
+          category_id: number | null
+          created_at: string
+          id: number
+          meaning: string | null
+          sentence: string | null
+          updated_at: string | null
+          word_id: number | null
+        }
+        Insert: {
+          category_id?: number | null
+          created_at?: string
+          id?: number
+          meaning?: string | null
+          sentence?: string | null
+          updated_at?: string | null
+          word_id?: number | null
+        }
+        Update: {
+          category_id?: number | null
+          created_at?: string
+          id?: number
+          meaning?: string | null
+          sentence?: string | null
+          updated_at?: string | null
+          word_id?: number | null
+        }
+        Relationships: []
+      }
+      sentence_word: {
+        Row: {
+          created_at: string
+          id: number
+          sentence_id: number
+          word_id: number
+        }
+        Insert: {
+          created_at?: string
+          id?: number
+          sentence_id: number
+          word_id: number
+        }
+        Update: {
+          created_at?: string
+          id?: number
+          sentence_id?: number
+          word_id?: number
+        }
+        Relationships: []
+      }
+      source: {
+        Row: {
+          category_id: number | null
+          created_at: string
+          id: number
+          name: string
+          url: string | null
+        }
+        Insert: {
+          category_id?: number | null
+          created_at?: string
+          id?: number
+          name: string
+          url?: string | null
+        }
+        Update: {
+          category_id?: number | null
+          created_at?: string
+          id?: number
+          name?: string
+          url?: string | null
+        }
+        Relationships: []
+      }
+      word: {
+        Row: {
+          concept_id: number | null
+          created_at: string
+          id: number
+          kana_type: string
+          learned: boolean
+          level: string | null
+          meanings: string[]
+          part_of_speech: string | null
+          reading: string | null
+          source_id: number | null
+          sub_part_of_speech: string | null
+          updated_at: string | null
+          word: string
+        }
+        Insert: {
+          concept_id?: number | null
+          created_at?: string
+          id?: number
+          kana_type: string
+          learned?: boolean
+          level?: string | null
+          meanings: string[]
+          part_of_speech?: string | null
+          reading?: string | null
+          source_id?: number | null
+          sub_part_of_speech?: string | null
+          updated_at?: string | null
+          word: string
+        }
+        Update: {
+          concept_id?: number | null
+          created_at?: string
+          id?: number
+          kana_type?: string
+          learned?: boolean
+          level?: string | null
+          meanings?: string[]
+          part_of_speech?: string | null
+          reading?: string | null
+          source_id?: number | null
+          sub_part_of_speech?: string | null
+          updated_at?: string | null
+          word?: string
+        }
+        Relationships: []
+      }
+      word_kanji: {
+        Row: {
+          created_at: string
+          id: number
+          kanji_id: number | null
+          kanji_meaning_in_word: string | null
+          updated_at: string | null
+          word_id: number | null
+        }
+        Insert: {
+          created_at?: string
+          id?: number
+          kanji_id?: number | null
+          kanji_meaning_in_word?: string | null
+          updated_at?: string | null
+          word_id?: number | null
+        }
+        Update: {
+          created_at?: string
+          id?: number
+          kanji_id?: number | null
+          kanji_meaning_in_word?: string | null
+          updated_at?: string | null
+          word_id?: number | null
+        }
+        Relationships: []
+      }
+    }
+    Views: {
+      [_ in never]: never
+    }
+    Functions: {
+      [_ in never]: never
+    }
+    Enums: {
+      [_ in never]: never
+    }
+    CompositeTypes: {
+      [_ in never]: never
+    }
+  }
   public: {
     Tables: {
       captures: {
@@ -115,159 +928,6 @@ export type Database = {
           },
         ]
       }
-      grammar_point: {
-        Row: {
-          category: string
-          content: string
-          created_at: string
-          folder_order: number
-          id: number
-          language: string
-          slug: string
-          sort_order: number
-          title: string
-          updated_at: string | null
-        }
-        Insert: {
-          category: string
-          content: string
-          created_at?: string
-          folder_order: number
-          id?: number
-          language?: string
-          slug: string
-          sort_order: number
-          title: string
-          updated_at?: string | null
-        }
-        Update: {
-          category?: string
-          content?: string
-          created_at?: string
-          folder_order?: number
-          id?: number
-          language?: string
-          slug?: string
-          sort_order?: number
-          title?: string
-          updated_at?: string | null
-        }
-        Relationships: []
-      }
-      kanji: {
-        Row: {
-          character: string | null
-          cluster: string | null
-          created_at: string
-          grade: string | null
-          id: number
-          jlpt: string | null
-          kanjigraph_url: string | null
-          kanjimap_url: string | null
-          learned: boolean
-          meanings: string[] | null
-          updated_at: string | null
-        }
-        Insert: {
-          character?: string | null
-          cluster?: string | null
-          created_at?: string
-          grade?: string | null
-          id?: number
-          jlpt?: string | null
-          kanjigraph_url?: string | null
-          kanjimap_url?: string | null
-          learned?: boolean
-          meanings?: string[] | null
-          updated_at?: string | null
-        }
-        Update: {
-          character?: string | null
-          cluster?: string | null
-          created_at?: string
-          grade?: string | null
-          id?: number
-          jlpt?: string | null
-          kanjigraph_url?: string | null
-          kanjimap_url?: string | null
-          learned?: boolean
-          meanings?: string[] | null
-          updated_at?: string | null
-        }
-        Relationships: []
-      }
-      kotoba: {
-        Row: {
-          concept_id: number | null
-          created_at: string
-          gender: string | null
-          id: number
-          kana_type: string | null
-          language: string
-          learned: boolean
-          level: string | null
-          meanings: string[]
-          part_of_speech: string | null
-          plural: string | null
-          reading: string | null
-          source_id: number | null
-          sub_part_of_speech: string | null
-          updated_at: string | null
-          word: string
-        }
-        Insert: {
-          concept_id?: number | null
-          created_at?: string
-          gender?: string | null
-          id?: number
-          kana_type?: string | null
-          language?: string
-          learned?: boolean
-          level?: string | null
-          meanings: string[]
-          part_of_speech?: string | null
-          plural?: string | null
-          reading?: string | null
-          source_id?: number | null
-          sub_part_of_speech?: string | null
-          updated_at?: string | null
-          word: string
-        }
-        Update: {
-          concept_id?: number | null
-          created_at?: string
-          gender?: string | null
-          id?: number
-          kana_type?: string | null
-          language?: string
-          learned?: boolean
-          level?: string | null
-          meanings?: string[]
-          part_of_speech?: string | null
-          plural?: string | null
-          reading?: string | null
-          source_id?: number | null
-          sub_part_of_speech?: string | null
-          updated_at?: string | null
-          word?: string
-        }
-        Relationships: [
-          {
-            foreignKeyName: "kotoba_concept_id_fkey"
-            columns: ["concept_id"]
-            isOneToOne: false
-            referencedRelation: "concept"
-            referencedColumns: ["id"]
-          },
-          {
-            foreignKeyName: "kotoba_source_id_fkey"
-            columns: ["source_id"]
-            isOneToOne: false
-            referencedRelation: "source"
-            referencedColumns: ["id"]
-          },
-        ]
-      }
       language: {
         Row: {
           code: string
@@ -278,6 +938,7 @@ export type Database = {
           has_reading: boolean
           level_system: string | null
           name: string
+          schema_name: string
           script: string
           sort_order: number
         }
@@ -290,6 +951,7 @@ export type Database = {
           has_reading?: boolean
           level_system?: string | null
           name: string
+          schema_name: string
           script: string
           sort_order?: number
         }
@@ -302,258 +964,11 @@ export type Database = {
           has_reading?: boolean
           level_system?: string | null
           name?: string
+          schema_name?: string
           script?: string
           sort_order?: number
         }
         Relationships: []
-      }
-      resource: {
-        Row: {
-          category: string | null
-          category_id: number | null
-          channel_id: number | null
-          created_at: string
-          id: number
-          is_transcript_complete: boolean
-          language: string
-          title: string
-          transcript: string | null
-          updated_at: string | null
-          url: string
-        }
-        Insert: {
-          category?: string | null
-          category_id?: number | null
-          channel_id?: number | null
-          created_at?: string
-          id?: number
-          is_transcript_complete?: boolean
-          language?: string
-          title: string
-          transcript?: string | null
-          updated_at?: string | null
-          url: string
-        }
-        Update: {
-          category?: string | null
-          category_id?: number | null
-          channel_id?: number | null
-          created_at?: string
-          id?: number
-          is_transcript_complete?: boolean
-          language?: string
-          title?: string
-          transcript?: string | null
-          updated_at?: string | null
-          url?: string
-        }
-        Relationships: [
-          {
-            foreignKeyName: "resource_channel_id_fkey"
-            columns: ["channel_id"]
-            isOneToOne: false
-            referencedRelation: "resource_channel"
-            referencedColumns: ["id"]
-          },
-        ]
-      }
-      resource_channel: {
-        Row: {
-          created_at: string
-          description: string | null
-          id: number
-          language: string
-          name: string
-          platform: string
-          slug: string
-          url: string | null
-        }
-        Insert: {
-          created_at?: string
-          description?: string | null
-          id?: number
-          language?: string
-          name: string
-          platform: string
-          slug: string
-          url?: string | null
-        }
-        Update: {
-          created_at?: string
-          description?: string | null
-          id?: number
-          language?: string
-          name?: string
-          platform?: string
-          slug?: string
-          url?: string | null
-        }
-        Relationships: []
-      }
-      sentence_kotoba: {
-        Row: {
-          created_at: string
-          id: number
-          kotoba_id: number
-          sentence_id: number
-        }
-        Insert: {
-          created_at?: string
-          id?: number
-          kotoba_id: number
-          sentence_id: number
-        }
-        Update: {
-          created_at?: string
-          id?: number
-          kotoba_id?: number
-          sentence_id?: number
-        }
-        Relationships: [
-          {
-            foreignKeyName: "sentence_kotoba_kotoba_id_fkey"
-            columns: ["kotoba_id"]
-            isOneToOne: false
-            referencedRelation: "kotoba"
-            referencedColumns: ["id"]
-          },
-          {
-            foreignKeyName: "sentence_kotoba_sentence_id_fkey"
-            columns: ["sentence_id"]
-            isOneToOne: false
-            referencedRelation: "sentences"
-            referencedColumns: ["id"]
-          },
-        ]
-      }
-      sentences: {
-        Row: {
-          category_id: number | null
-          created_at: string
-          id: number
-          language: string
-          meaning: string | null
-          sentence: string | null
-          updated_at: string | null
-          word_id: number | null
-        }
-        Insert: {
-          category_id?: number | null
-          created_at?: string
-          id?: number
-          language?: string
-          meaning?: string | null
-          sentence?: string | null
-          updated_at?: string | null
-          word_id?: number | null
-        }
-        Update: {
-          category_id?: number | null
-          created_at?: string
-          id?: number
-          language?: string
-          meaning?: string | null
-          sentence?: string | null
-          updated_at?: string | null
-          word_id?: number | null
-        }
-        Relationships: [
-          {
-            foreignKeyName: "sentences_word_id_fkey"
-            columns: ["word_id"]
-            isOneToOne: false
-            referencedRelation: "kotoba"
-            referencedColumns: ["id"]
-          },
-        ]
-      }
-      simplification: {
-        Row: {
-          created_at: string
-          id: number
-          simplified: string
-          traditional: string
-        }
-        Insert: {
-          created_at?: string
-          id?: number
-          simplified: string
-          traditional: string
-        }
-        Update: {
-          created_at?: string
-          id?: number
-          simplified?: string
-          traditional?: string
-        }
-        Relationships: []
-      }
-      source: {
-        Row: {
-          category_id: number | null
-          created_at: string
-          id: number
-          name: string
-          url: string | null
-        }
-        Insert: {
-          category_id?: number | null
-          created_at?: string
-          id?: number
-          name: string
-          url?: string | null
-        }
-        Update: {
-          category_id?: number | null
-          created_at?: string
-          id?: number
-          name?: string
-          url?: string | null
-        }
-        Relationships: [
-        ]
-      }
-      word_kanji: {
-        Row: {
-          created_at: string
-          id: number
-          kanji_id: number | null
-          kanji_meaning_in_word: string | null
-          updated_at: string | null
-          word_id: number | null
-        }
-        Insert: {
-          created_at?: string
-          id?: number
-          kanji_id?: number | null
-          kanji_meaning_in_word?: string | null
-          updated_at?: string | null
-          word_id?: number | null
-        }
-        Update: {
-          created_at?: string
-          id?: number
-          kanji_id?: number | null
-          kanji_meaning_in_word?: string | null
-          updated_at?: string | null
-          word_id?: number | null
-        }
-        Relationships: [
-          {
-            foreignKeyName: "word_kanji_kanji_id_fkey"
-            columns: ["kanji_id"]
-            isOneToOne: false
-            referencedRelation: "kanji"
-            referencedColumns: ["id"]
-          },
-          {
-            foreignKeyName: "word_kanji_word_id_fkey"
-            columns: ["word_id"]
-            isOneToOne: false
-            referencedRelation: "kotoba"
-            referencedColumns: ["id"]
-          },
-        ]
       }
     }
     Views: {
@@ -689,6 +1104,15 @@ export type CompositeTypes<
     : never
 
 export const Constants = {
+  chinese: {
+    Enums: {},
+  },
+  german: {
+    Enums: {},
+  },
+  japanese: {
+    Enums: {},
+  },
   public: {
     Enums: {},
   },

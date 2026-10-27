@@ -58,7 +58,7 @@ def main():
             continue
 
         statements.append(
-            f"UPDATE public.resource SET transcript = {sql_str(transcript)} WHERE url = {sql_str(url)};"
+            f"UPDATE japanese.resource SET transcript = {sql_str(transcript)} WHERE url = {sql_str(url)};"
         )
 
     print("\n".join(statements))

@@ -3,10 +3,11 @@ import { fetchGrammarPointList } from './api'
 import { useLanguage } from '@/features/language/useLanguage'
 
 export function useGrammarPointList() {
-  const { language } = useLanguage()
+  const { language, current } = useLanguage()
   return useQuery({
     queryKey: ['grammarPoint', 'list', language],
-    queryFn: () => fetchGrammarPointList(language),
+    queryFn: () => fetchGrammarPointList(current!),
+    enabled: current != null,
   })
 }
 

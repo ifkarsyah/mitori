@@ -4,7 +4,7 @@ import {
   fetchConceptList,
   fetchKotobaList,
   fetchKotobaListAllLanguages,
-  fetchSentenceKotobaList,
+  fetchSentenceWordList,
   fetchSentencesList,
   fetchSourceList,
   fetchWordKanjiList,
@@ -14,18 +14,32 @@ import { useLanguage } from '@/features/language/useLanguage'
 
 /** Words in the language the app is currently scoped to. */
 export function useKotobaList() {
-  const { language } = useLanguage()
+  const { language, current } = useLanguage()
   return useQuery({
     queryKey: ['kotoba', 'list', language],
-    queryFn: () => fetchKotobaList(language),
+    queryFn: () => fetchKotobaList(current!),
+    enabled: current != null,
   })
 }
 
-/** Words in every language — for the concept bridge and kanji links only. */
+/** Words in every language — for the concept bridge only. */
 export function useKotobaListAllLanguages() {
+  const { languages } = useLanguage()
   return useQuery({
-    queryKey: ['kotoba', 'list', 'all'],
-    queryFn: fetchKotobaListAllLanguages,
+    queryKey: ['kotoba', 'list', 'all', languages.map((l) => l.code)],
+    queryFn: () => fetchKotobaListAllLanguages(languages),
+    enabled: languages.length > 0,
+  })
+}
+
+/** Japanese words, for kanji links — word_kanji only exists in the japanese schema. */
+export function useJapaneseKotobaList() {
+  const { languages } = useLanguage()
+  const japanese = languages.find((l) => l.schema_name === 'japanese')
+  return useQuery({
+    queryKey: ['kotoba', 'list', japanese?.code],
+    queryFn: () => fetchKotobaList(japanese!),
+    enabled: japanese != null,
   })
 }
 
@@ -37,24 +51,29 @@ export function useWordKanjiList() {
 }
 
 export function useSentencesList() {
-  const { language } = useLanguage()
+  const { language, current } = useLanguage()
   return useQuery({
     queryKey: ['sentences', 'list', language],
-    queryFn: () => fetchSentencesList(language),
+    queryFn: () => fetchSentencesList(current!),
+    enabled: current != null,
   })
 }
 
-export function useSentenceKotobaList() {
+export function useSentenceWordList() {
+  const { language, current } = useLanguage()
   return useQuery({
-    queryKey: ['sentenceKotoba', 'list'],
-    queryFn: fetchSentenceKotobaList,
+    queryKey: ['sentenceWord', 'list', language],
+    queryFn: () => fetchSentenceWordList(current!),
+    enabled: current != null,
   })
 }
 
 export function useSourceList() {
+  const { language, current } = useLanguage()
   return useQuery({
-    queryKey: ['source', 'list'],
-    queryFn: fetchSourceList,
+    queryKey: ['source', 'list', language],
+    queryFn: () => fetchSourceList(current!),
+    enabled: current != null,
   })
 }
 

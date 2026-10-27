@@ -1,33 +1,52 @@
 import { supabase } from '@/lib/supabase'
+import { languageDb } from '@/lib/languageDb'
 import { fetchAllRows } from '@/lib/fetchAllRows'
-import type { Language } from '@/features/language/languages'
+import type { LanguageRow } from '@/features/language/languages'
 import type { Tables } from '@/types/database'
 
-const KOTOBA_COLUMNS =
-  'id, word, reading, part_of_speech, sub_part_of_speech, meanings, kana_type, source_id, created_at, updated_at, learned, language, concept_id, gender, plural, level'
+type JapaneseWord = Tables<{ schema: 'japanese' }, 'word'>
+type GermanWord = Tables<{ schema: 'german' }, 'word'>
 
-export type Kotoba = Tables<'kotoba'>
-export type WordKanji = Tables<'word_kanji'>
-export type Sentence = Tables<'sentences'>
-export type Source = Tables<'source'>
-export type SentenceKotoba = Tables<'sentence_kotoba'>
+/**
+ * One word in any language. Each schema's word table carries only its own
+ * columns; fetchKotobaList fills the rest with null and tags the row with its
+ * language, so shared screens can read reading or gender without caring which
+ * schema the row came from. Ids are only unique within one language.
+ */
+export type Kotoba = Omit<JapaneseWord, 'kana_type'> &
+  Pick<GermanWord, 'gender' | 'plural'> & {
+    kana_type: string | null
+    language: string
+  }
+export type WordKanji = Tables<{ schema: 'japanese' }, 'word_kanji'>
+export type Sentence = Tables<{ schema: 'japanese' }, 'sentence'>
+export type Source = Tables<{ schema: 'japanese' }, 'source'>
+export type SentenceWord = Tables<{ schema: 'japanese' }, 'sentence_word'>
 export type Concept = Tables<'concept'>
 
-export async function fetchKotobaList(language: Language): Promise<Kotoba[]> {
-  return fetchAllRows<Kotoba>(async (from, to) =>
-    supabase.from('kotoba').select(KOTOBA_COLUMNS).eq('language', language).order('id').range(from, to),
+const LANGUAGE_SPECIFIC_COLUMNS = {
+  reading: null,
+  kana_type: null,
+  sub_part_of_speech: null,
+  gender: null,
+  plural: null,
+}
+
+export async function fetchKotobaList(language: LanguageRow): Promise<Kotoba[]> {
+  const rows = await fetchAllRows<Partial<Kotoba>>(async (from, to) =>
+    languageDb(language).from('word').select('*').order('id').range(from, to),
   )
+  return rows.map((row) => ({ ...LANGUAGE_SPECIFIC_COLUMNS, ...row, language: language.code }) as Kotoba)
 }
 
 /**
  * Every word regardless of language. Only for views that are inherently
- * cross-language (the concept bridge) or Japanese-structural (kanji links) —
- * everything else should use the language-scoped fetch.
+ * cross-language (the concept bridge) — everything else should use the
+ * language-scoped fetch.
  */
-export async function fetchKotobaListAllLanguages(): Promise<Kotoba[]> {
-  return fetchAllRows<Kotoba>(async (from, to) =>
-    supabase.from('kotoba').select(KOTOBA_COLUMNS).order('id').range(from, to),
-  )
+export async function fetchKotobaListAllLanguages(languages: LanguageRow[]): Promise<Kotoba[]> {
+  const lists = await Promise.all(languages.map(fetchKotobaList))
+  return lists.flat()
 }
 
 export async function fetchConceptList(): Promise<Concept[]> {
@@ -43,6 +62,7 @@ export async function fetchConceptList(): Promise<Concept[]> {
 export async function fetchWordKanjiList(): Promise<WordKanji[]> {
   return fetchAllRows<WordKanji>(async (from, to) =>
     supabase
+      .schema('japanese')
       .from('word_kanji')
       .select('id, word_id, kanji_id, kanji_meaning_in_word, created_at, updated_at')
       .order('id')
@@ -50,31 +70,30 @@ export async function fetchWordKanjiList(): Promise<WordKanji[]> {
   )
 }
 
-export async function fetchSentencesList(language: Language): Promise<Sentence[]> {
+export async function fetchSentencesList(language: LanguageRow): Promise<Sentence[]> {
   return fetchAllRows<Sentence>(async (from, to) =>
-    supabase
-      .from('sentences')
-      .select('id, sentence, meaning, word_id, category_id, created_at, updated_at, language')
-      .eq('language', language)
+    languageDb(language)
+      .from('sentence')
+      .select('id, sentence, meaning, word_id, category_id, created_at, updated_at')
       .not('word_id', 'is', null)
       .order('id')
       .range(from, to),
   )
 }
 
-export async function fetchSentenceKotobaList(): Promise<SentenceKotoba[]> {
-  return fetchAllRows<SentenceKotoba>(async (from, to) =>
-    supabase
-      .from('sentence_kotoba')
-      .select('id, sentence_id, kotoba_id, created_at')
+export async function fetchSentenceWordList(language: LanguageRow): Promise<SentenceWord[]> {
+  return fetchAllRows<SentenceWord>(async (from, to) =>
+    languageDb(language)
+      .from('sentence_word')
+      .select('id, sentence_id, word_id, created_at')
       .order('id')
       .range(from, to),
   )
 }
 
-export async function fetchSourceList(): Promise<Source[]> {
+export async function fetchSourceList(language: LanguageRow): Promise<Source[]> {
   return fetchAllRows<Source>(async (from, to) =>
-    supabase
+    languageDb(language)
       .from('source')
       .select('id, name, url, category_id, created_at')
       .order('id')

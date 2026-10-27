@@ -17,7 +17,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
 
   // The list drives the toggle and the per-language feature flags, so adding a
   // language is a database row rather than an edit here.
-  const { data: languages } = useQuery({
+  const { data: languages, isError } = useQuery({
     queryKey: ['language', 'list'],
     queryFn: fetchLanguageList,
     staleTime: Infinity,
@@ -40,6 +40,11 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
       labelFor: (code: string) => byCode.get(code)?.name ?? code,
     }
   }, [language, setLanguage, languages])
+
+  // Every data query needs the language's schema, so nothing renders until the
+  // list is in — otherwise pages flash "0 words" while their queries wait.
+  if (isError) return <p className="py-12 text-center text-muted-foreground">Could not load languages.</p>
+  if (!languages) return null
 
   return <LanguageContext value={value}>{children}</LanguageContext>
 }

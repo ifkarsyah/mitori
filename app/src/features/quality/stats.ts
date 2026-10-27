@@ -1,4 +1,4 @@
-import type { Kotoba, WordKanji, Sentence, SentenceKotoba } from '@/features/kotoba/api'
+import type { Kotoba, WordKanji, Sentence, SentenceWord } from '@/features/kotoba/api'
 import type { Kanji } from '@/features/kanji/api'
 
 export type AffectedRow = { key: string; label: string; href: string }
@@ -85,12 +85,12 @@ export function structuralChecks(data: {
   kotoba: Kotoba[]
   sentences: Sentence[]
   wordKanji: WordKanji[]
-  sentenceKotoba: SentenceKotoba[]
+  sentenceWord: SentenceWord[]
   kotobaById: Map<number, Kotoba>
 }): StructuralCheck[] {
-  const { kotoba, sentences, wordKanji, sentenceKotoba, kotobaById } = data
+  const { kotoba, sentences, wordKanji, sentenceWord, kotobaById } = data
 
-  const linkedSentenceIds = new Set(sentenceKotoba.map((link) => link.sentence_id))
+  const linkedSentenceIds = new Set(sentenceWord.map((link) => link.sentence_id))
   const sentencesWithoutWords = sentences.filter((s) => !linkedSentenceIds.has(s.id))
 
   const wordIdsWithKanjiLink = new Set(wordKanji.map((link) => link.word_id))

@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import { fetchKanjiList } from './api'
-import { useKotobaListAllLanguages, useWordKanjiList } from '@/features/kotoba/hooks'
+import { useJapaneseKotobaList, useWordKanjiList } from '@/features/kotoba/hooks'
 
 export function useKanjiList() {
   return useQuery({
@@ -44,7 +44,7 @@ export type WordUsingKanji = {
 export function useWordsForKanji(kanjiId: number | undefined) {
   const { data: wordKanji, isLoading: wkLoading, isError: wkError } = useWordKanjiList()
   // Kanji links are Japanese-structural, so this must not follow the app language.
-  const { data: kotoba, isLoading: kotobaLoading, isError: kotobaError } = useKotobaListAllLanguages()
+  const { data: kotoba, isLoading: kotobaLoading, isError: kotobaError } = useJapaneseKotobaList()
 
   const words = useMemo<WordUsingKanji[]>(() => {
     if (!wordKanji || !kotoba || kanjiId == null) return []
