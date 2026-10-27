@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import { fetchCategoryList, type Category } from './api'
-import { useConceptList, useKotobaListAllLanguages } from '@/features/kotoba/hooks'
+import { useMeaningList, useKotobaListAllLanguages } from '@/features/kotoba/hooks'
 
 export function useCategoryList() {
   return useQuery({
@@ -41,18 +41,18 @@ export type CategorySummary = {
   category: Category
   /** Leaf categories nested under this one, empty for a leaf. */
   children: Category[]
-  concepts: number
-  /** Concepts with at least one word, per language code. */
+  meanings: number
+  /** Meanings with at least one word, per language code. */
   coveredByLanguage: Map<string, number>
 }
 
 /**
- * Top-level categories with concept counts and per-language coverage — the
+ * Top-level categories with meaning counts and per-language coverage — the
  * "what should I study next" view.
  */
 export function useCategorySummaries(): CategorySummary[] {
   const { data: categories } = useCategoryList()
-  const { data: concepts } = useConceptList()
+  const { data: meanings } = useMeaningList()
   const { data: kotoba } = useKotobaListAllLanguages()
 
   return useMemo(() => {
@@ -65,12 +65,12 @@ export function useCategorySummaries(): CategorySummary[] {
       return category.parent_id ?? category.id
     }
 
-    const languagesByConcept = new Map<number, Set<string>>()
+    const languagesByMeaning = new Map<number, Set<string>>()
     for (const word of kotoba ?? []) {
-      if (word.concept_id == null) continue
-      const set = languagesByConcept.get(word.concept_id)
+      if (word.meaning_id == null) continue
+      const set = languagesByMeaning.get(word.meaning_id)
       if (set) set.add(word.language)
-      else languagesByConcept.set(word.concept_id, new Set([word.language]))
+      else languagesByMeaning.set(word.meaning_id, new Set([word.language]))
     }
 
     const summaries = new Map<number, CategorySummary>()
@@ -79,22 +79,22 @@ export function useCategorySummaries(): CategorySummary[] {
       summaries.set(category.id, {
         category,
         children: list.filter((c) => c.parent_id === category.id),
-        concepts: 0,
+        meanings: 0,
         coveredByLanguage: new Map(),
       })
     }
 
-    for (const concept of concepts ?? []) {
-      const topId = topLevelIdOf(concept.category_id)
+    for (const meaning of meanings ?? []) {
+      const topId = topLevelIdOf(meaning.category_id)
       if (topId == null) continue
       const summary = summaries.get(topId)
       if (!summary) continue
-      summary.concepts += 1
-      for (const code of languagesByConcept.get(concept.id) ?? []) {
+      summary.meanings += 1
+      for (const code of languagesByMeaning.get(meaning.id) ?? []) {
         summary.coveredByLanguage.set(code, (summary.coveredByLanguage.get(code) ?? 0) + 1)
       }
     }
 
     return [...summaries.values()].sort((a, b) => a.category.sort_order - b.category.sort_order)
-  }, [categories, concepts, kotoba])
+  }, [categories, meanings, kotoba])
 }

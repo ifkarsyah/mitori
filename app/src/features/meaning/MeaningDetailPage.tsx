@@ -6,7 +6,7 @@ import { ErrorState } from '@/components/ErrorState'
 import type { Kotoba } from '@/features/kotoba/api'
 import { useLanguage } from '@/features/language/useLanguage'
 import { useCategoryLookup } from '@/features/category/hooks'
-import { useConceptById, useKotobaForConcept } from './hooks'
+import { useMeaningById, useKotobaForMeaning } from './hooks'
 import { partOfSpeechLabel } from './filters'
 
 function WordCard({ word }: { word: Kotoba }) {
@@ -29,18 +29,18 @@ function WordCard({ word }: { word: Kotoba }) {
   )
 }
 
-export function ConceptDetailPage() {
+export function MeaningDetailPage() {
   const { id } = useParams<{ id: string }>()
-  const conceptId = id ? Number(id) : undefined
+  const meaningId = id ? Number(id) : undefined
 
-  const { data: concept, isLoading, isError, error, refetch } = useConceptById(conceptId)
+  const { data: meaning, isLoading, isError, error, refetch } = useMeaningById(meaningId)
   const categories = useCategoryLookup()
-  const { data: words } = useKotobaForConcept(conceptId)
+  const { data: words } = useKotobaForMeaning(meaningId)
 
   if (isLoading) return <LoadingState />
   if (isError) return <ErrorState error={error} onRetry={() => refetch()} />
-  if (!concept) {
-    return <p className="py-12 text-center text-muted-foreground">Concept not found.</p>
+  if (!meaning) {
+    return <p className="py-12 text-center text-muted-foreground">Meaning not found.</p>
   }
 
   const ja = words.filter((w) => w.language === 'ja')
@@ -48,25 +48,25 @@ export function ConceptDetailPage() {
 
   return (
     <div className="flex flex-col gap-6">
-      <Button variant="outline" render={<Link to="/concept" />} nativeButton={false} className="w-fit">
-        ← Back to concepts
+      <Button variant="outline" render={<Link to="/meaning" />} nativeButton={false} className="w-fit">
+        ← Back to meanings
       </Button>
 
       <div className="flex flex-col gap-2">
-        <span className="text-4xl">{concept.gloss}</span>
+        <span className="text-4xl">{meaning.gloss}</span>
         <div className="flex flex-wrap gap-2">
-          {concept.part_of_speech && (
-            <Badge variant="outline">{partOfSpeechLabel(concept.part_of_speech)}</Badge>
+          {meaning.part_of_speech && (
+            <Badge variant="outline">{partOfSpeechLabel(meaning.part_of_speech)}</Badge>
           )}
-          {concept.category_id != null && categories.byId.get(concept.category_id) && (
+          {meaning.category_id != null && categories.byId.get(meaning.category_id) && (
             <Badge variant="secondary">
-              {categories.topLevelOf(concept.category_id)?.name}
+              {categories.topLevelOf(meaning.category_id)?.name}
               {' · '}
-              {categories.byId.get(concept.category_id)?.name}
+              {categories.byId.get(meaning.category_id)?.name}
             </Badge>
           )}
-          {concept.tier != null && <Badge variant="outline">Tier {concept.tier}</Badge>}
-          {concept.slug == null && (
+          {meaning.tier != null && <Badge variant="outline">Tier {meaning.tier}</Badge>}
+          {meaning.slug == null && (
             <Badge variant="outline">Outside the syllabus</Badge>
           )}
         </div>
@@ -75,7 +75,7 @@ export function ConceptDetailPage() {
       <div>
         <h2 className="mb-2 text-sm font-medium text-muted-foreground">Japanese ({ja.length})</h2>
         {ja.length === 0 ? (
-          <p className="text-sm text-muted-foreground">No Japanese word recorded for this concept.</p>
+          <p className="text-sm text-muted-foreground">No Japanese word recorded for this meaning.</p>
         ) : (
           <ul className="flex flex-col divide-y">
             {ja.map((w) => (
@@ -88,7 +88,7 @@ export function ConceptDetailPage() {
       <div>
         <h2 className="mb-2 text-sm font-medium text-muted-foreground">German ({de.length})</h2>
         {de.length === 0 ? (
-          <p className="text-sm text-muted-foreground">No German word recorded for this concept.</p>
+          <p className="text-sm text-muted-foreground">No German word recorded for this meaning.</p>
         ) : (
           <ul className="flex flex-col divide-y">
             {de.map((w) => (

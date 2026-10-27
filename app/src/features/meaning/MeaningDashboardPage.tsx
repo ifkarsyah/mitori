@@ -9,19 +9,19 @@ import { ErrorState } from '@/components/ErrorState'
 import { Badge } from '@/components/ui/badge'
 import type { Kotoba } from '@/features/kotoba/api'
 import { useLanguage } from '@/features/language/useLanguage'
-import { useConceptRows, useCoverage, type ConceptRow } from './hooks'
+import { useMeaningRows, useCoverage, type MeaningRow } from './hooks'
 import {
   ALL,
-  applyConceptFilters,
-  defaultConceptFilterState,
+  applyMeaningFilters,
+  defaultMeaningFilterState,
   distinctPartOfSpeechValues,
   distinctTiers,
   distinctTopCategories,
-  groupConceptsBy,
+  groupMeaningsBy,
   partOfSpeechLabel,
   tierLabel,
-  type ConceptFilterState,
-  type ConceptGroupBy,
+  type MeaningFilterState,
+  type MeaningGroupBy,
 } from './filters'
 
 const GROUP_BY_OPTIONS = [
@@ -49,29 +49,29 @@ function WordList({ words }: { words: Kotoba[] | undefined }) {
   )
 }
 
-export function ConceptDashboardPage() {
+export function MeaningDashboardPage() {
   const { languages } = useLanguage()
-  const { data, isLoading, isError, error, refetch } = useConceptRows()
-  const [filters, setFilters] = useState<ConceptFilterState>(defaultConceptFilterState)
+  const { data, isLoading, isError, error, refetch } = useMeaningRows()
+  const [filters, setFilters] = useState<MeaningFilterState>(defaultMeaningFilterState)
 
   const codes = useMemo(() => languages.map((l) => l.code), [languages])
   const coverage = useCoverage(data, codes)
 
-  const columns = useMemo<ColumnConfig<ConceptRow>[]>(
+  const columns = useMemo<ColumnConfig<MeaningRow>[]>(
     () => [
       {
         key: 'gloss',
-        header: 'Concept',
+        header: 'Meaning',
         render: (row) => (
           <Link
-            to={`/concept/${row.concept.id}`}
+            to={`/meaning/${row.meaning.id}`}
             className="text-lg hover:underline"
             onClick={(e) => e.stopPropagation()}
           >
-            {row.concept.gloss}
+            {row.meaning.gloss}
           </Link>
         ),
-        sortValue: (row) => row.concept.gloss,
+        sortValue: (row) => row.meaning.gloss,
       },
       {
         key: 'category',
@@ -88,19 +88,19 @@ export function ConceptDashboardPage() {
         key: 'tier',
         header: 'Tier',
         render: (row) =>
-          row.concept.tier != null ? (
-            <Badge variant="outline">{row.concept.tier}</Badge>
+          row.meaning.tier != null ? (
+            <Badge variant="outline">{row.meaning.tier}</Badge>
           ) : (
             <span className="text-muted-foreground">—</span>
           ),
-        sortValue: (row) => row.concept.tier,
+        sortValue: (row) => row.meaning.tier,
       },
       // One column per language, so a fourth language needs no change here.
       ...languages.map((lang) => ({
         key: lang.code,
         header: lang.name,
-        render: (row: ConceptRow) => <WordList words={row.wordsByLanguage.get(lang.code)} />,
-        sortValue: (row: ConceptRow) => row.wordsByLanguage.get(lang.code)?.[0]?.word ?? null,
+        render: (row: MeaningRow) => <WordList words={row.wordsByLanguage.get(lang.code)} />,
+        sortValue: (row: MeaningRow) => row.wordsByLanguage.get(lang.code)?.[0]?.word ?? null,
       })),
     ],
     [languages],
@@ -146,7 +146,7 @@ export function ConceptDashboardPage() {
   ]
 
   const groups = useMemo(
-    () => groupConceptsBy(applyConceptFilters(data, filters), filters.groupBy),
+    () => groupMeaningsBy(applyMeaningFilters(data, filters), filters.groupBy),
     [data, filters],
   )
 
@@ -156,9 +156,9 @@ export function ConceptDashboardPage() {
   return (
     <div className="flex flex-col gap-6">
       <div>
-        <h1 className="text-xl font-semibold">Concept</h1>
+        <h1 className="text-xl font-semibold">Meaning</h1>
         <p className="text-sm text-muted-foreground">
-          {data.length} concepts — one shared meaning, realized once per language
+          {data.length} meanings — one shared meaning, realized once per language
         </p>
       </div>
 
@@ -182,7 +182,7 @@ export function ConceptDashboardPage() {
       <FilterBar
         search={filters.search}
         onSearchChange={(search) => setFilters((f) => ({ ...f, search }))}
-        searchPlaceholder="Search concept, category, or word…"
+        searchPlaceholder="Search meaning, category, or word…"
         fields={fields}
         fieldValues={{
           topCategory: filters.topCategory,
@@ -193,16 +193,16 @@ export function ConceptDashboardPage() {
         onFieldChange={(key, value) => setFilters((f) => ({ ...f, [key]: value }))}
         groupByOptions={GROUP_BY_OPTIONS}
         groupBy={filters.groupBy}
-        onGroupByChange={(value) => setFilters((f) => ({ ...f, groupBy: value as ConceptGroupBy }))}
-        onClear={() => setFilters(defaultConceptFilterState)}
+        onGroupByChange={(value) => setFilters((f) => ({ ...f, groupBy: value as MeaningGroupBy }))}
+        onClear={() => setFilters(defaultMeaningFilterState)}
       />
 
       <GroupedTable
         groups={groups}
         columns={columns}
-        getRowKey={(row) => row.concept.id}
-        getRowHref={(row) => `/concept/${row.concept.id}`}
-        emptyMessage="No concepts match these filters."
+        getRowKey={(row) => row.meaning.id}
+        getRowHref={(row) => `/meaning/${row.meaning.id}`}
+        emptyMessage="No meanings match these filters."
       />
     </div>
   )

@@ -1,5 +1,5 @@
 import type { Kotoba } from './api'
-import type { ConceptCategory } from '@/features/concept/hooks'
+import type { MeaningCategory } from '@/features/meaning/hooks'
 
 export const UNCLASSIFIED = '__unclassified__'
 export const ALL = '__all__'
@@ -14,7 +14,7 @@ export type KotobaGroupBy =
 
 export type KotobaFilterState = {
   search: string
-  /** Slug of a top-level category, resolved through the word's concept. */
+  /** Slug of a top-level category, resolved through the word's meaning. */
   categorySlug: string
   partOfSpeech: string
   subPartOfSpeech: string
@@ -42,12 +42,12 @@ function matchesSingleSelect(value: string | null, selected: string): boolean {
 export function applyKotobaFilters(
   rows: Kotoba[],
   filters: KotobaFilterState,
-  categoryOfConcept: Map<number, ConceptCategory>,
+  categoryOfMeaning: Map<number, MeaningCategory>,
 ): Kotoba[] {
   const search = filters.search.trim().toLowerCase()
   return rows.filter((row) => {
     if (filters.categorySlug !== ALL) {
-      const top = row.concept_id != null ? categoryOfConcept.get(row.concept_id)?.top : undefined
+      const top = row.meaning_id != null ? categoryOfMeaning.get(row.meaning_id)?.top : undefined
       if ((top?.slug ?? UNCLASSIFIED) !== filters.categorySlug) return false
     }
     if (!matchesSingleSelect(row.part_of_speech, filters.partOfSpeech)) return false
@@ -128,7 +128,7 @@ function sortByDomainOrder(keys: string[], order: string[]): string[] {
 export function groupKotobaBy(
   rows: Kotoba[],
   groupBy: KotobaGroupBy,
-  categoryOfConcept: Map<number, ConceptCategory>,
+  categoryOfMeaning: Map<number, MeaningCategory>,
 ): KotobaGroup[] {
   if (groupBy === 'none') {
     return [{ key: 'all', label: 'All kotoba', rows }]
@@ -140,7 +140,7 @@ export function groupKotobaBy(
 
   if (groupBy === 'category') {
     buckets = groupByKey(rows, (row) =>
-      row.concept_id != null ? categoryOfConcept.get(row.concept_id)?.top?.name ?? null : null,
+      row.meaning_id != null ? categoryOfMeaning.get(row.meaning_id)?.top?.name ?? null : null,
     )
     labelFor = (key) => (key === UNCLASSIFIED ? 'Outside the syllabus' : key)
     sortedKeys = sortWithUnclassifiedLast([...buckets.keys()])

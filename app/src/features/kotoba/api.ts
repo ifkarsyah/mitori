@@ -22,7 +22,7 @@ export type WordKanji = Tables<{ schema: 'japanese' }, 'word_kanji'>
 export type Sentence = Tables<{ schema: 'japanese' }, 'sentence'>
 export type Source = Tables<{ schema: 'japanese' }, 'source'>
 export type SentenceWord = Tables<{ schema: 'japanese' }, 'sentence_word'>
-export type Concept = Tables<'concept'>
+export type Meaning = Tables<'meaning'>
 
 const LANGUAGE_SPECIFIC_COLUMNS = {
   reading: null,
@@ -41,7 +41,7 @@ export async function fetchKotobaList(language: LanguageRow): Promise<Kotoba[]> 
 
 /**
  * Every word regardless of language. Only for views that are inherently
- * cross-language (the concept bridge) — everything else should use the
+ * cross-language (the meaning bridge) — everything else should use the
  * language-scoped fetch.
  */
 export async function fetchKotobaListAllLanguages(languages: LanguageRow[]): Promise<Kotoba[]> {
@@ -49,10 +49,10 @@ export async function fetchKotobaListAllLanguages(languages: LanguageRow[]): Pro
   return lists.flat()
 }
 
-export async function fetchConceptList(): Promise<Concept[]> {
-  return fetchAllRows<Concept>(async (from, to) =>
+export async function fetchMeaningList(): Promise<Meaning[]> {
+  return fetchAllRows<Meaning>(async (from, to) =>
     supabase
-      .from('concept')
+      .from('meaning')
       .select('id, gloss, part_of_speech, created_at, slug, category_id, tier')
       .order('id')
       .range(from, to),

@@ -1,4 +1,4 @@
-id,word,reading,part_of_speech,meanings,level,concept_id,source_id,learned,created_at,updated_at,scene_id
+id,word,reading,part_of_speech,meanings,level,meaning_id,source_id,learned,created_at,updated_at,scene_id
 2912,身体,shēn tǐ,noun,"[""body""]",hsk2,8,,false,2026-08-29T05:45:57.106493+00:00,2026-08-29T05:45:57.106493+00:00,
 2913,头,tóu,noun,"[""head""]",hsk3,519,,false,2026-08-29T05:45:57.106493+00:00,2026-08-29T05:45:57.106493+00:00,
 2914,脸,liǎn,noun,"[""face""]",hsk3,451,,false,2026-08-29T05:45:57.106493+00:00,2026-08-29T05:45:57.106493+00:00,

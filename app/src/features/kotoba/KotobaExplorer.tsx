@@ -9,7 +9,7 @@ import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { downloadCsv } from '@/lib/exportCsv'
 import { useLanguage } from '@/features/language/useLanguage'
-import { useConceptCategories, type ConceptCategory } from '@/features/concept/hooks'
+import { useMeaningCategories, type MeaningCategory } from '@/features/meaning/hooks'
 import type { Kotoba } from './api'
 import { useSentencesList, useSourceList } from './hooks'
 import { ANKI_HEADERS, buildKotobaAnkiRows, buildSentencesByWordId } from './exportAnki'
@@ -30,7 +30,7 @@ import {
 } from './filters'
 
 function buildColumns(
-  categoryOfConcept: Map<number, ConceptCategory>,
+  categoryOfMeaning: Map<number, MeaningCategory>,
   sourceNameById: Map<number, string>,
   includeCategoryColumn: boolean,
   includeSourceColumn: boolean,
@@ -89,10 +89,10 @@ function buildColumns(
     ? [
         {
           key: 'category',
-          // Words have no category of their own; it comes from the concept.
+          // Words have no category of their own; it comes from the meaning.
           header: 'Category',
           render: (row: Kotoba) => {
-            const entry = row.concept_id != null ? categoryOfConcept.get(row.concept_id) : undefined
+            const entry = row.meaning_id != null ? categoryOfMeaning.get(row.meaning_id) : undefined
             if (!entry?.category) return <span className="text-muted-foreground">—</span>
             return (
               <Link
@@ -105,7 +105,7 @@ function buildColumns(
             )
           },
           sortValue: (row: Kotoba) =>
-            (row.concept_id != null ? categoryOfConcept.get(row.concept_id)?.category?.name : null) ?? null,
+            (row.meaning_id != null ? categoryOfMeaning.get(row.meaning_id)?.category?.name : null) ?? null,
         },
       ]
     : []),
@@ -217,7 +217,7 @@ export function KotobaExplorer({
     }),
     [current],
   )
-  const categoryOfConcept = useConceptCategories()
+  const categoryOfMeaning = useMeaningCategories()
   const { data: sources } = useSourceList()
   const { data: sentences } = useSentencesList()
   const sourceNameById = useMemo(() => {
@@ -230,8 +230,8 @@ export function KotobaExplorer({
 
   const columns = useMemo(
     () =>
-      buildColumns(categoryOfConcept, sourceNameById, includeCategoryColumn, includeSourceColumn, caps),
-    [categoryOfConcept, sourceNameById, includeCategoryColumn, includeSourceColumn, caps],
+      buildColumns(categoryOfMeaning, sourceNameById, includeCategoryColumn, includeSourceColumn, caps),
+    [categoryOfMeaning, sourceNameById, includeCategoryColumn, includeSourceColumn, caps],
   )
 
   function toggleColumn(key: string) {
@@ -249,7 +249,7 @@ export function KotobaExplorer({
   const categoryOptions = useMemo(() => {
     const names = new Map<string, string>()
     for (const word of words) {
-      const entry = word.concept_id != null ? categoryOfConcept.get(word.concept_id) : undefined
+      const entry = word.meaning_id != null ? categoryOfMeaning.get(word.meaning_id) : undefined
       const top = entry?.top
       if (top && !names.has(top.slug)) names.set(top.slug, top.name)
     }
@@ -257,7 +257,7 @@ export function KotobaExplorer({
       { value: ALL, label: 'All categories' },
       ...[...names.entries()].map(([value, label]) => ({ value, label })),
     ]
-  }, [words, categoryOfConcept])
+  }, [words, categoryOfMeaning])
 
   const partOfSpeechOptions = useMemo(() => {
     const values = distinctFieldValues(words, 'part_of_speech')
@@ -310,9 +310,9 @@ export function KotobaExplorer({
     : allGroupByOptions.filter((o) => o.value !== 'category')
 
   const groups = useMemo(() => {
-    const filtered = applyKotobaFilters(words, filters, categoryOfConcept)
-    return groupKotobaBy(filtered, filters.groupBy, categoryOfConcept)
-  }, [words, filters, categoryOfConcept])
+    const filtered = applyKotobaFilters(words, filters, categoryOfMeaning)
+    return groupKotobaBy(filtered, filters.groupBy, categoryOfMeaning)
+  }, [words, filters, categoryOfMeaning])
 
   const visibleColumns = useMemo(
     () => columns.filter((c) => !hiddenColumns.has(c.key)),

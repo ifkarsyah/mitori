@@ -4,10 +4,10 @@ import { Button } from '@/components/ui/button'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
 import {
-  useConceptById,
+  useMeaningById,
   useKanjiForWord,
   useKotobaByWord,
-  useKotobaForConcept,
+  useKotobaForMeaning,
   useSentencesForWord,
 } from './hooks'
 import { levelLabel, partOfSpeechLabel, kanaTypeLabel } from './filters'
@@ -20,9 +20,9 @@ export function KotobaDetailPage() {
   const { data: kotoba, isLoading, isError, error, refetch } = useKotobaByWord(word)
   const { data: sentences, isLoading: sentencesLoading } = useSentencesForWord(kotoba?.id)
   const { data: composingKanji, isLoading: kanjiLoading } = useKanjiForWord(kotoba?.id)
-  const { data: concept } = useConceptById(kotoba?.concept_id)
-  const { data: conceptWords } = useKotobaForConcept(kotoba?.concept_id)
-  const translations = conceptWords.filter(
+  const { data: meaning } = useMeaningById(kotoba?.meaning_id)
+  const { data: meaningWords } = useKotobaForMeaning(kotoba?.meaning_id)
+  const translations = meaningWords.filter(
     (row) => row.id !== kotoba?.id || row.language !== kotoba?.language,
   )
 
@@ -56,23 +56,23 @@ export function KotobaDetailPage() {
           {kotoba.kana_type && <Badge variant="outline">{kanaTypeLabel(kotoba.kana_type)}</Badge>}
         </div>
         <div className="flex flex-wrap gap-1">
-          {(kotoba.meanings ?? []).map((meaning) => (
-            <Badge key={meaning} variant="secondary">
-              {meaning}
+          {(kotoba.meanings ?? []).map((gloss) => (
+            <Badge key={gloss} variant="secondary">
+              {gloss}
             </Badge>
           ))}
         </div>
       </div>
 
-      {concept && (
+      {meaning && (
         <div>
-          <h2 className="mb-2 text-sm font-medium text-muted-foreground">Concept</h2>
-          <Link to={`/concept/${concept.id}`} className="hover:underline">
-            {concept.gloss}
+          <h2 className="mb-2 text-sm font-medium text-muted-foreground">Shared meaning</h2>
+          <Link to={`/meaning/${meaning.id}`} className="hover:underline">
+            {meaning.gloss}
           </Link>
           {translations.length === 0 ? (
             <p className="mt-2 text-sm text-muted-foreground">
-              No other word recorded for this concept yet.
+              No other word recorded for this meaning yet.
             </p>
           ) : (
             <ul className="mt-2 flex flex-col divide-y">

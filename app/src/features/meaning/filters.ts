@@ -1,22 +1,22 @@
-import type { ConceptRow } from './hooks'
+import type { MeaningRow } from './hooks'
 
 export const UNCLASSIFIED = '__unclassified__'
 export const ALL = '__all__'
 
-export type ConceptGroupBy = 'none' | 'category' | 'tier' | 'part_of_speech'
+export type MeaningGroupBy = 'none' | 'category' | 'tier' | 'part_of_speech'
 
-export type ConceptFilterState = {
+export type MeaningFilterState = {
   search: string
   /** Slug of a top-level category. */
   topCategory: string
   tier: string
-  /** A language code: show only concepts with no word in it. */
+  /** A language code: show only meanings with no word in it. */
   missingIn: string
   partOfSpeech: string
-  groupBy: ConceptGroupBy
+  groupBy: MeaningGroupBy
 }
 
-export const defaultConceptFilterState: ConceptFilterState = {
+export const defaultMeaningFilterState: MeaningFilterState = {
   search: '',
   topCategory: ALL,
   tier: ALL,
@@ -35,33 +35,33 @@ export function tierLabel(value: string): string {
   return `Tier ${value}`
 }
 
-export function applyConceptFilters(rows: ConceptRow[], filters: ConceptFilterState): ConceptRow[] {
+export function applyMeaningFilters(rows: MeaningRow[], filters: MeaningFilterState): MeaningRow[] {
   const search = filters.search.trim().toLowerCase()
   return rows.filter((row) => {
     if (filters.topCategory !== ALL && (row.topCategory?.slug ?? UNCLASSIFIED) !== filters.topCategory) {
       return false
     }
-    if (filters.tier !== ALL && String(row.concept.tier ?? UNCLASSIFIED) !== filters.tier) return false
+    if (filters.tier !== ALL && String(row.meaning.tier ?? UNCLASSIFIED) !== filters.tier) return false
     if (filters.partOfSpeech !== ALL) {
-      if ((row.concept.part_of_speech ?? UNCLASSIFIED) !== filters.partOfSpeech) return false
+      if ((row.meaning.part_of_speech ?? UNCLASSIFIED) !== filters.partOfSpeech) return false
     }
-    // The gap-finder: concepts this language has no word for yet.
+    // The gap-finder: meanings this language has no word for yet.
     if (filters.missingIn !== ALL && (row.wordsByLanguage.get(filters.missingIn)?.length ?? 0) > 0) {
       return false
     }
     if (search) {
       const words = [...row.wordsByLanguage.values()].flat().map((w) => w.word)
-      const haystack = [row.concept.gloss, row.category?.name ?? '', ...words].join(' ').toLowerCase()
+      const haystack = [row.meaning.gloss, row.category?.name ?? '', ...words].join(' ').toLowerCase()
       if (!haystack.includes(search)) return false
     }
     return true
   })
 }
 
-export type ConceptGroup = { key: string; label: string; rows: ConceptRow[] }
+export type MeaningGroup = { key: string; label: string; rows: MeaningRow[] }
 
-function bucket(rows: ConceptRow[], keyFor: (row: ConceptRow) => string) {
-  const buckets = new Map<string, ConceptRow[]>()
+function bucket(rows: MeaningRow[], keyFor: (row: MeaningRow) => string) {
+  const buckets = new Map<string, MeaningRow[]>()
   for (const row of rows) {
     const key = keyFor(row)
     const existing = buckets.get(key)
@@ -76,8 +76,8 @@ function unclassifiedLast(keys: string[]): string[] {
   return [...known, ...(keys.includes(UNCLASSIFIED) ? [UNCLASSIFIED] : [])]
 }
 
-export function groupConceptsBy(rows: ConceptRow[], groupBy: ConceptGroupBy): ConceptGroup[] {
-  if (groupBy === 'none') return [{ key: 'all', label: 'All concepts', rows }]
+export function groupMeaningsBy(rows: MeaningRow[], groupBy: MeaningGroupBy): MeaningGroup[] {
+  if (groupBy === 'none') return [{ key: 'all', label: 'All meanings', rows }]
 
   if (groupBy === 'category') {
     // Keep the syllabus order rather than sorting alphabetically.
@@ -97,7 +97,7 @@ export function groupConceptsBy(rows: ConceptRow[], groupBy: ConceptGroupBy): Co
   }
 
   if (groupBy === 'tier') {
-    const buckets = bucket(rows, (r) => String(r.concept.tier ?? UNCLASSIFIED))
+    const buckets = bucket(rows, (r) => String(r.meaning.tier ?? UNCLASSIFIED))
     return unclassifiedLast([...buckets.keys()]).map((key) => ({
       key,
       label: tierLabel(key),
@@ -105,7 +105,7 @@ export function groupConceptsBy(rows: ConceptRow[], groupBy: ConceptGroupBy): Co
     }))
   }
 
-  const buckets = bucket(rows, (r) => r.concept.part_of_speech ?? UNCLASSIFIED)
+  const buckets = bucket(rows, (r) => r.meaning.part_of_speech ?? UNCLASSIFIED)
   return unclassifiedLast([...buckets.keys()]).map((key) => ({
     key,
     label: partOfSpeechLabel(key),
@@ -113,7 +113,7 @@ export function groupConceptsBy(rows: ConceptRow[], groupBy: ConceptGroupBy): Co
   }))
 }
 
-export function distinctTopCategories(rows: ConceptRow[]): { slug: string; name: string }[] {
+export function distinctTopCategories(rows: MeaningRow[]): { slug: string; name: string }[] {
   const seen = new Map<string, { slug: string; name: string; order: number }>()
   for (const row of rows) {
     const slug = row.topCategory?.slug ?? UNCLASSIFIED
@@ -127,12 +127,12 @@ export function distinctTopCategories(rows: ConceptRow[]): { slug: string; name:
   return [...seen.values()].sort((a, b) => a.order - b.order).map(({ slug, name }) => ({ slug, name }))
 }
 
-export function distinctTiers(rows: ConceptRow[]): string[] {
-  const present = new Set(rows.map((r) => String(r.concept.tier ?? UNCLASSIFIED)))
+export function distinctTiers(rows: MeaningRow[]): string[] {
+  const present = new Set(rows.map((r) => String(r.meaning.tier ?? UNCLASSIFIED)))
   return unclassifiedLast([...present])
 }
 
-export function distinctPartOfSpeechValues(rows: ConceptRow[]): string[] {
-  const present = new Set(rows.map((r) => r.concept.part_of_speech ?? UNCLASSIFIED))
+export function distinctPartOfSpeechValues(rows: MeaningRow[]): string[] {
+  const present = new Set(rows.map((r) => r.meaning.part_of_speech ?? UNCLASSIFIED))
   return unclassifiedLast([...present])
 }

@@ -3,7 +3,7 @@ import type { LanguageRow } from '@/features/language/languages'
 
 /**
  * The client for one language's schema (japanese, german, chinese). public
- * only holds what every language shares — language, category, concept.
+ * only holds what every language shares — language, category, meaning.
  *
  * Every language schema has the same core tables (word, sentence,
  * sentence_word, source, grammar_point, resource_channel, resource) with the
