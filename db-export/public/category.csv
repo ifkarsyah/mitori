@@ -64,7 +64,7 @@ id,slug,name,parent_id,sort_order,created_at
 63,adj-size,Size & measurement,62,200,2026-08-29T04:46:23.802893+00:00
 64,adj-quality,Quality & condition,62,100,2026-08-29T04:46:23.802893+00:00
 65,adj-comparison,Comparison & degree,62,300,2026-08-29T04:46:23.802893+00:00
-66,function-words,Question & function words,102,100,2026-08-29T04:46:23.802893+00:00
+66,function-words,Grammar words,102,100,2026-08-29T04:46:23.802893+00:00
 67,question-words,Question words,66,100,2026-08-29T04:46:23.802893+00:00
 68,connectors,Connectors,66,200,2026-08-29T04:46:23.802893+00:00
 69,sports-activity,Sports & Activity,104,700,2026-08-29T04:46:23.802893+00:00

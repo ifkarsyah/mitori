@@ -1,6 +1,6 @@
 slug,name,parent_slug,existing_context,note
 abstract,Abstract,,,"Numbers, time, colours and function words."
-function-words,Question & function words,abstract,,
+function-words,Grammar words,abstract,,
 question-words,Question words,function-words,,"what, who, where, when, why, how, which, how many"
 connectors,Connectors,function-words,,"and, but, or, because, so, if, then"
 numbers,Numbers & Quantity,abstract,Number / Quantity,
