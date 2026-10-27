@@ -1,11 +1,11 @@
 id,sentence,meaning,created_at,updated_at,word_id,category_id,scene_id
-11,Darf ich mich vorstellen?,May I introduce myself?,2026-10-27T15:32:34.800203+00:00,2026-10-27T15:32:34.800203+00:00,,,41
-12,Ich wohne in Berlin.,I live in Berlin.,2026-10-27T15:32:34.800203+00:00,2026-10-27T15:32:34.800203+00:00,,,41
-13,Woher kommst du?,Where are you from?,2026-10-27T15:32:34.800203+00:00,2026-10-27T15:32:34.800203+00:00,,,41
-14,Ich heiße Anna.,My name is Anna.,2026-10-27T15:32:34.800203+00:00,2026-10-27T15:32:34.800203+00:00,,,41
-15,Freut mich.,Nice to meet you.,2026-10-27T15:32:34.800203+00:00,2026-10-27T15:32:34.800203+00:00,,,41
-16,Was sind deine Hobbys?,What are your hobbies?,2026-10-27T15:32:34.800203+00:00,2026-10-27T15:32:34.800203+00:00,,,42
-17,Ich arbeite als Ingenieur.,I work as an engineer.,2026-10-27T15:32:34.800203+00:00,2026-10-27T15:32:34.800203+00:00,,,43
-18,Was machst du beruflich?,What do you do for work?,2026-10-27T15:32:34.800203+00:00,2026-10-27T15:32:34.800203+00:00,,,43
-19,Meine Familie ist klein.,My family is small.,2026-10-27T15:32:34.800203+00:00,2026-10-27T15:32:34.800203+00:00,,,44
-20,Hast du Geschwister?,Do you have siblings?,2026-10-27T15:32:34.800203+00:00,2026-10-27T15:32:34.800203+00:00,,,44
+11,Freut mich.,Nice to meet you.,2026-10-27T15:32:34.800203+00:00,2026-10-27T15:39:24.605529+00:00,,,41
+12,Ich heiße Anna.,My name is Anna.,2026-10-27T15:32:34.800203+00:00,2026-10-27T15:39:24.605529+00:00,,,41
+13,Woher kommst du?,Where are you from?,2026-10-27T15:32:34.800203+00:00,2026-10-27T15:39:24.605529+00:00,,,41
+14,Ich wohne in Berlin.,I live in Berlin.,2026-10-27T15:32:34.800203+00:00,2026-10-27T15:39:24.605529+00:00,,,41
+15,Darf ich mich vorstellen?,May I introduce myself?,2026-10-27T15:32:34.800203+00:00,2026-10-27T15:39:24.605529+00:00,,,41
+16,Was sind deine Hobbys?,What are your hobbies?,2026-10-27T15:32:34.800203+00:00,2026-10-27T15:39:24.605529+00:00,,,42
+17,Was machst du beruflich?,What do you do for work?,2026-10-27T15:32:34.800203+00:00,2026-10-27T15:39:24.605529+00:00,,,43
+18,Ich arbeite als Ingenieur.,I work as an engineer.,2026-10-27T15:32:34.800203+00:00,2026-10-27T15:39:24.605529+00:00,,,43
+19,Hast du Geschwister?,Do you have siblings?,2026-10-27T15:32:34.800203+00:00,2026-10-27T15:39:24.605529+00:00,,,44
+20,Meine Familie ist klein.,My family is small.,2026-10-27T15:32:34.800203+00:00,2026-10-27T15:39:24.605529+00:00,,,44
