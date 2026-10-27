@@ -1,85 +1,85 @@
 id,slug,name,parent_id,sort_order,created_at
-1,numbers,Numbers & Quantity,102,0,2026-08-29T04:46:23.802893+00:00
-2,cardinal-numbers,Cardinal numbers,1,1,2026-08-29T04:46:23.802893+00:00
-3,ordinal-numbers,Ordinal numbers,1,2,2026-08-29T04:46:23.802893+00:00
-4,quantity-amount,Quantity & amount,1,3,2026-08-29T04:46:23.802893+00:00
-5,counters,Counters & measure words,1,4,2026-08-29T04:46:23.802893+00:00
-6,time-date,Time & Date,102,5,2026-08-29T04:46:23.802893+00:00
-7,days-of-week,Days of the week,6,6,2026-08-29T04:46:23.802893+00:00
-8,months,Months,6,7,2026-08-29T04:46:23.802893+00:00
-9,time-of-day,Time of day,6,8,2026-08-29T04:46:23.802893+00:00
-10,calendar-words,Calendar & relative time,6,9,2026-08-29T04:46:23.802893+00:00
-11,duration-frequency,Duration & frequency,6,10,2026-08-29T04:46:23.802893+00:00
-12,color,Colors,102,11,2026-08-29T04:46:23.802893+00:00
-13,people,People & Family,103,12,2026-08-29T04:46:23.802893+00:00
-14,family-members,Family members,13,13,2026-08-29T04:46:23.802893+00:00
-15,pronouns,Pronouns,13,14,2026-08-29T04:46:23.802893+00:00
-16,people-roles,People & roles,13,15,2026-08-29T04:46:23.802893+00:00
-17,body-health,Body & Health,103,16,2026-08-29T04:46:23.802893+00:00
-18,body-parts,Body parts,17,17,2026-08-29T04:46:23.802893+00:00
-19,health-illness,Health & illness,17,18,2026-08-29T04:46:23.802893+00:00
-20,food-drink,Food & Drink,104,19,2026-08-29T04:46:23.802893+00:00
-21,fruit,Fruit,20,20,2026-08-29T04:46:23.802893+00:00
-22,vegetables,Vegetables,20,21,2026-08-29T04:46:23.802893+00:00
-23,grains-carbs,Grains & carbs,20,22,2026-08-29T04:46:23.802893+00:00
-24,meat-fish,Meat & fish,20,23,2026-08-29T04:46:23.802893+00:00
-25,dairy-condiments,Dairy & condiments,20,24,2026-08-29T04:46:23.802893+00:00
-26,drinks,Drinks,20,25,2026-08-29T04:46:23.802893+00:00
-27,cooking-taste,Cooking & taste,20,26,2026-08-29T04:46:23.802893+00:00
-28,home,Home,104,27,2026-08-29T04:46:23.802893+00:00
-29,rooms,Rooms,28,28,2026-08-29T04:46:23.802893+00:00
-30,furniture,Furniture,28,29,2026-08-29T04:46:23.802893+00:00
-31,appliances,Appliances,28,30,2026-08-29T04:46:23.802893+00:00
-32,household-items,Household items,28,31,2026-08-29T04:46:23.802893+00:00
-33,clothing,Clothing,104,32,2026-08-29T04:46:23.802893+00:00
-34,nature-weather,Nature & Weather,105,33,2026-08-29T04:46:23.802893+00:00
-35,weather,Weather,34,34,2026-08-29T04:46:23.802893+00:00
-36,animals,Animals,34,35,2026-08-29T04:46:23.802893+00:00
-37,plants,Plants,34,36,2026-08-29T04:46:23.802893+00:00
-38,geography,Geography & landscape,34,37,2026-08-29T04:46:23.802893+00:00
-39,places-travel,Places & Travel,105,38,2026-08-29T04:46:23.802893+00:00
-40,transport,Transport,39,39,2026-08-29T04:46:23.802893+00:00
-41,directions-position,Directions & position,39,40,2026-08-29T04:46:23.802893+00:00
-42,buildings-places,Buildings & places,39,41,2026-08-29T04:46:23.802893+00:00
-43,address-location,Addresses & location,39,42,2026-08-29T04:46:23.802893+00:00
-44,school-learning,School & Learning,104,43,2026-08-29T04:46:23.802893+00:00
-45,school-items,School items,44,44,2026-08-29T04:46:23.802893+00:00
-46,school-subjects,School subjects,44,45,2026-08-29T04:46:23.802893+00:00
-47,language-learning,Language learning,44,46,2026-08-29T04:46:23.802893+00:00
-48,work-money,Work & Money,104,47,2026-08-29T04:46:23.802893+00:00
-49,jobs-occupations,Jobs & occupations,48,48,2026-08-29T04:46:23.802893+00:00
-50,money-shopping,Money & shopping,48,49,2026-08-29T04:46:23.802893+00:00
-51,office-work,Office & work life,48,50,2026-08-29T04:46:23.802893+00:00
-52,communication,Communication,104,51,2026-08-29T04:46:23.802893+00:00
-53,speaking-writing,Speaking & writing,52,52,2026-08-29T04:46:23.802893+00:00
-54,phone-internet,Phone & internet,52,53,2026-08-29T04:46:23.802893+00:00
-55,emotions-states,Emotions & States,103,54,2026-08-29T04:46:23.802893+00:00
-56,emotions,Emotions,55,55,2026-08-29T04:46:23.802893+00:00
-57,mental-states,Thinking & mental states,55,56,2026-08-29T04:46:23.802893+00:00
-58,verbs-common,Common verbs,106,57,2026-08-29T04:46:23.802893+00:00
-59,verbs-motion,Motion verbs,58,58,2026-08-29T04:46:23.802893+00:00
-60,verbs-perception,Perception verbs,58,59,2026-08-29T04:46:23.802893+00:00
-61,verbs-daily,Daily action verbs,58,60,2026-08-29T04:46:23.802893+00:00
-62,adjectives-common,Common adjectives,106,61,2026-08-29T04:46:23.802893+00:00
-63,adj-size,Size & measurement,62,62,2026-08-29T04:46:23.802893+00:00
-64,adj-quality,Quality & condition,62,63,2026-08-29T04:46:23.802893+00:00
-65,adj-comparison,Comparison & degree,62,64,2026-08-29T04:46:23.802893+00:00
-66,function-words,Question & function words,102,65,2026-08-29T04:46:23.802893+00:00
-67,question-words,Question words,66,66,2026-08-29T04:46:23.802893+00:00
-68,connectors,Connectors,66,67,2026-08-29T04:46:23.802893+00:00
-69,sports-activity,Sports & Activity,104,68,2026-08-29T04:46:23.802893+00:00
-70,society-government,Society & Government,105,69,2026-08-29T04:46:23.802893+00:00
-88,personal-care,Personal care & beauty,17,1692,2026-10-27T15:05:43.674403+00:00
-89,medical,Medical care,17,1691,2026-10-27T15:05:43.674403+00:00
-90,eating-out,Eating out,20,1992,2026-10-27T15:05:43.674403+00:00
-91,dishes,Dishes & meals,20,1991,2026-10-27T15:05:43.674403+00:00
-92,housing,Housing & renting,28,2791,2026-10-27T15:05:43.674403+00:00
-93,lodging,Hotels & lodging,39,3891,2026-10-27T15:05:43.674403+00:00
-94,online-shopping,Online shopping,48,4792,2026-10-27T15:05:43.674403+00:00
-95,banking,Banking & payments,48,4791,2026-10-27T15:05:43.674403+00:00
-96,post,Post & parcels,52,5191,2026-10-27T15:05:43.674403+00:00
-102,abstract,Abstract,,1,2026-10-27T15:48:22.628588+00:00
-103,people-self,People & self,,2,2026-10-27T15:48:22.628588+00:00
-104,daily-life,Daily life,,3,2026-10-27T15:48:22.628588+00:00
-105,world,World,,4,2026-10-27T15:48:22.628588+00:00
-106,core-words,Core verbs & adjectives,,5,2026-10-27T15:48:22.628588+00:00
+1,numbers,Numbers & Quantity,102,200,2026-08-29T04:46:23.802893+00:00
+2,cardinal-numbers,Cardinal numbers,1,100,2026-08-29T04:46:23.802893+00:00
+3,ordinal-numbers,Ordinal numbers,1,400,2026-08-29T04:46:23.802893+00:00
+4,quantity-amount,Quantity & amount,1,200,2026-08-29T04:46:23.802893+00:00
+5,counters,Counters & measure words,1,300,2026-08-29T04:46:23.802893+00:00
+6,time-date,Time & Date,102,300,2026-08-29T04:46:23.802893+00:00
+7,days-of-week,Days of the week,6,200,2026-08-29T04:46:23.802893+00:00
+8,months,Months,6,300,2026-08-29T04:46:23.802893+00:00
+9,time-of-day,Time of day,6,100,2026-08-29T04:46:23.802893+00:00
+10,calendar-words,Calendar & relative time,6,400,2026-08-29T04:46:23.802893+00:00
+11,duration-frequency,Duration & frequency,6,500,2026-08-29T04:46:23.802893+00:00
+12,color,Colors,102,400,2026-08-29T04:46:23.802893+00:00
+13,people,People & Family,103,100,2026-08-29T04:46:23.802893+00:00
+14,family-members,Family members,13,200,2026-08-29T04:46:23.802893+00:00
+15,pronouns,Pronouns,13,100,2026-08-29T04:46:23.802893+00:00
+16,people-roles,People & roles,13,300,2026-08-29T04:46:23.802893+00:00
+17,body-health,Body & Health,103,300,2026-08-29T04:46:23.802893+00:00
+18,body-parts,Body parts,17,100,2026-08-29T04:46:23.802893+00:00
+19,health-illness,Health & illness,17,200,2026-08-29T04:46:23.802893+00:00
+20,food-drink,Food & Drink,104,100,2026-08-29T04:46:23.802893+00:00
+21,fruit,Fruit,20,500,2026-08-29T04:46:23.802893+00:00
+22,vegetables,Vegetables,20,400,2026-08-29T04:46:23.802893+00:00
+23,grains-carbs,Grains & carbs,20,200,2026-08-29T04:46:23.802893+00:00
+24,meat-fish,Meat & fish,20,300,2026-08-29T04:46:23.802893+00:00
+25,dairy-condiments,Dairy & condiments,20,800,2026-08-29T04:46:23.802893+00:00
+26,drinks,Drinks,20,100,2026-08-29T04:46:23.802893+00:00
+27,cooking-taste,Cooking & taste,20,700,2026-08-29T04:46:23.802893+00:00
+28,home,Home,104,200,2026-08-29T04:46:23.802893+00:00
+29,rooms,Rooms,28,100,2026-08-29T04:46:23.802893+00:00
+30,furniture,Furniture,28,300,2026-08-29T04:46:23.802893+00:00
+31,appliances,Appliances,28,400,2026-08-29T04:46:23.802893+00:00
+32,household-items,Household items,28,200,2026-08-29T04:46:23.802893+00:00
+33,clothing,Clothing,104,500,2026-08-29T04:46:23.802893+00:00
+34,nature-weather,Nature & Weather,105,200,2026-08-29T04:46:23.802893+00:00
+35,weather,Weather,34,100,2026-08-29T04:46:23.802893+00:00
+36,animals,Animals,34,200,2026-08-29T04:46:23.802893+00:00
+37,plants,Plants,34,300,2026-08-29T04:46:23.802893+00:00
+38,geography,Geography & landscape,34,400,2026-08-29T04:46:23.802893+00:00
+39,places-travel,Places & Travel,105,100,2026-08-29T04:46:23.802893+00:00
+40,transport,Transport,39,300,2026-08-29T04:46:23.802893+00:00
+41,directions-position,Directions & position,39,100,2026-08-29T04:46:23.802893+00:00
+42,buildings-places,Buildings & places,39,200,2026-08-29T04:46:23.802893+00:00
+43,address-location,Addresses & location,39,400,2026-08-29T04:46:23.802893+00:00
+44,school-learning,School & Learning,104,600,2026-08-29T04:46:23.802893+00:00
+45,school-items,School items,44,100,2026-08-29T04:46:23.802893+00:00
+46,school-subjects,School subjects,44,300,2026-08-29T04:46:23.802893+00:00
+47,language-learning,Language learning,44,200,2026-08-29T04:46:23.802893+00:00
+48,work-money,Work & Money,104,300,2026-08-29T04:46:23.802893+00:00
+49,jobs-occupations,Jobs & occupations,48,200,2026-08-29T04:46:23.802893+00:00
+50,money-shopping,Money & shopping,48,100,2026-08-29T04:46:23.802893+00:00
+51,office-work,Office & work life,48,300,2026-08-29T04:46:23.802893+00:00
+52,communication,Communication,104,400,2026-08-29T04:46:23.802893+00:00
+53,speaking-writing,Speaking & writing,52,100,2026-08-29T04:46:23.802893+00:00
+54,phone-internet,Phone & internet,52,200,2026-08-29T04:46:23.802893+00:00
+55,emotions-states,Emotions & States,103,200,2026-08-29T04:46:23.802893+00:00
+56,emotions,Emotions,55,100,2026-08-29T04:46:23.802893+00:00
+57,mental-states,Thinking & mental states,55,200,2026-08-29T04:46:23.802893+00:00
+58,verbs-common,Common verbs,106,100,2026-08-29T04:46:23.802893+00:00
+59,verbs-motion,Motion verbs,58,200,2026-08-29T04:46:23.802893+00:00
+60,verbs-perception,Perception verbs,58,300,2026-08-29T04:46:23.802893+00:00
+61,verbs-daily,Daily action verbs,58,100,2026-08-29T04:46:23.802893+00:00
+62,adjectives-common,Common adjectives,106,200,2026-08-29T04:46:23.802893+00:00
+63,adj-size,Size & measurement,62,200,2026-08-29T04:46:23.802893+00:00
+64,adj-quality,Quality & condition,62,100,2026-08-29T04:46:23.802893+00:00
+65,adj-comparison,Comparison & degree,62,300,2026-08-29T04:46:23.802893+00:00
+66,function-words,Question & function words,102,100,2026-08-29T04:46:23.802893+00:00
+67,question-words,Question words,66,100,2026-08-29T04:46:23.802893+00:00
+68,connectors,Connectors,66,200,2026-08-29T04:46:23.802893+00:00
+69,sports-activity,Sports & Activity,104,700,2026-08-29T04:46:23.802893+00:00
+70,society-government,Society & Government,105,300,2026-08-29T04:46:23.802893+00:00
+88,personal-care,Personal care & beauty,17,400,2026-10-27T15:05:43.674403+00:00
+89,medical,Medical care,17,300,2026-10-27T15:05:43.674403+00:00
+90,eating-out,Eating out,20,900,2026-10-27T15:05:43.674403+00:00
+91,dishes,Dishes & meals,20,600,2026-10-27T15:05:43.674403+00:00
+92,housing,Housing & renting,28,500,2026-10-27T15:05:43.674403+00:00
+93,lodging,Hotels & lodging,39,500,2026-10-27T15:05:43.674403+00:00
+94,online-shopping,Online shopping,48,500,2026-10-27T15:05:43.674403+00:00
+95,banking,Banking & payments,48,400,2026-10-27T15:05:43.674403+00:00
+96,post,Post & parcels,52,300,2026-10-27T15:05:43.674403+00:00
+102,abstract,Abstract,,100,2026-10-27T15:48:22.628588+00:00
+103,people-self,People & self,,300,2026-10-27T15:48:22.628588+00:00
+104,daily-life,Daily life,,400,2026-10-27T15:48:22.628588+00:00
+105,world,World,,500,2026-10-27T15:48:22.628588+00:00
+106,core-words,Core verbs & adjectives,,200,2026-10-27T15:48:22.628588+00:00
