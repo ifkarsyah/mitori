@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { useQuery } from '@tanstack/react-query'
-import { useKotobaList, useSentenceWordList } from '@/features/kotoba/hooks'
-import type { Kotoba } from '@/features/kotoba/api'
+import { useWordList, useSentenceWordList } from '@/features/word/hooks'
+import type { Word } from '@/features/word/api'
 import { useLanguage } from '@/features/language/useLanguage'
 import { fetchSceneList, fetchPhraseList, type Phrase } from './api'
 
@@ -31,7 +31,7 @@ export function useSceneBySlug(slug: string | undefined) {
 
 /** Word and phrase counts per scene id. */
 export function useSceneCounts() {
-  const { data: words } = useKotobaList()
+  const { data: words } = useWordList()
   const { data: phrases } = usePhraseList()
   return useMemo(() => {
     const counts = new Map<number, { words: number; phrases: number }>()
@@ -48,27 +48,27 @@ export function useSceneCounts() {
   }, [words, phrases])
 }
 
-export function useKotobaForScene(sceneId: number | undefined) {
-  const query = useKotobaList()
-  const words = useMemo<Kotoba[]>(
+export function useWordForScene(sceneId: number | undefined) {
+  const query = useWordList()
+  const words = useMemo<Word[]>(
     () => (sceneId == null ? [] : (query.data ?? []).filter((w) => w.scene_id === sceneId)),
     [query.data, sceneId],
   )
   return { ...query, data: words }
 }
 
-export type PhraseWithWords = Phrase & { words: Kotoba[] }
+export type PhraseWithWords = Phrase & { words: Word[] }
 
 /** A scene's phrases, each with the words it uses (from sentence_word). */
 export function usePhrasesForScene(sceneId: number | undefined) {
   const phraseQuery = usePhraseList()
-  const { data: words } = useKotobaList()
+  const { data: words } = useWordList()
   const { data: links } = useSentenceWordList()
 
   const data = useMemo<PhraseWithWords[]>(() => {
     if (sceneId == null) return []
     const wordById = new Map((words ?? []).map((w) => [w.id, w]))
-    const wordsBySentence = new Map<number, Kotoba[]>()
+    const wordsBySentence = new Map<number, Word[]>()
     for (const link of links ?? []) {
       const word = wordById.get(link.word_id)
       if (!word) continue

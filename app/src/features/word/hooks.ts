@@ -2,8 +2,8 @@ import { useMemo } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import {
   fetchMeaningList,
-  fetchKotobaList,
-  fetchKotobaListAllLanguages,
+  fetchWordList,
+  fetchWordListAllLanguages,
   fetchSentenceWordList,
   fetchSentencesList,
   fetchSourceList,
@@ -13,32 +13,32 @@ import { useKanjiList } from '@/features/kanji/hooks'
 import { useLanguage } from '@/features/language/useLanguage'
 
 /** Words in the language the app is currently scoped to. */
-export function useKotobaList() {
+export function useWordList() {
   const { language, current } = useLanguage()
   return useQuery({
-    queryKey: ['kotoba', 'list', language],
-    queryFn: () => fetchKotobaList(current!),
+    queryKey: ['word', 'list', language],
+    queryFn: () => fetchWordList(current!),
     enabled: current != null,
   })
 }
 
 /** Words in every language — for the meaning bridge only. */
-export function useKotobaListAllLanguages() {
+export function useWordListAllLanguages() {
   const { languages } = useLanguage()
   return useQuery({
-    queryKey: ['kotoba', 'list', 'all', languages.map((l) => l.code)],
-    queryFn: () => fetchKotobaListAllLanguages(languages),
+    queryKey: ['word', 'list', 'all', languages.map((l) => l.code)],
+    queryFn: () => fetchWordListAllLanguages(languages),
     enabled: languages.length > 0,
   })
 }
 
 /** Japanese words, for kanji links — word_kanji only exists in the japanese schema. */
-export function useJapaneseKotobaList() {
+export function useJapaneseWordList() {
   const { languages } = useLanguage()
   const japanese = languages.find((l) => l.schema_name === 'japanese')
   return useQuery({
-    queryKey: ['kotoba', 'list', japanese?.code],
-    queryFn: () => fetchKotobaList(japanese!),
+    queryKey: ['word', 'list', japanese?.code],
+    queryFn: () => fetchWordList(japanese!),
     enabled: japanese != null,
   })
 }
@@ -94,25 +94,25 @@ export function useMeaningById(id: number | null | undefined) {
  * Every word realizing a meaning, in every language — including Japanese synonyms
  * that share one meaning (持ち帰り / お持ち帰り / テイクアウト).
  */
-export function useKotobaForMeaning(meaningId: number | null | undefined) {
+export function useWordForMeaning(meaningId: number | null | undefined) {
   // Cross-language on purpose — showing the other language's word for this
   // meaning is the entire point of the meaning link.
-  const query = useKotobaListAllLanguages()
+  const query = useWordListAllLanguages()
   const words =
     meaningId == null ? [] : (query.data?.filter((row) => row.meaning_id === meaningId) ?? [])
   return { ...query, data: words }
 }
 
-export function useKotobaById(id: number | undefined) {
-  const query = useKotobaList()
-  const kotoba = query.data?.find((row) => row.id === id)
-  return { ...query, data: kotoba }
+export function useWordById(id: number | undefined) {
+  const query = useWordList()
+  const match = query.data?.find((row) => row.id === id)
+  return { ...query, data: match }
 }
 
-export function useKotobaByWord(word: string | undefined) {
-  const query = useKotobaList()
-  const kotoba = query.data?.find((row) => row.word === word)
-  return { ...query, data: kotoba }
+export function useWordByText(word: string | undefined) {
+  const query = useWordList()
+  const match = query.data?.find((row) => row.word === word)
+  return { ...query, data: match }
 }
 
 export function useSentencesForWord(wordId: number | undefined) {

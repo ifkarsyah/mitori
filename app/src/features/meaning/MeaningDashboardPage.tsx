@@ -7,7 +7,7 @@ import { GroupedTable } from '@/components/GroupedTable'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
 import { Badge } from '@/components/ui/badge'
-import type { Kotoba } from '@/features/kotoba/api'
+import type { Word } from '@/features/word/api'
 import { useLanguage } from '@/features/language/useLanguage'
 import { useMeaningRows, useCoverage, type MeaningRow } from './hooks'
 import {
@@ -31,14 +31,14 @@ const GROUP_BY_OPTIONS = [
   { value: 'part_of_speech', label: 'Part of speech' },
 ]
 
-function WordList({ words }: { words: Kotoba[] | undefined }) {
+function WordList({ words }: { words: Word[] | undefined }) {
   if (!words || words.length === 0) return <span className="text-muted-foreground">—</span>
   return (
     <div className="flex flex-wrap gap-x-2 gap-y-1">
       {words.map((w) => (
         <Link
           key={`${w.language}-${w.id}`}
-          to={`/kotoba/${w.word}`}
+          to={`/word/${w.word}`}
           className="hover:underline"
           onClick={(e) => e.stopPropagation()}
         >

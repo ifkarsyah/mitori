@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import { fetchKanjiList } from './api'
-import { useJapaneseKotobaList, useWordKanjiList } from '@/features/kotoba/hooks'
+import { useJapaneseWordList, useWordKanjiList } from '@/features/word/hooks'
 
 export function useKanjiList() {
   return useQuery({
@@ -44,15 +44,15 @@ export type WordUsingKanji = {
 export function useWordsForKanji(kanjiId: number | undefined) {
   const { data: wordKanji, isLoading: wkLoading, isError: wkError } = useWordKanjiList()
   // Kanji links are Japanese-structural, so this must not follow the app language.
-  const { data: kotoba, isLoading: kotobaLoading, isError: kotobaError } = useJapaneseKotobaList()
+  const { data: japaneseWords, isLoading: wordLoading, isError: wordError } = useJapaneseWordList()
 
   const words = useMemo<WordUsingKanji[]>(() => {
-    if (!wordKanji || !kotoba || kanjiId == null) return []
-    const kotobaById = new Map(kotoba.map((k) => [k.id, k]))
+    if (!wordKanji || !japaneseWords || kanjiId == null) return []
+    const wordById = new Map(japaneseWords.map((k) => [k.id, k]))
     return wordKanji
       .filter((link) => link.kanji_id === kanjiId && link.word_id != null)
       .map((link) => {
-        const word = kotobaById.get(link.word_id!)
+        const word = wordById.get(link.word_id!)
         return word
           ? {
               wordId: word.id,
@@ -63,11 +63,11 @@ export function useWordsForKanji(kanjiId: number | undefined) {
           : null
       })
       .filter((w): w is WordUsingKanji => w !== null)
-  }, [wordKanji, kotoba, kanjiId])
+  }, [wordKanji, japaneseWords, kanjiId])
 
   return {
     data: words,
-    isLoading: wkLoading || kotobaLoading,
-    isError: wkError || kotobaError,
+    isLoading: wkLoading || wordLoading,
+    isError: wkError || wordError,
   }
 }

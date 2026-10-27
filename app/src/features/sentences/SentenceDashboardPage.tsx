@@ -60,7 +60,7 @@ const columns: ColumnConfig<EnrichedSentence>[] = [
     render: (row) =>
       row.word != null ? (
         <Link
-          to={`/kotoba/${row.word}`}
+          to={`/word/${row.word}`}
           className="text-lg hover:underline"
           onClick={(e) => e.stopPropagation()}
         >
@@ -89,7 +89,7 @@ const columns: ColumnConfig<EnrichedSentence>[] = [
             <div key={group.key} className="flex flex-wrap items-center gap-1">
               <span className="text-xs text-muted-foreground">{group.label}:</span>
               {group.words.map((w) => (
-                <Link key={w.id} to={`/kotoba/${w.word}`} onClick={(e) => e.stopPropagation()}>
+                <Link key={w.id} to={`/word/${w.word}`} onClick={(e) => e.stopPropagation()}>
                   <Badge variant="secondary">{w.word}</Badge>
                 </Link>
               ))}
@@ -214,7 +214,7 @@ export function SentenceDashboardPage() {
         groups={groups}
         columns={columns}
         getRowKey={(row) => row.id}
-        getRowHref={(row) => (row.word != null ? `/kotoba/${row.word}` : '#')}
+        getRowHref={(row) => (row.word != null ? `/word/${row.word}` : '#')}
         emptyMessage={
           data.length === 0
             ? `No ${labelFor(language)} sentences yet.`

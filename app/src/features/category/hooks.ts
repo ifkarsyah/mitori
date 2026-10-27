@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import { fetchCategoryList, type Category } from './api'
-import { useMeaningList, useKotobaListAllLanguages } from '@/features/kotoba/hooks'
+import { useMeaningList, useWordListAllLanguages } from '@/features/word/hooks'
 
 export function useCategoryList() {
   return useQuery({
@@ -53,7 +53,7 @@ export type CategorySummary = {
 export function useCategorySummaries(): CategorySummary[] {
   const { data: categories } = useCategoryList()
   const { data: meanings } = useMeaningList()
-  const { data: kotoba } = useKotobaListAllLanguages()
+  const { data: words } = useWordListAllLanguages()
 
   return useMemo(() => {
     const list = categories ?? []
@@ -66,7 +66,7 @@ export function useCategorySummaries(): CategorySummary[] {
     }
 
     const languagesByMeaning = new Map<number, Set<string>>()
-    for (const word of kotoba ?? []) {
+    for (const word of words ?? []) {
       if (word.meaning_id == null) continue
       const set = languagesByMeaning.get(word.meaning_id)
       if (set) set.add(word.language)
@@ -96,5 +96,5 @@ export function useCategorySummaries(): CategorySummary[] {
     }
 
     return [...summaries.values()].sort((a, b) => a.category.sort_order - b.category.sort_order)
-  }, [categories, meanings, kotoba])
+  }, [categories, meanings, words])
 }

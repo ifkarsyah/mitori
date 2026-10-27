@@ -10,23 +10,23 @@ import { Badge } from '@/components/ui/badge'
 import { downloadCsv } from '@/lib/exportCsv'
 import { useLanguage } from '@/features/language/useLanguage'
 import { useMeaningCategories, type MeaningCategory } from '@/features/meaning/hooks'
-import type { Kotoba } from './api'
+import type { Word } from './api'
 import { useSentencesList, useSourceList } from './hooks'
-import { ANKI_HEADERS, buildKotobaAnkiRows, buildSentencesByWordId } from './exportAnki'
+import { ANKI_HEADERS, buildWordAnkiRows, buildSentencesByWordId } from './exportAnki'
 import {
   ALL,
-  applyKotobaFilters,
-  defaultKotobaFilterState,
+  applyWordFilters,
+  defaultWordFilterState,
   distinctFieldValues,
   distinctKanaTypeValues,
   distinctLevelValues,
-  groupKotobaBy,
+  groupWordBy,
   levelLabel,
   partOfSpeechLabel,
   kanaTypeLabel,
   subPartOfSpeechLabel,
-  type KotobaFilterState,
-  type KotobaGroupBy,
+  type WordFilterState,
+  type WordGroupBy,
 } from './filters'
 
 function buildColumns(
@@ -35,14 +35,14 @@ function buildColumns(
   includeCategoryColumn: boolean,
   includeSourceColumn: boolean,
   caps: LanguageCaps,
-): ColumnConfig<Kotoba>[] {
+): ColumnConfig<Word>[] {
   return [
   {
     key: 'word',
     header: 'Word',
     render: (row) => (
       <Link
-        to={`/kotoba/${row.word}`}
+        to={`/word/${row.word}`}
         className="text-lg hover:underline"
         onClick={(e) => e.stopPropagation()}
       >
@@ -57,8 +57,8 @@ function buildColumns(
         {
           key: 'reading',
           header: 'Reading',
-          render: (row: Kotoba) => row.reading ?? <span className="text-muted-foreground">—</span>,
-          sortValue: (row: Kotoba) => row.reading,
+          render: (row: Word) => row.reading ?? <span className="text-muted-foreground">—</span>,
+          sortValue: (row: Word) => row.reading,
         },
       ]
     : []),
@@ -67,8 +67,8 @@ function buildColumns(
         {
           key: 'plural',
           header: 'Plural',
-          render: (row: Kotoba) => row.plural ?? <span className="text-muted-foreground">—</span>,
-          sortValue: (row: Kotoba) => row.plural,
+          render: (row: Word) => row.plural ?? <span className="text-muted-foreground">—</span>,
+          sortValue: (row: Word) => row.plural,
         },
       ]
     : []),
@@ -91,7 +91,7 @@ function buildColumns(
           key: 'category',
           // Words have no category of their own; it comes from the meaning.
           header: 'Category',
-          render: (row: Kotoba) => {
+          render: (row: Word) => {
             const entry = row.meaning_id != null ? categoryOfMeaning.get(row.meaning_id) : undefined
             if (!entry?.category) return <span className="text-muted-foreground">—</span>
             return (
@@ -104,7 +104,7 @@ function buildColumns(
               </Link>
             )
           },
-          sortValue: (row: Kotoba) =>
+          sortValue: (row: Word) =>
             (row.meaning_id != null ? categoryOfMeaning.get(row.meaning_id)?.category?.name : null) ?? null,
         },
       ]
@@ -114,7 +114,7 @@ function buildColumns(
         {
           key: 'source',
           header: 'Source',
-          render: (row: Kotoba) =>
+          render: (row: Word) =>
             row.source_id != null && sourceNameById.has(row.source_id) ? (
               <Link
                 to={`/source/${row.source_id}`}
@@ -126,7 +126,7 @@ function buildColumns(
             ) : (
               <span className="text-muted-foreground">—</span>
             ),
-          sortValue: (row: Kotoba) => (row.source_id != null ? sourceNameById.get(row.source_id) ?? null : null),
+          sortValue: (row: Word) => (row.source_id != null ? sourceNameById.get(row.source_id) ?? null : null),
         },
       ]
     : []),
@@ -159,13 +159,13 @@ function buildColumns(
         {
           key: 'kana_type',
           header: 'Kana type',
-          render: (row: Kotoba) =>
+          render: (row: Word) =>
             row.kana_type ? (
               kanaTypeLabel(row.kana_type)
             ) : (
               <span className="text-muted-foreground">—</span>
             ),
-          sortValue: (row: Kotoba) => row.kana_type,
+          sortValue: (row: Word) => row.kana_type,
         },
       ]
     : []),
@@ -188,8 +188,8 @@ const BASE_GROUP_BY_OPTIONS = [
   { value: 'level', label: 'Level' },
 ]
 
-export type KotobaExplorerProps = {
-  words: Kotoba[]
+export type WordExplorerProps = {
+  words: Word[]
   /** Set to false when already scoped to one category. */
   includeCategoryFilter?: boolean
   /** Set to false when every row shares a category, making the column redundant. */
@@ -198,13 +198,13 @@ export type KotobaExplorerProps = {
   includeSourceColumn?: boolean
 }
 
-export function KotobaExplorer({
+export function WordExplorer({
   words,
   includeCategoryFilter = true,
   includeCategoryColumn = true,
   includeSourceColumn = true,
-}: KotobaExplorerProps) {
-  const [filters, setFilters] = useState<KotobaFilterState>(defaultKotobaFilterState)
+}: WordExplorerProps) {
+  const [filters, setFilters] = useState<WordFilterState>(defaultWordFilterState)
   const { current, labelFor, language } = useLanguage()
   const caps = useMemo<LanguageCaps>(
     () => ({
@@ -310,8 +310,8 @@ export function KotobaExplorer({
     : allGroupByOptions.filter((o) => o.value !== 'category')
 
   const groups = useMemo(() => {
-    const filtered = applyKotobaFilters(words, filters, categoryOfMeaning)
-    return groupKotobaBy(filtered, filters.groupBy, categoryOfMeaning)
+    const filtered = applyWordFilters(words, filters, categoryOfMeaning)
+    return groupWordBy(filtered, filters.groupBy, categoryOfMeaning)
   }, [words, filters, categoryOfMeaning])
 
   const visibleColumns = useMemo(
@@ -321,8 +321,8 @@ export function KotobaExplorer({
 
   function exportToAnki() {
     const filteredRows = groups.flatMap((g) => g.rows)
-    const ankiRows = buildKotobaAnkiRows(filteredRows, sentencesByWordId)
-    downloadCsv('mitori-kotoba-anki.csv', ANKI_HEADERS, ankiRows)
+    const ankiRows = buildWordAnkiRows(filteredRows, sentencesByWordId)
+    downloadCsv('mitori-word-anki.csv', ANKI_HEADERS, ankiRows)
   }
 
   return (
@@ -342,8 +342,8 @@ export function KotobaExplorer({
         onFieldChange={(key, value) => setFilters((f) => ({ ...f, [key]: value }))}
         groupByOptions={groupByOptions}
         groupBy={filters.groupBy}
-        onGroupByChange={(value) => setFilters((f) => ({ ...f, groupBy: value as KotobaGroupBy }))}
-        onClear={() => setFilters(defaultKotobaFilterState)}
+        onGroupByChange={(value) => setFilters((f) => ({ ...f, groupBy: value as WordGroupBy }))}
+        onClear={() => setFilters(defaultWordFilterState)}
       />
 
       <div className="flex items-center justify-between gap-2">
@@ -361,11 +361,11 @@ export function KotobaExplorer({
         groups={groups}
         columns={visibleColumns}
         getRowKey={(row) => row.id}
-        getRowHref={(row) => `/kotoba/${row.word}`}
+        getRowHref={(row) => `/word/${row.word}`}
         emptyMessage={
           words.length === 0
             ? `No ${labelFor(language)} words yet.`
-            : 'No kotoba match these filters.'
+            : 'No words match these filters.'
         }
       />
     </div>

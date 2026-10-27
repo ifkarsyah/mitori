@@ -1,10 +1,10 @@
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
-import { useKotobaList } from './hooks'
-import { KotobaExplorer } from './KotobaExplorer'
+import { useWordList } from './hooks'
+import { WordExplorer } from './WordExplorer'
 
-export function KotobaDashboardPage() {
-  const { data, isLoading, isError, error, refetch } = useKotobaList()
+export function WordDashboardPage() {
+  const { data, isLoading, isError, error, refetch } = useWordList()
 
   if (isLoading) return <LoadingState />
   if (isError) return <ErrorState error={error} onRetry={() => refetch()} />
@@ -12,11 +12,11 @@ export function KotobaDashboardPage() {
   return (
     <div className="flex flex-col gap-6">
       <div>
-        <h1 className="text-xl font-semibold">Kotoba</h1>
+        <h1 className="text-xl font-semibold">Word</h1>
         <p className="text-sm text-muted-foreground">{data?.length ?? 0} words total</p>
       </div>
 
-      <KotobaExplorer words={data ?? []} />
+      <WordExplorer words={data ?? []} />
     </div>
   )
 }

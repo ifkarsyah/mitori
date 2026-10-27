@@ -9,11 +9,11 @@ type GermanWord = Tables<{ schema: 'german' }, 'word'>
 
 /**
  * One word in any language. Each schema's word table carries only its own
- * columns; fetchKotobaList fills the rest with null and tags the row with its
+ * columns; fetchWordList fills the rest with null and tags the row with its
  * language, so shared screens can read reading or gender without caring which
  * schema the row came from. Ids are only unique within one language.
  */
-export type Kotoba = Omit<JapaneseWord, 'kana_type'> &
+export type Word = Omit<JapaneseWord, 'kana_type'> &
   Pick<GermanWord, 'gender' | 'plural'> & {
     kana_type: string | null
     language: string
@@ -32,11 +32,11 @@ const LANGUAGE_SPECIFIC_COLUMNS = {
   plural: null,
 }
 
-export async function fetchKotobaList(language: LanguageRow): Promise<Kotoba[]> {
-  const rows = await fetchAllRows<Partial<Kotoba>>(async (from, to) =>
+export async function fetchWordList(language: LanguageRow): Promise<Word[]> {
+  const rows = await fetchAllRows<Partial<Word>>(async (from, to) =>
     languageDb(language).from('word').select('*').order('id').range(from, to),
   )
-  return rows.map((row) => ({ ...LANGUAGE_SPECIFIC_COLUMNS, ...row, language: language.code }) as Kotoba)
+  return rows.map((row) => ({ ...LANGUAGE_SPECIFIC_COLUMNS, ...row, language: language.code }) as Word)
 }
 
 /**
@@ -44,8 +44,8 @@ export async function fetchKotobaList(language: LanguageRow): Promise<Kotoba[]> 
  * cross-language (the meaning bridge) — everything else should use the
  * language-scoped fetch.
  */
-export async function fetchKotobaListAllLanguages(languages: LanguageRow[]): Promise<Kotoba[]> {
-  const lists = await Promise.all(languages.map(fetchKotobaList))
+export async function fetchWordListAllLanguages(languages: LanguageRow[]): Promise<Word[]> {
+  const lists = await Promise.all(languages.map(fetchWordList))
   return lists.flat()
 }
 

@@ -6,20 +6,20 @@ import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
 import type { ColumnConfig } from '@/components/GroupedTable'
 import { GroupedTable } from '@/components/GroupedTable'
-import type { Kotoba } from '@/features/kotoba/api'
+import type { Word } from '@/features/word/api'
 import { useLanguage } from '@/features/language/useLanguage'
 import { useMeaningRows, type MeaningRow } from '@/features/meaning/hooks'
 import { useSceneList } from '@/features/scene/hooks'
 import { useCategoryList } from './hooks'
 
-function WordList({ words }: { words: Kotoba[] | undefined }) {
+function WordList({ words }: { words: Word[] | undefined }) {
   if (!words || words.length === 0) return <span className="text-muted-foreground">—</span>
   return (
     <div className="flex flex-wrap gap-x-2 gap-y-1">
       {words.map((w) => (
         <Link
           key={`${w.language}-${w.id}`}
-          to={`/kotoba/${w.word}`}
+          to={`/word/${w.word}`}
           className="hover:underline"
           onClick={(e) => e.stopPropagation()}
         >

@@ -70,13 +70,13 @@ export function KanjiDetailPage() {
           <LoadingState />
         ) : words.length === 0 ? (
           <p className="text-sm text-muted-foreground">
-            No kotoba in the database currently use this kanji.
+            No words in the database currently use this kanji.
           </p>
         ) : (
           <ul className="flex flex-col divide-y">
             {words.map((w) => (
               <li key={w.wordId} className="py-2">
-                <Link to={`/kotoba/${w.word}`} className="hover:underline">
+                <Link to={`/word/${w.word}`} className="hover:underline">
                   <span className="font-medium">{w.word}</span>
                   {w.reading && (
                     <span className="ml-2 text-sm text-muted-foreground">【{w.reading}】</span>

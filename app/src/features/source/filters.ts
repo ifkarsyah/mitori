@@ -1,4 +1,4 @@
-import type { Source } from '@/features/kotoba/api'
+import type { Source } from '@/features/word/api'
 
 export const UNCLASSIFIED = '__unclassified__'
 export const ALL = '__all__'

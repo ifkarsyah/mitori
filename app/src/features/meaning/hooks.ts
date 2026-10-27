@@ -1,31 +1,31 @@
 import { useMemo } from 'react'
-import { useMeaningList, useKotobaListAllLanguages } from '@/features/kotoba/hooks'
+import { useMeaningList, useWordListAllLanguages } from '@/features/word/hooks'
 import { useCategoryLookup } from '@/features/category/hooks'
 import type { Category } from '@/features/category/api'
-import type { Meaning, Kotoba } from '@/features/kotoba/api'
+import type { Meaning, Word } from '@/features/word/api'
 
-export { useMeaningList, useMeaningById, useKotobaForMeaning } from '@/features/kotoba/hooks'
+export { useMeaningList, useMeaningById, useWordForMeaning } from '@/features/word/hooks'
 
 /** A meaning with its category and the words realizing it, keyed by language. */
 export type MeaningRow = {
   meaning: Meaning
   category: Category | undefined
   topCategory: Category | undefined
-  wordsByLanguage: Map<string, Kotoba[]>
+  wordsByLanguage: Map<string, Word[]>
 }
 
 export function useMeaningRows() {
   const meaningQuery = useMeaningList()
   // Deliberately unscoped: the meaning view exists to compare languages
   // side by side, so filtering it to the active language would defeat it.
-  const { data: kotoba } = useKotobaListAllLanguages()
+  const { data: words } = useWordListAllLanguages()
   const categories = useCategoryLookup()
 
   const rows = useMemo<MeaningRow[]>(() => {
     if (!meaningQuery.data) return []
 
-    const wordsByMeaning = new Map<number, Kotoba[]>()
-    for (const word of kotoba ?? []) {
+    const wordsByMeaning = new Map<number, Word[]>()
+    for (const word of words ?? []) {
       if (word.meaning_id == null) continue
       const bucket = wordsByMeaning.get(word.meaning_id)
       if (bucket) bucket.push(word)
@@ -33,7 +33,7 @@ export function useMeaningRows() {
     }
 
     return meaningQuery.data.map((meaning) => {
-      const byLanguage = new Map<string, Kotoba[]>()
+      const byLanguage = new Map<string, Word[]>()
       for (const word of wordsByMeaning.get(meaning.id) ?? []) {
         const bucket = byLanguage.get(word.language)
         if (bucket) bucket.push(word)
@@ -46,7 +46,7 @@ export function useMeaningRows() {
         wordsByLanguage: byLanguage,
       }
     })
-  }, [meaningQuery.data, kotoba, categories])
+  }, [meaningQuery.data, words, categories])
 
   return { ...meaningQuery, data: rows }
 }
@@ -69,7 +69,7 @@ export type MeaningCategory = { category: Category | undefined; top: Category | 
 
 /**
  * Category per meaning id. Words no longer carry a context of their own, so the
- * kotoba views read the category off the meaning the word realizes.
+ * word views read the category off the meaning the word realizes.
  */
 export function useMeaningCategories() {
   const { data: meanings } = useMeaningList()

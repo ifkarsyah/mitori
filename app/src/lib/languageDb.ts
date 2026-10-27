@@ -9,7 +9,7 @@ import type { LanguageRow } from '@/features/language/languages'
  * sentence_word, source, grammar_point, resource_channel, resource) with the
  * same columns, so shared screens query whichever schema is active. It is typed
  * as the Japanese schema because TypeScript can't call .from() on a union of
- * schema clients; only `word` differs between schemas, and fetchKotobaList
+ * schema clients; only `word` differs between schemas, and fetchWordList
  * normalizes that.
  */
 export function languageDb(language: LanguageRow) {

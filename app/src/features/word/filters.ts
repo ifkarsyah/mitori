@@ -1,10 +1,10 @@
-import type { Kotoba } from './api'
+import type { Word } from './api'
 import type { MeaningCategory } from '@/features/meaning/hooks'
 
 export const UNCLASSIFIED = '__unclassified__'
 export const ALL = '__all__'
 
-export type KotobaGroupBy =
+export type WordGroupBy =
   | 'none'
   | 'category'
   | 'part_of_speech'
@@ -12,7 +12,7 @@ export type KotobaGroupBy =
   | 'kana_type'
   | 'level'
 
-export type KotobaFilterState = {
+export type WordFilterState = {
   search: string
   /** Slug of a top-level category, resolved through the word's meaning. */
   categorySlug: string
@@ -20,10 +20,10 @@ export type KotobaFilterState = {
   subPartOfSpeech: string
   kana_type: string
   level: string
-  groupBy: KotobaGroupBy
+  groupBy: WordGroupBy
 }
 
-export const defaultKotobaFilterState: KotobaFilterState = {
+export const defaultWordFilterState: WordFilterState = {
   search: '',
   categorySlug: ALL,
   partOfSpeech: ALL,
@@ -39,11 +39,11 @@ function matchesSingleSelect(value: string | null, selected: string): boolean {
   return key === selected
 }
 
-export function applyKotobaFilters(
-  rows: Kotoba[],
-  filters: KotobaFilterState,
+export function applyWordFilters(
+  rows: Word[],
+  filters: WordFilterState,
   categoryOfMeaning: Map<number, MeaningCategory>,
-): Kotoba[] {
+): Word[] {
   const search = filters.search.trim().toLowerCase()
   return rows.filter((row) => {
     if (filters.categorySlug !== ALL) {
@@ -93,13 +93,13 @@ export function levelLabel(value: string): string {
   return value.toUpperCase()
 }
 
-export type KotobaGroup = { key: string; label: string; rows: Kotoba[] }
+export type WordGroup = { key: string; label: string; rows: Word[] }
 
 function groupByKey(
-  rows: Kotoba[],
-  keyFor: (row: Kotoba) => string | null,
-): Map<string, Kotoba[]> {
-  const buckets = new Map<string, Kotoba[]>()
+  rows: Word[],
+  keyFor: (row: Word) => string | null,
+): Map<string, Word[]> {
+  const buckets = new Map<string, Word[]>()
   for (const row of rows) {
     const key = keyFor(row) ?? UNCLASSIFIED
     const bucket = buckets.get(key)
@@ -125,16 +125,16 @@ function sortByDomainOrder(keys: string[], order: string[]): string[] {
   return [...known, ...unknown, ...(hasUnclassified ? [UNCLASSIFIED] : [])]
 }
 
-export function groupKotobaBy(
-  rows: Kotoba[],
-  groupBy: KotobaGroupBy,
+export function groupWordBy(
+  rows: Word[],
+  groupBy: WordGroupBy,
   categoryOfMeaning: Map<number, MeaningCategory>,
-): KotobaGroup[] {
+): WordGroup[] {
   if (groupBy === 'none') {
-    return [{ key: 'all', label: 'All kotoba', rows }]
+    return [{ key: 'all', label: 'All words', rows }]
   }
 
-  let buckets: Map<string, Kotoba[]>
+  let buckets: Map<string, Word[]>
   let labelFor: (key: string) => string
   let sortedKeys: string[]
 
@@ -170,19 +170,19 @@ export function groupKotobaBy(
 }
 
 export function distinctFieldValues(
-  rows: Kotoba[],
+  rows: Word[],
   field: 'part_of_speech' | 'sub_part_of_speech',
 ): string[] {
   const present = new Set(rows.map((row) => row[field] ?? UNCLASSIFIED))
   return sortWithUnclassifiedLast([...present])
 }
 
-export function distinctLevelValues(rows: Kotoba[]): string[] {
+export function distinctLevelValues(rows: Word[]): string[] {
   const present = new Set(rows.map((row) => row.level ?? UNCLASSIFIED))
   return sortByDomainOrder([...present], LEVEL_ORDER)
 }
 
-export function distinctKanaTypeValues(rows: Kotoba[]): string[] {
+export function distinctKanaTypeValues(rows: Word[]): string[] {
   const present = new Set(rows.map((row) => row.kana_type ?? UNCLASSIFIED))
   return sortByDomainOrder([...present], KANA_TYPE_ORDER)
 }

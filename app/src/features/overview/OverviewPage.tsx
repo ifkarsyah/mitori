@@ -5,24 +5,24 @@ import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
 import { useKanjiList } from '@/features/kanji/hooks'
 import { groupKanjiBy } from '@/features/kanji/filters'
-import { useKotobaList, useSentencesList } from '@/features/kotoba/hooks'
+import { useWordList, useSentencesList } from '@/features/word/hooks'
 import { useCategoryList } from '@/features/category/hooks'
 import { useMeaningCategories } from '@/features/meaning/hooks'
-import { groupKotobaBy } from '@/features/kotoba/filters'
+import { groupWordBy } from '@/features/word/filters'
 import { useLanguage } from '@/features/language/useLanguage'
 
 export function OverviewPage() {
   const { current, labelFor, language } = useLanguage()
   const showKanji = current?.script === 'japanese'
   const kanjiQuery = useKanjiList()
-  const kotobaQuery = useKotobaList()
+  const wordQuery = useWordList()
   const sentencesQuery = useSentencesList()
   const categoryQuery = useCategoryList()
   const categoryOfMeaning = useMeaningCategories()
 
   const isLoading =
-    kanjiQuery.isLoading || kotobaQuery.isLoading || sentencesQuery.isLoading || categoryQuery.isLoading
-  const firstError = kanjiQuery.error || kotobaQuery.error || sentencesQuery.error || categoryQuery.error
+    kanjiQuery.isLoading || wordQuery.isLoading || sentencesQuery.isLoading || categoryQuery.isLoading
+  const firstError = kanjiQuery.error || wordQuery.error || sentencesQuery.error || categoryQuery.error
 
   const kanjiByJlpt = useMemo(
     () => groupKanjiBy(kanjiQuery.data ?? [], 'jlpt').map((g) => ({ ...g, count: g.rows.length })),
@@ -32,29 +32,29 @@ export function OverviewPage() {
     () => groupKanjiBy(kanjiQuery.data ?? [], 'grade').map((g) => ({ ...g, count: g.rows.length })),
     [kanjiQuery.data],
   )
-  const kotobaByPartOfSpeech = useMemo(
+  const wordByPartOfSpeech = useMemo(
     () =>
-      groupKotobaBy(kotobaQuery.data ?? [], 'part_of_speech', categoryOfMeaning).map((g) => ({
+      groupWordBy(wordQuery.data ?? [], 'part_of_speech', categoryOfMeaning).map((g) => ({
         ...g,
         count: g.rows.length,
       })),
-    [kotobaQuery.data, categoryOfMeaning],
+    [wordQuery.data, categoryOfMeaning],
   )
-  const kotobaByCategory = useMemo(
+  const wordByCategory = useMemo(
     () =>
-      groupKotobaBy(kotobaQuery.data ?? [], 'category', categoryOfMeaning).map((g) => ({
+      groupWordBy(wordQuery.data ?? [], 'category', categoryOfMeaning).map((g) => ({
         ...g,
         count: g.rows.length,
       })),
-    [kotobaQuery.data, categoryOfMeaning],
+    [wordQuery.data, categoryOfMeaning],
   )
-  const kotobaByKanaType = useMemo(
+  const wordByKanaType = useMemo(
     () =>
-      groupKotobaBy(kotobaQuery.data ?? [], 'kana_type', categoryOfMeaning).map((g) => ({
+      groupWordBy(wordQuery.data ?? [], 'kana_type', categoryOfMeaning).map((g) => ({
         ...g,
         count: g.rows.length,
       })),
-    [kotobaQuery.data, categoryOfMeaning],
+    [wordQuery.data, categoryOfMeaning],
   )
 
   if (isLoading) return <LoadingState />
@@ -71,7 +71,7 @@ export function OverviewPage() {
 
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
         {showKanji && <StatCard label="Kanji" value={kanjiQuery.data?.length ?? 0} />}
-        <StatCard label="Kotoba" value={kotobaQuery.data?.length ?? 0} />
+        <StatCard label="Word" value={wordQuery.data?.length ?? 0} />
         <StatCard label="Sentences" value={sentencesQuery.data?.length ?? 0} />
         <StatCard label="Categories" value={categoryQuery.data?.length ?? 0} />
       </div>
@@ -79,12 +79,12 @@ export function OverviewPage() {
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
         {showKanji && <GroupCountList title="Kanji by JLPT" groups={kanjiByJlpt} />}
         {showKanji && <GroupCountList title="Kanji by grade" groups={kanjiByGrade} />}
-        <GroupCountList title="Kotoba by part of speech" groups={kotobaByPartOfSpeech} />
+        <GroupCountList title="Word by part of speech" groups={wordByPartOfSpeech} />
         {/* Kana type is Japanese-only; German gets a context breakdown instead. */}
         {showKanji ? (
-          <GroupCountList title="Kotoba by kana type" groups={kotobaByKanaType} />
+          <GroupCountList title="Word by kana type" groups={wordByKanaType} />
         ) : (
-          <GroupCountList title="Kotoba by category" groups={kotobaByCategory} />
+          <GroupCountList title="Word by category" groups={wordByCategory} />
         )}
       </div>
     </div>

@@ -3,9 +3,9 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
-import { KotobaExplorer } from '@/features/kotoba/KotobaExplorer'
+import { WordExplorer } from '@/features/word/WordExplorer'
 import { useCategoryLookup } from '@/features/category/hooks'
-import { useKotobaForSource, useSourceById } from './hooks'
+import { useWordForSource, useSourceById } from './hooks'
 
 export function SourceDetailPage() {
   const { id } = useParams<{ id: string }>()
@@ -15,7 +15,7 @@ export function SourceDetailPage() {
   const categories = useCategoryLookup()
   const category =
     source?.category_id != null ? categories.byId.get(source.category_id) : undefined
-  const { data: words, isLoading: wordsLoading } = useKotobaForSource(sourceId)
+  const { data: words, isLoading: wordsLoading } = useWordForSource(sourceId)
 
   if (isLoading) return <LoadingState />
   if (isError) return <ErrorState error={error} onRetry={() => refetch()} />
@@ -50,7 +50,7 @@ export function SourceDetailPage() {
       {wordsLoading ? (
         <LoadingState />
       ) : (
-        <KotobaExplorer
+        <WordExplorer
           words={words}
           includeCategoryFilter={false}
           includeSourceColumn={false}

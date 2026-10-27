@@ -1,10 +1,10 @@
 import { useMemo } from 'react'
 import { useCategoryList } from '@/features/category/hooks'
 import {
-  useKotobaList,
+  useWordList,
   useSentenceWordList,
   useSentencesList,
-} from '@/features/kotoba/hooks'
+} from '@/features/word/hooks'
 
 export type LinkedWord = {
   id: number
@@ -30,18 +30,18 @@ export type EnrichedSentence = {
 
 export function useSentencesWithWords() {
   const sentencesQuery = useSentencesList()
-  const kotobaQuery = useKotobaList()
+  const wordQuery = useWordList()
   const categoryQuery = useCategoryList()
   const sentenceWordQuery = useSentenceWordList()
 
   const data = useMemo<EnrichedSentence[]>(() => {
     if (!sentencesQuery.data) return []
-    const kotobaById = new Map((kotobaQuery.data ?? []).map((k) => [k.id, k]))
+    const wordById = new Map((wordQuery.data ?? []).map((k) => [k.id, k]))
     const categoryById = new Map((categoryQuery.data ?? []).map((c) => [c.id, c]))
 
     const linkedWordsBySentenceId = new Map<number, LinkedWord[]>()
     for (const link of sentenceWordQuery.data ?? []) {
-      const word = kotobaById.get(link.word_id)
+      const word = wordById.get(link.word_id)
       if (!word) continue
       const list = linkedWordsBySentenceId.get(link.sentence_id)
       const entry = { id: word.id, word: word.word, partOfSpeech: word.part_of_speech }
@@ -53,7 +53,7 @@ export function useSentencesWithWords() {
     }
 
     return sentencesQuery.data.map((s) => {
-      const word = s.word_id != null ? kotobaById.get(s.word_id) : undefined
+      const word = s.word_id != null ? wordById.get(s.word_id) : undefined
       const category = s.category_id != null ? categoryById.get(s.category_id) : undefined
       return {
         id: s.id,
@@ -71,21 +71,21 @@ export function useSentencesWithWords() {
         linkedWords: linkedWordsBySentenceId.get(s.id) ?? [],
       }
     })
-  }, [sentencesQuery.data, kotobaQuery.data, categoryQuery.data, sentenceWordQuery.data])
+  }, [sentencesQuery.data, wordQuery.data, categoryQuery.data, sentenceWordQuery.data])
 
   return {
     data,
     isLoading:
       sentencesQuery.isLoading ||
-      kotobaQuery.isLoading ||
+      wordQuery.isLoading ||
       categoryQuery.isLoading ||
       sentenceWordQuery.isLoading,
     isError:
-      sentencesQuery.isError || kotobaQuery.isError || categoryQuery.isError || sentenceWordQuery.isError,
-    error: sentencesQuery.error ?? kotobaQuery.error ?? categoryQuery.error ?? sentenceWordQuery.error,
+      sentencesQuery.isError || wordQuery.isError || categoryQuery.isError || sentenceWordQuery.isError,
+    error: sentencesQuery.error ?? wordQuery.error ?? categoryQuery.error ?? sentenceWordQuery.error,
     refetch: () => {
       sentencesQuery.refetch()
-      kotobaQuery.refetch()
+      wordQuery.refetch()
       categoryQuery.refetch()
       sentenceWordQuery.refetch()
     },

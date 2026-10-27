@@ -3,19 +3,19 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
-import type { Kotoba } from '@/features/kotoba/api'
+import type { Word } from '@/features/word/api'
 import { useLanguage } from '@/features/language/useLanguage'
 import { useCategoryLookup } from '@/features/category/hooks'
-import { useMeaningById, useKotobaForMeaning } from './hooks'
+import { useMeaningById, useWordForMeaning } from './hooks'
 import { partOfSpeechLabel } from './filters'
 
-function WordCard({ word }: { word: Kotoba }) {
+function WordCard({ word }: { word: Word }) {
   const { labelFor } = useLanguage()
   return (
     <li className="flex flex-col gap-1 py-3">
       <div className="flex items-baseline gap-2">
         <Badge variant="outline">{labelFor(word.language)}</Badge>
-        <Link to={`/kotoba/${word.word}`} className="text-2xl hover:underline">
+        <Link to={`/word/${word.word}`} className="text-2xl hover:underline">
           {word.gender ? `${word.gender} ${word.word}` : word.word}
         </Link>
         {word.reading && <span className="text-muted-foreground">【{word.reading}】</span>}
@@ -35,7 +35,7 @@ export function MeaningDetailPage() {
 
   const { data: meaning, isLoading, isError, error, refetch } = useMeaningById(meaningId)
   const categories = useCategoryLookup()
-  const { data: words } = useKotobaForMeaning(meaningId)
+  const { data: words } = useWordForMeaning(meaningId)
 
   if (isLoading) return <LoadingState />
   if (isError) return <ErrorState error={error} onRetry={() => refetch()} />
