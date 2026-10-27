@@ -103,9 +103,9 @@ const columns: ColumnConfig<EnrichedSentence>[] = [
     key: 'category',
     header: 'Category',
     render: (row) =>
-      row.categoryId != null && row.category ? (
+      row.categorySlug != null && row.category ? (
         <Link
-          to={`/context/${row.categoryId}`}
+          to={`/category/${row.categorySlug}`}
           className="hover:underline"
           onClick={(e) => e.stopPropagation()}
         >

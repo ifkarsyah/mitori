@@ -24,6 +24,7 @@ export type EnrichedSentence = {
   kanaType: string | null
   categoryId: number | null
   category: string | null
+  categorySlug: string | null
   linkedWords: LinkedWord[]
 }
 
@@ -66,6 +67,7 @@ export function useSentencesWithWords() {
         kanaType: word?.kana_type ?? null,
         categoryId: s.category_id,
         category: category?.name ?? null,
+        categorySlug: category?.slug ?? null,
         linkedWords: linkedWordsBySentenceId.get(s.id) ?? [],
       }
     })
