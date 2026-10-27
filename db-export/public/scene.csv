@@ -1,25 +1,30 @@
 id,slug,name,description,parent_id,language,sort_order,created_at
-1,restaurant,Restaurant,,,,1,2026-10-27T15:05:43.674403+00:00
-2,cafe,Cafe,,,,2,2026-10-27T15:05:43.674403+00:00
-3,groceries-store,Supermarket,,,,3,2026-10-27T15:05:43.674403+00:00
-4,konbini,Convenience store,,,,4,2026-10-27T15:05:43.674403+00:00
-5,clothing-store,Clothing store,,,,5,2026-10-27T15:05:43.674403+00:00
-6,electronics-store,Electronics store,,,,6,2026-10-27T15:05:43.674403+00:00
-7,variety-store,Variety store,,,,7,2026-10-27T15:05:43.674403+00:00
-8,furniture-store,Furniture store,,,,8,2026-10-27T15:05:43.674403+00:00
-9,drugstore,Drugstore & pharmacy,,,,9,2026-10-27T15:05:43.674403+00:00
-10,hospital-clinic,Hospital & clinic,,,,10,2026-10-27T15:05:43.674403+00:00
-11,bank-finance,Bank,,,,11,2026-10-27T15:05:43.674403+00:00
-12,government-office,Government office & post office,,,,12,2026-10-27T15:05:43.674403+00:00
-13,station-transport,Station,,,,13,2026-10-27T15:05:43.674403+00:00
-14,accommodation,Hotel & ryokan,,,,14,2026-10-27T15:05:43.674403+00:00
-15,housing-realestate,Estate agent,,,,15,2026-10-27T15:05:43.674403+00:00
-16,phone-carrier,Phone shop,,,,16,2026-10-27T15:05:43.674403+00:00
-17,barber-salon,Barber & salon,,,,17,2026-10-27T15:05:43.674403+00:00
-18,home,Home,,,,18,2026-10-27T15:05:43.674403+00:00
-19,online,Online,Websites and apps rather than a physical place.,,,19,2026-10-27T15:05:43.674403+00:00
-20,ecommerce,Online shopping,,19,,20,2026-10-27T15:05:43.674403+00:00
-21,social-media,Social media,,19,,21,2026-10-27T15:05:43.674403+00:00
-22,maps-travel-apps,Maps & travel apps,,19,,22,2026-10-27T15:05:43.674403+00:00
-23,konbini-checkout,Konbini checkout,At the register in a convenience store: the set questions the clerk asks while ringing you up.,4,ja,23,2026-10-27T15:05:43.674403+00:00
-24,hanabi,Fireworks festival (花火大会),"Summer fireworks festivals: inviting someone, what to wear, the crowds and food stalls.",,ja,24,2026-10-27T15:05:43.674403+00:00
+1,restaurant,Restaurant,,30,,2,2026-10-27T15:05:43.674403+00:00
+2,cafe,Cafe,,30,,3,2026-10-27T15:05:43.674403+00:00
+3,groceries-store,Supermarket,,31,,7,2026-10-27T15:05:43.674403+00:00
+4,konbini,Convenience store,,31,,5,2026-10-27T15:05:43.674403+00:00
+5,clothing-store,Clothing store,,32,,12,2026-10-27T15:05:43.674403+00:00
+6,electronics-store,Electronics store,,32,,13,2026-10-27T15:05:43.674403+00:00
+7,variety-store,Variety store,,31,,9,2026-10-27T15:05:43.674403+00:00
+8,furniture-store,Furniture store,,31,,10,2026-10-27T15:05:43.674403+00:00
+9,drugstore,Drugstore,,31,,8,2026-10-27T15:05:43.674403+00:00
+10,hospital-clinic,Hospital & clinic,,34,,21,2026-10-27T15:05:43.674403+00:00
+11,bank-finance,Bank,,34,,19,2026-10-27T15:05:43.674403+00:00
+12,government-office,Government office & post office,,34,,22,2026-10-27T15:05:43.674403+00:00
+13,station-transport,Station,,33,,16,2026-10-27T15:05:43.674403+00:00
+14,accommodation,Hotel,,33,,17,2026-10-27T15:05:43.674403+00:00
+15,housing-realestate,Estate agent,,34,,23,2026-10-27T15:05:43.674403+00:00
+16,phone-carrier,Phone shop,,34,,20,2026-10-27T15:05:43.674403+00:00
+17,barber-salon,Barber & salon,,32,,14,2026-10-27T15:05:43.674403+00:00
+18,home,Home,,,,24,2026-10-27T15:05:43.674403+00:00
+19,online,Online,Websites and apps rather than a physical place.,,,25,2026-10-27T15:05:43.674403+00:00
+20,ecommerce,Online shopping,,19,,26,2026-10-27T15:05:43.674403+00:00
+21,social-media,Social media,,19,,27,2026-10-27T15:05:43.674403+00:00
+22,maps-travel-apps,Maps & travel apps,,19,,28,2026-10-27T15:05:43.674403+00:00
+23,konbini-checkout,Konbini checkout,At the register in a convenience store: the set questions the clerk asks while ringing you up.,4,ja,6,2026-10-27T15:05:43.674403+00:00
+24,hanabi,Fireworks festival (花火大会),"Summer fireworks festivals: inviting someone, what to wear, the crowds and food stalls.",,ja,29,2026-10-27T15:05:43.674403+00:00
+30,dining-out,Dining out,,,,1,2026-10-27T15:25:03.961897+00:00
+31,daily-needs,Daily needs,,,,4,2026-10-27T15:25:03.961897+00:00
+32,monthly-needs,Monthly needs,,,,11,2026-10-27T15:25:03.961897+00:00
+33,commute-travel,Commute & travel,,,,15,2026-10-27T15:25:03.961897+00:00
+34,occasional-needs,Occasional needs,,,,18,2026-10-27T15:25:03.961897+00:00

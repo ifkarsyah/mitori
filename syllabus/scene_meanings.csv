@@ -66,12 +66,8 @@ clothing-store,cst-to-exchange,to exchange
 clothing-store,cst-to-fit,to fit
 clothing-store,cst-to-try-on,to try on
 drugstore,dru-bandage,bandage
-drugstore,dru-dosage,dosage
 drugstore,dru-face-mask,face mask
-drugstore,dru-painkiller,painkiller
-drugstore,dru-pharmacist,pharmacist
 drugstore,dru-plaster,plaster
-drugstore,dru-prescription,prescription
 drugstore,dru-sunscreen,sun cream
 drugstore,dru-tissue,tissues
 drugstore,dru-toothpaste,toothpaste
@@ -139,6 +135,10 @@ groceries-store,gro-produce,fresh produce
 groceries-store,gro-scales,scales
 groceries-store,gro-self-checkout,self-checkout
 groceries-store,gro-trolley,trolley
+hospital-clinic,dru-dosage,dosage
+hospital-clinic,dru-painkiller,painkiller
+hospital-clinic,dru-pharmacist,pharmacist
+hospital-clinic,dru-prescription,prescription
 hospital-clinic,hos-ambulance,ambulance
 hospital-clinic,hos-appointment-med,medical appointment
 hospital-clinic,hos-consultation-room,consulting room

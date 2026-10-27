@@ -7,48 +7,48 @@ import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
 import { useLanguage } from '@/features/language/useLanguage'
 import type { Scene } from './api'
-import { useSceneCounts, useSceneList, useSceneLookup } from './hooks'
+import { useSceneCounts, useSceneList } from './hooks'
 
-/** Each top-level scene followed by the scenes narrowing it. */
-function treeOrder(scenes: Scene[]): Scene[] {
-  const ids = new Set(scenes.map((s) => s.id))
-  const roots = scenes.filter((s) => s.parent_id == null || !ids.has(s.parent_id))
-  return roots.flatMap((root) => [root, ...scenes.filter((s) => s.parent_id === root.id)])
+type SceneRow = Scene & { depth: number }
+
+/** A scene's descendants, each followed by its own, with depth from 1. */
+function descendants(scenes: Scene[], parentId: number, depth = 1): SceneRow[] {
+  return scenes
+    .filter((s) => s.parent_id === parentId)
+    .flatMap((s) => [{ ...s, depth }, ...descendants(scenes, s.id, depth + 1)])
 }
 
 export function SceneDashboardPage() {
   const { current } = useLanguage()
   const { data, isLoading, isError, error, refetch } = useSceneList()
-  const sceneById = useSceneLookup()
   const counts = useSceneCounts()
   const languageName = current?.name ?? 'this language'
 
+  // One section per top-level scene that groups others (Daily needs, Online);
+  // top-level scenes with nothing under them share a final section.
   const groups = useMemo(() => {
     const list = data ?? []
-    return [
-      { key: 'general', label: 'Everywhere', rows: treeOrder(list.filter((s) => s.language == null)) },
-      { key: 'language', label: `Only in ${languageName}`, rows: treeOrder(list.filter((s) => s.language != null)) },
-    ].filter((g) => g.rows.length > 0)
-  }, [data, languageName])
+    const roots = list.filter((s) => s.parent_id == null)
+    const sections = roots
+      .map((root) => ({ key: root.slug, label: root.name, rows: descendants(list, root.id) }))
+      .filter((g) => g.rows.length > 0)
+    const loose = roots.filter((r) => !list.some((s) => s.parent_id === r.id)).map((r) => ({ ...r, depth: 1 }))
+    return loose.length > 0 ? [...sections, { key: 'other', label: 'Other', rows: loose }] : sections
+  }, [data])
 
-  const columns = useMemo<ColumnConfig<Scene>[]>(
+  const columns = useMemo<ColumnConfig<SceneRow>[]>(
     () => [
       {
         key: 'name',
         header: 'Scene',
-        render: (row) => {
-          const parent = row.parent_id != null ? sceneById.get(row.parent_id) : undefined
-          return (
-            <span className={parent ? 'pl-4' : undefined}>
-              <Link to={`/scene/${row.slug}`} className="hover:underline" onClick={(e) => e.stopPropagation()}>
-                {row.name}
-              </Link>
-              {parent && row.language != null && (
-                <span className="text-sm text-muted-foreground"> · in {parent.name}</span>
-              )}
-            </span>
-          )
-        },
+        render: (row) => (
+          <span className={row.depth > 1 ? 'pl-4' : undefined}>
+            <Link to={`/scene/${row.slug}`} className="hover:underline" onClick={(e) => e.stopPropagation()}>
+              {row.name}
+            </Link>
+            {row.language != null && <span className="text-sm text-muted-foreground"> · {languageName} only</span>}
+          </span>
+        ),
         sortValue: (row) => row.name,
       },
       {
@@ -78,7 +78,7 @@ export function SceneDashboardPage() {
         sortValue: (row) => counts.get(row.id)?.sentences ?? 0,
       },
     ],
-    [counts, sceneById, languageName],
+    [counts, languageName],
   )
 
   if (isLoading) return <LoadingState />
@@ -89,7 +89,8 @@ export function SceneDashboardPage() {
       <div className="flex flex-col gap-1">
         <h1 className="text-2xl font-semibold">Scene</h1>
         <p className="text-sm text-muted-foreground">
-          {data?.length ?? 0} real-world places, with the words, set phrases and sentences you need there.
+          Real-world places, grouped by how often you need them, with the words, set phrases and sentences
+          you need there.
         </p>
       </div>
 
