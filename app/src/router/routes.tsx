@@ -9,6 +9,8 @@ import { ConceptDashboardPage } from '@/features/concept/ConceptDashboardPage'
 import { ConceptDetailPage } from '@/features/concept/ConceptDetailPage'
 import { CategoryDashboardPage } from '@/features/category/CategoryDashboardPage'
 import { CategoryDetailPage } from '@/features/category/CategoryDetailPage'
+import { ContextDashboardPage } from '@/features/context/ContextDashboardPage'
+import { ContextDetailPage } from '@/features/context/ContextDetailPage'
 import { SourceDashboardPage } from '@/features/source/SourceDashboardPage'
 import { SourceDetailPage } from '@/features/source/SourceDetailPage'
 import { SentenceDashboardPage } from '@/features/sentences/SentenceDashboardPage'
@@ -34,6 +36,8 @@ export const router = createBrowserRouter([
       { path: 'concept/:id', element: <ConceptDetailPage /> },
       { path: 'category', element: <CategoryDashboardPage /> },
       { path: 'category/:slug', element: <CategoryDetailPage /> },
+      { path: 'context', element: <ContextDashboardPage /> },
+      { path: 'context/:slug', element: <ContextDetailPage /> },
       { path: 'source', element: <SourceDashboardPage /> },
       { path: 'source/:id', element: <SourceDetailPage /> },
       { path: 'sentences', element: <SentenceDashboardPage /> },
