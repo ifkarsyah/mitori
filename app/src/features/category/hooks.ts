@@ -39,16 +39,18 @@ export function useCategoryLookup(): CategoryLookup {
 
 export type CategorySummary = {
   category: Category
-  /** Leaf categories nested under this one, empty for a leaf. */
-  children: Category[]
+  /** 0 for a top-level category, 1 for one nested under it. */
+  depth: number
+  /** For a top-level category, includes the meanings of its sub-categories. */
   meanings: number
   /** Meanings with at least one word, per language code. */
   coveredByLanguage: Map<string, number>
 }
 
 /**
- * Top-level categories with meaning counts and per-language coverage — the
- * "what should I study next" view.
+ * Every category with meaning counts and per-language coverage, in tree order
+ * (each top-level category followed by its sub-categories) — the "what should
+ * I study next" view.
  */
 export function useCategorySummaries(): CategorySummary[] {
   const { data: categories } = useCategoryList()
@@ -58,12 +60,6 @@ export function useCategorySummaries(): CategorySummary[] {
   return useMemo(() => {
     const list = categories ?? []
     const byId = new Map(list.map((c) => [c.id, c]))
-    const topLevelIdOf = (id: number | null) => {
-      if (id == null) return null
-      const category = byId.get(id)
-      if (!category) return null
-      return category.parent_id ?? category.id
-    }
 
     const languagesByMeaning = new Map<number, Set<string>>()
     for (const word of words ?? []) {
@@ -73,28 +69,33 @@ export function useCategorySummaries(): CategorySummary[] {
       else languagesByMeaning.set(word.meaning_id, new Set([word.language]))
     }
 
-    const summaries = new Map<number, CategorySummary>()
-    for (const category of list) {
-      if (category.parent_id != null) continue
-      summaries.set(category.id, {
-        category,
-        children: list.filter((c) => c.parent_id === category.id),
-        meanings: 0,
-        coveredByLanguage: new Map(),
-      })
-    }
+    const summaries = new Map<number, CategorySummary>(
+      list.map((category) => [
+        category.id,
+        { category, depth: category.parent_id == null ? 0 : 1, meanings: 0, coveredByLanguage: new Map() },
+      ]),
+    )
 
+    // A meaning counts toward its own category and, if that is nested, its parent.
     for (const meaning of meanings ?? []) {
-      const topId = topLevelIdOf(meaning.category_id)
-      if (topId == null) continue
-      const summary = summaries.get(topId)
-      if (!summary) continue
-      summary.meanings += 1
-      for (const code of languagesByMeaning.get(meaning.id) ?? []) {
-        summary.coveredByLanguage.set(code, (summary.coveredByLanguage.get(code) ?? 0) + 1)
+      const category = meaning.category_id != null ? byId.get(meaning.category_id) : undefined
+      if (!category) continue
+      const ids = category.parent_id != null ? [category.id, category.parent_id] : [category.id]
+      for (const id of ids) {
+        const summary = summaries.get(id)
+        if (!summary) continue
+        summary.meanings += 1
+        for (const code of languagesByMeaning.get(meaning.id) ?? []) {
+          summary.coveredByLanguage.set(code, (summary.coveredByLanguage.get(code) ?? 0) + 1)
+        }
       }
     }
 
-    return [...summaries.values()].sort((a, b) => a.category.sort_order - b.category.sort_order)
+    const bySortOrder = (a: Category, b: Category) => a.sort_order - b.sort_order
+    return list
+      .filter((c) => c.parent_id == null)
+      .sort(bySortOrder)
+      .flatMap((top) => [top, ...list.filter((c) => c.parent_id === top.id).sort(bySortOrder)])
+      .map((c) => summaries.get(c.id)!)
   }, [categories, meanings, words])
 }
