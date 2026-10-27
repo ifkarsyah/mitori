@@ -3,13 +3,14 @@ import type { Resource } from './api'
 export const UNCLASSIFIED = '__unclassified__'
 export const ALL = '__all__'
 
-export type ResourceGroupBy = 'none' | 'channel' | 'category' | 'topic'
+export type ResourceGroupBy = 'none' | 'channel' | 'category' | 'topic' | 'scene'
 
 export type ResourceFilterState = {
   search: string
   channelId: string
   category: string
   topicId: string
+  sceneId: string
   groupBy: ResourceGroupBy
 }
 
@@ -18,6 +19,7 @@ export const defaultResourceFilterState: ResourceFilterState = {
   channelId: ALL,
   category: ALL,
   topicId: ALL,
+  sceneId: ALL,
   groupBy: 'none',
 }
 
@@ -35,6 +37,8 @@ export function applyResourceFilters(rows: Resource[], filters: ResourceFilterSt
     if (!matchesSingleSelect(row.category, filters.category)) return false
     const contextKey = row.category_id != null ? String(row.category_id) : null
     if (!matchesSingleSelect(contextKey, filters.topicId)) return false
+    const sceneKey = row.scene_id != null ? String(row.scene_id) : null
+    if (!matchesSingleSelect(sceneKey, filters.sceneId)) return false
     if (search && !row.title.toLowerCase().includes(search)) return false
     return true
   })
@@ -64,6 +68,11 @@ export function topicLabel(value: string, categoryNameById: Map<number, string>)
   return categoryNameById.get(Number(value)) ?? value
 }
 
+export function sceneLabel(value: string, sceneNameById: Map<number, string>): string {
+  if (value === UNCLASSIFIED) return 'No scene'
+  return sceneNameById.get(Number(value)) ?? value
+}
+
 export type ResourceGroup = { key: string; label: string; rows: Resource[] }
 
 function groupByKey(rows: Resource[], keyFor: (row: Resource) => string | null): Map<string, Resource[]> {
@@ -85,6 +94,7 @@ export function groupResourcesBy(
   groupBy: ResourceGroupBy,
   channelNameById: Map<number, string>,
   categoryNameById: Map<number, string>,
+  sceneNameById: Map<number, string>,
 ): ResourceGroup[] {
   if (groupBy === 'none') {
     return [{ key: 'all', label: 'All resources', rows }]
@@ -99,6 +109,9 @@ export function groupResourcesBy(
   } else if (groupBy === 'category') {
     buckets = groupByKey(rows, (row) => row.category)
     labelFor = categoryLabel
+  } else if (groupBy === 'scene') {
+    buckets = groupByKey(rows, (row) => (row.scene_id != null ? String(row.scene_id) : null))
+    labelFor = (key) => sceneLabel(key, sceneNameById)
   } else {
     buckets = groupByKey(rows, (row) => (row.category_id != null ? String(row.category_id) : null))
     labelFor = (key) => topicLabel(key, categoryNameById)
@@ -124,5 +137,10 @@ export function distinctTopicIds(rows: Resource[]): string[] {
   const present = new Set(
     rows.map((row) => (row.category_id != null ? String(row.category_id) : UNCLASSIFIED)),
   )
+  return sortWithUnclassifiedLast([...present])
+}
+
+export function distinctSceneIds(rows: Resource[]): string[] {
+  const present = new Set(rows.map((row) => (row.scene_id != null ? String(row.scene_id) : UNCLASSIFIED)))
   return sortWithUnclassifiedLast([...present])
 }

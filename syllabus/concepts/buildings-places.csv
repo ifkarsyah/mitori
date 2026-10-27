@@ -40,3 +40,8 @@ bld-office-building,office,noun,1,928,事務所.
 bld-salon,hair salon,noun,2,1239,美容院.
 bld-palace,palace,noun,3,287,宮殿.
 bld-ruins,ruins,noun,3,1049,遺跡.
+kon-convenience-store,convenience store,noun,1,,
+sta-station,station,noun,1,319,駅.
+sta-exit,exit,noun,1,51,出口.
+sta-entrance,entrance,noun,1,1469,入口.
+sta-east-exit,east exit,noun,3,1180,東口.

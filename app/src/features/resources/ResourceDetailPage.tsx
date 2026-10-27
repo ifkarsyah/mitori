@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
 import { useCategoryLookup } from '@/features/category/hooks'
+import { useSceneLookup } from '@/features/scene/hooks'
 import { getYoutubeEmbedUrl } from './embed'
 import { categoryLabel } from './filters'
 import { useResourceById, useResourceChannelById } from './hooks'
@@ -18,6 +19,8 @@ export function ResourceDetailPage() {
   const categories = useCategoryLookup()
   const category =
     resource?.category_id != null ? categories.byId.get(resource.category_id) : undefined
+  const sceneById = useSceneLookup()
+  const scene = resource?.scene_id != null ? sceneById.get(resource.scene_id) : undefined
   const [showTranscript, setShowTranscript] = useState(false)
 
   if (isLoading) return <LoadingState />
@@ -39,6 +42,11 @@ export function ResourceDetailPage() {
         <div className="flex flex-wrap gap-2">
           {resource.category && <Badge variant="outline">{categoryLabel(resource.category)}</Badge>}
           {category && <Badge variant="outline">{category.name}</Badge>}
+          {scene && (
+            <Link to={`/scene/${scene.slug}`}>
+              <Badge variant="outline">{scene.name}</Badge>
+            </Link>
+          )}
         </div>
         {channel && (
           <Link

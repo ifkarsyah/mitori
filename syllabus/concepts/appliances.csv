@@ -15,3 +15,15 @@ app-vacuum,vacuum cleaner,noun,2,,
 app-humidifier,humidifier,noun,3,391,加湿器.
 app-fan,fan (electric),noun,3,,
 app-kettle,kettle,noun,3,,
+ele-charger,charger,noun,1,405,充電器.
+ele-cable,cable,noun,1,,
+ele-plug,plug,noun,2,,
+ele-socket,socket,noun,2,,
+ele-repair,repair,noun,1,973,修理.
+ele-breakdown,breakdown,noun,1,816,故障.
+ele-manual,instruction manual,noun,1,1260,取扱説明書.
+ele-model,model,noun,2,,
+ele-electricity,electricity,noun,1,506,電気.
+fst-assembly,assembly,noun,2,,
+fst-measurement,measurement,noun,2,,
+fst-lighting-shop,light fitting,noun,3,,

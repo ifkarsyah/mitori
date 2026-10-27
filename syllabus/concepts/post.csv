@@ -1,0 +1,11 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+eco-delivery-address,delivery address,noun,1,,
+eco-tracking,tracking,noun,1,,
+eco-courier,courier,noun,1,,
+eco-out-for-delivery,dispatched,adjective,2,,"Distinct from 送信 (1179), which is sending a message."
+fst-delivery-furniture,delivery (of goods),noun,1,484,"配達. Qualified — 配信 (859) already holds the plain gloss for digital distribution."
+gov-postage-stamp,postage stamp,noun,2,87,切手.
+gov-post,post,noun,1,1453,郵便.
+gov-parcel,parcel,noun,1,,
+gov-to-post,to post,verb,1,1086,送る.
+kon-parcel-pickup,parcel collection,noun,2,,

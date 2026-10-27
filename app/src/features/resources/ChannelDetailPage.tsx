@@ -9,12 +9,14 @@ import { Button } from '@/components/ui/button'
 import { LoadingState } from '@/components/LoadingState'
 import { ErrorState } from '@/components/ErrorState'
 import { useCategoryList } from '@/features/category/hooks'
+import { useSceneList } from '@/features/scene/hooks'
 import type { Resource } from './api'
 import {
   ALL,
   applyResourceFilters,
   categoryLabel,
   topicLabel,
+  sceneLabel,
   defaultResourceFilterState,
   distinctCategories,
   distinctTopicIds,
@@ -36,6 +38,7 @@ export function ChannelDetailPage() {
   const { data: channel, isLoading, isError, error, refetch } = useResourceChannelBySlug(slug)
   const { data: resources, isLoading: resourcesLoading } = useResourcesForChannel(channel?.id)
   const { data: categories } = useCategoryList()
+  const { data: scenes } = useSceneList()
   const [filters, setFilters] = useState<ResourceFilterState>(defaultResourceFilterState)
 
   const categoryNameById = useMemo(() => {
@@ -45,6 +48,8 @@ export function ChannelDetailPage() {
     }
     return map
   }, [categories])
+
+  const sceneNameById = useMemo(() => new Map((scenes ?? []).map((s) => [s.id, s.name])), [scenes])
 
   const columns = useMemo<ColumnConfig<Resource>[]>(
     () => [
@@ -72,8 +77,19 @@ export function ChannelDetailPage() {
         sortValue: (row) =>
           row.category_id != null ? topicLabel(String(row.category_id), categoryNameById) : null,
       },
+      {
+        key: 'scene',
+        header: 'Scene',
+        render: (row) =>
+          row.scene_id != null ? (
+            sceneLabel(String(row.scene_id), sceneNameById)
+          ) : (
+            <span className="text-muted-foreground">—</span>
+          ),
+        sortValue: (row) => (row.scene_id != null ? sceneLabel(String(row.scene_id), sceneNameById) : null),
+      },
     ],
-    [categoryNameById],
+    [categoryNameById, sceneNameById],
   )
 
   const categoryOptions = useMemo(() => {
@@ -99,8 +115,8 @@ export function ChannelDetailPage() {
 
   const groups = useMemo(() => {
     const filtered = applyResourceFilters(resources, filters)
-    return groupResourcesBy(filtered, filters.groupBy, new Map(), categoryNameById)
-  }, [resources, filters, categoryNameById])
+    return groupResourcesBy(filtered, filters.groupBy, new Map(), categoryNameById, sceneNameById)
+  }, [resources, filters, categoryNameById, sceneNameById])
 
   if (isLoading) return <LoadingState />
   if (isError) return <ErrorState error={error} onRetry={() => refetch()} />

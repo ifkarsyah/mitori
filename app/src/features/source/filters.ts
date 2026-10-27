@@ -3,26 +3,26 @@ import type { Source } from '@/features/word/api'
 export const UNCLASSIFIED = '__unclassified__'
 export const ALL = '__all__'
 
-export type SourceGroupBy = 'none' | 'category'
+export type SourceGroupBy = 'none' | 'scene'
 
 export type SourceFilterState = {
   search: string
-  categoryId: string
+  sceneId: string
   groupBy: SourceGroupBy
 }
 
 export const defaultSourceFilterState: SourceFilterState = {
   search: '',
-  categoryId: ALL,
+  sceneId: ALL,
   groupBy: 'none',
 }
 
 export function applySourceFilters(rows: Source[], filters: SourceFilterState): Source[] {
   const search = filters.search.trim().toLowerCase()
   return rows.filter((row) => {
-    if (filters.categoryId !== ALL) {
-      const key = row.category_id != null ? String(row.category_id) : UNCLASSIFIED
-      if (key !== filters.categoryId) return false
+    if (filters.sceneId !== ALL) {
+      const key = row.scene_id != null ? String(row.scene_id) : UNCLASSIFIED
+      if (key !== filters.sceneId) return false
     }
     if (search) {
       const haystack = [row.name, row.url].filter(Boolean).join(' ').toLowerCase()
@@ -32,9 +32,9 @@ export function applySourceFilters(rows: Source[], filters: SourceFilterState): 
   })
 }
 
-export function sourceCategoryLabel(value: string, categoryNameById: Map<number, string>): string {
-  if (value === UNCLASSIFIED) return 'No category'
-  const name = categoryNameById.get(Number(value))
+export function sourceSceneLabel(value: string, sceneNameById: Map<number, string>): string {
+  if (value === UNCLASSIFIED) return 'No scene'
+  const name = sceneNameById.get(Number(value))
   return name ?? value
 }
 
@@ -43,7 +43,7 @@ export type SourceGroup = { key: string; label: string; rows: Source[] }
 export function groupSourcesBy(
   rows: Source[],
   groupBy: SourceGroupBy,
-  categoryNameById: Map<number, string>,
+  sceneNameById: Map<number, string>,
 ): SourceGroup[] {
   if (groupBy === 'none') {
     return [{ key: 'all', label: 'All sources', rows }]
@@ -51,7 +51,7 @@ export function groupSourcesBy(
 
   const buckets = new Map<string, Source[]>()
   for (const row of rows) {
-    const key = row.category_id != null ? String(row.category_id) : UNCLASSIFIED
+    const key = row.scene_id != null ? String(row.scene_id) : UNCLASSIFIED
     const bucket = buckets.get(key)
     if (bucket) {
       bucket.push(row)
@@ -66,14 +66,14 @@ export function groupSourcesBy(
 
   return sortedKeys.map((key) => ({
     key,
-    label: sourceCategoryLabel(key, categoryNameById),
+    label: sourceSceneLabel(key, sceneNameById),
     rows: buckets.get(key)!,
   }))
 }
 
-export function distinctSourceCategoryIds(rows: Source[]): string[] {
+export function distinctSourceSceneIds(rows: Source[]): string[] {
   const present = new Set(
-    rows.map((row) => (row.category_id != null ? String(row.category_id) : UNCLASSIFIED)),
+    rows.map((row) => (row.scene_id != null ? String(row.scene_id) : UNCLASSIFIED)),
   )
   const known = [...present].filter((k) => k !== UNCLASSIFIED).sort()
   const hasUnclassified = present.has(UNCLASSIFIED)

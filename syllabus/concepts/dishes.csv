@@ -1,0 +1,23 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+gro-produce,fresh produce,noun,2,305,青果.
+gro-frozen-food,frozen food,noun,1,681,冷凍食品.
+gro-dried-goods,dried goods,noun,3,1183,乾物.
+kon-onigiri,rice ball,noun,2,32,おにぎり — Japanese-specific.
+kon-bento,bento box,noun,2,788,弁当 — Japanese-specific.
+res-steak,steak,noun,2,550,ステーキ.
+res-burger-patty,burger patty,noun,3,42,ハンバーグ.
+res-salad,salad,noun,1,299,サラダ.
+res-sandwich,sandwich,noun,1,,
+res-carbonara,carbonara,noun,3,826,カルボナーラ.
+res-japanese-cuisine,Japanese cuisine,noun,2,162,和食.
+res-western-cuisine,Western cuisine,noun,3,1200,洋食.
+res-ramen,ramen,noun,2,622,Japanese-specific.
+res-udon,udon,noun,3,596,Japanese-specific.
+res-soba,soba,noun,3,840,Japanese-specific.
+res-sushi,sushi,noun,2,1031,Japanese-specific.
+res-tempura,tempura,noun,3,829,Japanese-specific.
+res-natto,natto,noun,3,260,Japanese-specific.
+res-rice-bowl,rice bowl dish,noun,3,481;1295;878,"Merges 丼 (481), 牛めし (1295) and 牛丼 (878)."
+res-grilled-meat,grilled meat,noun,3,564,焼肉.
+res-fried-egg,fried egg,noun,2,1196,目玉焼き.
+res-breakfast-set,breakfast set,noun,3,1471,モーニング — a Japanese café convention.

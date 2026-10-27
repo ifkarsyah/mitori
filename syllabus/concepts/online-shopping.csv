@@ -1,0 +1,9 @@
+slug,gloss,part_of_speech,tier,existing_concept_ids,note
+eco-online-shop,online shop,noun,1,,
+eco-cart,basket (online),noun,1,,
+eco-to-add-to-cart,to add to basket,verb,1,,
+eco-checkout-online,checkout,noun,1,,
+eco-return-online,returns,noun,1,,
+eco-review,review,noun,1,776,評価.
+eco-rating,rating,noun,2,,
+eco-new-arrival,new arrival,noun,2,673,新着.

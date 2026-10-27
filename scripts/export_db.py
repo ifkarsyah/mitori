@@ -30,7 +30,6 @@ PAGE_SIZE = 1000
 # Shared tables in public; every language schema has the same core tables plus
 # its own extras. The value is the column to sort by — not every table is keyed on id.
 CORE_TABLES = {
-    "scene": "id",
     "source": "id",
     "word": "id",
     "sentence": "id",
@@ -40,7 +39,15 @@ CORE_TABLES = {
     "resource": "id",
 }
 SCHEMAS = {
-    "public": {"language": "code", "category": "id", "meaning": "id", "captures": "id"},
+    "public": {
+        "language": "code",
+        "category": "id",
+        "meaning": "id",
+        "scene": "id",
+        # No id column: sort on both key columns so pages never overlap.
+        "scene_meaning": "scene_id.asc,meaning_id",
+        "captures": "id",
+    },
     "japanese": {**CORE_TABLES, "kanji": "id", "word_kanji": "id"},
     "german": CORE_TABLES,
     "chinese": {**CORE_TABLES, "simplification": "id"},

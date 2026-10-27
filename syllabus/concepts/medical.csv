@@ -1,4 +1,11 @@
 slug,gloss,part_of_speech,tier,existing_concept_ids,note
+dru-prescription,prescription,noun,1,,
+dru-dosage,dosage,noun,2,,
+dru-painkiller,painkiller,noun,1,,
+dru-plaster,plaster,noun,2,,
+dru-bandage,bandage,noun,2,,
+dru-vitamin,vitamin,noun,2,,
+dru-pharmacist,pharmacist,noun,2,,
 hos-appointment-med,medical appointment,noun,1,,
 hos-symptom,symptom,noun,1,,
 hos-waiting-room,waiting room,noun,1,,
