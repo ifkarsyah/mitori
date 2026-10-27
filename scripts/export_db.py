@@ -30,6 +30,7 @@ PAGE_SIZE = 1000
 # Shared tables in public; every language schema has the same core tables plus
 # its own extras. The value is the column to sort by — not every table is keyed on id.
 CORE_TABLES = {
+    "context": "id",
     "source": "id",
     "word": "id",
     "sentence": "id",

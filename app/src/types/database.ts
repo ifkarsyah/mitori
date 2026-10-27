@@ -14,6 +14,36 @@ export type Database = {
   }
   chinese: {
     Tables: {
+      context: {
+        Row: {
+          category_id: number | null
+          created_at: string
+          description: string | null
+          id: number
+          name: string
+          slug: string
+          sort_order: number
+        }
+        Insert: {
+          category_id?: number | null
+          created_at?: string
+          description?: string | null
+          id?: number
+          name: string
+          slug: string
+          sort_order?: number
+        }
+        Update: {
+          category_id?: number | null
+          created_at?: string
+          description?: string | null
+          id?: number
+          name?: string
+          slug?: string
+          sort_order?: number
+        }
+        Relationships: []
+      }
       grammar_point: {
         Row: {
           category: string
@@ -122,6 +152,7 @@ export type Database = {
       sentence: {
         Row: {
           category_id: number | null
+          context_id: number | null
           created_at: string
           id: number
           meaning: string | null
@@ -131,6 +162,7 @@ export type Database = {
         }
         Insert: {
           category_id?: number | null
+          context_id?: number | null
           created_at?: string
           id?: number
           meaning?: string | null
@@ -140,6 +172,7 @@ export type Database = {
         }
         Update: {
           category_id?: number | null
+          context_id?: number | null
           created_at?: string
           id?: number
           meaning?: string | null
@@ -218,6 +251,7 @@ export type Database = {
       word: {
         Row: {
           concept_id: number | null
+          context_id: number | null
           created_at: string
           id: number
           learned: boolean
@@ -231,6 +265,7 @@ export type Database = {
         }
         Insert: {
           concept_id?: number | null
+          context_id?: number | null
           created_at?: string
           id?: number
           learned?: boolean
@@ -244,6 +279,7 @@ export type Database = {
         }
         Update: {
           concept_id?: number | null
+          context_id?: number | null
           created_at?: string
           id?: number
           learned?: boolean
@@ -273,6 +309,36 @@ export type Database = {
   }
   german: {
     Tables: {
+      context: {
+        Row: {
+          category_id: number | null
+          created_at: string
+          description: string | null
+          id: number
+          name: string
+          slug: string
+          sort_order: number
+        }
+        Insert: {
+          category_id?: number | null
+          created_at?: string
+          description?: string | null
+          id?: number
+          name: string
+          slug: string
+          sort_order?: number
+        }
+        Update: {
+          category_id?: number | null
+          created_at?: string
+          description?: string | null
+          id?: number
+          name?: string
+          slug?: string
+          sort_order?: number
+        }
+        Relationships: []
+      }
       grammar_point: {
         Row: {
           category: string
@@ -381,6 +447,7 @@ export type Database = {
       sentence: {
         Row: {
           category_id: number | null
+          context_id: number | null
           created_at: string
           id: number
           meaning: string | null
@@ -390,6 +457,7 @@ export type Database = {
         }
         Insert: {
           category_id?: number | null
+          context_id?: number | null
           created_at?: string
           id?: number
           meaning?: string | null
@@ -399,6 +467,7 @@ export type Database = {
         }
         Update: {
           category_id?: number | null
+          context_id?: number | null
           created_at?: string
           id?: number
           meaning?: string | null
@@ -456,6 +525,7 @@ export type Database = {
       word: {
         Row: {
           concept_id: number | null
+          context_id: number | null
           created_at: string
           gender: string | null
           id: number
@@ -470,6 +540,7 @@ export type Database = {
         }
         Insert: {
           concept_id?: number | null
+          context_id?: number | null
           created_at?: string
           gender?: string | null
           id?: number
@@ -484,6 +555,7 @@ export type Database = {
         }
         Update: {
           concept_id?: number | null
+          context_id?: number | null
           created_at?: string
           gender?: string | null
           id?: number
@@ -514,6 +586,36 @@ export type Database = {
   }
   japanese: {
     Tables: {
+      context: {
+        Row: {
+          category_id: number | null
+          created_at: string
+          description: string | null
+          id: number
+          name: string
+          slug: string
+          sort_order: number
+        }
+        Insert: {
+          category_id?: number | null
+          created_at?: string
+          description?: string | null
+          id?: number
+          name: string
+          slug: string
+          sort_order?: number
+        }
+        Update: {
+          category_id?: number | null
+          created_at?: string
+          description?: string | null
+          id?: number
+          name?: string
+          slug?: string
+          sort_order?: number
+        }
+        Relationships: []
+      }
       grammar_point: {
         Row: {
           category: string
@@ -664,6 +766,7 @@ export type Database = {
       sentence: {
         Row: {
           category_id: number | null
+          context_id: number | null
           created_at: string
           id: number
           meaning: string | null
@@ -673,6 +776,7 @@ export type Database = {
         }
         Insert: {
           category_id?: number | null
+          context_id?: number | null
           created_at?: string
           id?: number
           meaning?: string | null
@@ -682,6 +786,7 @@ export type Database = {
         }
         Update: {
           category_id?: number | null
+          context_id?: number | null
           created_at?: string
           id?: number
           meaning?: string | null
@@ -739,6 +844,7 @@ export type Database = {
       word: {
         Row: {
           concept_id: number | null
+          context_id: number | null
           created_at: string
           id: number
           kana_type: string
@@ -754,6 +860,7 @@ export type Database = {
         }
         Insert: {
           concept_id?: number | null
+          context_id?: number | null
           created_at?: string
           id?: number
           kana_type: string
@@ -769,6 +876,7 @@ export type Database = {
         }
         Update: {
           concept_id?: number | null
+          context_id?: number | null
           created_at?: string
           id?: number
           kana_type?: string

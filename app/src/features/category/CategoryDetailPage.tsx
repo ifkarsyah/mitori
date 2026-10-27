@@ -9,6 +9,7 @@ import { GroupedTable } from '@/components/GroupedTable'
 import type { Kotoba } from '@/features/kotoba/api'
 import { useLanguage } from '@/features/language/useLanguage'
 import { useConceptRows, type ConceptRow } from '@/features/concept/hooks'
+import { useContextList } from '@/features/context/hooks'
 import { useCategoryList } from './hooks'
 
 function WordList({ words }: { words: Kotoba[] | undefined }) {
@@ -31,9 +32,10 @@ function WordList({ words }: { words: Kotoba[] | undefined }) {
 
 export function CategoryDetailPage() {
   const { slug } = useParams<{ slug: string }>()
-  const { languages } = useLanguage()
+  const { languages, current } = useLanguage()
   const { data: categories, isLoading, isError, error, refetch } = useCategoryList()
   const { data: conceptRows } = useConceptRows()
+  const { data: contexts } = useContextList()
 
   const category = categories?.find((c) => c.slug === slug)
   const descendantIds = useMemo(() => {
@@ -42,6 +44,10 @@ export function CategoryDetailPage() {
     for (const c of categories ?? []) if (c.parent_id === category.id) ids.add(c.id)
     return ids
   }, [categories, category])
+
+  const narrowerContexts = (contexts ?? []).filter(
+    (c) => c.category_id != null && descendantIds.has(c.category_id),
+  )
 
   const rows = useMemo(
     () => conceptRows.filter((r) => r.concept.category_id != null && descendantIds.has(r.concept.category_id)),
@@ -122,6 +128,16 @@ export function CategoryDetailPage() {
             )
           })}
         </div>
+        {narrowerContexts.length > 0 && (
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="text-sm text-muted-foreground">{current?.name} contexts:</span>
+            {narrowerContexts.map((c) => (
+              <Link key={c.id} to={`/context/${c.slug}`}>
+                <Badge variant="secondary">{c.name}</Badge>
+              </Link>
+            ))}
+          </div>
+        )}
       </div>
 
       <GroupedTable
