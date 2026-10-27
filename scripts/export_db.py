@@ -1,4 +1,5 @@
-"""Dump every table in the mitori Supabase project to CSV, one file per table.
+"""Dump every table in the mitori Supabase project to CSV, one file per table,
+in one folder per schema (db-export/public/, db-export/japanese/, ...).
 
 The database holds a lot that exists nowhere else in this repo — the Japanese
 vocabulary, 2700+ sentences with meanings, the per-word kanji breakdowns, the
@@ -26,23 +27,22 @@ ENV_LOCAL = REPO_ROOT / "app" / ".env.local"
 
 PAGE_SIZE = 1000
 
-# Ordered so a human reading the export meets the vocabulary spine first.
-# The value is the column to sort by — not every table is keyed on id.
-TABLES = {
-    "language": "code",
-    "category": "id",
-    "concept": "id",
-    "context": "id",
+# Shared tables in public; every language schema has the same core tables plus
+# its own extras. The value is the column to sort by — not every table is keyed on id.
+CORE_TABLES = {
     "source": "id",
-    "kotoba": "id",
-    "kanji": "id",
-    "word_kanji": "id",
-    "sentences": "id",
-    "sentence_kotoba": "id",
+    "word": "id",
+    "sentence": "id",
+    "sentence_word": "id",
     "grammar_point": "id",
     "resource_channel": "id",
     "resource": "id",
-    "captures": "id",
+}
+SCHEMAS = {
+    "public": {"language": "code", "category": "id", "concept": "id", "captures": "id"},
+    "japanese": {**CORE_TABLES, "kanji": "id", "word_kanji": "id"},
+    "german": CORE_TABLES,
+    "chinese": {**CORE_TABLES, "simplification": "id"},
 }
 
 
@@ -74,20 +74,20 @@ def credentials() -> tuple[str, str]:
     return url.rstrip("/"), key
 
 
-def fetch_page(base_url: str, key: str, table: str, order_by: str, offset: int) -> list[dict]:
+def fetch_page(base_url: str, key: str, schema: str, table: str, order_by: str, offset: int) -> list[dict]:
     query = f"select=*&order={order_by}.asc&limit={PAGE_SIZE}&offset={offset}"
     request = urllib.request.Request(
         f"{base_url}/rest/v1/{table}?{query}",
-        headers={"apikey": key, "Authorization": f"Bearer {key}"},
+        headers={"apikey": key, "Authorization": f"Bearer {key}", "Accept-Profile": schema},
     )
     with urllib.request.urlopen(request) as response:
         return json.loads(response.read().decode("utf-8"))
 
 
-def fetch_all(base_url: str, key: str, table: str, order_by: str) -> list[dict]:
+def fetch_all(base_url: str, key: str, schema: str, table: str, order_by: str) -> list[dict]:
     rows: list[dict] = []
     while True:
-        page = fetch_page(base_url, key, table, order_by, len(rows))
+        page = fetch_page(base_url, key, schema, table, order_by, len(rows))
         rows.extend(page)
         if len(page) < PAGE_SIZE:
             return rows
@@ -121,26 +121,28 @@ def write_csv(path: Path, rows: list[dict]) -> None:
 
 def main() -> None:
     out_dir = Path(sys.argv[1]) if len(sys.argv) > 1 else DEFAULT_OUT_DIR
-    out_dir.mkdir(parents=True, exist_ok=True)
     base_url, key = credentials()
 
     total = 0
-    for table, order_by in TABLES.items():
-        try:
-            rows = fetch_all(base_url, key, table, order_by)
-        except urllib.error.HTTPError as error:
-            # A table in the list may not exist yet (or any more); say so rather
-            # than aborting a backup that is otherwise complete.
-            print(f"  {table}: skipped ({error.code})", file=sys.stderr)
-            continue
+    for schema, tables in SCHEMAS.items():
+        (out_dir / schema).mkdir(parents=True, exist_ok=True)
+        for table, order_by in tables.items():
+            name = f"{schema}.{table}"
+            try:
+                rows = fetch_all(base_url, key, schema, table, order_by)
+            except urllib.error.HTTPError as error:
+                # A table in the list may not exist yet (or any more); say so rather
+                # than aborting a backup that is otherwise complete.
+                print(f"  {name}: skipped ({error.code})", file=sys.stderr)
+                continue
 
-        if not rows:
-            print(f"  {table}: empty")
-            continue
+            if not rows:
+                print(f"  {name}: empty")
+                continue
 
-        write_csv(out_dir / f"{table}.csv", rows)
-        total += len(rows)
-        print(f"  {table}: {len(rows)} rows")
+            write_csv(out_dir / schema / f"{table}.csv", rows)
+            total += len(rows)
+            print(f"  {name}: {len(rows)} rows")
 
     print(f"exported {total} rows to {out_dir}")
 

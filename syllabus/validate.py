@@ -4,7 +4,7 @@ Structural checks always run: slug and gloss uniqueness across every file, a
 recognised part of speech, a tier in range, and CSV rows that did not silently
 shift because of an unquoted comma.
 
-Two further checks compare against db-export/concept.csv — a syllabus gloss
+Two further checks compare against db-export/public/concept.csv — a syllabus gloss
 colliding with an existing concept it is not merging would fail the UNIQUE
 constraint, and one existing concept claimed twice would be a split rather than
 a merge. Those only make sense against a pre-migration export, so they are
@@ -21,7 +21,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 SYLLABUS = REPO_ROOT / "syllabus"
 CONCEPTS_DIR = SYLLABUS / "concepts"
 CATEGORIES = SYLLABUS / "categories.csv"
-EXPORTED_CONCEPTS = REPO_ROOT / "db-export" / "concept.csv"
+EXPORTED_CONCEPTS = REPO_ROOT / "db-export" / "public" / "concept.csv"
 
 REQUIRED = ["slug", "gloss", "part_of_speech", "tier", "existing_concept_ids", "note"]
 PARTS_OF_SPEECH = {
@@ -103,7 +103,7 @@ def main() -> None:
                 if concept_id in existing:
                     merged_glosses.append(existing[concept_id])
                 elif not already_applied:
-                    errors.append(f"{where}: existing_concept_ids {concept_id} not in db-export/concept.csv")
+                    errors.append(f"{where}: existing_concept_ids {concept_id} not in db-export/public/concept.csv")
 
             # A syllabus gloss identical to an existing concept it is NOT merging
             # would violate concept.gloss UNIQUE when the syllabus is inserted.

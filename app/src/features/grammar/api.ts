@@ -1,16 +1,15 @@
-import { supabase } from '@/lib/supabase'
+import { languageDb } from '@/lib/languageDb'
 import { fetchAllRows } from '@/lib/fetchAllRows'
-import type { Language } from '@/features/language/languages'
+import type { LanguageRow } from '@/features/language/languages'
 import type { Tables } from '@/types/database'
 
-export type GrammarPoint = Tables<'grammar_point'>
+export type GrammarPoint = Tables<{ schema: 'japanese' }, 'grammar_point'>
 
-export async function fetchGrammarPointList(language: Language): Promise<GrammarPoint[]> {
+export async function fetchGrammarPointList(language: LanguageRow): Promise<GrammarPoint[]> {
   return fetchAllRows<GrammarPoint>(async (from, to) =>
-    supabase
+    languageDb(language)
       .from('grammar_point')
-      .select('id, slug, title, category, folder_order, sort_order, content, created_at, updated_at, language')
-      .eq('language', language)
+      .select('id, slug, title, category, folder_order, sort_order, content, created_at, updated_at')
       .order('folder_order')
       .order('sort_order')
       .range(from, to),

@@ -4,18 +4,20 @@ import { fetchResourceChannelList, fetchResourceList } from './api'
 import { useLanguage } from '@/features/language/useLanguage'
 
 export function useResourceList() {
-  const { language } = useLanguage()
+  const { language, current } = useLanguage()
   return useQuery({
     queryKey: ['resource', 'list', language],
-    queryFn: () => fetchResourceList(language),
+    queryFn: () => fetchResourceList(current!),
+    enabled: current != null,
   })
 }
 
 export function useResourceChannelList() {
-  const { language } = useLanguage()
+  const { language, current } = useLanguage()
   return useQuery({
     queryKey: ['resourceChannel', 'list', language],
-    queryFn: () => fetchResourceChannelList(language),
+    queryFn: () => fetchResourceChannelList(current!),
+    enabled: current != null,
   })
 }
 

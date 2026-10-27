@@ -77,6 +77,8 @@ def main():
                 "Authorization": f"Bearer {supabase_key}",
                 "Content-Type": "application/json",
                 "Prefer": "return=minimal",
+                # The resource library lives in the japanese schema.
+                "Content-Profile": "japanese",
             },
         )
         try:

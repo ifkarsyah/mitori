@@ -17,7 +17,7 @@ function WordList({ words }: { words: Kotoba[] | undefined }) {
     <div className="flex flex-wrap gap-x-2 gap-y-1">
       {words.map((w) => (
         <Link
-          key={w.id}
+          key={`${w.language}-${w.id}`}
           to={`/kotoba/${w.word}`}
           className="hover:underline"
           onClick={(e) => e.stopPropagation()}

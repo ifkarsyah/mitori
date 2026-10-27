@@ -65,7 +65,7 @@ def main():
     print("-- Seed data for resource_channel + resource, generated from")
     print("-- resources/scripts/generate_seed_sql.py. Safe to re-run.")
     print()
-    print("INSERT INTO public.resource_channel (platform, slug, name, url, description) VALUES")
+    print("INSERT INTO japanese.resource_channel (platform, slug, name, url, description) VALUES")
     channel_values = [
         f"    ('youtube', {sql_str(slug)}, {sql_str(c['name'])}, "
         f"{sql_str_or_null(c['url'])}, {sql_str_or_null(c['description'])})"
@@ -76,7 +76,7 @@ def main():
     print("    name = excluded.name, url = excluded.url, description = excluded.description;")
     print()
 
-    print("INSERT INTO public.resource (channel_id, title, url, category, context_id)")
+    print("INSERT INTO japanese.resource (channel_id, title, url, category, context_id)")
     print("SELECT rc.id, v.title, v.url, v.category, ctx.id")
     print("FROM (VALUES")
     resource_values = [
@@ -87,7 +87,7 @@ def main():
     ]
     print(",\n".join(resource_values))
     print(") AS v(channel_slug, title, url, category, context_name)")
-    print("JOIN public.resource_channel rc ON rc.slug = v.channel_slug")
+    print("JOIN japanese.resource_channel rc ON rc.slug = v.channel_slug")
     print("LEFT JOIN public.context ctx ON ctx.name = v.context_name")
     print("ON CONFLICT (url) DO NOTHING;")
 
