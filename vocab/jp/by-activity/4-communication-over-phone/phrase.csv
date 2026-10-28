@@ -1,0 +1,38 @@
+phrase,reading,english,who_says_it,note
+もしもし,もしもし,Hello (on the phone),both,Only on the phone. Don't use it face to face.
+お電話ありがとうございます,おでんわありがとうございます,Thank you for calling,them,How every shop answers. The shop name and staff name come next.
+いつもお世話になっております,いつもおせわになっております,Thank you for your continued business,them,Standard business opener. You don't need to answer it.
+どうされましたか,どうされましたか,What seems to be the problem?,them,
+[name]です,[name]です,It's [name],you,
+予約している[name]です,よやくしている[name]です,I'm [name]; I have a reservation,you,Opening line when calling about a booking you already made.
+[building]、[room]号室の[name]です,[building]、[room]ごうしつの[name]です,I'm [name] from [building] room [room],you,Opening line for the management company.
+予約をお願いしたいんですが,よやくをおねがいしたいんですが,I'd like to make a reservation,you,
+[thing]の予約をしたいんですが,[thing]のよやくをしたいんですが,I'd like to book [thing],you,e.g. マッサージの予約をしたいんですが.
+[thing]の再配達をお願いしたいんですが,[thing]のさいはいたつをおねがいしたいんですが,I'd like to ask for redelivery of [thing],you,
+不在票が入っていました,ふざいひょうがはいっていました,I got a missed-delivery slip,you,
+[thing]が出ません,[thing]がでません,[thing] isn't coming out,you,"For water, hot water, gas. e.g. お湯が出ません."
+[time]からです,[time]からです,Since [time],you,Answer to いつからでしょうか.
+[number]人です,[number]にんです,[number] people,you,Answer to 何名様でしょうか. 二人 is ふたり.
+[time]は、空いてますか？,[time]は、あいてますか？,"Are you free at [time]?",you,
+[time]ごろです,[time]ごろです,Around [time],you,
+[time]から[time]でお願いします,[time]から[time]でおねがいします,"From [time] to [time], please",you,For delivery and repair time slots.
+[thing]でお願いします,[thing]でおねがいします,"[thing], please",you,The one answer to almost every choice: time, seat, course.
+[thing]でいいですか？,[thing]でいいですか？,Is [thing] OK?,you,
+[thing]を預けてもいいですか？,[thing]をあずけてもいいですか？,Can I leave [thing] with you?,you,
+いくらですか？,いくらですか？,How much is it?,you,
+お金がかかりますか？,おかねがかかりますか？,Does it cost money?,you,
+電話番号は[number]です,でんわばんごうは[number]です,My phone number is [number],you,"Read it digit by digit, pausing at each dash."
+少々お待ちください,しょうしょうおまちください,One moment please,them,Then you'll hear hold music or silence.
+お待たせいたしました,おまたせいたしました,Sorry for the wait,them,They're back on the line.
+ちょっと待ってください,ちょっとまってください,Just a moment,you,Your version of 少々お待ちください.
+申し訳ございません,もうしわけございません,I'm very sorry,them,Bad news coming: usually the slot is full.
+すみません、もう一回お願いします,すみません、もういっかいおねがいします,"Sorry, once more please",you,
+すみません、ゆっくりお願いします,すみません、ゆっくりおねがいします,"Sorry, slowly please",you,
+すみません、もう少しゆっくりお願いします,すみません、もうすこしゆっくりおねがいします,"Sorry, a little slower please",you,Softer. Use it when you caught part of the sentence.
+すみません、「[word]」は何ですか？,すみません、「[word]」はなんですか？,"Sorry, what's ""[word]""?",you,Staff will rephrase in plain words.
+[thing]ですね,[thing]ですね,"[thing], right?",both,Repeat the date/time/number back to check.
+かしこまりました,かしこまりました,Certainly,them,Staff version of わかりました.
+ほかに何かございますか,ほかになにかございますか,Is there anything else?,them,
+いえ、大丈夫です,いえ、だいじょうぶです,"No, that's all",you,Answer to ほかに何かございますか.
+お疲れさまです,おつかれさまです,Thanks for your hard work,you,Fine to say to delivery drivers.
+失礼します,しつれいします,Goodbye,both,Polite way to end a call. Wait for them to hang up first.
