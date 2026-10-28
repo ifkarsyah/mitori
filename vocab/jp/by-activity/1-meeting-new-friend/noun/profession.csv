@@ -1,23 +1,10 @@
-gloss,word,reading,level,note
-job,仕事,しごと,n5,お仕事は何ですか.
-occupation,職業,しょくぎょう,n3,On forms.
-company,会社,かいしゃ,n5,
-employee,会社員,かいしゃいん,n4,The default self-description for office workers.
-engineer,エンジニア,えんじにあ,n3,
-programmer,プログラマー,ぷろぐらまー,n3,
-designer,デザイナー,でざいなー,n3,NEW meaning.
-sales,営業,えいぎょう,n3,NEW meaning. 営業をしています.
-teacher,先生,せんせい,n5,About yourself say 教師.
-doctor,医者,いしゃ,n5,
-nurse,看護師,かんごし,n3,
-lawyer,弁護士,べんごし,n3,
-researcher,研究者,けんきゅうしゃ,n3,NEW meaning.
-civil servant,公務員,こうむいん,n3,NEW meaning.
-shop assistant,店員,てんいん,n4,
-chef,シェフ,しぇふ,n3,Also 料理人.
-freelancer,フリーランス,ふりーらんす,n2,NEW meaning.
-company president,社長,しゃちょう,n4,NEW meaning.
-part-time job,アルバイト,あるばいと,n4,NEW meaning. Short: バイト.
-homemaker,主婦,しゅふ,n3,NEW meaning. Male: 主夫 (same reading).
-student,学生,がくせい,n5,NEW meaning.
-university student,大学生,だいがくせい,n4,
+gloss,word,reading,level,sample_usage
+work; job,仕事,しごと,n5,仕事は何してるの？
+company,会社,かいしゃ,n5,会社が「大阪から横浜に行って」って言うこと。
+engineer,エンジニア,えんじにあ,n3,IT系でエンジニアやってる。
+team,チーム,ちーむ,n3,データチームのフェルディです。
+meeting,ミーティング,みーてぃんぐ,n3,私は英語のミーティング、まだちょっと緊張します。
+designer,デザイナー,でざいなー,n3,デザイナーやってるよ。
+IT field,IT系,あいてぃーけい,n2,IT系でエンジニアやってる。
+marketing,マーケティング,まーけてぃんぐ,n2,マーケティングの佐藤です。
+job transfer,転勤,てんきん,n2,転勤でこっち来たばっかりなんだよね。
