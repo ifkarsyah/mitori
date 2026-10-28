@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/book/genki-1/3-making-a-date/grammar/verb-conjugation.md",
+                "file": "resources/youtube/channels/speak-japanese-naturally.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "verb-conjugation"
+              "title": "speak-japanese-naturally"
             }
           }
         ]
@@ -190,6 +190,16 @@
   },
   "active": "cbedc2c825111b29",
   "lastOpenFiles": [
+    "resources/youtube/channels/kensanokaeri.md",
+    "resources/youtube/channels/kanatope-japanese.md",
+    "resources/youtube/channels/akane-japanese-class.md",
+    "location/poi/culture/garden.md",
+    "location/poi/culture/castle.md",
+    "location/detailed/tokyo.md",
+    "location/detailed/osaka.md",
+    "location/detailed/nagano.md",
+    "location/detailed/kyoto.md",
+    "resources/book/genki-1/3-making-a-date/grammar/verb-conjugation.md",
     "resources/book/genki-2/23-good-bye/vocabulary/adverbs-and-expressions.md",
     "resources/book/genki-2/23-good-bye/vocabulary/irregular-verbs.md",
     "resources/book/genki-2/23-good-bye/vocabulary/ru-verbs.md",
@@ -210,19 +220,9 @@
     "resources/book/genki-2/22-education-in-japan/vocabulary/adverbs-and-expressions.md",
     "resources/book/genki-2/22-education-in-japan/vocabulary/irregular-verbs.md",
     "resources/book/genki-2/22-education-in-japan/vocabulary/ru-verbs.md",
-    "resources/book/genki-2/22-education-in-japan/vocabulary/u-verbs.md",
-    "resources/book/genki-2/22-education-in-japan/vocabulary/な-adjectives.md",
-    "resources/book/genki-2/22-education-in-japan/vocabulary/い-adjective.md",
-    "resources/book/genki-2/22-education-in-japan/vocabulary/nouns.md",
     "resources/book/genki-2/22-education-in-japan/vocabulary",
-    "resources/book/genki-2/22-education-in-japan/grammar/のような-のように.md",
-    "resources/book/genki-2/22-education-in-japan/grammar/のに.md",
-    "resources/book/genki-2/22-education-in-japan/grammar/ば.md",
-    "resources/book/genki-2/22-education-in-japan/grammar/verb-stem-なさい.md",
-    "resources/book/genki-2/22-education-in-japan/grammar/causative-sentences.md",
     "resources/book/genki-2/22-education-in-japan/grammar",
     "resources/book/genki-2/22-education-in-japan",
-    "resources/book/genki-2/22-education-in-japan.md",
     "resources/book/genki-2/21-burglar/vocabulary/crimes-and-accidents.md.tmp.52600.eabf59a18e3a",
     "resources/book/genki-2/21-burglar/vocabulary/ru-verbs.md.tmp.52600.226886a09073",
     "resources/book/genki-2/21-burglar/vocabulary"

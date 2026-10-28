@@ -1,0 +1,17 @@
+phrase,reading,english,who_says_it,note
+いらっしゃいませ,いらっしゃいませ,Welcome,staff,Shouted as you walk in; no reply needed.
+次のお客様どうぞ,つぎのおきゃくさまどうぞ,Next customer please,cashier,
+温めますか,あたためますか,Shall I heat it up?,cashier,Reply お願いします or 大丈夫です.
+お箸はお付けしますか,おはしはおつけしますか,Would you like chopsticks?,cashier,
+スプーンはお付けしますか,すぷーんはおつけしますか,Would you like a spoon?,cashier,
+袋はご利用ですか,ふくろはごりようですか,Do you need a bag?,cashier,Bags cost a few yen.
+レジ袋は有料ですがよろしいですか,れじぶくろはゆうりょうですがよろしいですか,Bags are paid; is that OK?,cashier,
+袋はお分けしますか,ふくろはおわけしますか,Shall I bag them separately?,cashier,Hot and cold items.
+ポイントカードはお持ちですか,ぽいんとかーどはおもちですか,Do you have a point card?,cashier,
+お支払い方法をお選びください,おしはらいほうほうをおえらびください,Please choose a payment method,cashier; screen,
+年齢確認のボタンを押してください,ねんれいかくにんのぼたんをおしてください,Please press the age-check button,cashier,For alcohol and cigarettes.
+〇〇円になります,〇〇えんになります,That comes to ¥X,cashier,
+〇〇円お預かりします,〇〇えんおあずかりします,Out of ¥X,cashier taking your money,
+〇〇円のお返しです,〇〇えんのおかえしです,Here's ¥X change,cashier,
+レシートはご利用ですか,れしーとはごりようですか,Do you want the receipt?,cashier,
+ありがとうございました,ありがとうございました,Thank you,staff,
