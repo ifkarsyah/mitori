@@ -1,15 +1,5 @@
-gloss,word,reading,level,note
-drink,飲み物,のみもの,n5,
-water,お冷,おひや,n2,Restaurant word for the free cold water; 水 works too.
-tea,お茶,おちゃ,n5,
-oolong tea,ウーロン茶,うーろんちゃ,n3,NEW meaning. The default non-alcoholic order at an izakaya.
-barley tea,麦茶,むぎちゃ,n3,
-beer,ビール,びーる,n5,
-draft beer,生ビール,なまびーる,n3,NEW meaning. Ordered as 生 or 生中 (medium draft).
-sake,日本酒,にほんしゅ,n4,
-shochu,焼酎,しょうちゅう,n2,
-highball,ハイボール,はいぼーる,n3,NEW meaning. Whisky and soda.
-shochu sour,サワー,さわー,n3,NEW meaning. e.g. レモンサワー.
-wine,ワイン,わいん,n4,
-soft drink,ソフトドリンク,そふとどりんく,n3,Menu heading for non-alcoholic drinks.
-juice,ジュース,じゅーす,n5,
+gloss,word,reading,level,sample_usage
+drink,飲み物,のみもの,n5,お冷です。お飲み物はいかがなさいますか。
+oolong tea,ウーロン茶,うーろんちゃ,n3,生ビールを一つと、ウーロン茶を一つお願いします。
+draft beer,生ビール,なまびーる,n3,生ビールを一つと、ウーロン茶を一つお願いします。
+free cold water,お冷,おひや,n2,お冷です。お飲み物はいかがなさいますか。

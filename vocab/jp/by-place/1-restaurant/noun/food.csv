@@ -1,24 +1,7 @@
-gloss,word,reading,level,note
-food,料理,りょうり,n5,Also 'cooking' and 'cuisine'.
-Japanese cuisine,和食,わしょく,n3,
-Western cuisine,洋食,ようしょく,n3,
-cooked rice,ご飯,ごはん,n5,Also means 'meal'.
-set meal,定食,ていしょく,n3,NEW meaning. Main dish + rice + miso soup + pickles.
-miso soup,味噌汁,みそしる,n4,NEW meaning.
-ramen,ラーメン,らーめん,n5,
-udon,うどん,うどん,n4,
-soba,そば,そば,n4,
-sushi,寿司,すし,n5,
-sashimi,刺身,さしみ,n3,NEW meaning.
-tempura,天ぷら,てんぷら,n4,
-rice bowl dish,丼,どんぶり,n3,Usually a suffix: 牛丼、親子丼、天丼.
-curry rice,カレーライス,かれーらいす,n5,NEW meaning. Often just カレー.
-fried chicken,唐揚げ,からあげ,n3,NEW meaning.
-pork cutlet,とんかつ,とんかつ,n3,NEW meaning.
-dumplings,餃子,ぎょうざ,n3,NEW meaning.
-grilled chicken skewers,焼き鳥,やきとり,n3,NEW meaning. Izakaya staple.
-grilled meat,焼肉,やきにく,n3,
-edamame,枝豆,えだまめ,n2,NEW meaning. The default first order at an izakaya.
-salad,サラダ,さらだ,n5,
-side dish,おかず,おかず,n3,
-dessert,デザート,でざーと,n4,
+gloss,word,reading,level,sample_usage
+food; dish,料理,りょうり,n5,かしこまりました。お料理はお決まりですか。
+cooked rice,ご飯,ごはん,n5,ご飯は大盛りにできますか。
+set meal,定食,ていしょく,n3,唐揚げ定食と、刺身定食をお願いします。
+fried chicken,唐揚げ,からあげ,n3,この唐揚げ、おいしい！
+sashimi,刺身,さしみ,n3,うん、刺身もおいしいよ。
+large portion,大盛り,おおもり,n2,はい、大盛り無料です。
