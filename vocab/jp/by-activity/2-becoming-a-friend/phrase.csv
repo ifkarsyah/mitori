@@ -1,0 +1,32 @@
+phrase,reading,english,who_says_it,note
+ごめん、待った？,ごめん、まった？,"Sorry, did you wait?",you,
+ううん、今来たところ,ううん、いまきたところ,"No, I just got here",either,
+[thing]のほかに、何が好き？,[thing]のほかに、なにがすき？,"Besides [thing], what do you like?",either,
+[verb]のが好き,[verb]のがすき,I like [verb]-ing,either,e.g. 走るのが好き.
+どんな[thing]？,どんな[thing]？,What kind of [thing]?,either,
+今度、[verb]に行かない？,こんど、[verb]にいかない？,Want to go [verb] sometime?,either,e.g. 写真撮りに行かない？
+[place]はどう？,[place]はどう？,How about [place]?,either,
+行ったことない。行きたい！,いったことない。いきたい！,I've never been. I want to go!,you,
+楽しみ！,たのしみ！,Can't wait!,either,
+昨日の[thing]、見た？,きのうの[thing]、みた？,Did you see yesterday's [thing]?,either,
+どこのチームが好きなの？,どこのちーむがすきなの？,Which team do you support?,them,
+子供のころ、毎日[verb]てた,こどものころ、まいにち[verb]てた,As a kid I [verb]-ed every day,you,e.g. やってた.
+でも、今は全然,でも、いまはぜんぜん,But not at all now,you,
+[verb]たい！でも、俺、下手だよ,[verb]たい！でも、おれ、へただよ,I want to [verb]! But I'm bad at it,you,e.g. やりたい！
+週に[number]回[verb]てる,しゅうに[number]かい[verb]てる,I [verb] [number] times a week,you,e.g. 週に二回走ってる.
+じゃあ、一緒に走ろう！,じゃあ、いっしょにはしろう！,Then let's run together!,you,Swap the verb: 行こう、見よう.
+[holiday]、どこか行った？,[holiday]、どこかいった？,Did you go anywhere for [holiday]?,either,
+どうだった？,どうだった？,How was it?,either,
+すごく楽しかった,すごくたのしかった,It was really fun,you,
+[place]も行ってみたいな,[place]もいってみたいな,I'd like to try going to [place] too,either,
+まだ行ったことない,まだいったことない,I haven't been yet,you,
+いつ行く？,いついく？,When shall we go?,either,
+何を持って行けばいい？,なにをもっていけばいい？,What should I bring?,you,
+最近、何か[thing]見た？,さいきん、なにか[thing]みた？,Seen any [thing] lately?,either,
+半分ぐらいしかわからなかった,はんぶんぐらいしかわからなかった,I only understood about half,you,
+[thing]は何聞くの？,[thing]はなにきくの？,What [thing] do you listen to?,either,e.g. 音楽は何聞くの？
+色々聞くけど、最近は[thing]が好き,いろいろきくけど、さいきんは[thing]がすき,"I listen to all kinds, but lately I like [thing]",you,
+[thing]行ったことある？,[thing]いったことある？,Have you been to [thing]?,either,
+まだない。行ってみたい,まだない。いってみたい,Not yet. I'd like to go,you,
+[verb]のは下手だよ,[verb]のはへただよ,I'm bad at [verb]-ing,you,e.g. 歌うのは下手だよ.
+楽しければいいの,たのしければいいの,It's fine as long as it's fun,them,
