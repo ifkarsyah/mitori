@@ -85,5 +85,5 @@ These read as questions asking permission/favor rather than direct commands, whi
 Negative mirrors the same ladder: 〜ないで (casual) → 〜ないでください (polite).
 
 ## Notes
-- てください directed at a stranger out of nowhere for something non-obvious can sound like an order — pairing with すみません or a softening んですが (see [[1-んです]]) makes it land more naturally: すみません、写真を撮ってもらえますか。— Excuse me, could [you] take a photo [for me]?
+- てください directed at a stranger out of nowhere for something non-obvious can sound like an order — pairing with すみません or a softening んですが (see [[grammar/4-pattern/1-んです]]) makes it land more naturally: すみません、写真を撮ってもらえますか。— Excuse me, could [you] take a photo [for me]?
 - Don't confuse ないでください (please don't do X) with なくてもいい (don't have to / it's fine not to do X, the negative counterpart of permission てもいい) — different meanings, easy to mix up at a glance.
