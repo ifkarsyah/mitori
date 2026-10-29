@@ -12,13 +12,13 @@ sort_order: 22
 Story context: Mary's host mother pushes host sister Yumi to study for finals; Mary and Yumi compare notes on strict parents; Mary and Takeshi later discuss the pressures Japanese children face with cram schools and after-school lessons.
 
 **Grammar points** — full notes in `22-education-in-japan/grammar/`
-- [[causative-sentences]] — the "make/let someone do" verb form, ambiguous between the two readings until context (or an attached てあげる／てくれる／てもらう) disambiguates it.
-- [[verb-stem-なさい]] — a direct command, appropriate from parent to child or teacher to student — implies you're "talking down" to the listener.
-- [[ば]] — a conditional generally reserved for guaranteeing a *good* result in B, distinct in flavor from たら／と.
-- [[のに]] — "A, but contrary to expectations, B too" — connects two facts, and cannot be used with non-factual requests/suggestions in B.
-- [[のような-のように]] — "a B like/similar to A" (のような ＋ noun) and "done the same way as A" (のように ＋ verb/adjective).
+- [[1-causative-sentences]] — the "make/let someone do" verb form, ambiguous between the two readings until context (or an attached てあげる／てくれる／てもらう) disambiguates it.
+- [[2-verb-stem-なさい]] — a direct command, appropriate from parent to child or teacher to student — implies you're "talking down" to the listener.
+- [[3-ば]] — a conditional generally reserved for guaranteeing a *good* result in B, distinct in flavor from たら／と.
+- [[4-のに]] — "A, but contrary to expectations, B too" — connects two facts, and cannot be used with non-factual requests/suggestions in B.
+- [[5-のような-のように]] — "a B like/similar to A" (のような ＋ noun) and "done the same way as A" (のように ＋ verb/adjective).
 
-**Vocabulary themes** — full notes in `22-education-in-japan/vocabulary/`: [[nouns]], [[い-adjective]], [[な-adjectives]], [[u-verbs]], [[ru-verbs]], [[irregular-verbs]], [[adverbs-and-expressions]].
+**Vocabulary themes** — full notes in `22-education-in-japan/vocabulary/`: [[1-nouns]], [[2-い-adjective]], [[3-な-adjectives]], [[4-u-verbs]], [[5-ru-verbs]], [[6-irregular-verbs]], [[7-adverbs-and-expressions]].
 
 **CultureNote:** 日本の教育制度 (2) — Japan's Educational System (2) (p. 251).
 

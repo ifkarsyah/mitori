@@ -12,15 +12,15 @@ sort_order: 16
 Story context: John oversleeps and misses class (again), then loses the file with his homework in it on the train — a station attendant tracks it down for him overnight.
 
 **Grammar points** — full notes in `16-lost-and-found/grammar/`
-- [[てあげる-くれる-もらう]] — あげる／くれる／もらう as *helping verbs* attached to a te-form, describing the giving/receiving of favors/services rather than things.
-- [[ていただけませんか]] — three request forms ranked by politeness: 〜ていただけませんか (polite) / 〜てくれませんか / 〜てくれない？ (casual).
-- [[といい]] — hoping something nice happens, for someone else (murmured as といいですね) or for yourself (murmured as といいんですが).
-- [[時]] — "when A, B," with a careful present/past tense choice in clause A based on temporal order, not real-world tense.
-- [[てすみませんでした]] — apologizing for something you did (te-form) or failed to do (〜なくて).
+- [[1-てあげる-くれる-もらう]] — あげる／くれる／もらう as *helping verbs* attached to a te-form, describing the giving/receiving of favors/services rather than things.
+- [[2-ていただけませんか]] — three request forms ranked by politeness: 〜ていただけませんか (polite) / 〜てくれませんか / 〜てくれない？ (casual).
+- [[3-といい]] — hoping something nice happens, for someone else (murmured as といいですね) or for yourself (murmured as といいんですが).
+- [[4-時]] — "when A, B," with a careful present/past tense choice in clause A based on temporal order, not real-world tense.
+- [[5-てすみませんでした]] — apologizing for something you did (te-form) or failed to do (〜なくて).
 
-**Notable phrases** — full notes in `16-lost-and-found/phrases/`: [[さ-adjective-to-noun]] (turning an adjective into a noun with さ), [[おごる-ごちそうする]] (casual vs. polite "to treat someone to a meal").
+**Notable phrases** — full notes in `16-lost-and-found/phrases/`: [[1-さ-adjective-to-noun]] (turning an adjective into a noun with さ), [[2-おごる-ごちそうする]] (casual vs. polite "to treat someone to a meal").
 
-**Vocabulary themes** — full notes in `16-lost-and-found/vocabulary/`: [[nouns]], [[い-adjective]], [[u-verbs]], [[ru-verbs]], [[irregular-verbs]], [[adverbs-and-expressions]].
+**Vocabulary themes** — full notes in `16-lost-and-found/vocabulary/`: [[1-nouns]], [[2-い-adjective]], [[3-u-verbs]], [[4-ru-verbs]], [[5-irregular-verbs]], [[6-adverbs-and-expressions]].
 
 **CultureNote:** 贈り物の習慣 — Gift-giving in Japan (p. 117).
 

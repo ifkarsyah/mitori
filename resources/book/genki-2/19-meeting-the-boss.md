@@ -12,17 +12,17 @@ sort_order: 19
 Story context: Takeshi picks up his department manager from the airport after a business trip, treats him to dinner, then drives him home — honorific language (敬語) enters the course for the first time, for talking about a social superior's actions.
 
 **Grammar points** — full notes in `19-meeting-the-boss/grammar/`
-- [[honorific-verbs]] — special verb forms (いらっしゃる、召し上がる、etc.) and the お＋stem＋になる pattern, for describing a superior's or unfamiliar person's actions.
-- [[giving-respectful-advice]] — お／ご＋verb stem＋ください, the "courteous command" form heard in announcements and from store staff.
-- [[てくれてありがとう]] — thanking someone for a specific action, with くださって for when honorific register is called for.
-- [[てよかったです]] — "I'm glad that...", built on the te-form (or なくて for a negative).
-- [[はずです]] — "it is supposed to be the case that...", a belief grounded in circumstance/common sense rather than firsthand confirmation.
+- [[1-honorific-verbs]] — special verb forms (いらっしゃる、召し上がる、etc.) and the お＋stem＋になる pattern, for describing a superior's or unfamiliar person's actions.
+- [[2-giving-respectful-advice]] — お／ご＋verb stem＋ください, the "courteous command" form heard in announcements and from store staff.
+- [[3-てくれてありがとう]] — thanking someone for a specific action, with くださって for when honorific register is called for.
+- [[4-てよかったです]] — "I'm glad that...", built on the te-form (or なくて for a negative).
+- [[5-はずです]] — "it is supposed to be the case that...", a belief grounded in circumstance/common sense rather than firsthand confirmation.
 
-**Notable phrases** — full notes in `19-meeting-the-boss/phrases/`: [[honorific-nouns-and-adjectives]] (お／ご prefixes, and swapped-out vocabulary like お宅／どちら／どなた), [[それで-そして-それから]] (three "and" words with different nuances), [[visiting-someones-house]] (the full ritual exchange for visiting: ごめんください…おじゃまします…おじゃまし ました).
+**Notable phrases** — full notes in `19-meeting-the-boss/phrases/`: [[1-honorific-nouns-and-adjectives]] (お／ご prefixes, and swapped-out vocabulary like お宅／どちら／どなた), [[2-それで-そして-それから]] (three "and" words with different nuances), [[3-visiting-someones-house]] (the full ritual exchange for visiting: ごめんください…おじゃまします…おじゃまし ました).
 
-**Vocabulary themes** — full notes in `19-meeting-the-boss/vocabulary/`: [[nouns]], [[い-adjective]], [[な-adjective]], [[u-verbs]], [[ru-verbs]], [[irregular-verbs]], [[adverbs-and-expressions]].
+**Vocabulary themes** — full notes in `19-meeting-the-boss/vocabulary/`: [[1-nouns]], [[2-い-adjective]], [[3-な-adjective]], [[4-u-verbs]], [[5-ru-verbs]], [[6-irregular-verbs]], [[7-adverbs-and-expressions]].
 
-**CultureNote:** 訪問のしかた — Visiting Someone's House (p. 183) — the full guest/host exchange folded into [[visiting-someones-house]] above.
+**CultureNote:** 訪問のしかた — Visiting Someone's House (p. 183) — the full guest/host exchange folded into [[3-visiting-someones-house]] above.
 
 ## Reading & Writing Lesson 19: 手紙とメール Letters and E-mails (p. 315)
 Kanji:

@@ -12,18 +12,18 @@ sort_order: 3
 Story context: Takeshi invites Mary out; the lesson pivots the course from noun-sentences to a full verb system.
 
 **Grammar points** — full notes in `3-making-a-date/grammar/`
-- [[verb-conjugation]] — u-verbs, ru-verbs, irregular verbs (する/来る), and the ます／ません forms.
-- [[verb-types-and-present-tense]] — how the same ます form covers both habitual and future meaning.
-- [[particles]] — を (object), で (location of action), に／へ (goal of movement, and に for time).
-- [[time-reference]] — which time words take に and which don't.
-- [[ませんか]] — polite invitation ("won't you...?").
-- [[word-order]] — Japanese's flexible noun+particle ordering vs. particle-marked roles.
-- [[frequency-adverbs]] — たいてい／よく／ときどき／あまり／ぜんぜん, and which require a negative ending.
-- [[topic-particle-は]] — revisited to show は can promote non-subject phrases (time, object) to topic.
+- [[1-verb-conjugation]] — u-verbs, ru-verbs, irregular verbs (する/来る), and the ます／ません forms.
+- [[2-verb-types-and-present-tense]] — how the same ます form covers both habitual and future meaning.
+- [[3-particles]] — を (object), で (location of action), に／へ (goal of movement, and に for time).
+- [[4-time-reference]] — which time words take に and which don't.
+- [[5-ませんか]] — polite invitation ("won't you...?").
+- [[6-word-order]] — Japanese's flexible noun+particle ordering vs. particle-marked roles.
+- [[7-frequency-adverbs]] — たいてい／よく／ときどき／あまり／ぜんぜん, and which require a negative ending.
+- [[8-topic-particle-は]] — revisited to show は can promote non-subject phrases (time, object) to topic.
 
-**Notable phrases** — full notes in `3-making-a-date/phrases/`: [[いってきます-いってらっしゃい]], [[ちょっと]] (polite refusal), [[そうですね]], [[どうですか]], [[行く-来る]] (viewpoint note).
+**Notable phrases** — full notes in `3-making-a-date/phrases/`: [[1-いってきます-いってらっしゃい]], [[2-ちょっと]] (polite refusal), [[3-そうですね]], [[4-どうですか]], [[5-行く-来る]] (viewpoint note).
 
-**Vocabulary themes** — full notes in `3-making-a-date/vocabulary/`: [[entertainment-and-sports]], [[food-and-drink]], [[places]], [[time-words]], [[u-verbs]], [[ru-verbs]], [[irregular-verbs]], [[adjectives-and-adverbs]], [[expressions]].
+**Vocabulary themes** — full notes in `3-making-a-date/vocabulary/`: [[1-entertainment-and-sports]], [[2-food-and-drink]], [[3-places]], [[4-time-words]], [[5-u-verbs]], [[6-ru-verbs]], [[7-irregular-verbs]], [[8-adjectives-and-adverbs]], [[9-expressions]].
 
 **CultureNote:** 日本の家 — Japanese Houses (p. 101).
 

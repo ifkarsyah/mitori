@@ -12,15 +12,15 @@ sort_order: 21
 Story context: John's apartment is burgled while he sleeps; he reports it to his landlady and to the police, and days later the burglar is caught — with friends rallying around him in the meantime.
 
 **Grammar points** — full notes in `21-burglar/grammar/`
-- [[passive-sentences]] — the "affective passive," for expressing how you were inconvenienced (or, less often, favorably affected) by someone else's action.
-- [[てある]] — te-form ＋ ある, characterizing a state brought about on purpose by an unnamed person, in contrast with intransitive ている.
-- [[間に]] — "B takes place while A (is ongoing)," with B properly contained within A's timespan.
-- [[adjective-する]] — adjective base ＋ する, "to make something [adjective]."
-- [[てほしい]] — te-form ＋ ほしい, wanting someone else to do something — completing the たい／ほしい／てほしい "want" trio.
+- [[1-passive-sentences]] — the "affective passive," for expressing how you were inconvenienced (or, less often, favorably affected) by someone else's action.
+- [[2-てある]] — te-form ＋ ある, characterizing a state brought about on purpose by an unnamed person, in contrast with intransitive ている.
+- [[3-間に]] — "B takes place while A (is ongoing)," with B properly contained within A's timespan.
+- [[4-adjective-する]] — adjective base ＋ する, "to make something [adjective]."
+- [[5-てほしい]] — te-form ＋ ほしい, wanting someone else to do something — completing the たい／ほしい／てほしい "want" trio.
 
-**Notable phrases** — full notes in `21-burglar/phrases/`: [[ないです-alternative-negative]] (the colloquial short-negative-plus-です pattern for verbs like 見える).
+**Notable phrases** — full notes in `21-burglar/phrases/`: [[1-ないです-alternative-negative]] (the colloquial short-negative-plus-です pattern for verbs like 見える).
 
-**Vocabulary themes** — full notes in `21-burglar/vocabulary/`: [[nouns]], [[い-adjectives]], [[な-adjectives]], [[u-verbs]], [[ru-verbs]], [[irregular-verbs]], [[adverbs-and-expressions]], [[crimes-and-accidents]].
+**Vocabulary themes** — full notes in `21-burglar/vocabulary/`: [[1-nouns]], [[2-い-adjectives]], [[3-な-adjectives]], [[4-u-verbs]], [[5-ru-verbs]], [[6-irregular-verbs]], [[7-adverbs-and-expressions]], [[8-crimes-and-accidents]].
 
 **CultureNote:** 日本の宗教 — Religion in Japan — Shinto and Buddhism (p. 229).
 
@@ -28,4 +28,4 @@ Story context: John's apartment is burgled while he sleeps; he reports it to his
 Kanji:
 信 経 台 風 犬 重 初 若 送 幸 計 遅 配 弟 妹
 
-Reading passage: an explanation of 厄年（やくどし）, culturally unlucky ages in Japan.
+Reading passage: an explanation of <ruby>厄年<rt>やくどし</rt></ruby>, culturally unlucky ages in Japan.

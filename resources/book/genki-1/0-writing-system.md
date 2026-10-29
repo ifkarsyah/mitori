@@ -17,7 +17,7 @@ Introduces the three scripts used together in Japanese text:
 - **漢字 (kanji)** — logographic characters borrowed from Chinese, used for the core meaning-bearing parts of words (most nouns, verb/adjective stems).
 
 ## あいさつ Greetings (p. 34)
-Fixed daily-use greeting phrases (おはようございます, こんにちは, こんばんは, さようなら, etc.) taught as set expressions before any grammar.
+Fixed daily-use greeting phrases (おはようございます, こんにちは, <ruby>今晩<rt>こんばん</rt></ruby>は, さようなら, etc.) taught as set expressions before any grammar.
 
 **CultureNote:** あいさつとおじぎ — Greetings and Bowing (p. 37). How bowing accompanies/replaces verbal greetings and what different bow depths signal.
 

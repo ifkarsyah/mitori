@@ -12,19 +12,19 @@ sort_order: 7
 Story context: Sue shows Michiko her family photo, then Robert calls Michiko to invite her (and Sue) over to watch a DVD he's borrowed — continues building on the te-form from Lesson 6.
 
 **Grammar points** — full notes in `7-family-picture/grammar/`
-- [[ている]] — the te-form + いる construction: ongoing action vs. resulting state of a change, depending on the verb's semantic group.
-- [[髪が長いです]] — the "X wa Y ga [adjective]" double-subject construction for describing a characteristic (hair is long, eyes are big, etc.).
-- [[te-forms-for-joining-sentences]] — い-adjective／な-adjective／noun+です te-forms, chaining descriptive clauses.
-- [[verb-stem-に行く]] — "go (somewhere) in order to do X."
-- [[counting-people]] — the 人-based counter, with irregular 一人／二人.
+- [[1-ている]] — the te-form + いる construction: ongoing action vs. resulting state of a change, depending on the verb's semantic group.
+- [[2-髪が長いです]] — the "X wa Y ga [adjective]" double-subject construction for describing a characteristic (hair is long, eyes are big, etc.).
+- [[3-te-forms-for-joining-sentences]] — い-adjective／な-adjective／noun+です te-forms, chaining descriptive clauses.
+- [[4-verb-stem-に行く]] — "go (somewhere) in order to do X."
+- [[5-counting-people]] — the 人-based counter, with irregular 一人／二人.
 
-**Notable phrases** — full notes in `7-family-picture/phrases/`: [[もしもし]], [[もちろん-よかったら]], [[遊ぶ]] (vs. する／弾く for other kinds of "playing"), [[知る-わかる]] (avoiding a rude-sounding "I don't know").
+**Notable phrases** — full notes in `7-family-picture/phrases/`: [[1-もしもし]], [[2-もちろん-よかったら]], [[3-遊ぶ]] (vs. する／弾く for other kinds of "playing"), [[4-知る-わかる]] (avoiding a rude-sounding "I don't know").
 
-**Vocabulary themes** — full notes in `7-family-picture/vocabulary/`: [[family-and-people]], [[nouns]], [[い-adjectives]], [[な-adjectives]], [[u-verbs]], [[ru-verbs]], [[irregular-verbs]], [[adverbs-and-expressions]], [[parts-of-the-body]].
+**Vocabulary themes** — full notes in `7-family-picture/vocabulary/`: [[1-family-and-people]], [[2-nouns]], [[3-い-adjectives]], [[4-な-adjectives]], [[5-u-verbs]], [[6-ru-verbs]], [[7-irregular-verbs]], [[8-adverbs-and-expressions]], [[9-parts-of-the-body]].
 
 **CultureNote:** 家族の呼び方 — Kinship Terms (p. 184). Different terms for referring to one's own family members vs. someone else's.
 
-**Useful Expressions:** 体の部分 — Parts of the Body (p. 185) — folded into [[parts-of-the-body]] above.
+**Useful Expressions:** 体の部分 — Parts of the Body (p. 185) — folded into [[9-parts-of-the-body]] above.
 
 ## Reading & Writing Lesson 9: スーさんの日記 Sue's Diary (pp. 328–333)
 Paced alongside this lesson. Kanji:

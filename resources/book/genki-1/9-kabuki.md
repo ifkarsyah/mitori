@@ -12,18 +12,18 @@ sort_order: 9
 Story context: Takeshi takes Mary to see Kabuki with tickets he got for free, then they grab lunch at intermission — builds directly on Lesson 8's short forms into past-tense casual speech and noun modification.
 
 **Grammar points** — full notes in `9-kabuki/grammar/`
-- [[past-tense-short-forms]] — plain past for verbs/adjectives/です (た-form and its negative/adjective counterparts).
-- [[qualifying-nouns]] — using a short-form clause directly in front of a noun as a relative clause ("the person [who] is reading a book").
-- [[まだていません]] — "not yet" (haven't done X yet), the 4th reading of ている.
-- [[から-midsentence]] — folding the reason clause into the front of a single sentence, rather than as its own trailing sentence.
+- [[1-past-tense-short-forms]] — plain past for verbs/adjectives/です (た-form and its negative/adjective counterparts).
+- [[2-qualifying-nouns]] — using a short-form clause directly in front of a noun as a relative clause ("the person [who] is reading a book").
+- [[3-まだていません]] — "not yet" (haven't done X yet), the 4th reading of ている.
+- [[4-から-midsentence]] — folding the reason clause into the front of a single sentence, rather than as its own trailing sentence.
 
-**Notable phrases** — full notes in `9-kabuki/phrases/`: [[ぜひ-ところで-もう]] (ぜひ／ところで／もう).
+**Notable phrases** — full notes in `9-kabuki/phrases/`: [[1-ぜひ-ところで-もう]] (ぜひ／ところで／もう).
 
-**Vocabulary themes** — full notes in `9-kabuki/vocabulary/`: [[nouns]], [[い-adjectives]], [[な-adjective]], [[u-verbs]], [[ru-verbs]], [[irregular-verbs]], [[adverbs-and-expressions]], [[small-item-counter]], [[colors]].
+**Vocabulary themes** — full notes in `9-kabuki/vocabulary/`: [[1-nouns]], [[2-い-adjectives]], [[3-な-adjective]], [[4-u-verbs]], [[5-ru-verbs]], [[6-irregular-verbs]], [[7-adverbs-and-expressions]], [[8-small-item-counter]], [[9-colors]].
 
 **CultureNote:** 日本の伝統文化 — Japanese Traditional Culture (p. 226).
 
-**Useful Expressions:** 色 — Colors (p. 227) — folded into [[colors]] above.
+**Useful Expressions:** 色 — Colors (p. 227) — folded into [[9-colors]] above.
 
 ## Reading & Writing Lesson 11: 友だち募集 Looking for Friends (pp. 340–345)
 Paced alongside this lesson. Kanji:

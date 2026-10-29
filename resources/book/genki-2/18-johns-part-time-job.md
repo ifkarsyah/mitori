@@ -12,17 +12,17 @@ sort_order: 18
 Story context: John covers a shift alone at Little Asia when a coworker calls in sick, handles a customer's spilled soy sauce, and gets thanked by the manager after closing.
 
 **Grammar points** — full notes in `18-johns-part-time-job/grammar/`
-- [[transitivity-pairs]] — verb pairs like 開ける（open something）／開く（something opens）, and how each behaves with ている (action-in-progress vs. resulting state).
-- [[てしまう]] — two senses: completing something thoroughly, or something regrettable happening without premeditation — plus its casual contractions ちゃう／じゃう.
-- [[と]] — "whenever A, B" — a new と distinct from the noun-connecting と from Lesson 4.
-- [[ながら]] — doing two things at once, both performed by the same person.
-- [[ばよかったです]] — "I wish I had... / I should have...," the ば-form of regret.
+- [[1-transitivity-pairs]] — verb pairs like 開ける（open something）／開く（something opens）, and how each behaves with ている (action-in-progress vs. resulting state).
+- [[2-てしまう]] — two senses: completing something thoroughly, or something regrettable happening without premeditation — plus its casual contractions ちゃう／じゃう.
+- [[3-と]] — "whenever A, B" — a new と distinct from the noun-connecting と from Lesson 4.
+- [[4-ながら]] — doing two things at once, both performed by the same person.
+- [[5-ばよかったです]] — "I wish I had... / I should have...," the ば-form of regret.
 
-**Notable phrases** — full notes in `18-johns-part-time-job/phrases/`: [[おかげで-おかげさまで]] (expressing gratitude for a good outcome).
+**Notable phrases** — full notes in `18-johns-part-time-job/phrases/`: [[1-おかげで-おかげさまで]] (expressing gratitude for a good outcome).
 
-**Vocabulary themes** — full notes in `18-johns-part-time-job/vocabulary/`: [[nouns]], [[い-adjectives]], [[u-verbs]], [[ru-verbs]], [[irregular-verb]], [[adverbs-and-expressions]].
+**Vocabulary themes** — full notes in `18-johns-part-time-job/vocabulary/`: [[1-nouns]], [[2-い-adjectives]], [[3-u-verbs]], [[4-ru-verbs]], [[5-irregular-verb]], [[6-adverbs-and-expressions]].
 
-**CultureNote:** すし — Sushi (p. 163).
+**CultureNote:** <ruby>寿司<rt>すし</rt></ruby> — Sushi (p. 163).
 
 ## Reading & Writing Lesson 18: 大学生活 College Life (p. 308)
 Kanji:

@@ -1,0 +1,28 @@
+/* Japanese characters only: kana, kanji, full-width punctuation */
+@font-face {
+  font-family: "JP Large";
+  src: local("Hiragino Sans W3"), local("HiraginoSans-W3"),
+       local("Hiragino Kaku Gothic ProN W3"), local("HiraKakuProN-W3");
+  font-weight: normal;
+  unicode-range: U+3000-30FF, U+3400-4DBF, U+4E00-9FFF, U+FF00-FFEF;
+  size-adjust: 135%;
+}
+
+@font-face {
+  font-family: "JP Large";
+  src: local("Hiragino Sans W6"), local("HiraginoSans-W6"),
+       local("Hiragino Kaku Gothic ProN W6"), local("HiraKakuProN-W6");
+  font-weight: bold;
+  unicode-range: U+3000-30FF, U+3400-4DBF, U+4E00-9FFF, U+FF00-FFEF;
+  size-adjust: 135%;
+}
+
+.markdown-preview-view,
+.markdown-source-view.mod-cm6 .cm-scroller {
+  font-family: "JP Large", var(--font-text) !important;
+  font-size: 14px !important;
+}
+
+ruby rt {
+  font-size: 0.5em;
+}

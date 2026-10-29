@@ -12,15 +12,15 @@ sort_order: 23
 Story context: the final lesson of the series — Mary has her last dinner with her host family, then Takeshi drives her to the airport, the two reminiscing about their year together before saying good-bye.
 
 **Grammar points** — full notes in `23-good-bye/grammar/`
-- [[causative-passive-sentences]] — the passive of the causative, for being forced/harassed/talked into doing something you didn't want to do; actors switch positions relative to the plain causative.
-- [[ても]] — "B, even if A" — B holds regardless of A, contrasted with たら's straightforward if-then.
-- [[ことにする]] — "decide to do...," plus ことにしている for a standing personal rule/practice.
-- [[まで]] — "till A" — a change-type event marking the endpoint of B, always present tense and affirmative.
-- [[方]] — the noun-forming suffix on a verb stem, "the way of doing..." / "how to..."
+- [[1-causative-passive-sentences]] — the passive of the causative, for being forced/harassed/talked into doing something you didn't want to do; actors switch positions relative to the plain causative.
+- [[2-ても]] — "B, even if A" — B holds regardless of A, contrasted with たら's straightforward if-then.
+- [[3-ことにする]] — "decide to do...," plus ことにしている for a standing personal rule/practice.
+- [[4-まで]] — "till A" — a change-type event marking the endpoint of B, always present tense and affirmative.
+- [[5-方]] — the noun-forming suffix on a verb stem, "the way of doing..." / "how to..."
 
-**Notable phrases** — full notes in `23-good-bye/phrases/`: [[じゃんけん]] (scissors-paper-rock, the tie-breaking game referenced in this lesson's practice activities).
+**Notable phrases** — full notes in `23-good-bye/phrases/`: [[1-じゃんけん]] (scissors-paper-rock, the tie-breaking game referenced in this lesson's practice activities).
 
-**Vocabulary themes** — full notes in `23-good-bye/vocabulary/`: [[nouns]], [[い-adjective]], [[u-verbs]], [[ru-verbs]], [[irregular-verbs]], [[adverbs-and-expressions]].
+**Vocabulary themes** — full notes in `23-good-bye/vocabulary/`: [[1-nouns]], [[2-い-adjective]], [[3-u-verbs]], [[4-ru-verbs]], [[5-irregular-verbs]], [[6-adverbs-and-expressions]].
 
 **CultureNote:** ことわざ — Japanese Proverbs (p. 273).
 
