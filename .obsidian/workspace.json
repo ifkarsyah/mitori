@@ -188,8 +188,16 @@
       "bases:Create new base": false
     }
   },
-  "active": "cbedc2c825111b29",
+  "active": "7c667986ac45a334",
   "lastOpenFiles": [
+    "resources/book/genki-consolidated/vocabulary/4-adverb-and-expression",
+    "resources/book/genki-consolidated/vocabulary/3-adjective",
+    "resources/book/genki-consolidated/vocabulary/1-verb",
+    "resources/book/genki-consolidated/vocabulary/2-noun",
+    "resources/book/genki-consolidated/grammar",
+    "resources/book/genki-consolidated/vocabulary",
+    "resources/book/genki-consolidated",
+    "resources/book-summary",
     "resources/book/genki/genki-2.md",
     "resources/book/genki/genki-1.md",
     "resources/book/genki/genki-2/13-looking-for-a-part-time-job/vocabulary/1-nouns.md",
@@ -216,15 +224,7 @@
     "resources/book/genki/genki-1/12-feeling-ill/vocabulary/1-nouns.md",
     "resources/book/genki/genki-1/12-feeling-ill/phrases/2-心配しないでください.md",
     "resources/book/genki/genki-1/12-feeling-ill/phrases/1-おだいじに.md",
-    "resources/book/genki/genki-1/12-feeling-ill/grammar/6-でしょう.md",
     "vocab/jp/by-theme/1-abstract-word/Untitled",
-    "vocab/jp/by-theme/1-abstract-word/1 - か + the 5W1H words",
-    "resources/book/genki/genki-2/23-good-bye/vocabulary",
-    "resources/book/genki/genki-2/23-good-bye/phrases",
-    "resources/book/genki/genki-2/23-good-bye/grammar",
-    "resources/book/genki/genki-2/23-good-bye",
-    "resources/book/genki/genki-2/22-education-in-japan/vocabulary",
-    "resources/book/genki/genki-2/22-education-in-japan/grammar",
-    "resources/book/genki/genki-2/22-education-in-japan"
+    "vocab/jp/by-theme/1-abstract-word/1 - か + the 5W1H words"
   ]
 }
